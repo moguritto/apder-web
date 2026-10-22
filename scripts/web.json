@@ -1,0 +1,68 @@
+{
+ "nombre": "APDER",
+ "dominio": "apder.org",
+ "repo": "apder-web",
+ "idioma": "en",
+ "fuentes": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&display=swap",
+ "favicon": "img/favicon.png",
+ "logo": "",
+ "contacto": {
+  "whatsapp": "+16693068938",
+  "email": "info@apder.org",
+  "texto": "Write to us directly:"
+ },
+ "enlaces": {
+  "https://apder.org/donations/apder1/": null,
+  "https://apder.org/mdma/": "https://apder.org/terapia-asistida-mdma/",
+  "https://apder.org/participate/": null
+ },
+ "cabeceras": {
+  "248": {
+   "logo": "img/apder-1-transparent.webp",
+   "logo2": null,
+   "menu": [
+    {
+     "texto": "The project",
+     "url": "https://apder.org/#home"
+    },
+    {
+     "texto": "Divulgation",
+     "url": "https://apder.org/divulgation/"
+    },
+    {
+     "texto": "Education",
+     "url": "https://apder.org/#education"
+    },
+    {
+     "texto": "Research",
+     "url": "https://apder.org/#research"
+    }
+   ],
+   "redes": []
+  }
+ },
+ "estilo": {
+  "color-fondo": "#FFFFFF",
+  "color-texto": "#414141",
+  "color-titulos": "#004170",
+  "color-enlace": "#0082DF",
+  "color-boton": "#369BE6",
+  "color-boton-texto": "#FFFFFF",
+  "color-cabecera": "#E0DFFF",
+  "color-menu": "#333333",
+  "color-menu-activo": "#0082DF",
+  "color-pie": "#F0EDED",
+  "color-pie-texto": "#000000",
+  "fuente-texto": "\"Roboto\", sans-serif",
+  "peso-texto": "400",
+  "fuente-titulos": "\"Roboto\", sans-serif",
+  "peso-titulos": "600",
+  "fuente-menu": "\"Roboto\", sans-serif",
+  "ancho": "1140px",
+  "alto-logo": "60px",
+  "radio-boton": "4px"
+ },
+ "cabecera_principal": "248",
+ "pie_principal": "1578",
+ "css_extra": ".pie p { margin: .3em 0; }\n.pie .redes { justify-content: center; }\n.pie .redes a { background: #0082DF; color: #fff; border-radius: 50%; }\n"
+}
