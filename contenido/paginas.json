@@ -46,5 +46,23 @@
   "pie": "1578",
   "plantilla": "normal",
   "avisos": []
+ },
+ "aviso-legal/": {
+  "titulo": "Aviso legal",
+  "descripcion": "",
+  "origen": "https://espacioteots.org/aviso-legal/ (datos del titular, dominio adaptado)",
+  "plantilla": "normal",
+  "cabecera": "248",
+  "pie": "1578",
+  "avisos": []
+ },
+ "politica-de-privacidad/": {
+  "titulo": "Política de privacidad",
+  "descripcion": "",
+  "origen": "https://espacioteots.org/politica-de-privacidad/ (datos del titular, dominio adaptado)",
+  "plantilla": "normal",
+  "cabecera": "248",
+  "pie": "1578",
+  "avisos": []
  }
 }
