@@ -201,3 +201,9 @@ h1.como-h4 { font-size: 1.1rem; }
 [style*="--velo:"] > * { position: relative; z-index: 1; }
 [style*="--hd:"]:not(#_) { min-height: var(--hd) !important; display: flex; flex-direction: column; justify-content: center; }
 @media (max-width: 767px) { [style*="--hm:"]:not(#_) { min-height: var(--hm) !important; } }
+
+/* === Cabecera como en la web original === */
+:root { --color-cabecera: #FFFFFF; --alto-logo: 99px; }
+.cabecera .ancho { min-height: 119px; }
+.menu > ul > li > a { font-family: "Raleway", sans-serif; font-size: 15px; font-weight: 500; text-transform: uppercase; }
+@media (max-width: 900px) { :root { --alto-logo: 90px; } .cabecera .ancho { min-height: 106px; } .menu > ul > li > a { font-size: 15px; } }
