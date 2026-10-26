@@ -20,3 +20,5 @@ OLD_REDIRECTS_DIR = None
 SUBS += [(r'<a href="https://elarbolsuizo\.com/politica-de-cookies/"[^>]*><br></a>',
           '<br><a href="/aviso-legal/" style="color:inherit">Aviso legal</a> · <a href="/politica-de-privacidad/" style="color:inherit">Política de privacidad</a>')]
 EXTRA_PAGES = ["aviso-legal/", "politica-de-privacidad/"]
+LIVE_JSON = "/mnt/user-data/uploads/Downloads/apder_html_vivo.json"
+SUBS += [(r'href="\+?(?:34)?(\d{9})"', r'href="tel:+34\1"')]
