@@ -23,5 +23,6 @@ Copia **calcada** de apder.org (26/10/2026): la web original de WordPress guarda
 
 - `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, legalidad, preguntas).
 - `docs/sustancias/psilocibina/index.html`: primera guía completa.
-- `docs/sustancias/sustancias.css`: estilos solo de estas páginas.
+- `docs/sustancias/sustancias.css`: estilos solo de estas páginas (títulos Libre Caslon, texto Inter, acento rojo, índice lateral).
+- `docs/sustancias/moleculas/`: dibujos de las moléculas (SVG propios, hechos con RDKit).
 - Textos propios en español, escritos para APDER. Para añadir otra sustancia, copia la carpeta `psilocibina/`, cambia los textos y enlázala desde la tarjeta de `docs/sustancias/index.html`.
