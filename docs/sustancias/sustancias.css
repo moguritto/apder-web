@@ -117,11 +117,11 @@
 .b-n { margin: 0; font-size: .9rem; color: var(--s-gris); }
 .b-cuerpo { max-width: none; }
 .b-cuerpo h2 small { font-family: var(--s-sans); font-size: .9rem; font-weight: 400; color: var(--s-gris); }
-.b-lista { list-style: none; padding: 0 !important; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.b-lista { list-style: none; padding: 0 !important; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 14px; }
 .b-libro { border: 1px solid var(--s-linea); padding: 14px 16px; margin: 0 !important; }
 .b-libro p { margin: 0 0 .3em; }
 .b-tit { font-family: var(--s-serif); font-size: 1.05rem; line-height: 1.3; }
 .b-meta { font-size: .82rem; color: var(--s-gris); }
 .b-es { display: block; font-size: .82rem; color: #3a3a3a; margin-bottom: .3em; }
 .b-desc { font-size: .9rem; }
-@media (max-width: 900px) { .b-filtros { top: 106px; } .b-filtros select { flex: 1 1 45%; } }
+@media (max-width: 900px) { .b-filtros { top: 106px; } .b-filtros select { flex: 1 1 45%; min-width: 0; max-width: 100%; } }

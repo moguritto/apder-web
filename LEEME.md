@@ -27,3 +27,10 @@ Copia **calcada** de apder.org (26/10/2026): la web original de WordPress guarda
 - `docs/sustancias/sustancias.css`: estilos solo de estas páginas (títulos Libre Caslon, texto Inter, acento rojo, índice lateral).
 - `docs/sustancias/moleculas/`: dibujos de las moléculas (SVG propios, hechos con RDKit).
 - Textos propios en español, escritos para APDER. Para añadir otra sustancia, copia una carpeta de guía, cambia los textos y enlázala desde la cuadrícula de `docs/sustancias/index.html` y desde el megamenú.
+
+## Otras secciones
+
+- `docs/investigacion-terapeutica/`: orientación sobre la investigación por problema de salud y cómo participar en ensayos.
+- `docs/medicinas/`: artículo con las medicinas psicodélicas y enteógenas por categorías.
+- `docs/biblioteca/`: 425 libros con buscador y filtros (categoría, idioma y sustancia).
+- `AUDITORIA.md`: fallos encontrados, propuestas y cómo evitar problemas de derechos de autor.
