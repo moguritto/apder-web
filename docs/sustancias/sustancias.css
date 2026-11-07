@@ -1,0 +1,138 @@
+/* Páginas de sustancias (se cargan después de estilo.css) */
+:root {
+  --s-tinta: #141414;
+  --s-gris: #5c5c5c;
+  --s-rojo: #d10a0a;
+  --s-gris-caja: #f3f3f3;
+  --s-linea: #e6e6e6;
+  --s-serif: "Libre Caslon Text", Georgia, serif;
+  --s-sans: "Inter", "Roboto", sans-serif;
+}
+.sust { font-family: var(--s-sans); color: var(--s-tinta); font-size: 16px; line-height: 1.65; }
+.sust a { color: var(--s-rojo); text-decoration: none; }
+.sust a:hover { text-decoration: underline; }
+.sust h1, .sust h2, .sust h3, .sust h4 { font-family: var(--s-serif); color: var(--s-tinta); font-weight: 600;
+  letter-spacing: -.01em; line-height: 1.2; }
+.sust h1 { font-size: clamp(2.1rem, 5vw, 3rem); margin: .1em 0 .2em; }
+.sust h2 { font-size: clamp(1.8rem, 4vw, 2.25rem); margin: 2.2em 0 .7em; scroll-margin-top: 140px; }
+.sust h3 { font-size: 1.45rem; margin: 1.8em 0 .6em; scroll-margin-top: 140px; }
+.sust h4 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
+.sust p { margin: 0 0 1em; }
+.sust ul, .sust ol { padding-left: 1.3em; margin: 0 0 1.2em; }
+.sust li { margin: .25em 0; }
+.sust ul li::marker { color: #9a9a9a; }
+.s-col { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+.s-ancho { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+.s-nota { font-style: italic; color: var(--s-gris); font-size: .9rem; }
+.s-antetitulo { text-transform: uppercase; font-size: .8rem; letter-spacing: .04em; margin: 0; }
+.s-alias { font-family: var(--s-serif); font-size: .95rem; margin: 0 0 1em; }
+
+/* ----- Página general ----- */
+.s-portada { position: relative; background: #f4f1f6; overflow: hidden; }
+.s-portada .s-ancho { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 24px; min-height: 380px; }
+.s-portada-texto { background: #fff; padding: 40px 44px; box-shadow: 0 10px 40px rgba(0,0,0,.06); margin: 40px 0; position: relative; z-index: 1; }
+.s-portada-texto h1 { margin-top: .3em; }
+.s-portada-texto p.s-sub { font-size: 1.35rem; line-height: 1.35; color: #3a3a3a; margin: 0; }
+.s-portada-img img { width: 100%; max-width: 420px; display: block; margin: 0 auto; }
+.s-rayas { display: block; width: 36px; height: 12px; background:
+  linear-gradient(var(--s-rojo), var(--s-rojo)) 0 0 / 100% 3px no-repeat,
+  linear-gradient(var(--s-rojo), var(--s-rojo)) 0 100% / 100% 3px no-repeat; transform: skewX(-25deg); }
+@media (max-width: 800px) {
+  .s-portada .s-ancho { grid-template-columns: 1fr; min-height: 0; }
+  .s-portada-texto { padding: 28px 24px; margin: 24px 0 0; }
+  .s-portada-img img { max-width: 240px; margin-bottom: 24px; }
+}
+.s-intro { padding-top: 48px; }
+
+.s-moleculas { display: grid; grid-template-columns: repeat(6, 1fr); gap: 28px 18px; max-width: 1000px; margin: 28px auto 8px; padding: 0 20px; }
+.s-moleculas a, .s-moleculas div { display: flex; flex-direction: column; align-items: center; text-align: center; color: var(--s-tinta); }
+.s-moleculas a:hover { text-decoration: none; }
+.s-moleculas img { width: 100%; max-width: 130px; aspect-ratio: 13 / 10; object-fit: contain; transition: transform .2s; }
+.s-moleculas a:hover img { transform: scale(1.06); }
+.s-moleculas span { font-size: .72rem; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; margin-top: 6px; line-height: 1.35; }
+.s-moleculas a span { color: var(--s-rojo); }
+.s-moleculas small { display: block; font-size: .62rem; letter-spacing: .06em; color: #9a9a9a; text-transform: uppercase; }
+.s-moleculas div { opacity: .75; }
+@media (max-width: 900px) { .s-moleculas { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 560px) { .s-moleculas { grid-template-columns: repeat(3, 1fr); gap: 22px 10px; } }
+
+.s-gran { font-size: clamp(2.2rem, 5vw, 2.75rem) !important; margin-top: 2em !important; }
+
+/* ----- Guía ----- */
+.s-cabeza { padding: 36px 0 28px; }
+.s-cabeza .s-ancho { display: grid; grid-template-columns: 1fr 380px; gap: 40px; align-items: start; }
+.s-cabeza .s-nota { max-width: 560px; }
+.s-ficha-mol { background: var(--s-gris-caja); padding: 22px 24px; text-align: center; font-size: .9rem; }
+.s-ficha-mol img { width: 150px; height: auto; display: block; margin: 0 auto 6px; }
+.s-ficha-mol .s-formula { font-weight: 700; margin: 0 0 .2em; }
+.s-ficha-mol p { margin: 0; }
+@media (max-width: 860px) { .s-cabeza .s-ancho { grid-template-columns: 1fr; gap: 20px; } }
+
+.s-guia { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 56px; padding-bottom: 60px; }
+.s-toc { position: sticky; top: 140px; align-self: start; font-size: .9rem; }
+.s-toc strong { display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; margin: 0 0 12px; }
+.s-toc ol { list-style: none; padding: 0; margin: 0; border-left: 1px solid var(--s-linea); }
+.s-toc li { margin: 0; }
+.s-toc a { display: block; padding: 4px 0 4px 12px; border-left: 3px solid transparent; margin-left: -2px; }
+.s-toc a.activo { border-left-color: var(--s-rojo); font-weight: 600; }
+.s-cuerpo { max-width: 800px; }
+.s-cuerpo > h2:first-child { margin-top: 0; }
+.s-toc-movil { display: none; }
+@media (max-width: 900px) {
+  .s-guia { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .s-toc { display: none; }
+  .s-toc-movil { display: block; border: 1px solid var(--s-linea); padding: 12px 16px; margin: 0 0 28px; font-size: .95rem; }
+  .s-toc-movil summary { font-weight: 600; cursor: pointer; }
+  .s-toc-movil ol { margin: 10px 0 0; }
+}
+
+/* Bloques dentro del texto */
+.s-destacado { border-left: 4px solid var(--s-rojo); background: #fafafa; padding: 18px 22px; margin: 1.6em 0; }
+.s-destacado p:last-child, .s-destacado ul:last-child { margin-bottom: 0; }
+.s-destacado h4 { margin-top: 0; }
+.sust table { border-collapse: collapse; width: 100%; font-size: .93rem; margin: 0 0 1.6em; }
+.sust th, .sust td { border: 0; border-bottom: 1px solid var(--s-linea); padding: .6em .7em; text-align: left; vertical-align: top; }
+.sust thead th { border-bottom: 2px solid var(--s-tinta); font-weight: 600; }
+.s-tabla { overflow-x: auto; }
+.s-tabla.s-ancha table { min-width: 640px; }
+.sust sup a { font-size: .75em; font-weight: 600; padding: 0 1px; }
+.s-faq details { border: 0; border-bottom: 1px solid var(--s-linea); padding: 1em 0; }
+.s-faq summary { font-family: var(--s-serif); font-size: 1.12rem; font-weight: 600; cursor: pointer; list-style: none; position: relative; padding-right: 30px; }
+.s-faq summary::-webkit-details-marker { display: none; }
+.s-faq summary::after { content: "+"; position: absolute; right: 4px; top: -2px; color: var(--s-rojo); font-family: var(--s-sans); font-size: 1.4rem; }
+.s-faq details[open] summary::after { content: "–"; }
+.s-faq details p { margin: .7em 0 0; }
+.s-refs { font-size: .85rem; color: #3a3a3a; }
+.s-refs li { margin-bottom: .6em; scroll-margin-top: 140px; }
+.s-revisado { font-size: .8rem; color: var(--s-gris); margin-top: 2em; }
+
+/* ----- Megamenú de Sustancias ----- */
+.mega-a::after { content: " +"; font-weight: 400; }
+.mega { display: none; }
+.menu li.mega-li ul { display: block; position: static; box-shadow: none; padding: 0; min-width: 0; background: none; }
+@media (min-width: 901px) {
+  .cabecera .ancho { position: relative; }
+  .menu li.mega-li { position: static; }
+  .mega { position: absolute; left: 20px; right: 20px; top: 100%; background: #fff; box-shadow: 0 18px 40px rgba(0,0,0,.12);
+          border-top: 3px solid var(--s-rojo); z-index: 20; }
+  .mega-li:hover > .mega, .mega-li:focus-within > .mega { display: block; }
+  .mega-in { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(0, 1.15fr); gap: 28px; padding: 28px 32px 30px; }
+  .mega-li:hover > .mega-a, .mega-li:focus-within > .mega-a { color: var(--s-rojo); }
+}
+.mega-tit { font-family: var(--s-serif); font-size: 1.05rem; font-weight: 600; color: var(--s-tinta); margin: 0 0 10px;
+            padding-bottom: 8px; border-bottom: 1px solid var(--s-linea); text-transform: none; }
+.menu .mega a { font-family: var(--s-sans); font-size: .92rem; text-transform: none; padding: 5px 0; color: #2a2a2a; font-weight: 400; }
+.menu .mega a:hover { color: var(--s-rojo); }
+.mega-tarjeta { background: var(--s-gris-caja); padding: 18px !important; display: flex !important; flex-direction: column; gap: 4px; }
+.mega-tarjeta img { width: 110px; height: auto; margin-bottom: 6px; }
+.mega-tarjeta strong { font-family: var(--s-serif); font-size: 1.1rem; color: var(--s-tinta); }
+.mega-tarjeta span { font-size: .85rem; color: var(--s-gris); line-height: 1.45; }
+.menu .mega .mega-extra { color: var(--s-rojo); font-weight: 600; margin-top: 10px; }
+@media (max-width: 900px) {
+  .mega { display: block; padding: 4px 0 8px 16px; }
+  .mega-a::after { content: ""; }
+  .mega-in { display: block; }
+  .mega-col { margin: 10px 0; }
+  .mega-tit { font-size: .95rem; border: 0; padding: 0; margin: 0 0 4px; }
+  .mega-destacado { display: none; }
+}
