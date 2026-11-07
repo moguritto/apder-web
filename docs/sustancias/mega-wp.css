@@ -16,11 +16,18 @@
 .apder-mega-card strong { display: block; font-family: "Libre Caslon Text", Georgia, serif; font-size: 18px; color: #141414; }
 .apder-mega-card span { display: block; font-size: 13.5px; color: #5c5c5c; line-height: 1.45; margin-top: 4px; }
 .apder-mega .apder-mega-extra { color: #d10a0a !important; font-weight: 600 !important; margin-top: 10px; }
-.apder-sust > a::after { content: " +"; }
 @media (max-width: 900px) {
   .menu .apder-mega { display: block; position: static; width: auto; box-shadow: none; border: 0; background: none; }
   .menu .apder-mega-in { display: block; padding: 4px 0 8px 16px; }
   .menu .apder-mega-tit { border: 0; padding: 0; margin: 10px 0 4px !important; font-size: 15px !important; }
   .menu .apder-mega-dest { display: none; }
-  .apder-sust > a::after { content: ""; }
+  .apder-mas { display: none; }
+}
+.menu .con-sub > a::after { content: " +"; font-size: 1em; }
+@media (max-width: 900px) { .menu .con-sub > a::after { content: ""; } }
+.apder-mas { font-size: .9em; margin-left: 4px; }
+/* Menú de Elementor: que quepa en una línea */
+@media (min-width: 1025px) {
+  .elementor-nav-menu--main .elementor-nav-menu { flex-wrap: nowrap !important; }
+  .elementor-nav-menu--main .elementor-nav-menu > li > a { white-space: nowrap; padding-left: 13px !important; padding-right: 13px !important; }
 }
