@@ -105,3 +105,34 @@
 .s-refs { font-size: .85rem; color: #3a3a3a; }
 .s-refs li { margin-bottom: .6em; scroll-margin-top: 140px; }
 .s-revisado { font-size: .8rem; color: var(--s-gris); margin-top: 2em; }
+
+/* ----- Megamenú de Sustancias ----- */
+.mega-a::after { content: " +"; font-weight: 400; }
+.mega { display: none; }
+.menu li.mega-li ul { display: block; position: static; box-shadow: none; padding: 0; min-width: 0; background: none; }
+@media (min-width: 901px) {
+  .cabecera .ancho { position: relative; }
+  .menu li.mega-li { position: static; }
+  .mega { position: absolute; left: 20px; right: 20px; top: 100%; background: #fff; box-shadow: 0 18px 40px rgba(0,0,0,.12);
+          border-top: 3px solid var(--s-rojo); z-index: 20; }
+  .mega-li:hover > .mega, .mega-li:focus-within > .mega { display: block; }
+  .mega-in { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(0, 1.15fr); gap: 28px; padding: 28px 32px 30px; }
+  .mega-li:hover > .mega-a, .mega-li:focus-within > .mega-a { color: var(--s-rojo); }
+}
+.mega-tit { font-family: var(--s-serif); font-size: 1.05rem; font-weight: 600; color: var(--s-tinta); margin: 0 0 10px;
+            padding-bottom: 8px; border-bottom: 1px solid var(--s-linea); text-transform: none; }
+.menu .mega a { font-family: var(--s-sans); font-size: .92rem; text-transform: none; padding: 5px 0; color: #2a2a2a; font-weight: 400; }
+.menu .mega a:hover { color: var(--s-rojo); }
+.mega-tarjeta { background: var(--s-gris-caja); padding: 18px !important; display: flex !important; flex-direction: column; gap: 4px; }
+.mega-tarjeta img { width: 110px; height: auto; margin-bottom: 6px; }
+.mega-tarjeta strong { font-family: var(--s-serif); font-size: 1.1rem; color: var(--s-tinta); }
+.mega-tarjeta span { font-size: .85rem; color: var(--s-gris); line-height: 1.45; }
+.menu .mega .mega-extra { color: var(--s-rojo); font-weight: 600; margin-top: 10px; }
+@media (max-width: 900px) {
+  .mega { display: block; padding: 4px 0 8px 16px; }
+  .mega-a::after { content: ""; }
+  .mega-in { display: block; }
+  .mega-col { margin: 10px 0; }
+  .mega-tit { font-size: .95rem; border: 0; padding: 0; margin: 0 0 4px; }
+  .mega-destacado { display: none; }
+}

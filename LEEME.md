@@ -22,7 +22,8 @@ Copia **calcada** de apder.org (26/10/2026): la web original de WordPress guarda
 ## Sustancias (nuevo)
 
 - `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, legalidad, preguntas).
-- `docs/sustancias/psilocibina/index.html`: primera guía completa.
+- `docs/sustancias/<sustancia>/index.html`: 19 guías (psilocibina, LSD, MDMA, ketamina, ayahuasca, DMT, 5-MeO-DMT, mescalina, ibogaína, 2C-B, 4-AcO-DMT, Amanita muscaria, Salvia divinorum, cannabis, kanna, kratom, datura, cacao, tabaco).
+- Megamenú «Sustancias»: en las páginas de sustancias va dentro de la cabecera; en el resto de páginas se añade al menú y usa `docs/sustancias/mega-wp.css`.
 - `docs/sustancias/sustancias.css`: estilos solo de estas páginas (títulos Libre Caslon, texto Inter, acento rojo, índice lateral).
 - `docs/sustancias/moleculas/`: dibujos de las moléculas (SVG propios, hechos con RDKit).
-- Textos propios en español, escritos para APDER. Para añadir otra sustancia, copia la carpeta `psilocibina/`, cambia los textos y enlázala desde la tarjeta de `docs/sustancias/index.html`.
+- Textos propios en español, escritos para APDER. Para añadir otra sustancia, copia una carpeta de guía, cambia los textos y enlázala desde la cuadrícula de `docs/sustancias/index.html` y desde el megamenú.
