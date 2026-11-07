@@ -18,3 +18,10 @@ Copia **calcada** de apder.org (26/10/2026): la web original de WordPress guarda
 - `scripts/calcada/build.py` + `cfg_*.py`: generan `docs/` desde el ZIP de Simply Static (direcciones relativas, sin rastreadores, formularios y widgets que necesitan servidor cambiados por WhatsApp/correo, redirecciones desde direcciones antiguas).
 - `scripts/calcada/test.cjs` y `extra.txt`: comprobación con Playwright y archivos que Elementor carga a demanda.
 - El resto de `scripts/` y `contenido/` es de la primera copia (reconstruida), ya sustituida.
+
+## Sustancias (nuevo)
+
+- `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, legalidad, preguntas).
+- `docs/sustancias/psilocibina/index.html`: primera guía completa.
+- `docs/sustancias/sustancias.css`: estilos solo de estas páginas.
+- Textos propios en español, escritos para APDER. Para añadir otra sustancia, copia la carpeta `psilocibina/`, cambia los textos y enlázala desde la tarjeta de `docs/sustancias/index.html`.
