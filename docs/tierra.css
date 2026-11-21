@@ -729,3 +729,71 @@ nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-ra
 .art-medios a:hover{color:var(--tierra-osc)}
 .art-medios p{margin:8px 0 0;font-size:.92rem;color:var(--suave)}
 @media (max-width:760px){.art-medios{grid-template-columns:1fr}}
+
+/* Terapia con MDMA: menú lateral, partes ilustradas y «Lo que da seguridad» */
+.art-guia{display:grid;grid-template-columns:240px minmax(0,1fr);gap:56px;padding-top:24px}
+.art-cuerpo{min-width:0;max-width:800px}
+.art-cuerpo .art-col{max-width:none;margin:0}
+.art-cuerpo .art-sec{padding-top:44px}
+nav.art-menu{position:sticky;top:24px;align-self:start;font-size:.95rem;max-height:calc(100vh - 48px);overflow:auto;padding:4px 4px 20px 0}
+.art-menu strong,.art-menu-movil summary{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--tierra-osc);font-weight:700}
+.art-menu strong{display:block;margin:0 0 12px}
+.art-menu ol,.art-menu-movil ol{list-style:none;padding:0;margin:0}
+.art-menu>ol{border-left:2px solid var(--linea)}
+.art-menu a,.art-menu-movil a{display:block;text-decoration:none;color:var(--texto);padding:5px 0 5px 14px;margin-left:-2px;border-left:3px solid transparent;border-radius:0 12px 12px 0}
+.art-menu a:hover{background:var(--arena)}
+.art-menu a.activo{border-left-color:var(--tierra-osc);font-weight:700;color:var(--tierra-hondo)}
+.art-menu .grupo{margin-top:12px;position:relative}
+.art-menu .grupo>a{font-family:var(--serif);font-size:1.12rem;padding-left:40px}
+.art-menu .grupo>.num,.art-menu-movil .grupo>.num{position:absolute;left:12px;top:7px;width:22px;height:22px;border-radius:50%;background:var(--tierra-osc);color:#fff;font-size:.78rem;font-weight:700;display:grid;place-items:center;pointer-events:none}
+.art-menu .grupo ol a{padding-left:40px;font-size:.92rem;color:var(--suave)}
+.art-menu .grupo ol a.activo{color:var(--tierra-hondo)}
+.art-menu-movil{display:none}
+
+.art-parte{display:grid;grid-template-columns:minmax(0,1fr) 300px;align-items:center;gap:8px;background:var(--arena);border-radius:28px;padding:26px 30px;margin:56px 0 0;scroll-margin-top:24px;overflow:hidden}
+.art-parte-conocer{background:#e3ebe1}.art-parte-proceso{background:#f3e4d8}.art-parte-saber{background:#f1ead9}.art-parte-interesa{background:#e9efe6}
+.art-parte .num{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--tierra-osc)}
+.art-parte .tit{font-family:var(--serif);font-size:clamp(1.9rem,3.4vw,2.6rem);line-height:1.1;margin:6px 0 8px;color:var(--texto)}
+.art-parte p{margin:0;color:var(--suave)}
+.art-parte .ilu svg{width:100%;height:auto;display:block}
+.art-parte .m-salvia{fill:var(--salvia)}.art-parte .m-tierra{fill:var(--tierra)}.art-parte .m-bosque{fill:var(--bosque)}.art-parte .m-arena{fill:var(--arena)}.art-parte .m-crema{fill:var(--crema)}.art-parte .m-blanco{fill:#fff}
+.art-parte .t-blanco{fill:none;stroke:#fff;stroke-width:5;stroke-linejoin:round}
+.art-parte .t-tierra,.art-parte .t-bosque,.art-parte .t-salvia,.art-parte .t-crema{fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.art-parte .t-tierra{stroke:var(--tierra-osc)}.art-parte .t-bosque{stroke:var(--bosque)}.art-parte .t-salvia{stroke:var(--salvia)}.art-parte .t-crema{stroke:#fff}
+.art-parte text.n{fill:#fff;font:700 15px var(--sans);text-anchor:middle}
+
+.art-ico{width:44px;height:44px;fill:none;stroke:var(--tierra-osc);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;display:block}
+.art-seguro{max-width:1160px;margin:0 auto;padding:0 24px;text-align:center}
+.art-seguro .entrada{color:var(--suave);max-width:640px;margin:0 auto 22px}
+.art-seguro ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;text-align:left}
+.art-seguro li{background:#fff;border-radius:22px;padding:22px 20px;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.art-seguro li .art-ico{margin-bottom:12px;background:#e3ebe1;border-radius:50%;padding:8px;width:56px;height:56px;box-sizing:border-box}
+.art-seguro b{display:block;font-family:var(--serif);font-weight:400;font-size:1.2rem}
+.art-seguro span{font-size:.92rem;color:var(--suave)}
+.art-pasos .art-ico{margin:10px 0 4px}
+
+.art-medios li{display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:14px}
+.art-medios li>*{grid-column:2}
+.art-medios .sigla{grid-column:1;grid-row:1/span 3;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:700;letter-spacing:.04em;color:#fff;background:var(--bosque)}
+.art-medios li:nth-child(4n+2) .sigla{background:var(--tierra-osc)}
+.art-medios li:nth-child(4n+3) .sigla{background:#5d7a5a}
+.art-medios li:nth-child(4n+4) .sigla{background:#8a6a3a}
+.art-video .marco{background:radial-gradient(circle at 4% 8%,#5f7a5c 0 16%,transparent 16.5%),radial-gradient(circle at 98% 100%,#8a4426 0 19%,transparent 19.5%),radial-gradient(circle at 88% 6%,#3a4c3f 0 9%,transparent 9.5%),var(--bosque)}
+
+@media (max-width:1000px){.art-seguro ul{grid-template-columns:repeat(2,1fr)}.art-seguro li:last-child{grid-column:1/-1}}
+@media (max-width:900px){
+  .art-guia{grid-template-columns:minmax(0,1fr);gap:0}
+  nav.art-menu{display:none}
+  .art-menu-movil{display:block;position:sticky;top:0;z-index:20;background:#fff;border-radius:0 0 20px 20px;padding:0 20px;margin:0 -24px;box-shadow:0 4px 16px rgba(60,40,20,.10)}
+  .art-menu-movil summary{min-height:52px;display:flex;align-items:center;justify-content:space-between;list-style:none;cursor:pointer}
+  .art-menu-movil summary::-webkit-details-marker{display:none}
+  .art-menu-movil summary::after{content:"+";font-size:1.6rem;line-height:1}
+  .art-menu-movil[open] summary::after{content:"–"}
+  .art-menu-movil>ol{max-height:65vh;overflow:auto;padding-bottom:14px}
+  .art-menu-movil .grupo{position:relative;margin-top:8px}
+  .art-menu-movil .grupo>a{font-family:var(--serif);font-size:1.1rem;padding-left:40px}
+  .art-menu-movil .grupo ol a{padding-left:40px;color:var(--suave)}
+  .art-parte{grid-template-columns:minmax(0,1fr);padding:22px 22px 0}
+  .art-parte .ilu{max-width:300px;margin:0 auto}
+}
+@media (max-width:640px){.art-seguro ul{grid-template-columns:1fr}.art-seguro li:last-child{grid-column:auto}}
