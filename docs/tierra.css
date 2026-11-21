@@ -22,12 +22,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.08}
 .btn.t{background:var(--tierra-osc);color:#fff}.btn.t:hover{background:var(--tierra-hondo)}
 .btn.c{background:transparent;border:2px solid var(--texto)}.btn.c:hover{background:var(--texto);color:var(--crema)}
 
-header .ancho{display:flex;align-items:center;justify-content:space-between;height:92px}
-.marca{display:flex;align-items:center;gap:12px;font-family:var(--serif);font-size:1.6rem}
-.marca img{height:46px;width:auto}
-header nav{display:flex;gap:6px;background:#fff;padding:6px;border-radius:999px;box-shadow:0 2px 14px rgba(60,40,20,.06)}
-header nav a{padding:8px 18px;border-radius:999px;font-weight:600;font-size:0.95rem}
-header nav a:hover,header nav a.on{background:var(--arena)}
+
+
+
+
+
+
 
 /* portada con formas orgánicas */
 .portada .ancho{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:40px;padding-bottom:90px}
@@ -109,12 +109,12 @@ footer div{display:flex;gap:20px;flex-wrap:wrap}
 }
 
 /* Añadidos para la web real */
-.marca span{font-family:var(--serif)}
-header nav a{white-space:nowrap}
-.menu-boton{display:none;width:44px;height:44px;border-radius:50%;background:#fff;cursor:pointer;place-items:center;box-shadow:0 2px 14px rgba(60,40,20,.08)}
-.menu-boton span,.menu-boton span::before,.menu-boton span::after{display:block;width:18px;height:2px;background:var(--texto);position:relative;content:""}
-.menu-boton span::before{position:absolute;top:-6px}.menu-boton span::after{position:absolute;top:6px}
-.cabecera-der{display:flex;gap:10px;align-items:center}
+
+
+
+
+
+
 .tarjeta{display:block}
 footer a:hover,.pilar a:hover{text-decoration:underline}
 :focus-visible{outline:3px solid var(--tierra-osc);outline-offset:3px}
@@ -124,30 +124,15 @@ footer a:hover,.pilar a:hover{text-decoration:underline}
    Sin JavaScript el menú queda apilado y visible; con JavaScript (html.js) se abre con el botón. */
 .saltar{position:absolute;left:12px;top:-120px;z-index:100;background:var(--bosque);color:#fff;padding:12px 22px;border-radius:999px;font-weight:700;min-height:44px;display:inline-flex;align-items:center}
 .saltar:focus{top:12px}
-button.menu-boton{border:0;padding:0;margin:0;color:inherit;font:inherit}
-#menu-principal .menu-contacto{display:none}
-@media (max-width:1120px){
-  header .ancho:has(#menu-principal){flex-wrap:wrap;height:auto;min-height:92px;position:relative}
-  header .ancho:has(#menu-principal)>.marca,header .ancho:has(#menu-principal)>.cabecera-der{min-height:92px}
-  header #menu-principal{flex:1 0 100%;order:3;flex-direction:column;border-radius:24px;padding:10px;margin:0 0 16px}
-  header #menu-principal a{padding:12px 18px;min-height:44px;display:flex;align-items:center}
-  .js .menu-boton{display:grid}
-  .js header #menu-principal{display:none;position:absolute;left:0;right:0;top:84px;z-index:20;margin:0;box-shadow:0 14px 34px rgba(60,40,20,.16)}
-  .js header.menu-abierto #menu-principal{display:flex}
-  .js .menu-boton span{transition:background .2s}
-  header.menu-abierto .menu-boton span{background:transparent}
-  header.menu-abierto .menu-boton span::before{top:0;transform:rotate(45deg)}
-  header.menu-abierto .menu-boton span::after{top:0;transform:rotate(-45deg)}
-}
+
+
+
 @media (max-width:900px){
   footer:not(.pie) a,.pilar a{display:inline-flex;align-items:center;min-height:44px}
   footer:not(.pie) div{align-items:center}
 }
-@media (max-width:480px){
-  header #menu-principal a.menu-contacto{display:flex;justify-content:center;background:var(--tierra-osc);color:#fff;margin-top:6px}
-  header #menu-principal a.menu-contacto:hover{background:var(--tierra-hondo)}
-}
-@media (max-width:480px){.cabecera-der .btn.t{display:none}}
+
+
 
 /* Lecturas recomendadas */
 .leer{padding-bottom:0}
@@ -317,7 +302,7 @@ footer.pie .pie-abajo a{display:inline-flex;align-items:center;min-height:44px;p
 @media print{
   @page{margin:16mm}
   body.guia{background:#fff;color:#000;font-size:11pt;line-height:1.5}
-  body.guia .saltar,body.guia header,body.guia footer,body.guia nav,body.guia .s-toc-movil,body.guia .menu-boton{display:none!important}
+  body.guia .saltar,body.guia footer,body.guia nav,body.guia .s-toc-movil{display:none!important}
   body.guia .guia-cuerpo,body.guia .guia-cuerpo *{color:#000!important;background:transparent!important;box-shadow:none!important;border-radius:0!important;animation:none!important;transition:none!important}
   body.guia .guia-cuerpo{font-size:11pt;line-height:1.5}
   body.guia .s-ancho,body.guia .s-col{max-width:none;padding:0}
@@ -430,21 +415,13 @@ footer.pie a[aria-current="page"]{font-weight:700;text-decoration-thickness:2px}
 /* ==========================================================================
    Buscar: icono de la cabecera y página del buscador (buscar/)
    ========================================================================== */
-.buscar-icono{display:grid;place-items:center;flex:none;width:44px;height:44px;border-radius:50%;background:#fff;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.08);transition:background .2s}
-.buscar-icono:hover,.buscar-icono[aria-current="page"]{background:var(--arena)}
-.buscar-icono svg{display:block}
+
+
+
 /* Con la lupa, el menú de escritorio gana unos píxeles al ajustar el relleno de los enlaces */
-@media (min-width:1121px){
-  header nav a{padding:8px 14px}
-  header .cabecera-der{margin-left:12px}
-}
-@media (min-width:1121px) and (max-width:1160px){header nav a{padding:8px 11px}}
-@media (max-width:360px){
-  .cabecera-der{gap:8px}
-  header .ancho:has(#menu-principal)>.marca{gap:8px}
-  .marca{font-size:1.4rem}
-  .marca img{height:40px}
-}
+
+
+
 
 .bq-wrap{padding-bottom:70px}
 .bq-form{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;margin:0 0 14px;max-width:820px}
@@ -481,63 +458,38 @@ footer.pie a[aria-current="page"]{font-weight:700;text-decoration-thickness:2px}
    con el ratón, con el foco del teclado y con el botoncito junto al enlace.
    Hasta 1120 px (menú desplegable): acordeón con las tres listas apiladas; sin JavaScript queda abierto.
    ========================================================================== */
-header .ancho:has(#menu-principal){position:relative}
-.mega-sust{display:flex;align-items:stretch;border-radius:999px;transition:background .2s}
-header #menu-principal .mega-sust>a:hover,header #menu-principal .mega-sust>a.on{background:transparent}
-header #menu-principal .mega-sust>a{padding-right:2px}
-.mega-sust:hover,.mega-sust:focus-within,.mega-sust.abierto,.mega-sust:has(>a.on){background:var(--arena)}
-.mega-boton{display:grid;place-items:center;flex:none;width:30px;margin:0;padding:0 8px 0 0;border:0;border-radius:999px;background:transparent;color:var(--tierra-osc);cursor:pointer;font:inherit}
-.mega-boton svg{display:block;width:12px;height:12px;transition:transform .2s}
-.mega-boton[aria-expanded="true"] svg{transform:rotate(180deg)}
-html:not(.js) .mega-boton{display:none}
-.mega{background:#fff;color:var(--texto);text-align:left}
-.mega-in{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) minmax(0,1.2fr);gap:8px 24px;padding:30px 30px 32px}
-.mega-col ul{list-style:none;margin:0;padding:0}
-header #menu-principal .mega-tit{margin:0 0 12px;font-size:0.75rem;line-height:1.4;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--tierra-osc)}
-header #menu-principal .mega a{display:block;padding:7px 12px;margin:0 -12px;border-radius:12px;background:transparent;font-family:var(--sans);font-size:0.95rem;font-weight:600;line-height:1.35;white-space:normal;color:var(--texto)}
-header #menu-principal .mega a:hover{background:var(--arena);color:var(--tierra-hondo)}
-.mega-dest{align-self:start;background:var(--arena);border-radius:24px;padding:22px 20px 14px}
-header #menu-principal .mega-dest a{margin:0 -10px;padding:8px 10px}
-header #menu-principal .mega-dest a:hover{background:#fff}
-header #menu-principal .mega-card{display:block;margin:0 -10px 8px;padding:6px 10px 12px}
-.mega-card img{display:block;width:104px;height:auto;margin:0 0 10px}
-.mega-card strong{display:block;font-family:var(--serif);font-weight:400;font-size:1.4rem;line-height:1.15}
-.mega-card span{display:block;margin-top:6px;font-size:0.85rem;font-weight:400;line-height:1.45;color:var(--suave)}
-header #menu-principal .mega-card:hover span{color:var(--texto)}
-header #menu-principal .mega-extra{color:var(--tierra-osc);font-size:0.95rem}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Escritorio: panel flotante bajo la cabecera, con un puente de 14 px para que no se cierre al cruzar el hueco */
-@media (min-width:1121px){
-  .mega{position:absolute;left:24px;right:24px;top:80px;z-index:40;border-radius:28px;box-shadow:0 14px 34px rgba(60,40,20,.16);
-    visibility:hidden;opacity:0;transform:translateY(-6px);pointer-events:none;transition:opacity .18s,transform .18s,visibility 0s .18s}
-  .mega::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}
-  .mega-sust.abierto .mega,.mega-sust:not(.cerrado):focus-within .mega{visibility:visible;opacity:1;transform:none;pointer-events:auto;transition-delay:0s}
-  .mega-sust.cerrado:hover,.mega-sust.cerrado:focus-within{background:transparent}
-  .mega-sust.cerrado:has(>a.on){background:var(--arena)}
-}
-@media (min-width:1121px) and (hover:hover){
-  .mega-sust:not(.cerrado):hover .mega{visibility:visible;opacity:1;transform:none;pointer-events:auto;transition-delay:0s}
-}
+
+
 /* Pantallas estrechas y menú desplegable: acordeón */
-@media (max-width:1120px){
-  .mega-sust{flex-wrap:wrap;border-radius:18px}
-  header #menu-principal .mega-sust>a{flex:1 1 0;min-width:0;padding-right:8px}
-  .mega-boton{width:48px;height:44px;padding:0 6px 0 0}
-  .mega-boton svg{width:14px;height:14px}
-  .mega-sust:hover,.mega-sust:focus-within{background:transparent}
-  .mega-sust.abierto,.mega-sust:has(>a.on){background:var(--arena)}
-  .mega{flex:0 0 100%;background:transparent}
-  .js .mega{display:none}
-  .js .mega-sust.abierto .mega{display:block}
-  .mega-in{display:block;padding:0 6px 10px 18px}
-  .mega-col{margin:0 0 6px}
-  header #menu-principal .mega-tit{margin:10px 0 2px;padding:4px 12px 0 0}
-  header #menu-principal .mega a{margin:0;padding:10px 12px;min-height:44px;display:flex;align-items:center;font-size:0.95rem}
-  header #menu-principal .mega a:hover{background:#fff}
-  .mega-dest{display:none}
-}
-@media (prefers-reduced-motion:reduce){.mega,.mega-boton svg,.mega-sust{transition:none}}
-@media print{.mega,.mega-boton{display:none!important}}
+
+
+
 
 /* ===== Guías · plantilla común: semáforo de riesgo, claves y guías relacionadas ===== */
 .s-riesgo{display:inline-block;padding:3px 10px;border-radius:999px;font-weight:700;font-size:0.85rem;line-height:1.4;white-space:nowrap}
@@ -711,8 +663,8 @@ nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-ra
 }
 
 /* Guías aún sin revisar con la plantilla común: tono apagado en el megamenú y en las tarjetas de Sustancias */
-.mega a.pend{color:var(--suave)}
-.mega a.pend:hover,.mega a.pend:focus-visible{color:var(--texto)}
+
+
 .s-moleculas a.pend img{opacity:.4;filter:grayscale(1)}
 .s-moleculas a.pend span{color:var(--suave)}
 .s-moleculas a.pend:hover img,.s-moleculas a.pend:focus-visible img{opacity:.8}
@@ -770,12 +722,12 @@ nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-ra
 /* ===== Mejoras de la auditoría, 2.ª tanda (21-11-2026) ===== */
 /* cabecera fija y compacta en guías y artículos */
 html{scroll-padding-top:84px}
-body.guia header,body.art-pagina header{position:sticky;top:0;z-index:40;background:var(--crema)}
-body.guia header .ancho,body.art-pagina header .ancho{transition:height .2s}
-body.guia header.compacta,body.art-pagina header.compacta{box-shadow:0 2px 16px rgba(60,40,20,.10)}
-body.guia header.compacta .ancho,body.art-pagina header.compacta .ancho{height:64px}
-nav.s-toc{top:88px}
-@media (prefers-reduced-motion:reduce){body.guia header .ancho,body.art-pagina header .ancho{transition:none}}
+
+
+
+
+nav.s-toc{top:84px}
+
 
 /* botón flotante «Contenido» (solo móvil) */
 .contenido-flotante{position:fixed;left:16px;bottom:16px;z-index:20;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 16px;border:0;border-radius:999px;background:var(--bosque);color:var(--crema);font:inherit;font-weight:700;font-size:0.95rem;cursor:pointer;box-shadow:0 4px 18px rgba(30,25,15,.25)}
@@ -811,3 +763,131 @@ nav.s-toc{top:88px}
 .s-tiempos .t-nota{margin:0;font-size:0.85rem;color:var(--suave)}
 @media print{.s-tiempos{box-shadow:none;border:1px solid #999}}
 
+
+/* ==========================================================================
+   Cabecera y menú (rediseño 21-11-2026)
+   Marcado: header.cabecera > .cab-fila > a.marca + nav.menu#menu + .cab-acciones
+   Lo memorable es el panel «Medicinas»: cada guía con su molécula, como un herbario.
+   ========================================================================== */
+.cabecera{position:sticky;top:0;z-index:50;background:var(--crema);transition:box-shadow .25s}
+.cabecera.compacta{box-shadow:0 1px 0 var(--linea),0 10px 24px -18px rgba(60,40,20,.35)}
+.cab-fila{display:flex;align-items:center;gap:20px;height:84px;transition:height .25s}
+.cabecera.compacta .cab-fila{height:64px}
+.cabecera .marca{display:flex;align-items:center;gap:12px;margin-right:auto;font-family:var(--serif);font-size:1.6rem;line-height:1;color:var(--texto);text-decoration:none}
+.cabecera .marca img{height:44px;width:auto;transition:height .25s}
+.cabecera.compacta .marca img{height:36px}
+.menu-lista{display:flex;align-items:center;gap:2px;list-style:none;margin:0;padding:0}
+.menu-item{margin:0}
+.menu-enlace{position:relative;display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:0 14px;border:0;background:none;font:inherit;font-weight:600;font-size:1rem;color:var(--texto);text-decoration:none;cursor:pointer;white-space:nowrap}
+.menu-enlace::after{content:"";position:absolute;left:14px;right:14px;bottom:5px;height:2px;border-radius:2px;background:var(--tierra-osc);transform:scaleX(0);transform-origin:left center;transition:transform .28s cubic-bezier(.2,.7,.2,1)}
+.menu-enlace:hover::after,.menu-enlace:focus-visible::after,.menu-enlace[aria-current="page"]::after,.menu-enlace.actual::after,.menu-abre[aria-expanded="true"]::after{transform:scaleX(1)}
+.menu-enlace[aria-current="page"],.menu-enlace.actual{color:var(--tierra-hondo)}
+.menu-abre svg{width:11px;height:11px;flex:none;color:var(--tierra-osc);transition:transform .28s}
+.menu-abre[aria-expanded="true"] svg{transform:rotate(180deg)}
+.cab-acciones{display:flex;align-items:center;gap:10px}
+.cab-buscar{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px 0 14px;border:1.5px solid var(--linea);border-radius:999px;background:transparent;color:var(--suave);font-weight:600;font-size:.95rem;text-decoration:none;transition:border-color .2s,color .2s,background .2s}
+.cab-buscar svg{flex:none}
+.cab-buscar:hover,.cab-buscar[aria-current="page"]{border-color:var(--tierra-osc);color:var(--texto);background:#fff}
+.cab-escribe{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:var(--tierra-osc);color:#fff;font-weight:700;font-size:.95rem;text-decoration:none;transition:background .2s}
+.cab-escribe:hover{background:var(--tierra-hondo)}
+.menu-toggle,.menu-pie{display:none}
+
+/* panel «Medicinas» */
+.panel-titulo{margin:0 0 10px;font-family:var(--serif);font-size:1.6rem;line-height:1.15}
+.panel-intro>p:not(.panel-titulo){margin:0 0 18px;color:var(--suave);font-size:.95rem;line-height:1.5}
+.panel-atajos{list-style:none;margin:0;padding:0;border-top:1px solid var(--linea)}
+.panel-atajos li{margin:0;border-bottom:1px solid var(--linea)}
+.panel-atajos a{display:flex;align-items:center;justify-content:space-between;min-height:46px;color:var(--texto);font-weight:600;text-decoration:none}
+.panel-atajos a::after{content:"";width:7px;height:7px;border-top:2px solid var(--tierra-osc);border-right:2px solid var(--tierra-osc);transform:rotate(45deg);transition:transform .2s}
+.panel-atajos a:hover{color:var(--tierra-hondo)}
+.panel-atajos a:hover::after{transform:translateX(3px) rotate(45deg)}
+.panel-sub{margin:0 0 8px;font-weight:700;font-size:.85rem;color:#3f5a3c}
+.panel-grupo ul{list-style:none;margin:0;padding:0}
+.panel-grupo li{margin:0}
+.panel-grupo a{display:flex;align-items:center;gap:12px;min-height:44px;padding:4px 10px 4px 4px;margin:0 0 0 -4px;border-radius:12px;color:var(--texto);font-weight:600;font-size:.95rem;line-height:1.3;text-decoration:none;transition:background .18s}
+.panel-grupo a img{flex:none;width:44px;height:34px;object-fit:contain;mix-blend-mode:multiply;opacity:.8;transition:opacity .18s,transform .18s}
+.panel-grupo a:hover{background:var(--arena)}
+.panel-grupo a:hover img,.panel-grupo a[aria-current="page"] img{opacity:1;transform:scale(1.06)}
+.panel-grupo a[aria-current="page"]{color:var(--tierra-hondo)}
+.panel-grupo a.pend{color:var(--suave)}
+.panel-grupo a.pend:hover{color:var(--texto)}
+
+@media (min-width:1001px){
+  .menu-desp{position:static}
+  .panel{position:absolute;left:0;right:0;top:100%;background:var(--crema);border-top:1px solid var(--linea);box-shadow:0 30px 40px -28px rgba(60,40,20,.35);visibility:hidden;opacity:0;transform:translateY(-6px);transition:opacity .22s ease,transform .22s ease,visibility 0s linear .22s}
+  .menu-desp.abierto .panel{visibility:visible;opacity:1;transform:none;transition-delay:0s}
+  .panel-in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,3fr);gap:56px;padding-top:34px;padding-bottom:38px}
+  .panel-grupos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+}
+@media (min-width:1001px) and (max-width:1180px){
+  .panel-in{grid-template-columns:1fr;gap:26px}
+  .panel-intro{display:grid;grid-template-columns:1fr 1.4fr;gap:8px 40px;align-items:start}
+  .panel-intro .panel-titulo,.panel-intro>p{grid-column:1}
+  .panel-titulo{margin-top:-4px}
+  .panel-atajos{grid-column:2;grid-row:1 / span 2}
+  .menu-enlace{padding:0 11px}
+}
+
+/* móvil y tableta */
+@media (max-width:1000px){
+  .cab-fila{height:68px;gap:10px}
+  .cabecera.compacta .cab-fila{height:60px}
+  .cabecera .marca{font-size:1.4rem}.cabecera .marca img{height:38px}
+  .cab-buscar{width:44px;padding:0;justify-content:center}
+  .cab-buscar span,.cab-escribe{display:none}
+  .menu-toggle{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px 0 14px;border:1.5px solid var(--texto);border-radius:999px;background:transparent;font:inherit;font-weight:700;font-size:.95rem;color:var(--texto);cursor:pointer}
+  .menu-toggle i{position:relative;display:block;width:16px;height:2px;background:currentColor;border-radius:2px;transition:background .2s}
+  .menu-toggle i::before,.menu-toggle i::after{content:"";position:absolute;left:0;width:16px;height:2px;background:currentColor;border-radius:2px;transition:transform .25s,top .25s}
+  .menu-toggle i::before{top:-5px}.menu-toggle i::after{top:5px}
+  .cabecera.menu-abierto .menu-toggle{background:var(--texto);color:var(--crema)}
+  .cabecera.menu-abierto .menu-toggle i{background:transparent}
+  .cabecera.menu-abierto .menu-toggle i::before{top:0;transform:rotate(45deg)}
+  .cabecera.menu-abierto .menu-toggle i::after{top:0;transform:rotate(-45deg)}
+  .menu{position:fixed;left:0;right:0;bottom:0;top:var(--cab-alto,68px);z-index:60;overflow-y:auto;overscroll-behavior:contain;background:var(--crema);padding:4px 24px 48px;visibility:hidden;opacity:0;transform:translateY(-10px);transition:opacity .25s ease,transform .25s ease,visibility 0s linear .25s}
+  .cabecera.menu-abierto .menu{visibility:visible;opacity:1;transform:none;transition-delay:0s}
+  html:not(.js) .menu{position:static;visibility:visible;opacity:1;transform:none;padding:0 24px 20px}
+  html:not(.js) .menu-toggle{display:none}
+  .menu-lista{flex-direction:column;align-items:stretch;gap:0}
+  .menu-item{border-bottom:1px solid var(--linea)}
+  .menu-enlace{display:flex;width:100%;justify-content:space-between;min-height:64px;padding:0;font-family:var(--serif);font-weight:400;font-size:1.6rem;color:var(--texto)}
+  .menu-enlace::after{display:none}
+  .menu-abre svg{width:16px;height:16px}
+  .panel{display:none;padding:0 0 18px}
+  .menu-desp.abierto .panel,html:not(.js) .panel{display:block}
+  .panel-in.ancho{padding:0;max-width:none}
+  .panel-intro .panel-titulo,.panel-intro>p{display:none}
+  .panel-atajos{margin:0 0 18px;border-top:0}
+  .panel-atajos li:last-child{border-bottom:0}
+  .panel-grupos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 18px}
+  .panel-grupo{grid-column:span 1}
+  .panel-grupo:first-child{grid-column:1 / -1}
+  .panel-grupo:first-child ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:18px}
+  .menu-pie{display:block;margin-top:28px}
+  .menu-pie .cab-escribe{display:flex;justify-content:center;min-height:52px;font-size:1.05rem}
+  .menu-pie p{margin:14px 0 0;text-align:center;color:var(--suave);font-size:.95rem}
+  .menu-pie p a{color:var(--texto);font-weight:600}
+  html.menu-fijo{overflow:hidden}
+}
+@media (max-width:520px){
+  .panel-grupos,.panel-grupo:first-child ul{grid-template-columns:1fr}
+}
+@media (max-width:380px){.menu-toggle span{display:none}.menu-toggle{padding:0 14px}}
+@media (prefers-reduced-motion:reduce){
+  .cabecera,.cab-fila,.cabecera .marca img,.menu-enlace::after,.menu-abre svg,.panel,.menu,.panel-grupo a img{transition:none}
+}
+@media print{.cabecera{display:none!important}}
+
+/* ==========================================================================
+   Transiciones: entre páginas y al saltar a un apartado
+   ========================================================================== */
+@media (prefers-reduced-motion:no-preference){
+  @view-transition{navigation:auto}
+  ::view-transition-old(root){animation:vt-sale .16s ease-in both}
+  ::view-transition-new(root){animation:vt-entra .32s cubic-bezier(.2,.7,.2,1) both}
+  html{scroll-behavior:smooth}
+  :is(h1,h2,h3,h4)[id]:target{animation:ancla 1.8s ease-out .35s both;border-radius:10px}
+}
+.cabecera{view-transition-name:cabecera}
+@keyframes vt-sale{to{opacity:0}}
+@keyframes vt-entra{from{opacity:0;transform:translateY(10px)}}
+@keyframes ancla{0%,20%{background:rgba(194,100,60,.16);box-shadow:0 0 0 10px rgba(194,100,60,.16)}100%{background:rgba(194,100,60,0);box-shadow:0 0 0 10px rgba(194,100,60,0)}}

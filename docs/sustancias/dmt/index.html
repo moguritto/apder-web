@@ -108,52 +108,42 @@
 </head>
 <body class="guia">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
-<header>
-  <div class="ancho">
+<header class="cabecera">
+  <div class="ancho cab-fila">
     <a class="marca" href="../../"><img src="../../img/apder-icono.webp" alt="" width="455" height="344"><span>APDER</span></a>
-    <nav id="menu-principal" aria-label="Menú principal">
-      <a href="../../">Inicio</a>
-      <a href="../../#about">El proyecto</a>
-      <div class="mega-sust">
-        <a class="on" href="../../sustancias/">Medicinas</a>
-        <button type="button" class="mega-boton" aria-expanded="false" aria-controls="mega-sustancias" aria-label="Mostrar guías de medicinas"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-        <div class="mega" id="mega-sustancias"><div class="mega-in">
-          <div class="mega-col"><p class="mega-tit" id="mega-t1">Psicodélicos clásicos</p><ul aria-labelledby="mega-t1">
-            <li><a class="pend" href="../../sustancias/psilocibina/">Setas de psilocibina</a></li>
-            <li><a class="pend" href="../../sustancias/lsd/">LSD</a></li>
-            <li><a class="pend" href="../../sustancias/mescalina/">Mescalina, peyote y San Pedro</a></li>
-            <li><a class="pend" href="../../sustancias/dmt/">DMT</a></li>
-            <li><a href="../../sustancias/ayahuasca/">Ayahuasca</a></li>
-            <li><a class="pend" href="../../sustancias/5-meo-dmt/">5-MeO-DMT</a></li>
-          </ul></div>
-          <div class="mega-col"><p class="mega-tit" id="mega-t2">Otras medicinas</p><ul aria-labelledby="mega-t2">
-            <li><a href="../../sustancias/mdma/">MDMA</a></li>
-            <li><a href="../../sustancias/ketamina/">Ketamina</a></li>
-            <li><a class="pend" href="../../sustancias/ibogaina/">Ibogaína</a></li>
-            <li><a href="../../sustancias/2c-b/">2C-B</a></li>
-            <li><a class="pend" href="../../sustancias/4-aco-dmt/">4-AcO-DMT</a></li>
-          </ul></div>
-          <div class="mega-col"><p class="mega-tit" id="mega-t3">Plantas y hongos</p><ul aria-labelledby="mega-t3">
-            <li><a href="../../sustancias/amanita-muscaria/">Amanita muscaria</a></li>
-            <li><a href="../../sustancias/salvia-divinorum/">Salvia divinorum</a></li>
-            <li><a href="../../sustancias/cannabis/">Cannabis</a></li>
-            <li><a href="../../sustancias/kanna/">Kanna</a></li>
-            <li><a class="pend" href="../../sustancias/kratom/">Kratom</a></li>
-            <li><a href="../../sustancias/datura/">Datura</a></li>
-            <li><a href="../../sustancias/cacao/">Cacao</a></li>
-            <li><a class="pend" href="../../sustancias/tabaco/">Tabaco</a></li>
-          </ul></div>
-          <div class="mega-col mega-dest"><a class="mega-card" href="../../sustancias/"><img src="../../sustancias/moleculas/psilocibina.svg" alt="" width="130" height="100" loading="lazy" decoding="async"><strong>Todas las guías</strong><span>Qué son, cómo actúan, qué dice la investigación y sus riesgos.</span></a><a class="mega-extra" href="../../medicinas/">Medicinas por categorías →</a><a class="mega-extra" href="../../terapia-asistida-mdma/">Terapia asistida con MDMA →</a></div>
-        </div></div>
-      </div>
-      <a href="../../investigacion-terapeutica/">Investigación</a>
-      <a href="../../biblioteca/">Biblioteca</a>
-      <a class="menu-contacto" href="../../#contacto">Contacto</a>
+    <nav class="menu" id="menu" aria-label="Menú principal">
+      <ul class="menu-lista">
+        <li class="menu-item menu-desp">
+          <button type="button" class="menu-enlace menu-abre actual" aria-expanded="false" aria-controls="panel-medicinas">Medicinas<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="panel" id="panel-medicinas">
+            <div class="ancho panel-in">
+              <div class="panel-intro">
+                <p class="panel-titulo">Guías de medicinas</p>
+                <p>Qué son, cómo actúan, qué dice la investigación y cómo reducir riesgos.</p>
+                <ul class="panel-atajos">
+                  <li><a href="../../sustancias/">Todas las guías</a></li>
+                  <li><a href="../../medicinas/">Medicinas por familias</a></li>
+                  <li><a href="../../terapia-asistida-mdma/">Terapia asistida con MDMA</a></li>
+                </ul>
+              </div>
+              <div class="panel-grupos">
+<div class="panel-grupo"><p class="panel-sub" id="grupo-1">Psicodélicos clásicos</p><ul aria-labelledby="grupo-1"><li><a class="pend" href="../../sustancias/psilocibina/"><img src="../../sustancias/moleculas/psilocibina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Setas de psilocibina</a></li><li><a class="pend" href="../../sustancias/lsd/"><img src="../../sustancias/moleculas/lsd.svg" alt="" width="40" height="32" loading="lazy" decoding="async">LSD</a></li><li><a class="pend" href="../../sustancias/mescalina/"><img src="../../sustancias/moleculas/mescalina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Mescalina, peyote y San Pedro</a></li><li><a class="pend" href="../../sustancias/dmt/" aria-current="page"><img src="../../sustancias/moleculas/dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async">DMT</a></li><li><a href="../../sustancias/ayahuasca/"><img src="../../sustancias/moleculas/ayahuasca.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Ayahuasca</a></li><li><a class="pend" href="../../sustancias/5-meo-dmt/"><img src="../../sustancias/moleculas/5-meo-dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async">5-MeO-DMT</a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-2">Otras medicinas</p><ul aria-labelledby="grupo-2"><li><a href="../../sustancias/mdma/"><img src="../../sustancias/moleculas/mdma.svg" alt="" width="40" height="32" loading="lazy" decoding="async">MDMA</a></li><li><a href="../../sustancias/ketamina/"><img src="../../sustancias/moleculas/ketamina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Ketamina</a></li><li><a class="pend" href="../../sustancias/ibogaina/"><img src="../../sustancias/moleculas/ibogaina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Ibogaína</a></li><li><a href="../../sustancias/2c-b/"><img src="../../sustancias/moleculas/2c-b.svg" alt="" width="40" height="32" loading="lazy" decoding="async">2C-B</a></li><li><a class="pend" href="../../sustancias/4-aco-dmt/"><img src="../../sustancias/moleculas/4-aco-dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async">4-AcO-DMT</a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-3">Plantas y hongos</p><ul aria-labelledby="grupo-3"><li><a href="../../sustancias/amanita-muscaria/"><img src="../../sustancias/moleculas/amanita.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Amanita muscaria</a></li><li><a href="../../sustancias/salvia-divinorum/"><img src="../../sustancias/moleculas/salvia.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Salvia divinorum</a></li><li><a href="../../sustancias/cannabis/"><img src="../../sustancias/moleculas/cannabis.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Cannabis</a></li><li><a href="../../sustancias/kanna/"><img src="../../sustancias/moleculas/kanna.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Kanna</a></li><li><a class="pend" href="../../sustancias/kratom/"><img src="../../sustancias/moleculas/kratom.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Kratom</a></li><li><a href="../../sustancias/datura/"><img src="../../sustancias/moleculas/datura.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Datura</a></li><li><a href="../../sustancias/cacao/"><img src="../../sustancias/moleculas/cacao.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Cacao</a></li><li><a class="pend" href="../../sustancias/tabaco/"><img src="../../sustancias/moleculas/tabaco.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Tabaco</a></li></ul></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item"><a class="menu-enlace" href="../../investigacion-terapeutica/">Investigación</a></li>
+        <li class="menu-item"><a class="menu-enlace" href="../../biblioteca/">Biblioteca</a></li>
+        <li class="menu-item"><a class="menu-enlace" href="../../#about">Quiénes somos</a></li>
+      </ul>
+      <div class="menu-pie"><a class="cab-escribe" href="../../#contacto">Escríbenos</a><p>o directamente por <a href="https://wa.me/447916618725">WhatsApp</a></p></div>
     </nav>
-    <div class="cabecera-der">
-      <a class="buscar-icono" href="../../buscar/" aria-label="Buscar"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></a>
-      <a class="btn t" href="../../#contacto">Contacto</a>
-      <button type="button" class="menu-boton" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú"><span></span></button>
+    <div class="cab-acciones">
+      <a class="cab-buscar" href="../../buscar/" aria-label="Buscar"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><span>Buscar</span></a>
+      <a class="cab-escribe" href="../../#contacto">Escríbenos</a>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><i></i><span>Menú</span></button>
     </div>
   </div>
 </header>
@@ -358,51 +348,26 @@ var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
 var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('activo')});var a=m[e.target.id];if(a)a.classList.add('activo')}})},{rootMargin:'-140px 0px -70% 0px'});
 Object.keys(m).forEach(function(id){var h=document.getElementById(id);if(h)o.observe(h)});})();
 </script>
-<script>
-(function(){var h=document.querySelector('header'),b=h&&h.querySelector('.menu-boton');if(!b)return;
-function fija(o){h.classList.toggle('menu-abierto',o);b.setAttribute('aria-expanded',o?'true':'false');b.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú')}
-b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';fija(o);if(o){var a=h.querySelector('nav a');if(a&&a.offsetParent)a.focus()}});
-h.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){fija(false)})});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.getAttribute('aria-expanded')==='true'){fija(false);b.focus()}});
-var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
-if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
-function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
-function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
-mb.addEventListener('click',function(){if(est()&&forz){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
-w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
-w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
-document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'&&esc.matches&&est()){var d=w.contains(document.activeElement);forz=false;cerr=true;if(d)mb.focus();sync()}});
-esc.addEventListener('change',function(){forz=false;cerr=false;sync()});sync()}
-window.addEventListener('beforeprint',function(){document.querySelectorAll('main a[href]').forEach(function(a){var r=a.getAttribute('href');if(r.charAt(0)!=='#'&&!/^(https?:|mailto:)/.test(r))a.setAttribute('data-url',a.href)});document.querySelectorAll('main details').forEach(function(d){if(!d.open){d.open=true;d.setAttribute('data-impresion','1')}})});
-window.addEventListener('afterprint',function(){document.querySelectorAll('main details[data-impresion]').forEach(function(d){d.open=false;d.removeAttribute('data-impresion')})});
-})();
-</script>
+<script src="../../menu.js" defer></script>
 <footer class="pie">
 <div class="ancho">
 <div class="pie-arriba">
 <div class="pie-col">
 <span class="ancla" id="contact"></span>
 <p class="pie-correo"><a href="mailto:info@apder.org" rel="noopener" target="_blank">info@apder.org</a></p>
-<ul class="redes">
-<li><a href="https://wa.me/447916618725" rel="noopener" target="_blank">WhatsApp</a></li>
-<li><a href="https://www.youtube.com/@apderorg" rel="noopener" target="_blank">YouTube</a></li>
-<li><a href="https://www.instagram.com/apder" rel="noopener" target="_blank">Instagram</a></li>
-<li><a href="https://www.facebook.com/apder" rel="noopener" target="_blank">Facebook</a></li>
-</ul>
 <p>Somos una organización educativa y de investigación sin ánimo de lucro.<br/>Nuestra misión con los psicodélicos es divulgar contenidos centrados en su uso terapéutico, formar terapeutas en cada país para todas las sustancias posibles e investigar con nuevas sustancias.</p>
 </div>
 <div class="pie-col">
 <p class="imagen"><img alt="" loading="lazy" src="../../img/apder-1-transparent.webp" width="739" height="664"></p>
-<p class="pie-etiqueta">ÚNETE A LA COMUNIDAD</p>
+<p class="pie-etiqueta">Contacto</p>
 <div class="contacto-directo">
-<p>Escríbenos directamente:</p>
+<p>Escríbenos por WhatsApp o por correo. Respondemos en cuanto podemos.</p>
 <a class="btn t" href="https://wa.me/447916618725">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a></div>
 </div>
 </div>
 <div class="pie-abajo">
-<p>Asociación para la Divulgación, Educación e Investigación Psicodélica<br/>APDER © 2026 TODOS LOS DERECHOS RESERVADOS</p>
-<p><a href="../../aviso-legal/">AVISO LEGAL Y CONDICIONES DE USO</a> <a href="../../politica-de-privacidad/">POLÍTICA DE COOKIES</a></p>
+<p>Asociación para la Divulgación, Educación e Investigación Psicodélica<br/>© 2026 APDER. Todos los derechos reservados.</p>
+<p><a href="../../aviso-legal/">Aviso legal</a> <a href="../../politica-de-privacidad/">Privacidad y cookies</a></p>
 </div>
 </div>
 </footer>

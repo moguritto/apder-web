@@ -1,9 +1,8 @@
 /* APDER · ayudas de lectura en páginas largas:
-   cabecera fija y compacta, botón «Contenido» (móvil) y botón «Volver arriba». */
+   botón «Contenido» (móvil) y botón «Volver arriba». La cabecera la lleva menu.js. */
 (function(){
   var main=document.querySelector('main'); if(!main)return;
   var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-  var header=document.querySelector('header');
 
   var up=document.createElement('a');
   up.className='subir';up.href='#';up.setAttribute('aria-label','Volver arriba');up.hidden=true;
@@ -23,7 +22,6 @@
   function v(){
     t=false;var y=window.scrollY;
     up.hidden=y<1200;
-    if(header&&document.body.matches('.guia,.art-pagina'))header.classList.toggle('compacta',y>80);
     if(cont){var r=toc.getBoundingClientRect();cont.hidden=!(r.bottom<0)}
   }
   window.addEventListener('scroll',function(){if(!t){t=true;requestAnimationFrame(v)}},{passive:true});v();
