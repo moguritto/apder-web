@@ -12,14 +12,14 @@
 <meta property="og:title" content="Medicinas psicodélicas y enteógenas por categorías: guía divulgativa">
 <meta property="og:description" content="Las medicinas psicodélicas y enteógenas agrupadas por familias: qué son, cómo actúan, su uso tradicional o terapéutico y sus principales riesgos.">
 <meta property="og:url" content="https://apder.org/medicinas/">
-<meta property="og:image" content="https://apder.org/img/og-apder.png">
+<meta property="og:image" content="https://apder.org/img/og/medicinas-familias.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="APDER: Divulgación, educación e investigación psicodélica">
+<meta property="og:image:alt" content="Las medicinas psicodélicas, por familias">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://apder.org/img/og-apder.png">
-<meta name="twitter:image:alt" content="APDER: Divulgación, educación e investigación psicodélica">
+<meta name="twitter:image" content="https://apder.org/img/og/medicinas-familias.png">
+<meta name="twitter:image:alt" content="Las medicinas psicodélicas, por familias">
 <script>document.documentElement.classList.add("js")</script>
 <link rel="icon" href="../img/favicon.png">
 <link rel="preload" href="../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -28,54 +28,42 @@
 </head>
 <body class="guia">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
-<header>
-  <div class="ancho">
+<header class="cabecera">
+  <div class="ancho cab-fila">
     <a class="marca" href="../"><img src="../img/apder-icono.webp" alt="" width="455" height="344"><span>APDER</span></a>
-    <nav id="menu-principal" aria-label="Menú principal">
-      <a href="../">Inicio</a>
-      <a href="../#about">El proyecto</a>
-      <div class="mega-sust">
-        <a href="../sustancias/">Sustancias</a>
-        <button type="button" class="mega-boton" aria-expanded="false" aria-controls="mega-sustancias" aria-label="Mostrar guías de sustancias"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-        <div class="mega" id="mega-sustancias"><div class="mega-in">
-          <div class="mega-col"><p class="mega-tit" id="mega-t1">Psicodélicos clásicos</p><ul aria-labelledby="mega-t1">
-            <li><a class="pend" href="../sustancias/psilocibina/">Setas de psilocibina</a></li>
-            <li><a class="pend" href="../sustancias/lsd/">LSD</a></li>
-            <li><a class="pend" href="../sustancias/mescalina/">Mescalina, peyote y San Pedro</a></li>
-            <li><a class="pend" href="../sustancias/dmt/">DMT</a></li>
-            <li><a href="../sustancias/ayahuasca/">Ayahuasca</a></li>
-            <li><a class="pend" href="../sustancias/5-meo-dmt/">5-MeO-DMT</a></li>
-          </ul></div>
-          <div class="mega-col"><p class="mega-tit" id="mega-t2">Otras sustancias</p><ul aria-labelledby="mega-t2">
-            <li><a href="../sustancias/mdma/">MDMA</a></li>
-            <li><a href="../sustancias/ketamina/">Ketamina</a></li>
-            <li><a class="pend" href="../sustancias/ibogaina/">Ibogaína</a></li>
-            <li><a href="../sustancias/2c-b/">2C-B</a></li>
-            <li><a class="pend" href="../sustancias/4-aco-dmt/">4-AcO-DMT</a></li>
-          </ul></div>
-          <div class="mega-col"><p class="mega-tit" id="mega-t3">Plantas y hongos</p><ul aria-labelledby="mega-t3">
-            <li><a href="../sustancias/amanita-muscaria/">Amanita muscaria</a></li>
-            <li><a href="../sustancias/salvia-divinorum/">Salvia divinorum</a></li>
-            <li><a href="../sustancias/cannabis/">Cannabis</a></li>
-            <li><a href="../sustancias/kanna/">Kanna</a></li>
-            <li><a class="pend" href="../sustancias/kratom/">Kratom</a></li>
-            <li><a href="../sustancias/datura/">Datura</a></li>
-            <li><a href="../sustancias/cacao/">Cacao</a></li>
-            <li><a class="pend" href="../sustancias/tabaco/">Tabaco</a></li>
-          </ul></div>
-          <div class="mega-col mega-dest"><a class="mega-card" href="../sustancias/"><img src="../sustancias/moleculas/psilocibina.svg" alt="" width="130" height="100" loading="lazy" decoding="async"><strong>Todas las guías</strong><span>Qué son, cómo actúan, qué dice la investigación y sus riesgos.</span></a><a class="mega-extra" href="../medicinas/">Medicinas por categorías →</a><a class="mega-extra" href="../terapia-asistida-mdma/">Terapia asistida con MDMA →</a></div>
-        </div></div>
-      </div>
-      <a class="on" aria-current="page" href="../medicinas/">Medicinas</a>
-      <a href="../investigacion-terapeutica/">Investigación</a>
-      <a href="../terapia-asistida-mdma/">Terapia con MDMA</a>
-      <a href="../biblioteca/">Biblioteca</a>
-      <a class="menu-contacto" href="../#contacto">Contacto</a>
+    <nav class="menu" id="menu" aria-label="Menú principal">
+      <ul class="menu-lista">
+        <li class="menu-item menu-desp">
+          <button type="button" class="menu-enlace menu-abre actual" aria-expanded="false" aria-controls="panel-medicinas">Medicinas<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="panel" id="panel-medicinas">
+            <div class="ancho panel-in">
+              <div class="panel-intro">
+                <p class="panel-titulo">Guías de medicinas</p>
+                <p>Qué son, cómo actúan, qué dice la investigación y cómo reducir riesgos.</p>
+                <ul class="panel-atajos">
+                  <li><a href="../sustancias/">Todas las guías</a></li>
+                  <li><a href="../medicinas/" aria-current="page">Medicinas por familias</a></li>
+                  <li><a href="../terapia-asistida-mdma/">Terapia asistida con MDMA</a></li>
+                </ul>
+              </div>
+              <div class="panel-grupos">
+<div class="panel-grupo"><p class="panel-sub" id="grupo-1">Psicodélicos clásicos</p><ul aria-labelledby="grupo-1"><li><a class="pend" href="../sustancias/psilocibina/"><img src="../sustancias/moleculas/psilocibina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Setas de psilocibina</a></li><li><a class="pend" href="../sustancias/lsd/"><img src="../sustancias/moleculas/lsd.svg" alt="" width="40" height="32" loading="lazy" decoding="async">LSD</a></li><li><a class="pend" href="../sustancias/mescalina/"><img src="../sustancias/moleculas/mescalina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Mescalina, peyote y San Pedro</a></li><li><a class="pend" href="../sustancias/dmt/"><img src="../sustancias/moleculas/dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async">DMT</a></li><li><a href="../sustancias/ayahuasca/"><img src="../sustancias/moleculas/ayahuasca.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Ayahuasca</a></li><li><a class="pend" href="../sustancias/5-meo-dmt/"><img src="../sustancias/moleculas/5-meo-dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async">5-MeO-DMT</a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-2">Otras medicinas</p><ul aria-labelledby="grupo-2"><li><a href="../sustancias/mdma/"><img src="../sustancias/moleculas/mdma.svg" alt="" width="40" height="32" loading="lazy" decoding="async">MDMA</a></li><li><a href="../sustancias/ketamina/"><img src="../sustancias/moleculas/ketamina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Ketamina</a></li><li><a class="pend" href="../sustancias/ibogaina/"><img src="../sustancias/moleculas/ibogaina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Ibogaína</a></li><li><a href="../sustancias/2c-b/"><img src="../sustancias/moleculas/2c-b.svg" alt="" width="40" height="32" loading="lazy" decoding="async">2C-B</a></li><li><a class="pend" href="../sustancias/4-aco-dmt/"><img src="../sustancias/moleculas/4-aco-dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async">4-AcO-DMT</a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-3">Plantas y hongos</p><ul aria-labelledby="grupo-3"><li><a href="../sustancias/amanita-muscaria/"><img src="../sustancias/moleculas/amanita.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Amanita muscaria</a></li><li><a href="../sustancias/salvia-divinorum/"><img src="../sustancias/moleculas/salvia.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Salvia divinorum</a></li><li><a href="../sustancias/cannabis/"><img src="../sustancias/moleculas/cannabis.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Cannabis</a></li><li><a href="../sustancias/kanna/"><img src="../sustancias/moleculas/kanna.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Kanna</a></li><li><a class="pend" href="../sustancias/kratom/"><img src="../sustancias/moleculas/kratom.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Kratom</a></li><li><a href="../sustancias/datura/"><img src="../sustancias/moleculas/datura.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Datura</a></li><li><a href="../sustancias/cacao/"><img src="../sustancias/moleculas/cacao.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Cacao</a></li><li><a class="pend" href="../sustancias/tabaco/"><img src="../sustancias/moleculas/tabaco.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Tabaco</a></li></ul></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item"><a class="menu-enlace" href="../investigacion-terapeutica/">Investigación</a></li>
+        <li class="menu-item"><a class="menu-enlace" href="../biblioteca/">Biblioteca</a></li>
+        <li class="menu-item"><a class="menu-enlace" href="../#about">Quiénes somos</a></li>
+      </ul>
+      <div class="menu-pie"><a class="cab-escribe" href="../#contacto">Escríbenos</a><p>o directamente por <a href="https://wa.me/447916618725">WhatsApp</a></p></div>
     </nav>
-    <div class="cabecera-der">
-      <a class="buscar-icono" href="../buscar/" aria-label="Buscar"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></a>
-      <a class="btn t" href="../#contacto">Contacto</a>
-      <button type="button" class="menu-boton" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú"><span></span></button>
+    <div class="cab-acciones">
+      <a class="cab-buscar" href="../buscar/" aria-label="Buscar"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><span>Buscar</span></a>
+      <a class="cab-escribe" href="../#contacto">Escríbenos</a>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><i></i><span>Menú</span></button>
     </div>
   </div>
 </header>
@@ -83,9 +71,9 @@
 <section class="s-cabeza s-cabeza-sola">
 <div class="s-ancho">
 <div>
-<p class="s-antetitulo"><a href="../">Inicio</a> · Artículo</p>
-<h1>Las medicinas psicodélicas, por categorías</h1>
-<p class="s-sub-art">Un mapa de las sustancias, plantas y hongos que alteran la conciencia, agrupados por su química y por cómo actúan, con sus usos y sus riesgos.</p>
+<p class="s-antetitulo"><a href="../">Inicio</a> · Medicinas</p>
+<h1>Medicinas por familias</h1>
+<p class="s-sub-art">Un mapa de las plantas, hongos y moléculas que cambian la conciencia, agrupados por su química y por cómo actúan. Para ver de un vistazo qué comparten, en qué se diferencian y qué riesgos tiene cada familia.</p>
 </div>
 </div>
 </section>
@@ -94,8 +82,8 @@
 <nav class="s-toc" aria-label="Índice">
 <strong>Contenido</strong>
 <ol>
-<li><a href="#introduccion">Introducción: qué entendemos por medicina psicodélica</a></li>
-<li><a href="#resumen">Resumen de las categorías</a></li>
+<li><a href="#introduccion">Qué entendemos por medicina psicodélica</a></li>
+<li><a href="#resumen">Las familias de un vistazo</a></li>
 <li><a href="#triptaminas">1. Triptaminas</a></li>
 <li><a href="#ergolinas">2. Ergolinas</a></li>
 <li><a href="#fenetilaminas">3. Fenetilaminas</a></li>
@@ -115,8 +103,8 @@
 <details class="s-toc-movil">
 <summary>Contenido</summary>
 <ol>
-<li><a href="#introduccion">Introducción: qué entendemos por medicina psicodélica</a></li>
-<li><a href="#resumen">Resumen de las categorías</a></li>
+<li><a href="#introduccion">Qué entendemos por medicina psicodélica</a></li>
+<li><a href="#resumen">Las familias de un vistazo</a></li>
 <li><a href="#triptaminas">1. Triptaminas</a></li>
 <li><a href="#ergolinas">2. Ergolinas</a></li>
 <li><a href="#fenetilaminas">3. Fenetilaminas</a></li>
@@ -132,26 +120,26 @@
 </ol>
 </details>
 
-<h2 id="introduccion">Introducción: qué entendemos por medicina psicodélica</h2>
+<h2 id="introduccion">Qué entendemos por medicina psicodélica</h2>
 <p>Llamamos <strong>psicodélicas</strong> a las sustancias que cambian de forma profunda la percepción, el pensamiento y las emociones, sin anular la conciencia. La palabra viene del griego y significa, más o menos, «que manifiesta la mente».</p>
 <p>El término <strong>enteógeno</strong> se propuso en 1979 para nombrar las plantas y hongos que se usan en un contexto religioso, ritual o de sanación<sup><a href="#ref-1">1</a></sup>. Muchas culturas los consideran medicinas, maestros o sacramentos, y los usan desde hace siglos o milenios<sup><a href="#ref-2">2</a></sup>.</p>
 <p>En este artículo usamos «medicina» en un sentido amplio: incluye usos tradicionales, usos rituales y la investigación clínica actual. No significa que estas sustancias sean seguras ni que curen nada por sí solas. Algunas tienen ensayos clínicos prometedores; otras apenas se han estudiado; y algunas son claramente tóxicas.</p>
 <p>Las agrupamos por <strong>familias químicas</strong> y por su <strong>forma de actuar</strong> en el cerebro. Las categorías no son perfectas: hay plantas que contienen varias sustancias y moléculas que encajan en más de un grupo.</p>
 
-<h2 id="resumen">Resumen de las categorías</h2>
+<h2 id="resumen">Las familias de un vistazo</h2>
 <div class="s-tabla s-ancha" role="region" tabindex="0" aria-label="Tabla: Resumen de las categorías">
 <table>
 <thead><tr><th>Categoría</th><th>Ejemplos</th><th>Acción principal</th></tr></thead>
 <tbody>
-<tr><td>Triptaminas</td><td>Psilocibina, DMT, ayahuasca, 5-MeO-DMT, 4-AcO-DMT, bufotenina</td><td>Activan el receptor de serotonina 5-HT2A</td></tr>
-<tr><td>Ergolinas</td><td>LSD, LSA (semillas de <em>Ipomoea</em> y <em>Argyreia</em>), cornezuelo</td><td>Receptores de serotonina (5-HT2A) y de dopamina</td></tr>
-<tr><td>Fenetilaminas</td><td>Mescalina (peyote, San Pedro), 2C-B, familia 2C, DOx</td><td>Activan el receptor 5-HT2A</td></tr>
-<tr><td>Empatógenos</td><td>MDMA, MDA</td><td>Liberan serotonina, noradrenalina y dopamina</td></tr>
-<tr><td>Disociativos</td><td>Ketamina, esketamina, óxido nitroso, DXM</td><td>Bloquean el receptor de glutamato NMDA</td></tr>
-<tr><td>Oneirógenos y otros alcaloides</td><td>Ibogaína, <em>Calea zacatechichi</em>, <em>Silene capensis</em></td><td>Variada; en parte desconocida</td></tr>
-<tr><td>Plantas y hongos de acción diversa</td><td><em>Salvia divinorum</em>, <em>Amanita muscaria</em>, cannabis, kanna, kratom, kava, cacao, tabaco, ruda siria…</td><td>Muy distinta según la planta (opioide kappa, GABA, cannabinoides, IMAO…)</td></tr>
-<tr><td>Delirantes</td><td>Datura, <em>Brugmansia</em>, belladona, mandrágora</td><td>Bloquean los receptores muscarínicos de acetilcolina</td></tr>
-<tr><td>Nuevas moléculas</td><td>Análogos no alucinógenos, psicoplastógenos, formulaciones de acción corta</td><td>En investigación; buscan los beneficios con menos efectos</td></tr>
+<tr><td data-label="Categoría">Triptaminas</td><td data-label="Ejemplos">Psilocibina, DMT, ayahuasca, 5-MeO-DMT, 4-AcO-DMT, bufotenina</td><td data-label="Acción principal">Activan el receptor de serotonina 5-HT2A</td></tr>
+<tr><td data-label="Categoría">Ergolinas</td><td data-label="Ejemplos">LSD, LSA (semillas de <em>Ipomoea</em> y <em>Argyreia</em>), cornezuelo</td><td data-label="Acción principal">Receptores de serotonina (5-HT2A) y de dopamina</td></tr>
+<tr><td data-label="Categoría">Fenetilaminas</td><td data-label="Ejemplos">Mescalina (peyote, San Pedro), 2C-B, familia 2C, DOx</td><td data-label="Acción principal">Activan el receptor 5-HT2A</td></tr>
+<tr><td data-label="Categoría">Empatógenos</td><td data-label="Ejemplos">MDMA, MDA</td><td data-label="Acción principal">Liberan serotonina, noradrenalina y dopamina</td></tr>
+<tr><td data-label="Categoría">Disociativos</td><td data-label="Ejemplos">Ketamina, esketamina, óxido nitroso, DXM</td><td data-label="Acción principal">Bloquean el receptor de glutamato NMDA</td></tr>
+<tr><td data-label="Categoría">Oneirógenos y otros alcaloides</td><td data-label="Ejemplos">Ibogaína, <em>Calea zacatechichi</em>, <em>Silene capensis</em></td><td data-label="Acción principal">Variada; en parte desconocida</td></tr>
+<tr><td data-label="Categoría">Plantas y hongos de acción diversa</td><td data-label="Ejemplos"><em>Salvia divinorum</em>, <em>Amanita muscaria</em>, cannabis, kanna, kratom, kava, cacao, tabaco, ruda siria…</td><td data-label="Acción principal">Muy distinta según la planta (opioide kappa, GABA, cannabinoides, IMAO…)</td></tr>
+<tr><td data-label="Categoría">Delirantes</td><td data-label="Ejemplos">Datura, <em>Brugmansia</em>, belladona, mandrágora</td><td data-label="Acción principal">Bloquean los receptores muscarínicos de acetilcolina</td></tr>
+<tr><td data-label="Categoría">Nuevas moléculas</td><td data-label="Ejemplos">Análogos no alucinógenos, psicoplastógenos, formulaciones de acción corta</td><td data-label="Acción principal">En investigación; buscan los beneficios con menos efectos</td></tr>
 </tbody>
 </table>
 </div>
@@ -321,7 +309,7 @@
 <p>Se investigan formas de DMT y de 5-MeO-DMT cuyo efecto dura poco, para que el tratamiento quepa en una visita médica. También se prueban versiones sintéticas y estandarizadas de psilocibina y de LSD en ensayos para la depresión y la ansiedad. Ninguna está aprobada en España por ahora.</p>
 
 <h2 id="reduccion-de-riesgos">Reducción de riesgos</h2>
-<p>Algunos principios generales para cualquier sustancia de este artículo:</p>
+<p>Unas pautas que sirven para cualquiera de estas medicinas:</p>
 <ul>
 <li><strong>Interacciones:</strong> las más peligrosas son los IMAO (ayahuasca, ruda siria) con antidepresivos, MDMA, estimulantes o 5-MeO-DMT; y el litio con psicodélicos clásicos, que se ha relacionado con convulsiones.</li>
 <li><strong>Salud mental:</strong> los psicodélicos pueden desencadenar crisis en personas con antecedentes propios o familiares de psicosis o trastorno bipolar.</li>
@@ -361,7 +349,7 @@
 <li id="ref-15">Cameron LP, Tombari RJ, Lu J, et al. A non-hallucinogenic psychedelic analogue with therapeutic potential. <em>Nature</em>. 2021;589(7842):474-479.</li>
 </ol>
 <p class="s-revisado">Última revisión: noviembre de 2026.</p>
-<div class="s-nota s-descargo" role="note"><p><strong>Antes de usar esta información.</strong> Este contenido es divulgativo y se ha elaborado con cuidado a partir de fuentes científicas y de reducción de riesgos, pero puede contener errores o quedar desactualizado. No es consejo médico ni sustituye la valoración de un profesional sanitario, sobre todo si tomas medicación o tienes problemas de salud. APDER no anima al consumo de ninguna sustancia y no se hace responsable del uso que se haga de esta información. Si ves un error, escríbenos a <a href="mailto:info@apder.org">info@apder.org</a>.</p></div>
+<div class="s-nota s-descargo" role="note"><p><strong>Antes de seguir.</strong> Esta información es divulgativa. La preparamos con cuidado a partir de fuentes científicas y de reducción de riesgos, pero puede tener errores o quedarse antigua. No es consejo médico ni sustituye a un profesional sanitario, sobre todo si tomas medicación o tienes algún problema de salud. APDER no anima al consumo de ninguna sustancia y no se hace responsable del uso que se haga de esta información. Si ves un error, escríbenos a <a href="mailto:info@apder.org">info@apder.org</a>.</p></div>
 </article>
 </div>
 
@@ -372,26 +360,7 @@ var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
 var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('activo')});var a=m[e.target.id];if(a)a.classList.add('activo')}})},{rootMargin:'-140px 0px -70% 0px'});
 Object.keys(m).forEach(function(id){var h=document.getElementById(id);if(h)o.observe(h)});})();
 </script>
-<script>
-(function(){var h=document.querySelector('header'),b=h&&h.querySelector('.menu-boton');if(!b)return;
-function fija(o){h.classList.toggle('menu-abierto',o);b.setAttribute('aria-expanded',o?'true':'false');b.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú')}
-b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';fija(o);if(o){var a=h.querySelector('nav a');if(a&&a.offsetParent)a.focus()}});
-h.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){fija(false)})});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.getAttribute('aria-expanded')==='true'){fija(false);b.focus()}});
-var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
-if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
-function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
-function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
-mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
-w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
-w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
-document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'&&esc.matches&&est()){var d=w.contains(document.activeElement);forz=false;cerr=true;if(d)mb.focus();sync()}});
-esc.addEventListener('change',function(){forz=false;cerr=false;sync()});sync()}
-window.addEventListener('beforeprint',function(){document.querySelectorAll('main a[href]').forEach(function(a){var r=a.getAttribute('href');if(r.charAt(0)!=='#'&&!/^(https?:|mailto:)/.test(r))a.setAttribute('data-url',a.href)});document.querySelectorAll('main details').forEach(function(d){if(!d.open){d.open=true;d.setAttribute('data-impresion','1')}})});
-window.addEventListener('afterprint',function(){document.querySelectorAll('main details[data-impresion]').forEach(function(d){d.open=false;d.removeAttribute('data-impresion')})});
-})();
-</script>
+<script src="../menu.js" defer></script>
 <footer class="pie">
 <div class="ancho">
 <div class="pie-arriba">
@@ -402,18 +371,18 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 </div>
 <div class="pie-col">
 <p class="imagen"><img alt="" loading="lazy" src="../img/apder-1-transparent.webp" width="739" height="664"></p>
-<p class="pie-etiqueta">ÚNETE A LA COMUNIDAD</p>
+<p class="pie-etiqueta">Contacto</p>
 <div class="contacto-directo">
-<p>Escríbenos directamente:</p>
+<p>Escríbenos por WhatsApp o por correo. Respondemos en cuanto podemos.</p>
 <a class="btn t" href="https://wa.me/447916618725">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a></div>
-<p class="pie-nota">Recibe novedades sobre noticias y eventos.</p>
 </div>
 </div>
 <div class="pie-abajo">
-<p>Asociación para la Divulgación, Educación e Investigación Psicodélica<br/>APDER © 2026 TODOS LOS DERECHOS RESERVADOS</p>
-<p><a href="../aviso-legal/">AVISO LEGAL Y CONDICIONES DE USO</a> <a href="../politica-de-privacidad/">POLÍTICA DE COOKIES</a></p>
+<p>Asociación para la Divulgación, Educación e Investigación Psicodélica<br/>© 2026 APDER. Todos los derechos reservados.</p>
+<p><a href="../aviso-legal/">Aviso legal</a> <a href="../politica-de-privacidad/">Privacidad y cookies</a></p>
 </div>
 </div>
 </footer>
+<script src="../tierra.js" defer></script>
 </body>
 </html>

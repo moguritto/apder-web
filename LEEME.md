@@ -33,7 +33,7 @@ Decisión de Mannu (21-11-2026), para toda la web:
 
 - `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, preguntas).
 - `docs/sustancias/<sustancia>/index.html`: 19 guías (psilocibina, LSD, MDMA, ketamina, ayahuasca, DMT, 5-MeO-DMT, mescalina, ibogaína, 2C-B, 4-AcO-DMT, Amanita muscaria, Salvia divinorum, cannabis, kanna, kratom, datura, cacao, tabaco).
-- Megamenú «Sustancias»: en las páginas de sustancias va dentro de la cabecera; en el resto de páginas se añade al menú y usa `docs/sustancias/mega-wp.css`.
+- En el menú, la sección se llama **«Medicinas»** (desde el 21/11/2026; antes «Sustancias»). Las direcciones no cambian: siguen en `/sustancias/`. El desplegable reúne las 19 guías, «Medicinas por categorías» (`/medicinas/`) y «Terapia asistida con MDMA» (`/terapia-asistida-mdma/`), que ya no tienen entrada propia en el menú principal. La cabecera está copiada en cada página: si se cambia, hay que cambiarla en todas.
 - `docs/sustancias/sustancias.css`: estilos solo de estas páginas (títulos Libre Caslon, texto Inter, acento rojo, índice lateral).
 - `docs/sustancias/moleculas/`: dibujos de las moléculas (SVG propios, hechos con RDKit).
 - Textos propios en español, escritos para APDER. Para añadir otra sustancia, copia una carpeta de guía, cambia los textos y enlázala desde la cuadrícula de `docs/sustancias/index.html` y desde el megamenú.
@@ -44,3 +44,20 @@ Decisión de Mannu (21-11-2026), para toda la web:
 - `docs/medicinas/`: artículo con las medicinas psicodélicas y enteógenas por categorías.
 - `docs/biblioteca/`: 425 libros con buscador y filtros (categoría, idioma y sustancia).
 - `AUDITORIA.md`: fallos encontrados, propuestas y cómo evitar problemas de derechos de autor.
+
+## Imágenes para compartir (WhatsApp y redes)
+
+- Cada página tiene su tarjeta de 1200×630 en `docs/img/og/`, a propósito sencilla: solo el título, el dibujo (la molécula en las guías) y la marca APDER. La portada, las páginas legales y la 404 usan `docs/img/og-apder.png`, hecha con el mismo guion.
+- Se generan con `python3 scripts/tarjetas_og.py` (necesita `pip install pillow cairosvg fonttools brotli`). Para una página nueva: añade su línea en `TARJETAS`, genera y pon en su `<head>` `og:image` y `twitter:image` con la dirección absoluta `https://apder.org/img/og/<nombre>.png`.
+- WhatsApp no enseña la imagen si pesa más de 300 KB: las tarjetas pesan entre 10 y 35 KB. WhatsApp guarda la vista previa de cada enlace; si un enlace ya se había enviado antes del cambio, puede tardar en verse la nueva.
+
+## Guía para participantes
+
+- `docs/guia-sesion/`: guía para enviar a quien tiene una sesión acordada (antes, salud, qué traer, el día, durante, música, después). No se indexa (`noindex`), no está en el mapa del sitio ni en el buscador, y no se enlaza desde el menú: solo se llega por el enlace.
+- Sustituye en contenido a `docs/meditacion-corazon-2026/` y `docs/protocolo-meditacion-agosto-2024/`, que se conservan tal cual (con su tarjeta nueva para compartir).
+
+## Ayudas de lectura (tierra.js)
+
+- `docs/tierra.js` (se carga en guías, medicinas, investigación, biblioteca y terapia asistida): cabecera fija que se encoge al bajar, botón «Contenido» en móvil y botón «Volver arriba».
+- Las guías de sustancias con menos de ~1.500 palabras se llaman **«Ficha breve»**; las completas (ayahuasca, ketamina, LSD, MDMA, psilocibina) siguen como «Guía completa».
+- El esquema «Cuándo empieza y cuánto dura» (`.s-tiempos`) está en 9 guías, hecho a mano a partir de su tabla resumen: si cambian esos valores, hay que cambiar también el esquema.
