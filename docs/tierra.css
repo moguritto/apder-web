@@ -766,8 +766,12 @@ nav.s-toc{top:84px}
    Marcado: header.cabecera > .cab-fila > a.marca + nav.menu#menu + .cab-acciones
    Lo memorable es el panel «Medicinas»: cada guía con su molécula, como un herbario.
    ========================================================================== */
-.cabecera{position:sticky;top:0;z-index:50;background:var(--crema);transition:box-shadow .25s}
-.cabecera.compacta{box-shadow:0 1px 0 var(--linea),0 10px 24px -18px rgba(60,40,20,.35)}
+.cabecera{position:sticky;top:0;z-index:50;background:var(--crema);border-bottom:1px solid transparent;transition:background .3s,box-shadow .3s,border-color .3s}
+.cabecera.compacta{background:rgba(247,241,230,.97);border-bottom-color:rgba(217,204,180,.8);box-shadow:0 14px 30px -24px rgba(60,40,20,.5)}
+@supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){.cabecera.compacta{background:rgba(247,241,230,.78);-webkit-backdrop-filter:saturate(1.6) blur(16px);backdrop-filter:saturate(1.6) blur(16px)}}
+.cabecera.menu-abierto,.cabecera:has(.menu-desp.abierto){background:var(--crema)}
+.cabecera.compacta .menu-enlace{min-height:40px}
+.cabecera.compacta .cab-buscar,.cabecera.compacta .cab-escribe,.cabecera.compacta .menu-toggle{min-height:40px}
 .cab-fila{display:flex;align-items:center;gap:20px;height:84px;transition:height .25s}
 .cabecera.compacta .cab-fila{height:64px}
 .cabecera .marca{display:flex;align-items:center;gap:12px;margin-right:auto;font-family:var(--serif);font-size:1.6rem;line-height:1;color:var(--texto);text-decoration:none}
