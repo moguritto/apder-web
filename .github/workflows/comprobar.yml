@@ -1,0 +1,16 @@
+name: Comprobar web
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Comprobar docs/
+        run: python3 scripts/comprobar_web.py
