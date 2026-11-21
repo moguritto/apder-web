@@ -52,11 +52,13 @@
   document.querySelectorAll('.lb-dl dt').forEach(function(campo){
     if(campo.textContent.trim()==='Autoría'&&campo.nextElementSibling)autor=campo.nextElementSibling.textContent.trim();
   });
+  var firma=document.querySelector('.lb-autor');
+  if(!autor&&firma)autor=firma.textContent.trim();
   var enlace=document.createElement('a');
   enlace.className='btn c';
   enlace.href='https://www.amazon.es/s?k='+encodeURIComponent(titulo.textContent.trim()+' '+autor)+'&i=stripbooks';
   enlace.target='_blank';
   enlace.rel='noopener noreferrer';
-  enlace.textContent='Buscar este libro en Amazon';
-  ficha.appendChild(enlace);
+  enlace.textContent='Buscar en Amazon';
+  ficha.insertBefore(enlace,ficha.querySelector('.lb-guias')||ficha.querySelector('.lb-volver'));
 })();
