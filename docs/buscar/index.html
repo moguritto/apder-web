@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buscar | APDER</title>
+<meta name="description" content="Busca en las guías de sustancias, las medicinas, la investigación y los libros de la biblioteca de APDER.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://apder.org/buscar/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="APDER">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Buscar">
+<meta property="og:description" content="Busca en las guías de sustancias, las medicinas, la investigación y los libros de la biblioteca de APDER.">
+<meta property="og:url" content="https://apder.org/buscar/">
+<meta property="og:image" content="https://apder.org/img/og-apder.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="APDER: Divulgación, educación e investigación psicodélica">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://apder.org/img/og-apder.png">
+<meta name="twitter:image:alt" content="APDER: Divulgación, educación e investigación psicodélica">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="icon" href="../img/favicon.png">
+<link rel="preload" href="../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../tierra.css">
+</head>
+<body class="guia">
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header>
+  <div class="ancho">
+    <a class="marca" href="../"><img src="../img/apder-icono.webp" alt="" width="455" height="344"><span>APDER</span></a>
+    <nav id="menu-principal" aria-label="Menú principal">
+      <a href="../">Inicio</a>
+      <a href="../#about">El proyecto</a>
+      <a href="../sustancias/">Sustancias</a>
+      <a href="../medicinas/">Medicinas</a>
+      <a href="../investigacion-terapeutica/">Investigación</a>
+      <a href="../terapia-asistida-mdma/">Terapia con MDMA</a>
+      <a href="../biblioteca/">Biblioteca</a>
+      <a class="menu-contacto" href="../#contacto">Contacto</a>
+    </nav>
+    <div class="cabecera-der">
+      <a class="buscar-icono" aria-current="page" href="../buscar/" aria-label="Buscar"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></a>
+      <a class="btn t" href="../#contacto">Contacto</a>
+      <button type="button" class="menu-boton" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú"><span></span></button>
+    </div>
+  </div>
+</header>
+<main id="contenido" class="guia-cuerpo">
+<section class="s-cabeza s-cabeza-sola">
+<div class="s-ancho"><div>
+<p class="s-antetitulo"><a href="../">Inicio</a> · Recursos</p>
+<h1>Buscar</h1>
+<p class="s-sub-art">Busca en las guías de sustancias, en las medicinas, en la investigación y en los libros de la biblioteca.</p>
+</div></div>
+</section>
+<div class="s-ancho bq-wrap">
+<form class="bq-form" role="search" action="./" method="get">
+<label for="bq-q">Buscar en APDER</label>
+<input type="search" id="bq-q" name="q" placeholder="Por ejemplo: ayahuasca, TEPT, integración…" autocomplete="off" enterkeyhint="search">
+<button type="submit" class="btn t">Buscar</button>
+</form>
+<p id="bq-n" class="bq-n" role="status" aria-live="polite"></p>
+<div id="bq-res" class="s-cuerpo">
+<noscript><div class="bq-vacio"><p>El buscador necesita JavaScript. Sin él, puedes ir directamente a las <a href="../sustancias/">guías de sustancias</a>, a las <a href="../medicinas/">medicinas</a>, a la <a href="../investigacion-terapeutica/">investigación</a> o a la <a href="../biblioteca/">biblioteca</a>, que tiene su propio buscador.</p></div></noscript>
+</div>
+</div>
+</main>
+<script src="buscar.js" defer></script>
+<script>
+(function(){var h=document.querySelector('header'),b=h&&h.querySelector('.menu-boton');if(!b)return;
+function fija(o){h.classList.toggle('menu-abierto',o);b.setAttribute('aria-expanded',o?'true':'false');b.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú')}
+b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';fija(o);if(o){var a=h.querySelector('nav a');if(a&&a.offsetParent)a.focus()}});
+h.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){fija(false)})});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.getAttribute('aria-expanded')==='true'){fija(false);b.focus()}});
+window.addEventListener('beforeprint',function(){document.querySelectorAll('main a[href]').forEach(function(a){var r=a.getAttribute('href');if(r.charAt(0)!=='#'&&!/^(https?:|mailto:)/.test(r))a.setAttribute('data-url',a.href)});document.querySelectorAll('main details').forEach(function(d){if(!d.open){d.open=true;d.setAttribute('data-impresion','1')}})});
+window.addEventListener('afterprint',function(){document.querySelectorAll('main details[data-impresion]').forEach(function(d){d.open=false;d.removeAttribute('data-impresion')})});
+})();
+</script>
+<footer class="pie">
+<div class="ancho">
+<div class="pie-arriba">
+<div class="pie-col">
+<span class="ancla" id="contact"></span>
+<p class="pie-correo"><a href="mailto:info@apder.org" rel="noopener" target="_blank">info@apder.org</a></p>
+<ul class="redes">
+<li><a href="https://wa.me/+16693068938" rel="noopener" target="_blank">Whatsapp</a></li>
+<li><a href="https://www.youtube.com/@apderorg" rel="noopener" target="_blank">Youtube</a></li>
+<li><a href="https://www.instagram.com/apder" rel="noopener" target="_blank">Instagram</a></li>
+<li><a href="https://www.facebook.com/apder" rel="noopener" target="_blank">Facebook</a></li>
+</ul>
+<p>Somos una organización educativa y de investigación sin ánimo de lucro.<br/>Nuestra misión con los psicodélicos es divulgar contenidos centrados en su uso terapéutico, formar terapeutas en cada país para todas las sustancias posibles e investigar con nuevas sustancias.</p>
+</div>
+<div class="pie-col">
+<p class="imagen"><img alt="" loading="lazy" src="../img/apder-1-transparent.webp" width="739" height="664"></p>
+<p class="pie-etiqueta">ÚNETE A LA COMUNIDAD</p>
+<div class="contacto-directo">
+<p>Escríbenos directamente:</p>
+<a class="btn t" href="https://wa.me/16693068938">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a></div>
+<p class="pie-nota">Recibe novedades sobre noticias y eventos.</p>
+</div>
+</div>
+<div class="pie-abajo">
+<p>Asociación para la Divulgación, Educación e Investigación Psicodélica<br/>APDER © 2026 TODOS LOS DERECHOS RESERVADOS</p>
+<p><a href="../aviso-legal/">AVISO LEGAL Y CONDICIONES DE USO</a> <a href="../politica-de-privacidad/">POLÍTICA DE COOKIES</a></p>
+</div>
+</div>
+</footer>
+</body>
+</html>

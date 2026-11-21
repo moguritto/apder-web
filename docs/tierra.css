@@ -426,3 +426,51 @@ footer.pie a[aria-current="page"]{font-weight:700;text-decoration-thickness:2px}
   body.guia .guia-cuerpo .b-lista{display:block}
   body.guia .legal-texto{padding:0}
 }
+
+/* ==========================================================================
+   Buscar: icono de la cabecera y página del buscador (buscar/)
+   ========================================================================== */
+.buscar-icono{display:grid;place-items:center;flex:none;width:44px;height:44px;border-radius:50%;background:#fff;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.08);transition:background .2s}
+.buscar-icono:hover,.buscar-icono[aria-current="page"]{background:var(--arena)}
+.buscar-icono svg{display:block}
+/* Con la lupa, el menú de escritorio gana unos píxeles al ajustar el relleno de los enlaces */
+@media (min-width:1121px){
+  header nav a{padding:8px 14px}
+  header .cabecera-der{margin-left:12px}
+}
+@media (min-width:1121px) and (max-width:1160px){header nav a{padding:8px 11px}}
+@media (max-width:360px){
+  .cabecera-der{gap:8px}
+  header .ancho:has(#menu-principal)>.marca{gap:8px}
+  .marca{font-size:1.45rem}
+  .marca img{height:40px}
+}
+
+.bq-wrap{padding-bottom:70px}
+.bq-form{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;margin:0 0 14px;max-width:820px}
+.bq-form label{flex:0 0 100%;font-weight:700;font-size:.95rem}
+.bq-form input{flex:1 1 280px;min-width:0;font:inherit;font-size:1.05rem;line-height:1.3;min-height:52px;padding:.5em 1.3em;border:2px solid var(--suave);border-radius:999px;background:#fff;color:var(--texto)}
+.bq-form input::placeholder{color:var(--suave);opacity:1}
+.bq-form button{font:inherit;font-weight:700;font-size:.95rem;border:0;cursor:pointer;min-height:52px}
+.guia-cuerpo .bq-n{margin:0 0 22px;min-height:1.65em;font-weight:700;color:var(--suave)}
+.guia-cuerpo .bq-grupo{margin:0 0 34px;padding:0}
+.guia-cuerpo .bq-grupo h2{font-size:clamp(1.6rem,3vw,2.1rem);margin:0 0 .5em}
+.bq-grupo h2 small{font-family:var(--sans);font-size:.95rem;font-weight:700;color:var(--suave);margin-left:.4em}
+.guia-cuerpo .bq-lista{list-style:none;padding:0;margin:0}
+.bq-item{background:#fff;border-radius:22px;padding:18px 24px;margin:0 0 12px;box-shadow:0 2px 14px rgba(60,40,20,.06)}
+.guia-cuerpo .bq-item h3{font-size:1.45rem;line-height:1.2;margin:0 0 .25em}
+.bq-item h3 a{color:var(--tierra-osc);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;overflow-wrap:anywhere}
+.bq-item h3 a:hover{color:var(--tierra-hondo);text-decoration-thickness:2px}
+.guia-cuerpo .bq-item p{margin:0 0 .4em;line-height:1.55}
+.guia-cuerpo .bq-item p:last-child{margin-bottom:0}
+.bq-etiqueta{display:inline-block;margin:0 0 .5em;padding:2px 12px;border-radius:999px;background:var(--arena);color:var(--texto);font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.guia-cuerpo .bq-meta{color:var(--suave);font-size:.95rem}
+.guia-cuerpo .bq-aps{font-size:.95rem}
+.bq-aps a{color:var(--tierra-osc);text-decoration:underline;text-underline-offset:3px}
+.guia-cuerpo .bq-mas{margin:6px 0 0}
+.bq-vacio{background:var(--arena);border-left:4px solid var(--tierra-osc);border-radius:0 16px 16px 0;padding:16px 22px}
+.guia-cuerpo .bq-vacio p{margin:0 0 .5em}
+.guia-cuerpo .bq-vacio p:last-child{margin:0}
+.bq-vacio a{color:var(--tierra-osc);text-decoration:underline;text-underline-offset:3px}
+.guia-cuerpo mark{background:#f2d79a;color:var(--texto);border-radius:3px;padding:0 2px}
+@media (max-width:560px){.bq-item{padding:16px 18px;border-radius:18px}}
