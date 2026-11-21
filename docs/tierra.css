@@ -295,9 +295,6 @@ footer.pie .pie-arriba{display:grid;grid-template-columns:1fr 1fr;gap:48px;align
 footer.pie p{margin:0 0 1em}
 footer.pie .pie-correo{font-size:1.2rem;font-weight:700}
 footer.pie .pie-correo a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:3px}
-footer.pie .redes{list-style:none;padding:0;margin:0 0 1.2em;display:flex;flex-wrap:wrap;gap:10px}
-footer.pie .redes a{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;background:#fff;border-radius:999px;font-weight:700;font-size:.95rem}
-footer.pie .redes a:hover{background:var(--crema);text-decoration:none}
 footer.pie .imagen{margin:0 0 .6em}
 footer.pie .imagen img{width:180px;max-width:60%;height:auto}
 footer.pie .pie-etiqueta{font-size:.78rem;letter-spacing:.16em;font-weight:700;color:var(--tierra-osc)}
