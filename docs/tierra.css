@@ -984,3 +984,24 @@ footer.pie .pie-tel a{display:inline-flex;align-items:center;min-height:44px;tex
 @media (max-width: 700px) {
   .guia-cuerpo .lb-dl { grid-template-columns: minmax(100px, .8fr) minmax(0, 1.4fr); gap: 9px 16px; }
 }
+
+/* Fichas de biblioteca */
+.guia-cuerpo .lb{padding:20px 24px 50px}
+.guia-cuerpo .lb-top{gap:22px;margin-top:14px}
+.guia-cuerpo .lb-col-portada{flex:0 1 180px;max-width:180px}
+.guia-cuerpo .lb-info{flex:999 1 380px}
+body .guia-cuerpo .lb-info h1{font-size:clamp(1.8rem,3.2vw,2.7rem)}
+body .guia-cuerpo .lb-info h2{font-size:1.3rem;margin:.8em 0 .3em;padding-top:.6em}
+.guia-cuerpo .lb-desc{font-size:1rem;line-height:1.5;margin:.3em 0}
+.guia-cuerpo .lb-meta{margin:0 0 .45em!important}
+.guia-cuerpo .lb-tags{gap:5px;margin:.4em 0}
+.guia-cuerpo .lb-dl{gap:5px 14px}
+.guia-cuerpo .lb-caja{flex:1 1 220px;max-width:260px;padding:16px;gap:8px;border-radius:14px}
+.guia-cuerpo .lb-rel{margin-top:32px}
+.guia-cuerpo .lb-aviso{margin-top:30px!important}
+@media(max-width:700px){
+  .guia-cuerpo .lb-top{gap:14px}
+  .guia-cuerpo .lb-col-portada{flex:0 0 125px;max-width:125px;margin:0}
+  .guia-cuerpo .lb-info{flex:1 1 220px}
+  .guia-cuerpo .lb-caja{max-width:none;flex-basis:100%}
+}
