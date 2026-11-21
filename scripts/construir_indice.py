@@ -12,7 +12,7 @@ Qué indexa (las páginas ya rehechas con el diseño Tierra):
   propio encabezado o, si no tiene, la del h2 anterior, para enlazar al apartado).
 - Por cada libro de docs/biblioteca/index.html (<li class="b-libro" data-cat data-idioma data-sust>,
   el mismo marcado que lee el buscador de esa página): título, autor, año, categoría, idioma, sustancias
-  y descripción. Todos apuntan a biblioteca/.
+  y descripción. Cada resultado enlaza a la ficha del libro cuando existe.
 Cuando una página de WordPress se rehaga con el diseño Tierra, vuelve a lanzar este guion.
 """
 import json
@@ -199,11 +199,15 @@ class Libros(HTMLParser):
         clases = (a.get('class') or '').split()
         if tag == 'li' and 'b-libro' in clases:
             self.libro = {'cat': a.get('data-cat', ''), 'idioma': a.get('data-idioma', ''),
-                          'sust': (a.get('data-sust') or '').split(), 'tit': [], 'meta': [], 'desc': []}
+                          'sust': (a.get('data-sust') or '').split(), 'tit': [], 'meta': [], 'desc': [], 'url': ''}
         elif self.libro is not None and tag == 'p':
             for c, k in (('b-tit', 'tit'), ('b-meta', 'meta'), ('b-desc', 'desc')):
                 if c in clases:
                     self.campo = k
+        elif self.libro is not None and tag == 'a' and self.campo == 'tit':
+            href = a.get('href', '')
+            if href and not href.startswith(('/', 'http:', 'https:', '//')) and '..' not in href.split('/'):
+                self.libro['url'] = 'biblioteca/' + href
 
     def handle_endtag(self, tag):
         if tag == 'p':
@@ -221,7 +225,7 @@ class Libros(HTMLParser):
                 'idioma': l['idioma'],
                 'sustancia': l['sust'],
                 'descripcion': limpia(''.join(l['desc'])),
-                'url': 'biblioteca/',
+                'url': l['url'] or 'biblioteca/',
             })
             self.libro = None
 
