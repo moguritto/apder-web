@@ -716,3 +716,6 @@ nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-ra
 .s-moleculas a.pend img{opacity:.4;filter:grayscale(1)}
 .s-moleculas a.pend span{color:var(--suave)}
 .s-moleculas a.pend:hover img,.s-moleculas a.pend:focus-visible img{opacity:.8}
+
+/* Descargo de responsabilidad al final de guías y artículos */
+.s-descargo{max-width:none;margin:1.2em 0 0}
