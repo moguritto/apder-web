@@ -202,6 +202,7 @@ nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-ra
 .art-cuidado{background:var(--bosque);color:#f1ece2;border-radius:28px;padding:30px 32px;margin:8px 0 0}
 .art-cuidado h3{margin-top:0;color:#fff}
 .art-cuidado ul{padding-left:20px;margin:0}.art-cuidado li{margin-bottom:8px}
+.art-cuidado .art-cuidado-nota{margin:16px 0 0;padding-top:14px;border-top:1px solid rgba(241,236,226,.25);font-size:.95rem;opacity:.92}
 
 /* investigación */
 .art-cifras{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
