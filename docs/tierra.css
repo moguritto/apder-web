@@ -474,3 +474,67 @@ footer.pie a[aria-current="page"]{font-weight:700;text-decoration-thickness:2px}
 .bq-vacio a{color:var(--tierra-osc);text-decoration:underline;text-underline-offset:3px}
 .guia-cuerpo mark{background:#f2d79a;color:var(--texto);border-radius:3px;padding:0 2px}
 @media (max-width:560px){.bq-item{padding:16px 18px;border-radius:18px}}
+
+/* ==========================================================================
+   Megamenú «Sustancias» (cabecera común)
+   Escritorio (≥ 1121 px, donde el menú es horizontal): panel blanco bajo la cabecera que se abre
+   con el ratón, con el foco del teclado y con el botoncito junto al enlace.
+   Hasta 1120 px (menú desplegable): acordeón con las tres listas apiladas; sin JavaScript queda abierto.
+   ========================================================================== */
+header .ancho:has(#menu-principal){position:relative}
+.mega-sust{display:flex;align-items:stretch;border-radius:999px;transition:background .2s}
+header #menu-principal .mega-sust>a:hover,header #menu-principal .mega-sust>a.on{background:transparent}
+header #menu-principal .mega-sust>a{padding-right:2px}
+.mega-sust:hover,.mega-sust:focus-within,.mega-sust.abierto,.mega-sust:has(>a.on){background:var(--arena)}
+.mega-boton{display:grid;place-items:center;flex:none;width:30px;margin:0;padding:0 8px 0 0;border:0;border-radius:999px;background:transparent;color:var(--tierra-osc);cursor:pointer;font:inherit}
+.mega-boton svg{display:block;width:12px;height:12px;transition:transform .2s}
+.mega-boton[aria-expanded="true"] svg{transform:rotate(180deg)}
+html:not(.js) .mega-boton{display:none}
+.mega{background:#fff;color:var(--texto);text-align:left}
+.mega-in{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) minmax(0,1.2fr);gap:8px 24px;padding:30px 30px 32px}
+.mega-col ul{list-style:none;margin:0;padding:0}
+header #menu-principal .mega-tit{margin:0 0 12px;font-size:.78rem;line-height:1.4;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--tierra-osc)}
+header #menu-principal .mega a{display:block;padding:7px 12px;margin:0 -12px;border-radius:12px;background:transparent;font-family:var(--sans);font-size:.95rem;font-weight:600;line-height:1.35;white-space:normal;color:var(--texto)}
+header #menu-principal .mega a:hover{background:var(--arena);color:var(--tierra-hondo)}
+.mega-dest{align-self:start;background:var(--arena);border-radius:24px;padding:22px 20px 14px}
+header #menu-principal .mega-dest a{margin:0 -10px;padding:8px 10px}
+header #menu-principal .mega-dest a:hover{background:#fff}
+header #menu-principal .mega-card{display:block;margin:0 -10px 8px;padding:6px 10px 12px}
+.mega-card img{display:block;width:104px;height:auto;margin:0 0 10px}
+.mega-card strong{display:block;font-family:var(--serif);font-weight:400;font-size:1.35rem;line-height:1.15}
+.mega-card span{display:block;margin-top:6px;font-size:.88rem;font-weight:400;line-height:1.45;color:var(--suave)}
+header #menu-principal .mega-card:hover span{color:var(--texto)}
+header #menu-principal .mega-extra{color:var(--tierra-osc);font-size:.92rem}
+
+/* Escritorio: panel flotante bajo la cabecera, con un puente de 14 px para que no se cierre al cruzar el hueco */
+@media (min-width:1121px){
+  .mega{position:absolute;left:24px;right:24px;top:80px;z-index:40;border-radius:28px;box-shadow:0 14px 34px rgba(60,40,20,.16);
+    visibility:hidden;opacity:0;transform:translateY(-6px);pointer-events:none;transition:opacity .18s,transform .18s,visibility 0s .18s}
+  .mega::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}
+  .mega-sust.abierto .mega,.mega-sust:not(.cerrado):focus-within .mega{visibility:visible;opacity:1;transform:none;pointer-events:auto;transition-delay:0s}
+  .mega-sust.cerrado:hover,.mega-sust.cerrado:focus-within{background:transparent}
+  .mega-sust.cerrado:has(>a.on){background:var(--arena)}
+}
+@media (min-width:1121px) and (hover:hover){
+  .mega-sust:not(.cerrado):hover .mega{visibility:visible;opacity:1;transform:none;pointer-events:auto;transition-delay:0s}
+}
+/* Pantallas estrechas y menú desplegable: acordeón */
+@media (max-width:1120px){
+  .mega-sust{flex-wrap:wrap;border-radius:18px}
+  header #menu-principal .mega-sust>a{flex:1 1 0;min-width:0;padding-right:8px}
+  .mega-boton{width:48px;height:44px;padding:0 6px 0 0}
+  .mega-boton svg{width:14px;height:14px}
+  .mega-sust:hover,.mega-sust:focus-within{background:transparent}
+  .mega-sust.abierto,.mega-sust:has(>a.on){background:var(--arena)}
+  .mega{flex:0 0 100%;background:transparent}
+  .js .mega{display:none}
+  .js .mega-sust.abierto .mega{display:block}
+  .mega-in{display:block;padding:0 6px 10px 18px}
+  .mega-col{margin:0 0 6px}
+  header #menu-principal .mega-tit{margin:10px 0 2px;padding:4px 12px 0 0}
+  header #menu-principal .mega a{margin:0;padding:10px 12px;min-height:44px;display:flex;align-items:center;font-size:.95rem}
+  header #menu-principal .mega a:hover{background:#fff}
+  .mega-dest{display:none}
+}
+@media (prefers-reduced-motion:reduce){.mega,.mega-boton svg,.mega-sust{transition:none}}
+@media print{.mega,.mega-boton{display:none!important}}

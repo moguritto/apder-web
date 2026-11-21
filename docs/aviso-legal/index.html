@@ -27,7 +27,38 @@
     <nav id="menu-principal" aria-label="Menú principal">
       <a href="../">Inicio</a>
       <a href="../#about">El proyecto</a>
-      <a href="../sustancias/">Sustancias</a>
+      <div class="mega-sust">
+        <a href="../sustancias/">Sustancias</a>
+        <button type="button" class="mega-boton" aria-expanded="false" aria-controls="mega-sustancias" aria-label="Mostrar guías de sustancias"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="mega" id="mega-sustancias"><div class="mega-in">
+          <div class="mega-col"><p class="mega-tit" id="mega-t1">Psicodélicos clásicos</p><ul aria-labelledby="mega-t1">
+            <li><a href="../sustancias/psilocibina/">Setas de psilocibina</a></li>
+            <li><a href="../sustancias/lsd/">LSD</a></li>
+            <li><a href="../sustancias/mescalina/">Mescalina, peyote y San Pedro</a></li>
+            <li><a href="../sustancias/dmt/">DMT</a></li>
+            <li><a href="../sustancias/ayahuasca/">Ayahuasca</a></li>
+            <li><a href="../sustancias/5-meo-dmt/">5-MeO-DMT</a></li>
+          </ul></div>
+          <div class="mega-col"><p class="mega-tit" id="mega-t2">Otras sustancias</p><ul aria-labelledby="mega-t2">
+            <li><a href="../sustancias/mdma/">MDMA</a></li>
+            <li><a href="../sustancias/ketamina/">Ketamina</a></li>
+            <li><a href="../sustancias/ibogaina/">Ibogaína</a></li>
+            <li><a href="../sustancias/2c-b/">2C-B</a></li>
+            <li><a href="../sustancias/4-aco-dmt/">4-AcO-DMT</a></li>
+          </ul></div>
+          <div class="mega-col"><p class="mega-tit" id="mega-t3">Plantas y hongos</p><ul aria-labelledby="mega-t3">
+            <li><a href="../sustancias/amanita-muscaria/">Amanita muscaria</a></li>
+            <li><a href="../sustancias/salvia-divinorum/">Salvia divinorum</a></li>
+            <li><a href="../sustancias/cannabis/">Cannabis</a></li>
+            <li><a href="../sustancias/kanna/">Kanna</a></li>
+            <li><a href="../sustancias/kratom/">Kratom</a></li>
+            <li><a href="../sustancias/datura/">Datura</a></li>
+            <li><a href="../sustancias/cacao/">Cacao</a></li>
+            <li><a href="../sustancias/tabaco/">Tabaco</a></li>
+          </ul></div>
+          <div class="mega-col mega-dest"><a class="mega-card" href="../sustancias/"><img src="../sustancias/moleculas/psilocibina.svg" alt="" width="130" height="100" loading="lazy" decoding="async"><strong>Todas las guías</strong><span>Qué son, cómo actúan, investigación, riesgos y legalidad.</span></a><a class="mega-extra" href="../medicinas/">Medicinas por categorías →</a><a class="mega-extra" href="../terapia-asistida-mdma/">Terapia asistida con MDMA →</a></div>
+        </div></div>
+      </div>
       <a href="../medicinas/">Medicinas</a>
       <a href="../investigacion-terapeutica/">Investigación</a>
       <a href="../terapia-asistida-mdma/">Terapia con MDMA</a>
@@ -68,6 +99,16 @@ function fija(o){h.classList.toggle('menu-abierto',o);b.setAttribute('aria-expan
 b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';fija(o);if(o){var a=h.querySelector('nav a');if(a&&a.offsetParent)a.focus()}});
 h.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){fija(false)})});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.getAttribute('aria-expanded')==='true'){fija(false);b.focus()}});
+var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
+if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
+function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
+function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
+mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
+w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
+w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
+document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&esc.matches&&est()){var d=w.contains(document.activeElement);forz=false;cerr=true;if(d)mb.focus();sync()}});
+esc.addEventListener('change',function(){forz=false;cerr=false;sync()});sync()}
 window.addEventListener('beforeprint',function(){document.querySelectorAll('main a[href]').forEach(function(a){var r=a.getAttribute('href');if(r.charAt(0)!=='#'&&!/^(https?:|mailto:)/.test(r))a.setAttribute('data-url',a.href)});document.querySelectorAll('main details').forEach(function(d){if(!d.open){d.open=true;d.setAttribute('data-impresion','1')}})});
 window.addEventListener('afterprint',function(){document.querySelectorAll('main details[data-impresion]').forEach(function(d){d.open=false;d.removeAttribute('data-impresion')})});
 })();
