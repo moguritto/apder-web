@@ -1005,3 +1005,10 @@ body .guia-cuerpo .lb-info h2{font-size:1.3rem;margin:.8em 0 .3em;padding-top:.6
   .guia-cuerpo .lb-info{flex:1 1 220px}
   .guia-cuerpo .lb-caja{max-width:none;flex-basis:100%}
 }
+
+/* Nombre completo de APDER (siempre en inglés): bajo el logo y sobre el titular de la portada */
+.cabecera .marca-txt{display:flex;flex-direction:column;gap:4px}
+.cabecera .marca-txt small{display:none;font-family:var(--sans,inherit);font-size:.6rem;line-height:1.25;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;color:var(--suave)}
+@media (min-width:1240px){.cabecera .marca-txt small{display:block}.cabecera.compacta .marca-txt small{display:none}}
+.portada p.portada-sigla{margin:0 0 6px;max-width:none;font-size:.78rem;line-height:1.5;letter-spacing:.1em;text-wrap:balance;text-transform:uppercase;color:var(--suave)}
+.portada-sigla b{color:var(--tierra-osc);font-weight:800}
