@@ -719,3 +719,13 @@ nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-ra
 
 /* Descargo de responsabilidad al final de guías y artículos */
 .s-descargo{max-width:none;margin:1.2em 0 0}
+
+/* «En los medios» (Terapia con MDMA) */
+.art-medios{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0 22px}
+.art-texto ul.art-medios{padding-left:0}
+.art-medios li{background:#fff;border-radius:20px;padding:18px 20px;box-shadow:0 2px 10px rgba(60,40,20,.05);margin:0}
+.art-medios .medio{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;color:var(--bosque);margin-bottom:6px}
+.art-medios a{font-family:var(--serif);font-size:1.15rem;line-height:1.35;color:var(--texto);text-decoration:underline;text-decoration-color:var(--arena);text-underline-offset:4px}
+.art-medios a:hover{color:var(--tierra-osc)}
+.art-medios p{margin:8px 0 0;font-size:.92rem;color:var(--suave)}
+@media (max-width:760px){.art-medios{grid-template-columns:1fr}}
