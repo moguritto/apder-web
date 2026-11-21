@@ -709,3 +709,45 @@ nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-ra
   .art-aviso{padding:18px 18px}
   .art-cita{padding:22px 22px}
 }
+
+/* ===== Mejoras de la auditoría de diseño (21-11-2026) ===== */
+/* línea de lectura más corta */
+.s-cuerpo p,.s-cuerpo li{max-width:72ch}
+.s-cuerpo .s-tabla p,.s-cuerpo .s-tabla li{max-width:none}
+
+/* etiquetas de riesgo: palabra + símbolo + color (no solo color) */
+.riesgo{display:inline-flex;align-items:center;gap:.4em;font-weight:700;white-space:nowrap}
+.riesgo::before{font-size:.8em;line-height:1}
+.r-alto{color:#7a2412}.r-alto::before{content:"▲"}
+.r-medio{color:#7a5410}.r-medio::before{content:"●"}
+.r-bajo{color:#2f5a3a}.r-bajo::before{content:"○"}
+
+/* tablas con cabecera: en móvil se apilan, sin deslizar de lado */
+@media (max-width:560px){
+  .s-tabla table:has(thead){min-width:0}
+  .s-tabla table:has(thead) thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .s-tabla table:has(thead) tr{display:block;padding:12px 4px;border-bottom:1px solid var(--arena)}
+  .s-tabla table:has(thead) tbody tr:last-child{border-bottom:0}
+  .s-tabla table:has(thead) td{display:block;border:0;padding:.15em 1em}
+  .s-tabla table:has(thead) td:first-child{font-weight:700;font-size:1.02rem}
+  .s-tabla table:has(thead) td[data-label]:not(:first-child)::before{content:attr(data-label);display:block;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--tierra-osc);font-weight:700;margin-top:.5em}
+}
+
+/* volver arriba */
+.subir{position:fixed;right:16px;bottom:16px;z-index:20;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 16px;border-radius:999px;background:var(--bosque);color:var(--crema);font-weight:700;font-size:.9rem;text-decoration:none;box-shadow:0 4px 18px rgba(30,25,15,.25)}
+.subir[hidden]{display:none}
+.subir:hover{background:var(--tierra-osc)}
+@media print{.subir{display:none!important}}
+
+/* biblioteca: carga más ligera y enlace por libro */
+.guia-cuerpo .b-libro{content-visibility:auto;contain-intrinsic-size:auto 150px}
+.guia-cuerpo .b-libro .b-enlace{margin-top:.6em}
+.guia-cuerpo .b-libro .b-enlace a{display:inline-flex;align-items:center;min-height:44px;font-size:.88rem;font-weight:700;color:var(--tierra-osc);text-decoration:underline;text-underline-offset:3px}
+
+/* portada en móvil: tarjetas de sustancias más compactas */
+@media (max-width:560px){
+  .tarjetas{gap:12px}
+  .tarjeta{padding:12px 12px 14px;border-radius:20px}
+  .tarjeta img{aspect-ratio:16/9}
+  .tarjeta h3{font-size:1.15rem}
+}
