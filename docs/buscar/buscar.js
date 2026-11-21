@@ -133,7 +133,7 @@
     marca(a, texto, ts);
     return a;
   }
-  var ETIQUETA = { 'Sustancias': 'Sustancias', 'Medicinas': 'Medicinas', 'Investigación': 'Investigación', 'Terapia': 'Terapia', 'Biblioteca': 'Biblioteca', 'Inicio': 'Inicio', 'Información legal': 'Información legal' };
+  var ETIQUETA = { 'Sustancias': 'Medicinas', 'Medicinas': 'Por familias', 'Investigación': 'Investigación', 'Terapia': 'Terapia', 'Biblioteca': 'Biblioteca', 'Inicio': 'Inicio', 'Información legal': 'Información legal' };
 
   function itemPagina(p, ts) {
     var url = '../' + p.url;
@@ -219,7 +219,7 @@
       v.appendChild(el('p', '', 'No hemos encontrado nada para «' + txt + '». Prueba con otra palabra, con menos palabras o revisa la ortografía.'));
       var p2 = el('p');
       p2.appendChild(document.createTextNode('También puedes explorar las '));
-      [['../sustancias/', 'guías de sustancias'], ['../medicinas/', 'medicinas'], ['../investigacion-terapeutica/', 'investigación'], ['../biblioteca/', 'biblioteca']].forEach(function (x, i, a) {
+      [['../sustancias/', 'guías de medicinas'], ['../medicinas/', 'medicinas por familias'], ['../investigacion-terapeutica/', 'investigación'], ['../biblioteca/', 'biblioteca']].forEach(function (x, i, a) {
         var l = document.createElement('a');
         l.href = x[0]; l.textContent = x[1];
         p2.appendChild(l);

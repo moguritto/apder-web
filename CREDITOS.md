@@ -9,6 +9,8 @@ Qué consta en este repositorio sobre el origen y la licencia de cada imagen de 
 | `docs/img/apder-1-transparent.webp` | Logo de APDER con fondo transparente, usado en el pie | Por confirmar (web original apder.org) | Por confirmar | Por confirmar |
 | `docs/img/favicon.png` | Icono de pestaña | Por confirmar | Por confirmar | Por confirmar |
 | `docs/img/setas-amanita.png` | Ilustración de setas de APDER (portada de Sustancias) | Por confirmar | Por confirmar | Por confirmar |
+| `docs/img/og/*.png` | Tarjetas para compartir de cada página (1200×630) | Propias: generadas para APDER con `scripts/tarjetas_og.py`, con las letras DM Serif Display y Nunito Sans, la paleta Tierra, los dibujos de moléculas y el logo | Propia de APDER (la parte del logo depende de la licencia del logo) | Hechas el 21/11/2026 |
+| `docs/img/corazon.svg` | Dibujo de un corazón con un brote (guía para participantes) | Propio: dibujado para APDER | Propia de APDER | Hecho el 21/11/2026 |
 | `docs/sustancias/moleculas/*.svg` | Dibujos de las 19 moléculas de las guías | Generados para APDER con RDKit (según `LEEME.md`) | Por confirmar | Por confirmar |
 | `docs/fuentes/*.woff2` | Letras DM Serif Display y Nunito Sans (no son imágenes) | Paquetes npm @fontsource/dm-serif-display y @fontsource/nunito-sans 5.3.0, sin modificar | SIL Open Font License 1.1 (textos en `docs/fuentes/`) | Confirmado en `docs/fuentes/LEEME.txt` |
 
