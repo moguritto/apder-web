@@ -1,0 +1,11 @@
+Letras alojadas en la propia web (sin Google Fonts)
+
+- DM Serif Display 400, normal y cursiva (subconjuntos latin y latin-ext).
+- Nunito Sans 400, 600 y 700, normal (subconjuntos latin y latin-ext).
+
+Origen: paquetes npm @fontsource/dm-serif-display 5.3.0 y @fontsource/nunito-sans 5.3.0
+(archivos .woff2 sin modificar). Licencia: SIL Open Font License 1.1; los textos de la
+licencia con los avisos de autoría están en OFL-DM-Serif-Display.txt y OFL-Nunito-Sans.txt.
+
+Las reglas @font-face están en ../tierra.css. Si se usa otro peso o estilo, hay que
+añadir aquí su archivo y su regla; si no, el navegador lo sintetiza.
