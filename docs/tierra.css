@@ -990,8 +990,8 @@ footer.pie .pie-tel a{display:inline-flex;align-items:center;min-height:44px;tex
 .guia-cuerpo .lb-top{gap:22px;margin-top:14px}
 .guia-cuerpo .lb-col-portada{flex:0 1 180px;max-width:180px}
 .guia-cuerpo .lb-info{flex:999 1 380px}
-.guia-cuerpo .lb-info h1{font-size:clamp(1.8rem,3.2vw,2.7rem)}
-.guia-cuerpo .lb-info h2{font-size:1.3rem;margin:.8em 0 .3em;padding-top:.6em}
+body .guia-cuerpo .lb-info h1{font-size:clamp(1.8rem,3.2vw,2.7rem)}
+body .guia-cuerpo .lb-info h2{font-size:1.3rem;margin:.8em 0 .3em;padding-top:.6em}
 .guia-cuerpo .lb-desc{font-size:1rem;line-height:1.5;margin:.3em 0}
 .guia-cuerpo .lb-meta{margin:0 0 .45em!important}
 .guia-cuerpo .lb-tags{gap:5px;margin:.4em 0}
