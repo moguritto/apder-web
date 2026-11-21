@@ -8,7 +8,7 @@ Qué consta en este repositorio sobre el origen y la licencia de cada imagen de 
 | `docs/img/apder-icono.webp` | Logo de APDER (icono de seta y hojas), usado en la cabecera | Por confirmar (forma parte de la web original apder.org copiada el 26/10/2026) | Por confirmar | Por confirmar |
 | `docs/img/apder-1-transparent.webp` | Logo de APDER con fondo transparente, usado en el pie | Por confirmar (web original apder.org) | Por confirmar | Por confirmar |
 | `docs/img/favicon.png` | Icono de pestaña | Por confirmar | Por confirmar | Por confirmar |
-| `docs/img/setas-amanita.png` | Ilustración de setas de APDER (portada de Sustancias) | Por confirmar | Por confirmar | Por confirmar |
+| `docs/img/sustancias-portada.svg` | Estructura de la psilocibina con los colores de APDER (portada de Sustancias) | Propia: generada a partir de `docs/sustancias/moleculas/psilocibina.svg` | APDER | Propia |
 | `docs/sustancias/moleculas/*.svg` | Dibujos de las 19 moléculas de las guías | Generados para APDER con RDKit (según `LEEME.md`) | Por confirmar | Por confirmar |
 | `docs/fuentes/*.woff2` | Letras DM Serif Display y Nunito Sans (no son imágenes) | Paquetes npm @fontsource/dm-serif-display y @fontsource/nunito-sans 5.3.0, sin modificar | SIL Open Font License 1.1 (textos en `docs/fuentes/`) | Confirmado en `docs/fuentes/LEEME.txt` |
 
