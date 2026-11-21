@@ -709,3 +709,10 @@ nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-ra
   .art-aviso{padding:18px 18px}
   .art-cita{padding:22px 22px}
 }
+
+/* Guías aún sin revisar con la plantilla común: tono apagado en el megamenú y en las tarjetas de Sustancias */
+.mega a.pend{color:var(--suave)}
+.mega a.pend:hover,.mega a.pend:focus-visible{color:var(--texto)}
+.s-moleculas a.pend img{opacity:.4;filter:grayscale(1)}
+.s-moleculas a.pend span{color:var(--suave)}
+.s-moleculas a.pend:hover img,.s-moleculas a.pend:focus-visible img{opacity:.8}
