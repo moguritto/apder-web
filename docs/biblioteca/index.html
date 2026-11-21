@@ -191,6 +191,7 @@ a.bx-portada{text-decoration:none!important}
 <select id="b-orden"><option value="rel">Recomendados</option><option value="new">Más recientes</option><option value="old">Más antiguos</option><option value="az">Título (A–Z)</option><option value="autor">Autor (A–Z)</option></select></div>
 </div>
 <p id="b-n" class="bx-n-res" aria-live="polite">807 libros</p>
+<button type="button" class="bx-limpiar" id="b-compartir">Copiar enlace a estos resultados</button> <span id="b-compartir-estado" role="status" aria-live="polite"></span>
 <div id="b-chips" class="bx-chips"></div>
 <div id="b-vacio" class="bx-vacio" hidden><p class="bx-vacio-t">Ningún libro coincide con estos filtros.</p><p>Prueba a quitar alguno o a buscar con otras palabras.</p></div>
 <ul class="b-lista bx-rejilla" id="b-lista">
@@ -2232,9 +2233,19 @@ var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(functio
 orden.addEventListener('change',function(){lim=PAG;pinta()});
 mas.addEventListener('click',function(){var primero=lim;lim+=PAG;pinta();var b=lista.children[primero];if(b){var a=b.querySelector('a');if(a)a.focus({preventScroll:true})}});
 limpiar.addEventListener('click',function(){cajas.forEach(function(c){c.checked=false});for(var f in sel)sel[f]=[];q.value='';lim=PAG;pinta()});
+document.getElementById('b-compartir').addEventListener('click',async function(){
+  var enlace=new URL(location.href); enlace.search=''; enlace.hash='';
+  if(q.value.trim())enlace.searchParams.set('q',q.value.trim());
+  Object.keys(sel).forEach(function(f){sel[f].forEach(function(v){enlace.searchParams.append(f,v)})});
+  if(orden.value!=='rel')enlace.searchParams.set('orden',orden.value);
+  var estado=document.getElementById('b-compartir-estado');
+  try{await navigator.clipboard.writeText(enlace.href);estado.textContent='Enlace copiado.'}
+  catch(e){estado.textContent='Copia este enlace: '+enlace.href}
+});
 var ps=new URLSearchParams(location.search);
 ['cat','sust','idioma','decada','autor'].forEach(function(f){ps.getAll(f).forEach(function(v){cajas.forEach(function(c){if(c.dataset.f===f&&c.value===v&&!c.checked){c.checked=true;sel[f].push(v)}})})});
 if(ps.get('q')){q.value=ps.get('q')}
+if(Array.from(orden.options).some(function(o){return o.value===ps.get('orden')}))orden.value=ps.get('orden');
 if(window.matchMedia('(max-width:900px)').matches)document.querySelectorAll('.bx-sec').forEach(function(s){s.open=false});
 pinta();
 })();
