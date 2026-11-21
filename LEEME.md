@@ -29,6 +29,14 @@ Decisión de Mannu (21-11-2026), para toda la web:
 - Se mantienen las páginas obligatorias: Aviso legal y Política de privacidad y cookies.
 - La biblioteca puede describir libros cuyo tema sea la historia o la política de las drogas.
 
+## Nombre de APDER: siempre en inglés
+
+Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nunca en español**: **Association for Psychedelic Divulgation, Education and Research** (de ahí la sigla APDER).
+
+- Aparece bajo el logo de la cabecera (pantallas de 1240 px o más), sobre el titular de la portada con las iniciales marcadas, en el pie de todas las páginas, en el aviso legal y en el texto alternativo de las tarjetas para compartir.
+- En el HTML va dentro de `lang="en"`. Estilos al final de `docs/tierra.css` (`.marca-txt`, `.portada-sigla`).
+- Si se regeneran páginas con guiones que viven fuera del repo (por ejemplo, las fichas de la biblioteca), hay que mantener el nombre en inglés en el pie.
+
 ## Sustancias (nuevo)
 
 - `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, preguntas).
