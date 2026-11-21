@@ -1,0 +1,360 @@
+# Línea base del comprobador sobre docs/ (main, commit fbe47e8). Errores heredados: no se arreglan aquí.
+# Orden: python3 scripts/comprobar_web.py
+Comprobador de la web · carpeta /home/claude/wt/comprobador/docs · 39 páginas HTML analizadas
+
+== a-enlaces · Enlaces internos rotos (href/src) → OK
+
+== b-h1 · Exactamente un <h1> por página → 4 errores, 0 avisos
+  ERROR docs/divulgation/index.html — tiene 0 etiquetas <h1> (debe haber exactamente 1)
+  ERROR docs/meditacion-corazon-2026/index.html — tiene 3 etiquetas <h1> (debe haber exactamente 1)
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html — tiene 5 etiquetas <h1> (debe haber exactamente 1)
+  ERROR docs/terapia-asistida-mdma/index.html — tiene 4 etiquetas <h1> (debe haber exactamente 1)
+
+== c-descripcion · <meta name="description" presente y de 120 a 160 caracteres → 17 errores, 0 avisos
+  ERROR docs/404.html — falta <meta name="description">
+  ERROR docs/aviso-legal/index.html — falta <meta name="description">
+  ERROR docs/biblioteca/index.html — descripción de 80 caracteres (debe tener de 120 a 160)
+  ERROR docs/divulgation/index.html — falta <meta name="description">
+  ERROR docs/index.html — descripción de 181 caracteres (debe tener de 120 a 160)
+  ERROR docs/investigacion-terapeutica/index.html — descripción de 189 caracteres (debe tener de 120 a 160)
+  ERROR docs/medicinas/index.html — descripción de 167 caracteres (debe tener de 120 a 160)
+  ERROR docs/meditacion-corazon-2026/index.html — falta <meta name="description">
+  ERROR docs/politica-de-privacidad/index.html — falta <meta name="description">
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html — falta <meta name="description">
+  ERROR docs/sustancias/2c-b/index.html — descripción de 105 caracteres (debe tener de 120 a 160)
+  ERROR docs/sustancias/cacao/index.html — descripción de 117 caracteres (debe tener de 120 a 160)
+  ERROR docs/sustancias/cannabis/index.html — descripción de 119 caracteres (debe tener de 120 a 160)
+  ERROR docs/sustancias/dmt/index.html — descripción de 112 caracteres (debe tener de 120 a 160)
+  ERROR docs/sustancias/index.html — descripción de 105 caracteres (debe tener de 120 a 160)
+  ERROR docs/sustancias/lsd/index.html — descripción de 112 caracteres (debe tener de 120 a 160)
+  ERROR docs/terapia-asistida-mdma/index.html — falta <meta name="description">
+
+== d-idioma · <html lang="es"> y og:locale es_ES → 11 errores, 0 avisos
+  ERROR docs/404.html — falta <meta property="og:locale" content="es_ES">
+  ERROR docs/aviso-legal/index.html — falta <meta property="og:locale" content="es_ES">
+  ERROR docs/divulgation/index.html — <html lang> es 'en-US' (debe ser "es")
+  ERROR docs/divulgation/index.html — og:locale es 'en_US' (debe ser "es_ES")
+  ERROR docs/meditacion-corazon-2026/index.html — <html lang> es 'en-US' (debe ser "es")
+  ERROR docs/meditacion-corazon-2026/index.html — og:locale es 'en_US' (debe ser "es_ES")
+  ERROR docs/politica-de-privacidad/index.html — falta <meta property="og:locale" content="es_ES">
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html — <html lang> es 'en-US' (debe ser "es")
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html — og:locale es 'en_US' (debe ser "es_ES")
+  ERROR docs/terapia-asistida-mdma/index.html — <html lang> es 'en-US' (debe ser "es")
+  ERROR docs/terapia-asistida-mdma/index.html — og:locale es 'en_US' (debe ser "es_ES")
+
+== e-alt · Imágenes sin alt (alt vacío = aviso) → 0 errores, 152 avisos
+  AVISO docs/404.html:25 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/404.html:61 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/aviso-legal/index.html:24 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/aviso-legal/index.html:72 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/biblioteca/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/biblioteca/index.html:558 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:404 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:427 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:459 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:482 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:550 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:599 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:611 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:623 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:635 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:647 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:659 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:675 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:687 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:699 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:711 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:723 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:735 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:751 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:763 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:775 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:787 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:799 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:811 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/divulgation/index.html:886 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:25 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:53 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:75 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:76 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:77 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:78 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:79 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:80 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:81 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:82 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:92 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:93 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/index.html:94 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/investigacion-terapeutica/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/investigacion-terapeutica/index.html:404 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/medicinas/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/medicinas/index.html:353 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/meditacion-corazon-2026/index.html:410 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/meditacion-corazon-2026/index.html:433 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/meditacion-corazon-2026/index.html:465 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/meditacion-corazon-2026/index.html:488 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/meditacion-corazon-2026/index.html:677 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/politica-de-privacidad/index.html:24 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/politica-de-privacidad/index.html:109 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/protocolo-meditacion-agosto-2024/index.html:410 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/protocolo-meditacion-agosto-2024/index.html:433 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/protocolo-meditacion-agosto-2024/index.html:465 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/protocolo-meditacion-agosto-2024/index.html:488 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/protocolo-meditacion-agosto-2024/index.html:646 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/2c-b/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/2c-b/index.html:208 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/4-aco-dmt/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/4-aco-dmt/index.html:178 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/5-meo-dmt/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/5-meo-dmt/index.html:218 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/amanita-muscaria/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/amanita-muscaria/index.html:195 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/ayahuasca/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/ayahuasca/index.html:245 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/cacao/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/cacao/index.html:155 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/cannabis/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/cannabis/index.html:202 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/datura/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/datura/index.html:161 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/dmt/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/dmt/index.html:230 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/ibogaina/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/ibogaina/index.html:221 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:62 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:63 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:64 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:65 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:66 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:67 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:68 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:69 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:70 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:71 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:72 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:73 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:74 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:75 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:76 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:77 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:78 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:79 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:80 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:81 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/index.html:213 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/kanna/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/kanna/index.html:160 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/ketamina/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/ketamina/index.html:233 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/kratom/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/kratom/index.html:173 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/lsd/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/lsd/index.html:276 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/mdma/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/mdma/index.html:254 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/mescalina/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/mescalina/index.html:235 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/psilocibina/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/psilocibina/index.html:379 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/salvia-divinorum/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/salvia-divinorum/index.html:186 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/tabaco/index.html:34 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/sustancias/tabaco/index.html:158 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:431 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:454 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:486 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:509 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:666 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:704 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:724 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:744 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:764 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:800 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:820 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:840 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:860 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:896 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:916 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:936 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:972 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:992 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1012 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1036 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1056 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1076 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1096 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1224 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1244 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1264 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1284 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1318 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1338 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1358 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1378 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1399 — <img alt=""> (válido solo si es decorativa)
+  AVISO docs/terapia-asistida-mdma/index.html:1482 — <img alt=""> (válido solo si es decorativa)
+
+== f-peso · Peso de las páginas HTML (aviso > 60 KB) y peso total → 0 errores, 5 avisos
+  AVISO docs/biblioteca/index.html — pesa 168 KB (aviso a partir de 60 KB)
+  AVISO docs/divulgation/index.html — pesa 223 KB (aviso a partir de 60 KB)
+  AVISO docs/meditacion-corazon-2026/index.html — pesa 166 KB (aviso a partir de 60 KB)
+  AVISO docs/protocolo-meditacion-agosto-2024/index.html — pesa 172 KB (aviso a partir de 60 KB)
+  AVISO docs/terapia-asistida-mdma/index.html — pesa 258 KB (aviso a partir de 60 KB)
+  INFO  (docs/) — peso total 15.4 MB (wp-content + wp-includes 13.7 MB, resto 1.7 MB); 39 páginas HTML analizadas
+
+== g-terceros · Llamadas a recursos de terceros (css/js/img/fuentes/iframe) → 113 errores, 0 avisos
+  ERROR docs/404.html:9 — <link> carga https://fonts.googleapis.com
+  ERROR docs/404.html:10 — <link> carga https://fonts.gstatic.com
+  ERROR docs/404.html:11 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&display=swap
+  ERROR docs/404.html:13 — <link> carga https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Caslon+Text:wght@400;700&display=swap
+  ERROR docs/aviso-legal/index.html:8 — <link> carga https://fonts.googleapis.com
+  ERROR docs/aviso-legal/index.html:9 — <link> carga https://fonts.gstatic.com
+  ERROR docs/aviso-legal/index.html:10 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&display=swap
+  ERROR docs/aviso-legal/index.html:12 — <link> carga https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Caslon+Text:wght@400;700&display=swap
+  ERROR docs/biblioteca/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/biblioteca/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/biblioteca/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/divulgation/index.html:6 — <link> carga https://gmpg.org/xfn/11
+  ERROR docs/divulgation/index.html:137 — <link> carga https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/divulgation/index.html:138 — <link> carga https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/divulgation/index.html:139 — <link> carga https://fonts.googleapis.com/css?family=Raleway:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/divulgation/index.html:140 — <link> carga https://fonts.googleapis.com/css?family=Alata:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/divulgation/index.html:141 — <link> carga https://fonts.googleapis.com/css?family=Nunito+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/divulgation/index.html:387 — <link> carga https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Caslon+Text:wght@400;700&display=swap
+  ERROR docs/index.html:17 — <link> carga https://fonts.googleapis.com
+  ERROR docs/index.html:18 — <link> carga https://fonts.gstatic.com
+  ERROR docs/index.html:19 — <link> carga https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:wght@400;600;700&display=swap
+  ERROR docs/investigacion-terapeutica/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/investigacion-terapeutica/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/investigacion-terapeutica/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/medicinas/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/medicinas/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/medicinas/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/meditacion-corazon-2026/index.html:6 — <link> carga https://gmpg.org/xfn/11
+  ERROR docs/meditacion-corazon-2026/index.html:143 — <link> carga https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/meditacion-corazon-2026/index.html:144 — <link> carga https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/meditacion-corazon-2026/index.html:145 — <link> carga https://fonts.googleapis.com/css?family=Josefin+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/meditacion-corazon-2026/index.html:146 — <link> carga https://fonts.googleapis.com/css?family=Raleway:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/meditacion-corazon-2026/index.html:147 — <link> carga https://fonts.googleapis.com/css?family=Nunito+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/meditacion-corazon-2026/index.html:393 — <link> carga https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Caslon+Text:wght@400;700&display=swap
+  ERROR docs/politica-de-privacidad/index.html:8 — <link> carga https://fonts.googleapis.com
+  ERROR docs/politica-de-privacidad/index.html:9 — <link> carga https://fonts.gstatic.com
+  ERROR docs/politica-de-privacidad/index.html:10 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&display=swap
+  ERROR docs/politica-de-privacidad/index.html:12 — <link> carga https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Caslon+Text:wght@400;700&display=swap
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:6 — <link> carga https://gmpg.org/xfn/11
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:143 — <link> carga https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:144 — <link> carga https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:145 — <link> carga https://fonts.googleapis.com/css?family=Josefin+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:146 — <link> carga https://fonts.googleapis.com/css?family=Raleway:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:147 — <link> carga https://fonts.googleapis.com/css?family=Nunito+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:393 — <link> carga https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Caslon+Text:wght@400;700&display=swap
+  ERROR docs/sustancias/2c-b/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/2c-b/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/2c-b/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/4-aco-dmt/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/4-aco-dmt/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/4-aco-dmt/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/5-meo-dmt/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/5-meo-dmt/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/5-meo-dmt/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/amanita-muscaria/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/amanita-muscaria/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/amanita-muscaria/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/ayahuasca/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/ayahuasca/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/ayahuasca/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/cacao/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/cacao/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/cacao/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/cannabis/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/cannabis/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/cannabis/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/datura/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/datura/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/datura/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/dmt/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/dmt/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/dmt/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/ibogaina/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/ibogaina/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/ibogaina/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/kanna/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/kanna/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/kanna/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/ketamina/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/ketamina/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/ketamina/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/kratom/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/kratom/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/kratom/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/lsd/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/lsd/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/lsd/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/mdma/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/mdma/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/mdma/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/mescalina/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/mescalina/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/mescalina/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/psilocibina/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/psilocibina/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/psilocibina/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/salvia-divinorum/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/salvia-divinorum/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/salvia-divinorum/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/sustancias/tabaco/index.html:18 — <link> carga https://fonts.googleapis.com
+  ERROR docs/sustancias/tabaco/index.html:19 — <link> carga https://fonts.gstatic.com
+  ERROR docs/sustancias/tabaco/index.html:20 — <link> carga https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&family=Inter:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap
+  ERROR docs/terapia-asistida-mdma/index.html:6 — <link> carga https://gmpg.org/xfn/11
+  ERROR docs/terapia-asistida-mdma/index.html:164 — <link> carga https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/terapia-asistida-mdma/index.html:165 — <link> carga https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/terapia-asistida-mdma/index.html:166 — <link> carga https://fonts.googleapis.com/css?family=Alata:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/terapia-asistida-mdma/index.html:167 — <link> carga https://fonts.googleapis.com/css?family=Raleway:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/terapia-asistida-mdma/index.html:168 — <link> carga https://fonts.googleapis.com/css?family=Nunito+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=auto
+  ERROR docs/terapia-asistida-mdma/index.html:414 — <link> carga https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Caslon+Text:wght@400;700&display=swap
+  ERROR docs/terapia-asistida-mdma/index.html:670 — <iframe> carga https://mega.nz/embed/kZ9hiJgJ#ovvrOugFKBhPe3Vs8OEU1Q8dadJm6nnRg72M4tSyUN8
+
+== h-wp · Referencias a wp-content / wp-includes → 5 errores, 0 avisos
+  ERROR docs/divulgation/index.html:28 — 231 referencias a wp-content/wp-includes (p. ej. wp-content/*, wp-content/plugins/*, wp-content/plugins/ele-custom-skin/assets/css/ecs-style.css?v)
+  ERROR docs/meditacion-corazon-2026/index.html:29 — 98 referencias a wp-content/wp-includes (p. ej. wp-content/*, wp-content/plugins/*, wp-content/plugins/ele-custom-skin/assets/css/ecs-style.css?v)
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:29 — 98 referencias a wp-content/wp-includes (p. ej. wp-content/*, wp-content/plugins/*, wp-content/plugins/ele-custom-skin/assets/css/ecs-style.css?v)
+  ERROR docs/sustancias/index.html:49 — 1 referencias a wp-content/wp-includes (p. ej. wp-content/uploads/2022/08/amanita-muscaria-g-1.-new-600x600.)
+  ERROR docs/terapia-asistida-mdma/index.html:29 — 255 referencias a wp-content/wp-includes (p. ej. wp-content/*, wp-content/plugins/*, wp-content/plugins/ele-custom-skin/assets/css/ecs-style.css?v)
+
+== i-ingles · Texto en inglés residual en el pie → 7 errores, 0 avisos
+  ERROR docs/404.html:76 — texto en inglés en el pie: all rights reserved, terms of use
+  ERROR docs/aviso-legal/index.html:87 — texto en inglés en el pie: all rights reserved, terms of use
+  ERROR docs/divulgation/index.html:914 — texto en inglés en el pie: all rights reserved, terms of use
+  ERROR docs/meditacion-corazon-2026/index.html:705 — texto en inglés en el pie: all rights reserved, terms of use
+  ERROR docs/politica-de-privacidad/index.html:124 — texto en inglés en el pie: all rights reserved, terms of use
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:674 — texto en inglés en el pie: all rights reserved, terms of use
+  ERROR docs/terapia-asistida-mdma/index.html:1510 — texto en inglés en el pie: all rights reserved, terms of use
+
+== j-noindex-sitemap · Páginas noindex (o inexistentes) en sitemap.xml → OK
+
+== j-almohadilla · Enlaces a "#" vacíos → 16 errores, 0 avisos
+  ERROR docs/divulgation/index.html:914 — enlace <a href="#"> vacío
+  ERROR docs/divulgation/index.html:914 — enlace <a href="#"> vacío
+  ERROR docs/divulgation/index.html:934 — enlace <a href="#"> vacío
+  ERROR docs/divulgation/index.html:934 — enlace <a href="#"> vacío
+  ERROR docs/meditacion-corazon-2026/index.html:705 — enlace <a href="#"> vacío
+  ERROR docs/meditacion-corazon-2026/index.html:705 — enlace <a href="#"> vacío
+  ERROR docs/meditacion-corazon-2026/index.html:725 — enlace <a href="#"> vacío
+  ERROR docs/meditacion-corazon-2026/index.html:725 — enlace <a href="#"> vacío
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:674 — enlace <a href="#"> vacío
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:674 — enlace <a href="#"> vacío
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:694 — enlace <a href="#"> vacío
+  ERROR docs/protocolo-meditacion-agosto-2024/index.html:694 — enlace <a href="#"> vacío
+  ERROR docs/terapia-asistida-mdma/index.html:1510 — enlace <a href="#"> vacío
+  ERROR docs/terapia-asistida-mdma/index.html:1510 — enlace <a href="#"> vacío
+  ERROR docs/terapia-asistida-mdma/index.html:1530 — enlace <a href="#"> vacío
+  ERROR docs/terapia-asistida-mdma/index.html:1530 — enlace <a href="#"> vacío
+
+Resumen: 173 errores, 157 avisos
+Resultado: FALLA (hay errores)
+# código de salida: 1

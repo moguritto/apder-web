@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>APDER · Divulgación, educación e investigación psicodélica</title>
-<meta name="description" content="APDER es una asociación sin ánimo de lucro que comparte conocimiento psicodélico accesible y riguroso, desde la reducción de riesgos: guías de sustancias, formación e investigación.">
+<meta name="description" content="APDER es una asociación sin ánimo de lucro que comparte conocimiento psicodélico accesible y riguroso, desde la reducción de riesgos.">
 <link rel="canonical" href="https://apder.org/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="APDER">
@@ -12,34 +12,105 @@
 <meta property="og:title" content="APDER · Divulgación, educación e investigación psicodélica">
 <meta property="og:description" content="Conocimiento psicodélico accesible y riguroso, desde la reducción de riesgos.">
 <meta property="og:url" content="https://apder.org/">
-<meta property="og:image" content="https://apder.org/img/apder-1-transparent.webp">
+<meta property="og:image" content="https://apder.org/img/og-apder.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="APDER: Divulgación, educación e investigación psicodélica">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://apder.org/img/og-apder.png">
+<meta name="twitter:image:alt" content="APDER: Divulgación, educación e investigación psicodélica">
+<script>document.documentElement.classList.add("js")</script>
 <link rel="icon" href="img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:wght@400;600;700&display=swap">
+<link rel="preload" href="fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="tierra.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://apder.org/#organizacion",
+      "name": "APDER",
+      "url": "https://apder.org/",
+      "logo": "https://apder.org/img/apder-icono.webp",
+      "email": "info@apder.org",
+      "sameAs": [
+        "https://www.youtube.com/@apderorg",
+        "https://www.instagram.com/apder",
+        "https://www.facebook.com/apder"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://apder.org/#web",
+      "name": "APDER",
+      "url": "https://apder.org/",
+      "inLanguage": "es-ES",
+      "publisher": {
+        "@id": "https://apder.org/#organizacion"
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
 <header id="home">
   <div class="ancho">
     <a class="marca" href="./"><img src="img/apder-icono.webp" alt="" width="455" height="344"><span>APDER</span></a>
-    <input type="checkbox" id="menu-movil" class="menu-check">
-    <nav aria-label="Menú principal">
+    <nav id="menu-principal" aria-label="Menú principal">
       <a class="on" href="./">Inicio</a>
       <a href="#about">El proyecto</a>
-      <a href="sustancias/">Sustancias</a>
+      <div class="mega-sust">
+        <a href="sustancias/">Sustancias</a>
+        <button type="button" class="mega-boton" aria-expanded="false" aria-controls="mega-sustancias" aria-label="Mostrar guías de sustancias"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="mega" id="mega-sustancias"><div class="mega-in">
+          <div class="mega-col"><p class="mega-tit" id="mega-t1">Psicodélicos clásicos</p><ul aria-labelledby="mega-t1">
+            <li><a href="sustancias/psilocibina/">Setas de psilocibina</a></li>
+            <li><a href="sustancias/lsd/">LSD</a></li>
+            <li><a href="sustancias/mescalina/">Mescalina, peyote y San Pedro</a></li>
+            <li><a href="sustancias/dmt/">DMT</a></li>
+            <li><a href="sustancias/ayahuasca/">Ayahuasca</a></li>
+            <li><a href="sustancias/5-meo-dmt/">5-MeO-DMT</a></li>
+          </ul></div>
+          <div class="mega-col"><p class="mega-tit" id="mega-t2">Otras sustancias</p><ul aria-labelledby="mega-t2">
+            <li><a href="sustancias/mdma/">MDMA</a></li>
+            <li><a href="sustancias/ketamina/">Ketamina</a></li>
+            <li><a href="sustancias/ibogaina/">Ibogaína</a></li>
+            <li><a href="sustancias/2c-b/">2C-B</a></li>
+            <li><a href="sustancias/4-aco-dmt/">4-AcO-DMT</a></li>
+          </ul></div>
+          <div class="mega-col"><p class="mega-tit" id="mega-t3">Plantas y hongos</p><ul aria-labelledby="mega-t3">
+            <li><a href="sustancias/amanita-muscaria/">Amanita muscaria</a></li>
+            <li><a href="sustancias/salvia-divinorum/">Salvia divinorum</a></li>
+            <li><a href="sustancias/cannabis/">Cannabis</a></li>
+            <li><a href="sustancias/kanna/">Kanna</a></li>
+            <li><a href="sustancias/kratom/">Kratom</a></li>
+            <li><a href="sustancias/datura/">Datura</a></li>
+            <li><a href="sustancias/cacao/">Cacao</a></li>
+            <li><a href="sustancias/tabaco/">Tabaco</a></li>
+          </ul></div>
+          <div class="mega-col mega-dest"><a class="mega-card" href="sustancias/"><img src="sustancias/moleculas/psilocibina.svg" alt="" width="130" height="100" loading="lazy" decoding="async"><strong>Todas las guías</strong><span>Qué son, cómo actúan, investigación, riesgos y legalidad.</span></a><a class="mega-extra" href="medicinas/">Medicinas por categorías →</a><a class="mega-extra" href="terapia-asistida-mdma/">Terapia asistida con MDMA →</a></div>
+        </div></div>
+      </div>
       <a href="medicinas/">Medicinas</a>
       <a href="investigacion-terapeutica/">Investigación</a>
       <a href="terapia-asistida-mdma/">Terapia con MDMA</a>
+      <a href="biblioteca/">Biblioteca</a>
+      <a class="menu-contacto" href="#contacto">Contacto</a>
     </nav>
     <div class="cabecera-der">
+      <a class="buscar-icono" href="buscar/" aria-label="Buscar"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></a>
       <a class="btn t" href="#contacto">Contacto</a>
-      <label for="menu-movil" class="menu-boton" aria-label="Abrir menú"><span></span></label>
+      <button type="button" class="menu-boton" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú"><span></span></button>
     </div>
   </div>
 </header>
 
-<main>
+<main id="contenido">
 <section class="portada" style="padding:0">
   <div class="ancho">
     <div>
@@ -118,7 +189,7 @@
 <div class="unete" id="contacto">
   <h2>Hablemos</h2>
   <p>¿Tienes dudas sobre una sustancia, quieres proponer una formación o colaborar en la investigación? Escríbenos.</p>
-  <div class="acciones" style="justify-content:center"><a class="btn b" href="mailto:info@apder.org">info@apder.org</a><a class="btn c" href="https://wa.me/16693068938">WhatsApp</a></div>
+  <div class="acciones" style="justify-content:center"><a class="btn b" href="mailto:info@apder.org">info@apder.org</a><a class="btn c" href="https://wa.me/447916618725">WhatsApp</a></div>
 </div>
 </main>
 
@@ -128,5 +199,25 @@
     <div><a href="https://www.youtube.com/@apderorg">YouTube</a><a href="https://www.instagram.com/apder">Instagram</a><a href="https://www.facebook.com/apder">Facebook</a><a href="aviso-legal/">Aviso legal</a><a href="politica-de-privacidad/">Privacidad</a></div>
   </div>
 </footer>
+<script>
+(function(){var h=document.querySelector('header'),b=h&&h.querySelector('.menu-boton');if(!b)return;
+function fija(o){h.classList.toggle('menu-abierto',o);b.setAttribute('aria-expanded',o?'true':'false');b.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú')}
+b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';fija(o);if(o){var a=h.querySelector('nav a');if(a&&a.offsetParent)a.focus()}});
+h.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){fija(false)})});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.getAttribute('aria-expanded')==='true'){fija(false);b.focus()}});
+var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
+if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
+function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
+function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
+mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
+w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
+w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
+document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&esc.matches&&est()){var d=w.contains(document.activeElement);forz=false;cerr=true;if(d)mb.focus();sync()}});
+esc.addEventListener('change',function(){forz=false;cerr=false;sync()});sync()}
+window.addEventListener('beforeprint',function(){document.querySelectorAll('main a[href]').forEach(function(a){var r=a.getAttribute('href');if(r.charAt(0)!=='#'&&!/^(https?:|mailto:)/.test(r))a.setAttribute('data-url',a.href)});document.querySelectorAll('main details').forEach(function(d){if(!d.open){d.open=true;d.setAttribute('data-impresion','1')}})});
+window.addEventListener('afterprint',function(){document.querySelectorAll('main details[data-impresion]').forEach(function(d){d.open=false;d.removeAttribute('data-impresion')})});
+})();
+</script>
 </body>
 </html>
