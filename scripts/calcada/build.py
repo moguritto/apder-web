@@ -14,7 +14,7 @@ EXTRA = set(open(sys.argv[3]).read().split()) if len(sys.argv) > 3 and os.path.e
 PAGES = {
     "": "", "terapias/": "terapias/", "salas/": "salas/", "coworking/": "coworking/",
     "coworking/tarifas/": "coworking/tarifas/", "coworking/coruna/": "coworking/coruna/",
-    "manuel-lameiro/": "manuel-lameiro/", "tarifas-2026-manuel/": "tarifas-2026-manuel/",
+    "tarifas-2026-manuel/": "tarifas-2026-manuel/",
     "ana-andrade/": "ana-andrade/", "lucia-martinez/": "lucia-martinez/",
     "yoga-barbara-carbajal/": "yoga-barbara-carbajal/", "hayat-lanouar/": "hayat-lanouar/",
     "maria-sonoterapia/": "maria-sonoterapia/", "roberto-linares/": "roberto-linares/",
