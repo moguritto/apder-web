@@ -956,3 +956,9 @@ nav.art-menu{position:sticky;top:24px;align-self:start;font-size:.95rem;max-heig
   .art-parte .ilu{max-width:300px;margin:0 auto}
 }
 @media (max-width:640px){.art-seguro ul{grid-template-columns:1fr}.art-seguro li:last-child{grid-column:auto}}
+/* Vídeos en «En los medios» */
+.art-videos{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:12px 0 18px}
+.art-videos .art-video{margin:0}
+.art-videos .art-video .titulo{font-size:1.05rem;line-height:1.3;max-width:90%;margin:0 auto}
+.art-videos .art-video .play{width:56px;height:56px;font-size:1.25rem}
+@media (max-width:640px){.art-videos{grid-template-columns:1fr}}
