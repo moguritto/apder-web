@@ -4,7 +4,7 @@ Qué consta en este repositorio sobre el origen y la licencia de cada imagen de 
 
 | Archivo | Qué es | Autoría / origen | Licencia | Estado |
 |---|---|---|---|---|
-| `docs/img/og-apder.png` | Imagen para compartir en redes (1200×630) | Propia: composición hecha para APDER con el logo `apder-icono.webp`, el texto «APDER» y el título de la web, con las letras DM Serif Display y Nunito Sans y la paleta Tierra | Propia de APDER (depende de la del logo) | Hecha en noviembre de 2026 |
+| `docs/img/og-apder.png` | Imagen para compartir en redes (1200×630) | Propia: composición hecha para APDER con el logo `apder-icono.webp` y el texto «APDER», con la letra DM Serif Display y la paleta Tierra (rehecha con `scripts/tarjetas_og.py`) | Propia de APDER (depende de la del logo) | Hecha en noviembre de 2026, simplificada el 21/11/2026 |
 | `docs/img/apder-icono.webp` | Logo de APDER (icono de seta y hojas), usado en la cabecera | Por confirmar (forma parte de la web original apder.org copiada el 26/10/2026) | Por confirmar | Por confirmar |
 | `docs/img/apder-1-transparent.webp` | Logo de APDER con fondo transparente, usado en el pie | Por confirmar (web original apder.org) | Por confirmar | Por confirmar |
 | `docs/img/favicon.png` | Icono de pestaña | Por confirmar | Por confirmar | Por confirmar |

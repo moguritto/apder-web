@@ -47,9 +47,9 @@ Decisión de Mannu (21-11-2026), para toda la web:
 
 ## Imágenes para compartir (WhatsApp y redes)
 
-- Cada página tiene su tarjeta de 1200×630 en `docs/img/og/` (guías con su molécula; Medicinas, Biblioteca, etc.). La portada, las páginas legales y la 404 usan `docs/img/og-apder.png`.
+- Cada página tiene su tarjeta de 1200×630 en `docs/img/og/`, a propósito sencilla: solo el título, el dibujo (la molécula en las guías) y la marca APDER. La portada, las páginas legales y la 404 usan `docs/img/og-apder.png`, hecha con el mismo guion.
 - Se generan con `python3 scripts/tarjetas_og.py` (necesita `pip install pillow cairosvg fonttools brotli`). Para una página nueva: añade su línea en `TARJETAS`, genera y pon en su `<head>` `og:image` y `twitter:image` con la dirección absoluta `https://apder.org/img/og/<nombre>.png`.
-- WhatsApp no enseña la imagen si pesa más de 300 KB: las tarjetas pesan entre 18 y 45 KB. WhatsApp guarda la vista previa de cada enlace; si un enlace ya se había enviado antes del cambio, puede tardar en verse la nueva.
+- WhatsApp no enseña la imagen si pesa más de 300 KB: las tarjetas pesan entre 10 y 35 KB. WhatsApp guarda la vista previa de cada enlace; si un enlace ya se había enviado antes del cambio, puede tardar en verse la nueva.
 
 ## Guía para participantes
 
