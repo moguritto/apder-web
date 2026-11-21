@@ -111,7 +111,6 @@ footer div{display:flex;gap:20px;flex-wrap:wrap}
 /* Añadidos para la web real */
 .marca span{font-family:var(--serif)}
 header nav a{white-space:nowrap}
-.menu-check{display:none}
 .menu-boton{display:none;width:44px;height:44px;border-radius:50%;background:#fff;cursor:pointer;place-items:center;box-shadow:0 2px 14px rgba(60,40,20,.08)}
 .menu-boton span,.menu-boton span::before,.menu-boton span::after{display:block;width:18px;height:2px;background:var(--texto);position:relative;content:""}
 .menu-boton span::before{position:absolute;top:-6px}.menu-boton span::after{position:absolute;top:6px}
@@ -121,14 +120,6 @@ footer a:hover,.pilar a:hover{text-decoration:underline}
 :focus-visible{outline:3px solid var(--tierra-osc);outline-offset:3px}
 .pilar :focus-visible,.unete :focus-visible,.rr .caja :focus-visible{outline-color:#fff}
 .pilar:nth-child(3) :focus-visible{outline-color:var(--texto)}
-/* Menú móvil antiguo (checkbox + label), solo lo usa 404.html hasta que adopte la cabecera nueva */
-@media (max-width:1000px){
-  label.menu-boton{display:grid}
-  .menu-check ~ nav{display:none;position:absolute;left:16px;right:16px;top:84px;flex-direction:column;border-radius:24px;padding:10px;z-index:20}
-  .menu-check ~ nav a{padding:12px 18px}
-  .menu-check:checked ~ nav{display:flex}
-  header .ancho{position:relative}
-}
 /* Cabecera compartida con menú accesible (portada, Sustancias y guías).
    Sin JavaScript el menú queda apilado y visible; con JavaScript (html.js) se abre con el botón. */
 .saltar{position:absolute;left:12px;top:-120px;z-index:100;background:var(--bosque);color:#fff;padding:12px 22px;border-radius:999px;font-weight:700;min-height:44px;display:inline-flex;align-items:center}
@@ -353,4 +344,85 @@ footer.pie .pie-abajo a{display:inline-flex;align-items:center;min-height:44px;p
   body.guia main a[data-url]::after{content:" (" attr(data-url) ")";font-size:9pt;word-break:break-all}
   body.guia .s-antetitulo a::after{content:none!important}
   body.guia .s-solo-impresion{display:block;margin-top:.8em;font-size:10pt;word-break:break-all}
+}
+
+/* ==========================================================================
+   Medicinas e Investigación terapéutica (artículos largos con el diseño de guía)
+   ========================================================================== */
+.s-cabeza-sola .s-ancho{grid-template-columns:minmax(0,1fr)}
+.s-sub-art{font-size:1.3rem;line-height:1.45;color:var(--suave);max-width:720px;margin:.5em 0 0}
+.s-tabla.s-ancha table{min-width:640px}
+
+/* ==========================================================================
+   Biblioteca (buscador, filtros y fichas de libros)
+   ========================================================================== */
+.b-wrap{padding-bottom:60px}
+.b-filtros{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;padding:14px 0 16px;margin-bottom:18px;background:var(--crema);border-bottom:1px solid var(--linea)}
+.b-filtros input,.b-filtros select{font:inherit;font-size:1rem;line-height:1.3;min-height:48px;max-width:100%;padding:.5em 1.1em;border:2px solid var(--suave);border-radius:999px;background:#fff;color:var(--texto)}
+.b-filtros input{flex:2 1 280px;min-width:0}
+.b-filtros select{flex:1 1 210px;min-width:0;text-overflow:clip}
+.b-filtros #b-cat{flex-basis:300px}
+.b-filtros input::placeholder{color:var(--suave);opacity:1}
+.b-n{flex:0 0 auto;margin:0 0 0 auto;font-size:.95rem;font-weight:700;color:var(--suave)}
+@media (min-width:901px){.b-filtros{position:sticky;top:0;z-index:5}}
+.s-cuerpo.b-cuerpo{max-width:none}
+.b-cuerpo h2 small{font-family:var(--sans);font-size:.9rem;font-weight:400;color:var(--suave)}
+.guia-cuerpo .b-lista{list-style:none;padding:0;margin:0 0 1.2em;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:14px}
+.guia-cuerpo .b-libro{background:#fff;border-radius:22px;padding:18px 20px 16px;margin:0;box-shadow:0 2px 14px rgba(60,40,20,.05);overflow-wrap:anywhere}
+.guia-cuerpo .b-libro p{margin:0 0 .35em}
+.guia-cuerpo .b-libro p:last-child{margin-bottom:0}
+.b-tit{font-family:var(--serif);font-size:1.18rem;line-height:1.28}
+.b-meta{font-size:.85rem;color:var(--suave)}
+.b-es{display:block;font-size:.85rem;color:var(--suave);margin-bottom:.3em}
+.b-desc{font-size:.92rem}
+.b-lista[hidden],.b-libro[hidden]{display:none}
+/* Desplegables que muestran la opción elegida completa (varias líneas) donde el navegador lo permite */
+@supports (appearance:base-select){
+  .b-filtros select,.b-filtros select::picker(select){appearance:base-select}
+  .b-filtros select{display:flex;align-items:center;justify-content:space-between;gap:10px;height:auto;padding:.5em 1em .5em 1.2em;border-radius:26px;text-align:left;cursor:pointer}
+  .b-filtros select::picker-icon{flex:none;color:var(--tierra-osc)}
+  .b-filtros select::picker(select){background:#fff;border:2px solid var(--suave);border-radius:18px;padding:6px;box-shadow:0 14px 34px rgba(60,40,20,.16);max-height:60vh}
+  .b-filtros select option{padding:.6em .9em;min-height:44px;border-radius:12px;color:var(--texto);white-space:normal}
+  .b-filtros select option:hover,.b-filtros select option:focus{background:var(--arena)}
+  .b-filtros select option:checked{font-weight:700;background:var(--arena)}
+  .b-filtros select option::checkmark{color:var(--tierra-osc)}
+}
+@supports not (appearance:base-select){
+  /* sin desplegable personalizable: letra algo menor para que la categoría más larga quepa a 390 px */
+  @media (max-width:560px){.b-filtros select{font-size:.875rem;padding-left:.9em;padding-right:.5em}}
+}
+@media (max-width:560px){
+  .b-filtros input,.b-filtros select{flex-basis:100%}
+  .b-n{margin-left:0}
+  .guia-cuerpo .b-libro{padding:16px 16px 14px}
+}
+
+/* ==========================================================================
+   Aviso legal y Política de privacidad (documento legal sencillo)
+   ========================================================================== */
+.guia-cuerpo .legal{padding:34px 0 20px}
+.legal .ancho{max-width:880px}
+.legal-cuerpo h1{font-size:clamp(2.2rem,5vw,3.3rem);margin:.1em 0 .6em}
+.legal-texto{background:#fff;border-radius:28px;padding:34px 42px 24px;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.legal-texto p{max-width:72ch;overflow-wrap:anywhere}
+.legal-texto p>strong:first-child{color:var(--tierra-hondo)}
+@media (max-width:560px){.legal-texto{border-radius:22px;padding:24px 20px 14px}}
+
+/* marca de página activa en el pie (Aviso legal, Política de privacidad) */
+footer.pie a[aria-current="page"]{font-weight:700;text-decoration-thickness:2px}
+
+/* ==========================================================================
+   404 (se sirve desde cualquier ruta; rutas absolutas)
+   ========================================================================== */
+.guia-cuerpo .no-encontrada{padding:80px 0 110px;text-align:center}
+.no-encontrada h1{font-size:clamp(2.6rem,6vw,4.4rem);margin:14px 0 18px}
+.guia-cuerpo .no-encontrada p{color:var(--suave);font-size:1.18rem;max-width:520px;margin:0 auto 34px}
+.no-encontrada .acciones{justify-content:center}
+@media (max-width:560px){.guia-cuerpo .no-encontrada{padding:56px 0 80px}}
+
+@media print{
+  body.guia .b-filtros{display:none}
+  body.guia .guia-cuerpo .b-libro{border:0;border-bottom:1px solid #999;padding:6px 0;break-inside:avoid}
+  body.guia .guia-cuerpo .b-lista{display:block}
+  body.guia .legal-texto{padding:0}
 }
