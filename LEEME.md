@@ -19,9 +19,19 @@ Copia **calcada** de apder.org (26/10/2026): la web original de WordPress guarda
 - `scripts/calcada/test.cjs` y `extra.txt`: comprobación con Playwright y archivos que Elementor carga a demanda.
 - El resto de `scripts/` y `contenido/` es de la primera copia (reconstruida), ya sustituida.
 
+## Regla de contenido: sin temas de legalidad
+
+Decisión de Mannu (21-11-2026), para toda la web:
+
+- No se tratan temas de legalidad: ni la situación legal de las sustancias, ni leyes, sanciones o listas de fiscalización, ni «dónde es legal», ni avisos de «no es asesoramiento jurídico».
+- Sí se habla de investigación y de uso clínico, en lenguaje clínico: ensayos clínicos, medicamentos aprobados y dónde la ofrecen psiquiatras acreditados o equipos sanitarios.
+- Para la seguridad se habla de análisis de sustancias, pureza y contexto («fuera del ámbito médico»), no de «mercado ilegal».
+- Se mantienen las páginas obligatorias: Aviso legal y Política de privacidad y cookies.
+- La biblioteca puede describir libros cuyo tema sea la historia o la política de las drogas.
+
 ## Sustancias (nuevo)
 
-- `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, legalidad, preguntas).
+- `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, preguntas).
 - `docs/sustancias/<sustancia>/index.html`: 19 guías (psilocibina, LSD, MDMA, ketamina, ayahuasca, DMT, 5-MeO-DMT, mescalina, ibogaína, 2C-B, 4-AcO-DMT, Amanita muscaria, Salvia divinorum, cannabis, kanna, kratom, datura, cacao, tabaco).
 - Megamenú «Sustancias»: en las páginas de sustancias va dentro de la cabecera; en el resto de páginas se añade al menú y usa `docs/sustancias/mega-wp.css`.
 - `docs/sustancias/sustancias.css`: estilos solo de estas páginas (títulos Libre Caslon, texto Inter, acento rojo, índice lateral).
