@@ -1,90 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<script>document.write('<base href="' + (location.hostname.endsWith('github.io') ? '/apder-web/' : '/') + '">');</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Página no encontrada | APDER</title>
-<link rel="icon" href="img/favicon.png">
+<title>Página no encontrada · APDER</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@400;600&family=Alata&family=Raleway:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&family=Josefin+Sans:wght@300;400;600&display=swap">
-<link rel="stylesheet" href="estilo.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Caslon+Text:wght@400;700&display=swap">
-<link rel="stylesheet" href="sustancias/mega-wp.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/tierra.css">
+<style>
+.no-encontrada{padding:80px 0 110px;text-align:center}
+.no-encontrada h1{font-size:clamp(2.6rem,6vw,4.4rem);margin:14px 0 18px}
+.no-encontrada p{color:var(--suave);font-size:1.18rem;max-width:520px;margin:0 auto 34px}
+.no-encontrada .acciones{justify-content:center}
+</style>
 </head>
-<body class="normal">
-<header class="cabecera">
+<body>
+<header id="home">
   <div class="ancho">
-    <a class="logo" href="./"><img src="img/apder-1-transparent.webp" alt="APDER"></a>
+    <a class="marca" href="/"><img src="/img/apder-icono.webp" alt="" width="455" height="344"><span>APDER</span></a>
     <input type="checkbox" id="menu-movil" class="menu-check">
-    <label for="menu-movil" class="menu-boton" aria-label="Abrir menú"><span></span></label>
-    <nav class="menu">
-      <ul>
-        <li class="con-sub"><a href="#home">El proyecto</a><ul><li><a href="divulgation/">Divulgación</a></li><li><a href="#education">Educación</a></li><li><a href="#research">Investigación</a></li></ul></li>
-        <li class="apder-sust"><a href="sustancias/">Sustancias<span class="apder-mas">+</span></a><div class="apder-mega"><div class="apder-mega-in"><div class="apder-mega-col"><p class="apder-mega-tit">Psicodélicos clásicos</p><a href="sustancias/psilocibina/">Setas de psilocibina</a><a href="sustancias/lsd/">LSD</a><a href="sustancias/mescalina/">Mescalina, peyote y San Pedro</a><a href="sustancias/dmt/">DMT</a><a href="sustancias/ayahuasca/">Ayahuasca</a><a href="sustancias/5-meo-dmt/">5-MeO-DMT</a></div><div class="apder-mega-col"><p class="apder-mega-tit">Otras sustancias</p><a href="sustancias/mdma/">MDMA</a><a href="sustancias/ketamina/">Ketamina</a><a href="sustancias/ibogaina/">Ibogaína</a><a href="sustancias/2c-b/">2C-B</a><a href="sustancias/4-aco-dmt/">4-AcO-DMT</a></div><div class="apder-mega-col"><p class="apder-mega-tit">Plantas y hongos</p><a href="sustancias/amanita-muscaria/">Amanita muscaria</a><a href="sustancias/salvia-divinorum/">Salvia divinorum</a><a href="sustancias/cannabis/">Cannabis</a><a href="sustancias/kanna/">Kanna</a><a href="sustancias/kratom/">Kratom</a><a href="sustancias/datura/">Datura</a><a href="sustancias/cacao/">Cacao</a><a href="sustancias/tabaco/">Tabaco</a></div><div class="apder-mega-col apder-mega-dest"><a class="apder-mega-card" href="sustancias/"><img src="sustancias/moleculas/psilocibina.svg" alt="" width="130" height="100"><strong>Todas las guías</strong><span>Qué son, cómo actúan, investigación, riesgos y legalidad.</span></a><a class="apder-mega-extra" href="medicinas/">Medicinas por categorías →</a><a class="apder-mega-extra" href="terapia-asistida-mdma/">Terapia asistida con MDMA →</a></div></div></div></li>
-        <li><a href="investigacion-terapeutica/">Investigación terapéutica</a></li>
-        <li><a href="biblioteca/">Biblioteca</a></li>
-      </ul>
+    <nav aria-label="Menú principal">
+      <a href="/">Inicio</a>
+      <a href="/#about">El proyecto</a>
+      <a href="/sustancias/">Sustancias</a>
+      <a href="/medicinas/">Medicinas</a>
+      <a href="/investigacion-terapeutica/">Investigación</a>
+      <a href="/terapia-asistida-mdma/">Terapia con MDMA</a>
     </nav>
+    <div class="cabecera-der">
+      <a class="btn t" href="/#contacto">Contacto</a>
+      <label for="menu-movil" class="menu-boton" aria-label="Abrir menú"><span></span></label>
+    </div>
   </div>
 </header>
+
 <main>
-<section class="bloque">
-<div class="ancho">
-<h1>Página no encontrada</h1>
-<p>La página que buscas no existe o ha cambiado de sitio.</p>
-<p class="botones"><a class="boton" href="./">Ir al inicio</a></p>
-</div>
+<section class="no-encontrada">
+  <div class="ancho">
+    <h1>Página no encontrada</h1>
+    <p>Esta página no existe o se ha movido.</p>
+    <div class="acciones"><a class="btn t" href="/sustancias/">Sustancias</a><a class="btn c" href="/terapia-asistida-mdma/">Terapia con MDMA</a><a class="btn c" href="/biblioteca/">Biblioteca</a><a class="btn c" href="/#contacto">Contacto</a></div>
+  </div>
 </section>
 </main>
-<footer class="pie">
-<div class="ancho">
-<section class="bloque" style="background-color:#F0EDED;color:#000000">
-<div class="ancho">
-<div class="columnas">
-<div class="col"><span class="ancla" id="contact"></span>
-<div style='text-align:center;font-family:"Nunito Sans", sans-serif;font-size:18px;font-weight:300;font-style:normal;line-height:27px'>
-<p><a href="mailto:info@apder.org" rel="noopener" target="_blank">info@apder.org</a> </p>
-</div>
-<ul class="redes">
-<li><a href="https://wa.me/+16693068938" rel="noopener" target="_blank">Whatsapp</a></li>
-<li><a href="https://www.youtube.com/@apderorg" rel="noopener" target="_blank">Youtube</a></li>
-<li><a href="https://www.instagram.com/apder" rel="noopener" target="_blank">Instagram</a></li>
-<li><a href="https://www.facebook.com/apder" rel="noopener" target="_blank">Facebook</a></li>
-</ul>
-<div style='text-align:center;font-family:"Nunito Sans", sans-serif;font-size:18px;font-weight:300;font-style:normal;line-height:27px;color:#000000'>
-<p>We are a non-profit educational and research organization,<br/>Our mission on psychedelics consists on the divulgation of content focused on therapeutic use, the training of therapists in each country for all possible substances and research with new substances. </p>
-</div>
-</div>
-<div class="col">
-<p class="imagen"><img alt="" loading="lazy" src="img/apder-1-transparent.webp" style="width:48%"/></p>
-<p style='text-align:center;font-family:"Nunito Sans", sans-serif;font-size:15px;font-weight:500;text-transform:capitalize;font-style:normal;line-height:24px;letter-spacing:0px;color:#2b2929'>JOIN THE COMMUNITY</p>
-<div class="contacto-directo">
-<p>Write to us directly:</p>
-<a class="boton" href="https://wa.me/16693068938">WhatsApp</a><a class="boton boton-secundario" href="mailto:info@apder.org">info@apder.org</a></div>
-<p style="text-align:center;font-size:13px;font-weight:300;text-transform:none;font-style:normal;line-height:18px;letter-spacing:0.4px;color:#000000">Receive updates on news and events.</p>
-</div>
-</div>
-</div>
-</section>
-<section class="bloque" style="background-color:#F0EDED">
-<div class="ancho">
-<div class="columnas">
-<div class="col">
-<div style='text-align:start;font-family:"Nunito Sans", sans-serif;font-size:11px;font-weight:300;font-style:normal;line-height:27px;color:#000000'>
-<p>Association for Psychedelic Divulgation, Education and Research<br/>APDER © 2026 ALL RIGHTS RESERVED<br/></a></p>
-</div>
-</div>
-<div class="col">
-<div style='text-align:end;font-family:"Nunito Sans", sans-serif;font-size:11px;font-weight:300;font-style:normal;line-height:27px;color:#000000'>
-<p><a href="aviso-legal/">LEGAL NOTICE &amp; TERMS OF USE</a> <a href="politica-de-privacidad/">COOKIES POLICY </p>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
+
+<footer id="contact">
+  <div class="ancho">
+    <span>© APDER · Asociación para la Divulgación, Educación e Investigación Psicodélica · <a href="mailto:info@apder.org">info@apder.org</a></span>
+    <div><a href="https://www.youtube.com/@apderorg">YouTube</a><a href="https://www.instagram.com/apder">Instagram</a><a href="https://www.facebook.com/apder">Facebook</a><a href="/aviso-legal/">Aviso legal</a><a href="/politica-de-privacidad/">Privacidad</a></div>
+  </div>
 </footer>
 </body>
 </html>
