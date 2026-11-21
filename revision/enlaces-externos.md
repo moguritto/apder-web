@@ -7,7 +7,7 @@ Fecha: 21-11-2026. Rama: `claude/enlaces-externos`. No se ha modificado ninguna 
 - Extracción con un script de Python (en `/tmp`, no incluido en el repositorio) de todos los `href="http(s)://…"` de `docs/**/*.html`, sin `apder.org`, y excluyendo `docs/wp-content`, `docs/wp-includes` y las páginas de WordPress (`terapia-asistida-mdma`, `divulgation`, `meditacion-corazon-2026`, `protocolo-meditacion-agosto-2024`). Se revisaron 39 archivos HTML.
 - Además se buscaron URL escritas como texto (sin `href`) en las mismas páginas: solo aparece una (`sedeagpd.gob.es`, en la política de privacidad); se incluye.
 - Comprobación con WebFetch (y WebSearch para confirmar la sede de la AEPD). El shell del sandbox no tiene red.
-- Biblioteca: los 100 y pico libros no llevan enlace (son fichas de texto `<li class="b-libro">` con atributos `data-*`, sin `href` ni URL en el JavaScript). No hay, por tanto, enlaces de libros que comprobar ni muestra que tomar.
+- Biblioteca: los 425 libros no llevan enlace (son fichas de texto `<li class="b-libro">` con atributos `data-*`, sin `href` ni URL en el JavaScript). No hay, por tanto, enlaces de libros que comprobar ni muestra que tomar.
 - Las guías de sustancias, Medicinas y el resto de páginas solo contienen enlaces externos del pie (redes y WhatsApp). Los únicos enlaces externos «de contenido» son los tres registros de ensayos clínicos de `investigacion-terapeutica` y la sede electrónica de la AEPD en la política de privacidad. Las fuentes científicas de las guías se citan como texto, sin enlace.
 
 ## Resumen con cifras
