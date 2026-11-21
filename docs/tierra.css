@@ -979,3 +979,8 @@ footer.pie .pie-tel a{display:inline-flex;align-items:center;min-height:44px;tex
 @media (max-width:480px){.idioma{border:0;padding:0;min-height:44px}.idioma-act,.idioma-en{min-width:30px;height:30px;font-size:.78rem}}
 @media (max-width:380px){.menu-toggle span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.menu-toggle{width:44px;padding:0;justify-content:center}.cab-acciones{gap:6px}}
 @media (max-width:360px){.idioma-act,.idioma-en{min-width:26px;height:28px;font-size:.74rem}.cab-acciones{gap:4px}}
+
+/* Biblioteca: dejar más espacio a los datos de cada ficha en pantallas pequeñas. */
+@media (max-width: 700px) {
+  .guia-cuerpo .lb-dl { grid-template-columns: minmax(100px, .8fr) minmax(0, 1.4fr); gap: 9px 16px; }
+}
