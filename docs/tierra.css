@@ -562,3 +562,150 @@ header #menu-principal .mega-extra{color:var(--tierra-osc);font-size:.92rem}
 .s-cuerpo dt{font-weight:700;color:var(--texto);margin-top:1.1em}
 .s-cuerpo dt:first-child{margin-top:0}
 .s-cuerpo dd{margin:.25em 0 0;padding-left:14px;border-left:3px solid var(--arena)}
+
+/* ===== Páginas de artículo en diseño Tierra (primera: Terapia con MDMA). Todo va con prefijo art- ===== */
+.art .art-sec{padding:64px 0 0;scroll-margin-top:24px}
+.art-col{max-width:780px;margin:0 auto}
+.art h2{font-size:clamp(2rem,4vw,2.8rem);margin:8px 0 18px}
+.art h3{font-size:1.55rem;margin:28px 0 10px}
+.art p{margin-bottom:16px}
+.art-texto a,.art-nota a,.art-tabla a,.art-refs a,.art-libros a,.art-faq a{color:var(--tierra-osc);text-decoration:underline;text-underline-offset:3px}
+.art-texto a:hover,.art-tabla a:hover,.art-refs a:hover{color:var(--texto)}
+.art-texto ul{padding-left:22px;margin-bottom:16px}.art-texto li{margin-bottom:8px}
+.art-texto ul.art-libros{padding-left:0}
+.art sup{line-height:0;font-size:.72em}
+.art-claves-cab{text-align:center}
+.art-registro{display:inline-block;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--bosque);background:#e3ebe1;border-radius:999px;padding:6px 14px;margin-bottom:6px}
+.art-registro.int{background:#f3dccf;color:#6e3318}
+.art-registro.inv{background:#efe4d0;color:#5b4a2e}
+.art-registro.leg{background:#fff;color:var(--bosque);box-shadow:inset 0 0 0 1.5px var(--salvia)}
+
+/* portada del artículo */
+.art-portada{padding:24px 0 0}
+.art-portada .ancho{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.art-portada h1{font-size:clamp(2.7rem,6vw,4.6rem);margin:14px 0 20px}
+.art-portada h1 i{color:var(--tierra-osc)}
+.art-portada .entrada{font-size:1.2rem;color:var(--suave);max-width:560px}
+.art-portada .fecha{margin-top:18px;font-size:.92rem;color:var(--suave)}
+.art-dibujo{position:relative;aspect-ratio:1;max-width:400px;width:100%;justify-self:center}
+.art-dibujo .mancha{position:absolute;inset:4% 8% 8% 4%;background:var(--salvia);border-radius:58% 42% 47% 53%/45% 55% 45% 55%;animation:late 16s ease-in-out infinite alternate}
+.art-dibujo .mancha2{position:absolute;inset:16% 0 0 18%;background:var(--tierra);border-radius:42% 58% 63% 37%/53% 38% 62% 47%;animation:late 20s ease-in-out infinite alternate-reverse}
+.art-dibujo svg{position:absolute;inset:0;width:100%;height:100%}
+@media (prefers-reduced-motion:reduce){.art-dibujo .mancha,.art-dibujo .mancha2{animation:none}}
+
+/* aviso e índice */
+.art-aviso{display:flex;gap:16px;align-items:flex-start;background:#e3ebe1;border-radius:24px;padding:22px 26px;margin:44px auto 0;max-width:980px}
+.art-aviso .ico{flex:none;width:40px;height:40px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--bosque);font-size:1.2rem}
+.art-aviso p{margin:0}
+nav.art-indice{display:block;background:none;box-shadow:none;padding:0;border-radius:0;margin:28px auto 0;max-width:980px}
+.art-indice ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.art-indice a{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border-radius:999px;background:#fff;font-weight:600;font-size:.92rem;box-shadow:0 2px 10px rgba(60,40,20,.05)}
+.art-indice a:hover{background:var(--arena)}
+
+/* claves */
+.art-claves{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:8px}
+.art-clave{background:#fff;border-radius:22px;padding:22px 20px;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.art-clave b{display:block;font-family:var(--serif);font-weight:400;font-size:1.35rem;margin-bottom:6px;color:var(--bosque)}
+.art-clave p{font-size:.95rem;color:var(--suave);margin:0}
+
+/* destacados, citas y comparativa */
+.art-destacado{font-family:var(--serif);font-size:clamp(1.4rem,2.6vw,1.85rem);line-height:1.3;border-left:5px solid var(--tierra);padding:4px 0 4px 22px;margin:28px 0}
+.art-cita{margin:30px 0;padding:28px 30px;background:#fff;border-radius:26px;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.art-cita blockquote{font-family:var(--serif);font-style:italic;font-size:clamp(1.35rem,2.4vw,1.7rem);line-height:1.32;margin:0 0 12px}
+.art-cita figcaption{font-size:.9rem;color:var(--suave)}
+.art-compara{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0 24px}
+.art-compara div{border-radius:22px;padding:22px 24px}
+.art-compara div:first-child{background:#e3ebe1}.art-compara div:last-child{background:var(--arena)}
+.art-compara b{font-family:var(--serif);font-weight:400;font-size:1.3rem;display:block;margin-bottom:8px}
+.art-compara ul{padding-left:18px;margin:0}.art-compara li{margin-bottom:6px;font-size:.96rem}
+
+/* proceso */
+.art-pasos{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}
+.art-pasos li{background:#fff;border-radius:24px;padding:26px 24px;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.art-pasos .num{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--bosque);color:#fff;font-family:var(--serif);font-size:1.3rem;margin-bottom:14px}
+.art-pasos li:nth-child(2) .num{background:var(--tierra-osc)}
+.art-pasos li:nth-child(3) .num{background:#5d775b}
+.art-pasos b{font-family:var(--serif);font-weight:400;font-size:1.4rem;display:block;margin-bottom:6px}
+.art-pasos p{font-size:.96rem;color:var(--suave);margin:0}
+.art-cuidado{background:var(--bosque);color:#f1ece2;border-radius:28px;padding:30px 32px;margin:8px 0 0}
+.art-cuidado h3{margin-top:0;color:#fff}
+.art-cuidado ul{padding-left:20px;margin:0}.art-cuidado li{margin-bottom:8px}
+.art-cuidado .art-cuidado-nota{margin:16px 0 0;padding-top:14px;border-top:1px solid rgba(241,236,226,.25);font-size:.95rem;opacity:.92}
+
+/* investigación */
+.art-cifras{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
+.art-cifra{background:#e3ebe1;border-radius:24px;padding:24px 26px}
+.art-cifra b{display:block;font-family:var(--serif);font-weight:400;font-size:3.2rem;line-height:1;color:var(--bosque);margin-bottom:8px}
+.art-cifra p{margin:0;font-size:.96rem}
+.art-nota{font-size:.92rem;color:var(--suave)}
+
+/* tabla */
+.art-tabla{overflow-x:auto;border-radius:22px;background:#fff;box-shadow:0 2px 14px rgba(60,40,20,.05);margin:18px 0 12px}
+.art-tabla table{width:100%;border-collapse:collapse;min-width:620px;font-size:.95rem}
+.art-tabla caption{text-align:left;padding:18px 20px 4px;font-weight:700}
+.art-tabla th,.art-tabla td{text-align:left;vertical-align:top;padding:14px 20px;border-top:1px solid #efe4d0}
+.art-tabla thead th{border-top:0;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;color:var(--suave)}
+.art-tabla tbody th{font-family:var(--serif);font-weight:400;font-size:1.15rem;white-space:nowrap}
+.art-tabla td:last-child{white-space:nowrap}
+
+/* historia */
+.art-linea{list-style:none;padding:0;margin:20px 0 0;position:relative}
+.art-linea::before{content:"";position:absolute;left:86px;top:8px;bottom:8px;width:2px;background:var(--arena)}
+.art-linea li{display:grid;grid-template-columns:72px 1fr;gap:30px;padding:0 0 18px;position:relative}
+.art-linea li::before{content:"";position:absolute;left:81px;top:9px;width:12px;height:12px;border-radius:50%;background:var(--salvia);box-shadow:0 0 0 4px var(--crema)}
+.art-linea li.clave::before{background:var(--tierra)}
+.art-linea time{font-family:var(--serif);font-size:1.15rem;text-align:right;line-height:1.5}
+.art-linea p{margin:0}
+
+/* preguntas */
+.art-faq details{background:#fff;border-radius:20px;margin-bottom:10px;box-shadow:0 2px 10px rgba(60,40,20,.05)}
+.art-faq summary{cursor:pointer;list-style:none;padding:18px 54px 18px 22px;font-weight:700;position:relative;min-height:44px}
+.art-faq summary::-webkit-details-marker{display:none}
+.art-faq summary::after{content:"+";position:absolute;right:22px;top:50%;transform:translateY(-50%);font-size:1.4rem;color:var(--tierra-osc)}
+.art-faq details[open] summary::after{content:"−"}
+.art-faq details p{padding:0 22px 18px;margin:0}
+
+/* vídeo que solo se carga al pulsar */
+.art-video{margin:26px 0}
+.art-video .marco{position:relative;aspect-ratio:16/9;border-radius:22px;overflow:hidden;background:var(--bosque)}
+.art-video button{all:unset;cursor:pointer;position:absolute;inset:0;display:grid;place-items:center;align-content:center;gap:12px;color:#f1ece2;text-align:center;padding:20px}
+.art-video button:focus-visible{outline:3px solid #fff;outline-offset:-6px}
+.art-video .play{width:72px;height:72px;border-radius:50%;background:var(--tierra-osc);display:grid;place-items:center;font-size:1.6rem;margin:0 auto}
+.art-video button:hover .play{background:var(--tierra-hondo)}
+.art-video .titulo{font-family:var(--serif);font-size:1.4rem}
+.art-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.art-video figcaption{font-size:.88rem;color:var(--suave);margin-top:8px}
+
+/* libros y referencias */
+.art-libros{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.art-libros li{background:#fff;border-radius:20px;padding:18px 20px;box-shadow:0 2px 10px rgba(60,40,20,.05)}
+.art-libros b{font-family:var(--serif);font-weight:400;font-size:1.2rem;display:block}
+.art-libros span{font-size:.92rem;color:var(--suave)}
+.art-refs{font-size:.9rem;color:var(--suave);padding-left:22px}
+.art-refs li{margin-bottom:8px}
+.art-cierre{padding-bottom:80px}
+
+@media (max-width:1000px){.art-claves{grid-template-columns:repeat(2,1fr)}.art-claves .art-clave:last-child{grid-column:1/-1}}
+@media (max-width:900px){
+  .art-portada .ancho{grid-template-columns:1fr}
+  .art-dibujo{max-width:250px}
+  .art-pasos,.art-cifras,.art-compara,.art-libros{grid-template-columns:1fr}
+  .art .art-sec{padding-top:48px}
+}
+@media (max-width:640px){
+  .art-tabla{overflow:visible;background:none;box-shadow:none}
+  .art-tabla table{min-width:0}
+  .art-tabla thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .art-tabla tr{display:block;background:#fff;border-radius:20px;padding:16px 18px;margin-bottom:10px;box-shadow:0 2px 10px rgba(60,40,20,.05)}
+  .art-tabla th,.art-tabla td{display:block;border:0;padding:0}
+  .art-tabla tbody th{white-space:normal;margin-bottom:6px}
+  .art-tabla td:last-child{display:inline-block;white-space:normal;margin-top:10px;background:var(--crema);border-radius:999px;padding:4px 12px;font-size:.85rem}
+  .art-tabla td.vacio{display:none}
+}
+@media (max-width:560px){
+  .art-claves{grid-template-columns:1fr}
+  .art-linea::before{left:62px}.art-linea li{grid-template-columns:52px 1fr;gap:24px}.art-linea li::before{left:57px}
+  .art-linea time{font-size:1rem}
+  .art-aviso{padding:18px 18px}
+  .art-cita{padding:22px 22px}
+}
