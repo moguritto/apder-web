@@ -353,13 +353,13 @@
 <table>
 <thead><tr><th>Combinación</th><th>Riesgo</th><th>Qué puede pasar</th></tr></thead>
 <tbody>
-<tr><td>Otros fármacos anticolinérgicos: antihistamínicos que dan sueño, antidepresivos tricíclicos, algunos antipsicóticos (clozapina, olanzapina), antiespasmódicos urinarios, antiparkinsonianos</td><td><span class="s-riesgo muy">Muy peligrosa</span></td><td>Los efectos anticolinérgicos se suman: más delirio, más fiebre, retención de orina y riesgo cardiaco.<sup><a href="#ref-5">5</a></sup></td></tr>
-<tr><td>Estimulantes (cocaína, anfetaminas, MDMA)</td><td><span class="s-riesgo muy">Muy peligrosa</span></td><td>Suman taquicardia, tensión alta y calor cuando el cuerpo ya no puede sudar: riesgo de golpe de calor.<sup><a href="#ref-1">1</a></sup></td></tr>
-<tr><td>Alcohol</td><td><span class="s-riesgo alto">Peligrosa</span></td><td>Más confusión, vómitos y accidentes; dificulta valorar la gravedad. Es una mezcla frecuente.<sup><a href="#ref-3">3</a></sup></td></tr>
-<tr><td>Cannabis y otros psicodélicos</td><td><span class="s-riesgo alto">Peligrosa</span></td><td>Más desorientación y agitación, y más difícil distinguir el delirio de la intoxicación.<sup><a href="#ref-3">3</a></sup></td></tr>
-<tr><td>Tramadol y opioides</td><td><span class="s-riesgo alto">Peligrosa</span></td><td>El tramadol baja el umbral de las convulsiones, que la datura ya puede provocar; los opioides frenan más el intestino.<sup><a href="#ref-7">7</a>,<a href="#ref-1">1</a></sup></td></tr>
-<tr><td>Ayahuasca y otras bebidas de ceremonia</td><td><span class="s-riesgo alto">Peligrosa</span></td><td>Se han documentado bebidas adulteradas con atropina y escopolamina, con bajada de tensión, fiebre alta y fallo respiratorio.<sup><a href="#ref-6">6</a></sup></td></tr>
-<tr><td>IMAO, antidepresivos ISRS e IRSN, litio</td><td><span class="s-riesgo prec">Precaución</span></td><td>Sin datos específicos; varios antidepresivos tienen además efecto anticolinérgico propio.<sup><a href="#ref-5">5</a></sup></td></tr>
+<tr><td data-label="Combinación">Otros fármacos anticolinérgicos: antihistamínicos que dan sueño, antidepresivos tricíclicos, algunos antipsicóticos (clozapina, olanzapina), antiespasmódicos urinarios, antiparkinsonianos</td><td data-label="Riesgo"><span class="riesgo r-alto">Muy peligrosa</span></td><td data-label="Qué puede pasar">Los efectos anticolinérgicos se suman: más delirio, más fiebre, retención de orina y riesgo cardiaco.<sup><a href="#ref-5">5</a></sup></td></tr>
+<tr><td data-label="Combinación">Estimulantes (cocaína, anfetaminas, MDMA)</td><td data-label="Riesgo"><span class="riesgo r-alto">Muy peligrosa</span></td><td data-label="Qué puede pasar">Suman taquicardia, tensión alta y calor cuando el cuerpo ya no puede sudar: riesgo de golpe de calor.<sup><a href="#ref-1">1</a></sup></td></tr>
+<tr><td data-label="Combinación">Alcohol</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligrosa</span></td><td data-label="Qué puede pasar">Más confusión, vómitos y accidentes; dificulta valorar la gravedad. Es una mezcla frecuente.<sup><a href="#ref-3">3</a></sup></td></tr>
+<tr><td data-label="Combinación">Cannabis y otros psicodélicos</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligrosa</span></td><td data-label="Qué puede pasar">Más desorientación y agitación, y más difícil distinguir el delirio de la intoxicación.<sup><a href="#ref-3">3</a></sup></td></tr>
+<tr><td data-label="Combinación">Tramadol y opioides</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligrosa</span></td><td data-label="Qué puede pasar">El tramadol baja el umbral de las convulsiones, que la datura ya puede provocar; los opioides frenan más el intestino.<sup><a href="#ref-7">7</a>,<a href="#ref-1">1</a></sup></td></tr>
+<tr><td data-label="Combinación">Ayahuasca y otras bebidas de ceremonia</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligrosa</span></td><td data-label="Qué puede pasar">Se han documentado bebidas adulteradas con atropina y escopolamina, con bajada de tensión, fiebre alta y fallo respiratorio.<sup><a href="#ref-6">6</a></sup></td></tr>
+<tr><td data-label="Combinación">IMAO, antidepresivos ISRS e IRSN, litio</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Sin datos específicos; varios antidepresivos tienen además efecto anticolinérgico propio.<sup><a href="#ref-5">5</a></sup></td></tr>
 </tbody>
 </table>
 </div>
@@ -522,7 +522,7 @@ var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
 if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
 function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
 function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
-mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
+mb.addEventListener('click',function(){if(est()&&forz){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
 w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
 w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
 document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
@@ -561,5 +561,6 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 </div>
 </div>
 </footer>
+<script src="../../tierra.js" defer></script>
 </body>
 </html>

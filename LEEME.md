@@ -55,3 +55,9 @@ Decisión de Mannu (21-11-2026), para toda la web:
 
 - `docs/guia-sesion/`: guía para enviar a quien tiene una sesión acordada (antes, salud, qué traer, el día, durante, música, después). No se indexa (`noindex`), no está en el mapa del sitio ni en el buscador, y no se enlaza desde el menú: solo se llega por el enlace.
 - Sustituye en contenido a `docs/meditacion-corazon-2026/` y `docs/protocolo-meditacion-agosto-2024/`, que se conservan tal cual (con su tarjeta nueva para compartir).
+
+## Ayudas de lectura (tierra.js)
+
+- `docs/tierra.js` (se carga en guías, medicinas, investigación, biblioteca y terapia asistida): cabecera fija que se encoge al bajar, botón «Contenido» en móvil y botón «Volver arriba».
+- Las guías de sustancias con menos de ~1.500 palabras se llaman **«Ficha breve»**; las completas (ayahuasca, ketamina, LSD, MDMA, psilocibina) siguen como «Guía completa».
+- El esquema «Cuándo empieza y cuánto dura» (`.s-tiempos`) está en 9 guías, hecho a mano a partir de su tabla resumen: si cambian esos valores, hay que cambiar también el esquema.

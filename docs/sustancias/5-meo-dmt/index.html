@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>5-MeO-DMT: guía completa | APDER</title>
+<title>5-MeO-DMT: ficha breve | APDER</title>
 <meta name="description" content="Guía en español sobre la 5-MeO-DMT y el sapo del desierto de Sonora: efectos, riesgos, interacciones, investigación e historia.">
 <link rel="canonical" href="https://apder.org/sustancias/5-meo-dmt/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="APDER">
 <meta property="og:locale" content="es_ES">
-<meta property="og:title" content="5-MeO-DMT: guía completa">
+<meta property="og:title" content="5-MeO-DMT: ficha breve">
 <meta property="og:description" content="Guía en español sobre la 5-MeO-DMT y el sapo del desierto de Sonora: efectos, riesgos, interacciones, investigación e historia.">
 <meta property="og:url" content="https://apder.org/sustancias/5-meo-dmt/">
 <meta property="og:image" content="https://apder.org/img/og/guia-5-meo-dmt.png">
@@ -161,7 +161,7 @@
 <section class="s-cabeza">
 <div class="s-ancho">
 <div>
-<p class="s-antetitulo"><a href="../">Medicinas</a> · Guía completa</p>
+<p class="s-antetitulo"><a href="../">Medicinas</a> · Ficha breve</p>
 <h1>5-MeO-DMT</h1>
 <p class="s-alias">(«El sapo», bufo, 5-metoxi-DMT)</p>
 <p class="s-nota">APDER no anima a consumir ninguna sustancia. Publicamos esta guía porque la información fiable reduce daños: queremos que quien vaya a tomar una decisión lo haga sabiendo qué implica.</p>
@@ -225,6 +225,14 @@
 </tbody>
 </table>
 </div>
+<figure class="s-tiempos">
+<figcaption>Cuándo empieza y cuánto dura</figcaption>
+<div class="t-pista" style="--paso:16.67%" role="img" aria-label="Empieza a notarse: segundos. Duración total: 15–45 minutos."><span class="t-ini" style="left:0.00%;width:1.67%"></span><span class="t-dur" style="width:25.00%"></span><span class="t-dur2" style="left:25.00%;width:50.00%"></span></div>
+<div class="t-ejes" aria-hidden="true"><span style="left:0.00%">0</span><span style="left:16.67%">10 min</span><span style="left:33.33%">20 min</span><span style="left:50.00%">30 min</span><span style="left:66.67%">40 min</span><span style="left:83.33%">50 min</span><span style="left:100.00%">1 h</span></div>
+<p class="t-leyenda"><span><i class="k-ini"></i>Empieza a notarse: segundos</span><span><i class="k-dur"></i>Duración total: 15–45 minutos</span></p>
+<p class="t-nota">Esquema orientador a partir de la tabla anterior; varía según la dosis, la vía y la persona.</p>
+</figure>
+
 
 <h2 id="experiencia">La experiencia</h2>
 <p>Tras inhalarla, en pocos segundos la persona suele perder la conciencia del entorno y del cuerpo. Puede haber gritos, llanto, movimientos involuntarios o quedarse completamente inmóvil. Muchas personas no recuerdan bien lo vivido; otras lo describen como la experiencia más intensa de su vida.</p>
@@ -251,10 +259,10 @@
 <table>
 <thead><tr><th>Combinación</th><th>Riesgo</th><th>Qué puede pasar</th></tr></thead>
 <tbody>
-<tr><td>IMAO, ayahuasca, ruda siria</td><td><strong>Muy peligroso</strong></td><td>Toxicidad serotoninérgica grave; se han registrado muertes.</td></tr>
-<tr><td>Litio, tramadol</td><td><strong>Peligroso</strong></td><td>Riesgo de convulsiones.</td></tr>
-<tr><td>Antidepresivos ISRS e IRSN</td><td>Precaución</td><td>Interacción serotoninérgica; consulta con tu médico.</td></tr>
-<tr><td>Estimulantes</td><td>Precaución</td><td>Más carga para el corazón.</td></tr>
+<tr><td data-label="Combinación">IMAO, ayahuasca, ruda siria</td><td data-label="Riesgo"><span class="riesgo r-alto">Muy peligroso</span></td><td data-label="Qué puede pasar">Toxicidad serotoninérgica grave; se han registrado muertes.</td></tr>
+<tr><td data-label="Combinación">Litio, tramadol</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligroso</span></td><td data-label="Qué puede pasar">Riesgo de convulsiones.</td></tr>
+<tr><td data-label="Combinación">Antidepresivos ISRS e IRSN</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Interacción serotoninérgica; consulta con tu médico.</td></tr>
+<tr><td data-label="Combinación">Estimulantes</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Más carga para el corazón.</td></tr>
 </tbody>
 </table>
 </div>
@@ -348,7 +356,7 @@ var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
 if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
 function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
 function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
-mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
+mb.addEventListener('click',function(){if(est()&&forz){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
 w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
 w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
 document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
@@ -365,8 +373,8 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 <span class="ancla" id="contact"></span>
 <p class="pie-correo"><a href="mailto:info@apder.org" rel="noopener" target="_blank">info@apder.org</a></p>
 <ul class="redes">
-<li><a href="https://wa.me/447916618725" rel="noopener" target="_blank">Whatsapp</a></li>
-<li><a href="https://www.youtube.com/@apderorg" rel="noopener" target="_blank">Youtube</a></li>
+<li><a href="https://wa.me/447916618725" rel="noopener" target="_blank">WhatsApp</a></li>
+<li><a href="https://www.youtube.com/@apderorg" rel="noopener" target="_blank">YouTube</a></li>
 <li><a href="https://www.instagram.com/apder" rel="noopener" target="_blank">Instagram</a></li>
 <li><a href="https://www.facebook.com/apder" rel="noopener" target="_blank">Facebook</a></li>
 </ul>
@@ -378,7 +386,6 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 <div class="contacto-directo">
 <p>Escríbenos directamente:</p>
 <a class="btn t" href="https://wa.me/447916618725">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a></div>
-<p class="pie-nota">Recibe novedades sobre noticias y eventos.</p>
 </div>
 </div>
 <div class="pie-abajo">
@@ -387,5 +394,6 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 </div>
 </div>
 </footer>
+<script src="../../tierra.js" defer></script>
 </body>
 </html>

@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ibogaína: guía completa | APDER</title>
+<title>Ibogaína: ficha breve | APDER</title>
 <meta name="description" content="Guía en español sobre la ibogaína y la iboga: tradición bwiti, adicción a opioides, riesgos cardíacos, investigación e historia.">
 <link rel="canonical" href="https://apder.org/sustancias/ibogaina/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="APDER">
 <meta property="og:locale" content="es_ES">
-<meta property="og:title" content="Ibogaína: guía completa">
+<meta property="og:title" content="Ibogaína: ficha breve">
 <meta property="og:description" content="Guía en español sobre la ibogaína y la iboga: tradición bwiti, adicción a opioides, riesgos cardíacos, investigación e historia.">
 <meta property="og:url" content="https://apder.org/sustancias/ibogaina/">
 <meta property="og:image" content="https://apder.org/img/og/guia-ibogaina.png">
@@ -161,7 +161,7 @@
 <section class="s-cabeza">
 <div class="s-ancho">
 <div>
-<p class="s-antetitulo"><a href="../">Medicinas</a> · Guía completa</p>
+<p class="s-antetitulo"><a href="../">Medicinas</a> · Ficha breve</p>
 <h1>Ibogaína</h1>
 <p class="s-alias">(Iboga, <em>Tabernanthe iboga</em>)</p>
 <p class="s-nota">La ibogaína tiene riesgos cardíacos graves y solo debería usarse con supervisión médica. APDER no anima a consumir ninguna sustancia. Publicamos esta guía porque la información fiable reduce daños: queremos que quien vaya a tomar una decisión lo haga sabiendo qué implica.</p>
@@ -252,11 +252,11 @@
 <table>
 <thead><tr><th>Combinación</th><th>Riesgo</th><th>Qué puede pasar</th></tr></thead>
 <tbody>
-<tr><td>Opioides (también metadona y fentanilo)</td><td><strong>Muy peligroso</strong></td><td>La ibogaína aumenta la sensibilidad a los opioides; consumir después puede causar sobredosis. La metadona y otros opioides de acción larga complican mucho el proceso.</td></tr>
-<tr><td>Medicamentos que alargan el QT (algunos antipsicóticos, antibióticos, antiarrítmicos)</td><td><strong>Muy peligroso</strong></td><td>Arritmias graves.</td></tr>
-<tr><td>Estimulantes (cocaína, anfetaminas)</td><td><strong>Muy peligroso</strong></td><td>Carga cardíaca extrema.</td></tr>
-<tr><td>Antidepresivos ISRS</td><td><strong>Peligroso</strong></td><td>Interacciones cardíacas y serotoninérgicas.</td></tr>
-<tr><td>Alcohol, benzodiacepinas</td><td>Peligroso</td><td>Abstinencia y sedación que complican la sesión. El alcohol, además, alarga el QT.<sup><a href="#ref-4">4</a></sup></td></tr>
+<tr><td data-label="Combinación">Opioides (también metadona y fentanilo)</td><td data-label="Riesgo"><span class="riesgo r-alto">Muy peligroso</span></td><td data-label="Qué puede pasar">La ibogaína aumenta la sensibilidad a los opioides; consumir después puede causar sobredosis. La metadona y otros opioides de acción larga complican mucho el proceso.</td></tr>
+<tr><td data-label="Combinación">Medicamentos que alargan el QT (algunos antipsicóticos, antibióticos, antiarrítmicos)</td><td data-label="Riesgo"><span class="riesgo r-alto">Muy peligroso</span></td><td data-label="Qué puede pasar">Arritmias graves.</td></tr>
+<tr><td data-label="Combinación">Estimulantes (cocaína, anfetaminas)</td><td data-label="Riesgo"><span class="riesgo r-alto">Muy peligroso</span></td><td data-label="Qué puede pasar">Carga cardíaca extrema.</td></tr>
+<tr><td data-label="Combinación">Antidepresivos ISRS</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligroso</span></td><td data-label="Qué puede pasar">Interacciones cardíacas y serotoninérgicas.</td></tr>
+<tr><td data-label="Combinación">Alcohol, benzodiacepinas</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligroso</span></td><td data-label="Qué puede pasar">Abstinencia y sedación que complican la sesión. El alcohol, además, alarga el QT.<sup><a href="#ref-4">4</a></sup></td></tr>
 </tbody>
 </table>
 </div>
@@ -353,7 +353,7 @@ var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
 if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
 function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
 function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
-mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
+mb.addEventListener('click',function(){if(est()&&forz){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
 w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
 w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
 document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
@@ -392,5 +392,6 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 </div>
 </div>
 </footer>
+<script src="../../tierra.js" defer></script>
 </body>
 </html>

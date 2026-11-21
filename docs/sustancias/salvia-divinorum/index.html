@@ -345,14 +345,14 @@
 <table>
 <thead><tr><th>Combinación</th><th>Riesgo</th><th>Qué puede pasar</th></tr></thead>
 <tbody>
-<tr><td>Alcohol</td><td><span class="s-riesgo prec">Precaución</span></td><td>Más desorientación, torpeza y riesgo de caídas. Sin estudios.</td></tr>
-<tr><td>Disociativos (ketamina, dextrometorfano)</td><td><span class="s-riesgo prec">Precaución</span></td><td>Pueden sumar la desconexión del cuerpo y del entorno. Sin estudios.</td></tr>
-<tr><td>Otros psicodélicos (psilocibina, LSD, DMT)</td><td><span class="s-riesgo prec">Precaución</span></td><td>Experiencia más intensa e impredecible. Sin estudios.</td></tr>
-<tr><td>Cannabis</td><td><span class="s-riesgo prec">Precaución</span></td><td>Se consume a menudo junto con la salvia; puede aumentar la confusión y la ansiedad.<sup><a href="#ref-5">5</a></sup></td></tr>
-<tr><td>Opioides y tramadol</td><td><span class="s-riesgo prec">Precaución</span></td><td>Actúan sobre otros receptores opioides; no se sabe cómo se combinan. Suman torpeza y sedación.</td></tr>
-<tr><td>Estimulantes (cocaína, anfetaminas)</td><td><span class="s-riesgo prec">Precaución</span></td><td>Más ansiedad y agitación. Sin estudios.</td></tr>
-<tr><td>IMAO, antidepresivos ISRS e IRSN, litio</td><td><span class="s-riesgo prec">Precaución</span></td><td>Sin datos. La salvinorina A no actúa sobre la serotonina, pero su combinación con estos fármacos no se ha estudiado.<sup><a href="#ref-6">6</a></sup></td></tr>
-<tr><td>Antipsicóticos y otra medicación psiquiátrica</td><td><span class="s-riesgo prec">Precaución</span></td><td>Sin datos. Si los tomas por una psicosis o un trastorno bipolar, ver «Quién no debería».</td></tr>
+<tr><td data-label="Combinación">Alcohol</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Más desorientación, torpeza y riesgo de caídas. Sin estudios.</td></tr>
+<tr><td data-label="Combinación">Disociativos (ketamina, dextrometorfano)</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Pueden sumar la desconexión del cuerpo y del entorno. Sin estudios.</td></tr>
+<tr><td data-label="Combinación">Otros psicodélicos (psilocibina, LSD, DMT)</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Experiencia más intensa e impredecible. Sin estudios.</td></tr>
+<tr><td data-label="Combinación">Cannabis</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Se consume a menudo junto con la salvia; puede aumentar la confusión y la ansiedad.<sup><a href="#ref-5">5</a></sup></td></tr>
+<tr><td data-label="Combinación">Opioides y tramadol</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Actúan sobre otros receptores opioides; no se sabe cómo se combinan. Suman torpeza y sedación.</td></tr>
+<tr><td data-label="Combinación">Estimulantes (cocaína, anfetaminas)</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Más ansiedad y agitación. Sin estudios.</td></tr>
+<tr><td data-label="Combinación">IMAO, antidepresivos ISRS e IRSN, litio</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Sin datos. La salvinorina A no actúa sobre la serotonina, pero su combinación con estos fármacos no se ha estudiado.<sup><a href="#ref-6">6</a></sup></td></tr>
+<tr><td data-label="Combinación">Antipsicóticos y otra medicación psiquiátrica</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Sin datos. Si los tomas por una psicosis o un trastorno bipolar, ver «Quién no debería».</td></tr>
 </tbody>
 </table>
 </div>
@@ -510,7 +510,7 @@ var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
 if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
 function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
 function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
-mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
+mb.addEventListener('click',function(){if(est()&&forz){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
 w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
 w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
 document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
@@ -549,5 +549,6 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 </div>
 </div>
 </footer>
+<script src="../../tierra.js" defer></script>
 </body>
 </html>

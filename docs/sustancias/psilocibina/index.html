@@ -254,6 +254,14 @@
 </tbody>
 </table>
 </div>
+<figure class="s-tiempos">
+<figcaption>Cuándo empieza y cuánto dura</figcaption>
+<div class="t-pista" style="--paso:12.50%" role="img" aria-label="Empieza a notarse: 20–60 minutos. Duración total: 4–6 horas."><span class="t-ini" style="left:4.17%;width:8.33%"></span><span class="t-dur" style="width:50.00%"></span><span class="t-dur2" style="left:50.00%;width:25.00%"></span></div>
+<div class="t-ejes" aria-hidden="true"><span style="left:0.00%">0</span><span style="left:12.50%">1 h</span><span style="left:25.00%">2 h</span><span style="left:37.50%">3 h</span><span style="left:50.00%">4 h</span><span style="left:62.50%">5 h</span><span style="left:75.00%">6 h</span><span style="left:87.50%">7 h</span><span style="left:100.00%">8 h</span></div>
+<p class="t-leyenda"><span><i class="k-ini"></i>Empieza a notarse: 20–60 minutos</span><span><i class="k-dur"></i>Duración total: 4–6 horas</span></p>
+<p class="t-nota">Esquema orientador a partir de la tabla anterior; varía según la dosis, la vía y la persona.</p>
+</figure>
+
 
 <h2 id="experiencia">La experiencia</h2>
 <p>No hay dos experiencias iguales. Lo que ocurre depende de la dosis, de la especie y de su potencia, de cómo te encuentres (lo que en inglés se llama <em>set</em>) y del lugar y la compañía (<em>setting</em>). Una misma persona puede vivir dos veces la misma dosis de forma muy distinta.</p>
@@ -331,14 +339,14 @@
 <table>
 <thead><tr><th>Combinación</th><th>Riesgo</th><th>Qué puede pasar</th></tr></thead>
 <tbody>
-<tr><td>Litio</td><td><strong>Peligroso</strong></td><td>Se han descrito convulsiones y reacciones graves. Evitar.</td></tr>
-<tr><td>Tramadol</td><td><strong>Peligroso</strong></td><td>Baja el umbral de convulsiones.</td></tr>
-<tr><td>IMAO (incluida la ayahuasca o la ruda siria)</td><td>Precaución</td><td>Pueden intensificar y alargar mucho los efectos.</td></tr>
-<tr><td>Antidepresivos ISRS e IRSN</td><td>Precaución</td><td>Suelen reducir los efectos. No dejes la medicación sin hablarlo con tu médico.</td></tr>
-<tr><td>Antipsicóticos</td><td>Precaución</td><td>Reducen o anulan los efectos.</td></tr>
-<tr><td>Cannabis</td><td>Precaución</td><td>Puede intensificar la experiencia de forma impredecible y aumentar la ansiedad.</td></tr>
-<tr><td>Estimulantes (cocaína, anfetaminas)</td><td>Precaución</td><td>Más carga para el corazón y más ansiedad.</td></tr>
-<tr><td>Alcohol</td><td>Desaconsejado</td><td>Empeora la coordinación y el juicio, y aumenta las náuseas.</td></tr>
+<tr><td data-label="Combinación">Litio</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligroso</span></td><td data-label="Qué puede pasar">Se han descrito convulsiones y reacciones graves. Evitar.</td></tr>
+<tr><td data-label="Combinación">Tramadol</td><td data-label="Riesgo"><span class="riesgo r-alto">Peligroso</span></td><td data-label="Qué puede pasar">Baja el umbral de convulsiones.</td></tr>
+<tr><td data-label="Combinación">IMAO (incluida la ayahuasca o la ruda siria)</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Pueden intensificar y alargar mucho los efectos.</td></tr>
+<tr><td data-label="Combinación">Antidepresivos ISRS e IRSN</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Suelen reducir los efectos. No dejes la medicación sin hablarlo con tu médico.</td></tr>
+<tr><td data-label="Combinación">Antipsicóticos</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Reducen o anulan los efectos.</td></tr>
+<tr><td data-label="Combinación">Cannabis</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Puede intensificar la experiencia de forma impredecible y aumentar la ansiedad.</td></tr>
+<tr><td data-label="Combinación">Estimulantes (cocaína, anfetaminas)</td><td data-label="Riesgo"><span class="riesgo r-medio">Precaución</span></td><td data-label="Qué puede pasar">Más carga para el corazón y más ansiedad.</td></tr>
+<tr><td data-label="Combinación">Alcohol</td><td data-label="Riesgo"><span class="riesgo r-alto">Desaconsejado</span></td><td data-label="Qué puede pasar">Empeora la coordinación y el juicio, y aumenta las náuseas.</td></tr>
 </tbody>
 </table>
 </div>
@@ -520,7 +528,7 @@ var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
 if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
 function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
 function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
-mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
+mb.addEventListener('click',function(){if(est()&&forz){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
 w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
 w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
 document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
@@ -537,8 +545,8 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 <span class="ancla" id="contact"></span>
 <p class="pie-correo"><a href="mailto:info@apder.org" rel="noopener" target="_blank">info@apder.org</a></p>
 <ul class="redes">
-<li><a href="https://wa.me/447916618725" rel="noopener" target="_blank">Whatsapp</a></li>
-<li><a href="https://www.youtube.com/@apderorg" rel="noopener" target="_blank">Youtube</a></li>
+<li><a href="https://wa.me/447916618725" rel="noopener" target="_blank">WhatsApp</a></li>
+<li><a href="https://www.youtube.com/@apderorg" rel="noopener" target="_blank">YouTube</a></li>
 <li><a href="https://www.instagram.com/apder" rel="noopener" target="_blank">Instagram</a></li>
 <li><a href="https://www.facebook.com/apder" rel="noopener" target="_blank">Facebook</a></li>
 </ul>
@@ -550,7 +558,6 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 <div class="contacto-directo">
 <p>Escríbenos directamente:</p>
 <a class="btn t" href="https://wa.me/447916618725">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a></div>
-<p class="pie-nota">Recibe novedades sobre noticias y eventos.</p>
 </div>
 </div>
 <div class="pie-abajo">
@@ -559,5 +566,6 @@ window.addEventListener('afterprint',function(){document.querySelectorAll('main 
 </div>
 </div>
 </footer>
+<script src="../../tierra.js" defer></script>
 </body>
 </html>
