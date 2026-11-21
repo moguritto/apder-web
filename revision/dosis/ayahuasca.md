@@ -5,7 +5,7 @@ Preparada el 21-11-2026. Estado: **preparada, pendiente de revisión experta (D5
 
 Método: las afirmaciones se extrajeron con un script del texto visible de la guía (encabezados, párrafos, listas y filas de tabla con datos de dosis, tiempos, interacciones, riesgos para la salud o legalidad). Las cifras de la columna «Afirmación» están copiadas literalmente; en las filas de tabla, las celdas se separan con ‖. El contraste parafrasea fuentes abiertas el 21-11-2026. Ninguna corrección se ha aplicado a la web.
 
-Veredictos: ✔ 22 · ⚠ 1 · ? 11 · ✖ 0 (de 34 afirmaciones revisadas).
+Veredictos: ✔ 22 · ⚠ 2 · ? 10 · ✖ 0 (de 34 afirmaciones revisadas).
 
 ## Fuentes de contraste (consultadas el 21-11-2026)
 
@@ -15,6 +15,7 @@ Veredictos: ✔ 22 · ⚠ 1 · ? 11 · ✖ 0 (de 34 afirmaciones revisadas).
 - **S4**: [Callaway y Grob 1998, J Psychoactive Drugs: «Ayahuasca preparations and serotonin reuptake inhibitors: a potential combination for severe adverse interactions» (registro PubMed; solo título y ficha)](https://pubmed.ncbi.nlm.nih.gov/9924842/) — https://pubmed.ncbi.nlm.nih.gov/9924842/
 - **S52**: [Swissmedic, psicotrópicos y su Lista del Convenio de 1971 (según la Lista Verde de la JIFE)](https://www.swissmedic.ch/dam/swissmedic/en/dokumente/bewilligungen/btm/conversion_factorspsychotropics.pdf.download.pdf/conversion_factorspsychotropics.pdf) — https://www.swissmedic.ch/dam/swissmedic/en/dokumente/bewilligungen/btm/conversion_factorspsychotropics.pdf.download.pdf/conversion_factorspsychotropics.pdf
 - **S54**: [Resumen de Nayak et al. 2021 (PMID 34348413): litio con psicodélicos clásicos y convulsiones](https://psychedelichealth.co.uk/2021/08/13/mixing-psychedelics-with-lithium-poses-significant-risk-of-seizures/amp/) — https://psychedelichealth.co.uk/2021/08/13/mixing-psychedelics-with-lithium-poses-significant-risk-of-seizures/amp/
+- **S57**: [Orden SCO/190/2004 (BOE n.º 32, 6-2-2004), lista de plantas cuya venta al público queda prohibida o restringida por su toxicidad (texto completo en FAOLEX)](https://faolex.fao.org/docs/pdf/spa54948.pdf) — https://faolex.fao.org/docs/pdf/spa54948.pdf
 
 ## Afirmaciones
 
@@ -51,7 +52,7 @@ Veredictos: ✔ 22 · ⚠ 1 · ? 11 · ✖ 0 (de 34 afirmaciones revisadas).
 | <a id="f37"></a>37 | «Brasil reconoce su uso religioso desde los años ochenta (Santo Daime, União do Vegetal).» | Legalidad | Ninguna | No se ha contrastado hoy. | ? no verificable | — | |
 | <a id="f38"></a>38 | «Perú la declaró patrimonio cultural de la nación en 2008.» | Legalidad | Ninguna | No se ha contrastado hoy. | ? no verificable | — | |
 | <a id="f39"></a>39 | «Estados Unidos permite su uso a algunas iglesias tras sentencias del Tribunal Supremo.» | Legalidad | Ninguna | No se ha contrastado hoy. | ? no verificable | — | |
-| <a id="f40"></a>40 | «En España no hay una regulación específica y ha habido procesos judiciales con resultados distintos. Su importación y distribución pueden perseguirse.» | Legalidad | Ninguna | No se ha contrastado hoy la jurisprudencia española. | ? no verificable | Contrastar con el informe jurídico de ICEERS. | |
+| <a id="f40"></a>40 | «En España no hay una regulación específica y ha habido procesos judiciales con resultados distintos. Su importación y distribución pueden perseguirse.» | Legalidad | Ninguna | [S57](https://faolex.fao.org/docs/pdf/spa54948.pdf): Banisteriopsis caapi (n.º 21) y Peganum harmala (n.º 123) figuran en la Orden SCO/190/2004 de plantas de venta al público prohibida. La jurisprudencia no se ha contrastado hoy. | ⚠ discrepa/incompleto | Añadir la referencia a la Orden SCO/190/2004. Contrastar la jurisprudencia con el informe jurídico de ICEERS. | |
 | <a id="f42"></a>42 | «Por la acción de sus componentes sobre el aparato digestivo y el sistema nervioso. En la tradición, el vómito se entiende como una purga o limpieza física y emocional.» | Preguntas frecuentes › ¿Por qué se vomita con la ayahuasca? | Ninguna | [S3](https://www.iceers.org/wp-content/uploads/2020/05/ICEERS_factsheet_1_Seguridad_ES_web.pdf). | ✔ coincide | — | |
 | <a id="f43"></a>43 | «No sin supervisión médica. La combinación con la mayoría de antidepresivos puede provocar un síndrome serotoninérgico grave. Nunca dejes un antidepresivo de golpe: hay que hacerlo con un médico y con tiempo.» | Preguntas frecuentes › ¿Puedo tomarla si tomo antidepresivos? | Ninguna | [S3](https://www.iceers.org/wp-content/uploads/2020/05/ICEERS_factsheet_1_Seguridad_ES_web.pdf) e [S4](https://pubmed.ncbi.nlm.nih.gov/9924842/). | ✔ coincide | — | |
 

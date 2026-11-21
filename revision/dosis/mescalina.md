@@ -5,7 +5,7 @@ Preparada el 21-11-2026. Estado: **preparada, pendiente de revisión experta (D5
 
 Método: las afirmaciones se extrajeron con un script del texto visible de la guía (encabezados, párrafos, listas y filas de tabla con datos de dosis, tiempos, interacciones, riesgos para la salud o legalidad). Las cifras de la columna «Afirmación» están copiadas literalmente; en las filas de tabla, las celdas se separan con ‖. El contraste parafrasea fuentes abiertas el 21-11-2026. Ninguna corrección se ha aplicado a la web.
 
-Veredictos: ✔ 16 · ⚠ 2 · ? 7 · ✖ 0 (de 25 afirmaciones revisadas).
+Veredictos: ✔ 14 · ⚠ 5 · ? 6 · ✖ 0 (de 25 afirmaciones revisadas).
 
 ## Fuentes de contraste (consultadas el 21-11-2026)
 
@@ -14,6 +14,7 @@ Veredictos: ✔ 16 · ⚠ 2 · ? 7 · ✖ 0 (de 25 afirmaciones revisadas).
 - **S52**: [Swissmedic, psicotrópicos y su Lista del Convenio de 1971 (según la Lista Verde de la JIFE)](https://www.swissmedic.ch/dam/swissmedic/en/dokumente/bewilligungen/btm/conversion_factorspsychotropics.pdf.download.pdf/conversion_factorspsychotropics.pdf) — https://www.swissmedic.ch/dam/swissmedic/en/dokumente/bewilligungen/btm/conversion_factorspsychotropics.pdf.download.pdf/conversion_factorspsychotropics.pdf
 - **S53**: [Breeksema et al. 2022, J Psychopharmacol: revisión sistemática de efectos adversos en ensayos con psicodélicos](https://pmc.ncbi.nlm.nih.gov/articles/PMC9548934) — https://pmc.ncbi.nlm.nih.gov/articles/PMC9548934
 - **S54**: [Resumen de Nayak et al. 2021 (PMID 34348413): litio con psicodélicos clásicos y convulsiones](https://psychedelichealth.co.uk/2021/08/13/mixing-psychedelics-with-lithium-poses-significant-risk-of-seizures/amp/) — https://psychedelichealth.co.uk/2021/08/13/mixing-psychedelics-with-lithium-poses-significant-risk-of-seizures/amp/
+- **S57**: [Orden SCO/190/2004 (BOE n.º 32, 6-2-2004), lista de plantas cuya venta al público queda prohibida o restringida por su toxicidad (texto completo en FAOLEX)](https://faolex.fao.org/docs/pdf/spa54948.pdf) — https://faolex.fao.org/docs/pdf/spa54948.pdf
 
 ## Afirmaciones
 
@@ -23,7 +24,7 @@ Veredictos: ✔ 16 · ⚠ 2 · ? 7 · ✖ 0 (de 25 afirmaciones revisadas).
 | <a id="f5"></a>5 | «Empieza a notarse ‖ A los 45–90 minutos» | Resumen | Ninguna | [S1](https://psychonautwiki.org/wiki/Mescaline) inicio 45–90 min. | ✔ coincide | — | |
 | <a id="f6"></a>6 | «Duración total ‖ 8–12 horas» | Resumen | Ninguna | [S1](https://psychonautwiki.org/wiki/Mescaline) 8–14 h y efectos posteriores de 6–36 h. | ⚠ discrepa/incompleto | «8–12 horas, a veces hasta 14». | |
 | <a id="f7"></a>7 | «Potencial adictivo ‖ Bajo» | Resumen | Ninguna | [S1](https://psychonautwiki.org/wiki/Mescaline) tolerancia inmediata; vuelta a la línea base en ~7 días. | ✔ coincide | — | |
-| <a id="f8"></a>8 | «Situación en España ‖ Mescalina fiscalizada; los cactus se venden como ornamentales» | Resumen | Ninguna | [S52](https://www.swissmedic.ch/dam/swissmedic/en/dokumente/bewilligungen/btm/conversion_factorspsychotropics.pdf.download.pdf/conversion_factorspsychotropics.pdf) mescalina en Lista I. La venta de cactus como ornamentales no se ha contrastado hoy. | ✔ coincide | — | |
+| <a id="f8"></a>8 | «Situación en España ‖ Mescalina fiscalizada; los cactus se venden como ornamentales» | Resumen | Ninguna | [S52](https://www.swissmedic.ch/dam/swissmedic/en/dokumente/bewilligungen/btm/conversion_factorspsychotropics.pdf.download.pdf/conversion_factorspsychotropics.pdf) mescalina en Lista I. Pero [S57](https://faolex.fao.org/docs/pdf/spa54948.pdf) (Orden SCO/190/2004) incluye Trichocereus pachanoi (n.º 183) y Lophophora williamsii (n.º 106) entre las plantas cuya venta al público, y la de sus preparados, queda prohibida por toxicidad. | ⚠ discrepa/incompleto | Matizar: «la venta al público del San Pedro y del peyote como planta medicinal o preparado está prohibida (Orden SCO/190/2004); se encuentran a la venta como ornamentales». Revisión jurídica. | |
 | <a id="f10"></a>10 | «Subida (1–2 h). Náuseas, inquietud, sensación de calor.» | La experiencia | Ninguna | [S1](https://psychonautwiki.org/wiki/Mescaline) subida 60–120 min. | ✔ coincide | — | |
 | <a id="f11"></a>11 | «Pico (2–6 h). Colores muy intensos, patrones, emociones fuertes, sensación de conexión con la naturaleza.» | La experiencia | Ninguna | [S1](https://psychonautwiki.org/wiki/Mescaline) pico 4–6 h. | ✔ coincide | — | |
 | <a id="f12"></a>12 | «Bajada (6–12 h). Calma, reflexión. Puede costar dormir.» | La experiencia | Ninguna | Coherente con [S1](https://psychonautwiki.org/wiki/Mescaline). | ✔ coincide | — | |
@@ -40,13 +41,14 @@ Veredictos: ✔ 16 · ⚠ 2 · ? 7 · ✖ 0 (de 25 afirmaciones revisadas).
 | <a id="f24"></a>24 | «Experiencias largas y difíciles por su duración.» | Beneficios y riesgos › Riesgos | Ninguna | Coherente con la duración de [S1](https://psychonautwiki.org/wiki/Mescaline). | ✔ coincide | — | |
 | <a id="f25"></a>25 | «Psicosis o manía en personas con predisposición.» | Beneficios y riesgos › Riesgos | Ninguna | Coherente con [S53](https://pmc.ncbi.nlm.nih.gov/articles/PMC9548934). | ✔ coincide | — | |
 | <a id="f26"></a>26 | «Corazón: precaución con hipertensión.» | Beneficios y riesgos › Riesgos | Ninguna | Ver fila 15. | ? no verificable | — | |
-| <a id="f28"></a>28 | «La mescalina está en la Lista I del Convenio de 1971. En España, extraerla, venderla o facilitarla es delito. Los cactus San Pedro se venden legalmente como plantas ornamentales; usarlos para consumo puede tener consecuencias legales.» | Legalidad | Ninguna | [S52](https://www.swissmedic.ch/dam/swissmedic/en/dokumente/bewilligungen/btm/conversion_factorspsychotropics.pdf.download.pdf/conversion_factorspsychotropics.pdf) Lista I; [S51](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444) art. 368. | ✔ coincide | — | |
+| <a id="f28"></a>28 | «La mescalina está en la Lista I del Convenio de 1971. En España, extraerla, venderla o facilitarla es delito. Los cactus San Pedro se venden legalmente como plantas ornamentales; usarlos para consumo puede tener consecuencias legales.» | Legalidad | Ninguna | [S52](https://www.swissmedic.ch/dam/swissmedic/en/dokumente/bewilligungen/btm/conversion_factorspsychotropics.pdf.download.pdf/conversion_factorspsychotropics.pdf) Lista I; [S51](https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444) art. 368. Ver fila 8 sobre la Orden SCO/190/2004 [S57](https://faolex.fao.org/docs/pdf/spa54948.pdf). | ⚠ discrepa/incompleto | Igual que fila 8. | |
 | <a id="f29"></a>29 | «En Estados Unidos, los miembros de la Iglesia Nativa Americana pueden usar peyote en sus ceremonias por ley desde 1994.» | Legalidad | Ninguna | No se ha contrastado hoy. | ? no verificable | — | |
-| <a id="f31"></a>31 | «Sí, como planta ornamental. Lo que está fiscalizado es la mescalina.» | Preguntas frecuentes › ¿Es legal tener un cactus San Pedro? | Ninguna | No se ha contrastado hoy. | ? no verificable | — | |
+| <a id="f31"></a>31 | «Sí, como planta ornamental. Lo que está fiscalizado es la mescalina.» | Preguntas frecuentes › ¿Es legal tener un cactus San Pedro? | Ninguna | Ver fila 8: [S57](https://faolex.fao.org/docs/pdf/spa54948.pdf) incluye Trichocereus pachanoi. | ⚠ discrepa/incompleto | Igual que fila 8. | |
 | <a id="f32"></a>32 | «Entre ocho y doce horas, a veces más.» | Preguntas frecuentes › ¿Cuánto dura? | Ninguna | [S1](https://psychonautwiki.org/wiki/Mescaline) 8–14 h. | ⚠ discrepa/incompleto | Igual que fila 6. | |
 
 ## Lo que más preocupa
 
+- La guía dice que los cactus San Pedro se venden legalmente, pero la Orden SCO/190/2004 incluye Trichocereus pachanoi y el peyote entre las plantas de venta al público prohibida: necesita revisión jurídica.
 - Falta el cannabis en la tabla de interacciones, que PsychonautWiki señala como sinergia fuerte e impredecible.
 - La duración puede llegar a 14 h; conviene decirlo para planificar el acompañamiento.
 - No menciona embarazo ni enfermedad cardiovascular más allá de la hipertensión.
