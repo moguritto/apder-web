@@ -237,6 +237,14 @@
 </tbody>
 </table>
 </div>
+<figure class="s-tiempos">
+<figcaption>Cuándo empieza y cuánto dura</figcaption>
+<div class="t-pista" style="--paso:16.67%" role="img" aria-label="Empieza a notarse: 30–90 minutos. Duración total: 8–12 horas."><span class="t-ini" style="left:4.17%;width:8.33%"></span><span class="t-dur" style="width:66.67%"></span><span class="t-dur2" style="left:66.67%;width:33.33%"></span></div>
+<div class="t-ejes" aria-hidden="true"><span style="left:0.00%">0</span><span style="left:16.67%">2 h</span><span style="left:33.33%">4 h</span><span style="left:50.00%">6 h</span><span style="left:66.67%">8 h</span><span style="left:83.33%">10 h</span><span style="left:100.00%">12 h</span></div>
+<p class="t-leyenda"><span><i class="k-ini"></i>Empieza a notarse: 30–90 minutos</span><span><i class="k-dur"></i>Duración total: 8–12 horas</span></p>
+<p class="t-nota">Esquema orientador a partir de la tabla anterior; varía según la dosis, la vía y la persona.</p>
+</figure>
+
 
 <h2 id="experiencia">La experiencia</h2>
 <p>Como con otros psicodélicos, lo que ocurre depende de la dosis, del estado emocional y del entorno. Lo característico del LSD es su <strong>larga duración</strong> y una mente muy activa: muchas personas lo describen como más «eléctrico» y analítico que las setas, aunque esto varía mucho.</p>
@@ -412,7 +420,7 @@ var w=h.querySelector('.mega-sust'),mb=w&&w.querySelector('.mega-boton');
 if(w&&mb){var esc=window.matchMedia('(min-width:1121px)'),hv=window.matchMedia('(hover:hover)'),forz=false,cerr=false;
 function est(){if(!esc.matches)return forz;return !cerr&&(forz||(hv.matches&&w.matches(':hover'))||w.matches(':focus-within'))}
 function sync(){w.classList.toggle('abierto',forz&&!cerr);w.classList.toggle('cerrado',cerr);mb.setAttribute('aria-expanded',est()?'true':'false')}
-mb.addEventListener('click',function(){if(est()){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
+mb.addEventListener('click',function(){if(est()&&forz){forz=false;cerr=esc.matches}else{forz=true;cerr=false}sync()});
 w.addEventListener('mouseenter',sync);w.addEventListener('mouseleave',function(){cerr=false;sync()});
 w.addEventListener('focusin',sync);w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))setTimeout(function(){cerr=false;sync()},0)});
 document.addEventListener('click',function(e){if(!w.contains(e.target)&&forz){forz=false;sync()}});
