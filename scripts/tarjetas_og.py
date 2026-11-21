@@ -35,8 +35,6 @@ TARJETAS = [
     ("terapia-mdma", "Terapia con MDMA", "mol:mdma"),
     ("investigacion", "Investigación", "mol:5-meo-dmt"),
     ("biblioteca", "Biblioteca", "logo"),
-    ("guia-sesion", "Guía para tu sesión", "svg:corazon"),
-    ("protocolo-taller", "Meditación de corazón", "svg:corazon"),
 ]
 GUIAS = {
     "psilocibina": "Psilocibina", "lsd": "LSD", "mescalina": "Mescalina", "dmt": "DMT",
