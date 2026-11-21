@@ -42,3 +42,21 @@
   window.addEventListener('beforeprint',function(){document.querySelectorAll('main a[href]').forEach(function(a){var h=a.getAttribute('href');if(h.charAt(0)!=='#'&&!/^(https?:|mailto:)/.test(h))a.setAttribute('data-url',a.href)});document.querySelectorAll('main details').forEach(function(d){if(!d.open){d.open=true;d.setAttribute('data-impresion','1')}})});
   window.addEventListener('afterprint',function(){document.querySelectorAll('main details[data-impresion]').forEach(function(d){d.open=false;d.removeAttribute('data-impresion')})});
 })();
+
+/* Enlace de búsqueda para las fichas de la biblioteca. */
+(function(){
+  var ficha=document.querySelector('aside.lb-caja');
+  var titulo=document.querySelector('main h1');
+  if(!ficha||!titulo)return;
+  var autor='';
+  document.querySelectorAll('.lb-dl dt').forEach(function(campo){
+    if(campo.textContent.trim()==='Autoría'&&campo.nextElementSibling)autor=campo.nextElementSibling.textContent.trim();
+  });
+  var enlace=document.createElement('a');
+  enlace.className='btn c';
+  enlace.href='https://www.amazon.es/s?k='+encodeURIComponent(titulo.textContent.trim()+' '+autor)+'&i=stripbooks';
+  enlace.target='_blank';
+  enlace.rel='noopener noreferrer';
+  enlace.textContent='Buscar este libro en Amazon';
+  ficha.appendChild(enlace);
+})();
