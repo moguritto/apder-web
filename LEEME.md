@@ -53,6 +53,12 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - `docs/biblioteca/`: 425 libros con buscador y filtros (categoría, idioma y sustancia).
 - `AUDITORIA.md`: fallos encontrados, propuestas y cómo evitar problemas de derechos de autor.
 
+## Quién es quién (nuevo, 23-11-2026)
+
+- `docs/quien-es-quien/`: fichas de personas (por ahora Albert Hofmann, Stanislav Grof y María Sabina) y una portada con tarjetas. Sección aparte: todavía no está en el menú.
+- Se generan con `python3 scripts/quien_es_quien/generar.py .` (desde la raíz). Los textos y las fuentes están en `scripts/quien_es_quien/contenido.py`; la cabecera y el pie se copian de la guía del 2C-B. Para añadir a alguien: nueva entrada en `contenido.py`, su tarjeta en `scripts/tarjetas_og.py` (`persona-<slug>`), su dirección en `sitemap.xml` y volver a lanzar `construir_indice.py`.
+- Sin fotos de personas: cada ficha lleva un monograma con las iniciales.
+
 ## Imágenes para compartir (WhatsApp y redes)
 
 - Cada página tiene su tarjeta de 1200×630 en `docs/img/og/`, a propósito sencilla: solo el título, el dibujo (la molécula en las guías) y la marca APDER. La portada, las páginas legales y la 404 usan `docs/img/og-apder.png`, hecha con el mismo guion.

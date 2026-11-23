@@ -31,6 +31,7 @@ SECCIONES = {
     'medicinas': 'Medicinas',
     'investigacion-terapeutica': 'Investigación',
     'biblioteca': 'Biblioteca',
+    'quien-es-quien': 'Quién es quién',
     'terapia-asistida-mdma': 'Terapia',
     'aviso-legal': 'Información legal',
     'politica-de-privacidad': 'Información legal',

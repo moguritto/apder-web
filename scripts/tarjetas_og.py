@@ -35,6 +35,10 @@ TARJETAS = [
     ("terapia-mdma", "Terapia con MDMA", "mol:mdma"),
     ("investigacion", "Investigación", "mol:5-meo-dmt"),
     ("biblioteca", "Biblioteca", "logo"),
+    ("quien-es-quien", "Quién es quién", "logo"),
+    ("persona-albert-hofmann", "Albert Hofmann", "mol:lsd"),
+    ("persona-stanislav-grof", "Stanislav Grof", "logo"),
+    ("persona-maria-sabina", "María Sabina", "logo"),
 ]
 GUIAS = {
     "psilocibina": "Psilocibina", "lsd": "LSD", "mescalina": "Mescalina", "dmt": "DMT",
