@@ -45,7 +45,7 @@ GUIAS = {
     "ayahuasca": "Ayahuasca", "5-meo-dmt": "5-MeO-DMT", "mdma": "MDMA", "ketamina": "Ketamina",
     "ibogaina": "Ibogaína", "2c-b": "2C-B", "4-aco-dmt": "4-AcO-DMT", "amanita-muscaria": "Amanita",
     "salvia-divinorum": "Salvia", "cannabis": "Cannabis", "kanna": "Kanna", "kratom": "Kratom",
-    "datura": "Datura", "cacao": "Cacao", "tabaco": "Tabaco",
+    "datura": "Datura", "cacao": "Cacao", "tabaco": "Tabaco", "microdosis": "Microdosis",
 }
 MOLECULA = {"amanita-muscaria": "amanita", "salvia-divinorum": "salvia"}
 for slug, nombre in GUIAS.items():
