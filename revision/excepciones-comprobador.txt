@@ -2,3 +2,4 @@
 # h-wp: enlaces EXTERNOS a PDF alojados en webs ajenas cuya ruta contiene wp-content (no son restos de WordPress de APDER).
 h-wp|sustancias/amanita-muscaria/index.html
 h-wp|sustancias/datura/index.html
+h-wp|sustancias/psilocibina/index.html
