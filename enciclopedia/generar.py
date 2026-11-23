@@ -28,6 +28,7 @@ def marco(origen):
     """Cabecera, pie, hoja de estilos y guiones de una página real del sitio a la misma profundidad."""
     s = leer(os.path.join(DOCS, origen))
     cab = s[s.find('<header class="cabecera"'):s.find("</header>") + 9].replace(' aria-current="page"', "")
+    cab = cab.replace("menu-abre actual", "menu-abre").replace('menu-abre" aria-expanded="false" aria-controls="panel-aprender"', 'menu-abre actual" aria-expanded="false" aria-controls="panel-aprender"')  # la enciclopedia va en «Aprender»
     pie = s[s.find("<footer"):s.find("</footer>") + 9]
     css = re.search(r'tierra\.css\?v=[^"]+', s)
     return cab, pie, (css.group(0) if css else "tierra.css")
@@ -107,7 +108,7 @@ def pagina(ruta_rel, titulo, descripcion, cuerpo, pre, origen, extra=""):
 {cuerpo}
 </main>
 {pie}
-<script src="{pre}menu.js" defer></script>
+<script src="{pre}menu.js?v=20261123a" defer></script>
 <script src="{pre}tierra.js" defer></script>
 {extra}</body>
 </html>

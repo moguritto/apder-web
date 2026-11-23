@@ -20,7 +20,8 @@ BASE = "https://apder.org/"
 guia = open(os.path.join(DOCS, "sustancias/2c-b/index.html"), encoding="utf-8").read()
 CAB = guia[guia.index('<a class="saltar"'):guia.index("</header>") + len("</header>")]
 CAB = CAB.replace(' aria-current="page"', "").replace("menu-abre actual", "menu-abre")
-PIE = guia[guia.index('<script src="../../menu.js" defer></script>'):]
+CAB = CAB.replace('menu-abre" aria-expanded="false" aria-controls="panel-aprender"', 'menu-abre actual" aria-expanded="false" aria-controls="panel-aprender"')  # Quién es quién va en «Aprender»
+PIE = guia[guia.index('<script src="../../menu.js'):]
 
 
 def rel(txt, prof):
@@ -101,7 +102,7 @@ def cabeza(titulo, desc, url, og, og_alt, ld, prof):
 <link rel="apple-touch-icon" href="{p}img/apple-touch-icon.png">
 <link rel="preload" href="{p}fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{p}fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{p}tierra.css?v=20261121n">
+<link rel="stylesheet" href="{p}tierra.css?v=20261123a">
 {ESTILO}
 <script type="application/ld+json">
 {json.dumps(ld, ensure_ascii=False, indent=2)}

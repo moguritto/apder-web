@@ -42,6 +42,7 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, preguntas).
 - `docs/sustancias/<sustancia>/index.html`: 19 guías (psilocibina, LSD, MDMA, ketamina, ayahuasca, DMT, 5-MeO-DMT, mescalina, ibogaína, 2C-B, 4-AcO-DMT, Amanita muscaria, Salvia divinorum, cannabis, kanna, kratom, datura, cacao, tabaco).
 - En el menú, la sección se llama **«Medicinas»** (desde el 21/11/2026; antes «Sustancias»). Las direcciones no cambian: siguen en `/sustancias/`. El desplegable reúne las guías y los atajos «Todas las guías», «Medicinas por familias» (`/medicinas/`) y «Microdosis». «Terapia asistida con MDMA» (`/terapia-asistida-mdma/`) salió del menú el 23/11/2026: se llega desde la guía de MDMA (En pocas palabras y guías relacionadas). La cabecera está copiada en cada página: si se cambia, hay que cambiarla en todas.
+- Desde el 23/11/2026 el menú tiene cinco entradas: **Medicinas ▾ · Aprender ▾ · Investigación · Biblioteca · Quiénes somos**. El desplegable «Aprender» (`#panel-aprender`) reúne Enciclopedia de medicinas, Psiconáutica, Quién es quién y Dónde formarse (`/formaciones/`); en esas secciones el botón «Aprender» lleva la clase `actual`. «Enciclopedia de medicinas» también está en los atajos del desplegable Medicinas. `menu.js` admite varios desplegables (al abrir uno se cierran los demás). Para que quepan las cinco entradas, entre 1001 y 1439 px «Buscar» queda solo con su icono y el lema bajo el logo aparece desde 1440 px (antes, 1240).
 - `docs/sustancias/microdosis/index.html`: guía de microdosis (setas, LSD, ayahuasca, DMT e ibogaína) con la misma plantilla. A propósito **no da cifras de dosis ni pautas** (ni cantidades, ni calendarios, ni días de toma y descanso). Enlazada desde el megamenú («Microdosis», en los atajos), la cuadrícula, el mapa del sitio y los apartados de microdosis de psilocibina y LSD. Dibujo propio en `moleculas/microdosis.svg`.
 - `docs/sustancias/sustancias.css`: estilos solo de estas páginas (títulos Libre Caslon, texto Inter, acento rojo, índice lateral).
 - `docs/sustancias/moleculas/`: dibujos de las moléculas (SVG propios, hechos con RDKit).
@@ -53,7 +54,7 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - No se edita el HTML a mano. Cada ficha es un archivo de datos, `enciclopedia/fichas/<slug>.json`; la portada sale de `enciclopedia/lista.json`. Se genera todo con `python3 enciclopedia/generar.py`, que copia la cabecera y el pie de `docs/sustancias/`.
 - Estilos propios en `docs/enciclopedia/enciclopedia.css` (todo bajo `.enc`). Fotos en `docs/enciclopedia/img/`, cada una con su fila en `CREDITOS.md`.
 - Cómo escribir una ficha nueva, reglas y lista de pendientes: `enciclopedia/LEEME.md`.
-- Todavía no está en el menú principal: se llega por https://apder.org/enciclopedia/.
+- En el menú desde el 23/11/2026: desplegable «Aprender» y atajo en el desplegable «Medicinas». `generar.py` copia la cabecera de `docs/sustancias/` y marca «Aprender» como sección actual.
 
 ## Otras secciones
 
@@ -64,14 +65,14 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 
 ## Quién es quién (nuevo, 23-11-2026)
 
-- `docs/quien-es-quien/`: fichas de personas (por ahora Albert Hofmann, Stanislav Grof y María Sabina) y una portada con tarjetas. Sección aparte: todavía no está en el menú.
+- `docs/quien-es-quien/`: fichas de personas (por ahora Albert Hofmann, Stanislav Grof y María Sabina) y una portada con tarjetas. En el menú desde el 23/11/2026, dentro de «Aprender» (el generador marca «Aprender» como sección actual).
 - Se generan con `python3 scripts/quien_es_quien/generar.py .` (desde la raíz). Los textos y las fuentes están en `scripts/quien_es_quien/contenido.py`; la cabecera y el pie se copian de la guía del 2C-B. Para añadir a alguien: nueva entrada en `contenido.py`, su tarjeta en `scripts/tarjetas_og.py` (`persona-<slug>`), su dirección en `sitemap.xml` y volver a lanzar `construir_indice.py`.
 - Sin fotos de personas: cada ficha lleva un monograma con las iniciales.
 
 ## Formaciones en el mundo (en preparación, 23-11-2026)
 
 - `docs/formaciones/index.html`: directorio de formaciones de todo el mundo (terapia asistida, facilitación, integración, reducción de riesgos, investigación, introducción y saberes tradicionales), con mapa de puntos, atajos por tipo, filtros con recuentos, buscador, orden y enlace compartible. Estilos y código viven en la propia página.
-- **Publicada sin enlazar** (`noindex`, fuera del menú y del mapa del sitio) hasta completar el listado: el 23-11-2026 solo tiene 20 formaciones de EE. UU. y Canadá comprobadas. Cuando esté completa: quitar `noindex`, añadirla al `sitemap.xml` y al menú de todas las páginas como «Dónde formarse» (con cinco entradas, la cabecera necesita compactarse en `tierra.css`).
+- En el menú desde el 23/11/2026 como «Dónde formarse» (desplegable «Aprender»), pero sigue con `noindex` y fuera del `sitemap.xml` hasta completar el listado: el 23-11-2026 solo tiene 20 formaciones de EE. UU. y Canadá comprobadas. Cuando esté completa: quitar `noindex` y añadirla al `sitemap.xml`.
 - `docs/formaciones/formaciones.json`: una ficha por formación (`id`, `nombre`, `nombre_es`, `entidad`, `tipo_entidad`, `tipo`, `destinatarios`, `modalidad`, `idiomas`, `pais`, `ciudad`, `otros_lugares`, `sustancias`, `duracion_horas`, `duracion`, `precio`, `precio_eur` aproximado solo para el filtro, `reconocimiento`, `incluye`, `proxima`, `descripcion`, `url`, `estado`, `revisado`, `lat`, `lon`). Las fechas pasadas no se muestran; lo solo en línea no lleva `lat`/`lon`.
 - APDER no imparte ni recomienda estas formaciones: la página lo dice arriba. Sin temas de legalidad: «Aprobada en Oregón / Colorado» solo como reconocimiento, si figura en la lista oficial.
 - Tarjeta para compartir: `docs/img/og/formaciones.png` (dibujo `docs/img/formaciones.svg`).

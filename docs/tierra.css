@@ -1009,6 +1009,24 @@ body .guia-cuerpo .lb-info h2{font-size:1.3rem;margin:.8em 0 .3em;padding-top:.6
 /* Nombre completo de APDER (siempre en inglés): bajo el logo y sobre el titular de la portada */
 .cabecera .marca-txt{display:flex;flex-direction:column;gap:4px}
 .cabecera .marca-txt small{display:none;font-family:var(--sans,inherit);font-size:.6rem;line-height:1.25;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;color:var(--suave)}
-@media (min-width:1240px){.cabecera .marca-txt small{display:block!important}.cabecera.compacta .marca-txt small{display:none!important}}
+@media (min-width:1440px){.cabecera .marca-txt small{display:block!important}.cabecera.compacta .marca-txt small{display:none!important}}
 .portada p.portada-sigla{margin:0 0 6px;max-width:none;font-size:.78rem;line-height:1.5;letter-spacing:.1em;text-wrap:balance;text-transform:uppercase;color:var(--suave)}
 .portada-sigla b{color:var(--tierra-osc);font-weight:800}
+/* Panel «Aprender» (23-11-2026): enlaces con una línea de descripción */
+.panel-grupo a span{display:block}
+.panel-grupo a small{display:block;margin-top:2px;font-weight:400;font-size:.82rem;line-height:1.35;color:var(--suave)}
+@media (max-width:1000px){.panel-grupo a small{display:none}}
+/* Cabecera con cinco entradas (23-11-2026): más compacta por debajo de 1440 px */
+@media (min-width:1001px) and (max-width:1439px){
+  .cab-fila{gap:14px}
+  .menu-enlace{padding:0 10px}
+  .menu-enlace::after{left:10px;right:10px}
+  .cab-buscar{width:44px;padding:0;justify-content:center}
+  .cab-buscar span{display:none}
+  .cab-escribe{padding:0 18px}
+}
+@media (min-width:1001px) and (max-width:1120px){
+  .menu-enlace{padding:0 8px;font-size:.95rem}
+  .menu-enlace::after{left:8px;right:8px}
+  .cab-acciones{gap:8px}
+}
