@@ -29,6 +29,7 @@ SECCIONES = {
     '': 'Inicio',
     'sustancias': 'Sustancias',
     'medicinas': 'Medicinas',
+    'enciclopedia': 'Enciclopedia',
     'investigacion-terapeutica': 'Investigación',
     'biblioteca': 'Biblioteca',
     'quien-es-quien': 'Quién es quién',

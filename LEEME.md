@@ -47,6 +47,14 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - `docs/sustancias/moleculas/`: dibujos de las moléculas (SVG propios, hechos con RDKit).
 - Textos propios en español, escritos para APDER. Para añadir otra sustancia, copia una carpeta de guía, cambia los textos y enlázala desde la cuadrícula de `docs/sustancias/index.html` y desde el megamenú.
 
+## Enciclopedia de medicinas (nuevo, 23/11/2026)
+
+- `docs/enciclopedia/`: portada con buscador, tarjetas, mapa e índice A–Z, y una página por ficha (`docs/enciclopedia/<slug>/`). Hoy: ayahuasca y matamoscas.
+- No se edita el HTML a mano. Cada ficha es un archivo de datos, `enciclopedia/fichas/<slug>.json`; la portada sale de `enciclopedia/lista.json`. Se genera todo con `python3 enciclopedia/generar.py`, que copia la cabecera y el pie de `docs/sustancias/`.
+- Estilos propios en `docs/enciclopedia/enciclopedia.css` (todo bajo `.enc`). Fotos en `docs/enciclopedia/img/`, cada una con su fila en `CREDITOS.md`.
+- Cómo escribir una ficha nueva, reglas y lista de pendientes: `enciclopedia/LEEME.md`.
+- Todavía no está en el menú principal: se llega por https://apder.org/enciclopedia/.
+
 ## Otras secciones
 
 - `docs/investigacion-terapeutica/`: orientación sobre la investigación por problema de salud y cómo participar en ensayos.

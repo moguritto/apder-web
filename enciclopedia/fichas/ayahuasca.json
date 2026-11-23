@@ -1,0 +1,428 @@
+{
+ "slug": "ayahuasca",
+ "tipo": "preparado",
+ "tipo_txt": "Preparado",
+ "migas": "Preparado · Malpigiáceas · Cuenca amazónica",
+ "nombre": "Ayahuasca",
+ "cientifico": "Banisteriopsis caapi",
+ "autoridad": "(Spruce ex Griseb.) C.V.Morton",
+ "entrada": "En quechua, <em>aya</em> es espíritu o antepasado y <em>waska</em>, soga. La «soga de los espíritus» es una liana y es también la bebida que decenas de pueblos amazónicos cuecen con ella para curar, ver y decidir.[8]",
+ "otros": "yagé · caapi · natem · oni · kamarampi · nixi pae · hoasca · daime",
+ "portada": {
+  "img": "aya-hero.jpg",
+  "alt": "Trozos de liana de ayahuasca recién cortados; el corte muestra un dibujo de lóbulos parecido a una flor.",
+  "pie": "Tallos de <em>Banisteriopsis caapi</em> cortados para la cocción. El corte deja ver los lóbulos de la liana.",
+  "cred": "Apollo · CC BY 2.0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Bebida de dos plantas: una liana y las hojas de un arbusto"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Cuenca amazónica: Perú, Brasil, Colombia, Ecuador y Bolivia"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Tallo de la liana y hojas de chacruna"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Harmina, harmalina, tetrahidroharmina y DMT"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "30–60 min · 4–6 horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Shipibo-konibo, tukano, shuar, asháninka, huni kuin y muchos otros"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la ayahuasca",
+  "texto": "Dosis, interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/ayahuasca/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una soga que trepa hasta el dosel",
+  "parrafos": [
+   "La ayahuasca es una liana leñosa de la familia de las malpigiáceas. Sus tallos se retuercen unos sobre otros como una cuerda y trepan por los árboles hasta la luz. Al cortarlos aparece un dibujo de lóbulos que recuerda a una flor: es la imagen que abre esta ficha.[8]",
+   "Las hojas nacen de dos en dos, ovaladas y acabadas en punta. Las flores, pequeñas y rosadas, palidecen hasta el blanco, y el fruto es una sámara, una semilla con ala que el viento hace girar. Los pueblos que la usan la siembran junto a sus casas y chacras, tanto que hoy resulta difícil saber dónde es silvestre.[2]",
+   "La bebida necesita una segunda planta. La más habitual es la chacruna (<em>Psychotria viridis</em>), un arbusto de la familia del café; en otras regiones se usa la chaliponga (<em>Diplopterys cabrerana</em>).[8]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Malpighiaceae"
+   ],
+   [
+    "Porte",
+    "Liana leñosa trepadora"
+   ],
+   [
+    "Flor",
+    "Rosada, en racimos"
+   ],
+   [
+    "Fruto",
+    "Sámara, semilla con ala"
+   ]
+  ],
+  "foto": {
+   "img": "aya-flores.jpg",
+   "alt": "Racimo de flores pequeñas, rosadas y blancas, de Banisteriopsis caapi sobre hojas verde oscuro.",
+   "pie": "Flores de <em>Banisteriopsis caapi</em>.",
+   "cred": "Vojtěch Zavadil · CC BY-SA 3.0"
+  },
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La bebida que enseña",
+  "parrafos": [
+   "Decenas de pueblos de la Amazonía de Perú, Colombia, Ecuador, Brasil y Bolivia la toman para curar, para adivinar y como parte de su manera de entender el mundo. Nadie puede fechar con precisión cuándo empezó.[8]",
+   "Quien dirige la toma canta. En la Amazonía peruana esos cantos se llaman ícaros. El pueblo shipibo-konibo borda y pinta además unos diseños geométricos, el <em>kené</em>, que pertenecen a ese mismo mundo.",
+   "El primer botánico que la recogió fue el inglés Richard Spruce. En 1851, en el río Vaupés, la encontró entre los tukano y anotó el nombre que le daban: <em>caapi</em>.[10]"
+  ],
+  "banda": {
+   "img": "aya-kene.jpg",
+   "alt": "Tela oscura bordada con un diseño geométrico shipibo de líneas rojas, verdes y azules alrededor de un círculo central.",
+   "pie": "Tela shipibo-konibo con diseño <em>kené</em>.",
+   "cred": "Luke Hancock · CC0"
+  },
+  "cronologia": [
+   [
+    "h. 1000",
+    "En la Cueva del Chileno, en el altiplano de Bolivia, un atado ritual guarda restos de harmina y de DMT juntos: es el indicio químico más antiguo de los dos componentes de la bebida.[3]"
+   ],
+   [
+    "1851",
+    "Richard Spruce recoge la liana entre los tukano del río Vaupés.[10]"
+   ],
+   [
+    "1858",
+    "August Grisebach publica el nombre <em>Banisteria caapi</em> en la <em>Flora Brasiliensis</em>.[1]"
+   ],
+   [
+    "Años 30",
+    "En Brasil, Raimundo Irineu Serra funda el Santo Daime, que une la bebida con el cristianismo."
+   ],
+   [
+    "1961",
+    "José Gabriel da Costa funda la União do Vegetal."
+   ],
+   [
+    "Años 2000",
+    "El equipo de Jordi Riba, en Barcelona, describe cómo actúa en el cuerpo humano.[4]"
+   ],
+   [
+    "2019",
+    "Primer ensayo controlado con placebo en personas con depresión resistente.[5]"
+   ]
+  ],
+  "nombres": [
+   [
+    "ayahuasca",
+    "quechua: «soga de los espíritus»"
+   ],
+   [
+    "yagé, yajé",
+    "Colombia y Ecuador"
+   ],
+   [
+    "caapi",
+    "Brasil; el nombre que anotó Spruce"
+   ],
+   [
+    "natem",
+    "shuar"
+   ],
+   [
+    "kamarampi",
+    "asháninka"
+   ],
+   [
+    "oni",
+    "shipibo-konibo"
+   ],
+   [
+    "nixi pae",
+    "huni kuin"
+   ],
+   [
+    "hoasca, daime",
+    "religiones ayahuasqueras de Brasil"
+   ]
+  ],
+  "nota_nombres": null,
+  "retratos": [
+   {
+    "img": "aya-spruce.jpg",
+    "alt": "Retrato antiguo de Richard Spruce, anciano con barba blanca y gorra.",
+    "pie": "Richard Spruce. Retrato publicado en <em>Notes of a Botanist on the Amazon and Andes</em>, 1908.",
+    "cred": "Biodiversity Heritage Library · dominio público"
+   },
+   {
+    "img": "aya-tarapoto.jpg",
+    "alt": "Dibujo a lápiz de un poblado con montañas al fondo.",
+    "pie": "Tarapoto (Perú), dibujado por Spruce en 1856, donde recolectó plantas durante dos años.",
+    "cred": "Richard Spruce · dominio público"
+   }
+  ],
+  "lamina": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una liana cada vez más buscada",
+  "mapa": {
+   "img": "mapa-ayahuasca.svg",
+   "alt": "Mapa de Sudamérica con la cuenca amazónica sombreada en verde y cuatro lugares señalados: Iquitos, Pucallpa, río Vaupés y Río Branco.",
+   "mundo": false,
+   "leyenda": [
+    [
+     "#5f7f5c",
+     "Cuenca amazónica (área aproximada)"
+    ]
+   ]
+  },
+  "parrafos": [
+   "Kew sitúa su área nativa en el sur de la América tropical, en la selva húmeda de tierras bajas.[1] Fuera de allí se cultiva en jardines y viveros de medio mundo.",
+   "La liana tarda al menos cinco años en poder cosecharse. Con la demanda de fuera, quienes la recogen hablan de escasez, de precios al alza y de lianas cada vez más jóvenes, y más de cien curanderos shipibo-konibo han expresado su preocupación por la sobreexplotación.[6]"
+  ],
+  "uicn": {
+   "estado": "NE",
+   "nota": "La Lista Roja de la UICN todavía no ha evaluado la especie.[6]"
+  },
+  "ayuda": [
+   "Cultivarla fuera del bosque y en sistemas agroforestales.",
+   "Proteger las lianas grandes.",
+   "Que los beneficios lleguen a las comunidades de origen.",
+   "Distinguir lo tradicional de lo reciente y no llamar «ancestral» a lo nuevo."
+  ],
+  "foto": {
+   "img": "aya-rio.jpg",
+   "alt": "Río ancho y tranquilo entre dos orillas de selva, con nubes reflejadas en el agua.",
+   "pie": "Reserva Nacional Pacaya Samiria, en la Amazonía peruana.",
+   "cred": "Techylm · CC BY-SA 4.0"
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Dos plantas, una llave",
+  "parrafos": [
+   "Tomada sola por la boca, la DMT de las hojas no hace efecto: una enzima del intestino y del hígado, la MAO, la destruye antes de que llegue al cerebro. La liana aporta las sustancias que frenan esa enzima. Juntas, las dos plantas abren una experiencia de varias horas.[4]",
+   "Cada preparación es distinta, y se han descrito más de doscientas plantas que a veces se añaden a la cocción.[9]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Harmina",
+    "clase": "β-carbolina · de la liana",
+    "img": "ayahuasca.svg",
+    "texto": "Frena de forma reversible la enzima MAO-A. Con la harmalina y la tetrahidroharmina deja pasar la DMT a la sangre."
+   },
+   {
+    "nombre": "DMT",
+    "clase": "Triptamina · de las hojas",
+    "img": "dmt.svg",
+    "texto": "Activa los receptores de serotonina 5-HT2A, como los demás psicodélicos clásicos. De ahí vienen las visiones."
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Entre cuatro y seis horas",
+  "parrafos": [
+   "Empieza a notarse entre media hora y una hora después de beberla, llega a su punto más alto hacia las dos horas y se apaga en cuatro a seis.[4] Trae visiones, emociones intensas y una mirada hacia dentro.",
+   "Casi siempre hay náuseas y, con frecuencia, vómito. En la tradición esa purga se entiende como una limpieza."
+  ],
+  "tiempo": {
+   "horas": 8,
+   "tramos": [
+    [
+     "a",
+     0.5,
+     1.5,
+     "Sube"
+    ],
+    [
+     "b",
+     1.5,
+     2.5,
+     "Máximo"
+    ],
+    [
+     "c",
+     2.5,
+     5.5,
+     "Se apaga"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "30–60 min"
+    ],
+    [
+     "Máximo",
+     "hacia las 2 h"
+    ],
+    [
+     "Dura",
+     "4–6 h, a veces más"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "En los años 2000, el equipo de Jordi Riba en el Hospital de Sant Pau de Barcelona describió cómo se absorbe y cómo actúa la ayahuasca en el cuerpo humano.[4]",
+   "En 2019, un ensayo en Brasil con 29 personas con depresión resistente comparó una sola toma con un placebo. Una semana después había respondido el 57 % de quienes la tomaron, frente al 20 % del grupo placebo.[5] En adicciones solo hay estudios pequeños y sin grupo de comparación."
+  ],
+  "alcance": "Ese ensayo se hizo con supervisión médica, en un solo centro y con pocas personas. No equivale a una ceremonia ni convierte la bebida en un tratamiento."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Una experiencia psicológica muy difícil y, en personas predispuestas, episodios de psicosis o de manía.[7]"
+   ],
+   [
+    "Lo que no se mezcla",
+    "Antidepresivos y otros fármacos que actúan sobre la serotonina: la combinación puede ser grave."
+   ],
+   [
+    "Corazón y tensión",
+    "Sube la tensión y el pulso de forma moderada. Importa si hay hipertensión o una enfermedad del corazón.[4]"
+   ],
+   [
+    "Lo que se añade",
+    "Algunas bebidas llevan otras plantas, como el toé (<em>Brugmansia</em>), que cambian el efecto y el riesgo."
+   ]
+  ],
+  "parecidos": null
+ },
+ "galeria": [
+  {
+   "img": "aya-chacruna.jpg",
+   "cls": "g7",
+   "alt": "Arbusto de chacruna de hojas verdes y brillantes.",
+   "pie": "Chacruna (<em>Psychotria viridis</em>), la hoja que aporta la DMT.",
+   "cred": "Anthony Baratier · CC BY-SA 4.0"
+  },
+  {
+   "img": "aya-olla.webp",
+   "cls": "g5 papel",
+   "alt": "Olla de metal con hojas verdes y tiras de liana machacada.",
+   "pie": "Liana machacada y hojas antes de la cocción. Pastaza, Ecuador.",
+   "cred": "Rune Engelbreth Larsen, a partir de una foto de Terpsichore · CC0"
+  },
+  {
+   "img": "aya-coccion.jpg",
+   "cls": "g5",
+   "alt": "Olla grande humeando sobre brasas.",
+   "pie": "La cocción dura horas. Iquitos, Perú.",
+   "cred": "Apollo · CC BY 2.0"
+  },
+  {
+   "img": "aya-liana.jpg",
+   "cls": "g7",
+   "alt": "Tallo grueso y retorcido de liana, de corteza clara.",
+   "pie": "Tallo vivo de la liana.",
+   "cred": "Jaime Torres / Archivo Centro Takiwasi · CC BY-SA 4.0"
+  }
+ ],
+ "libros": [
+  {
+   "titulo": "Vine of the Soul",
+   "autor": "Richard Evans Schultes y Robert F. Raffauf · 1992",
+   "img": "biblioteca/portadas/apder-adicional-080.jpg",
+   "url": "biblioteca/vine-of-the-soul/"
+  },
+  {
+   "titulo": "Ayahuasca Reader",
+   "autor": "Luis Eduardo Luna y Steven F. White (eds.) · 2000",
+   "img": "biblioteca/portadas/libro-099.jpg",
+   "url": "biblioteca/ayahuasca-reader/"
+  },
+  {
+   "titulo": "Ayahuasca y salud",
+   "autor": "Beatriz Caiuby Labate y José Carlos Bouso (eds.) · 2013",
+   "img": null,
+   "url": "biblioteca/ayahuasca-y-salud/"
+  }
+ ],
+ "parientes": [
+  [
+   "planta",
+   "Chacruna",
+   "Psychotria viridis",
+   "La hoja que aporta la DMT a la bebida.",
+   "sustancias/dmt/"
+  ],
+  [
+   "planta",
+   "Ruda siria",
+   "Peganum harmala",
+   "Otra planta con harmina, del Mediterráneo a Asia central.",
+   null
+  ],
+  [
+   "planta",
+   "Mapacho",
+   "Nicotiana rustica",
+   "El tabaco que acompaña muchas tomas amazónicas.",
+   "sustancias/tabaco/"
+  ],
+  [
+   "planta",
+   "Jurema",
+   "Mimosa tenuiflora",
+   "Raíz con DMT del nordeste de Brasil.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Royal Botanic Gardens, Kew. Plants of the World Online: <em>Banisteriopsis caapi</em> (Spruce ex Griseb.) C.V.Morton. powo.science.kew.org.",
+  "Gates B. <em>Banisteriopsis</em>, <em>Diplopterys</em> (Malpighiaceae). Flora Neotropica Monograph 30. Nueva York: New York Botanical Garden; 1982.",
+  "Miller MJ, Albarracin-Jordan J, Moore C, Capriles JM. Chemical evidence for the use of multiple psychotropic plants in a 1,000-year-old ritual bundle from South America. Proc Natl Acad Sci USA. 2019;116(23):11207-11212.",
+  "Riba J, Valle M, Urbano G, et al. Human pharmacology of ayahuasca: subjective and cardiovascular effects, monoamine metabolite excretion, and pharmacokinetics. J Pharmacol Exp Ther. 2003;306(1):73-83.",
+  "Palhano-Fontes F, Barreto D, Onias H, et al. Rapid antidepressant effects of the psychedelic ayahuasca in treatment-resistant depression: a randomized placebo-controlled trial. Psychol Med. 2019;49(4):655-663.",
+  "Ermakova AO, Gandy S. Of shrub, cactus, vine and toad: psychedelic species of conservation concern. Front Conserv Sci. 2025;6:1569528.",
+  "Bouso JC, Andión Ó, Sarris JJ, et al. Adverse effects of ayahuasca: results from the Global Ayahuasca Survey. PLOS Glob Public Health. 2022;2(11).",
+  "Rätsch C. The Encyclopedia of Psychoactive Plants. Rochester: Park Street Press; 2005. Entradas «Banisteriopsis caapi» y «Ayahuasca».",
+  "ICEERS. Informe técnico sobre la ayahuasca. Barcelona; 2017. iceers.org.",
+  "Spruce R. Notes of a Botanist on the Amazon and Andes. Londres: Macmillan; 1908."
+ ],
+ "revisado": "23 de noviembre de 2026",
+ "anterior": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ],
+ "siguiente": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ],
+ "descripcion": "Ayahuasca (Banisteriopsis caapi): la liana, la bebida y los pueblos amazónicos que la cuidan. Botánica, historia, química, investigación y cuidados."
+}

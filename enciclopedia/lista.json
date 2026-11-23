@@ -1,0 +1,886 @@
+{
+ "descripcion": "Enciclopedia de medicinas de APDER: plantas, hongos, animales y preparados. Cómo son, dónde viven, quién guarda su memoria y qué se ha estudiado.",
+ "tipos": [
+  [
+   "planta",
+   "Plantas",
+   "Lianas, arbustos, hierbas y árboles"
+  ],
+  [
+   "hongo",
+   "Hongos",
+   "Psilocibes, amanitas y cornezuelo"
+  ],
+  [
+   "cactus",
+   "Cactus",
+   "Los que guardan mescalina"
+  ],
+  [
+   "animal",
+   "Animales",
+   "Dos anfibios y un pez"
+  ],
+  [
+   "preparado",
+   "Preparados",
+   "Bebidas, polvos y ungüentos"
+  ],
+  [
+   "molecula",
+   "Moléculas",
+   "Los principios activos, uno a uno"
+  ]
+ ],
+ "tarjetas": [
+  {
+   "slug": "ayahuasca",
+   "tipo": "preparado",
+   "nombre": "Ayahuasca",
+   "cientifico": "Banisteriopsis caapi",
+   "linea": "La «soga de los espíritus»: una liana y la bebida que decenas de pueblos amazónicos cuecen con ella.",
+   "meta": "Amazonía · Harmina y DMT",
+   "img": "aya-liana.jpg",
+   "grande": true,
+   "guia": null
+  },
+  {
+   "slug": "amanita-muscaria",
+   "tipo": "hongo",
+   "nombre": "Matamoscas",
+   "cientifico": "Amanita muscaria",
+   "linea": "La seta roja de los cuentos. Tóxica, sedante y sin psilocibina.",
+   "meta": "Hemisferio norte · Muscimol",
+   "img": "ama-joven.jpg",
+   "grande": false,
+   "guia": null
+  },
+  {
+   "slug": null,
+   "tipo": "cactus",
+   "nombre": "Peyote",
+   "cientifico": "Lophophora williamsii",
+   "linea": "El híkuri del pueblo wixárika, un cactus sin espinas del desierto.",
+   "meta": "México y Texas · Mescalina",
+   "img": "idx-peyote.jpg",
+   "grande": false,
+   "guia": "sustancias/mescalina/"
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Hierba de la pastora",
+   "cientifico": "Salvia divinorum",
+   "linea": "La salvia de la Sierra Mazateca.",
+   "meta": "Oaxaca · Salvinorina A",
+   "img": "idx-salvia.jpg",
+   "grande": false,
+   "guia": "sustancias/salvia-divinorum/"
+  },
+  {
+   "slug": null,
+   "tipo": "cactus",
+   "nombre": "San Pedro",
+   "cientifico": "Echinopsis pachanoi",
+   "linea": "Wachuma, el cactus columnar de los Andes.",
+   "meta": "Andes · Mescalina",
+   "img": "idx-sanpedro.jpg",
+   "grande": false,
+   "guia": "sustancias/mescalina/"
+  },
+  {
+   "slug": null,
+   "tipo": "hongo",
+   "nombre": "Mongui",
+   "cientifico": "Psilocybe semilanceata",
+   "linea": "El hongo psilocibio de los prados de Europa.",
+   "meta": "Europa · Psilocibina",
+   "img": "idx-psilocybe.jpg",
+   "grande": false,
+   "guia": "sustancias/psilocibina/"
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Iboga",
+   "cientifico": "Tabernanthe iboga",
+   "linea": "Arbusto de la selva de Gabón, centro del rito bwiti.",
+   "meta": "África central · Ibogaína",
+   "img": "idx-iboga.jpg",
+   "grande": false,
+   "guia": "sustancias/ibogaina/"
+  },
+  {
+   "slug": null,
+   "tipo": "animal",
+   "nombre": "Sapo de Sonora",
+   "cientifico": "Incilius alvarius",
+   "linea": "Un sapo del desierto cuya secreción contiene 5-MeO-DMT.",
+   "meta": "Desierto de Sonora · 5-MeO-DMT",
+   "img": "idx-sapo.jpg",
+   "grande": false,
+   "guia": "sustancias/5-meo-dmt/"
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Cacao",
+   "cientifico": "Theobroma cacao",
+   "linea": "Bebida ritual de Mesoamérica antes que alimento.",
+   "meta": "Mesoamérica · Teobromina",
+   "img": "idx-cacao.jpg",
+   "grande": false,
+   "guia": "sustancias/cacao/"
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Mapacho",
+   "cientifico": "Nicotiana rustica",
+   "linea": "El tabaco fuerte de la Amazonía, planta maestra de curanderos.",
+   "meta": "Sudamérica · Nicotina",
+   "img": "idx-tabaco.jpg",
+   "grande": false,
+   "guia": "sustancias/tabaco/"
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Gloria de la mañana",
+   "cientifico": "Ipomoea tricolor",
+   "linea": "Sus semillas son el tlitliltzin de los mexicas.",
+   "meta": "México · LSA",
+   "img": "idx-ipomoea.jpg",
+   "grande": false,
+   "guia": null
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Toloache",
+   "cientifico": "Datura innoxia",
+   "linea": "Una datura de flores blancas, tan bella como tóxica.",
+   "meta": "México · Escopolamina",
+   "img": "idx-datura.jpg",
+   "grande": false,
+   "guia": "sustancias/datura/"
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Loto azul",
+   "cientifico": "Nymphaea caerulea",
+   "linea": "El nenúfar de los relieves del antiguo Egipto.",
+   "meta": "Valle del Nilo · Aporfina",
+   "img": "idx-loto.jpg",
+   "grande": false,
+   "guia": null
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Mandrágora",
+   "cientifico": "Mandragora officinarum",
+   "linea": "La raíz con forma humana de los herbarios antiguos.",
+   "meta": "Mediterráneo · Alcaloides tropánicos",
+   "img": "idx-mandragora.jpg",
+   "grande": false,
+   "guia": null
+  },
+  {
+   "slug": null,
+   "tipo": "planta",
+   "nombre": "Chacruna",
+   "cientifico": "Psychotria viridis",
+   "linea": "La hoja que acompaña a la ayahuasca.",
+   "meta": "Amazonía · DMT",
+   "img": "aya-chacruna.jpg",
+   "grande": false,
+   "guia": "sustancias/dmt/"
+  }
+ ],
+ "regiones": [
+  "Amazonía y Orinoco",
+  "Andes",
+  "Mesoamérica y desiertos del norte",
+  "África",
+  "Europa y Mediterráneo",
+  "Siberia y Asia central",
+  "Sur y sudeste de Asia",
+  "Oceanía"
+ ],
+ "az": [
+  {
+   "nombre": "Acacias",
+   "detalle": "Acacia spp.",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Ajenjo",
+   "detalle": "Artemisia absinthium",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Ashwagandha",
+   "detalle": "Withania somnifera",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Belladona",
+   "detalle": "Atropa belladonna",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Beleño negro",
+   "detalle": "Hyoscyamus niger",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Betel",
+   "detalle": "Piper betle",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Cacao",
+   "detalle": "Theobroma cacao",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Cálamo aromático",
+   "detalle": "Acorus calamus",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Cannabis",
+   "detalle": "Cannabis sativa",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Caña común",
+   "detalle": "Arundo donax",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Cebil",
+   "detalle": "Anadenanthera colubrina",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Chacruna",
+   "detalle": "Psychotria viridis",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Chaliponga",
+   "detalle": "Diplopterys cabrerana",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Chiric sanango",
+   "detalle": "Brunfelsia grandiflora",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Coca",
+   "detalle": "Erythroxylum coca",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Cola de león",
+   "detalle": "Leonotis leonurus",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Colorín",
+   "detalle": "Erythrina americana",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Copa de oro",
+   "detalle": "Solandra spp.",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Damiana",
+   "detalle": "Turnera diffusa",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Efedra",
+   "detalle": "Ephedra spp.",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Epená",
+   "detalle": "Virola spp.",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Escopolia",
+   "detalle": "Scopolia carniolica",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Estramonio",
+   "detalle": "Datura stramonium",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Floripondio",
+   "detalle": "Brugmansia spp.",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Frijolillo",
+   "detalle": "Dermatophyllum secundiflorum",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Gloria de la mañana",
+   "detalle": "Ipomoea tricolor",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Guayusa",
+   "detalle": "Ilex guayusa",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Hierba cinta",
+   "detalle": "Phalaris arundinacea",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Hierba de la pastora",
+   "detalle": "Salvia divinorum",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Hierba de los sueños",
+   "detalle": "Calea ternifolia",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Iboga",
+   "detalle": "Tabernanthe iboga",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Jurema",
+   "detalle": "Mimosa tenuiflora",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Kanna",
+   "detalle": "Mesembryanthemum tortuosum",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Kava",
+   "detalle": "Piper methysticum",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Khat",
+   "detalle": "Catha edulis",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Kratom",
+   "detalle": "Mitragyna speciosa",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Latué",
+   "detalle": "Latua pubiflora",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Lechuga silvestre",
+   "detalle": "Lactuca virosa",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Loto azul",
+   "detalle": "Nymphaea caerulea",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Mandrágora",
+   "detalle": "Mandragora officinarum",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Mapacho",
+   "detalle": "Nicotiana rustica",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Marihuanilla",
+   "detalle": "Leonurus sibiricus",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Nuez de betel",
+   "detalle": "Areca catechu",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Nuez moscada",
+   "detalle": "Myristica fragrans",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Ololiuqui",
+   "detalle": "Ipomoea corymbosa",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Pericón",
+   "detalle": "Tagetes lucida",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Pituri",
+   "detalle": "Duboisia hopwoodii",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Raíz africana de los sueños",
+   "detalle": "Silene undulata",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Rosa lisérgica",
+   "detalle": "Argyreia nervosa",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Ruda siria",
+   "detalle": "Peganum harmala",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Sananga",
+   "detalle": "Tabernaemontana undulata",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Sinicuichi",
+   "detalle": "Heimia salicifolia",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Tabaco",
+   "detalle": "Nicotiana tabacum",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Taique",
+   "detalle": "Desfontainia spinosa",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Toloache",
+   "detalle": "Datura innoxia",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Voacanga",
+   "detalle": "Voacanga africana",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Yopo",
+   "detalle": "Anadenanthera peregrina",
+   "tipo": "planta",
+   "slug": null
+  },
+  {
+   "nombre": "Antorcha peruana",
+   "detalle": "Echinopsis peruviana",
+   "tipo": "cactus",
+   "slug": null
+  },
+  {
+   "nombre": "Cawé",
+   "detalle": "Pachycereus pecten-aboriginum",
+   "tipo": "cactus",
+   "slug": null
+  },
+  {
+   "nombre": "Falso peyote",
+   "detalle": "Ariocarpus fissuratus",
+   "tipo": "cactus",
+   "slug": null
+  },
+  {
+   "nombre": "Peyote",
+   "detalle": "Lophophora williamsii",
+   "tipo": "cactus",
+   "slug": null
+  },
+  {
+   "nombre": "Peyotillo",
+   "detalle": "Pelecyphora aselliformis",
+   "tipo": "cactus",
+   "slug": null
+  },
+  {
+   "nombre": "San Pedro",
+   "detalle": "Echinopsis pachanoi",
+   "tipo": "cactus",
+   "slug": null
+  },
+  {
+   "nombre": "Amanita pantera",
+   "detalle": "Amanita pantherina",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "Copelandia",
+   "detalle": "Panaeolus cyanescens",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "Cornezuelo",
+   "detalle": "Claviceps purpurea",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "Derrumbe",
+   "detalle": "Psilocybe caerulescens",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "Gymnopilus",
+   "detalle": "Gymnopilus junonius",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "Matamoscas",
+   "detalle": "Amanita muscaria",
+   "tipo": "hongo",
+   "slug": "amanita-muscaria"
+  },
+  {
+   "nombre": "Mongui",
+   "detalle": "Psilocybe semilanceata",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "Pajaritos",
+   "detalle": "Psilocybe mexicana",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "Psilocibe azulado",
+   "detalle": "Psilocybe cyanescens",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "San Isidro",
+   "detalle": "Psilocybe cubensis",
+   "tipo": "hongo",
+   "slug": null
+  },
+  {
+   "nombre": "Kambó",
+   "detalle": "Phyllomedusa bicolor",
+   "tipo": "animal",
+   "slug": null
+  },
+  {
+   "nombre": "Salema",
+   "detalle": "Sarpa salpa",
+   "tipo": "animal",
+   "slug": null
+  },
+  {
+   "nombre": "Sapo de Sonora",
+   "detalle": "Incilius alvarius",
+   "tipo": "animal",
+   "slug": null
+  },
+  {
+   "nombre": "Ayahuasca",
+   "detalle": "Banisteriopsis caapi",
+   "tipo": "preparado",
+   "slug": "ayahuasca"
+  },
+  {
+   "nombre": "Balché",
+   "detalle": "Bebida maya de corteza y miel",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "Changa",
+   "detalle": "Mezcla para fumar con DMT",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "Cohoba",
+   "detalle": "Polvo de yopo del Caribe",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "Haoma",
+   "detalle": "Bebida sagrada del Avesta",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "Kykeon",
+   "detalle": "Bebida de los misterios de Eleusis",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "Rapé",
+   "detalle": "Polvos de tabaco y cenizas",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "Soma",
+   "detalle": "Bebida de los himnos védicos",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "Ungüentos de brujas",
+   "detalle": "Solanáceas en grasa",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "Vino de jurema",
+   "detalle": "Bebida del nordeste de Brasil",
+   "tipo": "preparado",
+   "slug": null
+  },
+  {
+   "nombre": "2C-B",
+   "detalle": "Fenetilamina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "5-MeO-DMT",
+   "detalle": "Triptamina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Ácido iboténico",
+   "detalle": "Aminoácido",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Bufotenina",
+   "detalle": "Triptamina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "DMT",
+   "detalle": "Triptamina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Escopolamina",
+   "detalle": "Alcaloide tropánico",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Harmina y harmalina",
+   "detalle": "β-carbolinas",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Ibogaína",
+   "detalle": "Alcaloide indólico",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Ketamina",
+   "detalle": "Arilciclohexilamina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "LSA",
+   "detalle": "Ergolina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "LSD",
+   "detalle": "Ergolina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "MDMA",
+   "detalle": "Fenetilamina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Mescalina",
+   "detalle": "Fenetilamina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Mitraginina",
+   "detalle": "Alcaloide indólico",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Muscimol",
+   "detalle": "Isoxazol",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Psilocibina",
+   "detalle": "Triptamina",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "Salvinorina A",
+   "detalle": "Diterpeno",
+   "tipo": "molecula",
+   "slug": null
+  },
+  {
+   "nombre": "THC",
+   "detalle": "Cannabinoide",
+   "tipo": "molecula",
+   "slug": null
+  }
+ ],
+ "libros": [
+  {
+   "titulo": "Pharmacotheon",
+   "autor": "Jonathan Ott",
+   "img": "biblioteca/portadas/libro-368.jpg",
+   "url": "biblioteca/pharmacotheon/"
+  },
+  {
+   "titulo": "Psychedelics Encyclopedia",
+   "autor": "Peter Stafford",
+   "img": "biblioteca/portadas/libro-017.jpg",
+   "url": "biblioteca/psychedelics-encyclopedia/"
+  },
+  {
+   "titulo": "Vine of the Soul",
+   "autor": "Schultes y Raffauf",
+   "img": "biblioteca/portadas/apder-adicional-080.jpg",
+   "url": "biblioteca/vine-of-the-soul/"
+  },
+  {
+   "titulo": "Enciclopedia de las plantas psicoactivas",
+   "autor": "Christian Rätsch",
+   "img": null,
+   "url": "biblioteca/enciclopedia-de-las-plantas-psicoactivas-561/"
+  }
+ ],
+ "atajos": [
+  [
+   "Ayahuasca",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "Peyote",
+   "sustancias/mescalina/"
+  ],
+  [
+   "Hongos psilocibios",
+   "sustancias/psilocibina/"
+  ],
+  [
+   "San Pedro",
+   "sustancias/mescalina/"
+  ],
+  [
+   "Iboga",
+   "sustancias/ibogaina/"
+  ]
+ ]
+}

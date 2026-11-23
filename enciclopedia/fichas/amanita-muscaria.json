@@ -1,0 +1,421 @@
+{
+ "slug": "amanita-muscaria",
+ "tipo": "hongo",
+ "tipo_txt": "Hongo",
+ "migas": "Hongo · Amanitáceas · Bosques del hemisferio norte",
+ "nombre": "Matamoscas",
+ "cientifico": "Amanita muscaria",
+ "autoridad": "(L.) Lam.",
+ "entrada": "Es la seta roja de puntos blancos de los cuentos. Crece cada otoño al pie de abedules y pinos, es tóxica, no contiene psilocibina y quizá sea el hongo más dibujado del mundo.[1]",
+ "otros": "falsa oronja · rebentabois · brincabois · reig bord · fly agaric · Fliegenpilz · mujomor",
+ "portada": {
+  "img": "ama-hero.jpg",
+  "alt": "Tres matamoscas de distinto tamaño, de sombrero rojo con verrugas blancas, entre el musgo de un bosque.",
+  "pie": "Tres ejemplares en distintas fases, entre el musgo.",
+  "cred": "Holger Krisp · CC BY 3.0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Seta de bosque, tóxica y embriagante"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Bosques templados y fríos del hemisferio norte"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "El sombrero, por tradición seco"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Ácido iboténico y muscimol"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "30–120 min · 6–10 horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Koriakos, chukchis, itelmenos y janty, en Siberia"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la Amanita muscaria",
+  "texto": "Cómo actúa, interacciones, quién no debería tomarla y qué hacer ante una intoxicación.",
+  "url": "sustancias/amanita-muscaria/"
+ },
+ "planta": {
+  "id": "el-hongo",
+  "etq": "Micología",
+  "titulo": "Roja, blanca y unida a un árbol",
+  "parrafos": [
+   "Linneo la describió en 1753 como <em>Agaricus muscarius</em> y Lamarck la llevó en 1783 al género <em>Amanita</em>, donde sigue.[6]",
+   "El sombrero va del rojo vivo al anaranjado y lleva verrugas blancas, restos del velo que la envolvía al nacer; la lluvia puede lavarlas. Debajo tiene láminas blancas, un anillo colgante y un pie blanco que acaba en un bulbo.[1]",
+   "No vive sola. Sus filamentos envuelven las raíces de abedules, pinos, píceas, abetos y robles, y hongo y árbol se alimentan uno al otro. Por eso aparece siempre cerca de ellos, desde el final del verano hasta el otoño, y por eso no se cultiva con facilidad.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Amanitaceae"
+   ],
+   [
+    "Forma de vida",
+    "Micorriza con árboles"
+   ],
+   [
+    "Sombrero",
+    "Rojo, con verrugas blancas"
+   ],
+   [
+    "Temporada",
+    "Final del verano y otoño"
+   ]
+  ],
+  "foto": null,
+  "lamina": {
+   "img": "ama-sowerby.jpg",
+   "alt": "Lámina antigua coloreada a mano con tres matamoscas: una abierta, una joven y una cortada por la mitad.",
+   "titulo": "Agaricus muscarius",
+   "pie": "James Sowerby, <em>Coloured Figures of English Fungi or Mushrooms</em>, lámina 286. Londres, 1803.",
+   "cred": "Dominio público"
+  },
+  "aviso": "<b>Esto no es una clave de identificación.</b> Los rasgos sueltos engañan y en el mismo género hay setas mortales. Ante la duda, no se come ninguna."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "De Siberia a los cuentos",
+  "parrafos": [
+   "Su uso mejor documentado está en Siberia. Koriakos, chukchis, itelmenos y janty la han tomado en ritos y en fiestas, casi siempre seca.[2]",
+   "Los viajeros que lo contaron en Europa se fijaron en un detalle: parte de la sustancia activa pasa a la orina sin transformarse, y había quien la bebía para repetir el efecto.[1]",
+   "En Europa central es desde hace más de un siglo un amuleto de buena suerte, y en Rusia el <em>mujomor</em> es un personaje de cuento. Iván Bilibin lo dibujó hacia 1900."
+  ],
+  "banda": null,
+  "cronologia": [
+   [
+    "1658",
+    "Un prisionero de guerra polaco escribe que los ostiacos del río Irtish comen unas setas con forma de matamoscas y se embriagan con ellas.[4]"
+   ],
+   [
+    "1730",
+    "El sueco Philipp Johann von Strahlenberg, doce años cautivo en Siberia, describe cómo se toma.[4]"
+   ],
+   [
+    "1753",
+    "Linneo la nombra <em>Agaricus muscarius</em>.[6]"
+   ],
+   [
+    "1783",
+    "Lamarck la sitúa en el género <em>Amanita</em>.[6]"
+   ],
+   [
+    "1968",
+    "R. Gordon Wasson propone que era el soma de los himnos védicos. La idea sigue muy discutida.[4]"
+   ]
+  ],
+  "nombres": [
+   [
+    "matamoscas, falsa oronja",
+    "castellano"
+   ],
+   [
+    "rebentabois, brincabois",
+    "gallego"
+   ],
+   [
+    "reig bord, oriol foll",
+    "catalán"
+   ],
+   [
+    "fly agaric",
+    "inglés"
+   ],
+   [
+    "Fliegenpilz",
+    "alemán"
+   ],
+   [
+    "amanite tue-mouches",
+    "francés"
+   ],
+   [
+    "mujomor (мухомор)",
+    "ruso"
+   ],
+   [
+    "beni-tengu-take",
+    "japonés"
+   ]
+  ],
+  "nota_nombres": "Hacia 1250, Alberto Magno recogió que servía para matar moscas, y de ahí su nombre en media Europa. La revisión de referencia duda de que funcione como insecticida.[1]",
+  "retratos": null,
+  "lamina": {
+   "img": "ama-bilibin.jpg",
+   "alt": "Ilustración modernista rusa de una matamoscas con rostro y botas, entre abetos.",
+   "titulo": "«Seta»",
+   "pie": "Iván Bilibin. Ilustración, hacia 1900.",
+   "cred": "Dominio público"
+  }
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Donde hay abedules y pinos",
+  "mapa": {
+   "img": "mapa-amanita.svg",
+   "alt": "Mapa del mundo: en color oscuro, los países del hemisferio norte donde la matamoscas es nativa; en color claro, los del hemisferio sur donde se ha introducido.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#9c4a26",
+     "Nativa"
+    ],
+    [
+     "#e3a98b",
+     "Introducida con plantaciones de pinos y abedules"
+    ]
+   ]
+  },
+  "parrafos": [
+   "Es nativa de los bosques templados y boreales del hemisferio norte, de la península ibérica a Kamchatka y de Alaska a México. Con las plantaciones de pinos y abedules ha viajado al hemisferio sur, y hoy crece también en Australia, Nueva Zelanda, Sudáfrica y parte de Sudamérica.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Recoger sin remover el suelo ni arrancar el micelio.",
+   "No pisotear el entorno: el hongo vive unido a las raíces del árbol.",
+   "No llamar «chamánico» a un producto comercial: confunde una tradición viva con un objeto de mercado."
+  ],
+  "foto": null
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Un acelerador y un freno",
+  "parrafos": [
+   "El cerebro trabaja con señales que excitan y señales que frenan. La matamoscas toca las dos a la vez, y por eso su efecto mezcla agitación y sopor y es tan difícil de prever.[1]",
+   "La cantidad de cada sustancia cambia mucho de una seta a otra, de un lugar a otro y de una estación a otra. La muscarina, que le debe el nombre, está en cantidades pequeñas.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Muscimol",
+    "clase": "Se parece al GABA",
+    "img": "amanita.svg",
+    "texto": "Activa el receptor GABA-A, el principal freno del cerebro: sedación, torpeza y sueños vívidos."
+   },
+   {
+    "nombre": "Ácido iboténico",
+    "clase": "Se parece al glutamato",
+    "img": null,
+    "texto": "Excita el sistema nervioso y es el más tóxico de los dos. Al secar o calentar la seta, una parte se transforma en muscimol."
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un sueño despierto, a menudo incómodo",
+  "parrafos": [
+   "Suele empezar con náuseas y vómitos. Después llegan la confusión, la euforia o la agitación, y las cosas y el propio cuerpo parecen cambiar de tamaño. Al final viene un sueño muy profundo.[1]",
+   "No se parece a los hongos de psilocibina. Es más sedante, más confusa y más imprevisible, y con frecuencia resulta desagradable."
+  ],
+  "tiempo": {
+   "horas": 12,
+   "tramos": [
+    [
+     "a",
+     0.5,
+     2,
+     "Sube"
+    ],
+    [
+     "b",
+     2,
+     6,
+     "Efecto pleno"
+    ],
+    [
+     "c",
+     6,
+     10,
+     "Sueño profundo"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "30–120 min"
+    ],
+    [
+     "Dura",
+     "6–10 h, a veces bastante más"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Casi todo está por estudiar",
+  "nivel": 2,
+  "parrafos": [
+   "No hay usos terapéuticos demostrados. El muscimol se emplea en el laboratorio para estudiar el receptor GABA-A, pero eso no es un tratamiento.",
+   "Un estudio de 2023 analizó los comentarios de grupos de redes sociales favorables a su consumo. Quienes la tomaban decían buscar alivio del estrés, del insomnio, del ánimo bajo o del dolor; los efectos adversos más citados fueron la somnolencia, el dolor abdominal y las náuseas.[5]"
+  ],
+  "alcance": "Son testimonios de quienes eligieron escribirlos, sin grupo de comparación. No demuestran que funcione."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Confundirla con otra amanita. En el mismo género está la oronja verde (<em>Amanita phalloides</em>), la seta más peligrosa de Europa."
+   ],
+   [
+    "La propia seta",
+    "La intoxicación es imprevisible y a veces necesita atención en un hospital.[3]"
+   ],
+   [
+    "Lo que no se mezcla",
+    "Alcohol, tranquilizantes, opioides y otros sedantes: sus efectos se suman."
+   ],
+   [
+    "Productos «de amanita»",
+    "Gominolas, chocolates y extractos con etiquetas poco fiables; algunos llevan sustancias sin declarar."
+   ]
+  ],
+  "parecidos": [
+   {
+    "img": "ama-pantherina.jpg",
+    "alt": "Seta de sombrero pardo con verrugas blancas.",
+    "nombre": "Amanita pantera",
+    "lat": "Amanita pantherina",
+    "texto": "Contiene las mismas sustancias y causa intoxicaciones más intensas.[3]",
+    "cred": "George Chernilevsky · dominio público"
+   },
+   {
+    "img": "ama-caesarea.jpg",
+    "alt": "Varias oronjas de sombrero anaranjado, láminas y pie amarillos y volva blanca.",
+    "nombre": "Oronja",
+    "lat": "Amanita caesarea",
+    "texto": "Comestible y muy apreciada. De ella viene «falsa oronja»: una matamoscas lavada por la lluvia puede parecérsele.",
+    "cred": "Yaqui · CC BY-SA 3.0"
+   },
+   {
+    "img": null,
+    "alt": "",
+    "nombre": "Oronja verde",
+    "lat": "Amanita phalloides",
+    "texto": "No es roja, pero comparte anillo, volva y láminas blancas. Es la que hay que descartar siempre.",
+    "cred": ""
+   }
+  ]
+ },
+ "galeria": [
+  {
+   "img": "ama-joven.jpg",
+   "cls": "g5",
+   "alt": "Matamoscas joven, de sombrero casi esférico cubierto de verrugas blancas.",
+   "pie": "Recién salida, con el velo roto en verrugas.",
+   "cred": "Petar Milošević · CC BY-SA 4.0"
+  },
+  {
+   "img": "ama-pareja.jpg",
+   "cls": "g7",
+   "alt": "Una matamoscas abierta y plana junto a otra joven y redonda, sobre musgo.",
+   "pie": "Un ejemplar abierto y otro joven.",
+   "cred": "Holger Krisp · CC BY 3.0"
+  },
+  {
+   "img": "ama-bosque.jpg",
+   "cls": "g7",
+   "alt": "Matamoscas en el suelo musgoso de un bosque de coníferas.",
+   "pie": "Bosque de coníferas con musgo, su ambiente habitual.",
+   "cred": "Ermell · CC BY-SA 4.0"
+  },
+  {
+   "img": "ama-laminas.jpg",
+   "cls": "g5",
+   "alt": "Matamoscas vista desde abajo: láminas blancas, anillo y pie con bulbo.",
+   "pie": "Láminas blancas, anillo y pie con bulbo.",
+   "cred": "George Chernilevsky · CC BY 4.0"
+  }
+ ],
+ "libros": [
+  {
+   "titulo": "Soma: Divine Mushroom of Immortality",
+   "autor": "R. Gordon Wasson · 1968",
+   "img": "biblioteca/portadas/libro-053.jpg",
+   "url": "biblioteca/soma/"
+  },
+  {
+   "titulo": "Pharmacotheon",
+   "autor": "Jonathan Ott · 1993",
+   "img": "biblioteca/portadas/libro-368.jpg",
+   "url": "biblioteca/pharmacotheon/"
+  },
+  {
+   "titulo": "Amanita muscaria: Herb of Immortality",
+   "autor": "Donald E. Teeter",
+   "img": null,
+   "url": "biblioteca/amanita-muscaria-herb-of-immortality-573/"
+  }
+ ],
+ "parientes": [
+  [
+   "hongo",
+   "Amanita pantera",
+   "Amanita pantherina",
+   "Su pariente más cercana, con las mismas sustancias.",
+   null
+  ],
+  [
+   "hongo",
+   "Hongos psilocibios",
+   "Psilocybe spp.",
+   "Otros hongos, otra química y otra experiencia.",
+   "sustancias/psilocibina/"
+  ],
+  [
+   "hongo",
+   "Cornezuelo",
+   "Claviceps purpurea",
+   "El hongo del centeno del que salió la LSD.",
+   "sustancias/lsd/"
+  ],
+  [
+   "preparado",
+   "Soma",
+   "Bebida de los himnos védicos",
+   "El enigma al que Wasson quiso dar respuesta.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Michelot D, Melendez-Howell LM. <em>Amanita muscaria</em>: chemistry, biology, toxicology, and ethnomycology. Mycol Res. 2003;107(2):131-146.",
+  "Saar M. Ethnomycological data from Siberia and North-East Asia on the effect of <em>Amanita muscaria</em>. J Ethnopharmacol. 1991;31(2):157-173.",
+  "Moss MJ, Hendrickson RG. Toxicity of muscimol and ibotenic acid containing mushrooms reported to a regional poison control center from 2002–2016. Clin Toxicol (Phila). 2019.",
+  "Wasson RG. Soma: Divine Mushroom of Immortality. 1968.",
+  "Ordak M, Galazka A, Nasierowski T, et al. Reasons, form of ingestion and side effects associated with consumption of <em>Amanita muscaria</em>. Toxics. 2023;11(4):383.",
+  "Index Fungorum. <em>Amanita muscaria</em> (L.) Lam., 1783; basónimo <em>Agaricus muscarius</em> L., 1753. indexfungorum.org.",
+  "Rätsch C. The Encyclopedia of Psychoactive Plants. Rochester: Park Street Press; 2005. Entrada «Amanita muscaria»."
+ ],
+ "revisado": "23 de noviembre de 2026",
+ "anterior": [
+  "Ayahuasca",
+  "ayahuasca"
+ ],
+ "siguiente": [
+  "Ayahuasca",
+  "ayahuasca"
+ ],
+ "descripcion": "Matamoscas (Amanita muscaria): la seta roja de los cuentos. Cómo es, dónde vive, su uso en Siberia, qué contiene, qué se ha estudiado y sus riesgos."
+}
