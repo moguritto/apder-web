@@ -60,6 +60,14 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - Se generan con `python3 scripts/quien_es_quien/generar.py .` (desde la raíz). Los textos y las fuentes están en `scripts/quien_es_quien/contenido.py`; la cabecera y el pie se copian de la guía del 2C-B. Para añadir a alguien: nueva entrada en `contenido.py`, su tarjeta en `scripts/tarjetas_og.py` (`persona-<slug>`), su dirección en `sitemap.xml` y volver a lanzar `construir_indice.py`.
 - Sin fotos de personas: cada ficha lleva un monograma con las iniciales.
 
+## Formaciones en el mundo (en preparación, 23-11-2026)
+
+- `docs/formaciones/index.html`: directorio de formaciones de todo el mundo (terapia asistida, facilitación, integración, reducción de riesgos, investigación, introducción y saberes tradicionales), con mapa de puntos, atajos por tipo, filtros con recuentos, buscador, orden y enlace compartible. Estilos y código viven en la propia página.
+- **Publicada sin enlazar** (`noindex`, fuera del menú y del mapa del sitio) hasta completar el listado: el 23-11-2026 solo tiene 20 formaciones de EE. UU. y Canadá comprobadas. Cuando esté completa: quitar `noindex`, añadirla al `sitemap.xml` y al menú de todas las páginas como «Dónde formarse» (con cinco entradas, la cabecera necesita compactarse en `tierra.css`).
+- `docs/formaciones/formaciones.json`: una ficha por formación (`id`, `nombre`, `nombre_es`, `entidad`, `tipo_entidad`, `tipo`, `destinatarios`, `modalidad`, `idiomas`, `pais`, `ciudad`, `otros_lugares`, `sustancias`, `duracion_horas`, `duracion`, `precio`, `precio_eur` aproximado solo para el filtro, `reconocimiento`, `incluye`, `proxima`, `descripcion`, `url`, `estado`, `revisado`, `lat`, `lon`). Las fechas pasadas no se muestran; lo solo en línea no lleva `lat`/`lon`.
+- APDER no imparte ni recomienda estas formaciones: la página lo dice arriba. Sin temas de legalidad: «Aprobada en Oregón / Colorado» solo como reconocimiento, si figura en la lista oficial.
+- Tarjeta para compartir: `docs/img/og/formaciones.png` (dibujo `docs/img/formaciones.svg`).
+
 ## Imágenes para compartir (WhatsApp y redes)
 
 - Cada página tiene su tarjeta de 1200×630 en `docs/img/og/`, a propósito sencilla: solo el título, el dibujo (la molécula en las guías) y la marca APDER. La portada, las páginas legales y la 404 usan `docs/img/og-apder.png`, hecha con el mismo guion.

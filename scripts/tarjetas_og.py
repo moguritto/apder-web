@@ -35,6 +35,7 @@ TARJETAS = [
     ("terapia-mdma", "Terapia con MDMA", "mol:mdma"),
     ("investigacion", "Investigación", "mol:5-meo-dmt"),
     ("biblioteca", "Biblioteca", "logo"),
+    ("formaciones", "Formaciones en el mundo", "svg:formaciones"),
     ("quien-es-quien", "Quién es quién", "logo"),
     ("persona-albert-hofmann", "Albert Hofmann", "mol:lsd"),
     ("persona-stanislav-grof", "Stanislav Grof", "logo"),
