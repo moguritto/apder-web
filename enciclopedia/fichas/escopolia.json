@@ -1,0 +1,260 @@
+{
+ "slug": "escopolia",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Sureste de Europa",
+ "nombre": "Escopolia",
+ "cientifico": "Scopolia carniolica",
+ "autoridad": "Jacq.",
+ "descripcion": "Escopolia (Scopolia carniolica): solanácea europea de raíz rica en alcaloides tropánicos, una de las «hierbas de las brujas». Historia y química.",
+ "entrada": "Una solanácea de los hayedos húmedos del sureste de Europa, venenosa por sus alcaloides tropánicos. Pertenece al grupo de las «hierbas de las brujas» europeas, junto a belladona, beleño, mandrágora y estramonio.[2][4]",
+ "otros": "escopolia · belladona de Carniola · Scopolia carniolica · henbane bell · European scopolia",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Solanácea venenosa con alcaloides tropánicos"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Hayedos húmedos entre los Alpes orientales y los Cárpatos orientales"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Sobre todo la raíz; las hojas también contienen alcaloides"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Atropina o hiosciamina y escopolamina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tradiciones populares y médicas de Europa central y oriental"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una solanácea de sombra",
+  "parrafos": [
+   "<em>Scopolia carniolica</em> es una planta venenosa de la familia de las solanáceas, de flores pardo-violáceas colgantes sobre pedicelos largos y delgados, que ronda los 60 centímetros de altura.[2]",
+   "Crece en suelos húmedos de hayedos del sureste de Europa, desde las tierras bajas hasta zonas montañosas; es nativa de una región que va de los Alpes orientales a los Cárpatos orientales y se ha naturalizado más al este, en el suroeste de Rusia.[2]",
+   "Linneo la describió como <em>Hyoscyamus scopolia</em> en honor del médico Giovanni Antonio Scopoli, y Jacquin la pasó después al género <em>Scopolia</em>.[2] Antes ya la había citado Mattioli en 1563 con otro nombre.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Altura",
+    "Hasta unos 60 cm"
+   ],
+   [
+    "Flores",
+    "Pardo-violáceas, colgantes"
+   ],
+   [
+    "Hábitat",
+    "Hayedos húmedos del sureste de Europa"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Una de las «hierbas de las brujas»",
+  "parrafos": [
+   "En Europa, las solanáceas con alcaloides anticolinérgicos, representadas por los géneros <em>Atropa</em>, <em>Datura</em>, <em>Hyoscyamus</em>, <em>Mandragora</em> y <em>Scopolia</em>, han tenido un papel importante en la historia de muchas costumbres de uso de plantas.[4]",
+   "Sus alcaloides permitieron emplearlas como medicinas, como venenos y como intoxicantes.[4]",
+   "La escopolia tiene además un historial de uso medicinal: en Eslovenia se empleó para problemas de la piel y en los países bálticos como antiparalítico y abortivo.[1]",
+   "A comienzos del siglo XX se la consideraba oficial y se admitía su raíz como sustituta de la belladona para obtener alcaloides midriáticos.[3]"
+  ],
+  "cronologia": [
+   [
+    "1563",
+    "Mattioli la nombra como <em>Solanum somniferum alterum</em>.[3]"
+   ],
+   [
+    "1764",
+    "Jacquin la describe como <em>Scopolia carniolica</em>.[3]"
+   ]
+  ],
+  "nombres": [
+   [
+    "escopolia",
+    "nombre común en español"
+   ],
+   [
+    "<em>henbane bell</em>",
+    "nombre inglés"
+   ],
+   [
+    "<em>European scopolia</em>",
+    "otro nombre inglés"
+   ]
+  ],
+  "nota_nombres": "La sinonimia del género es larga y llegó a aplicarse a plantas de otras familias.[3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Entre los Alpes y los Cárpatos",
+  "parrafos": [
+   "Es nativa de una franja que va de los Alpes orientales a los Cárpatos orientales y está naturalizada en el suroeste de Rusia.[2]",
+   "Una forma rara, de corola amarillo verdosa, es propia de Eslovenia.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como parte del patrimonio botánico europeo.",
+   "No recolectarla sin conocimiento y permiso.",
+   "Respetar los bosques donde crece."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-escopolia.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre los Alpes orientales y los Cárpatos.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la escopolia"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides tropánicos",
+  "parrafos": [
+   "Su toxicidad procede de su alto contenido en alcaloides tropánicos, en particular atropina, cuya concentración es mayor en la raíz.[2]",
+   "Una base de datos fitoquímica del Departamento de Agricultura de Estados Unidos recoge atropina y alcaloides totales en el rizoma.[5]",
+   "En un estudio de preparados populares, el contenido de alcaloides era mucho mayor en las hojas que en las raíces, sobre todo el de escopolamina.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Atropina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Principal alcaloide de la planta, más concentrado en la raíz.[2]"
+   },
+   {
+    "nombre": "Escopolamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Más abundante en las hojas que en las raíces según un estudio de preparados populares.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un delirio, no una visión",
+  "parrafos": [
+   "Estas plantas son, en rigor, tóxicas y anticolinérgicas.[2] Sus alcaloides pueden provocar un estado fuerte de delirio.[1]",
+   "Las fuentes no ofrecen datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay estudios etnobotánicos sobre las «hierbas de las brujas» europeas y trabajos de laboratorio sobre cómo los preparados populares extraen sus alcaloides.[1][4]",
+   "No hay investigación clínica que respalde su uso como medicina de consciencia."
+  ],
+  "alcance": "Buena documentación etnobotánica y química; sin investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es una planta venenosa y sus alcaloides pueden causar delirio.[1][2]"
+   ],
+   [
+    "Variación",
+    "El contenido de alcaloides cambia según la parte de la planta y el material de partida.[1]"
+   ],
+   [
+    "Contexto",
+    "Su historia europea es de medicina, veneno y brujería, no de ceremonia guiada.[4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Belladona",
+   "Atropa belladonna",
+   "Otra solanácea europea con alcaloides tropánicos.",
+   "enciclopedia/belladona/"
+  ],
+  [
+   "planta",
+   "Beleño negro",
+   "Hyoscyamus niger",
+   "Otra de las hierbas de las brujas europeas.",
+   "enciclopedia/beleno-negro/"
+  ],
+  [
+   "planta",
+   "Mandrágora",
+   "Mandragora officinarum",
+   "Solanácea de la misma tradición europea.",
+   "enciclopedia/mandragora/"
+  ]
+ ],
+ "fuentes": [
+  "Pipes and Potions: Testing the Efficacy of European Folk Preparation Methods for Anticholinergic Solanaceae Plants. Plants. 2022;11(1):126. pmc.ncbi.nlm.nih.gov/articles/PMC8747641.",
+  "Wikipedia. <em>Scopolia carniolica</em>. en.wikipedia.org/wiki/Scopolia_carniolica.",
+  "Lloyd JU. Historia natural de <em>Scopola carniolica</em> (Jacquin), recogida en la Eclectic Materia Medica. henriettes-herb.com/eclectic/lloyd-hist/scopola.html.",
+  "Fatur K. Hexing herbs in ethnobotanical perspective: a historical review of the uses of anticholinergic Solanaceae plants in Europe. Economic Botany. 2020;74:140-158. ui.adsabs.harvard.edu/abs/2020EcBot..74..140F.",
+  "USDA. Phytochemical and Ethnobotanical Databases: <em>Scopolia carniolica</em>. phytochem.nal.usda.gov/plant-scopolia-carniolica."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Epená",
+  "epena"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
