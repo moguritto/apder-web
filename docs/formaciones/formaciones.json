@@ -904,14 +904,14 @@
    "sustancias": [
     "varias"
    ],
-   "duracion_horas": 45,
-   "duracion": "14 semanas, en línea",
+   "duracion_horas": null,
+   "duracion": "14 semanas en línea: 60 vídeos y 12 charlas en directo",
    "precio": "Consultar en la web",
    "precio_eur": null,
    "reconocimiento": [
     "certificado"
    ],
-   "descripcion": "Curso en línea para profesionales sanitarios que acompañan a personas tras estados no ordinarios de consciencia, basado en el modelo de integración de Marc Aixalà. Da un certificado propio de ICEERS, que aclara que la integración no es aún una profesión reconocida oficialmente en la mayoría de los países.",
+   "descripcion": "Curso en línea para profesionales que acompañan la integración tras experiencias psicodélicas, con seis módulos y un protocolo de intervención por escenarios, según el modelo de Marc Aixalà. En noviembre de 2026 la web solo ofrece avisar cuando abran inscripciones.",
    "url": "https://hub.iceers.org/en/academy/integration",
    "estado": "por_confirmar",
    "revisado": "2026-11-24",
@@ -1144,8 +1144,8 @@
    "reconocimiento": [
     "universidad"
    ],
-   "descripcion": "Certificado de una universidad contemplativa, con práctica de atención plena como eje de la formación de quienes facilitan. Comprobar en la web si sigue abierto el programa y a quién se dirige.",
-   "url": "https://www.naropa.edu/?p=65920",
+   "descripcion": "Certificado de una universidad contemplativa lanzado en 2021. La página del programa ya no existe en la web de Naropa, así que puede estar cerrado: confirmar con la universidad antes de contar con él.",
+   "url": "https://www.naropa.edu/?s=psychedelic-assisted+therapies",
    "estado": "por_confirmar",
    "revisado": "2026-11-24",
    "lat": 40.015,
@@ -1227,12 +1227,12 @@
    "revisado": "2026-11-24",
    "id": "therapsil-training-program",
    "nombre": "TheraPsil Training Program",
-   "nombre_es": "Formación de TheraPsil en psicoterapia asistida con psilocibina",
+   "nombre_es": "Formación de TheraPsil en terapia asistida con psilocibina y MDMA",
    "entidad": "TheraPsil",
    "tipo": [
     "terapia"
    ],
-   "destinatarios": "clinicos",
+   "destinatarios": "ayuda",
    "modalidad": "mixta",
    "idiomas": [
     "en"
@@ -1243,7 +1243,7 @@
     "mdma"
    ],
    "duracion_horas": null,
-   "duracion": "Programa de diez semanas en su primera edición",
+   "duracion": "Consultar fechas y formatos en la web",
    "precio": "Consultar a la entidad",
    "reconocimiento": [
     "certificado"
@@ -1251,9 +1251,9 @@
    "incluye": [
     "experiencial"
    ],
-   "descripcion": "Formación de una entidad canadiense sin ánimo de lucro para profesionales sanitarios, centrada en el acompañamiento al final de la vida. Incluye una parte vivencial y una línea de MDMA para quienes terminan la de psilocibina. Un portal la daba sin nuevas fechas.",
-   "url": "https://therapsil.ca/",
-   "estado": "por_confirmar"
+   "descripcion": "Formación de una entidad canadiense sin ánimo de lucro, con itinerarios de psilocibina y de MDMA y opciones vivenciales y para prescriptores. Según la propia web ha formado a más de 900 profesionales y no hace falta ser terapeuta: se valoran perfiles sanitarios, de psicología y counselling, doulas de muerte, saberes indígenas y acompañamiento espiritual.",
+   "url": "https://therapsil.ca/training/",
+   "estado": "activa"
   },
   {
    "tipo_entidad": "asociacion",
