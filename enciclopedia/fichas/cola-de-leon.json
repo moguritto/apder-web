@@ -1,0 +1,263 @@
+{
+ "slug": "cola-de-leon",
+ "tipo": "planta",
+ "migas": "Planta · Lamiáceas · África meridional",
+ "nombre": "Cola de león",
+ "cientifico": "Leonotis leonurus",
+ "autoridad": "(L.) R.Br.",
+ "descripcion": "Cola de león (Leonotis leonurus): la «dagga silvestre» del sur de África, de flores naranjas y fama de cannabis suave. Qué dice la ciencia y qué la tradición.",
+ "entrada": "Un arbusto de flores naranjas del sur de África, conocido como «dagga silvestre» por un parecido de nombre con el cannabis. La ciencia no ha confirmado que contenga leonurina, el alcaloide al que se atribuye su efecto, y el nombre quizá sea engañoso.[1][2]",
+ "otros": "cola de león · dagga silvestre · wild dagga · lion's tail · lion's ear · wildedagga · imvovo · Leonotis leonurus",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto robusto de la familia de la menta"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Praderas húmedas del sur de África; naturalizada en otras partes"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hojas y flores; en uso medicinal también la raíz"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Terpenoides, sobre todo diterpenos labdánicos como la marrubiina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Khoikhoi, xhosa, zulú y otros pueblos del sur de África"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un arbusto de espigas anaranjadas",
+  "parrafos": [
+   "<em>Leonotis leonurus</em> es un arbusto de crecimiento rápido, robusto y de madera blanda, que alcanza 2 o 3 metros de altura y 1,5 de ancho.[3] Pertenece a las lamiáceas, la familia de la menta, que reúne unas 3200 especies en 200 géneros.[4]",
+   "Sus flores rojo-anaranjadas crecen en espigas y son muy apreciadas en jardinería.[5] Atraen a aves nectarívoras, sobre todo a las suimangas.[2]",
+   "Su hábitat nativo son las praderas húmedas del sur de África.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Lamiaceae"
+   ],
+   [
+    "Altura",
+    "2–3 m"
+   ],
+   [
+    "Flor",
+    "Rojo-anaranjada, en espigas"
+   ],
+   [
+    "Hábitat",
+    "Praderas húmedas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La dagga silvestre",
+  "parrafos": [
+   "Los antiguos habitantes de Sudáfrica, como los khoikhoi, fumaban las hojas y flores secas, que se dice que tenían propiedades narcóticas y daban una sensación de calma o euforia; de ahí el nombre <em>wildedagga</em>, «dagga silvestre».[3]",
+   "La palabra «dagga» viene del afrikáans y esta, a su vez, del khoikhoi <em>dachab</em>; en afrikáans y en el inglés sudafricano se extendió al cannabis, y por eso se añade «silvestre» para distinguir la planta.[2]",
+   "Algunas culturas la han fumado con cannabis o como sustituto.[5]",
+   "En medicina tradicional se ha usado la planta, en forma de decocción, para muchas dolencias.[1] La infusión de hojas se ha empleado para el asma y la hepatitis viral.[5]",
+   "Los pueblos del sur de África le dan nombres como <em>imvovo</em> en xhosa o <em>umfincafincane</em> en xhosa y zulú.[3]"
+  ],
+  "cronologia": [
+   [
+    "Época khoikhoi",
+    "Se fuman sus hojas y flores secas.[3]"
+   ],
+   [
+    "2015",
+    "Se publica una revisión del uso tradicional y la fitoquímica de la planta.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "<em>wildedagga</em>",
+    "afrikáans, «dagga silvestre»"
+   ],
+   [
+    "<em>duiwelstabak</em>",
+    "afrikáans, «tabaco del diablo»"
+   ],
+   [
+    "<em>imvovo</em>",
+    "xhosa"
+   ],
+   [
+    "<em>umfincafincane</em>",
+    "xhosa y zulú"
+   ],
+   [
+    "cola de león",
+    "por la forma de la flor, nombre inglés <em>lion's tail</em>"
+   ]
+  ],
+  "nota_nombres": "El nombre «dagga silvestre» puede ser un nombre engañoso: según una fuente, ninguna parte de la planta se usa como alucinógeno.[2]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de jardín y de pradera",
+  "parrafos": [
+   "Es nativa del sur de África y se cultiva en California, México y el Caribe; se ha naturalizado en Australia Occidental y Nueva Gales del Sur.[5]",
+   "Es una de las plantas más conocidas del género <em>Leonotis</em>, de uso tradicional muy variado en África.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Cultivarla como planta de jardín, que atrae abejas y colibríes.",
+   "Conocer su historia sin presentarla como un sustituto de nada.",
+   "Escuchar a los pueblos que la nombran y usan en el sur de África."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-cola-de-leon.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre el sur de África.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la cola de león"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Terpenoides y una leonurina discutida",
+  "parrafos": [
+   "La planta contiene sobre todo terpenoides, en particular diterpenos labdánicos, con la marrubiina como principal.[1]",
+   "Se ha atribuido el efecto psicoactivo a la leonurina, un alcaloide levemente psicoactivo; pero según la revisión de 2015 la leonurina solo aparece en la literatura popular y nunca se ha hallado en ningún análisis científico de los extractos.[1]",
+   "Otras fuentes afirman lo contrario, y la cuestión no está cerrada.[2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Marrubiina",
+    "clase": "Diterpeno labdánico",
+    "img": null,
+    "texto": "Compuesto principal confirmado.[1]"
+   },
+   {
+    "nombre": "Leonurina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Citada en la literatura popular; no confirmada en la revisión de 2015.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Entre el mito y el análisis",
+  "parrafos": [
+   "Se dice que tiene efectos levemente alucinógenos cuando se fuman los capullos o las hojas secas.[5]",
+   "Esa fama se basa en relatos y en el nombre, más que en estudios.[1][2]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Una revisión de 2015 recoge la literatura entre 1900 y 2015 sobre su botánica, etnofarmacología, fitoquímica, actividad biológica, toxicidad y aspectos comerciales.[1]",
+   "Otra revisión señala que hace falta establecer más estudios para guiar un uso seguro como producto herbal.[4]"
+  ],
+  "alcance": "Hay buena revisión de la literatura y poca evidencia clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "La idea de que tenga un efecto parecido al cannabis no está confirmada.[1][2]"
+   ],
+   [
+    "Dos especies parecidas",
+    "Se parece mucho a otras del género, como <em>L. nepetifolia</em>, con las que se confunde.[1]"
+   ],
+   [
+    "Seguridad",
+    "Falta guía de uso seguro como producto herbal.[4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta evidencia clínica."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Cannabis",
+   "Cannabis sativa",
+   "Con la que comparte el nombre «dagga», aunque no es pariente.",
+   "enciclopedia/cannabis/"
+  ],
+  [
+   "planta",
+   "Marihuanilla",
+   "Leonurus sibiricus",
+   "Otra lamiácea de uso fumado.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Nsuala BN, Enslin G, Viljoen A. «Wild cannabis»: a review of the traditional use and phytochemistry of <em>Leonotis leonurus</em>. J Ethnopharmacol. 2015;174:520-539. doi:10.1016/j.jep.2015.08.013.",
+  "Wikipedia. «Leonotis leonurus». en.wikipedia.org (consultada el 24-11-2026).",
+  "South African National Biodiversity Institute (SANBI). <em>Leonotis leonurus</em>. pza.sanbi.org/node/10505.",
+  "Mazimba O. <em>Leonotis leonurus</em>: a herbal medicine review. J Pharmacogn Phytochem. 2015;3(6). phytojournal.com.",
+  "Kruidwis. Wild dagga. sites.google.com/site/kruidwis.",
+  "Estudio del género <em>Leonotis</em> como remedio herbal en África. wiredspace.wits.ac.za."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Coca",
+  "coca"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
