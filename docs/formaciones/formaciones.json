@@ -974,15 +974,15 @@
     "varias"
    ],
    "duracion_horas": null,
-   "duracion": "12 módulos en sábados, desde febrero de 2026 (1.ª edición)",
+   "duracion": "12 módulos en sábados; nueva edición con candidaturas hasta el 31 de diciembre de 2026",
    "precio": "Consultar en la universidad",
    "precio_eur": null,
    "reconocimiento": [
     "universidad"
    ],
-   "descripcion": "Curso de actualización de posgrado con doce módulos, de la historia de los psicodélicos a la investigación clínica reciente. La primera edición empezó en febrero de 2026; hay que preguntar si habrá una segunda y a quién se dirige.",
-   "url": "https://www.medicina.ulisboa.pt/sites/default/files/2025-09/programa-preliminar-introducao-terapia-com-psicadelicos.pdf",
-   "estado": "por_confirmar",
+   "descripcion": "Curso de actualización de posgrado de la Facultad de Medicina de Lisboa, con doce módulos que van de la historia de los psicodélicos a la investigación clínica. La facultad anuncia una sesión informativa híbrida el 28 de noviembre de 2026 y candidaturas abiertas hasta el 31 de diciembre de 2026.",
+   "url": "https://www.medicina.ulisboa.pt/sessao-de-esclarecimentos-introducao-terapia-com-psicadelicos-investigacao-e-clinica",
+   "estado": "activa",
    "revisado": "2026-11-24",
    "lat": 38.7223,
    "lon": -9.1393
@@ -1182,8 +1182,8 @@
    "incluye": [
     "experiencial"
    ],
-   "descripcion": "Programa intensivo para terapeutas y profesionales de la salud mental, con 15 horas grabadas y 50 presenciales que incluyen respiración Grof. Se imparte en inglés con traducción simultánea al español y para 50 personas. La edición de 2026 ya pasó: hay que ver si hay otra.",
-   "url": "https://maps.org/event/maps-mexico-formacion-en-psicoterapia-asistida-con-psicodelicos/",
+   "descripcion": "Programa intensivo para terapeutas y profesionales de la salud mental, con 15 horas grabadas y 50 presenciales que incluyen respiración Grof. Se imparte en inglés con traducción simultánea al español y para 50 personas. La edición de 2026 ya pasó: hay que ver si hay otra. La ficha del evento ya no está en la web de MAPS.",
+   "url": "https://maps.org/training",
    "estado": "por_confirmar",
    "lat": 19.4326,
    "lon": -99.1332
@@ -1326,7 +1326,7 @@
   },
   {
    "tipo_entidad": "universidad",
-   "precio_eur": null,
+   "precio_eur": 940,
    "revisado": "2026-11-24",
    "id": "pacifica-psychedelics-depth-psychology-certificates",
    "nombre": "Psychedelics and Depth Psychology certificates (Pacifica Graduate Institute)",
@@ -1346,13 +1346,13 @@
     "varias"
    ],
    "duracion_horas": null,
-   "duracion": "Nivel 1: 16 semanas. Nivel 2: 12 semanas, en directo por Zoom",
-   "precio": "Nivel 1: unos 930 USD en 2025. Nivel 2: pendiente",
+   "duracion": "Nivel 2: 12 semanas en línea, 12 clases grabadas y 11 sesiones en directo por Zoom",
+   "precio": "1.095 USD tarifa general (con descuentos de 876 y 930,75 USD) más 30 USD por los créditos",
    "reconocimiento": [
     "universidad",
     "ce"
    ],
-   "descripcion": "Certificados de posgrado desde la psicología profunda: marco médico y psiquiátrico, historia indígena de las medicinas y psicología analítica aplicada a la facilitación. El nivel 2 aparece sin fecha, así que conviene preguntar por la próxima edición.",
+   "descripcion": "Certificado de posgrado en psicodélicos y psicología profunda con enfoques junguiano, grofiano, IFS y somático. Está abierto a todo el mundo: no exige ni da licencia ni título. El nivel 2 no tiene fecha publicada y el nivel 1 no es requisito.",
    "url": "https://extension.pacifica.edu/advanced-psychedelics-graduate-certificate-level-2/",
    "estado": "por_confirmar"
   }
