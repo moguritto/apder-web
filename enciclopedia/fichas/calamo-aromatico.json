@@ -1,0 +1,262 @@
+{
+ "slug": "calamo-aromatico",
+ "tipo": "planta",
+ "migas": "Planta · Acoráceas · Zonas templadas del hemisferio norte",
+ "nombre": "Cálamo aromático",
+ "cientifico": "Acorus calamus",
+ "autoridad": "L.",
+ "descripcion": "Cálamo aromático (Acorus calamus): hierba de pantano de rizoma aromático, medicina tradicional de India y China, con asarona. Historia y cuidados.",
+ "entrada": "Una hierba perenne y aromática de humedales, de larga historia en la medicina tradicional de la India, China y otros lugares. Sus rizomas contienen alfa y beta asarona, a las que se atribuyen la mayoría de sus efectos y también sus límites de seguridad.[1][2][4]",
+ "otros": "cálamo aromático · cálamo · acoro · sweet flag · calamus · vasambu · shi chang pu · Acorus calamus",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba perenne semiacuática de rizoma aromático"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "De las zonas templadas del norte a las subtropicales"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "El rizoma"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alfa y beta asarona, entre otros fenilpropanoides"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No hay datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina tradicional de India, China, Indonesia y América"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una hierba de humedales y rizoma rastrero",
+  "parrafos": [
+   "<em>Acorus calamus</em> L. es una hierba perenne, aromática y semiacuática, de rizomas rastreros.[5] El rizoma es amarillo pálido a pardo rosado por fuera y blanco a rosado por dentro.[4]",
+   "El género <em>Acorus</em> es de hierbas perennes distribuidas desde las zonas templadas del norte hasta las subtropicales, y se usa como medicina popular tradicional en China y la India.[3] Los autores dividen el género en dos a cinco especies, con relaciones filogenéticas que siguen poco claras.[3]",
+   "Existe una variedad tetraploide en la India con mucha más beta-asarona (del 75 % al 96 %) y otra diploide en Norteamérica, que no la tiene.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Acoraceae"
+   ],
+   [
+    "Hábito",
+    "Hierba perenne semiacuática"
+   ],
+   [
+    "Parte usada",
+    "Rizoma aromático"
+   ],
+   [
+    "Nombre inglés",
+    "<em>Sweet flag</em>"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Una raíz de más de dos mil años",
+  "parrafos": [
+   "El género <em>Acorus</em> se usa como planta medicinal tradicional para tratar diversas enfermedades desde hace más de 2000 años.[2]",
+   "El cálamo tiene una larga historia de uso y numerosas aplicaciones tradicionales y etnomédicas.[1] Su historia llega a los tiempos bíblicos.[4]",
+   "En la medicina tradicional se ha usado para trastornos digestivos, catarros, fiebres intermitentes y asma, entre otros.[3][4] En América e Indonesia se usó también contra problemas gastrointestinales.[3]",
+   "En algunos lugares se usa la raíz para la fiebre intermitente, como antipirético y antitusígeno, para el dolor de estómago, la gota y el reumatismo.[5]"
+  ],
+  "cronologia": [
+   [
+    "Tiempos bíblicos",
+    "Ya figura en la historia de uso del cálamo.[4]"
+   ],
+   [
+    "Hace más de 2000 años",
+    "Se usa el género <em>Acorus</em> como medicina tradicional.[2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "cálamo",
+    "nombre común"
+   ],
+   [
+    "<em>sweet flag</em>",
+    "nombre inglés: «bandera dulce»"
+   ],
+   [
+    "<em>vasambu</em>",
+    "nombre tamil"
+   ],
+   [
+    "<em>shi chang pu</em>",
+    "nombre chino"
+   ],
+   [
+    "<em>rat root</em>",
+    "nombre inglés popular"
+   ]
+  ],
+  "nota_nombres": "Los rizomas de <em>A. calamus</em> se consideran adulterantes del rizoma de <em>A. tatarinowii</em> en el mercado de hierbas chino.[3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de orillas",
+  "parrafos": [
+   "Crece en zonas templadas del norte y subtropicales.[3]",
+   "Hay límites de contenido de beta-asarona en alimentos y bebidas fijados por la Comisión Europea.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectarla en humedales sin conocer la variedad.",
+   "Informarse de la variedad: la tetraploide tiene mucha más beta-asarona.",
+   "Respetar su lugar en las medicinas tradicionales de la India y China."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-calamo-aromatico.svg",
+   "alt": "Mapa con zonas sombreadas en ocre sobre Eurasia y Norteamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del cálamo aromático"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alfa y beta asarona",
+  "parrafos": [
+   "Los principales compuestos bioactivos son la alfa y la beta asarona, a las que se atribuye la mayoría de las bioactividades del género.[1][3] Son, respectivamente, los isómeros trans y cis.[4]",
+   "Entre los fenilpropanoides del rizoma y las hojas, la asarona y el eugenol, además de sesquiterpenoides, son los compuestos efectivos principales.[6]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Beta-asarona",
+    "clase": "Fenilpropanoide",
+    "img": null,
+    "texto": "Compuesto predominante del rizoma; se ha descrito genotoxicidad y mutagenicidad.[1]"
+   },
+   {
+    "nombre": "Alfa-asarona",
+    "clase": "Fenilpropanoide",
+    "img": null,
+    "texto": "Isómero de la beta-asarona.[1][4]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un sedante suave, según la farmacología",
+  "parrafos": [
+   "Los estudios de laboratorio describen en el rizoma y en la asarona efectos sedantes, depresores del sistema nervioso central y anticonvulsivos.[5]",
+   "No hay datos fiables sobre su experiencia como planta entera."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay revisiones de sus usos tradicionales, su farmacología y sus compuestos.[1][2][3]",
+   "Se ha descrito actividad antimicrobiana frente a bacterias y hongos.[7]"
+  ],
+  "alcance": "Muchos de sus usos aún no están validados científicamente.[1] La investigación pide estudios sobre mecanismos, dosificación y seguridad.[7]"
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Se ha descrito genotoxicidad y mutagenicidad de la alfa y la beta asarona, lo que limita su uso a dosis altas.[1]"
+   ],
+   [
+    "Dos variedades",
+    "La variedad india tiene mucha más beta-asarona que la norteamericana, y no se puede distinguir a simple vista.[4]"
+   ],
+   [
+    "Límites oficiales",
+    "La Comisión Europea fija un máximo de beta-asarona en alimentos y bebidas.[4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios sobre su seguridad como planta entera."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ajenjo",
+   "Artemisia absinthium",
+   "Otra hierba aromática de larga tradición medicinal.",
+   "enciclopedia/ajenjo/"
+  ],
+  [
+   "planta",
+   "Pericón",
+   "Tagetes lucida",
+   "Hierba aromática de uso ritual en México.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "An overview on traditional uses and pharmacological profile of <em>Acorus calamus</em> Linn. (Sweet flag) and other <em>Acorus</em> species. Phytomedicine. 2014;21(3):268-276. doi:10.1016/j.phymed.2013.09.020 · pubmed.ncbi.nlm.nih.gov/24200497.",
+  "Ethnic, botanic, phytochemistry and pharmacology of the <em>Acorus</em> L. genus: a review. Molecules. 2023;28(20):7117. doi:10.3390/molecules28207117.",
+  "Feng X-L, Yu Y, Qin D-P, Gao H, Yao X-S. <em>Acorus</em> Linnaeus: a review of traditional uses, phytochemistry and neuropharmacology. RSC Adv. 2015;5:5173-5182.",
+  "Drugs.com. Calamus. drugs.com/npp/calamus.html.",
+  "Estudio de <em>Acorus calamus</em> Linn.: farmacología y actividades (resumen). informahealthcare.com/doi/abs/10.1080/13880200701538724.",
+  "<em>Acorus calamus</em>: distribución, etnofarmacología y fitoquímica. J Clin Med. 2020;9(4):1176. mdpi.com/2077-0383/9/4/1176.",
+  "<em>Acorus calamus</em>: revisión de actividades farmacológicas. eurekaselect.com/article/152936."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Cacao",
+  "cacao"
+ ],
+ "siguiente": [
+  "Cannabis",
+  "cannabis"
+ ]
+}
