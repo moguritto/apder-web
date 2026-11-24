@@ -1,0 +1,244 @@
+{
+ "slug": "unguentos-de-brujas",
+ "tipo": "preparado",
+ "migas": "Preparado · Ungüento · Europa moderna temprana",
+ "nombre": "Ungüentos de brujas",
+ "cientifico": "Solanáceas (belladona, beleño, mandrágora…)",
+ "autoridad": "",
+ "descripcion": "Ungüento de brujas: salvas de solanáceas atribuidas a la brujería europea; los relatos hablan de sueños de vuelo, y hay poca evidencia documental fiable.",
+ "entrada": "Los «ungüentos voladores» son salvas que, según las crónicas y los procesos por brujería de la Europa moderna temprana, se frotaban en la piel para viajar al aquelarre. Los textos citan solanáceas muy tóxicas, y la evidencia documental directa es escasa. Esta ficha es histórica y descriptiva.[1][2][3]",
+ "otros": "ungüento volador · ungüento verde · Hexensalbe · Flugsalbe · ungüento licantrópico",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Salva atribuida a la brujería europea"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Europa, siglos XIII a XVII"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Solanáceas y otras hierbas, según las recetas"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides tropánicos, según la hipótesis"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Archivos de procesos y tratados de la época"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La planta",
+  "titulo": "Las hierbas citadas",
+  "parrafos": [
+   "Las plantas más citadas en las recetas modernas tempranas son solanáceas como belladona, beleño, mandrágora y estramonio, y la mayoría contienen atropina, hiosciamina o escopolamina.[3][5]",
+   "Un análisis crítico señala que solo la belladona y quizá la cicuta son realmente alucinógenas, que el acónito figura en recetas pero no lo es, y que el estramonio aún no había llegado de América.[4]",
+   "Esa misma fuente apunta que la mandrágora y el beleño no aparecen en las descripciones detalladas de los ungüentos, pese a ser alucinógenos.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanáceas"
+   ],
+   [
+    "Época",
+    "Edad Media tardía y siglos XVI-XVII"
+   ],
+   [
+    "Vía",
+    "Aplicación sobre la piel"
+   ],
+   [
+    "Estatuto",
+    "Hipótesis histórica"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha histórica: no sugiere ni describe su elaboración ni su uso."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Entre el proceso y el mito",
+  "parrafos": [
+   "El ungüento volador se describe como una sustancia alucinógena usada por brujas en el período moderno temprano, cuando se registraron las primeras recetas detalladas.[3]",
+   "Ya en el siglo XIII Alberto Magno escribió sobre quienes usaban beleño en ritos de magia negra, según una divulgación.[7]",
+   "En 1545 el médico español Andrés de Laguna describió un ungüento verde hallado en casa de una pareja sospechosa de brujería, compuesto, según él, de cicuta, belladona, beleño y mandrágora.[1]",
+   "Laguna lo probó, según el relato, con la esposa del verdugo, que cayó en un sueño muy profundo durante treinta y seis horas y despertó lamentando haber sido despertada de sus visiones.[8]",
+   "El libro de Thomas Hatsis, reseñado en una revista académica, destaca por su erudición y contexto histórico frente a una larga tradición de explicaciones farmacológicas.[6]",
+   "Hay quien sostiene que muchas confesiones de brujas, como volar o asistir a orgías, eran imposibles, y por eso buscó explicaciones en alucinógenos.[5]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XIII",
+    "Alberto Magno escribe sobre el beleño en ritos de magia"
+   ],
+   [
+    "1545",
+    "Relato de Andrés de Laguna"
+   ]
+  ],
+  "nombres": [
+   [
+    "Hexensalbe / Flugsalbe",
+    "alemán"
+   ],
+   [
+    "ungüento volador",
+    "castellano"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Europa, de la Edad Media al siglo XVII",
+  "parrafos": [
+   "La literatura sobre brujería europea sitúa el uso en el sabbat y en los procesos de los siglos XVI y XVII.[1][3]",
+   "Una divulgación apunta que casi nunca existen registros detallados de la práctica, porque era una magia popular y secreta.[7]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Tratarlo como fuente histórica, no como receta.",
+   "Diferenciar el proceso inquisitorial de la práctica real.",
+   "Reconocer que hubo personas perseguidas por su saber popular."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-unguentos-de-brujas.svg",
+   "alt": "Mapa de Europa occidental y central sombreada.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de los relatos europeos"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "La hipótesis de los tropanos",
+  "parrafos": [
+   "La hipótesis dominante sostiene que los efectos se debían a alcaloides tropánicos como atropina, hiosciamina o escopolamina.[3]",
+   "Una antología antropológica recuerda que la atropina puede absorberse por la piel intacta, y que en medicina se han visto efectos tóxicos con emplastos de belladona.[5]",
+   "Los ingredientes de estas recetas son extremadamente tóxicos y han causado numerosas muertes por ingestión.[3]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sueños de vuelo",
+  "parrafos": [
+   "Los relatos hablan de ilusiones de volar y de asistir al aquelarre, y se les atribuyó un origen en estos ungüentos ya en el siglo XV.[2]",
+   "Esas descripciones proceden de textos de la época, que no equivalen a observación clínica contemporánea.[4]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Es objeto de debate histórico y farmacológico: autores como Harner o Riddle defendieron la base farmacológica, y otros, como Hatsis, la matizan desde la historia.[6]",
+   "El análisis crítico pide cautela con las identificaciones de ingredientes.[4]"
+  ],
+  "alcance": "Estudios históricos y especulaciones farmacológicas; no hay ensayos clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Toxicidad",
+    "Las plantas citadas son muy tóxicas y han causado muertes.[3]"
+   ],
+   [
+    "Fuente histórica",
+    "Los textos son procesos y tratados, no protocolos fiables.[4]"
+   ],
+   [
+    "Mito",
+    "El vuelo es un motivo cultural; no hay prueba de que todo se debiera a un ungüento.[5]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Hierba de los sueños",
+   "Calea zacatechichi",
+   "Otra planta de sueños vividos.",
+   "enciclopedia/hierba-de-los-suenos/"
+  ],
+  [
+   "preparado",
+   "Kykeon",
+   "Bebida eleusina",
+   "Otro preparado histórico.",
+   "enciclopedia/kykeon/"
+  ],
+  [
+   "preparado",
+   "Soma",
+   "Bebida védica",
+   "Otra identidad en debate.",
+   "enciclopedia/soma/"
+  ]
+ ],
+ "fuentes": [
+  "Smithsonian Magazine. <em>How Witches' Brews Helped Bring Modern Drugs to Market</em>. smithsonianmag.com/science-nature/how-witches-brews-helped-bring-modern-drugs-market-180953202/.",
+  "U.S. Forest Service. <em>The Powerful Solanaceae: Witchcraft in the Middle Ages</em>. fs.usda.gov/wildflowers/ethnobotany/Mind_and_Spirit/witchcraft.shtml.",
+  "Wikipedia. <em>Flying ointment</em>. wikipedia.com/wiki/Flying_ointment.",
+  "<em>Sydney Studies in Religion</em>. Artículo sobre ungüentos voladores. openjournals.library.sydney.edu.au/SSR/article/view/210/189.",
+  "Harner, M. J. <em>Hallucinogens and Shamanism</em>. is.muni.cz.",
+  "<em>Magic, Ritual, and Witchcraft</em> 12(2), 2017. Reseña de <em>The Witches' Ointment</em> de T. Hatsis. muse.jhu.edu/article/668585/summary.",
+  "The Mary Sue. <em>Witches' flying ointment history</em>. themarysue.com/witches-flying-ointment-history/.",
+  "Mental Floss. <em>Why Do Witches Ride Brooms?</em>. mentalfloss.com/history/why-do-witches-ride-brooms."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Toloache",
+  "toloache"
+ ],
+ "siguiente": [
+  "Voacanga",
+  "voacanga"
+ ]
+}
