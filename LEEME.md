@@ -83,13 +83,16 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - Se generan con `python3 scripts/tarjetas_og.py` (necesita `pip install pillow cairosvg fonttools brotli`). Para una página nueva: añade su línea en `TARJETAS`, genera y pon en su `<head>` `og:image` y `twitter:image` con la dirección absoluta `https://apder.org/img/og/<nombre>.png`.
 - WhatsApp no enseña la imagen si pesa más de 300 KB: las tarjetas pesan entre 10 y 35 KB. WhatsApp guarda la vista previa de cada enlace; si un enlace ya se había enviado antes del cambio, puede tardar en verse la nueva.
 
-## Guías de terapia (nuevo, 24-11-2026)
+## Guías de terapia (24-11-2026)
 
-- `docs/terapia/index.html` (portada con tarjetas) y `docs/terapia/<slug>/index.html`: 9 guías (`marco-comun`, `mdma`, `psilocibina`, `lsd`, `ketamina`, `ayahuasca`, `ibogaina`, `mescalina`, `5-meo-dmt`) con la plantilla de las guías de medicinas: En pocas palabras, Qué es, Cómo suele estructurarse, Mirada humanista y transpersonal, Qué dice la investigación, Quién no debería, Mitos, Preguntas frecuentes y Referencias.
-- Textos fuente en el proyecto de Claude «Psicodélicos» (`claude/guias-terapia/*.md`); las páginas se generaron con un guion que vive fuera del repo, así que cualquier cambio futuro se hace sobre el HTML publicado.
-- Reglas: sin cifras de dosis, sin legalidad, sin tono alarmista, y APDER no ofrece sesiones ni terapias (lo dicen la cabecera y el aviso de cada página). Pendientes de revisión experta (Quién no debería, interacciones). Resultados de psilocibina y LSD citados vía prensa especializada o nota de la promotora.
-- Menú: atajo «Guías de terapia» en el desplegable Medicinas de todas las páginas (`panel-atajos`). Entradas en `sitemap.xml` y en el buscador (`construir_indice.py`, sección «Guías de terapia»). Usan la tarjeta general `og-apder.png`: falta una tarjeta propia.
-- La «Guía para tu sesión» (`/guia-sesion/`) y los dos protocolos de taller se retiraron el 21-11-2026 y ya no existen en la web.
+- `docs/terapia/index.html`: portada con tarjetas de las ocho guías, tabla «De un vistazo» (experiencia, duración, sesiones, lo más estudiado y punto de la investigación), lo que tienen en común, mirada humanista y transpersonal, preguntas antes de dar el paso y preguntas frecuentes.
+- `docs/terapia/<slug>/index.html`: siete guías rehechas con la plantilla y los componentes `art-*` de `/terapia-asistida-mdma/` (portada con dibujo y dos chips, «En pocas palabras», «Lo que da seguridad», menú en cuatro partes: Conocer, El proceso, Lo que se sabe y Si te interesa): `psilocibina`, `lsd`, `ketamina`, `ayahuasca`, `ibogaina`, `mescalina` y `5-meo-dmt`. Cada una con referencias numeradas, medios y libros de la Biblioteca enlazados a su ficha.
+- La guía de MDMA es `/terapia-asistida-mdma/` (no se toca desde aquí). `/terapia/mdma/` redirige a ella y `/terapia/marco-comun/` redirige a la portada (el marco común está ahora en la portada).
+- Cada guía de medicina (`/sustancias/<slug>/`) enlaza a su guía de terapia (tarjeta en «guías relacionadas» y una frase antes de «Integración»).
+- Estilos propios: `.tg-cards` y `.tg-tabla`, al final de `docs/tierra.css`; las páginas de terapia cargan `tierra.css?v=20261124b`. Tarjetas para compartir: `terapia-guias` y `terapia-<slug>` en `scripts/tarjetas_og.py`.
+- Reglas: sin cifras de dosis; sin legalidad («dónde se ofrece» solo en lenguaje clínico); sin tono alarmista; APDER no ofrece terapias (lo dicen el aviso y el descargo). Pendiente de revisión experta.
+- Se generaron con un guion que vive fuera del repo: los cambios futuros se hacen sobre el HTML publicado. Las cifras de ensayos recientes (psilocibina, LSD, 5-MeO-DMT) vienen de notas de las empresas y de prensa médica especializada; hay que revisarlas cuando se publiquen los artículos.
+- Excepciones del comprobador (`revision/excepciones-comprobador.txt`): `h-wp` en ayahuasca e ibogaína, por dos PDF de ICEERS alojados en `wp-content`.
 
 ## Ayudas de lectura (tierra.js)
 

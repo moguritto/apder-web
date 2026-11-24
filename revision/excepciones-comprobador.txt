@@ -3,3 +3,5 @@
 h-wp|sustancias/amanita-muscaria/index.html
 h-wp|sustancias/datura/index.html
 h-wp|sustancias/psilocibina/index.html
+h-wp|terapia/ayahuasca/index.html
+h-wp|terapia/ibogaina/index.html
