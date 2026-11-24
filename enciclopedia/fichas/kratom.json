@@ -1,0 +1,294 @@
+{
+ "slug": "kratom",
+ "tipo": "planta",
+ "migas": "Planta · Rubiáceas · Sudeste asiático",
+ "nombre": "Kratom",
+ "cientifico": "Mitragyna speciosa",
+ "autoridad": "(Korth.) Havil.",
+ "descripcion": "Kratom (Mitragyna speciosa): árbol del café del sudeste asiático cuyas hojas estimulan o sedan. Botánica, historia, mitraginina, investigación y cuidados.",
+ "entrada": "Un árbol tropical del sudeste asiático, pariente del café, cuyas hojas mascan los trabajadores para aguantar el cansancio. No es un psicodélico: estimula con poco y seda con mucho, porque sus alcaloides actúan sobre receptores opioides.[1][2][5][7]",
+ "otros": "kratom · ketum · biak-biak · thom · kakuam",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol tropical de hoja perenne, de la familia del café"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Tailandia, Malasia, Sumatra, Borneo y Nueva Guinea"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La hoja, fresca o seca"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Mitraginina y 7-hidroxi-mitraginina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "10–30 min · 2–5 h"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Trabajadores y comunidades de Tailandia, Malasia e Indonesia"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa del kratom",
+  "texto": "Interacciones, dependencia, quién no debería tomarlo y cómo reducir riesgos.",
+  "url": "sustancias/kratom/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un árbol de hojas brillantes de la familia del café",
+  "parrafos": [
+   "Es un árbol tropical de hoja perenne que puede alcanzar los 25 metros. Sus hojas son grandes, de un verde oscuro y brillante, y las flores forman bolitas amarillas.[5][7]",
+   "Pertenece a las rubiáceas, la familia del café. A diferencia del cafeto, es un árbol facultativamente caducifolio, nativo del sudeste asiático.[6]",
+   "Crece en selvas húmedas del centro y sur de Tailandia, el norte de la península malaya, Sumatra, Borneo, Filipinas y Nueva Guinea.[6]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Rubiaceae, la del café"
+   ],
+   [
+    "Porte",
+    "Árbol de hasta 25 m"
+   ],
+   [
+    "Hoja",
+    "Grande, oscura y brillante"
+   ],
+   [
+    "Flor",
+    "Bolitas amarillas, con muchas florecillas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La hoja de quien trabaja de sol a sol",
+  "parrafos": [
+   "En el sudeste asiático, los trabajadores manuales mascaban hojas frescas para aumentar el rendimiento y aliviar la fatiga.[7][8] También se usó como sustituto del opio: en 1836 se informó de ese uso en Malasia, y en Tailandia en el siglo XIX.[5]",
+   "Se ha usado en medicina tradicional para el dolor muscular y para aumentar la energía y el apetito, de forma parecida al khat o a la coca.[5] Las hojas se han tomado masticadas, fumadas y en té.[5]",
+   "Los «chewers», como se llama a quienes lo mascan a diario, buscaban sobre todo menos fatiga y más aguante al calor durante el trabajo.[7]"
+  ],
+  "cronologia": [
+   [
+    "1836",
+    "Se informa de que en Malasia se usaba como sustituto del opio.[5]"
+   ],
+   [
+    "1839",
+    "El botánico holandés Pieter Korthals describe la especie.[5]"
+   ],
+   [
+    "Siglo XIX",
+    "En Tailandia también se usó como sustituto del opio.[5]"
+   ],
+   [
+    "Hoy",
+    "Se vende en polvo, cápsulas, extractos y concentrados de 7-hidroxi-mitraginina.[1][2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "kratom",
+    "nombre tailandés de la hoja y del árbol"
+   ],
+   [
+    "ketum",
+    "nombre malayo"
+   ],
+   [
+    "biak-biak",
+    "otro nombre malayo"
+   ],
+   [
+    "Maeng Da",
+    "nombre comercial con el que hoy se vende en Occidente"
+   ]
+  ],
+  "nota_nombres": "Las variedades que se anuncian por colores, «rojo», «verde» o «blanco», no tienen una base química clara.[2]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un árbol de selva que ahora se cultiva",
+  "parrafos": [
+   "Es originario del sudeste asiático y se cultiva sobre todo en Indonesia, Malasia y Tailandia.[6][7]",
+   "Con la demanda de los últimos años ha aumentado su cultivo, y buena parte de lo que se vende en otros países sale de plantaciones asiáticas.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Preferir productos de origen trazable y con análisis.",
+   "Evitar los concentrados de 7-hidroxi-mitraginina, mucho más potentes que la hoja.",
+   "Pensar en quién cultiva y cosecha: la demanda cambia la vida de comunidades enteras."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-kratom.svg",
+   "alt": "Mapa con zonas sombreadas en ocre en Tailandia, Malasia, Sumatra, Borneo y Nueva Guinea.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada nativa del kratom"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Mitraginina, un alcaloide que roza los receptores opioides",
+  "parrafos": [
+   "Sus alcaloides principales son la mitraginina y la 7-hidroxi-mitraginina. Se unen a los receptores opioides μ, los de la morfina, pero los activan solo en parte.[1][2]",
+   "La 7-hidroxi-mitraginina es mucho más potente y está en la hoja en cantidades pequeñas; el cuerpo la forma también a partir de la mitraginina.[2] La mitraginina inhibe además enzimas del hígado que eliminan muchos fármacos, por lo que puede subir sus niveles en sangre.[2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Mitraginina",
+    "clase": "Alcaloide indólico · principal",
+    "img": null,
+    "texto": "Es el alcaloide más abundante de la hoja.[1][2]"
+   },
+   {
+    "nombre": "7-hidroxi-mitraginina",
+    "clase": "Alcaloide indólico",
+    "img": null,
+    "texto": "Mucho más potente que la mitraginina sobre los receptores opioides.[2]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un café fuerte o una calma pesada",
+  "parrafos": [
+   "No produce visiones ni cambios en la percepción. Con poca cantidad estimula, con más energía, concentración y sociabilidad; con mucha, seda, alivia el dolor y da una euforia de tipo opioide.[1][2]",
+   "Suele empezar a notarse a los 10–30 minutos y dura entre dos y cinco horas.[1][2] Con el uso diario aparece tolerancia, y al dejarlo pueden aparecer síntomas de abstinencia parecidos, más suaves, a los de otros opioides.[3]"
+  ],
+  "tiempo": {
+   "horas": 6,
+   "tramos": [
+    [
+     "a",
+     0.2,
+     0.5,
+     "Sube"
+    ],
+    [
+     "b",
+     0.5,
+     4,
+     "Efecto principal"
+    ],
+    [
+     "c",
+     4,
+     6,
+     "Baja"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "10–30 min"
+    ],
+    [
+     "Dura",
+     "2–5 h"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "La mayor parte del conocimiento viene de estudios de laboratorio y de encuestas de personas que lo usan.[2][3]",
+   "Se han descrito casos de lesión del hígado asociados a su consumo.[4] Su eficacia y su seguridad no están claras.[5]"
+  ],
+  "alcance": "No hay ensayos clínicos que prueben el kratom como tratamiento del dolor ni para dejar otros opioides, aunque algunas personas lo usen para eso."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "La dependencia con el uso diario y los concentrados de 7-hidroxi-mitraginina, mucho más potentes.[2][3]"
+   ],
+   [
+    "Lo que no se mezcla",
+    "Con alcohol, benzodiacepinas, gabapentinoides u otros opioides la respiración puede debilitarse.[9]"
+   ],
+   [
+    "El hígado",
+    "Se han descrito casos de daño hepático; si notas ojos amarillos u orina oscura, consulta.[4]"
+   ],
+   [
+    "Lo que se vende",
+    "El contenido varía mucho entre productos: un análisis independiente da más información.[2]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Kanna",
+   "Mesembryanthemum tortuosum",
+   "Otra planta que se masca para el ánimo, de África.",
+   "enciclopedia/kanna/"
+  ],
+  [
+   "planta",
+   "Cacao",
+   "Theobroma cacao",
+   "Otro estimulante suave de las plantas.",
+   "enciclopedia/cacao/"
+  ]
+ ],
+ "fuentes": [
+  "Prozialeck WC, Jivan JK, Andurkar SV. Pharmacology of kratom: an emerging botanical agent with stimulant, analgesic and opioid-like effects. J Am Osteopath Assoc. 2012;112(12):792-799.",
+  "Kruegel AC, Grundmann O. The medicinal chemistry and neuropharmacology of kratom: a preliminary discussion of a promising medicinal plant and analysis of its potential for abuse. Neuropharmacology. 2018;134(Pt A):108-120.",
+  "Grundmann O. Patterns of kratom use and health impact in the US—results from an online survey. Drug Alcohol Depend. 2017;176:63-70.",
+  "Schimmel J, Dart RC. Kratom (<em>Mitragyna speciosa</em>) liver injury: a comprehensive review. Drugs. 2020;80(3):263-283.",
+  "Wikipedia. «Mitragyna speciosa». en.wikipedia.org (consultada el 24-11-2026).",
+  "University of Florida IFAS Extension. Kratom (<em>Mitragyna speciosa</em>). EP653. edis.ifas.ufl.edu.",
+  "Drugs.com. Kratom. drugs.com/ingredient/kratom.html.",
+  "University of Florida, College of Pharmacy. Kratom resources. csp.pharmacy.ufl.edu.",
+  "TripSit. Tabla de combinaciones, entrada «Kratom» (fuente secundaria de reducción de riesgos). tripsit.me."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Kanna",
+  "kanna"
+ ],
+ "siguiente": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ]
+}
