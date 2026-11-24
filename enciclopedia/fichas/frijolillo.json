@@ -1,0 +1,246 @@
+{
+ "slug": "frijolillo",
+ "tipo": "planta",
+ "migas": "Planta · Leguminosas · Norte de México y sur de Estados Unidos",
+ "nombre": "Frijolillo",
+ "cientifico": "Dermatophyllum secundiflorum",
+ "autoridad": "(Ortega) Gandhi & Reveal",
+ "descripcion": "Frijolillo (Dermatophyllum secundiflorum): arbusto del norte de México y sur de EE. UU. cuyas semillas rojas contienen citisina. Historia y química.",
+ "entrada": "Un arbusto del suroeste de Norteamérica cuyas semillas, llamadas frijoles de mescal, se usaron en ceremonias de pueblos nativos. Su análisis químico no encontró triptaminas, sino alcaloides de otra familia, entre ellos la citisina.[1][3][4]",
+ "otros": "frijolillo · frijolito · frijol de mescal · mescalbean · Texas mountain laurel · Sophora secundiflora · Calia secundiflora",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto leguminoso de semillas rojas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Del oeste de Texas y Nuevo México al norte de México, hasta Hidalgo, Puebla y Querétaro"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La semilla"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides quinolizidínicos, sobre todo citisina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos nativos del suroeste de Norteamérica"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un arbusto perenne de semillas rojas",
+  "parrafos": [
+   "<em>Dermatophyllum secundiflorum</em> es un arbusto o árbol pequeño de la familia de las leguminosas, nativo del suroeste de Estados Unidos (Texas y Nuevo México) y de México, desde Chihuahua y Coahuila hasta Hidalgo, Puebla y Querétaro.[3]",
+   "Entre sus nombres comunes figuran «Texas mountain laurel», «Texas mescalbean», «frijolito» y «frijolillo».[3] El nombre inglés «mountain laurel» induce a error, porque no tiene parentesco con el verdadero laurel de montaña.[3]",
+   "Durante años se clasificó como <em>Sophora secundiflora</em>, pero la genética reciente muestra que los frijoles de mescal están solo lejanamente emparentados con las demás especies de <em>Sophora</em>.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Fabaceae"
+   ],
+   [
+    "Altura",
+    "1 a 11 m según el género"
+   ],
+   [
+    "Hojas",
+    "Perennes, coriáceas, pinnadas"
+   ],
+   [
+    "Parte usada",
+    "Semilla"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Los frijoles de mescal",
+  "parrafos": [
+   "Se atribuyó a las semillas un efecto alucinógeno por su uso pasado en ciertas ceremonias de pueblos nativos norteamericanos, en las que se tuvieron visiones.[1]",
+   "En las bases de datos etnobotánicas figura con usos como alucinógeno, intoxicante y veneno, y como insecticida.[5]",
+   "Los nombres «mescal beans», «red beans» y «big drunk beans» aparecen en la literatura etnobotánica para las semillas maduras.[2]"
+  ],
+  "cronologia": [
+   [
+    "1977",
+    "Hatfield y colaboradores publican el análisis químico de las semillas.[1]"
+   ],
+   [
+    "1979",
+    "Keller y Hatfield aíslan otros alcaloides menores de frutos inmaduros.[2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "frijolillo, frijolito",
+    "nombres mexicanos"
+   ],
+   [
+    "<em>mescalbean</em>",
+    "nombre inglés"
+   ],
+   [
+    "<em>Texas mountain laurel</em>",
+    "nombre inglés popular"
+   ]
+  ],
+  "nota_nombres": "Las semillas se conocen en inglés como «mescal beans», «red beans» y «big drunk beans».[2]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un arbusto del desierto y la sierra",
+  "parrafos": [
+   "Crece del oeste de Texas, Nuevo México y Arizona al norte de México, en Chihuahua, Coahuila y Nuevo León, y se extiende al sur hasta Hidalgo, Puebla y Querétaro.[3][4]",
+   "Se conoce también como «Texas mountain laurel» en el suroeste de Estados Unidos.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como parte de las plantas rituales del norte de México y el sur de Estados Unidos.",
+   "No recolectar semillas sin conocimiento ni permiso.",
+   "Respetar a los pueblos que lo guardan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-frijolillo.svg",
+   "alt": "Mapa con una zona sombreada en ocre del suroeste de Estados Unidos al centro de México.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del frijolillo"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides quinolizidínicos",
+  "parrafos": [
+   "El análisis químico de las semillas no detectó triptaminas; se aislaron dos alcaloides quinolizidínicos adicionales, la epilupinina y la delta5-dehidrolupanina.[1]",
+   "Hasta entonces se habían detectado siete alcaloides quinolizidínicos, y el principal es la citisina, en torno al 0,25 %.[1]",
+   "La citisina está químicamente emparentada con la nicotina y se usa en medicina para ayudar a dejar de fumar.[3][4]",
+   "En frutos inmaduros se identificaron además la 11-alilcitisina y otros alcaloides menores.[2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Citisina",
+    "clase": "Alcaloide quinolizidínico",
+    "img": null,
+    "texto": "Alcaloide principal de la semilla; emparentado con la nicotina.[1][3]"
+   },
+   {
+    "nombre": "11-alilcitisina",
+    "clase": "Alcaloide quinolizidínico",
+    "img": null,
+    "texto": "Aislado de frutos inmaduros.[2]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Entre la visión y la toxicidad",
+  "parrafos": [
+   "Las visiones de las ceremonias antiguas no se han podido atribuir con claridad a ningún componente de la semilla.[1]",
+   "Las fuentes no ofrecen datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "El análisis fitoquímico de las semillas de 1977 no confirmó los informes etnobotánicos de acción alucinógena, y la toxicidad en ratones solo se explica en parte por los alcaloides conocidos.[1]",
+   "No hay investigación clínica sobre esta planta."
+  ],
+  "alcance": "Química básica y datos etnobotánicos; sin investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "La planta es psicoactiva y a la vez muy tóxica por la citisina.[3]"
+   ],
+   [
+    "Qué no contiene",
+    "El análisis no detectó triptaminas en las semillas.[1]"
+   ],
+   [
+    "Contexto",
+    "Sus usos históricos pertenecen a ceremonias de pueblos concretos.[1]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Cebil",
+   "Anadenanthera colubrina",
+   "Otra leguminosa con semillas de uso ritual.",
+   "enciclopedia/cebil/"
+  ]
+ ],
+ "fuentes": [
+  "Hatfield GM, Valdes LJ, Keller WJ, Merrill WL, Jones VH. An investigation of <em>Sophora secundiflora</em> seeds (mescalbeans). Lloydia. 1977;40(4):374-383. katalog.lib.cas.cz/KNAV/EdsRecord/cmedm,895398.",
+  "Keller WJ, Hatfield M. 11-Allylcytisine and other minor alkaloids from unripe <em>Sophora secundiflora</em> fruits. Phytochemistry. 1979;18:2068-2069. deepblue.lib.umich.edu/bitstream/handle/2027.42/23759/0000732.pdf.",
+  "Wikipedia. <em>Dermatophyllum secundiflorum</em>. en.wikipedia.org/wiki/Calia_secundiflora.",
+  "Wikipedia. <em>Dermatophyllum</em>. en.wikipedia.org/wiki/Dermatophyllum.",
+  "USDA. Ethnobotanical Plant <em>Sophora secundiflora</em>. phytochem.nal.usda.gov/phytochem/ethnoplants/show/10640."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Floripondio",
+  "floripondio"
+ ],
+ "siguiente": [
+  "Gloria de la mañana",
+  "gloria-de-la-manana"
+ ]
+}
