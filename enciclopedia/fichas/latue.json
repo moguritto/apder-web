@@ -1,0 +1,263 @@
+{
+ "slug": "latue",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Sur de Chile",
+ "nombre": "Latué",
+ "cientifico": "Latua pubiflora",
+ "autoridad": "(Griseb.) Phil.",
+ "descripcion": "Latué (Latua pubiflora): «árbol de los brujos» del sur de Chile, solanácea de los machi mapuche con alcaloides tropánicos. Historia y química.",
+ "entrada": "Un arbusto del sur de Chile, el único de su género, que los pueblos mapuche y huilliche emplean desde tiempos prehispánicos en rituales de medicina y religión. Es una solanácea con alcaloides tropánicos, muy tóxica.[1][2][3]",
+ "otros": "latué · palo brujo · árbol de los brujos · latue-hue · Latua pubiflora · Lycioplesium pubiflorum",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto de la familia de las solanáceas, único de su género"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Cordillera de la Costa del sur de Chile, de Valdivia a Llanquihue"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides tropánicos, entre ellos escopolamina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Machi mapuche y huilliche"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El único de su género",
+  "parrafos": [
+   "<em>Latua pubiflora</em> es la única especie del género <em>Latua</em>, endémica de las montañas costeras del sur de Chile.[3]",
+   "Es un arbusto o árbol pequeño de hasta 10 m, con flores magenta a rojas polinizadas por colibríes y un fruto amarillo parecido a un tomate.[3]",
+   "Crece libremente en la Cordillera de la Costa, de las regiones de Valdivia a Llanquihue, entre los 500 y los 900 m de altura.[2]",
+   "Grisebach la publicó en 1854 con el nombre <em>Lycioplesium pubiflorum</em>.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Altura",
+    "Hasta unos 10 m"
+   ],
+   [
+    "Flores",
+    "Magenta a rojas"
+   ],
+   [
+    "Fruto",
+    "Amarillo, como un tomate pequeño"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El árbol de los brujos",
+  "parrafos": [
+   "Los mapuche la emplean desde épocas prehispánicas para inducir efectos sedantes y alucinaciones en rituales religiosos o de medicina.[2]",
+   "Tiene un papel místico importante en la cultura mapuche por sus supuestos beneficios espirituales, sedantes y medicinales.[1]",
+   "Los machi, chamanes mapuche-huilliche, la usan en medicina tradicional, como veneno y para entrar en trance.[3]",
+   "Su nombre popular, «latué» en mapudungun o «palo brujo» en español, significa literalmente «palo mágico».[2]",
+   "La investigación antropológica en Chile muestra que las solanáceas se fumaban en antiguos rituales, y entre ellas el latué.[1]",
+   "El nombre del género procede del nombre indígena mapudungun de la planta, cuya variante más antigua, hoy en desuso, es <em>latue-hue</em>.[3]"
+  ],
+  "cronologia": [
+   [
+    "1854",
+    "Grisebach la describe como <em>Lycioplesium pubiflorum</em>.[3]"
+   ],
+   [
+    "2017",
+    "Primer estudio de sus efectos sedantes y ansiolíticos en animales, con análisis metabolómico.[1][2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "latué",
+    "mapudungun"
+   ],
+   [
+    "palo brujo",
+    "español: «palo mágico»"
+   ],
+   [
+    "árbol de los brujos",
+    "español"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "La Cordillera de la Costa",
+  "parrafos": [
+   "Es endémica del sur de Chile y crece entre los 38° y los 43° de latitud sur.[2]",
+   "Sus flores y su fruto son lo bastante bonitos como para cultivarla de adorno, con la debida cautela por su toxicidad.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como planta de poder del pueblo mapuche.",
+   "No cortarla ni manipularla sin conocimiento.",
+   "Respetar a las machi y los machi."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-latue.svg",
+   "alt": "Mapa con una zona sombreada en ocre en la Cordillera de la Costa del sur de Chile.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del latué"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides tropánicos",
+  "parrafos": [
+   "En extractos de la planta se identificaron 18 alcaloides tropánicos, 8 ácidos fenólicos y compuestos afines, y 7 flavonoides.[4]",
+   "La toxicidad de la planta se debe a su contenido en alcaloides tropánicos, y en dosis pequeñas es un delirante alucinógeno.[3]",
+   "Está emparentada quimiotaxonómicamente con otras solanáceas como la belladona, el estramonio y el beleño.[2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Escopolamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Alcaloide destacado en la bibliografía sobre la planta.[1]"
+   },
+   {
+    "nombre": "Flavonoides glicosilados",
+    "clase": "Flavonoides",
+    "img": null,
+    "texto": "Hallados junto a los alcaloides tropánicos.[4]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sedación y trance",
+  "parrafos": [
+   "Las fuentes describen su uso ritual para inducir efectos sedantes, alucinaciones y trance.[2][3]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "En 2017 se evaluó por primera vez en ratas y ratones el efecto sedante y ansiolítico de la planta, junto con un análisis metabolómico de alta resolución.[4]",
+   "Los extractos aumentaron el tiempo de sueño y alteraron la actividad motora en ratones; el extracto de alcaloides redujo la unión de flunitrazepam en cortezas de rata.[1][2]",
+   "No hay estudios en personas."
+  ],
+  "alcance": "Un estudio de laboratorio de 2017; sin estudios clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es una planta muy tóxica por sus alcaloides tropánicos.[3]"
+   ],
+   [
+    "Contexto",
+    "Su uso pertenece a los machi, con saberes propios del pueblo mapuche.[3]"
+   ],
+   [
+    "Lo que se sabe",
+    "Los estudios actuales son de laboratorio y con animales.[1][2]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Belladona",
+   "Atropa belladonna",
+   "Solanácea con alcaloides tropánicos emparentada con el latué.",
+   "enciclopedia/belladona/"
+  ],
+  [
+   "planta",
+   "Estramonio",
+   "Datura stramonium",
+   "Otra solanácea con los mismos alcaloides.",
+   "enciclopedia/estramonio/"
+  ],
+  [
+   "planta",
+   "Beleño negro",
+   "Hyoscyamus niger",
+   "Otra solanácea con los mismos alcaloides.",
+   "enciclopedia/beleno-negro/"
+  ]
+ ],
+ "fuentes": [
+  "Sánchez-Montoya EL et al. High resolution UHPLC-MS metabolomics and sedative-anxiolytic effects of <em>Latua pubiflora</em>: a mystic plant used by Mapuche Amerindians. Front Pharmacol. 2017;8:494. pmc.ncbi.nlm.nih.gov/articles/PMC5527703.",
+  "Sánchez-Montoya EL et al. (texto completo). frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2017.00494/full.",
+  "EPFL Graph Search. Latua (resumen del artículo de Wikipedia). graphsearch.epfl.ch/en/concept/13388189.",
+  "Sánchez-Montoya EL et al. (resumen). frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2017.00494/text."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Kratom",
+  "kratom"
+ ],
+ "siguiente": [
+  "Loto azul",
+  "loto-azul"
+ ]
+}
