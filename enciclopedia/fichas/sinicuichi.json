@@ -1,0 +1,265 @@
+{
+ "slug": "sinicuichi",
+ "tipo": "planta",
+ "migas": "Planta · Litráceas · De México a Argentina",
+ "nombre": "Sinicuichi",
+ "cientifico": "Heimia salicifolia",
+ "autoridad": "Link",
+ "descripcion": "Sinicuichi (Heimia salicifolia): arbusto de México a Argentina, «abridor del sol», de uso chamánico, con alcaloides quinolizidínicos. Historia y química.",
+ "entrada": "Un arbusto de flores amarillas que crece desde el sur de Estados Unidos y México hasta Argentina. Pueblos de México y Centroamérica lo han usado con fines chamánicos, y se le atribuyen efectos alucinógenos y medicinales, con alcaloides propios de la familia de las litráceas.[1][2][3]",
+ "otros": "sinicuichi · sini · abridor del sol · sun opener · shrubby yellowcrest · willow-leaf heimia · Heimia salicifolia",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto de flores amarillas de la familia Lythraceae"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Del suroeste de Estados Unidos, por México y Centroamérica, a Argentina"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Las hojas"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides quinolizidínicos: vertina (criogenina), litrina, nesodina y lifolina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de México y Centroamérica; se menciona a los aztecas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El abridor del sol",
+  "parrafos": [
+   "<em>Heimia salicifolia</em> es una especie de planta con flores de la familia de las litráceas, nativa de América, del suroeste de Estados Unidos (Texas y Nuevo México) y México a Argentina.[1]",
+   "Es un arbusto de hasta unos 3 m, con flores amarillas de cinco pétalos de 2 a 3 cm de diámetro.[2] Sus hojas recuerdan a las del sauce, de ahí el nombre «willow-leaf heimia».[6]",
+   "El género <em>Heimia</em>, descrito por Link y Otto en 1822, honra al médico alemán Ernst Ludwig Heim (1747-1834).[6]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Lythraceae"
+   ],
+   [
+    "Altura",
+    "Hasta unos 3 m"
+   ],
+   [
+    "Flores",
+    "Amarillas, de cinco pétalos"
+   ],
+   [
+    "Parte usada",
+    "Hojas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un uso chamánico en México y Centroamérica",
+  "parrafos": [
+   "Se ha descrito el uso chamánico de la planta entre pueblos nativos de Centroamérica y México.[3] Se le atribuyen efectos alucinógenos y también medicinales.[3]",
+   "Algunos chamanes mexicanos aún la usan como herramienta de adivinación.[4]",
+   "El género tiene una larga historia de uso medicinal en varias culturas americanas.[2]",
+   "Entre las anotaciones recogidas aparece el nombre de «elixir del sol», pero esa asociación proviene de fuentes divulgativas.[5]"
+  ],
+  "cronologia": [
+   [
+    "1822",
+    "Link y Otto describen el género <em>Heimia</em>.[6]"
+   ],
+   [
+    "1994",
+    "Malone y Rother publican una revisión fitoquímica y fitofarmacológica.[7]"
+   ]
+  ],
+  "nombres": [
+   [
+    "sinicuichi, sini",
+    "México"
+   ],
+   [
+    "<em>sun opener</em>",
+    "inglés: «abridor del sol»"
+   ],
+   [
+    "<em>shrubby yellowcrest</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "De México a Argentina",
+  "parrafos": [
+   "Crece de forma silvestre de México a Argentina.[7]",
+   "El género contiene dos o tres especies cercanas, de las que <em>H. salicifolia</em> es la más conocida.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como planta de pueblos mesoamericanos.",
+   "No tratarlo como un producto.",
+   "Respetar los saberes que lo guardan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-sinicuichi.svg",
+   "alt": "Mapa con una zona sombreada en ocre de México a Argentina.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del sinicuichi"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides quinolizidínicos",
+  "parrafos": [
+   "Se han hallado cinco alcaloides quinolizidínicos; el principal alcaloide psicoactivo parece ser la vertina (criogenina).[4]",
+   "Los cuatro alcaloides más estudiados son la vertina, la lifolina, la litrina y la nesodina.[7]",
+   "La litrina y la criogenina (vertina) son diastereómeros.[6]",
+   "La base de datos fitoquímica del USDA registra criogenina en el tallo y otros alcaloides, como la dehidrodecodina.[8]",
+   "Se estudian compuestos sintéticos emparentados, las 4-arilquinolizidinas, por un posible potencial antiinflamatorio.[7]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Vertina (criogenina)",
+    "clase": "Alcaloide quinolizidínico",
+    "img": null,
+    "texto": "Considerado el componente bioactivo principal.[1][4]"
+   },
+   {
+    "nombre": "Litrina",
+    "clase": "Alcaloide quinolizidínico",
+    "img": null,
+    "texto": "Diastereómero de la criogenina; estudiada en laboratorio.[6]"
+   },
+   {
+    "nombre": "Nesodina",
+    "clase": "Alcaloide quinolizidínico",
+    "img": null,
+    "texto": "Alcaloide muy estudiado de la planta.[7]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Entre lo medicinal y lo onírico",
+  "parrafos": [
+   "Las fuentes consultadas hablan de efectos alucinógenos y medicinales, sin datos sistemáticos.[3]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay una revisión fitoquímica y fitofarmacológica de 1994.[7]",
+   "En 2020 una tesis evaluó si la litrina tiene efecto ansiolítico en pollos.[6]",
+   "No hay estudios clínicos."
+  ],
+  "alcance": "Química y modelos animales; sin estudios en personas."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es una planta psicoactiva con alcaloides activos poco estudiados en personas.[7]"
+   ],
+   [
+    "Información débil",
+    "Gran parte de lo que circula procede de divulgación y no de fuentes primarias.[3][4]"
+   ],
+   [
+    "Contexto",
+    "Su uso chamánico pertenece a pueblos concretos.[3]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Hierba de los sueños",
+   "Calea ternifolia",
+   "Otra planta mexicana de uso onírico y adivinatorio.",
+   "enciclopedia/hierba-de-los-suenos/"
+  ],
+  [
+   "planta",
+   "Pericón",
+   "Tagetes lucida",
+   "Otra planta de las tradiciones mexicanas.",
+   "enciclopedia/pericon/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Heimia salicifolia</em> (sinicuichi). wikipedia.org/wiki/Sinicuichi.",
+  "Wikipedia. <em>Heimia</em>. en.wikipedia.com/wiki/Heimia.",
+  "Wikipedia. <em>Heimia salicifolia</em>. en.wikipedia.org/wiki/Heimia_salicifolia.",
+  "Rev. MeO, Auxin, Erowid. <em>Heimia salicifolia</em> FAQ. taz4.erowid.org/plants/sinicuichi/sinicuichi_faq.shtml.",
+  "Earthpedia. <em>Heimia salicifolia</em>. earthpedia.earth.com/plant-encyclopedia/angiosperms/lythraceae/heimia-salicifolia.",
+  "Carlton. Tesis sobre la litrina de <em>Heimia salicifolia</em> y su efecto ansiolítico. Sam Houston State University. 2020. shsu-ir.tdl.org/bitstream/handle/20.500.11875/2764/CARLTON-THESIS-2020.pdf.",
+  "Malone MH, Rother A. <em>Heimia salicifolia</em>: a phytochemical and phytopharmacologic review. J Ethnopharmacol. 1994;42(3):135-159. erowid.org/references/refs_view.php?ID=6470.",
+  "USDA. Plant <em>Heimia salicifolia</em> (Lythraceae). phytochem.nal.usda.gov/node/5675."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Sapo de Sonora",
+  "sapo-de-sonora"
+ ],
+ "siguiente": [
+  "Tabaco",
+  "tabaco"
+ ]
+}

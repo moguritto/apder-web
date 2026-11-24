@@ -1,0 +1,253 @@
+{
+ "slug": "voacanga",
+ "tipo": "planta",
+ "migas": "Planta · Apocináceas · África tropical",
+ "nombre": "Voacanga",
+ "cientifico": "Voacanga africana",
+ "autoridad": "Stapf",
+ "descripcion": "Voacanga (Voacanga africana): árbol del África tropical de medicina tradicional y ritual, con alcaloides afines a la ibogaína. Historia y química.",
+ "entrada": "Un árbol pequeño de África tropical, de la misma familia que la iboga, muy usado en la medicina tradicional africana y en rituales de curación del sureste de Nigeria. Sus semillas contienen alcaloides emparentados con la ibogaína.[1][2][3]",
+ "otros": "voacanga · Voacanga africana · «árbol de las semillas»",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol pequeño de la familia de las apocináceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "África tropical, con presencia en toda África occidental"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Semillas, corteza, hojas y raíz según el uso"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides de tipo iboga: voacangina, tabersonina y otros"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de África occidental y del sureste de Nigeria"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un árbol pequeño del bosque africano",
+  "parrafos": [
+   "<em>Voacanga africana</em> es un árbol pequeño, nativo de África tropical, de la familia de las apocináceas; llega a 6 m y tiene hojas de hasta 30 cm.[3]",
+   "El género <em>Voacanga</em> es extenso y reúne pequeños árboles de las regiones tropicales y subtropicales de África.[4]",
+   "<em>V. africana</em> se encuentra en toda África occidental.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Apocynaceae"
+   ],
+   [
+    "Altura",
+    "Hasta unos 6 m"
+   ],
+   [
+    "Hoja",
+    "Hasta 30 cm"
+   ],
+   [
+    "Parte más valorada",
+    "La semilla"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Medicina y ritual africanos",
+  "parrafos": [
+   "Se usan varias partes de la planta, pero las semillas son especialmente apreciadas por su valor económico, por la presencia de ibogaína, tabersonina y voacangina.[1][2]",
+   "Es una planta medicinal muy usada en muchos países africanos.[1]",
+   "En África occidental se emplea para tratar la lepra, la diarrea, el edema generalizado, las convulsiones en niños y la locura, entre otros.[4]",
+   "En el sureste de Nigeria forma parte de numerosos rituales de curación.[5]",
+   "Durante mucho tiempo se le atribuyó poca utilidad económica, salvo como adulterante del caucho; eso cambió en 1955, cuando los químicos franceses Maurice-Marie Janot y Robert Goutarel extrajeron de ella tres alcaloides con posible uso farmacéutico.[3]",
+   "Los diversos <em>Voacanga</em> tienen usos locales limitados.[6]"
+  ],
+  "cronologia": [
+   [
+    "1955",
+    "Janot y Goutarel aíslan tres alcaloides de <em>V. africana</em>.[3]"
+   ]
+  ],
+  "nombres": [
+   [
+    "voacanga",
+    "nombre científico usado como común"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "África occidental",
+  "parrafos": [
+   "Es una especie de África occidental tropical, citada también en Côte d'Ivoire.[3][4]",
+   "Es la especie más estudiada del género y de importancia local en la medicina tradicional africana.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como planta medicinal africana.",
+   "No tratarla como sucedáneo de la iboga.",
+   "Respetar los saberes de los pueblos que la usan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-voacanga.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre África occidental y central.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la voacanga"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides de tipo iboga",
+  "parrafos": [
+   "Contiene alcaloides como ibogaína, tabersonina y voacangina, y además saponinas, taninos, terpenos, esteroides, flavonoides, fenoles, glucósidos y aceites.[1][2]",
+   "Contiene muchos alcaloides relacionados con la ibogaína, entre ellos algunos de los únicos antagonistas naturales conocidos del receptor CB1.[3]",
+   "La voacangina y la voacristina son constituyentes mayores; en las hojas dominan alcaloides diméricos, y el alcaloide monomérico principal es la voafilina.[6]",
+   "Se han aislado también la voacamina, la voacorina, la coronaridina y la tabernantina, entre otros.[7]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Voacangina",
+    "clase": "Alcaloide de tipo iboga",
+    "img": null,
+    "texto": "Alcaloide principal de la semilla.[1][6]"
+   },
+   {
+    "nombre": "Tabersonina",
+    "clase": "Alcaloide indólico",
+    "img": null,
+    "texto": "Presente en la semilla.[1]"
+   },
+   {
+    "nombre": "Ibogaína",
+    "clase": "Alcaloide de tipo iboga",
+    "img": null,
+    "texto": "Citada en las semillas por una revisión; la planta contiene alcaloides relacionados.[1][3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "Las fuentes consultadas hablan de actividad sobre el sistema nervioso central, con efectos sedantes.[1] No dan datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Una revisión de 2024 recoge sus usos etnomédicos, actividades biológicas y toxicidad.[1] Otra revisión previa recoge 111 productos naturales del género en 44 referencias.[4]",
+   "Algunos alcaloides aislados validan el uso tradicional contra la oncocercosis, según un estudio de laboratorio.[7]",
+   "No hay estudios clínicos de uso psicoactivo."
+  ],
+  "alcance": "Estudios de laboratorio y revisiones; sin ensayos clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Algunos de sus alcaloides, como la voacangina y la voacamina, muestran toxicidad en modelos animales: efecto depresor cardíaco, convulsiones, hipertensión y depresión del sistema nervioso central.[1][8]"
+   ],
+   [
+    "Confusión de plantas",
+    "Tiene alcaloides afines a la iboga, pero es otra especie y otra tradición.[3]"
+   ],
+   [
+    "Contexto",
+    "Su uso ritual está ligado a prácticas de curación de pueblos concretos.[5]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Iboga",
+   "Tabernanthe iboga",
+   "Misma familia, con ibogaína.",
+   "enciclopedia/iboga/"
+  ],
+  [
+   "planta",
+   "Sananga",
+   "Tabernaemontana undulata",
+   "Otra apocinácea con alcaloides afines.",
+   "enciclopedia/sananga/"
+  ]
+ ],
+ "fuentes": [
+  "Bekoe EO, Opare JAA, Lartey M, Amoateng P. Ethnomedicinal uses, biological activities, and toxicity of <em>Voacanga africana</em> Stapf ex Scott-Elliot. Advances in Traditional Medicine. 2024. pure.ug.edu.gh/en/publications/ethnomedicinal-uses-biological-activities-and-toxicity-of-voacang-3/.",
+  "Bekoe EO et al. (resumen del repositorio). ugspace.ug.edu.gh/bitstreams/618c6fb6-efda-405d-908f-6f2e33cc60cc/download.",
+  "Wikipedia. <em>Voacanga africana</em>. en.wikipedia.org/wiki/Voacanga_africana.",
+  "Revisión de los productos naturales del género <em>Voacanga</em>. informahealthcare.com/doi/abs/10.3109/13880209.2012.658478.",
+  "Wikipedia. Apocynaceae alkaloids. en.wikipedia.org/wiki/Apocynaceae_alkaloids.",
+  "PROSEA. <em>Voacanga</em>. prosea.prota4u.org/view.aspx?id=1370.",
+  "Babiaka SB et al. Alkaloids with anti-onchocercal activity from <em>Voacanga africana</em> Stapf (Apocynaceae). doaj.org/article/d98fcf0fe3e74b26922cbd1a7906ebc2.",
+  "Bekoe EO et al. (registro completo, toxicidad). ugspace.ug.edu.gh/items/07502af0-904a-49d3-938f-1e9472d9972e/full."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Toloache",
+  "toloache"
+ ],
+ "siguiente": [
+  "Acacias",
+  "acacias"
+ ]
+}

@@ -520,7 +520,7 @@
    "nombre": "Sinicuichi",
    "detalle": "Heimia salicifolia",
    "tipo": "planta",
-   "slug": null
+   "slug": "sinicuichi"
   },
   {
    "nombre": "Tabaco",
@@ -544,7 +544,7 @@
    "nombre": "Voacanga",
    "detalle": "Voacanga africana",
    "tipo": "planta",
-   "slug": null
+   "slug": "voacanga"
   },
   {
    "nombre": "Yopo",
