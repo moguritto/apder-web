@@ -1,0 +1,240 @@
+{
+ "slug": "salema",
+ "tipo": "animal",
+ "migas": "Animal · Espáridos · Atlántico oriental y Mediterráneo",
+ "nombre": "Salema",
+ "cientifico": "Sarpa salpa",
+ "autoridad": "(Linnaeus, 1758)",
+ "descripcion": "Salema (Sarpa salpa): besugo del Mediterráneo y el Atlántico, el «pez que hace soñar»; comerlo ha provocado alucinaciones de días. Su causa no está clara.",
+ "entrada": "Un pez costero de rayas doradas, común en el Mediterráneo y en el Atlántico oriental, conocido también como «pez de los sueños». Algunas personas que lo han comido han sufrido alucinaciones visuales y auditivas que duraron días. Las fuentes coinciden en que su origen y los agentes responsables no están claros.[1][2][3]",
+ "otros": "salema · salpa · dreamfish · salema porgy · cow bream · saupe · pez que hace soñar",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Pez marino costero de la familia de los besugos"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Atlántico oriental, Mediterráneo y sudoeste del Índico"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "No se recomienda su consumo con fines psicoactivos"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Desconocidos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables más allá de casos aislados"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pescadores mediterráneos y la tradición árabe"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Biología",
+  "titulo": "El besugo de rayas doradas",
+  "parrafos": [
+   "<em>Sarpa salpa</em> es un pez marino de la familia de los espáridos, que incluye los besugos y las doradas; es la única especie de su género.[1][4]",
+   "Se llama también «dreamfish», salema, «cow bream», karanteen, salpa, saupe, strepie y «goldline»; el nombre del género, <em>Sarpa</em>, es el nombre local del pez en Génova.[1]",
+   "Se encuentra en el Atlántico oriental, el Mediterráneo y el sudoeste del Índico, de la bahía de Vizcaya a Sudáfrica.[1]",
+   "Linneo la describió en 1758 como <em>Sparus salpa</em>.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Espáridos"
+   ],
+   [
+    "Hábitat",
+    "Aguas costeras"
+   ],
+   [
+    "Profundidad",
+    "Hasta unos 70 m"
+   ],
+   [
+    "Distribución",
+    "Atlántico oriental y Mediterráneo"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El pez que hace soñar",
+  "parrafos": [
+   "En árabe se le llama «el pez que hace soñar».[3][5]",
+   "Una divulgación científica señala que los pescadores mediterráneos conocen desde hace siglos sus efectos y sugiere un uso recreativo en la antigua Roma; esa afirmación procede de una fuente divulgativa, no de un estudio.[5]",
+   "Se hizo célebre por los casos de 2006: dos hombres que comieron lo que parecía ser <em>Sarpa salpa</em> en el Mediterráneo sufrieron alucinaciones de días.[2][4]",
+   "El caso se publicó en la revista <em>Clinical Toxicology</em>.[6]"
+  ],
+  "cronologia": [
+   [
+    "1758",
+    "Linneo describe la especie"
+   ],
+   [
+    "2006",
+    "Dos casos de alucinaciones en el Mediterráneo occidental"
+   ]
+  ],
+  "nombres": [
+   [
+    "salema, salpa",
+    "castellano"
+   ],
+   [
+    "saupe",
+    "francés"
+   ],
+   [
+    "dreamfish",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Costas y praderas",
+  "parrafos": [
+   "Es un pez costero ampliamente distribuido.[5]",
+   "Algunos peces pueden volverse alucinógenos tras alimentarse de la alga verde <em>Caulerpa prolifera</em>; también se ha señalado a la fanerógama <em>Posidonia oceanica</em>.[7]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No comerlo buscando efectos.",
+   "Respetar la pesca artesanal.",
+   "Cuidar las praderas de posidonia."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-salema.svg",
+   "alt": "Mapa con el Atlántico oriental y el Mediterráneo sombreados.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la salema"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Un misterio sin resolver",
+  "parrafos": [
+   "Los agentes que causan las alucinaciones en humanos y su origen no están claros.[7]",
+   "No se sabe si los peces mismos producen las toxinas o las toman de su dieta, y una causa dietética podría ser más probable.[3]",
+   "Christian Rätsch cree que el pez podría contener DMT; es una conjetura.[2]",
+   "Algunas fuentes dicen que la probabilidad de alucinación depende de la estación.[2]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un cuadro de intoxicación",
+  "parrafos": [
+   "Un caso describe a un hombre de 40 años con molestias digestivas leves y alucinaciones visuales y auditivas aterradoras tras comer un ejemplar en un restaurante.[6]",
+   "Otro, de 90 años, tuvo alucinaciones auditivas a las 2 horas, pesadillas en las dos noches siguientes y se recuperó espontáneamente a los tres días.[6]",
+   "Estas intoxicaciones se parecen más a un delirio que a los efectos de psicodélicos serotoninérgicos como el LSD.[2]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "días (casos aislados)"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Hay informes de casos clínicos y una revisión de literatura, sin estudios sistemáticos.[6]"
+  ],
+  "alcance": "Casi sin investigación; solo informes de casos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Los casos descritos incluyen alucinaciones terroríficas de varios días.[6]"
+   ],
+   [
+    "Causa desconocida",
+    "No se sabe qué agente la provoca ni cuándo.[7]"
+   ],
+   [
+    "No es una práctica tradicional estructurada",
+    "Las fuentes consultadas no describen un ritual."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "animal",
+   "Kambó",
+   "Phyllomedusa bicolor",
+   "Otra secreción animal de uso ritual.",
+   "enciclopedia/kambo/"
+  ],
+  [
+   "animal",
+   "Sapo de Sonora",
+   "Incilius alvarius",
+   "Otro animal ligado a prácticas psicoactivas.",
+   "enciclopedia/sapo-de-sonora/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Salema porgy</em>. en.wikipedia.org/wiki/Salema_porgy.",
+  "Wikipedia. <em>Hallucinogenic fish</em>. en.wikipedia.com/wiki/Psychoactive_fish.",
+  "Wikipedia. <em>Ichthyoallyeinotoxism</em>. en.wikipedia.org/wiki/Ichthyoallyeinotoxism.",
+  "Wikipedia. <em>Sarpa salpa</em>. wikipedia.org/wiki/Sarpa_salpa.",
+  "ZME Science. <em>Salema Porgy: the hallucinogenic fish</em>. zmescience.com/other/feature-post/fish-lsd-hallucinations-04012017.",
+  "de Haro, L. y Pommier, P. (2006). Hallucinatory fish poisoning. <em>Clinical Toxicology</em> 44(2): 185–188. erowid.org/references/refs_view.php?ID=9213.",
+  "Wikiwand. <em>Hallucinogenic fish</em>. wikiwand.com/en/articles/Hallucinogenic_fish."
+ ],
+ "tipo_txt": "Animal",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ruda siria",
+  "ruda-siria"
+ ],
+ "siguiente": [
+  "San Isidro",
+  "san-isidro"
+ ]
+}
