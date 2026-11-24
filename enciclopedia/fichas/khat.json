@@ -1,0 +1,281 @@
+{
+ "slug": "khat",
+ "tipo": "planta",
+ "migas": "Planta · Celastráceas · Cuerno de África y Arabia",
+ "nombre": "Khat",
+ "cientifico": "Catha edulis",
+ "autoridad": "Forssk.",
+ "descripcion": "Khat (Catha edulis): arbusto de Etiopía y Yemen cuyas hojas tiernas se mascan en reuniones sociales por su catinona estimulante. Historia y química.",
+ "entrada": "Un arbusto o árbol de África oriental y del sur de la península arábiga, cuyas hojas y brotes tiernos se mascan desde hace siglos por su efecto estimulante suave. Su uso es sobre todo social y se concentra en Yemen, Somalia, Etiopía y Kenia.[1][2][3]",
+ "otros": "khat · qat · chat · miraa · jimaa · qaad · té de Abisinia · Catha edulis",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto de hojas tiernas que se mascan"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Este y sureste de África y sur de la península arábiga"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hojas y brotes tiernos, frescos"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Catinona, catina y norefedrina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de Etiopía, Somalia, Yemen y Kenia"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un arbusto de hoja perenne",
+  "parrafos": [
+   "<em>Catha edulis</em> es un arbusto o árbol de hoja perenne de la familia de las celastráceas, de 1 a 25 m de altura.[4]",
+   "Fue identificado como <em>Catha edulis</em> por el botánico Peter Forskal en 1775, durante un viaje a Egipto y Yemen.[4]",
+   "La mayoría de los trabajos publicados lo tratan como el único representante del género <em>Catha</em>.[5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Celastraceae"
+   ],
+   [
+    "Altura",
+    "1 a 25 m"
+   ],
+   [
+    "Hoja",
+    "Perenne"
+   ],
+   [
+    "Parte usada",
+    "Hojas y brotes tiernos"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un uso social de siglos",
+  "parrafos": [
+   "Se cultiva desde la zona de Harar, en el este de Etiopía, y desde allí se difundió en distintas épocas a Somalia, Yibuti, Yemen, Kenia, Madagascar, Tanzania y otras regiones.[1]",
+   "Masticar khat es anterior al uso del café y se da en un contexto social similar.[2]",
+   "Su uso se extendió entre las clases ocultistas, espirituales y altas de Yemen en el siglo XVI.[4]",
+   "La referencia más antigua parece ser la de Al-Biruni, hacia 973-1053, que habló de un khat importado de Turquestán.[6]",
+   "En Yemen es un hábito sobre todo masculino y está arraigado en la tradición sociocultural.[2][7]",
+   "En África y Oriente Medio su uso es más un fenómeno social que un estimulante; suele ser moderado y a menudo transcurre en salas pensadas para ello.[8]"
+  ],
+  "cronologia": [
+   [
+    "973-1053",
+    "Primera referencia conocida, de Al-Biruni.[6]"
+   ],
+   [
+    "Siglo XVI",
+    "Se difunde entre las clases espirituales y altas de Yemen.[4]"
+   ],
+   [
+    "1775",
+    "Forskal lo identifica como <em>Catha edulis</em>.[4]"
+   ]
+  ],
+  "nombres": [
+   [
+    "khat, qat, chat",
+    "nombres más extendidos"
+   ],
+   [
+    "miraa",
+    "Kenia"
+   ],
+   [
+    "<em>jimaa</em>",
+    "oromo"
+   ],
+   [
+    "<em>qaad</em>",
+    "somalí"
+   ]
+  ],
+  "nota_nombres": "Hay decenas de nombres según la lengua: qat en Yemen, chat en Etiopía, miraa en Kenia.[2][4]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Del Cuerno de África a Arabia",
+  "parrafos": [
+   "Es nativo del este y sureste de África y se cultiva en Etiopía, Kenia, Yemen y otros países.[1]",
+   "Los mayores consumidores son los africanos orientales, en particular los somalíes, y los yemeníes; los mayores productores son Etiopía y Kenia.[1]",
+   "En Yemen su cultivo ocupa buena parte de la agricultura del país.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como costumbre social de pueblos concretos.",
+   "Entender la dimensión económica de su cultivo.",
+   "Respetar el contexto cultural."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-khat.svg",
+   "alt": "Mapa con zonas sombreadas en ocre sobre el este de África y el sur de Arabia.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del khat"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Catinona y catina",
+  "parrafos": [
+   "Las hojas frescas contienen catinona, catina y norefedrina, compuestos simpaticomiméticos.[4]",
+   "La catinona, el ingrediente activo principal de las hojas frescas, se parece estructural y farmacológicamente a la anfetamina.[7]",
+   "Provoca mayor sociabilidad, excitación, pérdida leve del apetito y euforia suave.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Catinona",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Principal activo de la hoja fresca.[7]"
+   },
+   {
+    "nombre": "Catina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Forma más suave que la catinona.[3]"
+   },
+   {
+    "nombre": "Norefedrina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Tercer compuesto simpaticomimético.[4]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sociabilidad y energía suave",
+  "parrafos": [
+   "Se masca durante horas en reuniones y produce sociabilidad, excitación y una euforia suave.[1]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay revisiones médicas, microbiológicas y farmacocinéticas sobre su consumo y sus efectos en la salud.[5][7][9]",
+   "La mayor parte de la investigación se centra en riesgos y efectos del uso habitual, y no en un uso terapéutico."
+  ],
+  "alcance": "Buena documentación sociocultural y toxicológica; sin uso terapéutico establecido."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Dosis altas y uso crónico se asocian con efectos neurológicos, psiquiátricos, cardiovasculares, dentales, digestivos y urinarios.[6]"
+   ],
+   [
+    "Salud pública",
+    "En Yemen, donde su uso está muy extendido, las revisiones lo consideran un problema de salud pública.[7]"
+   ],
+   [
+    "Contexto",
+    "Es una costumbre social con salas, horarios y normas propios.[8]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos sobre su uso en contextos terapéuticos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Coca",
+   "Erythroxylum coca",
+   "Otro estímulante de hoja que se masca.",
+   "enciclopedia/coca/"
+  ],
+  [
+   "planta",
+   "Betel",
+   "Piper betle",
+   "Otra planta que se masca en contextos sociales.",
+   "enciclopedia/betel/"
+  ],
+  [
+   "planta",
+   "Efedra",
+   "Ephedra spp.",
+   "Planta con alcaloides emparentados con la catina.",
+   "enciclopedia/efedra/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. Khat. wikipedia.com/wiki/Khat.",
+  "Encyclopedia of Life. Khat: nombres y uso (api). api.eol.org/pages/405237/articles.",
+  "Encyclopedia.com. Catha edulis. encyclopedia.com/medicine/encyclopedias-almanacs-transcripts-and-maps/catha-edulis.",
+  "Khat: estudio de su cinética y toxicología. pmc.ncbi.nlm.nih.gov/articles/PMC8875844.",
+  "Al-Hebshi NN, Skaug N. Khat (<em>Catha edulis</em>): an updated review. bibliography.maps.org/resources/download/17022.",
+  "Khat: efectos y primera referencia histórica. pmc.ncbi.nlm.nih.gov/articles/PMC3377054.",
+  "Khat (<em>Catha edulis</em>): health aspects of khat chewing. East Mediterr Health J. 2007;13(3):706-718. pubmed.ncbi.nlm.nih.gov/17687845/.",
+  "Encyclopedia.com. Catha edulis (uso social). encyclopedia.com/science/applied-and-social-sciences-magazines/catha-edulis.",
+  "Khat use: revisión de la OMS (EMHJ). 2017;23(3):236-244. applications.emro.who.int/EMHJ/V23/03/EMHJ_2017_23_03_236_244.pdf."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Kava",
+  "kava"
+ ],
+ "siguiente": [
+  "Kratom",
+  "kratom"
+ ]
+}
