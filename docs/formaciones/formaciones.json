@@ -790,6 +790,162 @@
    "revisado": "2026-11-24",
    "lat": 50.7184,
    "lon": -3.5339
+  },
+  {
+   "id": "open-foundation-adept",
+   "nombre": "ADEPT: Advanced Education in Psychedelic Therapy",
+   "nombre_es": "ADEPT: formación avanzada en terapia psicodélica de la OPEN Foundation",
+   "entidad": "OPEN Foundation",
+   "tipo_entidad": "asociacion",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "NL",
+   "sustancias": [
+    "psilocibina",
+    "mdma"
+   ],
+   "duracion_horas": null,
+   "duracion": "24 meses: diez módulos en línea, cinco jornadas presenciales y tres talleres vivenciales de varios días",
+   "precio": "18.500 EUR (9.250 EUR al año)",
+   "precio_eur": 18500,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "incluye": [
+    "experiencial",
+    "mentoria"
+   ],
+   "descripcion": "Formación de dos años para profesionales de la salud mental, en inglés. Combina clases en línea, tutorías semanales y jornadas presenciales en un punto central de los Países Bajos. Los viajes y el alojamiento de las jornadas los paga cada participante.",
+   "url": "https://open-foundation.org/programmes/training/",
+   "estado": "activa",
+   "revisado": "2026-11-24"
+  },
+  {
+   "id": "open-foundation-foundations-psychedelic-therapy",
+   "nombre": "Foundations of Psychedelic Therapy",
+   "nombre_es": "Fundamentos de terapia psicodélica de la OPEN Foundation",
+   "entidad": "OPEN Foundation",
+   "tipo_entidad": "asociacion",
+   "tipo": [
+    "introduccion"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "NL",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "13 meses, totalmente en línea",
+   "precio": "Consultar en la web",
+   "precio_eur": null,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "descripcion": "Programa teórico en línea, en grupos pequeños, para profesionales de la salud mental. Es el primer paso hacia la formación completa ADEPT de la misma entidad.",
+   "url": "https://open-foundation.org/foundations-of-psychedelic-therapy/",
+   "estado": "activa",
+   "revisado": "2026-11-24"
+  },
+  {
+   "id": "ipi-psychedelic-therapy-level-i-certification",
+   "nombre": "Psychedelic Therapy Level I Certification",
+   "nombre_es": "Certificación de terapia psicodélica, nivel I, del Integrative Psychiatry Institute",
+   "entidad": "Integrative Psychiatry Institute (IPI)",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "sustancias": [
+    "ketamina"
+   ],
+   "duracion_horas": null,
+   "duracion": "4 meses, en línea",
+   "precio": "6.000 USD según un portal de comparación; la web anunciaba descuentos",
+   "precio_eur": null,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "descripcion": "Certificación en línea para profesionales de la salud mental con experiencia, centrada en la terapia asistida con ketamina. El propio instituto indica que este nivel no es una formación aprobada para los programas de Oregón ni de Colorado.",
+   "url": "https://psychiatryinstitute.com/level-education/",
+   "estado": "activa",
+   "revisado": "2026-11-24"
+  },
+  {
+   "id": "iceers-integration-training",
+   "nombre": "ICEERS Integration Training",
+   "nombre_es": "Formación en integración de ICEERS",
+   "entidad": "ICEERS",
+   "tipo_entidad": "asociacion",
+   "tipo": [
+    "integracion"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "ES",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 45,
+   "duracion": "14 semanas, en línea",
+   "precio": "Consultar en la web",
+   "precio_eur": null,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "descripcion": "Curso en línea para profesionales sanitarios que acompañan a personas tras estados no ordinarios de consciencia, basado en el modelo de integración de Marc Aixalà. Da un certificado propio de ICEERS, que aclara que la integración no es aún una profesión reconocida oficialmente en la mayoría de los países.",
+   "url": "https://hub.iceers.org/en/academy/integration",
+   "estado": "por_confirmar",
+   "revisado": "2026-11-24"
+  },
+  {
+   "id": "iceers-ayasafety",
+   "nombre": "AyaSafety",
+   "nombre_es": "AyaSafety: más seguridad en las sesiones de ayahuasca (ICEERS)",
+   "entidad": "ICEERS",
+   "tipo_entidad": "asociacion",
+   "tipo": [
+    "riesgos",
+    "facilitacion"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "ES",
+   "sustancias": [
+    "ayahuasca"
+   ],
+   "duracion_horas": null,
+   "duracion": "Consultar en la web",
+   "precio": "Consultar en la web",
+   "precio_eur": null,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "descripcion": "Curso en línea de reducción de riesgos para quienes facilitan ceremonias con plantas. La edición de 2026 cerró inscripciones el 25 de mayo; conviene mirar si hay una nueva convocatoria.",
+   "url": "https://www.iceers.org/en/how-we-help/iceers-academy/",
+   "estado": "por_confirmar",
+   "revisado": "2026-11-24"
   }
  ]
 }
