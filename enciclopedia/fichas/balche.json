@@ -1,0 +1,238 @@
+{
+ "slug": "balche",
+ "tipo": "preparado",
+ "migas": "Preparado · Leguminosas · Yucatán y selva Lacandona",
+ "nombre": "Balché",
+ "cientifico": "Lonchocarpus longistylus y miel",
+ "autoridad": "",
+ "descripcion": "Balché: bebida ritual fermentada de los mayas, hecha con corteza de Lonchocarpus y miel; la arqueología la detecta ya hacia 800–850 d. C. y aún se usa.",
+ "entrada": "Una bebida ceremonial maya, ligeramente fermentada, de corteza del árbol balché y miel. Está presente en códices, fuentes históricas y etnografía; se prohibió y persiguió en la Colonia, pero los especialistas rituales mayas nunca dejaron de prepararla, y hoy se usa en ceremonias antiguas y nuevas.[1][2][1]",
+ "otros": "balché · balche · bebida ritual maya · xtabentún (bebida emparentada)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Bebida ritual de corteza y miel, ligeramente fermentada"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Península de Yucatán y selva Lacandona"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Corteza del árbol y miel"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Compuestos de la corteza; se citan efectos de euforia"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Mayas yucatecos y lacandones"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El árbol del balché",
+  "parrafos": [
+   "El balché se elabora con la corteza de un árbol leguminoso, <em>Lonchocarpus violaceus</em> según la fuente más citada, remojada en miel y agua y fermentada.[1]",
+   "Otro autor señala que el «balché auténtico» es <em>Lonchocarpus longistylus</em>, que abunda en la mayor parte de Yucatán y es más común en las zonas lluviosas del este y del sur.[3] En el centro-norte de Yucatán, <em>L. rugosus</em> es un «balché verde» que los lacandones dicen que puede dar dolor de estómago.[3]",
+   "En el Dominio maya se usan distintas especies de <em>Lonchocarpus</em> para la bebida.[3]",
+   "Una bebida emparentada, el xtabentún, se hace con miel de la flor de una enredadera, <em>Turbina corymbosa</em>.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Leguminosas"
+   ],
+   [
+    "Parte usada",
+    "Corteza"
+   ],
+   [
+    "Ingredientes",
+    "Corteza, miel y agua"
+   ],
+   [
+    "Variedades",
+    "Varias especies de <em>Lonchocarpus</em>"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva e histórica; no incluye indicaciones de preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La bebida de los dioses mayas",
+  "parrafos": [
+   "Según fuentes españolas del siglo XVI, el uso ritual del balché era un rasgo común de la vida religiosa de los mayas precolombinos; como el rito implicaba embriaguez ritual y ofrendas a dioses «paganos», los misioneros intentaron acabar con él.[4]",
+   "Un estudio detectó por primera vez su consumo en un contexto arqueológico, datado en el Clásico terminal (800–850 d. C.), identificándolo en un vaso Ulúa recuperado en Belice.[5]",
+   "Los códices precolombinos, las fuentes históricas y la etnografía lo recogen. El Códice de Madrid sugiere que la miel o el balché pudieron guardarse en jarras de cerámica.[2]",
+   "Los especialistas rituales mayas continuaron preparándolo pese a la persecución colonial, y se usa hoy en ceremonias.[2]",
+   "El balché se usaba sobre todo en ceremonias como el Nik Ché (floración), para comulgar con los elementos, los espíritus de la naturaleza y los señores del cielo.[6]",
+   "Entre los mayas lacandones el balché ocupa un lugar central; la etnografía de R. Jon McGee lo documenta.[4]"
+  ],
+  "cronologia": [
+   [
+    "800–850 d. C.",
+    "Primer consumo detectado en un contexto arqueológico"
+   ],
+   [
+    "Siglo XVI",
+    "Fuentes españolas lo registran y los misioneros intentan suprimirlo"
+   ]
+  ],
+  "nombres": [
+   [
+    "balché",
+    "maya yucateco y castellano"
+   ],
+   [
+    "xtabentún",
+    "bebida emparentada con miel de flor"
+   ]
+  ],
+  "nota_nombres": "El licor comercial xtabentún, de anís y miel fermentada, puede tener su origen en el balché.[7]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Yucatán y la selva Lacandona",
+  "parrafos": [
+   "Se usó entre los mayas de la península de Yucatán y de la selva Lacandona.[6]",
+   "La Colonia prohibió la bebida y destruyó huertos, según una fuente divulgativa.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como saber maya vivo.",
+   "Respetar a quienes lo conservan.",
+   "No tratarlo como bebida de ocio."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-balche.svg",
+   "alt": "Mapa con Yucatán y la selva Lacandona sombreados.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del balché"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Corteza y miel",
+  "parrafos": [
+   "Un estudio indica que los compuestos de la corteza producen una sensación elevada de euforia y de conciencia emocional.[5]",
+   "La miel que se usa puede proceder de abejas que se alimentan de una enredadera, <em>Turbina corymbosa</em>, de alto contenido en ergina, según una fuente.[8]",
+   "Se han hecho experimentos arqueométricos con mieles yucatecas y con balché preparado por especialistas mayas contemporáneos.[2]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una embriaguez ritual suave",
+  "parrafos": [
+   "Se describe como una bebida suavemente intoxicante.[1] En algunos textos se le atribuyen propiedades enteógenas.[6]",
+   "Un naturalista que lo probó lo describió endulzado y con sabor a canela y humo de leña, apenas fermentado.[3]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay estudios arqueológicos, etnográficos y arqueométricos recientes sobre su consumo antiguo y actual.[2][5]",
+   "La etnografía lacandona de McGee es la referencia clásica.[4]"
+  ],
+  "alcance": "Estudio arqueológico y etnográfico; poca química."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Contexto",
+    "Es una bebida sagrada de pueblos mayas, no una bebida de consumo general.[2][6]"
+   ],
+   [
+    "Especies",
+    "Distintas especies de <em>Lonchocarpus</em> se usan; algunas se consideran de menor calidad.[3]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan análisis químicos específicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Gloria de la mañana",
+   "Turbina corymbosa",
+   "La enredadera cuya miel se asocia a bebidas emparentadas.",
+   "enciclopedia/gloria-de-la-manana/"
+  ],
+  [
+   "planta",
+   "Ololiuqui",
+   "Turbina corymbosa",
+   "Semillas de la misma planta en México.",
+   "enciclopedia/ololiuqui/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Balché</em>. wikipedia.org/wiki/Balch%C3%A9.",
+  "Maya Ritual Beverages: Unveiling the Ingredients for an Ancient Alcoholic Offering. core.tdar.org/document/498733/maya-ritual-beverages-unveiling-the-ingredients-for-an-ancient-alcoholic-offering.",
+  "Conrad, J. <em>Balché</em>. backyardnature.net/yucatan/balche.htm.",
+  "McGee, R. J. <em>The balché ritual of the Lacandon Maya</em>. <em>Estudios de Cultura Maya</em> 18. revistas-filologicas.unam.mx/estudios-cultura-maya/index.php/ecm/article/view/184.",
+  "<em>Balché Consumption among the Ancient Maya: Bees, Honey, and Ritual Practice</em>. core.tdar.org/document/498737/balche-consumption-among-the-ancient-maya-bees-honey-and-ritual-practice.",
+  "Yucatan Times. <em>Balché: Sacred Maya drink</em>. theyucatantimes.com/2018/04/balche-sacred-maya-drink.",
+  "Wikipedia. <em>Xtabentún (liqueur)</em>. wikipedia.org/wiki/Xtabentun_(liqueur).",
+  "Wikipedia. <em>Entheogenics and the Maya</em>. en.wikipedia.com/wiki/Entheogenics_and_the_Maya."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ayahuasca",
+  "ayahuasca"
+ ],
+ "siguiente": [
+  "Beleño negro",
+  "beleno-negro"
+ ]
+}
