@@ -188,7 +188,7 @@
    "guia": null
   },
   {
-   "slug": null,
+   "slug": "chacruna",
    "tipo": "planta",
    "nombre": "Chacruna",
    "cientifico": "Psychotria viridis",
@@ -280,7 +280,7 @@
    "nombre": "Chacruna",
    "detalle": "Psychotria viridis",
    "tipo": "planta",
-   "slug": null
+   "slug": "chacruna"
   },
   {
    "nombre": "Chaliponga",
