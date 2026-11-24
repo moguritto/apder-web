@@ -1,0 +1,259 @@
+{
+ "slug": "ruda-siria",
+ "tipo": "planta",
+ "migas": "Planta · Nitrariáceas · Mediterráneo, Oriente Medio y Asia central",
+ "nombre": "Ruda siria",
+ "cientifico": "Peganum harmala",
+ "autoridad": "L.",
+ "descripcion": "Ruda siria (Peganum harmala): planta del desierto de Oriente Medio y Asia central, esfand ritual y medicinal, con β-carbolinas IMAO. Historia y química.",
+ "entrada": "Una hierba perenne de suelos salinos y desérticos, del Mediterráneo oriental a la India, usada desde hace siglos en Oriente Medio, el norte de África y Asia central como planta ritual, protectora y medicinal. Sus semillas contienen β-carbolinas que inhiben la monoaminooxidasa.[1][2][3][4]",
+ "otros": "ruda siria · harmal · esfand · espand · harmel · ruda silvestre · ruda africana · Syrian rue · wild rue · Peganum harmala",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba perenne de zonas áridas, con raíz leñosa"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Del Mediterráneo oriental y el norte de África a Irán, Asia central y la India"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Las semillas, también corteza y raíz"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "β-carbolinas: harmina, harmalina, harmalol y harmano"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de Irán, Turquía, Asia central y el Cáucaso"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una hierba de desierto sin parentesco con la ruda",
+  "parrafos": [
+   "<em>Peganum harmala</em> es una planta herbácea perenne, de rizoma leñoso, de la familia de las nitrariáceas, que crece en suelos salinos de regiones desérticas templadas y mediterráneas.[1]",
+   "Su nombre inglés viene de su parecido con la ruda (<em>Ruta</em>), con la que no tiene parentesco.[1][6] Es una planta carnosa de hojas estrechas muy divididas y flores blancas solitarias, que alcanza 1 m pero suele quedarse en unos 30 cm.[2]",
+   "Es nativa desde la región oriental de Irán, hacia el oeste, hasta la India.[3] En Estados Unidos crece como exótica invasora en varios estados del oeste.[6]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Nitrariaceae"
+   ],
+   [
+    "Altura",
+    "Hasta 1 m, normalmente unos 30 cm"
+   ],
+   [
+    "Flores",
+    "Blancas, solitarias"
+   ],
+   [
+    "Parte usada",
+    "Semillas, corteza, raíz"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Esfand: protección y medicina",
+  "parrafos": [
+   "Se ha usado durante siglos en la medicina tradicional de Asia central, Oriente Medio y el Cáucaso, sobre todo como planta ritual y psicodélica.[5]",
+   "Es muy conocida en Irán, donde se usan sus semillas, su corteza y su raíz como medicina popular.[4]",
+   "Las cápsulas secas, mezcladas con otros ingredientes, se queman como amuleto contra el «mal de ojo» entre los iraníes.[4] En Turquía se cuelgan cápsulas secas ensartadas en casas o vehículos contra el mal de ojo.[6]",
+   "Es popular en la medicina popular de Oriente Medio y el norte de África.[1]",
+   "Las semillas llevan miles de años en los ritos de muchas culturas.[7]",
+   "De las semillas se obtiene además un pigmento rojo, que se ha usado para teñir lana y alfombras, y como especia y afrodisíaco tradicional.[5]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "esfand, espand",
+    "Irán"
+   ],
+   [
+    "harmal, harmel",
+    "árabe y otros"
+   ],
+   [
+    "ruda siria",
+    "español"
+   ],
+   [
+    "<em>Syrian rue</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "Su nombre en inglés es engañoso: no está emparentada con la ruda.[1][6]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Zonas áridas del Viejo Mundo",
+  "parrafos": [
+   "Crece del Mediterráneo oriental a la India, en suelos salinos de zonas áridas.[1][3][6]",
+   "Se vuelve invasora fuera de su área: en Estados Unidos, en Arizona, California, Montana, Nuevo México, Nevada, Oregón, Texas y Washington.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como planta protectora y medicinal de pueblos concretos.",
+   "No confundirla con la ruda común ni con otras plantas.",
+   "Respetar su contexto cultural."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-ruda-siria.svg",
+   "alt": "Mapa con una zona sombreada en ocre del Mediterráneo a Asia central.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la ruda siria"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "β-carbolinas",
+  "parrafos": [
+   "Las semillas contienen β-carbolinas: harmina, harmalol y harmano, y se considera la harmina el alcaloide con acción alucinógena.[5]",
+   "Los alcaloides principales son harmalina, harmina, harmalol y peganina.[3]",
+   "La harmina y la harmalina son psicoactivas e inhibidores potentes, reversibles y de acción corta de la MAO-A.[2]",
+   "Estos alcaloides, presentes también en <em>Banisteriopsis caapi</em>, son los mismos que dan a la ayahuasca su base inhibidora.[4]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Harmina",
+    "clase": "β-carbolina",
+    "img": null,
+    "texto": "Alcaloide más estudiado; inhibidor reversible de la MAO-A.[2][4]"
+   },
+   {
+    "nombre": "Harmalina",
+    "clase": "β-carbolina",
+    "img": null,
+    "texto": "Inhibidor de la MAO-A, junto a la harmina.[2]"
+   },
+   {
+    "nombre": "Peganina (vasicina)",
+    "clase": "Alcaloide quinazolínico",
+    "img": null,
+    "texto": "Alcaloide principal citado en revisiones.[3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un inhibidor, no una visión por sí mismo",
+  "parrafos": [
+   "Las fuentes describen sus alcaloides como psicoactivos e inhibidores de la MAO.[2]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay revisiones de sus usos tradicionales y de los efectos farmacológicos del extracto total y de sus alcaloides, sobre todo la harmina y la harmalina.[4][5]",
+   "La harmina es el alcaloide natural más estudiado.[4]"
+  ],
+  "alcance": "Muchos estudios de laboratorio; pocos ensayos clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Interacciones",
+    "Los alcaloides del esfand pueden reaccionar de forma peligrosa con antihistamínicos, antidepresivos, descongestionantes, expectorantes y algunos estimulantes.[3]"
+   ],
+   [
+    "Variación",
+    "El contenido de alcaloides de las semillas cambia entre muestras.[2]"
+   ],
+   [
+    "Contexto",
+    "Para los pueblos que la usan es sobre todo protectora y medicinal.[4][5]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan ensayos clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ayahuasca",
+   "Banisteriopsis caapi y Psychotria viridis",
+   "Comparte los alcaloides inhibidores de la MAO.",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "planta",
+   "Ajenjo",
+   "Artemisia absinthium",
+   "Otra planta de la botica tradicional de Oriente Medio y Europa.",
+   "enciclopedia/ajenjo/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Peganum harmala</em> (harmal). en.wikipedia.com/wiki/Harmal.",
+  "Erowid. Syrian rue: basics. erowid.org/plants/syrian_rue/syrian_rue_basics.shtml.",
+  "Wild rue (<em>P. harmala</em>): revisión de sus usos medicinales tradicionales y beneficios para la salud. link.springer.com/doi/10.1186/s40816-021-00255-7.",
+  "Wild Syrian rue (<em>Peganum harmala</em>): usos tradicionales y efectos farmacológicos del extracto total y de sus alcaloides (revisión). pmc.ncbi.nlm.nih.gov/articles/PMC3841998.",
+  "Mamedov NA, Pasdaran A, Mamadalieva NZ. Pharmacological studies of Syrian rue (<em>Peganum harmala</em> L., Zygophyllaceae). Int J Secondary Metabolite. 2018;5(1):1-6. dergipark.org.tr/en/download/article-file/336701.",
+  "Wikidoc. Harmal. wikidoc.org/index.php/Harmal.",
+  "BioDiversity4All. <em>Peganum harmala</em>. biodiversity4all.org/guide_taxa/1236612."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Rosa lisérgica",
+  "rosa-lisergica"
+ ],
+ "siguiente": [
+  "San Pedro",
+  "san-pedro"
+ ]
+}
