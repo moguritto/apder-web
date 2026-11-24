@@ -1,0 +1,410 @@
+{
+ "slug": "peyote",
+ "tipo": "cactus",
+ "tipo_txt": "Cactus",
+ "migas": "Cactus · Cactáceas · Desierto chihuahuense",
+ "nombre": "Peyote",
+ "cientifico": "Lophophora williamsii",
+ "autoridad": "(Lem. ex Salm-Dyck) J.M.Coult.",
+ "entrada": "A ras de suelo, sin una espina, el peyote pasa desapercibido. Para el pueblo wixárika es el <em>híkuri</em>, un ser que une el maíz, el venado y el camino a Wirikuta, y su historia en el desierto tiene más de cinco mil años.[2][4]",
+ "otros": "híkuri · híkuli · péyotl · tútu · jículi · botón de mescal",
+ "portada": {
+  "img": "pey-hero.jpg",
+  "alt": "Varios peyotes de cabeza redonda y verde azulada, con mechones de pelo blanco en el centro, en una maceta.",
+  "pie": "Peyotes (<em>Lophophora williamsii</em>) con sus mechones de pelo fino. Chelsea Physic Garden, Londres.",
+  "cred": "YubKooka · CC BY-SA 4.0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Cactus pequeño y sin espinas, de crecimiento muy lento"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Desierto chihuahuense: sur de Texas y norte y centro de México"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La cabeza que asoma del suelo, el «botón»"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Mescalina y otros alcaloides"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "45–90 min · 8–12 h, a veces más"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Wixárika, rarámuri, cora y la Iglesia Nativa Americana"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la mescalina",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/mescalina/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un disco azul grisáceo a ras de suelo",
+  "parrafos": [
+   "Es un cactus sin espinas que rara vez pasa de los veinte centímetros. Casi todo lo que se ve es una cabeza ancha y aplanada, con costillas suaves y mechones de pelo fino en la cima. Debajo, una raíz gruesa, con forma de zanahoria, lo ancla al suelo seco.[3]",
+   "De su centro nacen flores rosa pálido de un par de centímetros que duran pocos días, entre marzo y septiembre. Después aparece un fruto en forma de maza, rosado, con semillas negras muy pequeñas.[3]",
+   "Es de los cactus de crecimiento más lento. En cultivo, una planta nacida de semilla tarda unos cinco años en alcanzar tamaño de cosecha.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Cactaceae"
+   ],
+   [
+    "Porte",
+    "Cactus globoso, sin espinas"
+   ],
+   [
+    "Flor",
+    "Rosa pálido, en el centro"
+   ],
+   [
+    "Fruto",
+    "Baya rosada con semillas negras"
+   ]
+  ],
+  "foto": {
+   "img": "pey-flor.jpg",
+   "alt": "Peyote con una flor rosa pálido abierta en el centro de la cabeza, rodeado de mechones de pelo blanco.",
+   "pie": "Peyote en flor, de la zona de Texas y México donde es nativo.",
+   "cred": "USGS Bee Inventory and Monitoring Lab · dominio público"
+  },
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El cactus que camina con el venado",
+  "parrafos": [
+   "Para el pueblo wixárika, el <em>híkuri</em> forma parte de una relación que enlaza el maíz, el venado y los lugares sagrados de la peregrinación a Wirikuta, en el desierto de San Luis Potosí. Quienes participan en el proyecto «Hablemos de Híkuri» cuentan que ese significado se aprende caminando.[4]",
+   "En una cueva del sur de Texas se han hallado botones de peyote de hace unos 5.700 años, y en una tumba de Coahuila, trozos de entre los siglos IX y XI que aún guardaban alcaloides.[2][3] En la época colonial su uso entre los indígenas se prohibió y la Inquisición lo persiguió.[3]",
+   "El rito se extendió hacia el norte. En 1918 se fundó en Estados Unidos la Iglesia Nativa Americana, que lo toma como sacramento.[11]"
+  ],
+  "banda": {
+   "img": "pey-peregrinacion.jpg",
+   "alt": "Un grupo de peregrinos camina en fila por una llanura seca y encharcada, bajo un cielo con nubes.",
+   "pie": "La peregrinación a Wirikuta de los wixaritari, en San Luis Potosí.",
+   "cred": "Kauyumarie · CC BY-SA 4.0"
+  },
+  "cronologia": [
+   [
+    "Hace 5.700 años",
+    "Botones de peyote enterrados en una cueva del sur de Texas, los más antiguos que se han fechado.[2]"
+   ],
+   [
+    "810–1070",
+    "En una tumba de una cueva de Coahuila aparecen trozos de peyote con alcaloides todavía detectables.[3]"
+   ],
+   [
+    "Época colonial",
+    "El uso queda prohibido entre los indígenas y la Inquisición lo castiga.[3]"
+   ],
+   [
+    "1839",
+    "Antoine Lemaire lo describe como <em>Echinocactus williamsii</em>; en 1894 John Coulter lo pasa al género <em>Lophophora</em>.[3]"
+   ],
+   [
+    "1897",
+    "Arthur Heffter aísla la mescalina.[10]"
+   ],
+   [
+    "1918",
+    "Se funda la Iglesia Nativa Americana en Estados Unidos.[11]"
+   ],
+   [
+    "2023–2024",
+    "En Basilea, los primeros ensayos modernos con mescalina en personas sanas.[6][7]"
+   ]
+  ],
+  "nombres": [
+   [
+    "híkuri",
+    "wixárika"
+   ],
+   [
+    "tútu",
+    "wixárika: la flor del peyote"
+   ],
+   [
+    "híkuli",
+    "rarámuri"
+   ],
+   [
+    "péyotl",
+    "náhuatl, la lengua de los mexicas"
+   ],
+   [
+    "huatari",
+    "cora"
+   ],
+   [
+    "wokowi",
+    "comanche"
+   ],
+   [
+    "seni",
+    "kiowa"
+   ],
+   [
+    "ho",
+    "apache mescalero"
+   ]
+  ],
+  "nota_nombres": "Los wixaritari distinguen varias formas del cactus, y algunas, como la que recuerda al maíz, tienen un valor especial para quienes guían la peregrinación.[3]",
+  "retratos": null,
+  "lamina": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un desierto, un camino y una planta lenta",
+  "mapa": {
+   "img": "mapa-peyote.svg",
+   "alt": "Mapa de México y el sur de Estados Unidos con el desierto chihuahuense sombreado en ocre y tres lugares señalados: Wirikuta, Trans-Pecos y las llanuras de Mustang.",
+   "mundo": false,
+   "leyenda": [
+    [
+     "#9c4a26",
+     "Área aproximada del peyote"
+    ]
+   ]
+  },
+  "parrafos": [
+   "Crece en el desierto chihuahuense, desde el sur de Texas hasta el centro de México (Tamaulipas, Coahuila, Nuevo León, San Luis Potosí y Zacatecas), a menudo bajo la sombra de arbustos como el mezquite.[1][3]",
+   "Con un crecimiento tan lento, la recolección pesa mucho sobre las poblaciones. Dentro del pueblo wixárika, el proyecto «Hablemos de Híkuri» nació de una observación sencilla: cada peregrinación exigía caminar más para encontrarlo.[4]"
+  ],
+  "uicn": {
+   "estado": "VU",
+   "nota": "La Lista Roja de la UICN lo clasifica como vulnerable.[5]"
+  },
+  "ayuda": [
+   "Respetar el carácter sagrado del híkuri para los pueblos que lo cuidan.",
+   "Preferir plantas cultivadas a las de recolección silvestre.",
+   "Apoyar proyectos de conservación dirigidos por las propias comunidades."
+  ],
+  "foto": {
+   "img": "pey-wirikuta.jpg",
+   "alt": "Grupo de peyotes de color gris verdoso agrupados bajo un arbusto seco, en suelo pedregoso.",
+   "pie": "Peyotes silvestres en Wirikuta, cerca de Wadley, San Luis Potosí.",
+   "cred": "Kauderwelsch · CC BY-SA 3.0"
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Mescalina, la molécula de la luz",
+  "parrafos": [
+   "El principal alcaloide activo es la mescalina, una fenetilamina que activa el receptor de serotonina 5-HT2A, el mismo en que actúan la psilocibina y el LSD.[6][7] El cactus contiene más de cincuenta alcaloides en total, pero solo la mescalina tiene efectos psicoactivos claros.[3]",
+   "La cantidad de mescalina varía mucho de un cactus a otro, según la edad, el cultivo y la parte de la planta, y por eso los ensayos clínicos usan mescalina pura, de dosis conocida.[10]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Mescalina",
+    "clase": "Fenetilamina · alcaloide principal",
+    "img": "mescalina.svg",
+    "texto": "Activa el receptor de serotonina 5-HT2A. En un ensayo de 2024, un fármaco que bloquea ese receptor anuló casi todos sus efectos."
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un día largo",
+  "parrafos": [
+   "Empieza a notarse entre los 45 y los 90 minutos y se prolonga entre ocho y doce horas, a veces más. En los ensayos se describe como una experiencia parecida a la del LSD o la psilocibina, con colores muy intensos, patrones y emociones fuertes. La diferencia principal es la duración.[6]",
+   "Con el cactus son frecuentes las náuseas y el vómito, sobre todo al subir. En muchas tradiciones esa purga forma parte del camino.[10]"
+  ],
+  "tiempo": {
+   "horas": 14,
+   "tramos": [
+    [
+     "a",
+     0.75,
+     2,
+     "Sube"
+    ],
+    [
+     "b",
+     2,
+     6,
+     "Máximo"
+    ],
+    [
+     "c",
+     6,
+     12,
+     "Se apaga"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "45–90 min"
+    ],
+    [
+     "Máximo",
+     "entre las 2 y las 6 h"
+    ],
+    [
+     "Dura",
+     "8–12 h, a veces hasta 14"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "En 2023, un ensayo en Basilea comparó en personas sanas mescalina, LSD y psilocibina: 500 mg de mescalina produjeron una experiencia muy parecida a la de 100 µg de LSD y a la de 20 mg de psilocibina.[6] En 2024, otro mostró que sus efectos aumentan con la dosis y que dependen del receptor 5-HT2A.[7]",
+   "Una encuesta a personas que la habían usado por su cuenta recogió mejoras psiquiátricas que ellas mismas contaban.[12] Es información de encuesta, sin grupo de comparación."
+  ],
+  "alcance": "Esos ensayos se hicieron con mescalina pura, en personas sanas y con supervisión médica. No evaluaron un tratamiento ni el peyote ni la peregrinación, y no existe ningún medicamento con mescalina."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Una experiencia muy larga y, a veces, difícil; en personas predispuestas, episodios de psicosis o de manía.[8]"
+   ],
+   [
+    "Lo que no se mezcla",
+    "El litio es la combinación más peligrosa: se han descrito convulsiones y psicosis.[9]"
+   ],
+   [
+    "Cuerpo y estómago",
+    "Náuseas y vómitos con el cactus. Sube la tensión y el pulso de forma moderada.[7][10]"
+   ],
+   [
+    "Un cactus que se agota",
+    "Crece muy despacio y está catalogado como vulnerable. Para el pueblo wixárika es sagrado.[4][5]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "galeria": [
+  {
+   "img": "pey-habitat.jpg",
+   "cls": "g7",
+   "alt": "Un peyote verde grisáceo hundido en un hoyo de suelo seco y agrietado.",
+   "pie": "Peyote silvestre en su hoyo de tierra seca.",
+   "cred": "Amante Darmanin · CC BY 2.0"
+  },
+  {
+   "img": "pey-flor2.jpg",
+   "cls": "g5 papel",
+   "alt": "Peyote de color verde azulado con una flor rosada abierta en el centro.",
+   "pie": "Un peyote en flor.",
+   "cred": "Resenter1 · CC BY 2.0"
+  },
+  {
+   "img": "pey-grava.jpg",
+   "cls": "g5",
+   "alt": "Dos peyotes pequeños sobre grava rojiza y negra.",
+   "pie": "Dos jóvenes sobre grava volcánica.",
+   "cred": "Agnieszka Kwiecień · CC BY-SA 4.0"
+  },
+  {
+   "img": "pey-redondo.jpg",
+   "cls": "g7",
+   "alt": "Peyote de costillas redondeadas en un suelo de arcilla agrietada.",
+   "pie": "Cabeza de peyote vista desde arriba, con sus costillas y sus mechones.",
+   "cred": "Amante Darmanin · CC BY 2.0"
+  }
+ ],
+ "libros": [
+  {
+   "titulo": "Peyote Religion",
+   "autor": "Omer C. Stewart · 1987",
+   "img": null,
+   "url": "biblioteca/peyote-religion/"
+  },
+  {
+   "titulo": "People of the Peyote",
+   "autor": "Stacy B. Schaefer y Peter T. Furst (eds.) · 1996",
+   "img": "biblioteca/portadas/libro-093.jpg",
+   "url": "biblioteca/people-of-the-peyote/"
+  },
+  {
+   "titulo": "En la tierra mágica del peyote",
+   "autor": "Fernando Benítez · 1968",
+   "img": "biblioteca/portadas/libro-052.jpg",
+   "url": "biblioteca/en-la-tierra-magica-del-peyote/"
+  }
+ ],
+ "parientes": [
+  [
+   "cactus",
+   "San Pedro",
+   "Echinopsis pachanoi",
+   "El cactus columnar de los Andes, con la misma mescalina.",
+   null
+  ],
+  [
+   "molecula",
+   "Mescalina",
+   "3,4,5-trimetoxifenetilamina",
+   "El principio activo de ambos cactus.",
+   "sustancias/mescalina/"
+  ],
+  [
+   "cactus",
+   "Falso peyote",
+   "Ariocarpus fissuratus",
+   "Un cactus del mismo desierto que recibe a veces ese nombre.",
+   null
+  ],
+  [
+   "cactus",
+   "Peyotillo",
+   "Pelecyphora aselliformis",
+   "Otro cactus pequeño del norte de México.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Royal Botanic Gardens, Kew. Plants of the World Online: <em>Lophophora williamsii</em> (Lem. ex Salm-Dyck) J.M.Coult. powo.science.kew.org.",
+  "Bruhn JG, De Smet PAGM, El-Seedi HR, Beck O. Mescaline use for 5700 years. Lancet. 2002;359(9320):1866.",
+  "Rätsch C. The Encyclopedia of Psychoactive Plants. Rochester: Park Street Press; 2005. Entrada «<em>Lophophora williamsii</em>».",
+  "Bonilla L, Nájera P. Hablemos de Híkuri (Let's Talk About Hikuri): proyecto de conservación del peyote del pueblo wixárika. wixarika.org.",
+  "Terry M. <em>Lophophora williamsii</em> (versión corregida de la evaluación de 2013). The IUCN Red List of Threatened Species 2017: e.T151962A121515326.",
+  "Ley L, Holze F, Arikci D, et al. Comparative acute effects of mescaline, lysergic acid diethylamide, and psilocybin in a randomized, double-blind, placebo-controlled cross-over study in healthy participants. Neuropsychopharmacology. 2023;48(11):1659-1667.",
+  "Klaiber A, Schmid Y, Becker AM, et al. Acute dose-dependent effects of mescaline in a double-blind placebo-controlled study in healthy subjects. Transl Psychiatry. 2024;14:395.",
+  "Johnson MW, Richards WA, Griffiths RR. Human hallucinogen research: guidelines for safety. J Psychopharmacol. 2008;22(6):603-620.",
+  "Nayak SM, Gukasyan N, Barrett FS, Erowid E, Erowid F, Griffiths RR. Classic psychedelic coadministration with lithium, but not lamotrigine, is associated with seizures: an analysis of online psychedelic experience reports. Pharmacopsychiatry. 2021;54(5):240-245.",
+  "Cassels BK, Sáez-Briones P. Dark classics in chemical neuroscience: mescaline. ACS Chem Neurosci. 2018;9(10):2448-2458.",
+  "Stewart OC. Peyote Religion: A History. Norman: University of Oklahoma Press; 1987.",
+  "Agin-Liebes G, Haas TF, Lancelotta R, et al. Naturalistic use of mescaline is associated with self-reported psychiatric improvements and enduring positive life changes. ACS Pharmacol Transl Sci. 2021;4(2):543-552."
+ ],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ],
+ "siguiente": [
+  "Ayahuasca",
+  "ayahuasca"
+ ],
+ "descripcion": "Peyote (Lophophora williamsii): el híkuri del pueblo wixárika y el cactus del desierto chihuahuense. Botánica, historia, mescalina, investigación y cuidados."
+}

@@ -47,6 +47,14 @@ Qué consta en este repositorio sobre el origen y la licencia de cada imagen de 
 | `docs/enciclopedia/img/idx-loto.jpg` | Nymphaea caerulea-20091014-RM-115245.jpg | Ermell · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nymphaea_caerulea-20091014-RM-115245.jpg) | CC BY-SA 4.0 | Descargada el 23/11/2026, reducida |
 | `docs/enciclopedia/img/idx-mandragora.jpg` | Mandragora Bock.jpg | Autor desconocido · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mandragora_Bock.jpg) | Public domain | Descargada el 23/11/2026, reducida |
 | `docs/enciclopedia/img/mapa-*.svg` | Mapas de la enciclopedia | Propios: generados para APDER con datos de Natural Earth | Dominio público (Natural Earth) | Hechos el 23/11/2026 |
+| `docs/enciclopedia/img/pey-hero.jpg` | Lophophora williamsii Peyote.jpg | YubKooka · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_Peyote.jpg) | CC BY-SA 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/pey-flor.jpg` | Lophophora williamsii, native to SW Texas and Mexico 2017-07-25-14.28 (38614568754).jpg | USGS Bee Inventory and Monitoring Lab · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophora_williamsii,_native_to_SW_Texas_and_Mexico_2017-07-25-14.28_(38614568754).jpg) | Public domain | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/pey-wirikuta.jpg` | Lophophorawilliamsii.jpg | Kauderwelsch · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophorawilliamsii.jpg) | CC BY-SA 3.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/pey-habitat.jpg` | Lophophora williamsii (5675771959).jpg | Amante Darmanin from Malta · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_(5675771959).jpg) | CC BY 2.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/pey-flor2.jpg` | Lophophora williamsii (51247791585).jpg | Resenter1 from Roma, Italia · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_(51247791585).jpg) | CC BY 2.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/pey-grava.jpg` | Lophophora williamsii 2023-10-01 02.jpg | Agnieszka Kwiecień · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_2023-10-01_02.jpg) | CC BY-SA 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/pey-redondo.jpg` | Lophophora williamsii (5675739043).jpg | Amante Darmanin from Malta · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_(5675739043).jpg) | CC BY 2.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/pey-peregrinacion.jpg` | La peregrinación a Wirikuta de los wixaritari.jpg | Kauyumarie · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:La_peregrinaci%C3%B3n_a_Wirikuta_de_los_wixaritari.jpg) | CC BY-SA 4.0 | Descargada el 24/11/2026, reducida |
 
 ## Fuera de esta tabla
 
