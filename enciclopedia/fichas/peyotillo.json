@@ -1,0 +1,219 @@
+{
+ "slug": "peyotillo",
+ "tipo": "cactus",
+ "migas": "Cactus · Cactáceas · Norte de México",
+ "nombre": "Peyotillo",
+ "cientifico": "Pelecyphora aselliformis",
+ "autoridad": "Ehrenb.",
+ "descripcion": "Peyotillo (Pelecyphora aselliformis): diminuto cactus de San Luis Potosí con alcaloides de tipo peyote, entre ellos mescalina según un estudio de 1972.",
+ "entrada": "Un cactus diminuto del norte de San Luis Potosí cuyos tubérculos se disponen como las escamas de una piña. En 1972 se identificaron en él alcaloides de tipo peyote, incluida la mescalina, algo que no se había descrito antes en un cactus norteamericano distinto de la <em>Lophophora</em>.[1][2]",
+ "otros": "peyotillo · peyote hachón · Pelecyphora aselliformis · hatchet peyote",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Cactus esférico pequeño de tubérculos aplanados"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Norte de San Luis Potosí, México"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "No consta un uso tradicional documentado en las fuentes"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides de tipo peyote; mescalina identificada en 1972"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Sin pueblo documentado en las fuentes consultadas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un cactus de escamas",
+  "parrafos": [
+   "<em>Pelecyphora aselliformis</em> fue descrita por Ehrenberg y crece al norte de San Luis Potosí, en México.[3]",
+   "Pertenece a las cactáceas mexicanas que se han agrupado bajo el nombre de «peyote» por su parecido con el peyote auténtico, <em>Lophophora williamsii</em>.[4]",
+   "Los indígenas de México llaman «peyotl» también a cactus de otros géneros: <em>Ariocarpus</em>, <em>Aztekium</em>, <em>Epithelantha</em>, <em>Obregonia</em> o <em>Pelecyphora</em>.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Cactáceas"
+   ],
+   [
+    "Tamaño",
+    "Pequeño, globoso"
+   ],
+   [
+    "Origen",
+    "San Luis Potosí, México"
+   ],
+   [
+    "Nombre «peyote»",
+    "Aplicado por parecido"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un «peyote» más",
+  "parrafos": [
+   "Las fuentes consultadas no documentan un uso ritual concreto del peyotillo por un pueblo determinado.",
+   "Sí recogen que los indígenas de México designan como «peyotl» a varios cactus además de la <em>Lophophora</em>, entre ellos el género <em>Pelecyphora</em>.[4]",
+   "Esa práctica de nombrar peyote a plantas distintas hace difícil atribuir usos antiguos a una especie concreta."
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "peyotillo",
+    "castellano"
+   ],
+   [
+    "peyote",
+    "nombre genérico aplicado a varios cactus"
+   ]
+  ],
+  "nota_nombres": "«Peyotillo» significa literalmente «pequeño peyote»; no debe confundirse con el peyote verdadero (<em>Lophophora williamsii</em>).",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "San Luis Potosí",
+  "parrafos": [
+   "Las fuentes ubican la planta al norte de San Luis Potosí, en México.[3]",
+   "Las fuentes consultadas no aportan datos fiables sobre su estado de conservación."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectarlo en el campo.",
+   "Preferir ejemplares de vivero con origen claro.",
+   "No tratarlo como sustituto del peyote."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-peyotillo.svg",
+   "alt": "Mapa con el norte de San Luis Potosí sombreado.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del peyotillo"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides de tipo peyote",
+  "parrafos": [
+   "Un estudio publicado en <em>Science</em> en 1972 identificó alcaloides del peyote en esta especie, incluida la mescalina; fue el primer informe de estos alcaloides en un cactus norteamericano distinto de la <em>Lophophora</em>.[1]",
+   "El estudio de Bruhn y Bruhn (1973) halló como alcaloide principal la N,N-dimetil-3-hidroxi-4,5-dimetoxifenetilamina.[2]",
+   "En 1994 se identificaron diez alcaloides en extractos de tres «peyotes» mexicanos, entre ellos <em>Pelecyphora aselliformis</em>.[4]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "No hay descripciones fiables de una experiencia con este cactus en las fuentes consultadas."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay estudios químicos de 1972, 1973 y 1994 que identifican sus alcaloides.[1][2][4]"
+  ],
+  "alcance": "Estudios químicos; sin investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Identidad",
+    "No es el peyote, aunque comparta alcaloides.[4]"
+   ],
+   [
+    "Conservación",
+    "Sin datos fiables en las fuentes consultadas."
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos de uso tradicional, seguridad y experiencia."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "cactus",
+   "Peyote",
+   "Lophophora williamsii",
+   "El cactus del que toma el nombre.",
+   "enciclopedia/peyote/"
+  ],
+  [
+   "cactus",
+   "Falso peyote",
+   "Ariocarpus fissuratus",
+   "Otro cactus llamado «peyote» por parecido.",
+   "enciclopedia/falso-peyote/"
+  ]
+ ],
+ "fuentes": [
+  "Neal, J. M., Sato, P. T., Howald, W. N. y McLaughlin, J. L. (1972). Peyote Alkaloids: Identification in the Mexican Cactus <em>Pelecyphora aselliformis</em> Ehrenberg. <em>Science</em> 176: 1131–1133. scilit.net/publications/415883981a8e89a96760a94a3a7bbc04.",
+  "Bruhn, J. G. y Bruhn, C. (1973). Alkaloids and Ethnobotany of Mexican Peyote Cacti and Related Species. <em>Economic Botany</em> 27: 241–251. dx.doi.org/10.1007/BF02872994.",
+  "MAPS. Bruhn y Bruhn, texto completo. bibliography.maps.org/resources/download/12011.",
+  "Starha, R. (1994). Alkaloids of three «Peyote» cacti. <em>Physica-Chemia</em> 141(2): 71–74. erowid.org/references/refs_view.php?ID=7124."
+ ],
+ "tipo_txt": "Cactus",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Peyote",
+  "peyote"
+ ],
+ "siguiente": [
+  "Pituri",
+  "pituri"
+ ]
+}
