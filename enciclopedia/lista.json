@@ -155,7 +155,7 @@
    "guia": null
   },
   {
-   "slug": null,
+   "slug": "toloache",
    "tipo": "planta",
    "nombre": "Toloache",
    "cientifico": "Datura innoxia",
@@ -538,7 +538,7 @@
    "nombre": "Toloache",
    "detalle": "Datura innoxia",
    "tipo": "planta",
-   "slug": null
+   "slug": "toloache"
   },
   {
    "nombre": "Voacanga",
