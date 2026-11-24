@@ -1,0 +1,282 @@
+{
+ "slug": "ajenjo",
+ "tipo": "planta",
+ "migas": "Planta · Asteráceas · Europa y zonas templadas",
+ "nombre": "Ajenjo",
+ "cientifico": "Artemisia absinthium",
+ "autoridad": "L.",
+ "descripcion": "Ajenjo (Artemisia absinthium): amarga hierba medicinal de Europa, base del licor absenta. Historia, tuyona, el «absentismo» y lo que se sabe hoy.",
+ "entrada": "Una hierba perenne amarga, usada como medicina desde el Papiro de Ebers y famosa por dar nombre a la absenta. Su reputación de producir efectos únicos se atribuye a la tuyona, aunque la ciencia lo discute.[1][3]",
+ "otros": "ajenjo · ajenjo común · wormwood · absinthe · hierba santa · artemisa amarga",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba perenne aromática y muy amarga"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Zonas templadas del mundo; abastecimiento del este de Europa"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Las partes aéreas"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Aceite esencial rico en tuyona"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No hay datos fiables sobre la planta sola"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina tradicional europea y mediterránea"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una hierba plateada y amarga",
+  "parrafos": [
+   "Es una hierba perenne de hasta un metro de altura, de la familia de las asteráceas.[2] Crece en las regiones templadas de todo el mundo, y el grueso del abastecimiento comercial viene del este y el sureste de Europa.[2]",
+   "Se usan las partes aéreas.[2] Su aceite esencial, entre el 0,2 % y el 1,5 %, contiene tuyona, y también acetato de crisantenilo y acetato de linalilo.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Asteraceae"
+   ],
+   [
+    "Hábito",
+    "Hierba perenne de hasta 1 m"
+   ],
+   [
+    "Parte usada",
+    "Partes aéreas"
+   ],
+   [
+    "Sabor",
+    "Muy amargo"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "De los papiros egipcios a la hora verde",
+  "parrafos": [
+   "El uso medicinal del ajenjo está documentado desde el Papiro de Ebers, cuyas copias llegan hasta 1550 a. C.[4] Durante siglos se emplearon bebidas con ajenjo contra las infecciones, sobre todo las parasitosis del aparato digestivo.[4]",
+   "En la Europa medieval se le describió como «el más importante maestro contra todos los agotamientos».[5]",
+   "La absenta, un licor amargo con ajenjo y otras hierbas, se inventó en Suiza en 1797.[4] Fue una de las bebidas alcohólicas más populares de la Europa de finales del siglo XIX.[1] Los soldados franceses que volvieron de las campañas la descubrieron como sustituto sabroso de su medicina de ajenjo.[1]",
+   "A comienzos del siglo XX se prohibió en varios países por sus supuestos efectos adversos únicos, que se bautizaron como «absentismo».[1] La prohibición duró casi un siglo, y después la absenta ha vuelto.[1]"
+  ],
+  "cronologia": [
+   [
+    "h. 1550 a. C.",
+    "El Papiro de Ebers recoge el uso del ajenjo.[4]"
+   ],
+   [
+    "1797",
+    "Se inventa la absenta en Suiza.[4]"
+   ],
+   [
+    "Fines del siglo XIX",
+    "La absenta es una de las bebidas más populares de Europa.[1]"
+   ],
+   [
+    "Principios del siglo XX",
+    "Se prohíbe en varios países.[1]"
+   ],
+   [
+    "Hoy",
+    "Vuelve a producirse tras revisar las restricciones.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "ajenjo",
+    "nombre de la planta en castellano"
+   ],
+   [
+    "absenta",
+    "el licor; viene de su nombre científico"
+   ],
+   [
+    "<em>wormwood</em>",
+    "nombre inglés"
+   ],
+   [
+    "«la hora verde»",
+    "apodo de la absenta, por su color y por la hora de tomarla"
+   ]
+  ],
+  "nota_nombres": "El ajenjo es la planta y la absenta es la bebida que lo contiene; no son lo mismo.[1]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de caminos y baldíos",
+  "parrafos": [
+   "Crece en zonas templadas de todo el mundo.[2] Se cultiva para el comercio sobre todo en el este y el sureste de Europa.[2]",
+   "Hoy se usa también en cosmética: figura en la base de datos europea de ingredientes cosméticos CosIng.[5]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Elegir ajenjo de origen conocido, no de mezclas comerciales sin etiquetar.",
+   "No confiar en las «esencias de absenta» de internet de contenido incierto.",
+   "Respetar la tradición europea de usarlo con cuidado y en poca cantidad."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-ajenjo.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre Europa y Asia occidental.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del ajenjo (zonas templadas de Eurasia)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Tuyona, la molécula discutida",
+  "parrafos": [
+   "La tuyona es el monoterpeno principal del aceite del ajenjo; las formas alfa y beta son sus componentes principales.[1]",
+   "Durante mucho tiempo se atribuyeron a la tuyona los efectos particulares de la absenta, pero una teoría propone que se sobrestimó su contenido en la absenta tradicional, y varios estudios independientes la han apoyado.[1][3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Tuyona",
+    "clase": "Monoterpeno",
+    "img": null,
+    "texto": "Componente principal del aceite esencial, en forma alfa y beta.[1][2]"
+   },
+   {
+    "nombre": "Acetato de crisantenilo",
+    "clase": "Éster terpénico",
+    "img": null,
+    "texto": "Otro componente del aceite esencial.[2]"
+   },
+   {
+    "nombre": "Acetato de linalilo",
+    "clase": "Éster terpénico",
+    "img": null,
+    "texto": "Presente en el aceite esencial.[2]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Entre el mito y los datos",
+  "parrafos": [
+   "A la absenta se le atribuía una reputación de producir efectos únicos, que no se explicaban solo por su alcohol.[3] Pero se ha argumentado que la absenta tradicional contenía poca o ninguna tuyona.[3]",
+   "Un estudio sobre si la tuyona causaba el «absentismo», con síntomas como alucinaciones, insomnio y convulsiones, concluyó que las absentas del siglo XIX cumplen los límites actuales y que la tuyona no tiene papel o lo tiene muy pequeño.[2] Otro trabajo señala que no se puede demostrar que la bebida fuera epileptógena ni que el «absentismo» se distinga con claridad del alcoholismo crónico.[1]",
+   "Sobre la experiencia de la planta sola no hay datos fiables de aparición ni duración."
+  ],
+  "tiempo": {
+   "horas": 4,
+   "tramos": [
+    [
+     "a",
+     0,
+     4,
+     "Sin datos fiables"
+    ]
+   ],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "La literatura se centra en la historia, la química del aceite y la toxicología de la tuyona.[1]",
+   "Una revisión histórica considera la absenta un ejemplo de cómo los tónicos con hierbas se usaron para tratar infecciones antes de que se demostrara su eficacia in vitro e in vivo.[4]"
+  ],
+  "alcance": "Hay mucha química y mucha historia, y poco estudio clínico de la planta como tal."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "El aceite de ajenjo contiene tuyona, un monoterpeno tóxico a dosis altas, y por eso conviene no tomarlo concentrado.[6]"
+   ],
+   [
+    "Embarazo",
+    "Las mujeres embarazadas deben evitar el aceite de ajenjo por posible exposición a trazas de tuyona.[6]"
+   ],
+   [
+    "Productos de internet",
+    "Un riesgo para el consumidor son los productos herbales de comercio no controlado, como las esencias de absenta que se venden por internet.[1]"
+   ],
+   [
+    "Mito y realidad",
+    "El «absentismo» como síndrome propio del siglo XIX es hoy cuestionado.[1]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Pericón",
+   "Tagetes lucida",
+   "Otra hierba aromática de uso ritual, de México.",
+   null
+  ],
+  [
+   "planta",
+   "Cálamo aromático",
+   "Acorus calamus",
+   "Hierba aromática de la medicina tradicional.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Padosch SA, Lachenmeier DW, Kröner LU. Absinthism: a fictitious 19th century syndrome with present impact. Subst Abuse Treat Prev Policy. 2006;1:14. pmc.ncbi.nlm.nih.gov/articles/PMC1475830.",
+  "Southern Cross University. Artemisia absinthium (monografía). scu.edu.au.",
+  "Erowid. The Absinthe Enigma. erowid.org/chemicals/absinthe/absinthe_writings4.shtml.",
+  "Artemisia absinthium and absinthe in the history of medicine. Sci. mdpi.com/2413-4155/7/4/186.",
+  "Szopa A. Artemisia absinthium L.: History. encyclopedia.pub/entry/history/show/3916.",
+  "Evergreen State College. Thujone. sites.evergreen.edu/plantchemeco/?p=521."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Acacias",
+  "acacias"
+ ],
+ "siguiente": [
+  "Ayahuasca",
+  "ayahuasca"
+ ]
+}
