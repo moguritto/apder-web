@@ -1,0 +1,247 @@
+{
+ "slug": "pajaritos",
+ "tipo": "hongo",
+ "migas": "Hongo · Hymenogastráceas · México",
+ "nombre": "Pajaritos",
+ "cientifico": "Psilocybe mexicana",
+ "autoridad": "R.Heim",
+ "descripcion": "Pajaritos (Psilocybe mexicana): el hongo con que la ciencia conoció los hongos sagrados mexicanos; forma esclerocios y se vincula a la tradición mazateca.",
+ "entrada": "Un hongo de prados húmedos del sur de México, descrito por Roger Heim en 1957. Forma esclerocios, masas endurecidas de micelio. La tradición mazateca de Oaxaca lo conoce desde mucho antes de que lo describiera la ciencia.[1][2][3]",
+ "otros": "pajaritos · hongos mexicanos · teotlaquilnanácatl · she-to · to-ska · Psilocybe mexicana · Psilocybe galindoi",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hongo de prados húmedos que forma esclerocios"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Sur de México, sobre todo Oaxaca"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Cuerpo fructífero y esclerocio"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Psilocibina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Mazatecos, chinantecos, nahuas, mixtecos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El hongo de los prados",
+  "parrafos": [
+   "<em>Psilocybe mexicana</em> fue descrita por el botánico francés Roger Heim en 1957.[1] Su sombrero es cónico o umbonado, con láminas adnatas.[1]",
+   "Los «prados con manantiales» son su hábitat característico.[2]",
+   "Puede formar esclerocios, una forma latente del organismo; la comparten <em>P. tampanensis</em> y, en menor grado, <em>P. cinctulus</em>.[1][3]",
+   "En 1957, Singer aclaró que Schultes había recogido dos hongos distintos, <em>Panaeolus</em> y <em>Psilocybe mexicana</em>, y que el segundo es el que corresponde a la descripción de «cuspidado».[2][4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Hymenogastráceas"
+   ],
+   [
+    "Sombrero",
+    "Cónico o umbonado"
+   ],
+   [
+    "Hábitat",
+    "Prados húmedos"
+   ],
+   [
+    "Esclerocios",
+    "Sí"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Esta ficha no es una guía de identificación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Teonanácatl, la carne de los dioses",
+  "parrafos": [
+   "El nombre náhuatl «teotlaquilnanácatl» se aplica a hongos sagrados como <em>P. mexicana</em> y <em>P. caerulescens</em>.[5]",
+   "She-to y to-ska son epítetos que los mazatecos y chinantecos aplican a <em>Psilocybe mexicana</em>.[4]",
+   "Según Wasson, nueve pueblos indígenas de México usan o usaron los hongos sagrados; entre ellos mazatecos, mixtecos y nahuas.[5]",
+   "El uso de los hongos sagrados por los mazatecos de Oaxaca se dio a conocer al mundo en 1957, cuando Gordon Wasson publicó su experiencia en la revista <em>Life</em>.[6] La publicidad atrajo a muchos curiosos a Huautla de Jiménez.[6]",
+   "Wasson y su esposa Valentina Pavlovna recogieron <em>P. mexicana</em> durante un viaje por México entre 1953 y 1955, que incluyó su visita a María Sabina.[3]",
+   "María Sabina se arrepintió más tarde de haber presentado a Wasson la práctica; según Wikipedia, los visitantes cambiaron por completo la dinámica social de la comunidad mazateca.[7]"
+  ],
+  "cronologia": [
+   [
+    "1953–1955",
+    "Viaje de los Wasson por México"
+   ],
+   [
+    "1957",
+    "Heim describe <em>P. mexicana</em>; artículo de Wasson en <em>Life</em>"
+   ]
+  ],
+  "nombres": [
+   [
+    "pajaritos",
+    "castellano de México"
+   ],
+   [
+    "she-to, to-ska",
+    "mazateco y chinanteco"
+   ],
+   [
+    "teotlaquilnanácatl",
+    "náhuatl"
+   ]
+  ],
+  "nota_nombres": "«Pajaritos» designa también otros hongos en la región; aquí se refiere a <em>Psilocybe mexicana</em>.",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Sur de México",
+  "parrafos": [
+   "Se asocia sobre todo con Oaxaca y la Sierra Mazateca.[6][3]",
+   "El artículo de Chacruna recuerda que en la región se ven pocos tipos de hongos a la venta en Huautla y que una de las especies de 1957 está hoy en peligro de extinción.[8]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectar en comunidades sin su permiso.",
+   "No comprar hongos de origen incierto.",
+   "Respetar el carácter sagrado de la tradición mazateca."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-pajaritos.svg",
+   "alt": "Mapa con Oaxaca y la Sierra Mazateca sombreadas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de Psilocybe mexicana"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Psilocibina",
+  "parrafos": [
+   "Es un hongo del grupo de los que contienen psilocibina.[3]",
+   "Forma esclerocios, igual que <em>P. tampanensis</em>.[3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Psilocibina",
+    "clase": "triptamina",
+    "img": null,
+    "texto": "Compuesto psicoactivo característico del género <em>Psilocybe</em>.[3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una experiencia ritual",
+  "parrafos": [
+   "Las fuentes consultadas describen sobre todo el contexto ceremonial mazateco, no una experiencia sistemática, y no dan datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Es una de las especies más estudiadas en etnomicología mexicana, desde los trabajos de Schultes, Wasson, Heim y Singer.[2][4][5]",
+   "La investigación clínica con psilocibina se refiere sobre todo al compuesto, no a esta especie."
+  ],
+  "alcance": "Muy estudiada en taxonomía y etnomicología."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Contexto",
+    "Es un saber sagrado de comunidades indígenas; la fama de 1957 trajo mucha presión.[6][7]"
+   ],
+   [
+    "Identidad",
+    "La confusión entre especies fue frecuente en la literatura clásica.[2][4]"
+   ],
+   [
+    "Conservación",
+    "Algunos hongos de México están en peligro.[8]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Derrumbe",
+   "Psilocybe caerulescens",
+   "Otro hongo sagrado mexicano.",
+   "enciclopedia/derrumbe/"
+  ],
+  [
+   "hongo",
+   "San Isidro",
+   "Psilocybe cubensis",
+   "El hongo más cultivado del género.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Psilocybe mexicana</em>. wikipedia.org/wiki/Psilocybe_mexicana.",
+  "Singer, R. <em>Mycologia</em> 50 (1958). Sobre <em>Psilocybe mexicana</em>. bibliography.maps.org/resources/download/14868.",
+  "Double Blind Mag. <em>Psilocybe mexicana: History and Biology</em>. doubleblindmag.com/mushrooms/types/psilocybe-mexicana/.",
+  "Allen, J. W. <em>Mushroom Pioneers</em>, cap. 3: Rolf Singer y la identificación errónea del teonanácatl. erowid.org/library/books_online/mushroom_pioneers/mushroom_pioneers9.shtml.",
+  "Allen, J. W. <em>Sacred Mushroom Studies</em> vol. III. bibliography.maps.org/resources/download/16393.",
+  "Estudio sobre el uso de <em>Psilocybe</em> entre los zapotecos de Valles Centrales (Oaxaca). pmc.ncbi.nlm.nih.gov/articles/PMC12125594/.",
+  "Wikipedia. <em>R. Gordon Wasson</em>. wikipedia.com/wiki/Gordon_Wasson.",
+  "Chacruna. <em>Psilocybin Mushrooms in Mexico in Danger of Extinction</em>. chacruna.net/psilocybin_mushrooms_extinction_mexico/."
+ ],
+ "tipo_txt": "Hongo",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ololiuqui",
+  "ololiuqui"
+ ],
+ "siguiente": [
+  "Pericón",
+  "pericon"
+ ]
+}
