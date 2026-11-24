@@ -1,0 +1,244 @@
+{
+ "slug": "chiric-sanango",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Amazonia y laderas andinas orientales",
+ "nombre": "Chiric sanango",
+ "cientifico": "Brunfelsia grandiflora",
+ "autoridad": "D.Don",
+ "descripcion": "Chiric sanango o chiricaspi (Brunfelsia grandiflora): pequeño árbol amazónico, aditivo del yagé y medicina de los pueblos kichwa y de otros.",
+ "entrada": "Un arbusto o árbol pequeño de la selva alta, usado por pueblos amazónicos como aditivo de la ayahuasca y como medicina para la fiebre, el reumatismo y la artritis. Es una planta de la que se habla más en la etnobotánica que en la clínica.[1]",
+ "otros": "chiric sanango · chiricaspi · chiri caspi · Brunfelsia grandiflora · Brunfelsia chiricaspi",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol o arbusto pequeño de la familia de las solanáceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Laderas orientales de los Andes y Amazonia, entre 650 y 2000 m"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Corteza y raíz, según los usos tradicionales"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Escopoletina y otros compuestos, poco estudiados"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Kichwa del Oriente, tsa'chi y otros pueblos amazónicos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un árbol pequeño de la montaña húmeda",
+  "parrafos": [
+   "<em>Brunfelsia grandiflora</em> es un árbol pequeño que David Don describió en 1829 a partir de material recogido en las expediciones de Ruiz y Pavón al Perú.[1]",
+   "Crece sobre todo entre los 650 y los 2000 metros de altitud, principalmente en las laderas orientales de los Andes, en la región llamada montaña, un bosque húmedo de altura.[1] En la Amazonia también se cultiva por sus propiedades narcóticas y medicinales.[1]",
+   "El género reúne tres especies usadas como aditivo del yagé: <em>B. chiricaspi</em>, <em>B. macrocarpa</em> y <em>B. grandiflora</em>, esta última con las subespecies <em>grandiflora</em> y <em>schultesii</em>.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Hábito",
+    "Árbol pequeño"
+   ],
+   [
+    "Altitud",
+    "650–2000 m"
+   ],
+   [
+    "Subespecies",
+    "<em>grandiflora</em> y <em>schultesii</em>"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El aditivo del yagé",
+  "parrafos": [
+   "Tres especies de <em>Brunfelsia</em> se usan como aditivo de la bebida alucinógena ayahuasca y han sido plantas muy importantes para las culturas indígenas amazónicas del Ecuador, como los kichwa del Oriente y los tsa'chi.[1]",
+   "Se emplea ampliamente como alucinógeno, a menudo añadido para intensificar el efecto de bebidas narcóticas.[1] Los grupos indígenas del noroeste amazónico la usan además para tratar la fiebre, el reumatismo y la artritis.[1]",
+   "Un estudio con la comunidad canelo-kichwa de la provincia de Pastaza, en Ecuador, recogió el conocimiento tradicional sobre el chiricaspi con el fin de conservarlo, documentarlo y validarlo.[1]",
+   "En el Perú, una investigación en la provincia de Coronel Portillo, en Ucayali, también registró su uso entre las especies medicinales locales.[2]"
+  ],
+  "cronologia": [
+   [
+    "1829",
+    "David Don describe la especie a partir de material de las expediciones de Ruiz y Pavón.[1]"
+   ],
+   [
+    "2018",
+    "Se publica un estudio etnobotánico y farmacológico del chiricaspi en la Amazonia ecuatoriana.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "chiric sanango",
+    "nombre amazónico peruano"
+   ],
+   [
+    "chiricaspi",
+    "nombre usado en Ecuador"
+   ],
+   [
+    "<em>Brunfelsia grandiflora</em>",
+    "nombre científico"
+   ]
+  ],
+  "nota_nombres": "La planta tiene varios nombres según el pueblo y la región; no hay que confundirla con otras especies del género.[1]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Montaña húmeda de los Andes orientales",
+  "parrafos": [
+   "Crece en los bosques húmedos de la ladera oriental andina y en la Amazonia.[1]",
+   "El estudio de 2018 sostiene que documentar su uso tradicional ofrece argumentos para conservar una ecorregión en peligro.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla por su papel en las tradiciones amazónicas.",
+   "Cuidar los bosques montanos donde crece.",
+   "Respetar el saber de los pueblos kichwa y tsa'chi."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-chiric-sanango.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre las laderas orientales andinas y la Amazonia.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del chiric sanango"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Poco estudiada",
+  "parrafos": [
+   "El estudio de 2018 se centró en la escopoletina como compuesto de interés y propone vías de desarrollo a partir de la planta.[1]",
+   "Su química completa y sus efectos no están descritos en detalle en las fuentes consultadas."
+  ],
+  "moleculas": [
+   {
+    "nombre": "Escopoletina",
+    "clase": "Cumarina",
+    "img": null,
+    "texto": "Compuesto señalado como clave en el estudio de 2018.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un aditivo, no una planta de viaje",
+  "parrafos": [
+   "Las fuentes la describen como aditivo de bebidas narcóticas, no como planta que se tome sola con fines visionarios.[1]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "El estudio de 2018 validó los usos tradicionales mediante revisiones bibliográficas de actividad y componentes químicos.[1]",
+   "Propone, en teoría, una línea de investigación in silico para el desarrollo de fármacos en obstetricia, anestesiología y neurología.[1]"
+  ],
+  "alcance": "Hay un estudio etnobotánico y de validación bibliográfica, sin ensayos clínicos con la planta."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Otras especies del género <em>Brunfelsia</em> se han descrito en la literatura como venenosas y se han usado en venenos de flechas.[3]"
+   ],
+   [
+    "Aditivo del yagé",
+    "Su uso es como aditivo de un brebaje con otras plantas, lo que cambia el riesgo.[1]"
+   ],
+   [
+    "Parecidos",
+    "Hay otras especies de <em>Brunfelsia</em> con usos parecidos y no equivalentes.[1][3]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos y de toxicidad."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ayahuasca",
+   "Banisteriopsis caapi",
+   "El brebaje al que se añade.",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "planta",
+   "Chaliponga",
+   "Diplopterys cabrerana",
+   "Otro aditivo amazónico del yagé.",
+   "enciclopedia/chaliponga/"
+  ]
+ ],
+ "fuentes": [
+  "Luzuriaga-Quichimbo CX, Hernández del Barco M, Blanco-Salas J, Cerón-Martínez CE, Ruiz-Téllez T. Chiricaspi (<em>Brunfelsia grandiflora</em>, Solanaceae), a pharmacologically promising plant. Plants. 2018;7(3):67. doi:10.3390/plants7030067.",
+  "Estudio de plantas medicinales en la provincia de Coronel Portillo (Ucayali, Perú). sites.evergreen.edu.",
+  "Revisión etnobotánica del género <em>Brunfelsia</em>. archive.org/download/biostor-160946/biostor-160946.pdf."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Chaliponga",
+  "chaliponga"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
