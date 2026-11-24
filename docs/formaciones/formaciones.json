@@ -1358,6 +1358,196 @@
    "descripcion": "Certificado de posgrado en psicodélicos y psicología profunda con enfoques junguiano, grofiano, IFS y somático. Está abierto a todo el mundo: no exige ni da licencia ni título. El nivel 2 no tiene fecha publicada y el nivel 1 no es requisito.",
    "url": "https://extension.pacifica.edu/advanced-psychedelics-graduate-certificate-level-2/",
    "estado": "por_confirmar"
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [],
+   "tipo": [
+    "terapia"
+   ],
+   "id": "saept-psychedelic-assisted-therapy-training",
+   "nombre": "SÄPT three-year training in psychedelic-assisted therapy",
+   "nombre_es": "Formación de tres años en terapia asistida con psicodélicos de la SÄPT",
+   "entidad": "Swiss Medical Association for Psychedelic Therapy (SÄPT)",
+   "tipo_entidad": "asociacion",
+   "destinatarios": "clinicos",
+   "modalidad": "presencial",
+   "idiomas": [
+    "en",
+    "de"
+   ],
+   "pais": "CH",
+   "ciudad": "Berna",
+   "duracion": "Tres años; cohortes de unas 20 personas; hay lista de espera. Jornada introductoria en Zúrich el 6-3-2026",
+   "precio": "Consultar",
+   "descripcion": "Formación continua para médicos y psicólogos que la asociación ofrece desde 2018 y que va ya por su tercer ciclo. Incluye teoría, práctica en grupo, supervisión y experiencia propia.",
+   "url": "https://saept.ch/",
+   "lat": 46.95,
+   "lon": 7.45,
+   "precio_eur": null
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 220,
+   "reconocimiento": [],
+   "tipo": [
+    "terapia",
+    "introduccion"
+   ],
+   "id": "psicodear-formacion-tap",
+   "nombre": "Training in Psychedelic-Assisted Therapy (PsicodeAR, cohort 10)",
+   "nombre_es": "Formación en terapia asistida con psicodélicos de PsicodeAR (cohorte 10)",
+   "entidad": "Asociación Psicodélica de Argentina (PsicodeAR)",
+   "tipo_entidad": "asociacion",
+   "destinatarios": "todos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "es"
+   ],
+   "pais": "AR",
+   "ciudad": "Buenos Aires",
+   "duracion": "10 meses, 220 h; clases grabadas y una supervisión mensual en directo",
+   "precio": "Consultar",
+   "descripcion": "Formación profesional con 27 docentes de 7 países. Hay una versión orientada a profesionales de la salud. La asociación ofrece además una introducción gratuita de siete módulos en vídeo.",
+   "url": "https://www.psicode.ar/f-tap",
+   "lat": -34.6,
+   "lon": -58.38,
+   "precio_eur": null
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [],
+   "tipo": [
+    "terapia"
+   ],
+   "id": "ciencia-psicodelica-diplomado-tap",
+   "nombre": "Diploma in Psychedelic-Assisted Therapy (Ciencia Psicodélica)",
+   "nombre_es": "Diplomado en terapia asistida con psicodélicos de Ciencia Psicodélica",
+   "entidad": "Ciencia Psicodélica",
+   "tipo_entidad": "empresa",
+   "destinatarios": "clinicos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "es"
+   ],
+   "pais": "MX",
+   "duracion": "10 meses con mentorías personalizadas; inicio en abril de 2026",
+   "precio": "Consultar",
+   "descripcion": "Diplomado para profesionales de la salud en México y Latinoamérica. La web indica también certificación de MAPS y un congreso en 2027.",
+   "url": "https://cienciapsicodelica.com/",
+   "lat": 19.43,
+   "lon": -99.13,
+   "ciudad": "",
+   "precio_eur": null
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [],
+   "tipo": [
+    "terapia"
+   ],
+   "id": "instituto-transpersonal-integrativo-ceppo",
+   "nombre": "Online Specialization Course in Psychedelic Psychotherapy (CEPPO 2026-27)",
+   "nombre_es": "Curso de especialización en psicoterapia psicodélica en línea (CEPPO 2026-27)",
+   "entidad": "Instituto Transpersonal Integrativo",
+   "tipo_entidad": "instituto",
+   "destinatarios": "clinicos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "es"
+   ],
+   "pais": "ES",
+   "duracion": "Curso con seminarios en línea al inicio y al final",
+   "precio": "Consultar",
+   "descripcion": "Curso para Latinoamérica sobre enfoques teóricos y metodología de la psicoterapia psicodélica, con la investigación clínica reciente.",
+   "url": "https://institutotranspersonalintegrativo.com/psicoterapia-psicodelica-latinoamerica/",
+   "lat": 40.42,
+   "lon": -3.7,
+   "ciudad": "",
+   "precio_eur": null
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [],
+   "tipo": [
+    "terapia"
+   ],
+   "id": "psintesis-diplomado-psicoterapia-asistida-psicodelicos",
+   "nombre": "Diploma in Psychedelic-Assisted Psychotherapy (Instituto Psíntesis)",
+   "nombre_es": "Diplomado en psicoterapia asistida con psicodélicos del Instituto Psíntesis",
+   "entidad": "Instituto Psíntesis",
+   "tipo_entidad": "instituto",
+   "destinatarios": "clinicos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "es"
+   ],
+   "pais": "CL",
+   "duracion": "Itinerario de dos años: diplomado en psicología psicodélica (año 1, abierto a todas las profesiones) y diplomado en psicoterapia asistida (año 2, solo sanitarios)",
+   "precio": "Consultar",
+   "descripcion": "El segundo año exige haber aprobado el primero y está dirigido exclusivamente a profesionales de la salud.",
+   "url": "https://psintesis.cl/diplomados-y-cursos/diplomado-en-psicoterapia-asistida-con-psicodelicos/",
+   "lat": -33.45,
+   "lon": -70.67,
+   "ciudad": "",
+   "precio_eur": null
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [],
+   "tipo": [
+    "terapia",
+    "introduccion"
+   ],
+   "id": "bmed-global-terapia-asistida-psicodelicos",
+   "nombre": "Psychedelic-Assisted Therapy Training (BMed Global)",
+   "nombre_es": "Formación en terapia asistida con psicodélicos de BMed Global",
+   "entidad": "BMed Global",
+   "tipo_entidad": "empresa",
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "es",
+    "en"
+   ],
+   "pais": "ES",
+   "duracion": "2 años y medio; la página indicaba inicio en enero de 2026",
+   "precio": "12.500 €",
+   "precio_eur": 12500,
+   "descripcion": "Formación con enfoque transpersonal, psicopatología y psicodélicos, mindfulness y musicoterapia psicodélica. No exige experiencia previa según su página.",
+   "url": "https://bmedglobal.com/bmed-global-terapia-asistida-con-psicodelicos/",
+   "lat": 40.42,
+   "lon": -3.7,
+   "ciudad": ""
   }
  ]
 }
