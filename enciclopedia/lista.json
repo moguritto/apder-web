@@ -89,7 +89,7 @@
    "guia": "sustancias/mescalina/"
   },
   {
-   "slug": null,
+   "slug": "mongui",
    "tipo": "hongo",
    "nombre": "Mongui",
    "cientifico": "Psilocybe semilanceata",
@@ -628,7 +628,7 @@
    "nombre": "Mongui",
    "detalle": "Psilocybe semilanceata",
    "tipo": "hongo",
-   "slug": null
+   "slug": "mongui"
   },
   {
    "nombre": "Pajaritos",

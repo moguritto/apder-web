@@ -1,0 +1,363 @@
+{
+ "slug": "mongui",
+ "tipo": "hongo",
+ "tipo_txt": "Hongo",
+ "migas": "Hongo · Hymenogastraceae · Prados de Europa",
+ "nombre": "Mongui",
+ "cientifico": "Psilocybe semilanceata",
+ "autoridad": "(Fr.) P.Kumm.",
+ "descripcion": "Mongui (Psilocybe semilanceata): la pequeña seta con psilocibina de los prados europeos. Historia, psilocibina, investigación y cuidados.",
+ "entrada": "Pequeño, de sombrero en punta y tallo delgado, el mongui sale en los prados húmedos de Europa cuando llega el otoño. Es una de las setas con psilocibina más extendidas y, según la literatura, de las más potentes.[1][2]",
+ "otros": "mongui · liberty cap · magic mushroom · Spitzkegeliger Kahlkopf · lysohlávka kopinatá",
+ "portada": {
+  "img": "idx-psilocybe.jpg",
+  "alt": "Tres setas pequeñas de sombrero cónico anaranjado y tallo largo, delgado y sinuoso, sobre un fondo verde borroso de hierba.",
+  "pie": "Mongui (<em>Psilocybe semilanceata</em>): sombrero en punta y tallo fino.",
+  "cred": "Alan Rockefeller · CC BY-SA 3.0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Seta diminuta de prado, con sombrero en punta"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Europa y también Norteamérica"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La seta entera, fresca o seca"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Psilocibina, que el cuerpo convierte en psilocina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "20–60 min · 4–6 h, hasta 8"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de Mesoamérica, con otras especies del género"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la psilocibina",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/psilocibina/"
+ },
+ "planta": {
+  "id": "el-hongo",
+  "etq": "Micología",
+  "titulo": "Una lanza diminuta entre la hierba",
+  "parrafos": [
+   "Es una seta muy pequeña: el sombrero, cónico o en forma de campana y con una puntita arriba, rara vez pasa de dos centímetros y medio de ancho. El nombre científico alude a esa forma: «media lanza».[1][2]",
+   "Vive en pastos y praderas, sobre todo en zonas húmedas y sin abonar, y sale en otoño. Se encuentra en toda Europa y también en Norteamérica.[1][2]",
+   "Lo que se ve es solo el fruto de un hongo saprótrofo: se alimenta de materia orgánica muerta del suelo del prado.[2]"
+  ],
+  "rasgos": [
+   [
+    "Género",
+    "<em>Psilocybe</em>"
+   ],
+   [
+    "Tamaño",
+    "Sombrero de hasta 2,5 cm"
+   ],
+   [
+    "Hábitat",
+    "Pastos y prados húmedos"
+   ],
+   [
+    "Temporada",
+    "Otoño"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "<b>Esto no es una clave de identificación.</b> Los rasgos sueltos engañan y entre las setas pequeñas y pardas hay especies mortales. Ante la duda, no se come ninguna."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "De los prados de Londres a las veladas mazatecas",
+  "parrafos": [
+   "En Europa casi no hay uso documentado de las setas con psilocibina antes de la época moderna. El primer registro médico del mongui es de 1799: un hombre de Londres sirvió a su familia, en el desayuno, setas recogidas en Green Park.[1][3]",
+   "La tradición profunda de estas setas está en Mesoamérica, donde otras especies del género <em>Psilocybe</em> se tomaron durante siglos en ceremonias de adivinación y de curación, mucho antes de que los cronistas españoles del siglo XVI las describieran.[3] Entre los mazatecos de México, la curandera María Sabina dirigía veladas con ellas.[3][4]",
+   "Occidente las conoció en 1957, cuando R. Gordon Wasson publicó su relato en la revista <em>Life</em>.[4] Al año siguiente, Albert Hofmann aisló la psilocibina y la psilocina de otra especie, <em>Psilocybe mexicana</em>.[3][4]"
+  ],
+  "banda": null,
+  "cronologia": [
+   [
+    "Siglo XVI",
+    "Los cronistas españoles describen el uso ceremonial de hongos entre los pueblos de Mesoamérica.[3]"
+   ],
+   [
+    "1799",
+    "Londres: primer caso de intoxicación con mongui que recoge la literatura médica europea.[1][3]"
+   ],
+   [
+    "1871",
+    "P. Kummer lo sitúa en el género <em>Psilocybe</em>, con el nombre que se usa hoy.[1]"
+   ],
+   [
+    "1955",
+    "R. Gordon Wasson participa en una velada dirigida por María Sabina.[4]"
+   ],
+   [
+    "1957",
+    "Wasson publica su relato en <em>Life</em>.[4]"
+   ],
+   [
+    "1958",
+    "Hofmann aísla la psilocibina y la psilocina de <em>Psilocybe mexicana</em>.[3][4]"
+   ],
+   [
+    "Años sesenta",
+    "El mongui se confirma como la primera especie europea con psilocibina.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "mongui",
+    "castellano"
+   ],
+   [
+    "liberty cap",
+    "inglés, sobre todo en Estados Unidos"
+   ],
+   [
+    "magic mushroom",
+    "inglés, sobre todo en el Reino Unido"
+   ],
+   [
+    "Spitzkegeliger Kahlkopf",
+    "alemán"
+   ],
+   [
+    "spids nøgenhat",
+    "danés"
+   ],
+   [
+    "lysohlávka kopinatá",
+    "checo"
+   ]
+  ],
+  "nota_nombres": "Los nombres alemán, danés y checo proceden de Wikispecies.[13]"
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Prados húmedos de otoño",
+  "mapa": {
+   "img": "mapa-mongui.svg",
+   "alt": "Mapa de Europa occidental y central con una zona sombreada en ocre que cubre las Islas Británicas, el norte de la península ibérica, Francia, Europa central y Escandinavia.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada en Europa"
+    ]
+   ]
+  },
+  "parrafos": [
+   "Es frecuente en pastos de Gran Bretaña e Irlanda y aparece por toda Europa y en Norteamérica. Prefiere prados y parques que no se han enriquecido con abonos artificiales.[2]",
+   "No hay datos de conservación comprobados para esta especie, de modo que el criterio es sencillo: respetar el prado y no vaciarlo."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Recoger sin remover el suelo ni arrancar el micelio.",
+   "Dejar la mayoría de las setas del prado para que esporulen.",
+   "No tratar la seta como un producto: tiene una historia viva en los pueblos que la guardan."
+  ],
+  "foto": null
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Psilocibina, un profármaco que se vuelve psilocina",
+  "parrafos": [
+   "La psilocibina por sí misma apenas actúa: el cuerpo le quita un grupo fosfato y la convierte en psilocina, que llega al cerebro y activa el receptor de serotonina 5-HT2A.[5][6] Cuando un fármaco bloquea ese receptor, la experiencia casi desaparece.[6]",
+   "El mongui figura entre las setas más potentes de su género, y la cantidad de psilocibina varía de una seta a otra.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Psilocibina",
+    "clase": "Triptamina · profármaco",
+    "img": "psilocibina.svg",
+    "texto": "El cuerpo la transforma en psilocina, que se parece a la serotonina y por eso encaja en sus receptores."
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una tarde larga",
+  "parrafos": [
+   "Empieza a notarse entre los 20 y los 60 minutos y dura de cuatro a seis horas, algo más con dosis altas. Cambian la percepción, las emociones y la sensación del yo, y el máximo llega entre la primera y la tercera hora.[5]",
+   "No hay dos experiencias iguales: dependen de la persona, de cómo se encuentre y del lugar y la compañía. Son frecuentes las náuseas al principio, la subida del pulso y de la tensión, y el cansancio después.[5][8]"
+  ],
+  "tiempo": {
+   "horas": 8,
+   "tramos": [
+    [
+     "a",
+     0.33,
+     1,
+     "Sube"
+    ],
+    [
+     "b",
+     1,
+     3,
+     "Máximo"
+    ],
+    [
+     "c",
+     3,
+     6,
+     "Se apaga"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "20–60 min"
+    ],
+    [
+     "Máximo",
+     "entre la 1.ª y la 3.ª h"
+    ],
+    [
+     "Dura",
+     "4–6 h, hasta 8"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "La psilocibina es el psicodélico más estudiado en salud mental. En un ensayo controlado de fase 2, una sola dosis alta de psilocibina sintética, con acompañamiento, mejoró la depresión resistente más que una dosis mínima a las tres semanas.[10]",
+   "En pacientes con cáncer avanzado, un estudio con dosis alta frente a dosis muy baja halló descensos de la depresión y de la ansiedad que se mantuvieron seis meses.[11]"
+  ],
+  "alcance": "Esos ensayos usaron psilocibina sintética en cápsulas, con dosis exacta y acompañamiento profesional. No evaluaron el mongui ni las setas silvestres, cuya cantidad de psilocibina no se conoce."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Una experiencia difícil o desbordante y, en personas predispuestas, episodios de psicosis o de manía.[7]"
+   ],
+   [
+    "Lo que no se mezcla",
+    "El litio es la combinación más peligrosa: se han descrito convulsiones y psicosis.[9]"
+   ],
+   [
+    "Recoger setas silvestres",
+    "Confundirlas con especies tóxicas. Entre las pequeñas setas pardas hay especies mortales, como <em>Galerina marginata</em>.[12]"
+   ],
+   [
+    "Cuerpo y estómago",
+    "Náuseas al principio y subida del pulso y de la tensión, a veces notable con dosis altas.[8]"
+   ]
+  ],
+  "parecidos": [
+   {
+    "img": null,
+    "alt": "",
+    "nombre": "Galerina marginata",
+    "lat": "Galerina marginata",
+    "texto": "Es pequeña y parda y contiene las mismas toxinas que la oronja verde. Algunas personas la han confundido con un psilocibio.[12]",
+    "cred": ""
+   }
+  ]
+ },
+ "galeria": [],
+ "libros": [
+  {
+   "titulo": "María Sabina and Her Mazatec Mushroom Velada",
+   "autor": "R. Gordon Wasson, George Cowan, Florence Cowan y Willard Rhodes · 1974",
+   "img": "biblioteca/portadas/libro-068.jpg",
+   "url": "biblioteca/maria-sabina-and-her-mazatec-mushroom-velada/"
+  },
+  {
+   "titulo": "Los hongos alucinantes",
+   "autor": "Fernando Benítez · 1964",
+   "img": "biblioteca/portadas/libro-061.jpg",
+   "url": "biblioteca/los-hongos-alucinantes/"
+  },
+  {
+   "titulo": "The Genus Psilocybe",
+   "autor": "Gastón Guzmán · 1983",
+   "img": null,
+   "url": "biblioteca/the-genus-psilocybe/"
+  }
+ ],
+ "parientes": [
+  [
+   "hongo",
+   "San Isidro",
+   "Psilocybe cubensis",
+   "La especie psilocibia más cultivada en el mundo.",
+   null
+  ],
+  [
+   "hongo",
+   "Psilocibe azulado",
+   "Psilocybe cyanescens",
+   "Un hongo de astillas de madera, muy potente.",
+   null
+  ],
+  [
+   "molecula",
+   "Psilocibina",
+   "Éster fosfato de la 4-hidroxi-DMT",
+   "El principio activo de estas setas.",
+   "sustancias/psilocibina/"
+  ],
+  [
+   "hongo",
+   "Matamoscas",
+   "Amanita muscaria",
+   "La seta roja de los cuentos, sin psilocibina.",
+   "enciclopedia/amanita-muscaria/"
+  ]
+ ],
+ "fuentes": [
+  "GBIF. <em>Psilocybe semilanceata</em> (Fr.) P.Kumm., 1871. Ficha de especie (datos de Wikipedia). gbif.org.",
+  "First Nature. <em>Psilocybe semilanceata</em> (Fr.) P.Kumm.: distribución, etimología, hábitat. first-nature.com.",
+  "Wikipedia. «Psilocybin mushroom». en.wikipedia.org (consultada el 24-11-2026).",
+  "Erowid. Psilocybin &amp; Psilocin: cronología. erowid.org.",
+  "PsychonautWiki. Psilocybin mushrooms (fuente secundaria de reducción de riesgos). psychonautwiki.org.",
+  "Vollenweider FX, Vollenweider-Scherpenhuyzen MF, Bäbler A, Vogel H, Hell D. Psilocybin induces schizophrenia-like psychosis in humans via a serotonin-2 agonist action. NeuroReport. 1998;9(17):3897-3902.",
+  "Johnson MW, Richards WA, Griffiths RR. Human hallucinogen research: guidelines for safety. J Psychopharmacol. 2008;22(6):603-620.",
+  "Breeksema JJ, Kuin BW, Kamphuis J, et al. Adverse events in clinical treatments with serotonergic psychedelics and MDMA: a mixed-methods systematic review. J Psychopharmacol. 2022;36(10):1100-1117.",
+  "Nayak SM, Gukasyan N, Barrett FS, Erowid E, Erowid F, Griffiths RR. Classic psychedelic coadministration with lithium, but not lamotrigine, is associated with seizures: an analysis of online psychedelic experience reports. Pharmacopsychiatry. 2021;54(5):240-245.",
+  "Goodwin GM, Aaronson ST, Alvarez O, et al. Single-dose psilocybin for a treatment-resistant episode of major depression. N Engl J Med. 2022;387(18):1637-1648.",
+  "Griffiths RR, Johnson MW, Carducci MA, et al. Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer. J Psychopharmacol. 2016;30(12):1181-1197.",
+  "Bay Area Mycological Society. Which mushrooms contain amatoxins? bayareamushrooms.org.",
+  "Wikispecies. <em>Psilocybe semilanceata</em>: nombres vernáculos. species.wikimedia.org."
+ ],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ],
+ "siguiente": [
+  "Peyote",
+  "peyote"
+ ]
+}
