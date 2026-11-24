@@ -1,0 +1,267 @@
+{
+ "slug": "cornezuelo",
+ "tipo": "hongo",
+ "migas": "Hongo · Clavicipitáceas · Europa y regiones cerealistas",
+ "nombre": "Cornezuelo",
+ "cientifico": "Claviceps purpurea",
+ "autoridad": "(Fr.) Tul.",
+ "descripcion": "Cornezuelo (Claviceps purpurea): hongo parásito del centeno de cuyos alcaloides nació el LSD; historia de ergotismo medieval y de la hipótesis de Eleusis.",
+ "entrada": "Un hongo parásito que infecta cereales, sobre todo el centeno, y forma unos espolones negros en lugar del grano. Sus alcaloides provocaron el ergotismo medieval, y de su ácido lisérgico partió Albert Hofmann hasta el LSD. Es también el centro de la hipótesis que lo une al kykeon de Eleusis.[1][2][3]",
+ "otros": "cornezuelo · cornezuelo del centeno · ergot · ergot of rye · Claviceps purpurea · fuego de San Antonio (ergotismo)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hongo parásito de cereales que forma esclerocios negros"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Regiones cerealistas, sobre todo de Europa"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Esclerocio («espolón»)"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides del ergot, base del ácido lisérgico"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica: no se describe un uso psicoactivo directo seguro"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Europa medieval; Eleusis, según una hipótesis"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El espolón negro",
+  "parrafos": [
+   "<em>Claviceps purpurea</em> es uno de casi cincuenta especies del género <em>Claviceps</em> y la más común en Europa; a diferencia de muchas parientes, puede infectar a muchas especies de plantas, incluidos varios cereales.[4]",
+   "Ataca sobre todo al centeno: infecta el grano y lo sustituye por un cuerpo fúngico oscuro llamado esclerocio.[5]",
+   "La palabra inglesa «ergot» viene del francés <em>argot</em>, que significa «espolón».[4]",
+   "El esclerocio contiene una mezcla de alcaloides con efectos distintos sobre quien lo consume.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Clavicipitáceas"
+   ],
+   [
+    "Hospedador",
+    "Cereales, sobre todo centeno"
+   ],
+   [
+    "Estructura",
+    "Esclerocio negro, forma de espolón"
+   ],
+   [
+    "Alcaloides",
+    "Ergotamina, ergometrina, ergocristina, ergosina"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha de naturaleza histórica y botánica. El cornezuelo es un hongo venenoso; no es una medicina para uso personal."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Fuego de San Antonio",
+  "parrafos": [
+   "Desde que se cultivan cereales, estos han sido susceptibles al cornezuelo; el hongo ha asolado cosechas y sociedades europeas durante siglos.[5]",
+   "Al llegar al pan o a la cerveza de cebada, causa el ergotismo, conocido como «fuego de San Antonio».[5] En la Edad Media se dieron dos formas: la convulsiva, más frecuente al este del Rin, y la gangrenosa, más frecuente al oeste; no se sabe por qué.[4]",
+   "Una hipótesis de 1976 publicada en <em>Science</em> sugirió que los juicios de Salem de 1692 pudieron estar ligados al ergotismo.[2]",
+   "En <em>El camino a Eleusis</em> (Wasson, Hofmann y Ruck) se propuso que los sacerdotes de los misterios eleusinos usaban cornezuelo para el kykeon, la bebida sagrada; es una hipótesis, no un hecho establecido.[6][7]",
+   "Un estudio reciente retomó esa hipótesis y observó en laboratorio que el tratamiento alcalino de cornezuelo convertía ergopéptidos tóxicos en amidas del ácido lisérgico, aunque los datos experimentales sobre preparaciones antiguas siguen siendo escasos.[8]"
+  ],
+  "cronologia": [
+   [
+    "1692",
+    "Juicios de Salem, vinculados al ergotismo por una hipótesis de 1976"
+   ],
+   [
+    "1938",
+    "Hofmann sintetiza LSD-25 en Sandoz"
+   ],
+   [
+    "1976",
+    "Artículo de <em>Science</em> sobre Salem y el ergotismo"
+   ]
+  ],
+  "nombres": [
+   [
+    "cornezuelo",
+    "castellano"
+   ],
+   [
+    "ergot",
+    "inglés"
+   ],
+   [
+    "fuego de San Antonio",
+    "nombre del ergotismo"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Los campos de cereal",
+  "parrafos": [
+   "Se encuentra en regiones cerealistas del mundo; en Europa es la especie de <em>Claviceps</em> más común.[4]",
+   "Ha seguido llegando a la dieta humana por ignorancia o por descuido de agricultores y panaderos, aun después de conocerse su causa.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo sobre todo como contaminante de cereal.",
+   "No consumirlo ni experimentar con él.",
+   "Interesarse por su historia y por la química del ácido lisérgico."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-cornezuelo.svg",
+   "alt": "Mapa con Europa y zonas cerealistas del hemisferio norte sombreadas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del cornezuelo"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "El ácido lisérgico",
+  "parrafos": [
+   "Produce una familia de alcaloides del ergot, entre ellos ergotamina, ergometrina, ergocristina y ergosina; todos comparten un núcleo de ácido lisérgico.[3]",
+   "A partir de ese núcleo, Albert Hofmann sintetizó en los años treinta la dietilamida del ácido lisérgico (LSD-25), en Sandoz, buscando medicamentos para las contracciones uterinas.[2][3]",
+   "Entre los alcaloides del ergot se describen también amida del ácido lisérgico (LSA, ergina) e iso-LSA.[7]",
+   "El ergot contiene alcaloides muy venenosos y psicoactivos a la vez.[5]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Ácido lisérgico",
+    "clase": "ergolina",
+    "img": null,
+    "texto": "Núcleo común de los alcaloides del cornezuelo y punto de partida del LSD.[3]"
+   },
+   {
+    "nombre": "LSA (ergina)",
+    "clase": "ergolina",
+    "img": null,
+    "texto": "Amida del ácido lisérgico presente entre los alcaloides del ergot.[7]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "No hay experiencia segura",
+  "parrafos": [
+   "El ergotismo se describe con dolor intenso, convulsiones y alucinaciones.[7] En la forma gangrenosa, la constricción de los vasos sanguíneos llevó a muchos a perder partes de sus extremidades.[5]",
+   "No es una experiencia que las fuentes consideren segura de buscar."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "La historia del cornezuelo se ha estudiado desde la antigüedad hasta 1980; entre 1940 y 1980 dominaron las figuras de Arthur Stoll y Albert Hofmann, cuyo grupo aisló del ergot el LSD.[1][9]",
+   "La hipótesis de Eleusis sigue en debate y se ha retomado con experimentos de laboratorio.[8]"
+  ],
+  "alcance": "Muy estudiado en química, historia y medicina; la hipótesis eleusina sigue abierta."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es un hongo venenoso; su ingestión accidental causó epidemias.[1][5]"
+   ],
+   [
+    "Historia, no receta",
+    "Interesa por su valor histórico y químico, no como sustancia de uso."
+   ],
+   [
+    "Hipótesis de Eleusis",
+    "Es una propuesta de Wasson, Hofmann y Ruck, no un hecho cerrado.[6][8]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "molecula",
+   "LSD",
+   "Dietilamida del ácido lisérgico",
+   "Derivado sintético del ácido lisérgico del ergot.",
+   null
+  ],
+  [
+   "molecula",
+   "LSA",
+   "Amida del ácido lisérgico",
+   "Alcaloide del ergot presente también en otras plantas.",
+   null
+  ],
+  [
+   "preparado",
+   "Kykeon",
+   "Bebida de Eleusis",
+   "La bebida a la que se asocia la hipótesis.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Royal College of Physicians of Edinburgh. <em>The history of ergot of rye (Claviceps purpurea) I: From antiquity to 1900</em>. rcpe.ac.uk/taxonomy/term/1013.",
+  "McGill Office for Science and Society. Ergotismo y LSD. mcgill.ca/oss/node/8653.",
+  "Tripsitter. <em>The Medieval Plague That Opened a Portal to the Mind</em>. tripsitter.substack.com/p/ergotism.",
+  "Microbiology Society. <em>The highs and lows of ergot</em> (2015). microbiologysociety.org/resource/the-highs-and-lows-of-ergot.html.",
+  "U.S. Forest Service. <em>Ergot: The Psychoactive Fungus that Changed History</em>. fs.usda.gov/wildflowers/ethnobotany/Mind_and_Spirit/ergot.shtml.",
+  "Webster, P. Artículo sobre LSA y los misterios eleusinos. taz4.erowid.org/chemicals/lsa/lsa_article1.pdf.",
+  "OPEN Foundation. <em>Science Revisits Kykeon</em>. open-foundation.org/?p=55471.",
+  "<em>Investigating the psychedelic hypothesis of kykeon, the sacred elixir of the Eleusinian Mysteries</em>. ouci.dntb.gov.ua/en/works/73181WMQ/.",
+  "Royal College of Physicians of Edinburgh. <em>The history of ergot of rye III: 1940–80</em>. rcpe.ac.uk/taxonomy/term/1014."
+ ],
+ "tipo_txt": "Hongo",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Copelandia",
+  "copelandia"
+ ],
+ "siguiente": [
+  "Damiana",
+  "damiana"
+ ]
+}
