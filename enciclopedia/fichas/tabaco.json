@@ -1,0 +1,285 @@
+{
+ "slug": "tabaco",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Andes de Sudamérica",
+ "nombre": "Tabaco",
+ "cientifico": "Nicotiana tabacum",
+ "autoridad": "L.",
+ "descripcion": "Tabaco (Nicotiana tabacum): planta sagrada de América y cultivo mundial. Botánica, historia, nicotina, investigación y cuidados.",
+ "entrada": "Una hierba de grandes hojas, sagrada durante milenios para muchos pueblos de América, que Colón llevó a Europa y hoy es uno de los cultivos más extendidos. La nicotina que contiene crea una dependencia muy fuerte.[1][3][10]",
+ "otros": "tabaco · tabaco de hoja · nicotina · tabaco comercial",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba anual de 1–2 m, de hojas grandes"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Origen andino; hoy se cultiva en todo el mundo"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La hoja, curada y seca"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Nicotina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Segundos si se fuma · pocos minutos"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Cerca de 300 pueblos indígenas de Sudamérica"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa del tabaco",
+  "texto": "Mapacho, rapé, interacciones, dependencia y cómo reducir riesgos.",
+  "url": "sustancias/tabaco/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un híbrido que nunca se halló en estado silvestre",
+  "parrafos": [
+   "Es una hierba que se cultiva cada año y mide entre uno y dos metros. Sus grandes hojas se recogen para curarlas y secarlas.[8]",
+   "El tabaco comercial no se conoce en estado silvestre. Se cree que surgió por la hibridación de <em>Nicotiana sylvestris</em> con <em>N. tomentosiformis</em>, dos especies de los Andes, y quizá <em>N. otophora</em>.[8][11]",
+   "Es un cultivo humano desde hace milenios; su origen, junto con el del mapacho, se sitúa en los Andes sudamericanos.[9][12]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Ciclo",
+    "Anual"
+   ],
+   [
+    "Porte",
+    "1–2 m"
+   ],
+   [
+    "Origen",
+    "Híbrido de especies andinas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La planta que casi todos los pueblos americanos conocían",
+  "parrafos": [
+   "El tabaco fue durante milenios una de las plantas más sagradas de muchos pueblos indígenas. Wilbert reunió datos de cerca de 300 sociedades de Sudamérica y encontró seis formas principales de aplicar la nicotina y varias más.[1][2]",
+   "En el uso ritual se busca una intoxicación aguda con nicotina, y la farmacología de la planta ha informado las prácticas y creencias del chamanismo.[2] Según Wilbert, no fue la droga la que dio origen al chamanismo, sino la religión la que dio sentido a los efectos de la droga.[2]",
+   "Cuando Colón llegó a Cuba, los indígenas le ofrecieron tabaco como regalo, y él lo llevó a España.[10] En 1561, el diplomático Jean Nicot lo llevó a Francia, y de su nombre procede el de la nicotina.[10]"
+  ],
+  "cronologia": [
+   [
+    "Hace milenios",
+    "Muchos pueblos de América lo cultivan y lo usan en ritos y medicina.[1]"
+   ],
+   [
+    "1492",
+    "Colón recibe tabaco como regalo en Cuba y lo lleva a España.[10]"
+   ],
+   [
+    "1561",
+    "Jean Nicot lo lleva a Francia.[10]"
+   ],
+   [
+    "1610",
+    "John Rolfe planta en Jamestown una mezcla de variedades de <em>N. tabacum</em>.[10]"
+   ]
+  ],
+  "nombres": [
+   [
+    "tabaco",
+    "palabra de origen incierto que los europeos tomaron de América"
+   ],
+   [
+    "nicotina",
+    "del nombre de Jean Nicot"
+   ],
+   [
+    "<em>Nicotiana</em>",
+    "el género, también en honor de Nicot"
+   ],
+   [
+    "tabaco comercial",
+    "el de los cigarrillos, para distinguirlo del mapacho"
+   ]
+  ],
+  "nota_nombres": "El tabaco de los cigarrillos y el mapacho son dos especies distintas: <em>N. tabacum</em> y <em>N. rustica</em>.[1][9]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "De los Andes a las plantaciones del mundo",
+  "parrafos": [
+   "Su origen se sitúa en los Andes sudamericanos.[9][12] A partir del siglo XVI se extendió por los trópicos y el mundo, y se convirtió en uno de los principales cultivos de exportación de las colonias.[10]",
+   "Hoy se cultiva en grandes plantaciones. Para los pueblos indígenas que lo guardan, el tabaco sagrado nada tiene que ver con el de los cigarrillos."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Distinguir el tabaco sagrado del comercial: no es lo mismo ni se usa igual.",
+   "Apoyar a las comunidades que cultivan tabaco sin aditivos para sus ceremonias.",
+   "Informarse antes de usarlo: su efecto sobre la dependencia es muy fuerte."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-tabaco.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre los Andes de Sudamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del origen andino del tabaco"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Nicotina, que activa los receptores de acetilcolina",
+  "parrafos": [
+   "La nicotina activa los receptores nicotínicos de acetilcolina del cerebro y del resto del cuerpo. Libera dopamina en los circuitos de recompensa, y eso explica su capacidad de crear dependencia.[3]",
+   "También activa el sistema nervioso simpático: sube el pulso y la tensión. El humo del tabaco, no la nicotina, acelera en el hígado la eliminación de algunos medicamentos, y al dejar de fumar sus niveles pueden subir.[3][5]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Nicotina",
+    "clase": "Alcaloide · principal",
+    "img": null,
+    "texto": "Fumada, llega al cerebro en segundos y su efecto dura poco: el cuerpo aprende enseguida a pedir la siguiente.[3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Foco, alivio y, a veces, mareo",
+  "parrafos": [
+   "En el uso ceremonial, el tabaco no busca visiones sino foco, «limpieza» y arraigo. En el uso cotidiano, la sensación es de alivio, porque calma la abstinencia del cigarrillo anterior.[1][3]",
+   "Con poca experiencia pueden aparecer mareo, palidez, sudor frío y náuseas: es una intoxicación leve por nicotina.[2][3]"
+  ],
+  "tiempo": {
+   "horas": 1,
+   "tramos": [
+    [
+     "a",
+     0,
+     0.05,
+     "Empieza en segundos"
+    ],
+    [
+     "b",
+     0.05,
+     0.5,
+     "Efecto breve"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "segundos si se fuma"
+    ],
+    [
+     "Dura",
+     "unos minutos"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Un estudio piloto pequeño, sin grupo de comparación, probó la psilocibina junto con terapia para dejar de fumar y observó que muchos participantes lo lograron.[6]",
+   "Un seguimiento a largo plazo de esas personas indicó que buena parte siguió sin fumar.[7]"
+  ],
+  "alcance": "Son estudios pequeños y sin placebo; no demuestran que la psilocibina sirva para dejar de fumar. El tabaco, por su parte, no tiene uso terapéutico demostrado."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Una dependencia muy fuerte; fumado de forma habitual, cáncer y enfermedades del corazón y los pulmones.[3][4]"
+   ],
+   [
+    "La vía importa",
+    "Bebido o aspirado en líquido, la nicotina se absorbe en grandes cantidades y puede intoxicar gravemente.[1]"
+   ],
+   [
+    "Medicación",
+    "Fumar cambia los niveles de algunos medicamentos, como la clozapina, la olanzapina o la teofilina; avisa a tu médico si dejas de fumar.[5]"
+   ],
+   [
+    "Lo sagrado y lo comercial",
+    "El tabaco ceremonial y el de los cigarrillos no son lo mismo, ni en la planta ni en lo que implican.[1]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Mapacho",
+   "Nicotiana rustica",
+   "El tabaco fuerte de la Amazonía, con mucha más nicotina.",
+   "enciclopedia/mapacho/"
+  ],
+  [
+   "planta",
+   "Cacao",
+   "Theobroma cacao",
+   "Otra planta de las Américas que se bebió y se compartió en ceremonias.",
+   "enciclopedia/cacao/"
+  ]
+ ],
+ "fuentes": [
+  "Wilbert J. Tobacco and Shamanism in South America. New Haven: Yale University Press; 1987.",
+  "Wilbert J. Does pharmacology corroborate the nicotine therapy and practices of South American shamanism? J Ethnopharmacol. 1991. agris.fao.org.",
+  "Benowitz NL. Pharmacology of nicotine: addiction, smoking-induced disease, and therapeutics. Annu Rev Pharmacol Toxicol. 2009;49:57-71.",
+  "Organización Mundial de la Salud. Tobacco: fact sheet. who.int/news-room/fact-sheets/detail/tobacco.",
+  "Kroon LA. Drug interactions with smoking. Am J Health Syst Pharm. 2007;64(18):1917-1921.",
+  "Johnson MW, Garcia-Romeu A, Cosimano MP, Griffiths RR. Pilot study of the 5-HT2AR agonist psilocybin in the treatment of tobacco addiction. J Psychopharmacol. 2014;28(11):983-992.",
+  "Johnson MW, Garcia-Romeu A, Griffiths RR. Long-term follow-up of psilocybin-facilitated smoking cessation. Am J Drug Alcohol Abuse. 2017;43(1):55-60.",
+  "Wikipedia. «Nicotiana tabacum». en.wikipedia.org (consultada el 24-11-2026).",
+  "Encyclopedia.com. Origin and diffusion (tobacco). encyclopedia.com.",
+  "Mark JJ. A brief history of tobacco in the Americas. World History Encyclopedia. worldhistory.org.",
+  "Gray JC, Kung SD, Wildman SG, Sheen SJ. Origin of <em>Nicotiana tabacum</em> L. detected by polypeptide composition of Fraction I protein. Nature. 1974;252:226.",
+  "Haustein K-O. History of tobacco. Springer. rd.springer.com/chapter/10.1007/978-3-662-05256-3_1."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Sapo de Sonora",
+  "sapo-de-sonora"
+ ],
+ "siguiente": [
+  "Toloache",
+  "toloache"
+ ]
+}

@@ -1,0 +1,282 @@
+{
+ "slug": "mapacho",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Amazonía y Andes",
+ "nombre": "Mapacho",
+ "cientifico": "Nicotiana rustica",
+ "autoridad": "L.",
+ "descripcion": "Mapacho (Nicotiana rustica): tabaco fuerte de la Amazonía, planta maestra de curanderos. Botánica, tradición, nicotina, investigación y cuidados.",
+ "entrada": "El tabaco fuerte de la Amazonía, con mucha más nicotina que el comercial, que los curanderos soplan sobre las personas en las ceremonias de ayahuasca. Es una planta sagrada y, a la vez, un fuerte generador de dependencia.[1][2][3][4]",
+ "otros": "mapacho · tabaco rústico · tabaco azteca · tabaco fuerte · sacred tobacco",
+ "portada": {
+  "img": "idx-tabaco.jpg",
+  "alt": "Una inflorescencia de Nicotiana rustica, con pequeñas flores amarillo verdosas sobre hojas verdes.",
+  "pie": "Mapacho (<em>Nicotiana rustica</em>) en flor.",
+  "cred": "Flaminglasrswrd · CC0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba de la familia de las solanáceas con hojas muy ricas en nicotina"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Sudamérica, Amazonía y Andes"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La hoja, curada en cigarros"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Nicotina, en mucha más cantidad que el tabaco comercial"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Segundos · pocos minutos"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos amazónicos y andinos; curanderos o tabaqueros"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa del tabaco",
+  "texto": "Mapacho, rapé, interacciones, dependencia y cómo reducir riesgos.",
+  "url": "sustancias/tabaco/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una planta de selva más fuerte que el tabaco común",
+  "parrafos": [
+   "<em>Nicotiana rustica</em> es una planta de selva de la familia de las solanáceas, nativa de Sudamérica.[3]",
+   "Es una variedad muy potente de tabaco: sus hojas pueden contener hasta un nueve por ciento de nicotina, hasta nueve veces más que el tabaco común.[3]",
+   "Fuera de la Amazonía se la conoce también como tabaco azteca o tabaco fuerte.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Nombres",
+    "Mapacho, tabaco azteca, tabaco fuerte"
+   ],
+   [
+    "Hábitat",
+    "Selva y valles andinos de Sudamérica"
+   ],
+   [
+    "Nicotina",
+    "Hasta nueve veces más que <em>N. tabacum</em>"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El tabaco como planta maestra",
+  "parrafos": [
+   "En la Amazonía, el mapacho se usa sobre todo en ceremonias: se sopla su humo sobre las personas y acompaña a menudo a la ayahuasca.[3][4] Hay curanderos, llamados tabaqueros, que trabajan sobre todo con esta planta.[6]",
+   "Wilbert estudió cerca de 300 sociedades indígenas de Sudamérica y halló que el tabaco se usa para fines mágico-religiosos, medicinales y recreativos desde épocas precolombinas.[1][2]",
+   "El origen de <em>N. rustica</em> y de <em>N. tabacum</em> se sitúa en los Andes sudamericanos; solo estas dos especies se extendieron por el mundo.[5]"
+  ],
+  "cronologia": [
+   [
+    "Épocas precolombinas",
+    "Los pueblos de Sudamérica usan el tabaco en ritos, medicina y vida social.[2]"
+   ],
+   [
+    "Más de mil años",
+    "En América del Norte se mascaba o fumaba sobre todo <em>N. rustica</em>.[7]"
+   ],
+   [
+    "Siglo XVI",
+    "Colón y los europeos se llevan el tabaco; el foco pasa al uso recreativo.[7]"
+   ]
+  ],
+  "nombres": [
+   [
+    "mapacho",
+    "nombre amazónico de <em>Nicotiana rustica</em>"
+   ],
+   [
+    "tabaco azteca",
+    "porque se cultivaba en México"
+   ],
+   [
+    "tabaco fuerte",
+    "por su alto contenido de nicotina"
+   ],
+   [
+    "rapé",
+    "tabaco en polvo, mezclado con cenizas y otras plantas, que se sopla por la nariz"
+   ]
+  ],
+  "nota_nombres": "Mapacho es el nombre con el que se conoce en Sudamérica a <em>Nicotiana rustica</em>.[3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Entre la selva y los Andes",
+  "parrafos": [
+   "Es nativo de Sudamérica, y su cultivo antiguo llegó hasta América del Norte.[3][7]",
+   "Se vende como «planta sagrada» sin decir que su principio activo, la nicotina, es muy adictivo y puede intoxicar."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocer su origen: preferir mapacho de comunidades que lo cultivan para ceremonias.",
+   "No tratarlo como producto de moda: es una planta de curanderos.",
+   "Informarse de sus riesgos antes de usarlo."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-mapacho.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre la Amazonía.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de uso amazónico del mapacho"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Nicotina en cantidad",
+  "parrafos": [
+   "Contiene nicotina, que activa los receptores nicotínicos de acetilcolina, libera dopamina y sube el pulso y la tensión.[3][8]",
+   "Sus hojas pueden tener hasta un nueve por ciento de nicotina frente a una fracción de eso en el tabaco comercial, y por eso un cigarro de mapacho es mucho más fuerte.[3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Nicotina",
+    "clase": "Alcaloide · principal",
+    "img": null,
+    "texto": "Es la sustancia que explica la dependencia y la intoxicación.[8]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Subida intensa, mareo y foco",
+  "parrafos": [
+   "Con mapacho o rapé, la subida es intensa, con mareo, sudor, lagrimeo y sensación de «limpieza» y foco. Con cantidades altas hay náuseas y vómitos.[1][8]",
+   "En el uso ceremonial, el tabaco no busca visiones sino foco, «limpieza» y arraigo.[4]"
+  ],
+  "tiempo": {
+   "horas": 1,
+   "tramos": [
+    [
+     "a",
+     0,
+     0.05,
+     "Empieza en segundos"
+    ],
+    [
+     "b",
+     0.05,
+     0.5,
+     "Efecto intenso y breve"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "segundos"
+    ],
+    [
+     "Dura",
+     "unos minutos"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "El estudio más amplio es el de Wilbert: unas 1.800 fuentes sobre cerca de 300 sociedades de Sudamérica, que muestra cómo la farmacología de la nicotina informa las prácticas chamánicas.[2]",
+   "Sobre sus efectos terapéuticos, no hay ensayos clínicos con mapacho."
+  ],
+  "alcance": "Es investigación etnográfica y farmacológica, no clínica. No hay evidencia de que el mapacho sea medicina."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Una dependencia muy fuerte y, si se bebe, la intoxicación por nicotina.[1][8]"
+   ],
+   [
+    "La vía importa",
+    "Bebido o aspirado en líquido, la nicotina se absorbe en grandes cantidades y puede intoxicar gravemente.[1]"
+   ],
+   [
+    "Medicación",
+    "Fumar cambia los niveles de algunos medicamentos; consulta con tu médico.[8]"
+   ],
+   [
+    "Cuidar el uso",
+    "Es una planta de ceremonia: úsala, si decides hacerlo, con quien conoce su tradición."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Tabaco",
+   "Nicotiana tabacum",
+   "El tabaco comercial, de la misma familia, con menos nicotina.",
+   "enciclopedia/tabaco/"
+  ],
+  [
+   "planta",
+   "Ayahuasca",
+   "Banisteriopsis caapi",
+   "La bebida de la que a menudo es compañero.",
+   "enciclopedia/ayahuasca/"
+  ]
+ ],
+ "fuentes": [
+  "Wilbert J. Tobacco and Shamanism in South America. New Haven: Yale University Press; 1987.",
+  "Wilbert J. Does pharmacology corroborate the nicotine therapy and practices of South American shamanism? J Ethnopharmacol. 1991. agris.fao.org.",
+  "Wikipedia. «Nicotiana rustica». en.wikipedia.org (consultada el 24-11-2026).",
+  "APDER. Guía completa del tabaco. apder.org/sustancias/tabaco/.",
+  "Encyclopedia.com. Origin and diffusion (tobacco). encyclopedia.com.",
+  "McConnell P. Sacred tobacco. Contra. contra.com.",
+  "Mark JJ. A brief history of tobacco in the Americas. World History Encyclopedia. worldhistory.org.",
+  "Benowitz NL. Pharmacology of nicotine: addiction, smoking-induced disease, and therapeutics. Annu Rev Pharmacol Toxicol. 2009;49:57-71."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Kratom",
+  "kratom"
+ ],
+ "siguiente": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ]
+}

@@ -133,7 +133,7 @@
    "guia": "sustancias/cacao/"
   },
   {
-   "slug": null,
+   "slug": "mapacho",
    "tipo": "planta",
    "nombre": "Mapacho",
    "cientifico": "Nicotiana rustica",
@@ -454,7 +454,7 @@
    "nombre": "Mapacho",
    "detalle": "Nicotiana rustica",
    "tipo": "planta",
-   "slug": null
+   "slug": "mapacho"
   },
   {
    "nombre": "Marihuanilla",
@@ -526,7 +526,7 @@
    "nombre": "Tabaco",
    "detalle": "Nicotiana tabacum",
    "tipo": "planta",
-   "slug": null
+   "slug": "tabaco"
   },
   {
    "nombre": "Taique",
