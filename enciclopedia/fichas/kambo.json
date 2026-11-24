@@ -1,0 +1,230 @@
+{
+ "slug": "kambo",
+ "tipo": "animal",
+ "migas": "Animal · Filomedúsidos · Amazonía occidental",
+ "nombre": "Kambó",
+ "cientifico": "Phyllomedusa bicolor",
+ "autoridad": "(Boddaert, 1772)",
+ "descripcion": "Kambó (Phyllomedusa bicolor): secreción cutánea de una rana amazónica, rica en péptidos, usada en rituales de purificación de pueblos pano.",
+ "entrada": "El kambó es el nombre popular de la secreción cutánea de una rana arborícola amazónica, la rana mono gigante. Pueblos de lengua pano, como los matsés, la usan desde hace siglos en rituales de purificación y de cura. No es una sustancia psicoactiva: sus efectos se atribuyen a la riqueza de péptidos activos de la secreción.[1][2][3]",
+ "otros": "kambó · kampô · kapum · sapo · vacina do sapo · rana mono gigante · giant monkey frog · giant leaf frog",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Secreción cutánea de una rana arborícola"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Amazonía occidental (Perú, Colombia, Brasil)"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Secreción seca de la piel"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Péptidos bioactivos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Reacción a los pocos minutos, según la fuente médica"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Matsés, Marubo, Kaxinawá, Katukina, Yawanawá y otros pueblos pano"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Biología",
+  "titulo": "La rana mono gigante",
+  "parrafos": [
+   "<em>Phyllomedusa bicolor</em> se conoce en inglés como «bicolored treefrog», «giant monkey frog», «giant leaf frog» y «waxy-monkey treefrog», y como kambó o kampô en los países sudamericanos.[1]",
+   "Fue descrita en Surinam por Boddaert en 1772 como <em>Rana bicolor</em>, y es la especie tipo del género <em>Phyllomedusa</em>.[1]",
+   "Es una rana arborícola de distribución amplia en Sudamérica, conocida por producir una secreción cutánea rica en péptidos bioactivos.[1]",
+   "Ante el estrés de la manipulación, la rana expulsa la secreción como defensa frente a los depredadores.[4]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Anfibios"
+   ],
+   [
+    "Familia",
+    "Filomedúsidos"
+   ],
+   [
+    "Hábitat",
+    "Amazonía, sobre árboles"
+   ],
+   [
+    "Secreción",
+    "Rica en péptidos"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La vacuna del sapo",
+  "parrafos": [
+   "Su secreción se usa desde hace siglos entre los nativos de la Amazonía occidental en rituales chamánicos de curación y purificación conocidos como kambô, kapum o «vacina do sapo».[1]",
+   "Practican el kambó pueblos de lengua pano del sudeste de la selva amazónica, como los matsés, marubo, amahuaca, kashinawa, katukina, yawanawá y kaxinawá.[3] Hay estudios etnográficos de su uso en la medicina tradicional Noke Kuin, en el estado brasileño de Acre.[3]",
+   "Es una ceremonia de purificación descrita por primera vez por Daly y colaboradores; la usan tanto tribus indígenas como los matsés o mayoruna como personas urbanas.[2]",
+   "El uso tradicional se concentra en regiones de la Amazonía peruana, colombiana y brasileña.[5]"
+  ],
+  "cronologia": [
+   [
+    "1772",
+    "Boddaert describe la especie"
+   ]
+  ],
+  "nombres": [
+   [
+    "kambó, kampô",
+    "portugués y lenguas de la región"
+   ],
+   [
+    "kapum",
+    "lengua kaxinawá"
+   ],
+   [
+    "sapo, vacina do sapo",
+    "castellano y portugués"
+   ]
+  ],
+  "nota_nombres": "Kambó designa tanto la rana como la secreción y el ritual.",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Selva y sociedades",
+  "parrafos": [
+   "Se distribuye por la Amazonía y países vecinos.[1]",
+   "La secreción, estimulada por el estrés de la manipulación, se recoge en una varilla de bambú y se deja secar para almacenarla.[5]",
+   "El uso fuera de su contexto indígena ha crecido, y ICEERS recuerda que importa «no hacer daño» a las culturas de origen.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocer su origen en pueblos amazónicos.",
+   "No comprar secreción de origen incierto.",
+   "Respetar a los pueblos que lo guardan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-kambo.svg",
+   "alt": "Mapa con la Amazonía occidental sombreada.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del kambó"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Péptidos activos",
+  "parrafos": [
+   "La secreción contiene un número muy alto de péptidos bioactivos, cadenas cortas de aminoácidos que se unen a receptores celulares humanos y provocan una reacción en el cuerpo.[6]",
+   "Una carta científica atribuye todos los efectos periféricos y la mayoría de los centrales al contenido excepcionalmente alto de péptidos activos, que se absorben bien a través de la piel dañada.[2]",
+   "ICEERS afirma que los péptidos no producen efectos psicoactivos.[4]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Efectos físicos",
+  "parrafos": [
+   "Una descripción médica señala que a los pocos minutos aparecen palpitaciones y sudoración.[7]",
+   "Según ICEERS, tras pasar los efectos se dice que queda una sensación de más fuerza, de conciencia sensorial y de claridad mental.[4]",
+   "Se han descrito casos de toxicidad, entre ellos un caso de hepatitis y un informe forense de una muerte repentina tras aplicar kambó.[5]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay revisiones transdisciplinares recientes sobre su biología, toxinología, etnofarmacología y aspectos médicos.[1]",
+   "La evidencia de beneficios terapéuticos es limitada."
+  ],
+  "alcance": "Revisiones farmacológicas; escasa evidencia clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Riesgos documentados",
+    "Hay informes de toxicidad: un caso de hepatitis y un informe forense.[5]"
+   ],
+   [
+    "Contexto",
+    "Es una práctica de pueblos amazónicos; su uso urbano plantea cuestiones éticas.[4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "La evidencia clínica es limitada."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "animal",
+   "Sapo de Sonora",
+   "Incilius alvarius",
+   "Otro anfibio ligado a prácticas psicoactivas.",
+   "enciclopedia/sapo-de-sonora/"
+  ]
+ ],
+ "fuentes": [
+  "Nogueira, T. A. C. et al. (2022). The Amazonian kambô frog <em>Phyllomedusa bicolor</em>. <em>Frontiers in Pharmacology</em>. pmc.ncbi.nlm.nih.gov/articles/PMC9582840.",
+  "den Brave, P. S., Bruins, E. y Bronkhorst, M. W. G. A. (2014). <em>Phyllomedusa bicolor</em> skin secretion and the Kambô ritual. <em>Journal of Venomous Animals and Toxins</em> 20: 40. pmc.ncbi.nlm.nih.gov/articles/PMC4582952.",
+  "Wikipedia. <em>Kambo (drug)</em>. wikipedia.org/wiki/Kambo_(drug).",
+  "ICEERS. <em>Kambô: A Traditional Remedy</em>. iceers.org/kambo-a-traditional-remedy/.",
+  "ICEERS. <em>Kambô: Basic Info</em>. iceers.org/kambo-basic-info/.",
+  "ICEERS. <em>Basic info</em> (péptidos). iceers.org/?p=5563.",
+  "den Brave y otros. Carta en <em>JVAT</em> (texto completo). jvat.biomedcentral.com/track/pdf/10.1186/1678-9199-20-40."
+ ],
+ "tipo_txt": "Animal",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Jurema",
+  "jurema"
+ ],
+ "siguiente": [
+  "Kanna",
+  "kanna"
+ ]
+}
