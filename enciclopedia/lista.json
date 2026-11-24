@@ -177,7 +177,7 @@
    "guia": null
   },
   {
-   "slug": null,
+   "slug": "mandragora",
    "tipo": "planta",
    "nombre": "Mandrágora",
    "cientifico": "Mandragora officinarum",
@@ -448,7 +448,7 @@
    "nombre": "Mandrágora",
    "detalle": "Mandragora officinarum",
    "tipo": "planta",
-   "slug": null
+   "slug": "mandragora"
   },
   {
    "nombre": "Mapacho",

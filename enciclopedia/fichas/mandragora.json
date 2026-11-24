@@ -1,0 +1,290 @@
+{
+ "slug": "mandragora",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Mediterráneo y Oriente Próximo",
+ "nombre": "Mandrágora",
+ "cientifico": "Mandragora officinarum",
+ "autoridad": "L.",
+ "descripcion": "Mandrágora (Mandragora officinarum): la raíz con forma humana de los herbarios antiguos. Botánica, historia, tropanos, investigación y cuidados.",
+ "entrada": "Una hierba mediterránea de raíz gruesa que recuerda a una figura humana y que, por eso, cargó con siglos de mitos. Contiene alcaloides tropánicos muy peligrosos, los mismos que dieron fama de anestésico y de planta de brujas a la mandrágora.[1][2][3][5]",
+ "otros": "mandrágora · mandrake · manzana del diablo · planta de Circe · abu'l-ruh",
+ "portada": {
+  "img": "idx-mandragora.jpg",
+  "alt": "Grabado antiguo de una mandrágora con la raíz en forma de figura humana y hojas en roseta.",
+  "pie": "Mandrágora en el herbario de Bock, siglo XVI.",
+  "cred": "Autor desconocido · dominio público"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba perenne de hojas en roseta y raíz gruesa"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Zonas secas del Mediterráneo y del Levante"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La raíz; toda la planta es tóxica"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Escopolamina, hiosciamina y atropina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina y folclore del Mediterráneo y de Europa"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la datura",
+  "texto": "Los alcaloides tropánicos de las solanáceas: por qué son tan peligrosos y qué hacer ante una intoxicación.",
+  "url": "sustancias/datura/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una roseta de hojas y una raíz que parece un cuerpo",
+  "parrafos": [
+   "Es una hierba perenne que crece en zonas secas del Mediterráneo y del Levante. Tiene una raíz gruesa, con forma de chirivía, y hojas de un verde oscuro que forman una roseta plana a ras del suelo.[2][5]",
+   "Las raíces, a menudo ramificadas, recuerdan a veces a una figura humana. De esa semejanza nació buena parte de su folclore.[2][5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Ciclo",
+    "Perenne"
+   ],
+   [
+    "Hoja",
+    "Ovalada, en roseta"
+   ],
+   [
+    "Raíz",
+    "Gruesa, a veces con forma humana"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La raíz que gritaba al arrancarla",
+  "parrafos": [
+   "La mandrágora aparece en escritos cuneiformes de Oriente Próximo del siglo XIV a. C. y es una de las plantas medicinales más famosas de la historia.[1][4] Se usó durante siglos como anestésico para el dolor, como ayuda para dormir y para la fertilidad.[1][3]",
+   "En el siglo I, Dioscórides recogió la forma humana de la raíz y su uso como anestésico en operaciones como la amputación.[3] En el siglo XV, la «doctrina de las signaturas» creyó que una planta con forma de cuerpo humano curaba el cuerpo.[3]",
+   "El folclore la unió a la brujería: se cuenta que en 1431 una mujer fue acusada en su juicio de llevar una raíz de mandrágora como prueba de hechicería, y se decía que crecía bajo las horcas.[3]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XIV a. C.",
+    "Aparece en escritos cuneiformes de Oriente Próximo.[4]"
+   ],
+   [
+    "Siglo I",
+    "Dioscórides la describe como anestésico quirúrgico.[3]"
+   ],
+   [
+    "Siglo XV",
+    "La doctrina de las signaturas refuerza su fama por la forma humana de la raíz.[3]"
+   ],
+   [
+    "1431",
+    "Una mujer es acusada en su juicio de llevar una raíz de mandrágora.[3]"
+   ],
+   [
+    "Hoy",
+    "Se sigue usando en medicina popular, y sus alcaloides, aislados, mantienen un papel en la medicina.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "mandrágora",
+    "del latín <em>mandragora</em>, que nada tiene que ver con «hombre» ni con «dragón»"
+   ],
+   [
+    "<em>abu'l-ruh</em>",
+    "en árabe antiguo, «el dueño del aliento de vida»"
+   ],
+   [
+    "manzana del diablo",
+    "por su fruto y su fama"
+   ],
+   [
+    "planta de Circe",
+    "por la hechicera de la mitología griega"
+   ]
+  ],
+  "nota_nombres": "El nombre inglés <em>mandrake</em> se presta a una falsa etimología, de «man» y «drake»; la palabra clásica no viene de ahí.[5]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de tierras secas",
+  "parrafos": [
+   "Se encuentra en zonas secas del Mediterráneo y del Levante.[2] Podría haber tenido su origen en Asia occidental.[6]",
+   "Como pasa con las demás solanáceas con tropanos, sirve de planta de jardín y de curiosidad, y de ahí vienen los accidentes."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recoger ni consumir raíces de plantas silvestres de este grupo.",
+   "Respetar la mandrágora como planta de historia y de cuento, no como medicina casera.",
+   "Dejar a los herbarios y a los museos su valor histórico."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-mandragora.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre el Mediterráneo y el Levante.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la mandrágora (Mediterráneo y Levante)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Tropanos que bloquean la acetilcolina",
+  "parrafos": [
+   "Contiene escopolamina, hiosciamina y atropina, alcaloides tropánicos que bloquean los receptores de acetilcolina en las sinapsis nerviosas.[2][5]",
+   "Por eso se la considera extremadamente peligrosa. Sus alcaloides pueden causar delirio y alucinaciones.[2][5] Aislados y modificados, los alcaloides de esta familia siguen teniendo un papel en la medicina actual.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Escopolamina",
+    "clase": "Alcaloide tropánico · anticolinérgico",
+    "img": null,
+    "texto": "Produce delirio, confusión y pérdida de memoria.[2][5]"
+   },
+   {
+    "nombre": "Atropina",
+    "clase": "Alcaloide tropánico · anticolinérgico",
+    "img": null,
+    "texto": "Alcaloide de varias solanáceas tóxicas, entre ellas la mandrágora.[1][5]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un delirio, no una visión",
+  "parrafos": [
+   "Como las demás solanáceas con tropanos, produce delirio y alucinaciones, y no una experiencia lúcida.[5]",
+   "En la historia se usó para dormir y adormecer el dolor, pero pero su uso médico fue decayendo con el tiempo.[1]"
+  ],
+  "tiempo": {
+   "horas": 24,
+   "tramos": [
+    [
+     "a",
+     0,
+     24,
+     "Delirio, con duración variable"
+    ]
+   ],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Lo estudiado es su historia: una revisión de la etnobotánica y de los herbarios sigue su uso médico desde la Antigüedad.[1]",
+   "Sus alcaloides, ya aislados, se han estudiado a fondo, pero la planta cruda no tiene estudios clínicos."
+  ],
+  "alcance": "Su valor es histórico y cultural. No hay evidencia que respalde usar la raíz como medicina, y su fama como anestésico es antigua, no moderna."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Se la considera extremadamente peligrosa por sus tropanos.[2]"
+   ],
+   [
+    "Lo que pasa con estos alcaloides",
+    "Se comportan como los de la datura: delirio, pérdida de contacto con la realidad y casi nada de recuerdo.[2][5]"
+   ],
+   [
+    "Si pasa algo",
+    "Llama a urgencias: en España, el 112. Es una emergencia médica."
+   ],
+   [
+    "Una planta de leyenda",
+    "Su fama mágica nació de la forma de la raíz, no de ninguna virtud probada.[3][5]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Toloache",
+   "Datura innoxia",
+   "Otra solanácea con los mismos alcaloides.",
+   "enciclopedia/toloache/"
+  ],
+  [
+   "planta",
+   "Estramonio",
+   "Datura stramonium",
+   "La datura europea de caminos y escombreras.",
+   "enciclopedia/estramonio/"
+  ],
+  [
+   "planta",
+   "Belladona",
+   "Atropa belladonna",
+   "Otra solanácea de tropanos de la Europa antigua.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Benítez G, Leonti M, Böck B, Vulfsons S, Dafni A. The rise and fall of mandrake in medicine. J Ethnopharmacol. 2022 (PMID 36395976).",
+  "University of Oxford Botanic Garden and Herbaria. Plants 400: Mandragora (Mandrake). herbaria.plants.ox.ac.uk.",
+  "Wellcome Collection. Mandrake: medicine and myths. wellcomecollection.org.",
+  "USDA Forest Service. Mandrake, Abu'l-ruh, Satan's apple (<em>Mandragora</em> spp.). Ethnobotany. fs.usda.gov/wildflowers.",
+  "Wikipedia. «Mandragora officinarum». en.wikipedia.org (consultada el 24-11-2026).",
+  "Taylor & Francis. Mandragora officinarum. taylorandfrancis.com/knowledge."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Loto azul",
+  "loto-azul"
+ ],
+ "siguiente": [
+  "Mapacho",
+  "mapacho"
+ ]
+}
