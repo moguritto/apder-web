@@ -1,0 +1,276 @@
+{
+ "slug": "pituri",
+ "tipo": "preparado",
+ "migas": "Preparado · Solanáceas · Australia central",
+ "nombre": "Pituri",
+ "cientifico": "Duboisia hopwoodii y Nicotiana spp.",
+ "autoridad": "",
+ "descripcion": "Pituri (Duboisia hopwoodii): mezcla de hojas y ceniza que los aborígenes de Australia mascaban como estimulante, rica en nicotina. Historia.",
+ "entrada": "Una mezcla de hojas y ceniza de madera que los aborígenes australianos mascaban como estimulante en gran parte del continente. Las hojas procedían de una población del arbusto <em>Duboisia hopwoodii</em> y de varias especies de tabaco nativo.[1][2]",
+ "otros": "pituri · mingkulpa · pitchuri · pedgery · bedgery · Duboisia hopwoodii · tabaco nativo",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Mezcla masticable de hojas y ceniza"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Australia central e interior; Queensland suroccidental como centro de elaboración"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Las hojas, mezcladas con ceniza de madera"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Nicotina y alcaloides afines"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos aborígenes de Australia central"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Hojas, ceniza y varias plantas",
+  "parrafos": [
+   "Las hojas se recogían de varias especies de tabaco nativo (<em>Nicotiana</em>) o al menos de una población distinta de <em>Duboisia hopwoodii</em>; la ceniza se obtenía quemando especies de <em>Acacia</em>, <em>Grevillea</em> y <em>Eucalyptus</em>.[1][3]",
+   "<em>Duboisia hopwoodii</em> es un arbusto nativo del interior árido de Australia, de nombres comunes «pituri» y «pitcheri».[4]",
+   "Algunos autores usan «pituri» solo para la planta <em>D. hopwoodii</em> y cualquier mezcla masticable que contenga sus hojas.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Plantas",
+    "<em>Duboisia hopwoodii</em> y <em>Nicotiana</em> spp."
+   ],
+   [
+    "Ceniza",
+    "<em>Acacia</em>, <em>Grevillea</em>, <em>Eucalyptus</em>"
+   ],
+   [
+    "Parte usada",
+    "Hojas y ramitas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un bien valioso de intercambio",
+  "parrafos": [
+   "El primer registro del mascado aborigen está en el diario de Joseph Banks de 1770.[1][2]",
+   "Otros informes del siglo XIX decían que mascar pituri hacía videntes a los ancianos, daba valor en la guerra y permitía caminar cientos de kilómetros sin comer ni beber.[1]",
+   "En 1861, la expedición de Burke y Wills recibió de pueblos aborígenes comida y una sustancia que llamaban «bedgery» o «pedgery», que Wills encontró muy intoxicante incluso en pequeñas cantidades.[1]",
+   "La planta se elaboraba sobre todo en el suroeste de Queensland y desde allí se distribuía hasta el golfo de Carpentaria al norte y el lago Eyre al sur; hubo un segundo centro de elaboración en Australia Occidental, del que se sabe poco.[5]",
+   "Se conserva poca información sobre por qué la producción era tan localizada, siendo un bien valioso y una planta no especialmente rara.[5]",
+   "Lo que los europeos asociaban con el pituri, <em>D. hopwoodii</em>, no se mascaba en gran parte de Australia central: allí se mascaba tabaco nativo, según Johnston y Cleland en 1933.[1]"
+  ],
+  "cronologia": [
+   [
+    "1770",
+    "Primer registro europeo del mascado, en el diario de Joseph Banks.[1][2]"
+   ],
+   [
+    "1847",
+    "Edmund Kennedy anota el mascado de una hoja de sabor parecido al tabaco.[2]"
+   ],
+   [
+    "1861",
+    "Burke y Wills reciben «pedgery» de pueblos aborígenes.[1]"
+   ],
+   [
+    "1877",
+    "Mueller identifica un lote de pituri como <em>Duboisia hopwoodii</em>.[1]"
+   ],
+   [
+    "1933",
+    "Johnston y Cleland señalan que en el centro del país se mascaba tabaco nativo.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "pituri",
+    "nombre más difundido"
+   ],
+   [
+    "mingkulpa",
+    "otro nombre aborigen"
+   ],
+   [
+    "pedgery, bedgery",
+    "grafías antiguas"
+   ]
+  ],
+  "nota_nombres": "El mismo nombre sirve para la mezcla, las plantas de las hojas y las plantas de la ceniza.[3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "El interior de Australia",
+  "parrafos": [
+   "<em>Duboisia hopwoodii</em> crece en gran parte del sur y el oeste de Australia, y el tabaco nativo se masca en una extensa zona del interior central.[5][6]",
+   "La rama del comercio llegaba a más de medio millón de kilómetros cuadrados alrededor de donde hoy está Alice Springs.[5]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como bien de pueblos aborígenes concretos.",
+   "No presentarlo como producto.",
+   "Respetar los saberes de cada pueblo."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-pituri.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre el interior de Australia.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del uso del pituri"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Nicotina",
+  "parrafos": [
+   "<em>Duboisia hopwoodii</em> contiene nicotina, como el tabaco.[4] Su contenido puede llegar al 8 %, mucho más que en un cigarrillo manufacturado.[5]",
+   "El análisis químico de muestras de la planta y de una muestra de museo recogida en la zona de los ríos Mulligan y Georgina valida la hipótesis antropológica de que los aborígenes tenían un conocimiento empírico considerable de la nicotina y alcaloides afines.[7]",
+   "Las plantas de algunas regiones tienen mucha nicotina y poca nornicotina, y las de otras zonas pueden tener niveles muy altos de nornicotina.[4]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Nicotina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Principal alcaloide de la planta.[4][5]"
+   },
+   {
+    "nombre": "Nornicotina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Predomina en plantas de algunas regiones.[4]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un estimulante masticado",
+  "parrafos": [
+   "Se masca como estimulante o, tras un uso prolongado, como depresor.[1]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay una revisión de la literatura histórica sobre el uso aborigen de la nicotina en Australia central.[2][7]",
+   "Esa revisión busca dar base a la investigación australiana sobre los posibles efectos en salud del mascado y del uso dérmico.[2]"
+  ],
+  "alcance": "Buena documentación histórica y química; poca investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es un producto con nicotina, de alto contenido.[5]"
+   ],
+   [
+    "Variación",
+    "Según la región, la planta contiene nicotina o nornicotina en proporciones muy distintas.[4]"
+   ],
+   [
+    "Contexto",
+    "Era un bien valioso de intercambio entre pueblos, con su propia red.[5]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta investigación sobre sus efectos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Tabaco",
+   "Nicotiana tabacum",
+   "Mismo alcaloide, otro continente.",
+   "enciclopedia/tabaco/"
+  ],
+  [
+   "planta",
+   "Mapacho",
+   "Nicotiana rustica",
+   "Tabaco ritual amazónico.",
+   "enciclopedia/mapacho/"
+  ],
+  [
+   "planta",
+   "Acacias",
+   "Acacia spp.",
+   "Algunas se queman para obtener la ceniza.",
+   "enciclopedia/acacias/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. Pituri. wikipedia.org/wiki/Pituri.",
+  "Ratsch A et al. The pituri story: a review of the historical literature surrounding traditional Australian Aboriginal use of nicotine in Central Australia. J Ethnobiol Ethnomed. 2010;6:26. link.springer.com/article/10.1186%2F1746-4269-6-26.",
+  "Wikiwand. Pituri. wikiwand.com/en/articles/Pituri.",
+  "Wikipedia. <em>Duboisia hopwoodii</em>. en.wikipedia.org/wiki/Duboisia_hopwoodii.",
+  "van der Sterren A, Knoche D, Winstanley MH. History of tobacco use among Aboriginal and Torres Strait Islander peoples. Tobacco in Australia. 2019. tobaccoinaustralia.org.au/8-2-history-of-tobacco-use-among-aboriginal-people.",
+  "Pituri: planta y mezclas masticables (resumen). doaj.org/article/f29a83cb8eb84d21af2262aba347df0c.",
+  "Análisis químico de <em>Duboisia hopwoodii</em> y de una muestra de pituri de museo. pubmed.ncbi.nlm.nih.gov/6645579/."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Peyote",
+  "peyote"
+ ],
+ "siguiente": [
+  "San Pedro",
+  "san-pedro"
+ ]
+}
