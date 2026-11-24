@@ -83,10 +83,13 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - Se generan con `python3 scripts/tarjetas_og.py` (necesita `pip install pillow cairosvg fonttools brotli`). Para una página nueva: añade su línea en `TARJETAS`, genera y pon en su `<head>` `og:image` y `twitter:image` con la dirección absoluta `https://apder.org/img/og/<nombre>.png`.
 - WhatsApp no enseña la imagen si pesa más de 300 KB: las tarjetas pesan entre 10 y 35 KB. WhatsApp guarda la vista previa de cada enlace; si un enlace ya se había enviado antes del cambio, puede tardar en verse la nueva.
 
-## Guía para participantes
+## Guías de terapia (nuevo, 24-11-2026)
 
-- `docs/guia-sesion/`: guía para enviar a quien tiene una sesión acordada (antes, salud, qué traer, el día, durante, música, después). No se indexa (`noindex`), no está en el mapa del sitio ni en el buscador, y no se enlaza desde el menú: solo se llega por el enlace.
-- Sustituye en contenido a `docs/meditacion-corazon-2026/` y `docs/protocolo-meditacion-agosto-2024/`, que se conservan tal cual (con su tarjeta nueva para compartir).
+- `docs/terapia/index.html` (portada con tarjetas) y `docs/terapia/<slug>/index.html`: 9 guías (`marco-comun`, `mdma`, `psilocibina`, `lsd`, `ketamina`, `ayahuasca`, `ibogaina`, `mescalina`, `5-meo-dmt`) con la plantilla de las guías de medicinas: En pocas palabras, Qué es, Cómo suele estructurarse, Mirada humanista y transpersonal, Qué dice la investigación, Quién no debería, Mitos, Preguntas frecuentes y Referencias.
+- Textos fuente en el proyecto de Claude «Psicodélicos» (`claude/guias-terapia/*.md`); las páginas se generaron con un guion que vive fuera del repo, así que cualquier cambio futuro se hace sobre el HTML publicado.
+- Reglas: sin cifras de dosis, sin legalidad, sin tono alarmista, y APDER no ofrece sesiones ni terapias (lo dicen la cabecera y el aviso de cada página). Pendientes de revisión experta (Quién no debería, interacciones). Resultados de psilocibina y LSD citados vía prensa especializada o nota de la promotora.
+- Menú: atajo «Guías de terapia» en el desplegable Medicinas de todas las páginas (`panel-atajos`). Entradas en `sitemap.xml` y en el buscador (`construir_indice.py`, sección «Guías de terapia»). Usan la tarjeta general `og-apder.png`: falta una tarjeta propia.
+- La «Guía para tu sesión» (`/guia-sesion/`) y los dos protocolos de taller se retiraron el 21-11-2026 y ya no existen en la web.
 
 ## Ayudas de lectura (tierra.js)
 

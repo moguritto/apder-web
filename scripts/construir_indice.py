@@ -34,6 +34,7 @@ SECCIONES = {
     'biblioteca': 'Biblioteca',
     'quien-es-quien': 'Quién es quién',
     'terapia-asistida-mdma': 'Terapia',
+    'terapia': 'Guías de terapia',
     'aviso-legal': 'Información legal',
     'politica-de-privacidad': 'Información legal',
 }
