@@ -1,0 +1,267 @@
+{
+ "slug": "yopo",
+ "tipo": "planta",
+ "migas": "Planta · Leguminosas · Orinoco, Amazonía y Caribe",
+ "nombre": "Yopo",
+ "cientifico": "Anadenanthera peregrina",
+ "autoridad": "(L.) Speg.",
+ "descripcion": "Yopo (Anadenanthera peregrina): árbol de cuyas semillas tostadas y molidas se hace un rapé visionario usado en la cuenca del Orinoco desde hace milenios.",
+ "entrada": "Un árbol espinoso de las sabanas y riberas del Orinoco cuyas semillas, tostadas y molidas, se convierten en un polvo que se sopla por la nariz. Es uno de los rapés visionarios más conocidos de América y su uso ritual sigue vivo en comunidades del Orinoco y la Amazonía.[1][2]",
+ "otros": "yopo · jopo · cohoba · cojoba · parica · niopo · mopo · nopo · árbol del calcio",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol cuyas semillas dan un rapé visionario"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Orinoco, Amazonía y Caribe"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Semillas"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Bufotenina, con trazas de DMT y 5-MeO-DMT"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Piaroa, Guahibo, Maipures y otros pueblos del Orinoco"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El árbol del yopo",
+  "parrafos": [
+   "<em>Anadenanthera peregrina</em> es un árbol perenne nativo del Caribe y Sudamérica; alcanza hasta 20 m de altura y tiene la corteza espinosa.[3][4] Sus flores son de color amarillo pálido a blanco y esféricas.[5]",
+   "Se conoce como yopo, jopo, cohoba, cojoba, parica o «árbol del calcio».[4]",
+   "Antes se llamaba <em>Piptadenia peregrina</em>, nombre con el que aparece en buena parte de la literatura clásica.[6]",
+   "Está muy emparentada con <em>Anadenanthera colubrina</em>, de la que se obtiene en el norte de Argentina el cebil, y cuyas semillas tienen una composición química parecida.[2][5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Leguminosas (Fabaceae)"
+   ],
+   [
+    "Altura",
+    "Hasta 20 m"
+   ],
+   [
+    "Corteza",
+    "Espinosa"
+   ],
+   [
+    "Parte usada",
+    "Semillas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un rapé que viene de lejos",
+  "parrafos": [
+   "Según ICEERS, su uso ritual sigue vivo en varias comunidades indígenas, sobre todo en el Orinoco y la Amazonía, dentro de sistemas espirituales complejos; su uso no busca lo recreativo, sino restablecer el equilibrio espiritual, emocional y colectivo.[1][2]",
+   "El uso del yopo está documentado arqueológicamente desde hace más de 4000 años: una datación por radiocarbono dio 2130 a. C.[4] En la costa central de Perú se encontraron bandejas y tubos de inhalación similares a los del yopo que datan de 1200 a. C.[4]",
+   "En 1801 Alexander von Humboldt describió su uso entre los maipures del Orinoco, aunque atribuyó su fuerza a la cal mezclada con semillas fermentadas.[1] Medio siglo después Richard Spruce documentó con detalle su uso entre los guahibo.[2]",
+   "Entre los piaroa, los hombres toman el yopo con una bandeja redonda y tubos en forma de Y hechos de hueso de ave.[7] Los piaroa lo incluyen en sus mitos de origen, y sus relatos advierten también de los peligros de abusar de él.[8]",
+   "Se creyó durante siglos que la cohoba de los taínos era una forma de tabaco, hasta que Safford la identificó con el rapé de <em>Piptadenia peregrina</em>.[1]"
+  ],
+  "cronologia": [
+   [
+    "2130 a. C.",
+    "Fecha radiocarbono de semillas de Anadenanthera asociadas a uso alucinógeno"
+   ],
+   [
+    "1496",
+    "Cita española en La Española de la cohoba"
+   ],
+   [
+    "1801",
+    "Humboldt describe el yopo entre los maipures"
+   ],
+   [
+    "1855",
+    "Richard Spruce anota su preparación y uso (Orinoco)"
+   ]
+  ],
+  "nombres": [
+   [
+    "yopo, jopo",
+    "Orinoco (Colombia, Venezuela)"
+   ],
+   [
+    "cohoba, cojoba",
+    "Caribe taíno"
+   ],
+   [
+    "niopo, nopo, mopo",
+    "otros pueblos del Orinoco"
+   ],
+   [
+    "parica",
+    "Amazonía"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Orinoco, Amazonía y Caribe",
+  "parrafos": [
+   "Es nativo del Caribe y Sudamérica.[3] El rapé se sigue usando en la cuenca del Orinoco, en el área de Venezuela y Colombia.[8]",
+   "Ya no se emplea en las islas del Caribe, aunque se estudió allí en tiempos de los primeros cronistas.[9]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como saber de pueblos del Orinoco.",
+   "No comprar polvos de origen incierto.",
+   "Respetar el contexto ritual de quienes lo guardan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-yopo.svg",
+   "alt": "Mapa con la cuenca del Orinoco y norte de la Amazonía sombreados.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del yopo"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Triptaminas en la semilla",
+  "parrafos": [
+   "Según ICEERS, el compuesto más abundante cuando se administra por la nariz es la bufotenina (5-HO-DMT), con trazas de DMT y 5-MeO-DMT.[2]",
+   "Las semillas de <em>A. colubrina</em> tienen una composición química similar, con la bufotenina como componente principal.[5]",
+   "En un rapé de los piaroa se detectó harmina, un compuesto que no procede de <em>Anadenanthera</em>.[7]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un uso ritual, no recreativo",
+  "parrafos": [
+   "Las fuentes consultadas describen su uso como parte de contextos de sanación, sociales y chamánicos.[8]",
+   "No ofrecen datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Los estudios etnobotánicos clásicos de Schultes, Holmstedt y von Reis Altschul identificaron la planta y sus triptaminas.[9][10]",
+   "Hay un trabajo sobre la combinación del yopo con <em>Banisteriopsis caapi</em> entre los piaroa del sur de Venezuela.[11]"
+  ],
+  "alcance": "Estudio etnobotánico y químico; poca investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "La bufotenina tiene una farmacología poco estudiada.[2]"
+   ],
+   [
+    "Contexto",
+    "Su uso tradicional busca restablecer un equilibrio, no la recreación.[2]"
+   ],
+   [
+    "Polvos comerciales",
+    "Hay polvos sin trazabilidad; la identidad botánica no siempre está clara."
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos clínicos fiables."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Cebil",
+   "Anadenanthera colubrina",
+   "Especie hermana del norte de Argentina.",
+   "enciclopedia/cebil/"
+  ],
+  [
+   "preparado",
+   "Cohoba",
+   "Rapé taíno",
+   "Nombre caribeño del rapé de Anadenanthera.",
+   null
+  ],
+  [
+   "preparado",
+   "Epená",
+   "Virola spp.",
+   "Otro rapé visionario de la Amazonía.",
+   "enciclopedia/epena/"
+  ]
+ ],
+ "fuentes": [
+  "ICEERS. <em>Yopo: Basic Info</em>. iceers.org/yopo-basic-info/.",
+  "ICEERS. <em>Yopo: Basic Info</em> (origen e historia, química). iceers.org/rape/.",
+  "Wikipedia. <em>Anadenanthera peregrina</em>. en.wikipedia.org/wiki/Anadenanthera_peregrina.",
+  "Wikipedia. <em>Anadenanthera peregrina</em> (arqueología). en.wikipedia.org/wiki/Anadenanthera_peregrina.",
+  "Wikidoc. <em>Anadenanthera peregrina</em>. wikidoc.org/index.php/Anadenanthera_peregrina.",
+  "Schultes, R. E., Lindgren, J.-E., Holmstedt, B. y Rivier, L. Botanical and chemical collections of <em>Anadenanthera peregrina</em>. archive.org/download/biostor-160945/biostor-160945.pdf.",
+  "MAPS. Bibliografía: rapés del Orinoco. bibliography.maps.org/resources/download/12242.",
+  "Tripsitter. <em>Psychedelic Snuffs of South America: Yopo, Willka & Epena</em>. tripsitter.substack.com/p/psychedelic-snuffs.",
+  "MAPS. Bibliografía: rapé yopo. bibliography.maps.org/resources/download/15073.",
+  "Schultes, R. E. y Hofmann, A., citados en la bibliografía de MAPS. bibliography.maps.org/resources/download/15073.",
+  "Wikipedia. <em>Cohoba</em> (cita a «Snuff Synergy», <em>Journal of Psychoactive Drugs</em> 34 (3): 273–279). wikipedia.com/wiki/Cohoba."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Voacanga",
+  "voacanga"
+ ],
+ "siguiente": [
+  "Acacias",
+  "acacias"
+ ]
+}
