@@ -9,6 +9,10 @@
     cab.classList.toggle('menu-abierto',o);html.classList.toggle('menu-fijo',o);
     if(tog){tog.setAttribute('aria-expanded',o?'true':'false');tog.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú')}
     if(o)html.style.setProperty('--cab-alto',cab.getBoundingClientRect().height+'px');
+    /* móvil: al abrir o cerrar el menú, todos los paneles vuelven plegados y el menú arranca arriba;
+       si no, «Medicinas» se queda abierto, ocupa la pantalla y las demás entradas quedan fuera de vista */
+    if(typeof cerrarTodos==='function')cerrarTodos(null);
+    if(menu)menu.scrollTop=0;
   }
   if(tog)tog.addEventListener('click',function(){movil(tog.getAttribute('aria-expanded')!=='true')});
 
