@@ -1,0 +1,243 @@
+{
+ "slug": "marihuanilla",
+ "tipo": "planta",
+ "migas": "Planta · Lamiáceas · Asia, naturalizada en América",
+ "nombre": "Marihuanilla",
+ "cientifico": "Leonurus sibiricus",
+ "autoridad": "L.",
+ "descripcion": "Marihuanilla (Leonurus sibiricus): labiada de Asia con nombre de «pequeña marihuana», usada en medicina china y como hierba de fumar. Historia y química.",
+ "entrada": "Una hierba de la familia de la menta, nativa de China, Mongolia y Siberia y naturalizada en muchas regiones del mundo, incluida América. En América se le llama «marihuanilla» o «pequeña marihuana»; en China tiene una larga tradición medicinal.[1][2][3]",
+ "otros": "marihuanilla · agripalma siberiana · honeyweed · Siberian motherwort · little marijuana · yi mu cao · Leonurus sibiricus",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba anual o bienal de la familia de la menta"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Nativa de China, Mongolia y Siberia; naturalizada en otros continentes"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hojas y partes aéreas"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Leonurina, entre otros compuestos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina tradicional china y usos populares americanos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una labiada de verticilos",
+  "parrafos": [
+   "<em>Leonurus sibiricus</em> es una planta herbácea de la familia de las lamiáceas, conocida como «honeyweed» o «Siberian motherwort», con inflorescencia en verticilastros.[1]",
+   "Es anual o bienal, con tallos erguidos de 20 a 80 cm, hojas basales largamente pecioladas de forma ovado-cordada, con márgenes dentados y lóbulos profundos.[1]",
+   "Florece de julio a septiembre.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Lamiaceae"
+   ],
+   [
+    "Altura",
+    "20 a 80 cm"
+   ],
+   [
+    "Ciclo",
+    "Anual o bienal"
+   ],
+   [
+    "Floración",
+    "Julio a septiembre"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Entre la medicina china y el nombre americano",
+  "parrafos": [
+   "En China se ha usado contra abscesos, forúnculos, mordeduras de insectos y de serpiente, y con fines afrodisíacos y otros, según compendios de medicina china como los de Li Shih-chen y Keys.[4]",
+   "Se registra también para circulación, hipertensión, menorragia y diuresis en manuales chinos.[5]",
+   "En China se comen sus brotes y hojas.[6]",
+   "Entre sus nombres figuran «marihuanilla», «pequeña marihuana», «honeyweed» y «Xi ye yi mu cao».[3][2]",
+   "Su parecido con la marihuana está en el nombre, no en la química: no hay indicios en las fuentes consultadas de que contenga cannabinoides."
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "marihuanilla",
+    "América"
+   ],
+   [
+    "agripalma siberiana",
+    "nombre en español de la especie"
+   ],
+   [
+    "<em>honeyweed</em>",
+    "inglés"
+   ],
+   [
+    "<em>yi mu cao</em>",
+    "chino"
+   ]
+  ],
+  "nota_nombres": "No confundir con <em>Leonotis leonurus</em>, la «cola de león» o «cannabis silvestre» africano.[7]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "De Siberia a América",
+  "parrafos": [
+   "Es nativa de China, Mongolia y Siberia y se ha naturalizado en el sur, el centro y el norte de América.[1]",
+   "En Norteamérica se considera una hierba de campos, bordes de camino y pinares, de suelos arenosos o pedregosos.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como hierba de la medicina tradicional china.",
+   "No tratarla como sucedáneo de otras plantas.",
+   "Respetar su nombre popular sin confundirlo."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-marihuanilla.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre Asia oriental y Siberia.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área nativa aproximada de la marihuanilla"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Leonurina",
+  "parrafos": [
+   "En las hojas se ha medido leonurina en torno al 0,5 %, además de un aceite graso.[6]",
+   "Las fuentes consultadas no recogen una química psicoactiva demostrada."
+  ],
+  "moleculas": [
+   {
+    "nombre": "Leonurina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Compuesto citado en las hojas.[6]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "Las fuentes consultadas no ofrecen datos fiables de efectos, aparición ni duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "La documentación disponible es sobre todo etnobotánica, en bases de datos de usos tradicionales.[4][5]",
+   "No hay estudios clínicos sobre ningún uso psicoactivo."
+  ],
+  "alcance": "Uso tradicional documentado; sin investigación clínica en este campo."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Nombre engañoso",
+    "El nombre «marihuanilla» no indica que tenga relación química con el cannabis.[1][3]"
+   ],
+   [
+    "Confusión de plantas",
+    "Hay otras plantas llamadas «cannabis silvestre» o parecidas, como la cola de león.[7]"
+   ],
+   [
+    "Contexto",
+    "Su historia documentada es medicinal y alimentaria, sobre todo en China.[4][6]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios fiables sobre otros usos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Cola de león",
+   "Leonotis leonurus",
+   "Otra labiada con apodo de «cannabis silvestre».",
+   "enciclopedia/cola-de-leon/"
+  ],
+  [
+   "planta",
+   "Cannabis",
+   "Cannabis sativa",
+   "La planta cuyo nombre da origen al diminutivo.",
+   "enciclopedia/cannabis/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Leonurus sibiricus</em>. wikipedia.org/wiki/Leonurus_sibiricus.",
+  "Minnesota Wildflowers. <em>Leonurus sibiricus</em> (Siberian motherwort). minnesotawildflowers.info/flower/siberian-motherwort.",
+  "Pl@ntNet. <em>Leonurus sibiricus</em> L. identify.plantnet.org/reunion/species/Leonurus%20sibiricus%20L./data.",
+  "USDA. Ethnobotanical plant <em>Leonurus sibiricus</em>. phytochem.nal.usda.gov/ethnobotanical-plant-leonurus-sibiricus.",
+  "USDA. Ethnobotanical Plant <em>Leonurus sibiricus</em> (usos). phytochem.nal.usda.gov/node/12236.",
+  "Purdue University. Famine foods: <em>Leonurus sibiricus</em>. purdue.edu/hla/sites/famine-foods/?p=4618.",
+  "Wild cannabis: a review of the traditional use and phytochemistry of <em>Leonotis leonurus</em>. J Ethnopharmacol. 2015;174:520-539. pubmed.ncbi.nlm.nih.gov/26292023/."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Mapacho",
+  "mapacho"
+ ],
+ "siguiente": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ]
+}
