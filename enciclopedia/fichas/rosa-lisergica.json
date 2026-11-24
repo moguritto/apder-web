@@ -1,0 +1,280 @@
+{
+ "slug": "rosa-lisergica",
+ "tipo": "planta",
+ "migas": "Planta · Convolvuláceas · Subcontinente indio",
+ "nombre": "Rosa lisérgica",
+ "cientifico": "Argyreia nervosa",
+ "autoridad": "(Burm.f.) Bojer",
+ "descripcion": "Rosa lisérgica (Argyreia nervosa): enredadera india cuyas semillas contienen alcaloides ergolínicos como el LSA. Historia, botánica y química.",
+ "entrada": "Una enredadera trepadora del subcontinente indio, llamada también rosa de madera hawaiana, cuyas semillas contienen alcaloides ergolínicos. Su uso psicoactivo es reciente, mientras que sus raíces y hojas tienen larga historia en la medicina ayurvédica.[1][2][3][5]",
+ "otros": "rosa lisérgica · rosa de madera hawaiana · Hawaiian baby woodrose · elephant creeper · woolly morning glory · bidhara · Argyreia speciosa",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Enredadera perenne de la familia de las campanillas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Subcontinente indio; introducida en Hawái, África y el Caribe"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La semilla; la raíz en la medicina ayurvédica"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides ergolínicos, entre ellos ergina (LSA)"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina ayurvédica; uso psicoactivo moderno desde los años sesenta"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una campanilla gigante",
+  "parrafos": [
+   "<em>Argyreia nervosa</em> es una enredadera trepadora perenne de la familia de las convolvuláceas, nativa del subcontinente indio e introducida en numerosas regiones del mundo, entre ellas Hawái, África y el Caribe.[5]",
+   "Sus nombres comunes incluyen «elephant creeper», «woolly morning glory» y «Hawaiian baby woodrose».[1] A pesar de su nombre popular, no es originaria de Hawái.[1]",
+   "Se reconocen dos variedades botánicas: <em>nervosa</em> y <em>speciosa</em>; las raíces de esta última se emplean en la medicina ayurvédica.[2]",
+   "Se cultiva por su valor ornamental y medicinal, aunque puede ser invasora.[1] Donde la temperatura baja de 13 °C se cultiva en invernadero cálido.[6]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Convolvulaceae"
+   ],
+   [
+    "Hábito",
+    "Enredadera perenne"
+   ],
+   [
+    "Variedades",
+    "<em>nervosa</em> y <em>speciosa</em>"
+   ],
+   [
+    "Parte usada",
+    "Semilla"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "De la medicina ayurvédica a las semillas psicoactivas",
+  "parrafos": [
+   "La variedad <em>speciosa</em> se usa en la medicina ayurvédica, con raíces que se consideran de gran valor medicinal.[2]",
+   "Sus propiedades psicoactivas se dieron a conocer en los años sesenta.[6] En 1965 un artículo en <em>Science</em> sobre alcaloides ergolínicos de esta planta la llevó a la escena de las drogas.[3]",
+   "Entre 1968 y 1969 se distribuyeron y se usaron de forma recreativa semillas de <em>Argyreia nervosa</em> y de <em>Ipomoea violacea</em> en Estados Unidos.[7]",
+   "Un libro de 1972 sobre el uso psicoactivo de plantas cuenta que hawaianos pobres la consumían para un «colocón barato».[7]",
+   "Shawcross revisó en 1983 su botánica y su química, y reunió informes de uso a partir de la literatura popular, autoexperimentación y un panel de voluntarios.[3]",
+   "Sus semillas son conocidas por su potente efecto enteogénico, con personas que informan de experiencias psicodélicas y espirituales.[2]"
+  ],
+  "cronologia": [
+   [
+    "1965",
+    "Primeras publicaciones sobre su química; se identifica tentativamente la amida del ácido lisérgico.[7]"
+   ],
+   [
+    "1968-1969",
+    "Uso recreativo en Estados Unidos.[7]"
+   ],
+   [
+    "1970",
+    "Miller identifica la amida del ácido lisérgico y la isolisérgica como alcaloides principales.[8]"
+   ],
+   [
+    "1972",
+    "Un libro cuenta su consumo entre hawaianos pobres.[7]"
+   ]
+  ],
+  "nombres": [
+   [
+    "rosa lisérgica",
+    "nombre en español"
+   ],
+   [
+    "<em>Hawaiian baby woodrose</em>",
+    "inglés"
+   ],
+   [
+    "<em>elephant creeper</em>",
+    "inglés"
+   ],
+   [
+    "<em>bidhara</em>",
+    "nombre ayurvédico"
+   ]
+  ],
+  "nota_nombres": "El nombre «rosa de madera hawaiana» es engañoso: la planta es de la India.[1]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "De la India a los trópicos",
+  "parrafos": [
+   "Nativa del subcontinente indio, se ha introducido en Hawái, África y el Caribe.[5]",
+   "Puede ser invasora donde se ha naturalizado.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como planta ayurvédica y ornamental.",
+   "No cultivarla en zonas donde pueda invadir.",
+   "Distinguir su uso medicinal del uso psicoactivo moderno."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-rosa-lisergica.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre el subcontinente indio.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área nativa aproximada de la rosa lisérgica"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides ergolínicos",
+  "parrafos": [
+   "Las semillas contienen alcaloides ergolínicos como la ergina (amida del ácido lisérgico, LSA) y la isoergina.[1]",
+   "Estudios posteriores señalan también ergometrina, lisergol, ácido lisérgico y otros alcaloides, y se ha informado de metilergometrina y metisergida, que se creían exclusivamente sintéticas.[5][6]",
+   "En <em>Ipomoea tricolor</em>, planta emparentada, la concentración de ergolinas en las hojas es doce veces menor que en las semillas.[1]",
+   "Los alcaloides de las semillas varían mucho de una a otra.[6]",
+   "El glucósido argirósido es exclusivo de <em>Argyreia nervosa</em>.[4]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Ergina (LSA)",
+    "clase": "Ergolina",
+    "img": null,
+    "texto": "Alcaloide principal de las semillas.[1][8]"
+   },
+   {
+    "nombre": "Isoergina",
+    "clase": "Ergolina",
+    "img": null,
+    "texto": "Presente junto a la ergina.[1]"
+   },
+   {
+    "nombre": "Ergometrina",
+    "clase": "Ergolina",
+    "img": null,
+    "texto": "Hallada en estudios más recientes.[5]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una experiencia psicodélica descrita por usuarios",
+  "parrafos": [
+   "Las personas que la han usado informan de experiencias psicodélicas y espirituales importantes.[2]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay revisiones de su botánica y su química y estudios fitoquímicos de las semillas.[3][8]",
+   "No hay estudios clínicos de su uso psicoactivo."
+  ],
+  "alcance": "Química bien documentada; sin estudios clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Las semillas contienen alcaloides ergolínicos con acción sobre la serotonina y los vasos sanguíneos.[9]"
+   ],
+   [
+    "Variación",
+    "La concentración de alcaloides cambia mucho de una semilla a otra.[6]"
+   ],
+   [
+    "Contexto",
+    "Su uso psicoactivo es reciente y de origen occidental, no tradicional.[3][7]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Gloria de la mañana",
+   "Ipomoea tricolor",
+   "Convolvulácea con alcaloides parecidos.",
+   "enciclopedia/gloria-de-la-manana/"
+  ],
+  [
+   "planta",
+   "Ololiuqui",
+   "Turbina corymbosa",
+   "Convolvulácea de uso ritual mesoamericano.",
+   "enciclopedia/ololiuqui/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Argyreia nervosa</em>. en.wikipedia.org/wiki/Argyreia_nervosa.",
+  "Wikiwand. <em>Argyreia nervosa</em> (Hawaiian baby woodrose). wikiwand.com/en/articles/Hawaiian_baby_woodrose.",
+  "Shawcross WE. Recreational use of ergoline alkaloids from <em>Argyreia nervosa</em>. J Psychoactive Drugs. 1983. bibliography.maps.org/resources/download/14848.",
+  "Wikipedia. <em>Argyreia nervosa</em> (glucósidos y ergolinas). en.wikipedia.com/wiki/Argyroside.",
+  "Earthpedia. Hawaiian baby woodrose (<em>Argyreia nervosa</em>). earthpedia.earth.com/plant-encyclopedia/angiosperms/convolvulaceae/argyreia-nervosa.",
+  "Wikiwand. Elephant creeper (<em>Argyreia nervosa</em>). wikiwand.com/en/articles/Elephant_creeper.",
+  "Erowid. Hawaiian baby woodrose (<em>Argyreia nervosa</em>): timeline. erowid.org/plants/hbw/hbw_timeline.php.",
+  "Miller MD. Isolation and identification of lysergic acid amide and isolysergic acid amide as the principal ergoline alkaloids in <em>Argyreia nervosa</em>. J AOAC. 1970;53(1):123-127. taz4.erowid.org/plants/hbw/hbw_info1.shtml.",
+  "RxList. Hawaiian baby woodrose. rxlist.com/hawaiian_baby_woodrose/supplements.htm."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Raíz africana de los sueños",
+  "raiz-africana-de-los-suenos"
+ ],
+ "siguiente": [
+  "San Pedro",
+  "san-pedro"
+ ]
+}
