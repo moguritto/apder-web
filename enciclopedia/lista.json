@@ -166,7 +166,7 @@
    "guia": "sustancias/datura/"
   },
   {
-   "slug": null,
+   "slug": "loto-azul",
    "tipo": "planta",
    "nombre": "Loto azul",
    "cientifico": "Nymphaea caerulea",
@@ -442,7 +442,7 @@
    "nombre": "Loto azul",
    "detalle": "Nymphaea caerulea",
    "tipo": "planta",
-   "slug": null
+   "slug": "loto-azul"
   },
   {
    "nombre": "Mandrágora",

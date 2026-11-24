@@ -1,0 +1,274 @@
+{
+ "slug": "loto-azul",
+ "tipo": "planta",
+ "migas": "Planta · Ninfeáceas · Valle del Nilo",
+ "nombre": "Loto azul",
+ "cientifico": "Nymphaea caerulea",
+ "autoridad": "Savigny",
+ "descripcion": "Loto azul (Nymphaea caerulea): el nenúfar del antiguo Egipto. Botánica, historia, aporfinas, qué se sabe y qué se vende hoy con su nombre.",
+ "entrada": "El nenúfar de flores azules que se ve en los relieves y papiros del antiguo Egipto. Se le atribuyen efectos psicoactivos por sus alcaloides, pero los extractos auténticos analizados apenas los contienen y lo que se vende hoy con su nombre es muy variable.[1][2][3]",
+ "otros": "loto azul · loto azul egipcio · nenúfar azul · lirio sagrado del Nilo",
+ "portada": {
+  "img": "idx-loto.jpg",
+  "alt": "Una flor de loto azul abierta sobre el agua, con pétalos azul pálido y el centro amarillo.",
+  "pie": "Loto azul (<em>Nymphaea caerulea</em>).",
+  "cred": "Ermell · CC BY-SA 4.0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Planta acuática perenne de flores azules, de la familia de los nenúfares"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Valle del Nilo; hoy en lagos y ríos de varios continentes"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La flor"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Aporfinas, como la apomorfina y la nuciferina, discutidas"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "El antiguo Egipto; se la compara con el uso maya del nenúfar"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un nenúfar que abre por la mañana",
+  "parrafos": [
+   "Es una planta acuática perenne que crece en ríos y lagos, desde el nivel del mar hasta unos 2.700 metros de altitud.[2]",
+   "Las flores se abren a media mañana y se cierran por la tarde. Pueden ser azules, blancas o rosas, aunque el azul es el color más común.[2]",
+   "Algunos botánicos la consideran una variedad de <em>Nymphaea nouchali</em>.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Nymphaeaceae"
+   ],
+   [
+    "Hábitat",
+    "Aguas dulces, ríos y lagos"
+   ],
+   [
+    "Flor",
+    "Azul, blanca o rosa; se abre por la mañana"
+   ],
+   [
+    "Ciclo",
+    "Perenne"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La flor que renace con el sol",
+  "parrafos": [
+   "Dibujos y pinturas del loto azul aparecen en papiros y tumbas egipcias desde el siglo XIV a. C., y se han interpretado como señal de su uso en rituales y prácticas de salud.[2]",
+   "Uno de los argumentos más citados es un papiro erótico de Turín, donde aparece un loto sobre la cabeza de una mujer, quizá una referencia a su uso para el deseo.[1] Se ha comparado además con el uso del nenúfar entre los mayas, que habrían usado <em>Nymphaea ampla</em>.[3]",
+   "Hoy se discute si esas lecturas son sólidas. Un trabajo reciente de la Universidad de California en Berkeley sostiene que el loto azul egipcio y el nenúfar que se vende en línea son plantas distintas, y que quizá se haya entendido mal cómo se consumía.[4]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XIV a. C.",
+    "Aparece el loto azul en papiros y tumbas de Egipto.[2]"
+   ],
+   [
+    "1981",
+    "Se publica la comparación del uso ritual de los nenúfares en Egipto y entre los mayas.[3]"
+   ],
+   [
+    "2004",
+    "Una revisión propone que los nenúfares son plantas con apomorfina usadas desde la Antigüedad.[1]"
+   ],
+   [
+    "2023",
+    "Un análisis de extractos auténticos y comerciales halla casi sin apomorfina ni nuciferina al extracto auténtico.[2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "loto azul",
+    "nombre común, por el color de sus flores"
+   ],
+   [
+    "loto egipcio",
+    "por su lugar en el antiguo Egipto"
+   ],
+   [
+    "nenúfar",
+    "del árabe <em>nīlūfar</em>, el nombre de los lotos acuáticos"
+   ],
+   [
+    "<em>Nymphaea</em>",
+    "del griego, por las ninfas de los ríos"
+   ]
+  ],
+  "nota_nombres": "«Loto» es un nombre que se da a plantas muy distintas. No debe confundirse el nenúfar con el loto sagrado asiático (<em>Nelumbo</em>), que no es lo mismo.",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un nenúfar del Nilo, hoy en muchas aguas",
+  "parrafos": [
+   "Se asocia al valle del Nilo, en Egipto, y hoy se encuentra en lagos y ríos de muchas partes del mundo.[2]",
+   "Lo que se vende en línea con este nombre no siempre es esa especie: según el trabajo de Berkeley, muchos productos usan otro nenúfar.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Preguntar qué especie es el producto y de dónde viene antes de creer su etiqueta.",
+   "Preferir el estudio y el respeto histórico a la compra de extractos.",
+   "No sacar plantas acuáticas de su entorno para venderlas."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-loto-azul.svg",
+   "alt": "Mapa con una franja sombreada en ocre a lo largo del valle del Nilo.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Valle del Nilo (zona asociada al loto azul)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Aporfinas, una pista que no cuadra del todo",
+  "parrafos": [
+   "A las flores se les atribuyen aporfinas, como la apomorfina y la nuciferina, y se ha propuesto que expliquen su historia como planta psicoactiva.[1][3]",
+   "En 2023 se analizaron seis extractos auténticos de <em>N. caerulea</em> y once productos comerciales: la apomorfina y la nuciferina, responsables de los efectos psicoactivos, estaban prácticamente ausentes del extracto auténtico.[2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Apomorfina",
+    "clase": "Aporfina · discutida",
+    "img": null,
+    "texto": "Se aisló de nenúfares y se propuso como base de su uso antiguo, pero no apareció en el extracto auténtico analizado en 2023.[1][2]"
+   },
+   {
+    "nombre": "Nuciferina",
+    "clase": "Aporfina · discutida",
+    "img": null,
+    "texto": "También ausente, casi del todo, en el extracto auténtico analizado.[2]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una calma suave, si es que hay efecto",
+  "parrafos": [
+   "Hoy se toma, sobre todo en té o tintura, para relajarse y sentir mayor conciencia espiritual.[2]",
+   "Como los análisis no hallan los alcaloides esperados, parte de lo que se vive puede venir del contexto y de la expectativa más que de la planta.[2]"
+  ],
+  "tiempo": {
+   "horas": 4,
+   "tramos": [
+    [
+     "a",
+     0,
+     4,
+     "Efecto leve y variable"
+    ]
+   ],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Lo estudiado es sobre todo histórico y químico: la arqueología del loto, la comparación con el nenúfar maya y el análisis de extractos.[1][2][3]",
+   "No hay ensayos en personas que muestren un efecto del loto azul."
+  ],
+  "alcance": "La interpretación de la imagen del loto como «droga» es una hipótesis. Los análisis recientes no la confirman, y el contenido de los productos comerciales varía mucho."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo que se vende",
+    "Los productos no siempre son de la especie del Egipto antiguo ni contienen lo que se espera.[2][4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay ensayos en personas que midan sus efectos ni su seguridad."
+   ],
+   [
+    "Historia y mito",
+    "Las imágenes egipcias no prueban un uso psicoactivo; son una hipótesis.[1][4]"
+   ],
+   [
+    "Calidad",
+    "Un análisis independiente da más información que la etiqueta.[2]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Mandrágora",
+   "Mandragora officinarum",
+   "Otra planta de la Antigüedad con fama de narcótica.",
+   null
+  ],
+  [
+   "planta",
+   "Cacao",
+   "Theobroma cacao",
+   "Otra planta ligada a un uso ritual antiguo.",
+   "enciclopedia/cacao/"
+  ]
+ ],
+ "fuentes": [
+  "Bertol E, Fineschi V, Karch SB, Mari F, Riezzo I. Nymphaea cults in ancient Egypt and the New World: a lesson in empirical pharmacology. J R Soc Med. 2004;97(2):84-85.",
+  "Dosoky NS, Shah SA, Dawson JT, et al. Chemical composition, market survey, and safety assessment of blue lotus (<em>Nymphaea caerulea</em> Savigny) extracts. Molecules. 2023;28(20):7014.",
+  "Emboden WA. Transcultural use of narcotic water lilies in ancient Egyptian and Maya drug ritual. J Ethnopharmacol. 1981;3(1):39-83.",
+  "University of California, Berkeley. Investigating the psychedelic blue lotus of Egypt, where ancient magic meets modern science. 13 de marzo de 2025. artshumanities.berkeley.edu."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Kratom",
+  "kratom"
+ ],
+ "siguiente": [
+  "Mapacho",
+  "mapacho"
+ ]
+}
