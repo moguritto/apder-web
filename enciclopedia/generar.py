@@ -132,9 +132,12 @@ def ficha(d):
     def parrafos(ps, lead=True):
         return "".join(f'<p class="lead">{fmt(p)}</p>' if (lead and i == 0) else f"<p>{fmt(p)}</p>" for i, p in enumerate(ps))
 
+    sin_galeria = not d["galeria"]
     indice = [(d["planta"]["id"], "El hongo" if d["tipo"] == "hongo" else "La planta"), ("memoria", "Memoria y tradición"), ("territorio", "Territorio y cuidado"),
               ("quimica", "Qué contiene"), ("experiencia", "La experiencia"), ("investigacion", "Investigación"), ("cuidado", "Con cuidado"),
               ("galeria", "Galería"), ("seguir", "Para seguir"), ("fuentes", "Fuentes")]
+    if sin_galeria:
+        indice = [i for i in indice if i[0] != "galeria"]
     creditos = [(d["portada"]["pie"], d["portada"]["cred"])]
     g = d["guia"]
     h = []
@@ -234,7 +237,8 @@ def ficha(d):
     # galería
     gal = "".join(figura(x, x["cls"]) for x in d["galeria"])
     creditos += [(x["pie"], x["cred"]) for x in d["galeria"]]
-    h.append(f'<section class="f-sec" id="galeria"><p class="etq">Galería</p><h2>Mirar de cerca</h2><div class="f-galeria">{gal}</div></section>')
+    if d["galeria"]:
+        h.append(f'<section class="f-sec" id="galeria"><p class="etq">Galería</p><h2>Mirar de cerca</h2><div class="f-galeria">{gal}</div></section>')
     # para seguir
     libros = ""
     for b in d["libros"]:

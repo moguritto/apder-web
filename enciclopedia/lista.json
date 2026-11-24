@@ -78,7 +78,7 @@
    "guia": null
   },
   {
-   "slug": null,
+   "slug": "san-pedro",
    "tipo": "cactus",
    "nombre": "San Pedro",
    "cientifico": "Echinopsis pachanoi",
@@ -586,7 +586,7 @@
    "nombre": "San Pedro",
    "detalle": "Echinopsis pachanoi",
    "tipo": "cactus",
-   "slug": null
+   "slug": "san-pedro"
   },
   {
    "nombre": "Amanita pantera",

@@ -1,0 +1,190 @@
+{
+ "slug": "san-pedro",
+ "tipo": "cactus",
+ "tipo_txt": "Cactus",
+ "migas": "Cactus · Cactáceas · Andes de Ecuador y Perú",
+ "nombre": "San Pedro",
+ "cientifico": "Echinopsis pachanoi",
+ "autoridad": "(Britton & Rose) H.Friedrich & G.D.Rowley",
+ "descripcion": "San Pedro (Echinopsis pachanoi), el wachuma de los Andes: cactus columnar con mescalina. Botánica, historia, investigación y cuidados.",
+ "entrada": "Un cactus columnar de tres a seis metros que crece en la ladera andina. Se le llama wachuma o San Pedro, y sus imágenes más antiguas, en la cerámica de la costa norte del Perú, tienen hasta 3.500 años.[3]",
+ "otros": "wachuma · huachuma · achuma · aguacolla · gigantón · cactus de San Pedro",
+ "portada": {
+  "img": "idx-sanpedro.jpg",
+  "alt": "Un San Pedro joven, de tallo verde con costillas marcadas y espinas cortas, crece vertical entre otras plantas.",
+  "pie": "San Pedro (<em>Echinopsis pachanoi</em>) con sus costillas y areolas.",
+  "cred": "Forest & Kim Starr · CC BY 3.0"
+ },
+ "vistazo": [
+  ["que", "Qué es", "Cactus columnar y ramificado, de crecimiento rápido"],
+  ["territorio", "Territorio", "Andes del sur de Ecuador y de Perú"],
+  ["parte", "Parte usada", "El tallo, hervido o en infusión"],
+  ["activos", "Principios activos", "Mescalina y otros alcaloides"],
+  ["tiempo", "Empieza y dura", "45–90 min · 8–12 h, a veces más"],
+  ["pueblos", "Quién guarda su memoria", "Curanderos y comunidades andinas del norte del Perú"]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la mescalina",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/mescalina/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una columna verde que sube la ladera",
+  "parrafos": [
+   "Es un cactus columnar y ramificado que suele medir entre tres y seis metros. Los tallos, verdes y a veces azulados, tienen entre seis y ocho costillas, y en los ejemplares cultivados las espinas son cortas o casi no existen.[2]",
+   "Sus flores son blancas, perfumadas y enormes, de unos veinte centímetros. Se abren de noche y duran unos dos días. Después sale un fruto alargado, verde oscuro, que se abre y deja ver una pulpa blanca con semillas pequeñas.[2]",
+   "Crece en el monte seco andino, hacia los 2.000–3.000 metros, y puede ganar hasta treinta centímetros al año. Se reproduce con facilidad por esqueje.[1][2]"
+  ],
+  "rasgos": [
+   ["Familia", "Cactaceae"],
+   ["Porte", "Columnar, de 3 a 6 m"],
+   ["Flor", "Blanca, nocturna y perfumada"],
+   ["Fruto", "Alargado, de pulpa blanca"]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un cactus que atraviesa tres mil años",
+  "parrafos": [
+   "Las imágenes más antiguas del San Pedro están en la cerámica de la cultura cupisnique, en la costa norte del Perú, entre 1500 y 500 a. C.: el cactus aparece solo o junto a felinos y volutas escalonadas.[3] En la costa central se han hallado además restos del propio cactus en yacimientos arqueológicos.[4]",
+   "En Chavín de Huántar, en la sierra de Áncash, una estela de la plaza circular muestra a un personaje que porta un cactus columnar.[6] Los análisis de tubos de hueso de ese centro ceremonial, activo hacia 1200–400 a. C., detectaron restos de vilca y de tabaco silvestre (<em>Nicotiana</em>).[5]",
+   "Hoy la tradición sigue viva en el norte del Perú. En la región de Huancabamba, un estudio de campo de 1981 describe sesiones nocturnas de curación en las que el curandero y los pacientes beben el cactus, y el curandero busca el origen del mal.[7]"
+  ],
+  "banda": null,
+  "cronologia": [
+   ["1500–500 a. C.", "Cerámica cupisnique de la costa norte del Perú con el cactus representado, las imágenes más antiguas que se conocen.[3]"],
+   ["Hacia 1200–400 a. C.", "Chavín de Huántar, en la sierra de Áncash, se mantiene como centro ceremonial; en sus tubos de hueso aparecen vilca y <em>Nicotiana</em>.[5]"],
+   ["1920", "Britton y Rose lo describen como <em>Trichocereus pachanoi</em>.[2]"],
+   ["1972", "Aparece en Chavín de Huántar la estela del portador del cactus.[6]"],
+   ["1974", "Friedrich y Rowley lo pasan al género <em>Echinopsis</em>.[1]"],
+   ["2012", "Albesiano y Kiesling lo tratan como variedad de <em>Trichocereus macrogonus</em>; Kew mantiene <em>Echinopsis pachanoi</em> como nombre aceptado.[1]"]
+  ],
+  "nombres": [
+   ["wachuma", "nombre andino; también huachuma y achuma"],
+   ["aguacolla", "nombre andino"],
+   ["gigantón", "castellano"],
+   ["San Pedro", "castellano; se ha relacionado con las llaves del cielo que guarda el santo"]
+  ],
+  "nota_nombres": "El nombre cristiano se ha relacionado con la idea de alcanzar el cielo sin salir de la tierra, según el botánico Edward Anderson.[2]"
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un cactus de ladera, fácil de cultivar",
+  "mapa": {
+   "img": "mapa-san-pedro.svg",
+   "alt": "Mapa de Sudamérica con una franja ocre sobre los Andes de Ecuador y Perú y tres lugares señalados: Chavín de Huántar, Huancabamba y Cupisnique.",
+   "mundo": false,
+   "leyenda": [
+    ["#9c4a26", "Área aproximada del San Pedro"]
+   ]
+  },
+  "parrafos": [
+   "Kew sitúa su área nativa del sur de Ecuador al Perú, en una zona de vegetación tropical estacionalmente seca. Fuera de allí se ha introducido en Bolivia, Colombia, Chile central, Canarias y España.[1]",
+   "Se cultiva con facilidad y es común como planta ornamental, de modo que no depende de la recolección en el monte.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Respetar su uso entre curanderos y comunidades andinas, que lo guardan desde hace milenios.",
+   "Preferir plantas cultivadas a las recolectadas en el monte.",
+   "Conocer el contexto de la tradición antes de hablar de ella: es medicina viva de unos pueblos concretos."
+  ],
+  "foto": null
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Mescalina, y un cactus que la reparte de forma irregular",
+  "parrafos": [
+   "Contiene mescalina, la misma fenetilamina del peyote, que activa el receptor de serotonina 5-HT2A.[8][9] Tiene además otros alcaloides en cantidades menores.[2]",
+   "La cantidad de mescalina varía mucho de una planta a otra y también dentro de una misma planta, y por eso los ensayos clínicos usan mescalina pura, de dosis conocida.[2][12]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Mescalina",
+    "clase": "Fenetilamina · alcaloide principal",
+    "img": "mescalina.svg",
+    "texto": "Activa el receptor de serotonina 5-HT2A. En un ensayo de 2024, un fármaco que bloquea ese receptor anuló casi todos sus efectos."
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un día entero",
+  "parrafos": [
+   "Empieza a notarse entre los 45 y los 90 minutos y se prolonga entre ocho y doce horas, a veces más. En los ensayos con mescalina se describe como una experiencia parecida a la del LSD o la psilocibina, con colores muy intensos, patrones y emociones fuertes. La diferencia principal es la duración.[8]",
+   "Con el cactus son frecuentes las náuseas y el vómito, sobre todo al subir. En muchas tradiciones esa purga forma parte del camino.[12]"
+  ],
+  "tiempo": {
+   "horas": 14,
+   "tramos": [
+    ["a", 0.75, 2, "Sube"],
+    ["b", 2, 6, "Máximo"],
+    ["c", 6, 12, "Se apaga"]
+   ],
+   "res": [
+    ["Empieza", "45–90 min"],
+    ["Máximo", "entre las 2 y las 6 h"],
+    ["Dura", "8–12 h, a veces hasta 14"]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "En 2023, un ensayo en Basilea comparó en personas sanas mescalina, LSD y psilocibina: 500 mg de mescalina produjeron una experiencia muy parecida a la de 100 µg de LSD y a la de 20 mg de psilocibina.[8] En 2024, otro mostró que sus efectos aumentan con la dosis y que dependen del receptor 5-HT2A.[9]"
+  ],
+  "alcance": "Esos ensayos se hicieron con mescalina pura, en personas sanas y con supervisión médica. No evaluaron un tratamiento ni el San Pedro ni la ceremonia andina, y no existe ningún medicamento con mescalina."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   ["Lo más delicado", "Una experiencia muy larga y, a veces, difícil; en personas predispuestas, episodios de psicosis o de manía.[10]"],
+   ["Lo que no se mezcla", "El litio es la combinación más peligrosa: se han descrito convulsiones y psicosis.[11]"],
+   ["Cuerpo y estómago", "Náuseas y vómitos con el cactus. Sube la tensión y el pulso de forma moderada.[9][12]"],
+   ["Una tradición viva", "Es medicina de curanderos y comunidades andinas. Conviene conocer ese contexto y tratarlo con respeto.[7]"]
+  ],
+  "parecidos": null
+ },
+ "galeria": [],
+ "libros": [
+  {"titulo": "San Pedro Huachuma", "autor": "Javier Regueiro", "img": null, "url": "biblioteca/san-pedro-huachuma-596/"},
+  {"titulo": "Cactus of Mystery", "autor": "Ross Heaven · 2012", "img": "biblioteca/portadas/libro-120.jpg", "url": "biblioteca/cactus-of-mystery/"},
+  {"titulo": "Mescaline", "autor": "Mike Jay · 2019", "img": "biblioteca/portadas/libro-271.jpg", "url": "biblioteca/mescaline/"}
+ ],
+ "parientes": [
+  ["cactus", "Peyote", "Lophophora williamsii", "El cactus del desierto chihuahuense, con la misma mescalina.", "enciclopedia/peyote/"],
+  ["molecula", "Mescalina", "3,4,5-trimetoxifenetilamina", "El principio activo de los cactus mescalínicos.", "sustancias/mescalina/"],
+  ["cactus", "Antorcha peruana", "Echinopsis peruviana", "Un cactus columnar parecido al San Pedro.", null],
+  ["planta", "Tabaco", "Nicotiana tabacum", "El género <em>Nicotiana</em> aparece en los tubos de hueso de Chavín, junto a la vilca.", "sustancias/tabaco/"]
+ ],
+ "fuentes": [
+  "Royal Botanic Gardens, Kew. Plants of the World Online: <em>Echinopsis pachanoi</em> (Britton & Rose) H.Friedrich & G.D.Rowley. powo.science.kew.org.",
+  "Wikipedia. «<em>Trichocereus macrogonus</em> var. <em>pachanoi</em>». en.wikipedia.org (consultada el 24-11-2026). Reúne datos de Anderson EF, The Cactus Family, 2001, y Rätsch C, 2002.",
+  "Sharon D. Sacred Sanpedro in Ethnoarchaeological Context (resumen). Catálogo de documentos electrónicos de la British Library, eld.bl.uk.",
+  "Capítulo sobre evidencia arqueológica del uso de plantas psicoactivas (cita a Fung 1972 y Polia Meconi 1996). Taylor & Francis, taylorfrancis.com.",
+  "Rick JW, Lema VS, Echeverría J, Alva Valverde G, Contreras DA, Arias Espinoza O, Rosenfeld SA, Sayre MP. Pre-Hispanic ritual use of psychoactive plants at Chavín de Huántar, Peru. Proc Natl Acad Sci USA. 2025;122(19). doi:10.1073/pnas.2425125122.",
+  "Wikipedia. «Stela of the cactus bearer». Estela VI-NW12, plaza circular de Chavín de Huántar, hallada en 1972 por Luis Guillermo Lumbreras. en.wikipedia.org (consultada el 24-11-2026).",
+  "Observaciones etnobotánicas en la región de Huancabamba (Perú), trabajo de campo de 1981. MAPS Bibliography, bibliography.maps.org, recurso 13373.",
+  "Ley L, Holze F, Arikci D, et al. Comparative acute effects of mescaline, lysergic acid diethylamide, and psilocybin in a randomized, double-blind, placebo-controlled cross-over study in healthy participants. Neuropsychopharmacology. 2023;48(11):1659-1667.",
+  "Klaiber A, Schmid Y, Becker AM, et al. Acute dose-dependent effects of mescaline in a double-blind placebo-controlled study in healthy subjects. Transl Psychiatry. 2024;14:395.",
+  "Johnson MW, Richards WA, Griffiths RR. Human hallucinogen research: guidelines for safety. J Psychopharmacol. 2008;22(6):603-620.",
+  "Nayak SM, Gukasyan N, Barrett FS, Erowid E, Erowid F, Griffiths RR. Classic psychedelic coadministration with lithium, but not lamotrigine, is associated with seizures: an analysis of online psychedelic experience reports. Pharmacopsychiatry. 2021;54(5):240-245.",
+  "Cassels BK, Sáez-Briones P. Dark classics in chemical neuroscience: mescaline. ACS Chem Neurosci. 2018;9(10):2448-2458."
+ ],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": ["Peyote", "peyote"],
+ "siguiente": ["Ayahuasca", "ayahuasca"]
+}
