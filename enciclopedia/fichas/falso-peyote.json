@@ -1,0 +1,237 @@
+{
+ "slug": "falso-peyote",
+ "tipo": "cactus",
+ "migas": "Cactus · Cactáceas · Norte de México y Texas",
+ "nombre": "Falso peyote",
+ "cientifico": "Ariocarpus fissuratus",
+ "autoridad": "(Engelm.) K.Schum.",
+ "descripcion": "Falso peyote (Ariocarpus fissuratus): pequeño cactus «roca viva» del norte de México y Texas, el sunami tarahumara; contiene hordenina, no mescalina.",
+ "entrada": "Un cactus pequeño que apenas asoma del suelo y parece una piedra agrietada, de ahí su nombre de «roca viva». Los tarahumaras lo llamaban sunami y lo tenían por más poderoso que el peyote. No contiene mescalina, sino hordenina y otras fenetilaminas en pequeñas cantidades.[1][2][3]",
+ "otros": "falso peyote · roca viva · living rock · sunami · peyote cimarrón · chautle · dry whiskey · star cactus",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Cactus bajo, con forma de roseta pegada al suelo"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Sudoeste de Texas y norte de México"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Planta entera"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Hordenina y otras fenetilaminas; sin mescalina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tarahumaras y huicholes (especies afines)"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una piedra viva",
+  "parrafos": [
+   "<em>Ariocarpus fissuratus</em> es un cactus pequeño que crece hasta unos 15 cm de diámetro y apenas se eleva sobre el suelo.[1] Es una planta suculenta de roseta, con tallo corto y sin ramificar que nace de una raíz pivotante grande y carnosa.[4]",
+   "Sus tubérculos forman una superficie agrietada que se confunde con la roca caliza donde vive.[5]",
+   "Se conoce como «living rock cactus», «false peyote», chautle, «dry whiskey» y «star cactus».[6]",
+   "Se cultiva con frecuencia injertado en un cactus columnar de crecimiento más rápido, porque en estado natural crece muy despacio.[7]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Cactáceas"
+   ],
+   [
+    "Diámetro",
+    "Hasta unos 15 cm"
+   ],
+   [
+    "Hábitat",
+    "Suelos calizos"
+   ],
+   [
+    "Raíz",
+    "Pivotante, grande y carnosa"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Sunami y peyote cimarrón",
+  "parrafos": [
+   "Se le conocen usos medicinales y rituales; apareció un ejemplar en el yacimiento arqueológico de Hinds Cave, en un contexto arcaico medio.[1]",
+   "Los tarahumaras lo llamaban sunami y lo consideraban más poderoso que el peyote (<em>Lophophora williamsii</em>, «waname»): lo usaban de manera parecida y también para preparar una bebida muy embriagante.[8] Le atribuían además el poder de proteger contra los ladrones.[8]",
+   "Entre los huicholes, otro Ariocarpus, <em>A. retusus</em> («tsuwiri»), es el «falso peyote».[8]",
+   "La guía de cactus visionarios de Erowid lo describe como un «poderoso maestro» que muchos consideran más potente que el peyote; esta valoración es de esa fuente divulgativa.[9]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "sunami",
+    "tarahumara"
+   ],
+   [
+    "peyote cimarrón",
+    "México"
+   ],
+   [
+    "chautle",
+    "castellano de México"
+   ],
+   [
+    "<em>living rock</em>, <em>false peyote</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "«Falso peyote» se aplica a varias especies de <em>Ariocarpus</em> y a otros cactus que no son <em>Lophophora</em>.[8]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Texas y el desierto chihuahuense",
+  "parrafos": [
+   "Está extendido por el sudoeste de Texas, de Big Bend al río Pecos, y por los estados mexicanos de Coahuila, Chihuahua, Durango, Nuevo León, Tamaulipas y Zacatecas.[6]",
+   "La UICN lo clasifica como de preocupación menor, porque es una especie extendida con poblaciones relativamente grandes que no declinan lo suficiente para figurar como amenazada.[4]",
+   "Aun así se recolecta en el campo para uso local y a veces ilegalmente por coleccionistas.[4] Otras especies del género sí están en peligro por pérdida de hábitat y sobrecolecta.[10]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectarlo en el campo.",
+   "Preferir ejemplares de vivero con origen claro.",
+   "Respetar los saberes tarahumara y huichol."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-falso-peyote.svg",
+   "alt": "Mapa con el desierto chihuahuense sombreado.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del falso peyote"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Hordenina, no mescalina",
+  "parrafos": [
+   "Contiene pequeñas cantidades de hordenina y otras fenetilaminas, pero no mescalina, como a veces se ha sugerido.[1]",
+   "Britannica señala que las especies de <em>Ariocarpus</em> contienen alcaloides, principalmente hordenina, en cantidad suficiente para ser levemente alucinógenas.[10]",
+   "Un estudio de Bruhn y Bruhn identificó alcaloides de cactus conocidos en varios géneros mexicanos afines, entre ellos <em>Ariocarpus</em>.[11]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "Las fuentes consultadas no ofrecen descripciones fiables de su experiencia ni datos de aparición o duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Se ha estudiado su contenido en alcaloides dentro de trabajos sobre cactus mexicanos afines al peyote.[11]"
+  ],
+  "alcance": "Estudios etnobotánicos y químicos; sin investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Nombre engañoso",
+    "«Falso peyote» no significa que contenga lo mismo que el peyote: aquí no hay mescalina.[1]"
+   ],
+   [
+    "Conservación",
+    "Se recolecta en el campo y algunas especies del género están en peligro.[4][10]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos de seguridad y de experiencia."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "cactus",
+   "Peyote",
+   "Lophophora williamsii",
+   "El cactus del que toma el nombre.",
+   "enciclopedia/peyote/"
+  ],
+  [
+   "cactus",
+   "Cawé",
+   "Pachycereus pecten-aboriginum",
+   "Otro cactus de uso tarahumara.",
+   "enciclopedia/cawe/"
+  ]
+ ],
+ "fuentes": [
+  "Texas Beyond History. <em>Ariocarpus fissuratus</em>. texasbeyondhistory.net/ethnobot/images/livingrock.html.",
+  "Wikipedia. <em>Ariocarpus fissuratus</em>. en.wikipedia.org/wiki/Ariocarpus_fissuratus.",
+  "Britannica. <em>Living-rock cactus</em>. britannica.com/print/article/344842.",
+  "Plants For A Future. <em>Ariocarpus fissuratus</em>. temperate.theferns.info/plant/Ariocarpus+fissuratus.",
+  "Encyclopedia of Life. <em>Ariocarpus fissuratus</em>. eol.org/pages/588921/articles.",
+  "Wikipedia. <em>Ariocarpus fissuratus</em> (distribución y nombres). en.wikipedia.com/wiki/Ariocarpus_fissuratus.",
+  "Wikipedia. <em>Ariocarpus fissuratus</em> (cultivo). en.wikipedia.org/wiki/Ariocarpus_fissuratus.",
+  "Living-rocks.com. <em>Ethnobotany</em> (cita a Lumholtz, 1902). living-rocks.com/ethnobotany.htm.",
+  "Erowid. <em>Visionary Cactus Guide: Ariocarpus</em>. taz4.erowid.org/plants/cacti/cacti_guide/cacti_guide_ariocarp.shtml.",
+  "Britannica. <em>Mexican living-rock cactus</em>. britannica.com/plant/Ariocarpus-fissuratus.",
+  "Bruhn, J. G. y Bruhn, C. <em>Alkaloids and Ethnobotany of Mexican Peyote Cacti and Related Species</em>. bibliography.maps.org/resources/download/12011."
+ ],
+ "tipo_txt": "Cactus",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Estramonio",
+  "estramonio"
+ ],
+ "siguiente": [
+  "Floripondio",
+  "floripondio"
+ ]
+}
