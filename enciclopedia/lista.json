@@ -144,7 +144,7 @@
    "guia": "sustancias/tabaco/"
   },
   {
-   "slug": null,
+   "slug": "gloria-de-la-manana",
    "tipo": "planta",
    "nombre": "Gloria de la mañana",
    "cientifico": "Ipomoea tricolor",
@@ -364,7 +364,7 @@
    "nombre": "Gloria de la mañana",
    "detalle": "Ipomoea tricolor",
    "tipo": "planta",
-   "slug": null
+   "slug": "gloria-de-la-manana"
   },
   {
    "nombre": "Guayusa",

@@ -1,0 +1,284 @@
+{
+ "slug": "gloria-de-la-manana",
+ "tipo": "planta",
+ "migas": "Planta · Convolvuláceas · Trópicos del Nuevo Mundo",
+ "nombre": "Gloria de la mañana",
+ "cientifico": "Ipomoea tricolor",
+ "autoridad": "Cav.",
+ "descripcion": "Gloria de la mañana (Ipomoea tricolor): enredadera cuyas semillas son el tlitliltzin de los mexicas. Botánica, historia, LSA, investigación y cuidados.",
+ "entrada": "Una enredadera de flores azules que se abren al amanecer, cuyas semillas contienen ergolinas como la ergina o LSA. Los mexicas la conocían como tlitliltzin, y su identificación científica es una historia de botánicos y de Albert Hofmann.[1][2][4]",
+ "otros": "gloria de la mañana · campanilla · tlitliltzin · Ipomoea violacea · semillas de la gloria de la mañana",
+ "portada": {
+  "img": "idx-ipomoea.jpg",
+  "alt": "Una flor azul con forma de trompeta de gloria de la mañana, de garganta clara, abierta entre hojas verdes.",
+  "pie": "Gloria de la mañana (<em>Ipomoea tricolor</em>).",
+  "cred": "Evas-naturfotografie · CC BY-SA 4.0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Enredadera anual o perenne de flores en embudo"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Trópicos del Nuevo Mundo, hoy en todo el mundo"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La semilla"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Ergina (LSA) e isoergina, ergolinas"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de México, en especial los zapotecos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una campanilla que abre al amanecer",
+  "parrafos": [
+   "Es una especie de gloria de la mañana nativa de los trópicos del Nuevo Mundo, hoy cultivada y naturalizada en muchas partes.[5]",
+   "Pertenece a las convolvuláceas, la familia de las enredaderas de flores en forma de embudo. Es pariente de otras plantas con semillas ricas en ergolinas, como <em>Rivea corymbosa</em>, la planta del ololiuqui.[2][7]",
+   "Entre los nombres científicos hay confusión: <em>Ipomoea tricolor</em> e <em>I. violacea</em> se confunden con frecuencia y algunos autores las consideran la misma.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Convolvulaceae"
+   ],
+   [
+    "Hábito",
+    "Enredadera trepadora"
+   ],
+   [
+    "Flor",
+    "En embudo, de color azul"
+   ],
+   [
+    "Semilla",
+    "Negra, alargada y angulosa"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El «negro» venerado de los mexicas",
+  "parrafos": [
+   "Los mexicas conocían estas semillas como <em>tlitliltzin</em>, de la palabra náhuatl para «negro» con un matiz de respeto.[5] Se las atribuye un uso adivinatorio y medicinal.[2]",
+   "Los botánicos tardaron en reconocerlas. En 1939, Schultes y Reko recogieron en Oaxaca una convolvulácea que usaban como narcótico adivinatorio, la identificaron con el ololiuqui, y más tarde MacDougall y Wasson mostraron que los zapotecos usaban también otra gloria de la mañana.[2][3]",
+   "En 1960, Albert Hofmann aisló de las semillas de ololiuqui y de <em>Ipomoea tricolor</em> alcaloides del tipo de las ergolinas: ergina, isoergina y chanoclavina.[1]"
+  ],
+  "cronologia": [
+   [
+    "Antes de la conquista",
+    "Los mexicas usan el tlitliltzin y el ololiuqui con fines adivinatorios y medicinales.[2]"
+   ],
+   [
+    "1939",
+    "Schultes y Reko recogen en Oaxaca la planta del ololiuqui.[3]"
+   ],
+   [
+    "1960",
+    "MacDougall da a conocer su uso entre los zapotecos; Hofmann y Tscherter aíslan las ergolinas.[1][2]"
+   ],
+   [
+    "1963",
+    "Se descubre que muchas variedades de jardín contienen alcaloides de la clase de la ergina.[6]"
+   ]
+  ],
+  "nombres": [
+   [
+    "gloria de la mañana",
+    "por sus flores, que abren al amanecer"
+   ],
+   [
+    "<em>tlitliltzin</em>",
+    "en náhuatl, «el negro», con respeto"
+   ],
+   [
+    "<em>ololiuqui</em>",
+    "otra planta distinta, <em>Rivea corymbosa</em>, de uso parecido"
+   ],
+   [
+    "campanilla",
+    "nombre popular de varias convolvuláceas"
+   ]
+  ],
+  "nota_nombres": "Tlitliltzin y ololiuqui son plantas distintas, aunque emparentadas y usadas a menudo juntas.[2]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una enredadera muy cultivada",
+  "parrafos": [
+   "Es nativa de los trópicos del Nuevo Mundo y hoy se cultiva y se naturaliza en muchas partes del mundo.[5]",
+   "Muchas variedades se venden como planta de jardín, y se ha visto que varias contienen alcaloides del tipo de la ergina en las semillas, y a veces también en hojas y tallos.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Tratarla como planta de jardín y de historia, no como producto para consumir.",
+   "Tener cuidado con las semillas de jardín en casa: niños y animales no deben comerlas.",
+   "Respetar la memoria de los pueblos zapotecos y mexicas que la han custodiado."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-gloria-de-la-manana.svg",
+   "alt": "Mapa con una zona sombreada en ocre desde México hasta el norte de Sudamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la gloria de la mañana (trópicos del Nuevo Mundo)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Ergina, un primo del LSD",
+  "parrafos": [
+   "Las semillas contienen alcaloides del tipo de las ergolinas. Los principales son la ergina, también llamada amida del ácido lisérgico o LSA, y su isómero, la isoergina.[1][6]",
+   "Son parientes químicos del LSD, un derivado semisintético, y de los alcaloides del cornezuelo.[6] A diferencia de los alcaloides tóxicos del cornezuelo, la ergina se disuelve en agua fría.[4]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Ergina (LSA)",
+    "clase": "Ergolina · principal",
+    "img": null,
+    "texto": "Amida del ácido lisérgico; el alcaloide principal de las semillas de varias convolvuláceas.[1][6]"
+   },
+   {
+    "nombre": "Isoergina",
+    "clase": "Ergolina",
+    "img": null,
+    "texto": "Isómero de la ergina que acompaña al alcaloide principal.[1][6]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Algo más sutil, y más incómodo, que el LSD",
+  "parrafos": [
+   "La ergina es un psicodélico de la familia lisérgica. Se la tiene por menos potente y más incómoda que el LSD, pero esa comparación se apoya en relatos, no en estudios.[6]",
+   "No hay medidas fiables de cuándo empieza ni cuánto dura, y el contenido de las semillas varía mucho de una variedad a otra.[3]"
+  ],
+  "tiempo": {
+   "horas": 8,
+   "tramos": [
+    [
+     "a",
+     0,
+     8,
+     "Variable y poco documentado"
+    ]
+   ],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Lo mejor documentado es la química y la botánica: el aislamiento de las ergolinas en 1960 y el estudio de variedades comerciales.[1][3]",
+   "Un estudio de 1963 halló alcaloides del tipo de la ergina y de las clavinas en las semillas de variedades comerciales de gloria de la mañana.[3]"
+  ],
+  "alcance": "No hay ensayos clínicos con estas semillas. Lo que se sabe de sus efectos viene de relatos y de estudios de química de hace décadas."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "El contenido de alcaloides cambia mucho entre variedades y semillas, y no se puede saber cuánto hay en las que se compran.[3]"
+   ],
+   [
+    "Parientes tóxicos",
+    "Las ergolinas se emparentan con las del cornezuelo, algunas tóxicas.[6]"
+   ],
+   [
+    "Semillas de jardín",
+    "Se venden para plantar, no para consumir; la información del envase no habla de alcaloides.[3]"
+   ],
+   [
+    "Contexto",
+    "Para los pueblos que la han custodiado es una planta de adivinación y medicina.[2]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ololiuqui",
+   "Rivea corymbosa",
+   "La otra convolvulácea de los mexicas, de uso parecido.",
+   null
+  ],
+  [
+   "molecula",
+   "LSA",
+   "Ergolina",
+   "La sustancia principal de las semillas.",
+   null
+  ],
+  [
+   "molecula",
+   "LSD",
+   "Ergolina semisintética",
+   "Pariente químico, de síntesis.",
+   "sustancias/lsd/"
+  ]
+ ],
+ "fuentes": [
+  "Hofmann A, Tscherter H. Isolierung von Lysergsäure-Alkaloiden aus der mexikanischen Zauberdroge Ololiuqui (<em>Rivea corymbosa</em> (L.) Hall. f.). Experientia. 1960;16:414.",
+  "Hofmann A. The active principles of the seeds of <em>Rivea corymbosa</em> and <em>Ipomoea violacea</em>. Botanical Museum Leaflets, Harvard University. 1963;20:194-212.",
+  "Taber WA, Vining LC, Heacock RA. Clavine and lysergic acid alkaloids in varieties of morning glory. Phytochemistry. 1963;2:65-70.",
+  "ICEERS. Basic info: ergot, LSA and morning glory. iceers.org.",
+  "Chemeurope. <em>Ipomoea tricolor</em>. chemeurope.com/en/encyclopedia.",
+  "Wikipedia. «Ergoline». en.wikipedia.org (consultada el 24-11-2026).",
+  "Wikipedia. «Ipomoea corymbosa». en.wikipedia.org (consultada el 24-11-2026)."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Estramonio",
+  "estramonio"
+ ],
+ "siguiente": [
+  "Hierba de la pastora",
+  "hierba-de-la-pastora"
+ ]
+}
