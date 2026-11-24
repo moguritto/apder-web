@@ -1,0 +1,265 @@
+{
+ "slug": "cebil",
+ "tipo": "planta",
+ "migas": "Planta · Fabáceas · Andes centro-sur y tierras bajas vecinas",
+ "nombre": "Cebil",
+ "cientifico": "Anadenanthera colubrina",
+ "autoridad": "(Vell.) Brenan",
+ "descripcion": "Cebil o vilca (Anadenanthera colubrina var. cebil): árbol de los Andes del sur cuyas semillas dan un rapé ritual con 4000 años de huellas arqueológicas.",
+ "entrada": "Un árbol de bosques secos estacionales, conocido como vilca en Perú, Bolivia y Chile y como cebil en Argentina. Sus semillas se usaron para un rapé ritual del que hay huellas arqueológicas de unos 4000 años.[1][2][3]",
+ "otros": "cebil · vilca · willka · wilca · huilca · huilco · wilco · curupay · curupau · angico · Anadenanthera colubrina var. cebil",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol de bosques secos de la familia de las leguminosas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Bosques secos estacionales entre 0 y 30 grados de latitud sur"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Las semillas, molidas, para un rapé ritual"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Bufotenina, principal"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No hay datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de los Andes centro-sur, entre ellos los wichí"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un árbol de bosques secos",
+  "parrafos": [
+   "<em>Anadenanthera colubrina</em> es un árbol de la familia de las fabáceas, conocido en muchos países sudamericanos con numerosos nombres: vilca, huilco, huilca, wilco, willka, curupay, curupau, cebil o angico.[2]",
+   "Habita sobre todo en bosques secos estacionales entre los 0 y los 30 grados de latitud sur.[1] La variedad <em>cebil</em> se conoce como vilca o willka en Perú, Bolivia y Chile y como cebil en Argentina.[1]",
+   "Su tanino se usa en la industria para curtir pieles.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Fabaceae"
+   ],
+   [
+    "Hábito",
+    "Árbol de bosque seco"
+   ],
+   [
+    "Latitud",
+    "Entre 0° y 30° sur"
+   ],
+   [
+    "Variedad",
+    "Var. <em>cebil</em> (Griseb.) Altschul"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El rapé de la vilca",
+  "parrafos": [
+   "La evidencia más antigua tiene unos 4000 años, con hallazgos arqueológicos de <em>Anadenanthera colubrina</em> var. <em>cebil</em>.[1]",
+   "En yacimientos prehispánicos del noroeste argentino se han recuperado semillas de cebil y madera, ya sin trabajar o usada como materia prima.[1]",
+   "Hay evidencia iconográfica, en una escultura de Chavín de Huántar, de la importancia religiosa de la vilca, y se considera que el cebil, que crece al este de los Andes peruanos, es la fuente más probable del rapé psicoactivo de los rituales de Chavín y de centros como Kuntur Wasi.[3] Se dice que esas prácticas tienen más de 2000 años.[3]",
+   "Un estudio arqueobotánico identificó restos de vilca y de <em>Nicotiana</em> en Chavín, la evidencia directa más septentrional de su uso prehispánico en los Andes.[5]",
+   "En el noroeste de Argentina, dos cuerpos momificados hallados en 1991 en el Alero I La Matanza llevaban un tubo con material en polvo cuyo análisis buscó confirmar su relación con el cebil.[4]",
+   "También se cree que los tiwanaku usaron las semillas molidas como rapé, y hay informes de uso activo por chamanes wichí con el nombre <em>hatáj</em>.[2]"
+  ],
+  "cronologia": [
+   [
+    "Hace unos 4000 años",
+    "Primeros hallazgos arqueológicos de <em>Anadenanthera colubrina</em> var. <em>cebil</em>.[1]"
+   ],
+   [
+    "Hace más de 2000 años",
+    "Rituales con rapé en Chavín de Huántar y otros centros del Horizonte Temprano.[3]"
+   ],
+   [
+    "1991",
+    "Se recuperan dos cuerpos momificados en el Alero I La Matanza, en el noroeste argentino.[4]"
+   ]
+  ],
+  "nombres": [
+   [
+    "vilca / willka",
+    "en Perú, Bolivia y Chile; del quechua"
+   ],
+   [
+    "cebil",
+    "en Argentina"
+   ],
+   [
+    "<em>hatáj</em>",
+    "nombre del rapé entre los wichí"
+   ],
+   [
+    "curupay / angico",
+    "nombres de la región del Chaco y Brasil"
+   ]
+  ],
+  "nota_nombres": "En quechua, «willka» se traduce unas veces como «sagrado» y otras como «nieto»; las fuentes no coinciden.[2]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un árbol del bosque seco andino",
+  "parrafos": [
+   "Habita bosques secos estacionales entre los 0 y los 30 grados de latitud sur.[1]",
+   "Un trabajo reciente documenta sus usos actuales en mercados urbanos y periurbanos del noroeste argentino, Bolivia y el sur del Perú.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocer el árbol y su historia andina antes que cualquier uso.",
+   "No tratar el rapé como un producto: es parte de una tradición.",
+   "Respetar a los pueblos que lo custodian, como los wichí."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-cebil.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre los Andes centro-sur y las tierras bajas vecinas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del cebil"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Bufotenina",
+  "parrafos": [
+   "El principal componente activo de la vilca es la bufotenina.[2]",
+   "Análisis de semillas de <em>A. colubrina</em> var. <em>cebil</em> y de <em>Acacia visco</em> hallaron bufotenina en ambas en concentraciones muy distintas.[6]",
+   "En un yacimiento de las tierras altas de Lípez, en Bolivia, se identificaron trazas químicas de bufotenina, DMT, harmina y cocaína, lo que sugiere que al menos tres plantas con esos compuestos formaban parte del instrumental chamánico.[7]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Bufotenina",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Principal componente activo de la vilca.[2][6]"
+   },
+   {
+    "nombre": "DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Identificada en trazas de un contexto arqueológico andino.[7]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se sabe por la arqueología",
+  "parrafos": [
+   "Las fuentes consultadas describen sobre todo el contexto ritual y la química; no recogen datos fiables de experiencia ni de duración.[1][3]",
+   "La experiencia se entendió dentro de rituales colectivos, con herramientas de preparación del rapé abundantes en Chavín.[3]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "La mayor parte de la investigación es arqueológica, etnográfica y química.[1][4][6]",
+   "Estudios arqueométricos han demostrado el consumo de coca, vilca o cebil y tabaco en los Andes.[7]"
+  ],
+  "alcance": "Hay buena evidencia arqueológica y poca investigación sobre sus efectos en personas."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Las concentraciones de bufotenina varían mucho entre especies y semillas.[6]"
+   ],
+   [
+    "Otras especies",
+    "Hay especies vecinas, como <em>Acacia visco</em>, que se confunden con la vilca en los estudios.[6]"
+   ],
+   [
+    "Contexto",
+    "Se trata de una planta de uso ritual de pueblos andinos y chaqueños.[2][3]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay estudios clínicos ni datos de seguridad."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "San Pedro",
+   "Echinopsis pachanoi",
+   "Aparece junto a la vilca en la iconografía de Chavín.",
+   "enciclopedia/san-pedro/"
+  ],
+  [
+   "molecula",
+   "Bufotenina",
+   "Triptamina",
+   "Su componente principal.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Uso del cebil (<em>Anadenanthera colubrina</em> var. <em>cebil</em>) en tiempos prehispánicos y coloniales y en mercados actuales del noroeste argentino, Bolivia y sur del Perú. proquest.com/docview/3103956020.",
+  "Wikipedia. «Anadenanthera colubrina» (Wilco tree). en.wikipedia.org (consultada el 24-11-2026).",
+  "Evidencia iconográfica de la vilca en una escultura de Chavín de Huántar. academia.edu/3788774.",
+  "Pochettino ML, Cortella AR, Ruiz M. Hallucinogenic snuff from northwestern Argentina: microscopical identification of <em>Anadenanthera colubrina</em> var. <em>cebil</em> in powdered archaeological material. Economic Botany. sedici.unlp.edu.ar.",
+  "Evidencia arqueobotánica de vilca y <em>Nicotiana</em> en Chavín de Huántar. repositorio.pucp.edu.pe.",
+  "Gili F, Carrasco C, Niemeyer HM. Vilca, un encuentro de aproximaciones: antecedentes y herramientas para su búsqueda en contextos arqueológicos del centro-sur andino. redalyc.org/pdf/326/32649574007.pdf.",
+  "Análisis arqueométrico de parafernalia chamánica en Lípez, Bolivia. pmc.ncbi.nlm.nih.gov/articles/PMC6561276."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Cannabis",
+  "cannabis"
+ ],
+ "siguiente": [
+  "Chacruna",
+  "chacruna"
+ ]
+}
