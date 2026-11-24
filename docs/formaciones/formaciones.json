@@ -1,21 +1,795 @@
-{"actualizado":"2026-11-23","formaciones":[
-{"id":"academy-of-intrinsic-studies-facilitator-certification","nombre":"AIS Facilitator Certification","nombre_es":"Certificación de facilitadores de la Academy of Intrinsic Studies","entidad":"Academy of Intrinsic Studies (AIS)","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"en_linea","idiomas":["en"],"pais":"US","ciudad":"Bend","sustancias":["psilocibina"],"duracion_horas":150,"duracion":"6 meses (4 meses en ruta acelerada)","precio":"7.500 USD","precio_eur":6450,"reconocimiento":["colorado","certificado"],"descripcion":"Itinerario de Colorado totalmente en línea, con sesiones en directo y contenido a ritmo propio, en grupos de unas 30 personas. Las 40 horas de prácticas presenciales se hacen aparte en un centro aprobado.","url":"https://www.intrinsicstudies.com/colorado","estado":"activa","revisado":"2026-11-23","lat":44.058,"lon":-121.315},
-{"id":"bodhi-academy-ceremonial-practitioner-certification","nombre":"Ceremonial Practitioner Certification Program (Psychedelic Facilitator Training)","nombre_es":"Programa de certificación de practicantes ceremoniales (formación de facilitadores psicodélicos)","entidad":"Bodhi Academy","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"ayuda","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Boulder","sustancias":["psilocibina"],"duracion_horas":200,"duracion":"6 meses","reconocimiento":["colorado"],"incluye":["practica_supervisada"],"descripcion":"Formación intensiva de seis meses con unidades en vídeo, clases en directo por internet, fines de semana presenciales de juego de roles y un retiro de prácticas supervisadas de diez días. Grupos de 24 personas en la edición de 2027.","url":"https://www.bodhi-academy.com","estado":"activa","revisado":"2026-11-23","lat":40.015,"lon":-105.271},
-{"id":"ciis-certificado-terapias-asistidas-investigacion","nombre":"Certificate in Psychedelic-Assisted Therapies and Research","nombre_es":"Certificado en terapias asistidas con psicodélicos e investigación","entidad":"California Institute of Integral Studies (CIIS)","tipo_entidad":"universidad","tipo":["terapia","investigacion"],"destinatarios":"clinicos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"San Francisco","sustancias":["varias"],"duracion_horas":150,"duracion":"12 meses","reconocimiento":["universidad","oregon"],"descripcion":"Certificado de 12 meses con 140-150 horas repartidas en ocho fines de semana de clase. Combina psicología transpersonal, estudios de la conciencia y prácticas indígenas con plantas. La solicitud 2027-2028 abre el 15 de enero de 2027.","url":"https://www.ciis.edu/cptr","estado":"activa","revisado":"2026-11-23","lat":37.775,"lon":-122.419},
-{"id":"numinus-certification-pathway-psilocybin-assisted-therapy","nombre":"Certification Pathway in Psilocybin-Assisted Therapy","nombre_es":"Itinerario de certificación en terapia asistida con psilocibina","entidad":"Numinus","tipo_entidad":"empresa","tipo":["terapia","facilitacion"],"destinatarios":"ayuda","modalidad":"mixta","idiomas":["en"],"pais":"CA","ciudad":"Vancouver","sustancias":["psilocibina"],"duracion":"Por cohortes","reconocimiento":["oregon","colorado","ce","certificado"],"descripcion":"Itinerario por cursos con trabajo previo en plataforma, clases en directo por videollamada y tareas en grupos pequeños. Abierto a profesionales con o sin titulación sanitaria; entrega certificado por componente y créditos de formación continuada.","url":"https://numinusnetwork.com/training","estado":"activa","revisado":"2026-11-23","lat":49.25,"lon":-123.119},
-{"id":"medicinal-mindfulness-academy-colorado-psilocybin-facilitator","nombre":"Colorado Psilocybin Mushrooms Facilitator License (Medicinal Mindfulness Academy)","nombre_es":"Formación de facilitadores de psilocibina de Colorado (Medicinal Mindfulness Academy)","entidad":"Center for Medicinal Mindfulness (Medicinal Mindfulness Academy)","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Boulder","sustancias":["psilocibina"],"duracion":"Unos 18 meses","precio":"12.990 USD (teoría, prácticas y consultoría)","precio_eur":11171,"reconocimiento":["colorado"],"incluye":["practica_supervisada","mentoria"],"descripcion":"Itinerario de enfoque contemplativo con 75 horas de formación básica en línea o en Boulder, una semana de prácticas en la ciudad y consultoría. No exige formación clínica. Hay becas de hasta el 40 % y pago a plazos.","url":"https://medicinalmindfulness.academy","estado":"activa","revisado":"2026-11-23","lat":40.015,"lon":-105.271},
-{"id":"cu-denver-facilitator-training-program","nombre":"Education and Training in Psychedelic Science and Facilitation (Facilitator Training Program)","nombre_es":"Educación y formación en ciencia psicodélica y facilitación","entidad":"University of Colorado Denver, Center for Psychedelic Research","tipo_entidad":"universidad","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Denver","sustancias":["psilocibina"],"duracion_horas":160,"duracion":"18 semanas","precio":"7.500 USD (más 250-400 USD de materiales)","precio_eur":6450,"reconocimiento":["colorado"],"proxima":"2027-01-11","descripcion":"Serie de dos cursos con módulos semanales en línea y clases virtuales dos tardes por semana, con sesiones híbridas opcionales. Pide cartas de recomendación y currículum. Las prácticas no están incluidas en la matrícula.","url":"https://clas.ucdenver.edu/education-and-training-psychedelic-science-and-facilitation","estado":"activa","revisado":"2026-11-23","lat":39.739,"lon":-104.985},
-{"id":"entheogen-institute-facilitator-training","nombre":"Entheogen Institute Facilitator Training Program","nombre_es":"Programa de formación de facilitadores del Entheogen Institute","entidad":"Entheogen Institute","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Ashland","sustancias":["psilocibina"],"duracion_horas":160,"duracion":"120 h de teoría y 40 h de prácticas","reconocimiento":["oregon","colorado"],"incluye":["practica_supervisada"],"descripcion":"Formación pensada para personas sin experiencia previa en psicología o consejería. Las clases se siguen por videollamada o, de forma opcional, presencialmente los sábados en la zona de Ashland, e incluye 40 horas de prácticas.","url":"https://entheotraining.com","estado":"activa","revisado":"2026-11-23","lat":42.195,"lon":-122.709},
-{"id":"acadia-professional-learning-facilitator-training","nombre":"Facilitator Training Program","nombre_es":"Programa de formación de facilitadores","entidad":"Acadia Professional Learning","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Portland","otros_lugares":"Prácticas también en Denver (Colorado)","sustancias":["psilocibina"],"duracion_horas":190,"duracion":"12-14 semanas de teoría más prácticas","precio":"6.900 USD (teoría y prácticas en Oregón)","precio_eur":5934,"reconocimiento":["oregon","colorado"],"incluye":["practica_supervisada"],"proxima":"2027-03-04","descripcion":"Formación para profesionales: 150 horas de teoría en línea y 40 de prácticas presenciales en Portland o Denver. Hay itinerarios separados para Oregón y Colorado, con horas de consulta posteriores en el segundo.","url":"https://acadiaprofessional.com/facilitatortraining","estado":"activa","revisado":"2026-11-23","lat":45.523,"lon":-122.676},
-{"id":"oregon-psychedelic-institute-facilitator-training","nombre":"Facilitator Training Program","nombre_es":"Programa de formación de facilitadores","entidad":"Oregon Psychedelic Institute (OPI)","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Joseph","sustancias":["psilocibina"],"duracion":"8 semanas","reconocimiento":["oregon"],"incluye":["practica_supervisada"],"proxima":"2027-01-12","descripcion":"Siete semanas de aprendizaje en línea seguidas de cinco días de prácticas presenciales en Oregón. Ofrece planes de pago y becas. La solicitud para la edición de invierno de 2027 se cierra el 31 de diciembre de 2026.","url":"http://www.oregonpsych.com","estado":"activa","revisado":"2026-11-23","lat":45.354,"lon":-117.23},
-{"id":"heroic-hearts-project-process-coach-facilitator","nombre":"Heroic Hearts Process Psychedelic Coach & Facilitator Training","nombre_es":"Formación de coach y facilitador de procesos psicodélicos de Heroic Hearts","entidad":"The Heroic Hearts Project","tipo_entidad":"asociacion","tipo":["facilitacion","integracion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Nueva York","sustancias":["psilocibina"],"duracion_horas":140,"duracion":"Unas 23 semanas","reconocimiento":["oregon","certificado"],"incluye":["practica_supervisada"],"descripcion":"Itinerario en dos etapas: primero certificación como coach de integración y después formación de facilitador, con clases en línea y 40 horas de prácticas presenciales en Oregón. No exige ser veterano.","url":"https://heroicheartsproject.learnworlds.com/training-overview","estado":"activa","revisado":"2026-11-23","lat":40.7128,"lon":-74.006},
-{"id":"innertrek-psychedelic-facilitator-training-7-month","nombre":"Level 2: Psychedelic Facilitator Training 7-Month Program","nombre_es":"Nivel 2: formación de facilitadores psicodélicos de 7 meses","entidad":"InnerTrek","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Portland","otros_lugares":"Prácticas también en Golden (Colorado)","sustancias":["psilocibina"],"duracion_horas":200,"duracion":"7 meses","precio":"Desde 6.700 USD (formación virtual)","precio_eur":5762,"reconocimiento":["oregon","colorado"],"incluye":["practica_supervisada"],"proxima":"2027-09-08","descripcion":"Más de 160 horas de teoría con clases semanales en directo y grupos de práctica, más 40 horas de prácticas supervisadas. Tres encuentros presenciales opcionales cerca de Portland. Admisión mediante revisión de solicitud.","url":"https://www.innertrek.org/program-details","estado":"activa","revisado":"2026-11-23","lat":45.523,"lon":-122.676},
-{"id":"aaa-learning-institute-oregon-psilocybin-facilitator","nombre":"Oregon Psilocybin Facilitator Training","nombre_es":"Formación de facilitadores de psilocibina de Oregón","entidad":"AAA Learning Institute","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Eugene","sustancias":["psilocibina"],"duracion_horas":162,"duracion":"11 semanas (ruta estándar) o 7 semanas (acelerada)","precio":"999 USD (más 1.500 USD de prácticas)","precio_eur":859,"reconocimiento":["oregon"],"incluye":["practica_supervisada"],"proxima":"2027-01-05","descripcion":"Escuela privada de formación profesional de Oregón. Clases en directo por internet y estudio autónomo, con 40 horas de prácticas presenciales en un centro de servicios de Salem. Hay ruta estándar y ruta acelerada.","url":"https://www.AAALearningInstitute.com","estado":"activa","revisado":"2026-11-23","lat":44.052,"lon":-123.087},
-{"id":"fluence-professional-certificate-psilocybin-facilitation","nombre":"Professional Certificate Psilocybin Facilitation","nombre_es":"Certificado profesional de facilitación con psilocibina","entidad":"Fluence International","tipo_entidad":"empresa","tipo":["facilitacion"],"destinatarios":"ayuda","modalidad":"en_linea","idiomas":["en"],"pais":"US","ciudad":"Nueva York","sustancias":["psilocibina"],"duracion":"A tu ritmo","reconocimiento":["colorado","certificado"],"descripcion":"Curso de especialidad que se cursa tras completar el curso básico de terapia psicodélica de Fluence. Al terminar se obtiene el certificado profesional de la entidad y se puede figurar en su directorio de terapeutas.","url":"https://fluencetraining.com","estado":"activa","revisado":"2026-11-23","lat":40.7128,"lon":-74.006},
-{"id":"changa-institute-psilocybin-facilitator-training","nombre":"Psilocybin Facilitator Training (Oregon / Colorado)","nombre_es":"Formación de facilitadores de psilocibina (Oregón / Colorado)","entidad":"Changa Institute","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Portland","sustancias":["psilocibina"],"duracion":"Unos 5 meses","precio":"6.899 USD (sin prácticas)","precio_eur":5933,"reconocimiento":["oregon","colorado"],"descripcion":"Programa con clases en directo por videollamada y material asíncrono, abierto sin requerir titulación sanitaria. Las 40 horas de prácticas se ofrecen aparte, con un centro de Portland. Hay itinerarios para Oregón y Colorado.","url":"https://www.changainstitute.com/programs/oregon-certification","estado":"activa","revisado":"2026-11-23","lat":45.523,"lon":-122.676},
-{"id":"clinical-cognitive-facilitator-training-oregon","nombre":"Psilocybin Facilitator Training Oregon","nombre_es":"Formación de facilitadores de psilocibina de Oregón","entidad":"Clinical Cognitive Facilitator Training LLC","tipo_entidad":"empresa","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Portland","sustancias":["psilocibina"],"duracion":"3-4 meses (hasta 1 año)","precio":"8.558 USD (más 150 USD de solicitud)","precio_eur":7360,"reconocimiento":["colorado"],"incluye":["practica_supervisada"],"descripcion":"Teoría a través de una plataforma en línea y formación vivencial presencial, con 40 horas de prácticas en dos semanas y grupos de unas cuatro personas.","url":"https://clinicalcognitivetraining.com","estado":"por_confirmar","revisado":"2026-11-23","lat":45.523,"lon":-122.676},
-{"id":"elemental-psychedelics-mushroom-facilitator-training","nombre":"Psilocybin Mushroom Facilitator Training (150 Hour Training Program)","nombre_es":"Formación de facilitadores de psilocibina (programa de 150 horas)","entidad":"Elemental Psychedelics","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"ayuda","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Fort Collins","sustancias":["psilocibina"],"duracion_horas":150,"duracion":"Unos 5 meses","reconocimiento":["colorado"],"incluye":["practica_supervisada"],"proxima":"2027-04-01","descripcion":"Ciento cincuenta horas: 80 en línea a ritmo propio y 70 presenciales, con clases virtuales semanales y retiros en Lyons (Colorado). Admite clínicos y profesionales del bienestar. Ofrece además un practicum de 40 horas.","url":"https://www.elementalpsychedelics.com/mushroomtraining","estado":"activa","revisado":"2026-11-23","lat":40.585,"lon":-105.084},
-{"id":"uc-berkeley-psychedelic-facilitation-certificate","nombre":"Psychedelic Facilitation Certificate Program","nombre_es":"Programa de certificado en facilitación psicodélica","entidad":"Universidad de California en Berkeley (Center for the Science of Psychedelics y Berkeley School of Education)","tipo_entidad":"universidad","tipo":["facilitacion"],"destinatarios":"ayuda","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Berkeley","sustancias":["psilocibina"],"duracion_horas":200,"duracion":"9 meses","reconocimiento":["oregon"],"incluye":["practica_supervisada"],"descripcion":"Certificado de nueve meses para profesionales del acompañamiento espiritual y de la salud, con siete módulos presenciales y 40 horas de prácticas. Sin nueva edición anunciada desde 2025.","url":"https://psychedelics.berkeley.edu/training/","estado":"pausada","revisado":"2026-11-23","lat":37.872,"lon":-122.273},
-{"id":"soundmind-institute-psychedelic-facilitator-training","nombre":"Psychedelic Facilitator Training Program","nombre_es":"Programa de formación de facilitadores psicodélicos","entidad":"SoundMind Institute","tipo_entidad":"instituto","tipo":["facilitacion","terapia"],"destinatarios":"ayuda","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Portland","sustancias":["varias"],"duracion":"12 meses","reconocimiento":["colorado"],"descripcion":"Programa de doce meses con enfoque psicodinámico dirigido a clínicos y otros profesionales. Incluye un curso asíncrono de técnicas psicodinámicas de tres meses. La cohorte 2027-2028 comienza en octubre de 2027.","url":"https://soundmind.institute/institute","estado":"activa","revisado":"2026-11-23","lat":45.523,"lon":-122.676},
-{"id":"synthesis-institute-psychedelic-practitioner-core-training","nombre":"Psychedelic Practitioner Core Training (Colorado track)","nombre_es":"Formación básica de practicantes psicodélicos (itinerario de Colorado)","entidad":"Synthesis Institute (The Resurgence Training Institute)","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"mixta","idiomas":["en"],"pais":"US","ciudad":"Chicago","sustancias":["psilocibina"],"duracion_horas":250,"duracion":"13 meses","reconocimiento":["colorado"],"proxima":"2027-01-18","descripcion":"Trece meses con sesiones semanales grabadas y grupos en directo de 8 a 10 personas, más un módulo específico de Colorado de unas 25 horas (799 USD aparte). Las prácticas y la consultoría se hacen por separado.","url":"https://www.synthesisinstitute.com/synthesis-psilocybin-facilitator-training-program","estado":"activa","revisado":"2026-11-23","lat":41.85,"lon":-87.65},
-{"id":"leela-school-psilocybin-facilitator-program","nombre":"The Psilocybin Facilitator Program","nombre_es":"Programa de facilitadores de psilocibina","entidad":"The Leela School of Awakening","tipo_entidad":"instituto","tipo":["facilitacion"],"destinatarios":"todos","modalidad":"presencial","idiomas":["en"],"pais":"US","ciudad":"Ashland","sustancias":["psilocibina"],"duracion":"Sin edición abierta","reconocimiento":["oregon"],"descripcion":"Programa de facilitación de la escuela Leela, en Ashland. Está en pausa: la escuela anuncia que volverá a ofrecerlo más adelante.","url":"https://leelaschool.org/psilocybin-facilitator-program/","estado":"pausada","revisado":"2026-11-23","lat":42.195,"lon":-122.709}]}
+{
+ "actualizado": "2026-11-24",
+ "formaciones": [
+  {
+   "id": "academy-of-intrinsic-studies-facilitator-certification",
+   "nombre": "AIS Facilitator Certification",
+   "nombre_es": "Certificación de facilitadores de la Academy of Intrinsic Studies",
+   "entidad": "Academy of Intrinsic Studies (AIS)",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Bend",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 150,
+   "duracion": "6 meses (4 meses en ruta acelerada)",
+   "precio": "7.500 USD",
+   "precio_eur": 6450,
+   "reconocimiento": [
+    "colorado",
+    "certificado"
+   ],
+   "descripcion": "Itinerario de Colorado totalmente en línea, con sesiones en directo y contenido a ritmo propio, en grupos de unas 30 personas. Las 40 horas de prácticas presenciales se hacen aparte en un centro aprobado.",
+   "url": "https://www.intrinsicstudies.com/colorado",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 44.058,
+   "lon": -121.315
+  },
+  {
+   "id": "bodhi-academy-ceremonial-practitioner-certification",
+   "nombre": "Ceremonial Practitioner Certification Program (Psychedelic Facilitator Training)",
+   "nombre_es": "Programa de certificación de practicantes ceremoniales (formación de facilitadores psicodélicos)",
+   "entidad": "Bodhi Academy",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Boulder",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 200,
+   "duracion": "6 meses",
+   "reconocimiento": [
+    "colorado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "descripcion": "Formación intensiva de seis meses con unidades en vídeo, clases en directo por internet, fines de semana presenciales de juego de roles y un retiro de prácticas supervisadas de diez días. Grupos de 24 personas en la edición de 2027.",
+   "url": "https://www.bodhi-academy.com",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 40.015,
+   "lon": -105.271
+  },
+  {
+   "id": "ciis-certificado-terapias-asistidas-investigacion",
+   "nombre": "Certificate in Psychedelic-Assisted Therapies and Research",
+   "nombre_es": "Certificado en terapias asistidas con psicodélicos e investigación",
+   "entidad": "California Institute of Integral Studies (CIIS)",
+   "tipo_entidad": "universidad",
+   "tipo": [
+    "terapia",
+    "investigacion"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "San Francisco",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 150,
+   "duracion": "12 meses",
+   "reconocimiento": [
+    "universidad",
+    "oregon"
+   ],
+   "descripcion": "Certificado de 12 meses con 140-150 horas repartidas en ocho fines de semana de clase. Combina psicología transpersonal, estudios de la conciencia y prácticas indígenas con plantas. La solicitud 2027-2028 abre el 15 de enero de 2027.",
+   "url": "https://www.ciis.edu/cptr",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 37.775,
+   "lon": -122.419
+  },
+  {
+   "id": "numinus-certification-pathway-psilocybin-assisted-therapy",
+   "nombre": "Certification Pathway in Psilocybin-Assisted Therapy",
+   "nombre_es": "Itinerario de certificación en terapia asistida con psilocibina",
+   "entidad": "Numinus",
+   "tipo_entidad": "empresa",
+   "tipo": [
+    "terapia",
+    "facilitacion"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "CA",
+   "ciudad": "Vancouver",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion": "Por cohortes",
+   "reconocimiento": [
+    "oregon",
+    "colorado",
+    "ce",
+    "certificado"
+   ],
+   "descripcion": "Itinerario por cursos con trabajo previo en plataforma, clases en directo por videollamada y tareas en grupos pequeños. Abierto a profesionales con o sin titulación sanitaria; entrega certificado por componente y créditos de formación continuada.",
+   "url": "https://numinusnetwork.com/training",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 49.25,
+   "lon": -123.119
+  },
+  {
+   "id": "medicinal-mindfulness-academy-colorado-psilocybin-facilitator",
+   "nombre": "Colorado Psilocybin Mushrooms Facilitator License (Medicinal Mindfulness Academy)",
+   "nombre_es": "Formación de facilitadores de psilocibina de Colorado (Medicinal Mindfulness Academy)",
+   "entidad": "Center for Medicinal Mindfulness (Medicinal Mindfulness Academy)",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Boulder",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion": "Unos 18 meses",
+   "precio": "12.990 USD (teoría, prácticas y consultoría)",
+   "precio_eur": 11171,
+   "reconocimiento": [
+    "colorado"
+   ],
+   "incluye": [
+    "practica_supervisada",
+    "mentoria"
+   ],
+   "descripcion": "Itinerario de enfoque contemplativo con 75 horas de formación básica en línea o en Boulder, una semana de prácticas en la ciudad y consultoría. No exige formación clínica. Hay becas de hasta el 40 % y pago a plazos.",
+   "url": "https://medicinalmindfulness.academy",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 40.015,
+   "lon": -105.271
+  },
+  {
+   "id": "cu-denver-facilitator-training-program",
+   "nombre": "Education and Training in Psychedelic Science and Facilitation (Facilitator Training Program)",
+   "nombre_es": "Educación y formación en ciencia psicodélica y facilitación",
+   "entidad": "University of Colorado Denver, Center for Psychedelic Research",
+   "tipo_entidad": "universidad",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Denver",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 160,
+   "duracion": "18 semanas",
+   "precio": "7.500 USD (más 250-400 USD de materiales)",
+   "precio_eur": 6450,
+   "reconocimiento": [
+    "colorado"
+   ],
+   "proxima": "2027-01-11",
+   "descripcion": "Serie de dos cursos con módulos semanales en línea y clases virtuales dos tardes por semana, con sesiones híbridas opcionales. Pide cartas de recomendación y currículum. Las prácticas no están incluidas en la matrícula.",
+   "url": "https://clas.ucdenver.edu/education-and-training-psychedelic-science-and-facilitation",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 39.739,
+   "lon": -104.985
+  },
+  {
+   "id": "entheogen-institute-facilitator-training",
+   "nombre": "Entheogen Institute Facilitator Training Program",
+   "nombre_es": "Programa de formación de facilitadores del Entheogen Institute",
+   "entidad": "Entheogen Institute",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Ashland",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 160,
+   "duracion": "120 h de teoría y 40 h de prácticas",
+   "reconocimiento": [
+    "oregon",
+    "colorado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "descripcion": "Formación pensada para personas sin experiencia previa en psicología o consejería. Las clases se siguen por videollamada o, de forma opcional, presencialmente los sábados en la zona de Ashland, e incluye 40 horas de prácticas.",
+   "url": "https://entheotraining.com",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 42.195,
+   "lon": -122.709
+  },
+  {
+   "id": "acadia-professional-learning-facilitator-training",
+   "nombre": "Facilitator Training Program",
+   "nombre_es": "Programa de formación de facilitadores",
+   "entidad": "Acadia Professional Learning",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Portland",
+   "otros_lugares": "Prácticas también en Denver (Colorado)",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 190,
+   "duracion": "12-14 semanas de teoría más prácticas",
+   "precio": "6.900 USD (teoría y prácticas en Oregón)",
+   "precio_eur": 5934,
+   "reconocimiento": [
+    "oregon",
+    "colorado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "proxima": "2027-03-04",
+   "descripcion": "Formación para profesionales: 150 horas de teoría en línea y 40 de prácticas presenciales en Portland o Denver. Hay itinerarios separados para Oregón y Colorado, con horas de consulta posteriores en el segundo.",
+   "url": "https://acadiaprofessional.com/facilitatortraining",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 45.523,
+   "lon": -122.676
+  },
+  {
+   "id": "oregon-psychedelic-institute-facilitator-training",
+   "nombre": "Facilitator Training Program",
+   "nombre_es": "Programa de formación de facilitadores",
+   "entidad": "Oregon Psychedelic Institute (OPI)",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Joseph",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion": "8 semanas",
+   "reconocimiento": [
+    "oregon"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "proxima": "2027-01-12",
+   "descripcion": "Siete semanas de aprendizaje en línea seguidas de cinco días de prácticas presenciales en Oregón. Ofrece planes de pago y becas. La solicitud para la edición de invierno de 2027 se cierra el 31 de diciembre de 2026.",
+   "url": "http://www.oregonpsych.com",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 45.354,
+   "lon": -117.23
+  },
+  {
+   "id": "heroic-hearts-project-process-coach-facilitator",
+   "nombre": "Heroic Hearts Process Psychedelic Coach & Facilitator Training",
+   "nombre_es": "Formación de coach y facilitador de procesos psicodélicos de Heroic Hearts",
+   "entidad": "The Heroic Hearts Project",
+   "tipo_entidad": "asociacion",
+   "tipo": [
+    "facilitacion",
+    "integracion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Nueva York",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 140,
+   "duracion": "Unas 23 semanas",
+   "reconocimiento": [
+    "oregon",
+    "certificado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "descripcion": "Itinerario en dos etapas: primero certificación como coach de integración y después formación de facilitador, con clases en línea y 40 horas de prácticas presenciales en Oregón. No exige ser veterano.",
+   "url": "https://heroicheartsproject.learnworlds.com/training-overview",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 40.7128,
+   "lon": -74.006
+  },
+  {
+   "id": "innertrek-psychedelic-facilitator-training-7-month",
+   "nombre": "Level 2: Psychedelic Facilitator Training 7-Month Program",
+   "nombre_es": "Nivel 2: formación de facilitadores psicodélicos de 7 meses",
+   "entidad": "InnerTrek",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Portland",
+   "otros_lugares": "Prácticas también en Golden (Colorado)",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 200,
+   "duracion": "7 meses",
+   "precio": "Desde 6.700 USD (formación virtual)",
+   "precio_eur": 5762,
+   "reconocimiento": [
+    "oregon",
+    "colorado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "proxima": "2027-09-08",
+   "descripcion": "Más de 160 horas de teoría con clases semanales en directo y grupos de práctica, más 40 horas de prácticas supervisadas. Tres encuentros presenciales opcionales cerca de Portland. Admisión mediante revisión de solicitud.",
+   "url": "https://www.innertrek.org/program-details",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 45.523,
+   "lon": -122.676
+  },
+  {
+   "id": "aaa-learning-institute-oregon-psilocybin-facilitator",
+   "nombre": "Oregon Psilocybin Facilitator Training",
+   "nombre_es": "Formación de facilitadores de psilocibina de Oregón",
+   "entidad": "AAA Learning Institute",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Eugene",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 162,
+   "duracion": "11 semanas (ruta estándar) o 7 semanas (acelerada)",
+   "precio": "999 USD (más 1.500 USD de prácticas)",
+   "precio_eur": 859,
+   "reconocimiento": [
+    "oregon"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "proxima": "2027-01-05",
+   "descripcion": "Escuela privada de formación profesional de Oregón. Clases en directo por internet y estudio autónomo, con 40 horas de prácticas presenciales en un centro de servicios de Salem. Hay ruta estándar y ruta acelerada.",
+   "url": "https://www.AAALearningInstitute.com",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 44.052,
+   "lon": -123.087
+  },
+  {
+   "id": "fluence-professional-certificate-psilocybin-facilitation",
+   "nombre": "Professional Certificate Psilocybin Facilitation",
+   "nombre_es": "Certificado profesional de facilitación con psilocibina",
+   "entidad": "Fluence International",
+   "tipo_entidad": "empresa",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Nueva York",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion": "A tu ritmo",
+   "reconocimiento": [
+    "colorado",
+    "certificado"
+   ],
+   "descripcion": "Curso de especialidad que se cursa tras completar el curso básico de terapia psicodélica de Fluence. Al terminar se obtiene el certificado profesional de la entidad y se puede figurar en su directorio de terapeutas.",
+   "url": "https://fluencetraining.com",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 40.7128,
+   "lon": -74.006
+  },
+  {
+   "id": "changa-institute-psilocybin-facilitator-training",
+   "nombre": "Psilocybin Facilitator Training (Oregon / Colorado)",
+   "nombre_es": "Formación de facilitadores de psilocibina (Oregón / Colorado)",
+   "entidad": "Changa Institute",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Portland",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion": "Unos 5 meses",
+   "precio": "6.899 USD (sin prácticas)",
+   "precio_eur": 5933,
+   "reconocimiento": [
+    "oregon",
+    "colorado"
+   ],
+   "descripcion": "Programa con clases en directo por videollamada y material asíncrono, abierto sin requerir titulación sanitaria. Las 40 horas de prácticas se ofrecen aparte, con un centro de Portland. Hay itinerarios para Oregón y Colorado.",
+   "url": "https://www.changainstitute.com/programs/oregon-certification",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 45.523,
+   "lon": -122.676
+  },
+  {
+   "id": "clinical-cognitive-facilitator-training-oregon",
+   "nombre": "Psilocybin Facilitator Training Oregon",
+   "nombre_es": "Formación de facilitadores de psilocibina de Oregón",
+   "entidad": "Clinical Cognitive Facilitator Training LLC",
+   "tipo_entidad": "empresa",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Portland",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion": "3-4 meses (hasta 1 año)",
+   "precio": "8.558 USD (más 150 USD de solicitud)",
+   "precio_eur": 7360,
+   "reconocimiento": [
+    "colorado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "descripcion": "Teoría a través de una plataforma en línea y formación vivencial presencial, con 40 horas de prácticas en dos semanas y grupos de unas cuatro personas.",
+   "url": "https://clinicalcognitivetraining.com",
+   "estado": "por_confirmar",
+   "revisado": "2026-11-23",
+   "lat": 45.523,
+   "lon": -122.676
+  },
+  {
+   "id": "elemental-psychedelics-mushroom-facilitator-training",
+   "nombre": "Psilocybin Mushroom Facilitator Training (150 Hour Training Program)",
+   "nombre_es": "Formación de facilitadores de psilocibina (programa de 150 horas)",
+   "entidad": "Elemental Psychedelics",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Fort Collins",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 150,
+   "duracion": "Unos 5 meses",
+   "reconocimiento": [
+    "colorado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "proxima": "2027-04-01",
+   "descripcion": "Ciento cincuenta horas: 80 en línea a ritmo propio y 70 presenciales, con clases virtuales semanales y retiros en Lyons (Colorado). Admite clínicos y profesionales del bienestar. Ofrece además un practicum de 40 horas.",
+   "url": "https://www.elementalpsychedelics.com/mushroomtraining",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 40.585,
+   "lon": -105.084
+  },
+  {
+   "id": "uc-berkeley-psychedelic-facilitation-certificate",
+   "nombre": "Psychedelic Facilitation Certificate Program",
+   "nombre_es": "Programa de certificado en facilitación psicodélica",
+   "entidad": "Universidad de California en Berkeley (Center for the Science of Psychedelics y Berkeley School of Education)",
+   "tipo_entidad": "universidad",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Berkeley",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 200,
+   "duracion": "9 meses",
+   "reconocimiento": [
+    "oregon"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "descripcion": "Certificado de nueve meses para profesionales del acompañamiento espiritual y de la salud, con siete módulos presenciales y 40 horas de prácticas. Sin nueva edición anunciada desde 2025.",
+   "url": "https://psychedelics.berkeley.edu/training/",
+   "estado": "pausada",
+   "revisado": "2026-11-23",
+   "lat": 37.872,
+   "lon": -122.273
+  },
+  {
+   "id": "soundmind-institute-psychedelic-facilitator-training",
+   "nombre": "Psychedelic Facilitator Training Program",
+   "nombre_es": "Programa de formación de facilitadores psicodélicos",
+   "entidad": "SoundMind Institute",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion",
+    "terapia"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Portland",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion": "12 meses",
+   "reconocimiento": [
+    "colorado"
+   ],
+   "descripcion": "Programa de doce meses con enfoque psicodinámico dirigido a clínicos y otros profesionales. Incluye un curso asíncrono de técnicas psicodinámicas de tres meses. La cohorte 2027-2028 comienza en octubre de 2027.",
+   "url": "https://soundmind.institute/institute",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 45.523,
+   "lon": -122.676
+  },
+  {
+   "id": "synthesis-institute-psychedelic-practitioner-core-training",
+   "nombre": "Psychedelic Practitioner Core Training (Colorado track)",
+   "nombre_es": "Formación básica de practicantes psicodélicos (itinerario de Colorado)",
+   "entidad": "Synthesis Institute (The Resurgence Training Institute)",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Chicago",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": 250,
+   "duracion": "13 meses",
+   "reconocimiento": [
+    "colorado"
+   ],
+   "proxima": "2027-01-18",
+   "descripcion": "Trece meses con sesiones semanales grabadas y grupos en directo de 8 a 10 personas, más un módulo específico de Colorado de unas 25 horas (799 USD aparte). Las prácticas y la consultoría se hacen por separado.",
+   "url": "https://www.synthesisinstitute.com/synthesis-psilocybin-facilitator-training-program",
+   "estado": "activa",
+   "revisado": "2026-11-23",
+   "lat": 41.85,
+   "lon": -87.65
+  },
+  {
+   "id": "leela-school-psilocybin-facilitator-program",
+   "nombre": "The Psilocybin Facilitator Program",
+   "nombre_es": "Programa de facilitadores de psilocibina",
+   "entidad": "The Leela School of Awakening",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "presencial",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Ashland",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion": "Sin edición abierta",
+   "reconocimiento": [
+    "oregon"
+   ],
+   "descripcion": "Programa de facilitación de la escuela Leela, en Ashland. Está en pausa: la escuela anuncia que volverá a ofrecerlo más adelante.",
+   "url": "https://leelaschool.org/psilocybin-facilitator-program/",
+   "estado": "pausada",
+   "revisado": "2026-11-23",
+   "lat": 42.195,
+   "lon": -122.709
+  },
+  {
+   "id": "mind-foundation-augmented-psychotherapy-training",
+   "nombre": "Augmented Psychotherapy Training (APT)",
+   "nombre_es": "Formación en psicoterapia aumentada (APT) de la MIND Foundation",
+   "entidad": "MIND Foundation",
+   "tipo_entidad": "asociacion",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en",
+    "de"
+   ],
+   "pais": "DE",
+   "ciudad": "Berlín",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 400,
+   "duracion": "15 meses: tres semanas intensivas presenciales y sesiones semanales en línea",
+   "precio": "15.000 EUR (sin alojamiento ni viajes)",
+   "precio_eur": 15000,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "incluye": [
+    "experiencial",
+    "mentoria"
+   ],
+   "descripcion": "Programa profesional para médicos, psicoterapeutas y otros profesionales de la salud mental. Las tres semanas presenciales se hacen en Berlín y el resto del curso es en línea. Se ofrece en inglés y en alemán, con admisión previa y becas limitadas.",
+   "url": "https://www.mind-foundation.org/augmented-psychotherapy-training",
+   "estado": "activa",
+   "revisado": "2026-11-24",
+   "lat": 52.52,
+   "lon": 13.405
+  },
+  {
+   "id": "mind-medicine-australia-cpat",
+   "nombre": "Certificate in Psychedelic-Assisted Therapies (CPAT)",
+   "nombre_es": "Certificado en terapias asistidas con psicodélicos (CPAT) de Mind Medicine Australia",
+   "entidad": "Mind Medicine Australia",
+   "tipo_entidad": "asociacion",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "AU",
+   "sustancias": [
+    "psilocibina",
+    "mdma",
+    "ketamina"
+   ],
+   "duracion_horas": 127,
+   "duracion": "Unos 4 meses, en línea y con un retiro presencial",
+   "precio": "10.950 (moneda sin confirmar; dato de agosto de 2025)",
+   "precio_eur": null,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "descripcion": "Formación en parte en línea y en parte presencial para profesionales sanitarios registrados. Se centra en las tres sustancias con aprobación regulatoria en Australia. Quien la termina puede entrar en el registro de profesionales de la propia entidad.",
+   "url": "https://mindmedicineaustralia.org.au/certificate-in-psychedelic-assisted-therapies-cpat/",
+   "estado": "activa",
+   "revisado": "2026-11-24"
+  },
+  {
+   "id": "exeter-pgcert-psychedelics-mind-medicine-culture",
+   "nombre": "PGCert Psychedelics: Mind, Medicine, and Culture (Online)",
+   "nombre_es": "Certificado de posgrado en psicodélicos: mente, medicina y cultura (en línea)",
+   "entidad": "University of Exeter",
+   "tipo_entidad": "universidad",
+   "tipo": [
+    "introduccion",
+    "investigacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "GB",
+   "ciudad": "Exeter",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "Hasta 12 meses, a tiempo parcial",
+   "precio": "Unos 5.000 GBP según portales de estudios (confirmar en la universidad)",
+   "precio_eur": null,
+   "reconocimiento": [
+    "universidad"
+   ],
+   "descripcion": "Certificado universitario en línea sobre terapia con psicodélicos, neurociencia, antropología, ética, metafísica y métodos de investigación. Pide una licenciatura con nota media alta en cualquier área; también se valora la experiencia profesional. No habilita por sí solo para ejercer terapia.",
+   "url": "https://www.exeter.ac.uk/online-courses/pgcert-psychedelics/",
+   "estado": "activa",
+   "revisado": "2026-11-24",
+   "lat": 50.7184,
+   "lon": -3.5339
+  }
+ ]
+}
