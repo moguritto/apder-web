@@ -1,0 +1,246 @@
+{
+ "slug": "raiz-africana-de-los-suenos",
+ "tipo": "planta",
+ "migas": "Planta · Cariofiláceas · Cabo Oriental, Sudáfrica",
+ "nombre": "Raíz africana de los sueños",
+ "cientifico": "Silene capensis",
+ "autoridad": "Otth",
+ "descripcion": "Raíz africana de los sueños (Silene capensis): planta sagrada de los xhosa de Sudáfrica para soñar con los ancestros, la iniciación y la adivinación.",
+ "entrada": "Una hierba pegajosa del Cabo Oriental, en Sudáfrica, que el pueblo xhosa considera sagrada. Su raíz, el ubulawu, se usa en la iniciación de los sanadores tradicionales para provocar sueños vívidos y, según los xhosa, proféticos.[1][2][3]",
+ "otros": "raíz africana de los sueños · ubulawu · undlela zimhlophe · «caminos blancos» · unozitholana · African dream root · Silene undulata · Silene capensis",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba perenne pegajosa de la familia del clavel"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Cabo Oriental, en el sur de África"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La raíz, que se cosecha a partir del segundo año"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Saponinas triterpénicas, según la hipótesis más citada; datos incompletos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblo xhosa y sanadores sangoma"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una hierba pegajosa de flores nocturnas",
+  "parrafos": [
+   "<em>Silene undulata</em>, también llamada <em>Silene capensis</em>, es una hierba perenne glandular y pegajosa de hasta 60 cm, de la familia de las cariofiláceas.[2][3]",
+   "Sus flores perfumadas se abren de noche y se cierran de día.[4] Es bienal o perenne de vida corta, y la raíz puede cosecharse a partir del segundo año.[4]",
+   "El nombre del género procede del griego <em>sialon</em>, «saliva», por los tallos pegajosos.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Caryophyllaceae"
+   ],
+   [
+    "Altura",
+    "Hasta 60 cm"
+   ],
+   [
+    "Flores",
+    "Perfumadas, se abren de noche"
+   ],
+   [
+    "Parte usada",
+    "Raíz"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Los caminos blancos",
+  "parrafos": [
+   "El pueblo xhosa la considera sagrada.[4][5] Su raíz se usa tradicionalmente para provocar sueños vívidos, proféticos según los xhosa, durante la iniciación de los sanadores tradicionales.[4]",
+   "El nombre <em>ubulawu</em> procede del verbo <em>ukulawula</em>, que en su uso corriente significa «dar instrucciones» y aquí significa contar los sueños en los que se han recibido instrucciones.[1]",
+   "En xhosa se llama <em>iindlela zimhlophe</em>, «caminos blancos».[3]",
+   "Es la planta <em>ubulawu</em> más usada en el Cabo Oriental, donde se han hecho varios estudios antropológicos sobre ella.[2]",
+   "Los diviners y chamanes la han usado para provocar estados proféticos de sueño lúcido.[5]",
+   "Desde hace poco se ofrece internacionalmente como «hierba de meditación» psicoactiva, con el nombre comercial de «African dream root».[2]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "<em>ubulawu</em>",
+    "nombre xhosa de la raíz de los sueños"
+   ],
+   [
+    "<em>iindlela zimhlophe</em>",
+    "«caminos blancos»"
+   ],
+   [
+    "<em>unozitholana</em>",
+    "otro nombre xhosa"
+   ],
+   [
+    "<em>African dream root</em>",
+    "nombre comercial inglés"
+   ]
+  ],
+  "nota_nombres": "<em>Silene capensis</em> y <em>Silene undulata</em> se usan a menudo como sinónimos.[3][6]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "El Cabo Oriental",
+  "parrafos": [
+   "Es nativa del Cabo Oriental, en Sudáfrica.[3]",
+   "Según la lista roja sudafricana, no está amenazada (preocupación menor).[1]",
+   "Tolera calor extremo y frío moderado, y se cultiva con facilidad.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como planta sagrada de los xhosa.",
+   "No tratarla como producto.",
+   "Respetar a los sangoma y los saberes de la iniciación."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-raiz-africana-de-los-suenos.svg",
+   "alt": "Mapa con una zona sombreada en ocre en el Cabo Oriental, Sudáfrica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la raíz africana de los sueños"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Una química aún poco clara",
+  "parrafos": [
+   "La hipótesis más citada atribuye su acción onírica a las saponinas triterpénicas de la raíz.[7]",
+   "Según un resumen en Wikipedia, se hallaron β-carbolinas como norharmano, harmalol, harmalina y harmina, además de ibogaína, y se predijo que actuaran como agonistas del receptor serotoninérgico 5-HT2A.[4] Esta información procede de una sola fuente secundaria y conviene contrastarla con la primaria."
+  ],
+  "moleculas": [
+   {
+    "nombre": "Saponinas triterpénicas",
+    "clase": "Saponinas",
+    "img": null,
+    "texto": "Hipótesis más citada del efecto sobre el sueño.[7]"
+   },
+   {
+    "nombre": "Harmina y harmalina",
+    "clase": "β-carbolinas",
+    "img": null,
+    "texto": "Citadas en una fuente secundaria; sin confirmar.[4]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "El sueño más que la vigilia",
+  "parrafos": [
+   "Se describe como un oneirógeno, una planta que actúa sobre el sueño, comparable a la hierba de los sueños mexicana, <em>Calea zacatechichi</em>.[4]",
+   "Según los textos comerciales, apenas modifica la vigilia, pero puede cambiar mucho el sueño.[7] Es una afirmación sin verificar.",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Hay estudios antropológicos sobre su uso en el Cabo Oriental.[2]",
+   "No hay estudios clínicos."
+  ],
+  "alcance": "Uso tradicional documentado; sin estudios clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Su composición química no está confirmada en fuentes primarias.[4]"
+   ],
+   [
+    "Mercado",
+    "Se vende ya en internet, con textos comerciales poco fiables.[2][7]"
+   ],
+   [
+    "Contexto",
+    "Es una planta sagrada vinculada a la iniciación de sanadores xhosa.[4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Hierba de los sueños",
+   "Calea ternifolia",
+   "Planta onírica de México, comparable según la bibliografía.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Grocott's Mail. Xhosa dream (<em>Silene undulata</em>). pressreader.com/south-africa/grocotts-mail/20161118/281822873386103.",
+  "SANBI. <em>Silene undulata</em>. pza.sanbi.org/node/10962.",
+  "Wikipedia. <em>Silene undulata</em>. en.wikipedia.com/wiki/Silene_undulata.",
+  "Wikiwand. <em>Silene undulata</em>. wikiwand.com/en/articles/Silene_undulata.",
+  "Britannica. African dream root. britannica.com/plant/African-dream-root.",
+  "Wikidoc. <em>Silene capensis</em>. wikidoc.org/index.php/Silene_capensis.",
+  "Kruidwis. Afrikanische Traumwurzel (<em>Silene capensis</em>). sites.google.com/site/kruidwis/kruiden-planten-van-a-tot-z/silene-capensis."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Pituri",
+  "pituri"
+ ],
+ "siguiente": [
+  "San Pedro",
+  "san-pedro"
+ ]
+}
