@@ -1,0 +1,227 @@
+{
+ "slug": "cawe",
+ "tipo": "cactus",
+ "migas": "Cactus · Cactáceas · Oeste de México",
+ "nombre": "Cawé",
+ "cientifico": "Pachycereus pecten-aboriginum",
+ "autoridad": "(Engelm.) Britton & Rose",
+ "descripcion": "Cawé (Pachycereus pecten-aboriginum): cactus columnar del oeste de México, con uso narcótico atribuido a los tarahumaras. Psicoactividad no probada.",
+ "entrada": "Un cactus columnar enorme del oeste de México, de frutos cubiertos de cerdas que se usaron como peines. Se le atribuye un uso sagrado entre los tarahumaras, pero la literatura admite que no se sabe con certeza si es alucinógeno.[1][2][3]",
+ "otros": "cawé · hecho · cardón hecho · chawé · wichowaka · hairbrush cactus · Indian comb",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Cactus columnar de gran porte"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Oeste de México, de Baja California a Chiapas"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Ramas jóvenes"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "No determinados con certeza"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tarahumaras (rarámuri)"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El cactus peine",
+  "parrafos": [
+   "<em>Pachycereus pecten-aboriginum</em> es un árbol-cactus de hasta 15 m de altura con muchas ramas; sus frutos grandes y erizados dan nombre a la especie: «pecten-aboriginum» significa «peines nativos» en latín, por el uso de los frutos como peines.[1][4]",
+   "Se llama en inglés «hairbrush cactus» o «Indian comb».[4]",
+   "Sus flores son blancas con borde púrpura; los frutos están cubiertos de lana amarilla y cerdas.[2]",
+   "Fue descrita en 1886 por Sereno Watson como <em>Cereus pecten-aboriginum</em>, y Britton y Rose la pasaron al género <em>Pachycereus</em> en 1909.[5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Cactáceas"
+   ],
+   [
+    "Altura",
+    "Hasta 15 m"
+   ],
+   [
+    "Flores",
+    "Blancas con borde púrpura"
+   ],
+   [
+    "Frutos",
+    "Grandes, con lana y cerdas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un cactus sagrado dudoso",
+  "parrafos": [
+   "La guía de cactus visionarios de Erowid señala que los tarahumaras de México usan las ramas jóvenes para hacer una bebida narcótica sagrada.[2]",
+   "La literatura clásica sobre el peyote cita <em>Pachycereus pecten-aboriginum</em> entre las plantas empleadas por los tarahumaras por sus propiedades estimulantes o narcóticas, o llamadas «peyote».[6]",
+   "Una síntesis de Erowid añade que el cawé se combina con el San Pedro entre los tarahumaras, pero que no se sabe con certeza si este cactus es alucinógeno.[7]",
+   "En el pueblo tarahumara se le conoce como cawé, chawé, wichowaka o chik; en castellano, hecho, cardón hecho o cardón barbón.[8]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "cawé, chawé, wichowaka",
+    "tarahumara"
+   ],
+   [
+    "hecho, cardón hecho, cardón barbón",
+    "castellano"
+   ],
+   [
+    "hairbrush cactus, Indian comb",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "El oeste de México",
+  "parrafos": [
+   "Es endémica de México: su área va por los estados del oeste desde Baja California, pasando por Sinaloa y Sonora, hasta Chiapas.[1]",
+   "Crece en laderas y llanuras, valles y arroyos, en matorral espinoso, bosque tropical caducifolio y matorral del desierto de Sonora.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No arrancarlo del campo.",
+   "Respetar el saber de los pueblos del noroeste de México.",
+   "No confundirlo con el peyote."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-cawe.svg",
+   "alt": "Mapa con la costa pacífica y el oeste de México sombreados.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del cawé"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Química sin confirmar",
+  "parrafos": [
+   "La literatura clásica cita este cactus junto a otras plantas llamadas «peyote» por los tarahumaras, y no hay una confirmación sólida de su química psicoactiva en las fuentes consultadas.[6][7]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "No hay descripciones fiables de una experiencia con este cactus; ni siquiera está establecido que sea psicoactivo.[7]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Se conoce sobre todo por menciones en la literatura sobre el peyote y por estudios botánicos.[6]"
+  ],
+  "alcance": "Casi sin investigación química o clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Identidad",
+    "Su carácter psicoactivo no está probado.[7]"
+   ],
+   [
+    "Confusión de nombres",
+    "Varias plantas se han llamado «peyote» entre los tarahumaras.[6]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios fiables."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "cactus",
+   "Peyote",
+   "Lophophora williamsii",
+   "El cactus sagrado de México del que se le confunde por nombre.",
+   "enciclopedia/peyote/"
+  ],
+  [
+   "cactus",
+   "San Pedro",
+   "Echinopsis pachanoi",
+   "Con el que se dice que se combina.",
+   "enciclopedia/san-pedro/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Pachycereus pecten-aboriginum</em>. en.wikipedia.org/wiki/Pachycereus_pecten-aboriginum.",
+  "Erowid. <em>Visionary Cactus Guide: Pachycereus</em>. taz4.erowid.org/plants/cacti/cacti_guide/cacti_guide_pachycer.shtml.",
+  "Wikipedia. <em>Pachycereus pecten-aboriginum</em> (hábitat). en.wikipedia-on-ipfs.org/wiki/Pachycereus_pecten-aboriginum.",
+  "Wikipedia. <em>Pachycereus pecten-aboriginum</em> (nombre). wikipedia.com/wiki/Pachycereus_pecten-aboriginum.",
+  "Wikiwand. <em>Pachycereus pecten-aboriginum</em>. wikiwand.com/en/articles/Pachycereus_pecten-aboriginum.",
+  "MAPS. Bibliografía sobre cactus llamados peyote. bibliography.maps.org/resources/download/12884.",
+  "Erowid. <em>Golden Guide to Hallucinogenic Plants</em>. erowid.org/library/books_online/golden_guide/g111-120.shtml.",
+  "LLifle. <em>Cereus pecten-aboriginum</em>. llifle.com/Encyclopedia/CACTI/Family/Cactaceae/8499/Cereus_pecten-aboriginum."
+ ],
+ "tipo_txt": "Cactus",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Cannabis",
+  "cannabis"
+ ],
+ "siguiente": [
+  "Cebil",
+  "cebil"
+ ]
+}
