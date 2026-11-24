@@ -1,0 +1,240 @@
+{
+ "slug": "derrumbe",
+ "tipo": "hongo",
+ "migas": "Hongo · Estrofariáceas · México",
+ "nombre": "Derrumbe",
+ "cientifico": "Psilocybe caerulescens",
+ "autoridad": "Murrill",
+ "descripcion": "Derrumbe (Psilocybe caerulescens): hongo sagrado de Oaxaca y Veracruz, el «teotlaquilnanácatl» náhuatl; endémico de México y en peligro según la UICN.",
+ "entrada": "Un hongo que brota en suelos removidos, en laderas y derrumbes del bosque nuboso mexicano, de ahí su nombre. Los nahuas lo llaman teotlaquilnanácatl, «hongo sagrado que pinta o describe», y se ha propuesto que es el teonanácatl que cita Sahagún en el siglo XVI.[1][2][3]",
+ "otros": "derrumbe · hongo de derrumbe · derrumbe negro · derrumbe de agua · cañadas · teotlaquilnanácatl · hongo de desbarrancadero",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hongo azulante de terrenos removidos"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Bosque nuboso de México (endémico)"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Cuerpo fructífero"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Psilocibina (según el género)"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Mazatecos, mixes, totonacos y nahuas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El hongo del derrumbe",
+  "parrafos": [
+   "<em>Psilocybe caerulescens</em> crece en terreno removido y en suelos fangosos con restos de madera; tiene un área amplia y poca especificidad por un tipo de vegetación.[1]",
+   "Se encuentra en el bosque mesófilo de montaña y es endémico de México.[1]",
+   "Heim identificó la especie entre los hongos que los Wasson recogieron en Huautla en 1953, junto a <em>Psilocybe mexicana</em> y <em>Psilocybe cubensis</em>.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Estrofariáceas"
+   ],
+   [
+    "Hábitat",
+    "Terreno removido, suelos con madera"
+   ],
+   [
+    "Bosque",
+    "Mesófilo de montaña"
+   ],
+   [
+    "Distribución",
+    "Endémico de México"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Esta ficha no es una guía de identificación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El teotlaquilnanácatl",
+  "parrafos": [
+   "Un trabajo de etnomicología propone que <em>Psilocybe caerulescens</em>, llamada hoy por los nahuas teotlaquilnanácatl, es el hongo ceremonial teonanácatl («carne de los dioses») citado por Sahagún en el siglo XVI.[3] Es una hipótesis.",
+   "Según la tabla de especies del trabajo de Chacruna, lo usan mazatecos, mixes y totonacos.[1]",
+   "En agosto de 1953 los Wasson viajaron con el antropólogo Robert Weitlaner a la región mazateca de Oaxaca; Heim identificó entre sus colectas esta especie.[4]",
+   "Gordon Wasson vivió por primera vez el efecto de los hongos en una ceremonia oficiada por la sabia mazateca María Sabina.[4]",
+   "Entre sus nombres figuran derrumbe, derrumbe de agua, derrumbe negro, cañadas y hongo de desbarrancadero.[1]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XVI",
+    "Sahagún cita el teonanácatl"
+   ],
+   [
+    "1953",
+    "Los Wasson viajan a Huautla; Heim identifica <em>P. caerulescens</em>"
+   ],
+   [
+    "1957",
+    "El uso mazateco se da a conocer al mundo"
+   ]
+  ],
+  "nombres": [
+   [
+    "derrumbe, hongo de derrumbe",
+    "castellano de México"
+   ],
+   [
+    "teotlaquilnanácatl",
+    "náhuatl"
+   ],
+   [
+    "derrumbe negro, cañadas",
+    "variantes regionales"
+   ]
+  ],
+  "nota_nombres": "«Teonanácatl» es el nombre antiguo; su identificación con una especie concreta sigue siendo una hipótesis.[3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Bosques nubosos de México",
+  "parrafos": [
+   "Es endémico de México y vive en bosque mesófilo de montaña.[1]",
+   "La UICN lo recoge como especie en peligro y la norma mexicana NOM-059 la incluye en la categoría de protección especial (Pr), según la tabla de Chacruna.[1]",
+   "El artículo de Chacruna recuerda que una de las especies descritas en «Seeking the Magic Mushroom» (1957) está hoy en peligro de extinción.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectarlo en zonas donde se use ritualmente.",
+   "Respetar el contexto de las comunidades mazatecas.",
+   "Apoyar la conservación del bosque mesófilo."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-derrumbe.svg",
+   "alt": "Mapa con Oaxaca y Veracruz sombreados.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del derrumbe"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Un Psilocybe más",
+  "parrafos": [
+   "Pertenece al género <em>Psilocybe</em>, con más de 150 especies alucinógenas en el mundo, usadas de modo tradicional solo en México y algunas zonas vecinas.[5]",
+   "Las fuentes consultadas no ofrecen análisis químicos específicos de esta especie."
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos propios",
+  "parrafos": [
+   "Las fuentes consultadas no ofrecen descripciones fiables de la experiencia ni de su duración para esta especie."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay estudios etnomicológicos y taxonómicos sobre los hongos alucinógenos de México.[3][5][6]"
+  ],
+  "alcance": "Estudios etnomicológicos; poca química específica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Conservación",
+    "Está en peligro y es endémico de México.[1]"
+   ],
+   [
+    "Identidad",
+    "El vínculo con el teonanácatl histórico es una hipótesis.[3]"
+   ],
+   [
+    "Contexto",
+    "Es un saber sagrado de comunidades indígenas; la fama de 1957 trajo mucha presión.[4][2]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "San Isidro",
+   "Psilocybe cubensis",
+   "Otro Psilocybe de la tradición mexicana.",
+   null
+  ],
+  [
+   "hongo",
+   "Pajaritos",
+   "Psilocybe mexicana",
+   "Otro hongo mazateco.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Chacruna. Tabla de especies de <em>Psilocybe</em> de México (Table1). chacruna.net (archivo Table1_compact.pdf).",
+  "Chacruna. <em>Psilocybin Mushrooms in Mexico in Danger of Extinction</em>. chacruna.net/psilocybin_mushrooms_extinction_mexico/.",
+  "Guzmán, G. Hongos alucinógenos en México: historia, taxonomía, distribución geográfica y uso. bibliography.maps.org/resources/download/13502.",
+  "Chacruna. <em>Psilocybin Mushrooms in Mexico in Danger of Extinction</em> (Wasson y Heim, 1953). chacruna.net/?p=105741.",
+  "Guzmán, G. Revisión de los hongos alucinógenos, sobre todo <em>Psilocybe</em>. bibliography.maps.org/resources/download/13503.",
+  "Etnobiología 5: 108–116 (2007). <em>Los hongos en la cultura mexicana</em>. dialnet.unirioja.es/descarga/articulo/5294469.pdf."
+ ],
+ "tipo_txt": "Hongo",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Damiana",
+  "damiana"
+ ],
+ "siguiente": [
+  "Efedra",
+  "efedra"
+ ]
+}
