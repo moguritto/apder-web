@@ -1,0 +1,265 @@
+{
+ "slug": "beleno-negro",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Europa y Siberia",
+ "nombre": "Beleño negro",
+ "cientifico": "Hyoscyamus niger",
+ "autoridad": "L.",
+ "descripcion": "Beleño negro (Hyoscyamus niger): hierba de las brujas de Europa con hiosciamina y escopolamina. Historia, botánica, tradición medieval y cuidados.",
+ "entrada": "Una solanácea venenosa de flores amarillas con venas moradas, que la historia europea sitúa entre la medicina, el veneno y la imaginación de las brujas. Es una planta de mucho riesgo que no debe manipularse a la ligera.[1][2][3]",
+ "otros": "beleño negro · beleño · henbane · black henbane · hierba loca · Hyoscyamus niger",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba venenosa de la familia de las solanáceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Europa templada y Siberia; naturalizada en Gran Bretaña e Irlanda"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hojas, semillas y raíz, todas con alcaloides"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Hiosciamina, atropina y escopolamina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No hay datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tradiciones populares y médicas de Europa"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Flores amarillas con venas moradas",
+  "parrafos": [
+   "El beleño negro es una planta venenosa de la tribu Hyoscyameae de las solanáceas.[6] Es nativo de la Europa templada y de Siberia, y está naturalizado en Gran Bretaña e Irlanda.[5]",
+   "Un rasgo distintivo de la especie son sus flores en campana de color amarillo pálido con venas moradas.[1]",
+   "El género <em>Hyoscyamus</em> reúne unas veinte especies, y todas contienen poderosos alcaloides tropánicos narcóticos, entre ellos escopolamina e hiosciamina.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Flor",
+    "Amarillo pálido, en campana, con venas moradas"
+   ],
+   [
+    "Género",
+    "Unas 20 especies"
+   ],
+   [
+    "Nombre inglés",
+    "<em>Henbane</em>"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Toda la planta contiene alcaloides tropánicos y es venenosa. No es para manipular, probar ni identificar por cuenta propia."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La hierba que da visiones y locura",
+  "parrafos": [
+   "La historia del beleño, como la de la mandrágora y los dopamina, se remonta al menos al 4000 a. C. por el sur y el centro de Europa y Eurasia.[1]",
+   "Las especies más usadas con fines mágicos y medicinales en Europa fueron <em>Hyoscyamus niger</em> y <em>H. albus</em>.[1]",
+   "En Europa, donde es nativo, se usaron sus efectos en aspectos místicos de ceremonias religiosas.[3] Se le atribuyen propiedades como las alucinaciones visuales y la sensación de volar.[5]",
+   "Se han encontrado semillas de beleño en una tumba vikinga cerca de Fyrkat, en Dinamarca, lo que indica que los vikingos lo conocían.[5]",
+   "En la Edad Media ocupó un lugar inestable: recurso medicinal, peligro venenoso y planta rodeada de un aura de asociaciones ocultas.[4] Había un uso reconocido para aliviar el dolor y como sedante.[7]",
+   "El estudio de las hierbas de las brujas muestra la gran importancia, a menudo malentendida y vilipendiada, de estas plantas.[2]"
+  ],
+  "cronologia": [
+   [
+    "h. 4000 a. C.",
+    "Se rastrea su historia en el sur y centro de Europa y en Eurasia.[1]"
+   ],
+   [
+    "Edad Media",
+    "Planta médica, venenosa y ligada a la imaginación de las brujas.[4][7]"
+   ]
+  ],
+  "nombres": [
+   [
+    "beleño",
+    "nombre en castellano"
+   ],
+   [
+    "<em>henbane</em>",
+    "nombre inglés"
+   ],
+   [
+    "«planta loca»",
+    "una etimología lo vincula a una raíz indoeuropea que significa «loca»"
+   ]
+  ],
+  "nota_nombres": "Otra etimología lo relaciona con una raíz germánica que significa «visión» o «alucinación».[5]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de caminos y ruinas",
+  "parrafos": [
+   "Es nativo de la Europa templada y de Siberia.[5] Se extendió a Inglaterra en la Edad Media.[5]",
+   "Es una de las plantas que pueden causar intoxicaciones accidentales o intencionadas.[8]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla por su historia, sin consumirla.",
+   "Mantenerla lejos de niños y animales.",
+   "No repetir los mitos sobre brujas como si fueran hechos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-beleno-negro.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre Europa y Siberia.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del beleño negro (Europa y Siberia)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides tropánicos",
+  "parrafos": [
+   "Las hojas, las semillas y las raíces contienen alcaloides: hiosciamina, atropina, tropano y escopolamina.[8]",
+   "Los alcaloides mejor conocidos son la hioscina, la hiosciamina y la atropina.[3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Hiosciamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Alcaloide principal; en su forma racémica se llama atropina.[3][8]"
+   },
+   {
+    "nombre": "Escopolamina (hioscina)",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Anticolinérgico con efectos psicoactivos.[1][3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Delirio y sensación de vuelo",
+  "parrafos": [
+   "Los efectos descritos incluyen alucinaciones visuales y una sensación de vuelo.[5] En grandes cantidades, las fuentes hablan de locura, coma y muerte.[1]",
+   "Es una intoxicación anticolinérgica, y la ciencia la describe más como un riesgo que como una experiencia buscada.[8]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "impredecible"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay una revisión descriptiva de la planta y su toxicidad, que la sitúa como medicina de las tradiciones y como causa de intoxicación.[8]",
+   "La historiografía de las hierbas de las brujas en Europa está recogida en una revisión de 2020.[2]"
+  ],
+  "alcance": "Se conoce mucho su química y su toxicidad; hay poca evidencia clínica sobre la planta como medicina."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Todas las partes de la planta contienen alcaloides y la intoxicación puede darse de forma accidental.[8]"
+   ],
+   [
+    "Atención médica",
+    "Una intoxicación es una urgencia médica.[8]"
+   ],
+   [
+    "Mitos",
+    "La relación del beleño con la brujería es una construcción histórica, no un uso comprobado.[4][9]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay datos fiables de su efecto como planta entera."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Belladona",
+   "Atropa belladonna",
+   "Otra de las hierbas de las brujas europeas.",
+   "enciclopedia/belladona/"
+  ],
+  [
+   "planta",
+   "Mandrágora",
+   "Mandragora officinarum",
+   "Otra de las hierbas de las brujas.",
+   "enciclopedia/mandragora/"
+  ],
+  [
+   "planta",
+   "Estramonio",
+   "Datura stramonium",
+   "Con alcaloides parecidos.",
+   "enciclopedia/estramonio/"
+  ]
+ ],
+ "fuentes": [
+  "USDA Forest Service. Henbane, black henbane (<em>Hyoscyamus</em> spp.). fs.usda.gov/wildflowers/ethnobotany/Mind_and_Spirit/henbane.shtml.",
+  "Fatur K. «Hexing herbs» in ethnobotanical perspective: a historical review of the uses of anticholinergic Solanaceae plants in Europe. Economic Botany. 2020. link.springer.com/10.1007/s12231-020-09498-w.",
+  "Evergreen State College. <em>Hyoscyamus niger</em>. sites.evergreen.edu/plantchemeco/?p=464.",
+  "McIntosh MA. Witches' herb: henbane, healing and hallucination in the medieval imagination. Brewminate. brewminate.com.",
+  "Wikipedia. «Hyoscyamus niger». en.wikipedia.org (consultada el 24-11-2026).",
+  "Wikipedia. «Henbane». wikipedia.org/wiki/Henbane.",
+  "Brewminate. Medicinal applications: pain relief, sedation. brewminate.com.",
+  "Black henbane and its toxicity – a descriptive review. Avicenna J Phytomed. 2014;4(5):297-311. pmc.ncbi.nlm.nih.gov/articles/PMC4224707.",
+  "USDA Forest Service. Witchcraft and psychoactive plants. fs.usda.gov/wildflowers/ethnobotany/Mind_and_Spirit/witchcraft.shtml."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ayahuasca",
+  "ayahuasca"
+ ],
+ "siguiente": [
+  "Belladona",
+  "belladona"
+ ]
+}
