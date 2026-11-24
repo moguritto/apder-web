@@ -1,0 +1,263 @@
+{
+ "slug": "nuez-moscada",
+ "tipo": "planta",
+ "migas": "Planta · Miristicáceas · Islas Molucas, Indonesia",
+ "nombre": "Nuez moscada",
+ "cientifico": "Myristica fragrans",
+ "autoridad": "Houtt.",
+ "descripcion": "Nuez moscada (Myristica fragrans): especia de las islas Banda con miristicina y elemicina, usada en medicina y por su efecto psicoactivo. Historia.",
+ "entrada": "El árbol que da dos especias, la nuez moscada y la macis, originario de las islas Banda, en Indonesia. Se ha usado durante siglos como medicina y especia, y en cantidades superiores a las culinarias se le atribuyen efectos psicoactivos.[1][2][3][4]",
+ "otros": "nuez moscada · macis · nutmeg · nux moschata · Myristica fragrans",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Semilla de un árbol tropical, usada como especia"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Islas Banda y Molucas, Indonesia; cultivada en India, Malasia y Granada"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La semilla (nuez moscada) y su arilo (macis)"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Miristicina, elemicina y otros fenilpropanoides"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicinas tradicionales de India, el sudeste asiático y Europa"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un árbol de dos especias",
+  "parrafos": [
+   "Nuez moscada y macis son productos del mismo árbol, <em>Myristica fragrans</em>, de la familia de las miristicáceas.[1] Es un árbol de hoja perenne y crecimiento lento que supera los 20 m.[3]",
+   "La macis es el arilo seco que envuelve la semilla; la nuez moscada es la semilla, que se extrae y se seca.[3]",
+   "El nombre inglés viene del latín <em>nux muscat</em>, «nuez almizclada».[4] El árbol es nativo de las islas Banda, las islas de las Especias, en Indonesia.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Myristicaceae"
+   ],
+   [
+    "Altura",
+    "Más de 20 m"
+   ],
+   [
+    "Especias",
+    "Nuez moscada (semilla) y macis (arilo)"
+   ],
+   [
+    "Origen",
+    "Islas Banda, Indonesia"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Una especia que cambió la historia",
+  "parrafos": [
+   "La semilla se ha usado en la medicina tradicional de la mayoría de las civilizaciones desde la prehistoria.[5] En la medicina tradicional india se emplea mucho el grano.[6]",
+   "La nuez moscada tuvo una enorme importancia comercial e histórica; se la presenta como una de las semillas que cambiaron el mundo.[7]",
+   "Como medicina se ha usado en múltiples trastornos; también se menciona su uso como abortivo.[4]",
+   "Hoy es una especia común, y quienes la usan a dosis superiores a las culinarias reportan efectos psicoactivos.[2][3]",
+   "En el siglo XX se estudió como narcótico y alucinógeno alternativo.[1][3]"
+  ],
+  "cronologia": [
+   [
+    "1755",
+    "Gronovius describe el género <em>Myristica</em>.[8]"
+   ],
+   [
+    "1966",
+    "Weil publica en el Boletín de Estupefacientes de la ONU una revisión de su historia, farmacología y uso narcótico.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "nuez moscada",
+    "nombre en español"
+   ],
+   [
+    "macis",
+    "arilo que envuelve la semilla"
+   ],
+   [
+    "<em>nux moschata</em>",
+    "latín"
+   ],
+   [
+    "<em>nutmeg</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Las islas de las Especias",
+  "parrafos": [
+   "El árbol es nativo de las islas Molucas, en Indonesia, y de las islas Banda en particular.[4][6]",
+   "Se cultiva en India, Ceilán, Malasia y Granada.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como parte de la historia de las especias.",
+   "Distinguir su uso culinario de su uso psicoactivo.",
+   "Reconocer el origen de su comercio."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-nuez-moscada.svg",
+   "alt": "Mapa con zonas sombreadas en ocre sobre las Molucas y el sur de India.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Origen y cultivo de la nuez moscada"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Miristicina, elemicina y otros",
+  "parrafos": [
+   "La fracción volátil contiene decenas de terpenos y fenilpropanoides, entre ellos pineno, limoneno, borneol, terpineol, geraniol, safrol y miristicina.[2]",
+   "La miristicina se parece químicamente a otros éteres aromáticos del aceite: eugenol, isoeugenol y safrol.[1]",
+   "El segundo ingrediente psicoactivo es la elemicina.[7] Se ha sugerido que la miristicina se convertiría en el hígado en un compuesto de tipo anfetamínico, pero no está demostrado.[7]",
+   "La miristicina pura es una toxina.[2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Miristicina",
+    "clase": "Fenilpropanoide",
+    "img": null,
+    "texto": "Principal componente psicoactivo atribuido a la nuez moscada.[7]"
+   },
+   {
+    "nombre": "Elemicina",
+    "clase": "Fenilpropanoide",
+    "img": null,
+    "texto": "Segundo compuesto psicoactivo propuesto.[7]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Entre la especia y la intoxicación",
+  "parrafos": [
+   "En cantidades superiores al uso culinario, el polvo puede causar reacciones alérgicas, dermatitis de contacto o efectos psicoactivos.[2]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay revisiones recientes sobre su uso tradicional, componentes químicos, actividad farmacológica y control de calidad.[9][6]",
+   "La evidencia clínica de sus usos medicinales es limitada.[2]"
+  ],
+  "alcance": "Química y farmacología de laboratorio; evidencia clínica limitada."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "En cantidades superiores a las culinarias puede tener efectos psicoactivos y alérgicos.[2]"
+   ],
+   [
+    "Salud mental",
+    "No se recomienda un uso excesivo en personas con trastornos psiquiátricos.[3]"
+   ],
+   [
+    "Contexto",
+    "Su historia es sobre todo de especia y medicina, no de ceremonia.[1][4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta investigación clínica."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Epená",
+   "Virola spp.",
+   "Pariente botánico, de la misma familia de las miristicáceas.",
+   "enciclopedia/epena/"
+  ],
+  [
+   "planta",
+   "Ajenjo",
+   "Artemisia absinthium",
+   "Otra planta aromática de la botica antigua.",
+   "enciclopedia/ajenjo/"
+  ]
+ ],
+ "fuentes": [
+  "Weil AT. Nutmeg as a narcotic. Bulletin on Narcotics. 1966;4:15-23. unodc.org/unodc/en/data-and-analysis/bulletin/bulletin_1966-01-01_4_page003.html.",
+  "Wikipedia. Nutmeg. wikipedia.org/wiki/Nutmeg.",
+  "Drugs.com. Nutmeg. drugs.com/npp/nutmeg.html.",
+  "Nagano I. <em>Myristica fragrans</em>: an exploration of the narcotic spice. Entheogen Review. 2008;16(1):15-24. upload.erowid.org/plants/nutmeg/nutmeg_article1.shtml.",
+  "Nutmeg and its potential in alternative or complementary therapy. pmc.ncbi.nlm.nih.gov/articles/PMC11059288/.",
+  "Ashokkumar K et al. Nutmeg (<em>Myristica fragrans</em> Houtt.) essential oil: a review. pmc.ncbi.nlm.nih.gov/articles/PMC9541156.",
+  "May P. Myristicin: the psychoactive molecule in nutmegs. University of Bristol, Molecule of the Month, 2014. chm.bris.ac.uk/motm/myristicin/myristicinh.htm.",
+  "Saikia SP et al. Revisión etnomedicinal, fitoquímica y farmacológica de las nueces moscadas. neist.res.in/home/SP_Saikia__PR__2021__3_.pdf.",
+  "Nutmeg: a review on basic source, traditional use, chemical components, pharmacological activities, mechanism, and quality control. thieme-connect.de/products/ejournals/html/10.1055/a-2623-1165."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Nuez de betel",
+  "nuez-de-betel"
+ ],
+ "siguiente": [
+  "Ololiuqui",
+  "ololiuqui"
+ ]
+}
