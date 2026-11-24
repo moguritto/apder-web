@@ -1,0 +1,273 @@
+{
+ "slug": "floripondio",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Andes y Amazonia",
+ "nombre": "Floripondio",
+ "cientifico": "Brugmansia spp.",
+ "autoridad": "",
+ "descripcion": "Floripondio (Brugmansia): arbusto andino de flores en campana con alcaloides tropánicos, usado por curanderos y en limpias. Historia y química.",
+ "entrada": "Arbustos de grandes flores colgantes en forma de campana, de los Andes y regiones vecinas. Contienen alcaloides tropánicos y los curanderos del Perú y del Ecuador los usan en rituales y limpias.[1][2][4]",
+ "otros": "floripondio · toé · borrachero · campana · misha · maricahua · trompeta de ángel · Brugmansia suaveolens · Brugmansia aurea · Brugmansia sanguinea",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbustos de la familia de las solanáceas de flores en campana"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Los Andes, desde Venezuela hasta Chile, y la Amazonia alta"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hojas y flores, sobre todo"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Hiosciamina, atropina y escopolamina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Curanderos andinos, pueblos amazónicos y nahuas de México"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Las campanas de los Andes",
+  "parrafos": [
+   "<em>Brugmansia</em> es un género de la familia de las solanáceas, nativo de las regiones tropicales de Sudamérica y repartido por los Andes, desde Venezuela hasta Chile.[7]",
+   "Se reconocen siete especies, y muchas se cultivan hoy como ornamentales.[7][8]",
+   "El Ecuador diferencia el floripondio blanco (<em>B. candida</em>), el amarillo (<em>B. aurea</em>), el rojo (<em>B. sanguinea</em>) y el rosado (<em>B. suaveolens</em>).[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Especies reconocidas",
+    "Siete"
+   ],
+   [
+    "Flor",
+    "Campana colgante"
+   ],
+   [
+    "Alcaloides",
+    "Hiosciamina, atropina, escopolamina"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Curanderos, limpias y maestros de plantas",
+  "parrafos": [
+   "Los curanderos del norte de los Andes peruanos, en la zona de lagos altos que va de Ayabaca a la laguna Prieta, emplean especies de <em>Brugmansia</em> en prácticas rituales de curación.[1]",
+   "En la región sur del Ecuador, los yachakkuna de Saraguro usan el floripondio amarillo en limpias contra el «mal aire» o el susto, formando un ramo con otras plantas; el rojo se aplica por fuera a personas y animales, y el blanco se cuece con otras hojas contra el dolor reumático.[2]",
+   "Entre otros pueblos de la Amazonia alta, el uso de <em>Brugmansia</em> no es raro, pero suele ser secundario al del yagé (<em>Banisteriopsis</em>) y a menudo se combina con él.[5]",
+   "Entre los nahuas de México, el floripondio se compara con los toloaches y a veces se identifica con ellos.[6]",
+   "Los pueblos andinos y amazónicos creen que el espíritu del Toé es un maestro sabio y exigente que puede transmitir conocimiento y poder si se domina su uso.[7]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "floripondio",
+    "nombre más extendido en español"
+   ],
+   [
+    "toé",
+    "nombre andino y amazónico"
+   ],
+   [
+    "borrachero, campana",
+    "otros nombres regionales"
+   ],
+   [
+    "<em>misha</em>, <em>maricahua</em>",
+    "nombres peruanos"
+   ]
+  ],
+  "nota_nombres": "Floripondio o florifundio se usa a veces de modo cruzado con toloache.[3][6]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un género de los Andes",
+  "parrafos": [
+   "Al aumentar la población y el uso del suelo en los Andes, muchas plantas como <em>Brugmansia</em> están disminuyendo en número; la introducción de la apicultura es uno de los problemas señalados.[5]",
+   "<em>B. suaveolens</em> se cultiva como ornamental y se ha naturalizado en regiones tan distintas como Tanzania, Italia o Grecia.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como parte del saber de los curanderos andinos.",
+   "No cortarlo sin permiso en zonas donde escasea.",
+   "Respetar a quienes lo guardan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-floripondio.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre los Andes, de Venezuela a Chile.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del floripondio"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides tropánicos",
+  "parrafos": [
+   "Contiene los alcaloides tropánicos hiosciamina, atropina y escopolamina, y esta última es la que aparece en mayor concentración.[7]",
+   "Son alcaloides tóxicos incluso en cantidades modestas.[7]",
+   "Una revisión de <em>B. suaveolens</em> recoge su botánica, usos tradicionales, fitoquímica, farmacología y toxicología.[4]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Escopolamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Aparece en mayor concentración que los otros dos.[7]"
+   },
+   {
+    "nombre": "Atropina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Presente junto a la hiosciamina.[7]"
+   },
+   {
+    "nombre": "Hiosciamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Precursora de la atropina.[7]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un delirio, no una visión",
+  "parrafos": [
+   "Las fuentes describen que, ingerida, la planta estimula el sistema nervioso central y causa alucinaciones y delirio.[8]",
+   "No ofrecen datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay trabajos etnobotánicos en Perú, Ecuador y México, y revisiones fitoquímicas y toxicológicas de <em>B. suaveolens</em>.[1][2][4][6]",
+   "La revisión farmacológica describe usos tradicionales como alucinógeno, analgésico y relajante muscular, y su valor terapéutico moderno no se ha evaluado en clínica.[3]"
+  ],
+  "alcance": "Buena documentación etnobotánica; casi sin investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Sus tres alcaloides son tóxicos incluso en cantidades modestas y exigen mucho cuidado.[7]"
+   ],
+   [
+    "Planta ornamental",
+    "Hay intoxicaciones por tenerla en casa como adorno sin conocer su toxicidad.[9]"
+   ],
+   [
+    "Contexto",
+    "En la tradición andina lo usan curanderos con conocimiento y en contexto ritual.[1][2]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Toloache",
+   "Datura inoxia",
+   "Pariente cercano, a veces confundido con el floripondio.",
+   "enciclopedia/toloache/"
+  ],
+  [
+   "planta",
+   "Estramonio",
+   "Datura stramonium",
+   "Solanácea con los mismos alcaloides.",
+   "enciclopedia/estramonio/"
+  ],
+  [
+   "planta",
+   "Copa de oro",
+   "Solandra spp.",
+   "Solanácea americana con alcaloides tropánicos.",
+   "enciclopedia/copa-de-oro/"
+  ],
+  [
+   "planta",
+   "San Pedro",
+   "Echinopsis pachanoi",
+   "Planta que los curanderos andinos usan junto con el floripondio.",
+   "enciclopedia/san-pedro/"
+  ]
+ ],
+ "fuentes": [
+  "De Feo V. The ritual use of <em>Brugmansia</em> species in traditional Andean medicine in northern Peru. Economic Botany. 2004;58(Suppl):S221-S229. es.scribd.com/doc/70890182.",
+  "Traditional medicine applied by the Saraguro yachakkuna: a preliminary approach to the use of sacred and psychoactive plant species in the southern region of Ecuador. J Ethnobiol Ethnomed. 2014;10:26. ethnobiomed.biomedcentral.com/articles/10.1186/1746-4269-10-26.",
+  "<em>Brugmansia suaveolens</em>: botany, traditional uses, phytochemistry, pharmacology and toxicology (revisión). pmc.ncbi.nlm.nih.gov/articles/PMC7570077.",
+  "<em>Brugmansia suaveolens</em> Bercht. & J. Presl: revisión sistemática sobre botánica, usos, fitoquímica y toxicología. pmc.ncbi.nlm.nih.gov/articles/PMC10343851.",
+  "The ethnobotany of <em>Brugmansia</em> (capítulo, pp. 147-164). knowledge-mapping.heig-vd.ch/view/2962.",
+  "Lorente Fernández D. Hojas frías, flor de campana. Sobre el uso terapéutico del floripondio (<em>Brugmansia</em>) entre los nahuas. ceeol.com/search/article-detail?id=1111918.",
+  "Fox News. Tree of the evil eagle: Amazonian plant yields medicines and powerful hallucinations. foxnews.com/health/tree-of-the-evil-eagle-amazonian-plant-yields-medicines-and-powerful-hallucinations.",
+  "Herald to the angels' trumpets. sites.evergreen.edu/plantchemeco/herald-to-the-angels-trumpets-their-cacophony-abound.",
+  "Basantes Mora EE. Trabajo sobre <em>Brugmansia</em> y sus efectos tóxicos. Universidad Técnica de Machala. repositorio.utmachala.edu.ec/bitstream/48000/16943/1/E-12169_BASANTES%20MORA%20EDGAR%20ELIAS.pdf."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Estramonio",
+  "estramonio"
+ ],
+ "siguiente": [
+  "Gloria de la mañana",
+  "gloria-de-la-manana"
+ ]
+}
