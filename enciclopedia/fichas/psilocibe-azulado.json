@@ -1,0 +1,248 @@
+{
+ "slug": "psilocibe-azulado",
+ "tipo": "hongo",
+ "migas": "Hongo · Hymenogastráceas · Europa y costa oeste de América",
+ "nombre": "Psilocibe azulado",
+ "cientifico": "Psilocybe cyanescens",
+ "autoridad": "Wakef.",
+ "descripcion": "Psilocibe azulado (Psilocybe cyanescens): hongo de sombrero ondulado que crece en astillas de madera de Europa y América; con psilocibina y psilocina.",
+ "entrada": "Un hongo cuyo sombrero se ondula al madurar, de ahí el nombre inglés «wavy cap». Crece sobre astillas de madera y mantillo en parques y jardines, y azulea al tocarlo porque la psilocina se oxida. Es conocido por su potencia y se considera una especie psicodélica.[1][2][3]",
+ "otros": "psilocibe azulado · wavy cap · potent psilocybe · caramel-capped psilocybe · Psilocybe cyanescens",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hongo ondulado que crece sobre madera"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Europa occidental y central, costa oeste de Norteamérica, Nueva Zelanda"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Cuerpo fructífero"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Psilocibina y psilocina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Según un centro de información toxicológica de Canadá: 20–30 min y unas 6–8 h"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Sin tradición indígena documentada en las fuentes consultadas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El hongo de las astillas",
+  "parrafos": [
+   "<em>Psilocybe cyanescens</em> tiene un sombrero higrófano de color caramelo a castaño cuando está húmedo, que se aclara a un tono pajizo al secarse.[3] Mide de 1,5 a 5 cm y es claramente ondulado en la madurez.[2]",
+   "Crece hoy sobre todo en astillas de madera, en los bordes de parterres con mantillo de zonas urbanas, y en otros sustratos ricos en lignina.[2]",
+   "Suele fructificar en grupos o racimos.[2] Se han llegado a contar más de 100 000 ejemplares en un solo parche de un hipódromo inglés.[4]",
+   "Pertenece al llamado «complejo <em>P. cyanescens</em>» o «caramel-cap»; entre sus parientes, <em>P. allenii</em> (descrita en 2012), <em>P. azurescens</em>, <em>P. subaeruginosa</em> y <em>P. weraroa</em>.[2][3][5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Hymenogastráceas"
+   ],
+   [
+    "Sombrero",
+    "1,5–5 cm, ondulado"
+   ],
+   [
+    "Esporada",
+    "Castaño negruzca a púrpura"
+   ],
+   [
+    "Hábitat",
+    "Astillas de madera, mantillo"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Esta ficha no es una guía de identificación; en la misma zona crecen hongos muy tóxicos."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un hongo de ciudad",
+  "parrafos": [
+   "Las fuentes consultadas no recogen un uso tradicional indígena de esta especie, a diferencia de los <em>Psilocybe</em> de México.",
+   "Se considera de los psilocibes de madera más conocidos y recolectados; prospera en camas de mantillo.[5]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "wavy cap",
+    "inglés"
+   ],
+   [
+    "potent psilocybe",
+    "inglés"
+   ],
+   [
+    "caramel-capped psilocybe",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "No debe confundirse con <em>Panaeolus cyanescens</em> (Copelandia): ambos se abrevian P. cyanescens.[6]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Entre Europa y la costa oeste",
+  "parrafos": [
+   "En Estados Unidos aparece sobre todo en el noroeste del Pacífico, hasta el área de la bahía de San Francisco; también en Nueva Zelanda, Europa occidental y central y partes del oeste de Asia (Irán).[1]",
+   "Probablemente fue introducida en Europa, donde aparece sobre todo en cementerios, jardines botánicos y parques urbanos.[7]",
+   "En Canadá se da sobre todo en la zona de Vancouver y en la costa occidental, del sur de Columbia Británica al sur de California.[8]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectarlo sin un experto local.",
+   "Cuidar los jardines y parques donde crece.",
+   "No mezclarlo con otros hongos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-psilocibe-azulado.svg",
+   "alt": "Mapa con Europa, costa oeste de Norteamérica y Nueva Zelanda sombreadas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de Psilocybe cyanescens"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Psilocibina y psilocina",
+  "parrafos": [
+   "Los compuestos responsables de sus efectos psicodélicos son la psilocibina y la psilocina.[1]",
+   "La psilocibina se convierte en psilocina por acción enzimática en las zonas dañadas, y la psilocina al oxidarse produce el azuleo, de modo que incluso ejemplares con poca psilocina suelen azulear.[3][2]",
+   "Muestras recogidas en la República Checa mostraron niveles de psilocibina mucho más altos que otras de Europa, según una fuente divulgativa.[9]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Psilocibina",
+    "clase": "triptamina",
+    "img": null,
+    "texto": "Principal compuesto; se convierte en psilocina.[1][3]"
+   },
+   {
+    "nombre": "Psilocina",
+    "clase": "triptamina",
+    "img": null,
+    "texto": "Compuesto activo y responsable del azuleo al oxidarse.[2]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Tiempos descritos",
+  "parrafos": [
+   "Un centro de información toxicológica de Canadá describe la aparición de síntomas entre 20 y 30 minutos tras la ingestión, con una duración habitual de 6 a 8 horas, y apunta que los niños y los perros pueden tener reacciones más graves.[8]",
+   "Una fuente divulgativa menciona parálisis muscular temporal asociada a esta especie.[9]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Aparece",
+     "20–30 min (centro toxicológico, BC)"
+    ],
+    [
+     "Dura",
+     "6–8 h habitual"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Se han hecho análisis de potencia de ejemplares del noroeste del Pacífico y de Europa.[9]",
+   "La investigación clínica con psilocibina se refiere sobre todo al compuesto, no a esta especie."
+  ],
+  "alcance": "Análisis de contenido; sin ensayos clínicos propios."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Confusión",
+    "Crece en la misma zona que hongos muy tóxicos, como <em>Galerina</em>, que pueden causar daño hepático y renal graves.[8]"
+   ],
+   [
+    "Variabilidad",
+    "Su contenido varía según el origen.[9]"
+   ],
+   [
+    "Nombres",
+    "Se confunde con <em>Panaeolus cyanescens</em> por la abreviatura.[6]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Copelandia",
+   "Panaeolus cyanescens",
+   "Otro hongo azulado de nombre parecido.",
+   "enciclopedia/copelandia/"
+  ],
+  [
+   "hongo",
+   "San Isidro",
+   "Psilocybe cubensis",
+   "Otro Psilocybe.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Psilocybe cyanescens</em>. wikipedia.org/wiki/Psilocybe_cyanescens.",
+  "Wikipedia. <em>Psilocybe cyanescens</em> (descripción y hábitat). wikipedia.com/wiki/Psilocybe_cyanescens.",
+  "GBIF. <em>Psilocybe cyanescens</em> Wakefield. gbif.org/species/144094046.",
+  "Wikiwand. <em>Psilocybe cyanescens</em>. wikiwand.com/en/articles/Psilocybe_cyanescens.",
+  "Double Blind Mag. <em>Psilocybe cyanescens: A Mycologist's Guide to Wavy Caps</em>. doubleblindmag.com/psilocybe-cyanescens/.",
+  "Double Blind Mag. <em>Blue meanies (Panaeolus cyanescens)</em>. doubleblindmag.com/blue-meanies-mushrooms-panaeolus-cyanescens/.",
+  "ChemEurope. <em>Wavy cap</em>. chemeurope.com/en/encyclopedia/Wavy_cap.html.",
+  "Beaty Biodiversity Museum (UBC). <em>Psilocybe cyanescens — Wavy caps</em>. explore.beatymuseum.ubc.ca/mushroomsup/P_cyanescens.html.",
+  "Tripsitter. <em>The Dark Truth About Wavy Cap Mushrooms</em>. tripsitter.substack.com/p/psilocybe-cyanescens."
+ ],
+ "tipo_txt": "Hongo",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Pituri",
+  "pituri"
+ ],
+ "siguiente": [
+  "Raíz africana de los sueños",
+  "raiz-africana-de-los-suenos"
+ ]
+}
