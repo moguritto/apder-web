@@ -1,0 +1,274 @@
+{
+ "slug": "jurema",
+ "tipo": "planta",
+ "migas": "Planta · Leguminosas · Nordeste de Brasil",
+ "nombre": "Jurema",
+ "cientifico": "Mimosa tenuiflora",
+ "autoridad": "(Willd.) Poir.",
+ "descripcion": "Jurema (Mimosa tenuiflora): árbol del Nordeste de Brasil, sagrado en el culto de la Jurema, cuya corteza contiene DMT. Historia, rituales y química.",
+ "entrada": "Un árbol o arbusto del semiárido del Nordeste de Brasil, sagrado para pueblos indígenas y religiones afroindígenas sincréticas. Sus infusiones y «vinos» rituales se asocian con experiencias místicas, y su corteza contiene DMT.[1][2][3]",
+ "otros": "jurema preta · jurema · calumbí · tepezcohuite (México) · Mimosa hostilis · Acacia jurema",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol de la familia de las leguminosas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Del nordeste de Brasil al sur de México"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La corteza de la raíz y del tallo"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "DMT, entre otros compuestos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Kariri, fulniô, pankararu y otros pueblos del Nordeste brasileño"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un árbol de la caatinga",
+  "parrafos": [
+   "<em>Mimosa tenuiflora</em> es un arbusto o árbol pequeño de la familia de las leguminosas, de hojas como de helecho y corteza de pardo rojiza a gris según su edad.[4]",
+   "Su área nativa va del nordeste de Brasil al sur de México.[4] En Brasil se conoce como jurema preta y calumbí, y en México como tepezcohuite.[5]",
+   "Es una planta nativa del semiárido nordestino y endémica del bioma de la caatinga.[6][7]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Fabaceae"
+   ],
+   [
+    "Hojas",
+    "Finas, como de helecho"
+   ],
+   [
+    "Corteza",
+    "Pardo rojiza a gris"
+   ],
+   [
+    "Hábitat",
+    "Caatinga del semiárido brasileño"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El culto de la Jurema",
+  "parrafos": [
+   "La jurema preta es considerada sagrada en religiones sincréticas afroindígenas y se usa en rituales en forma de infusiones o «vinos» de jurema.[7]",
+   "Desde el período colonial se registra el uso ritual de la jurema entre los pueblos indígenas del nordeste de Brasil, y más adelante aparece en una religiosidad llamada catimbó.[1][6]",
+   "La planta se emplea tradicionalmente para curar y adivinar entre los indígenas del nordeste de Brasil.[2]",
+   "Un trabajo de la Universidad de Brasilia señala que solo quien ha pasado por el bautismo sabe cómo se hace el vino de la jurema, y que hay pocas referencias a su uso, probablemente por la represión que sufrió.[8]",
+   "En Brasil algunas plantas, bebidas y religiosidades se llaman «jurema»; Grünewald resume esa pluralidad en la frase «cada jurema es una jurema».[1][6]",
+   "Más recientemente apareció la «juremahuasca», una mezcla de jurema con otra planta de otra región que usan psiconautas fuera de Brasil, y que Grünewald sitúa en una mística alternativa.[1][6]"
+  ],
+  "cronologia": [
+   [
+    "Período colonial",
+    "Primeros registros del uso ritual entre pueblos indígenas del Nordeste.[1]"
+   ],
+   [
+    "Década de 1990",
+    "Aparece la mezcla experimental llamada juremahuasca.[6]"
+   ]
+  ],
+  "nombres": [
+   [
+    "jurema preta",
+    "nombre brasileño más extendido"
+   ],
+   [
+    "calumbí",
+    "otro nombre brasileño"
+   ],
+   [
+    "tepezcohuite",
+    "nombre mexicano"
+   ],
+   [
+    "catimbó",
+    "religiosidad en la que la jurema es central"
+   ]
+  ],
+  "nota_nombres": "En Brasil «jurema» puede nombrar una planta, una bebida o una religiosidad.[1]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "La caatinga",
+  "parrafos": [
+   "Es nativa del nordeste brasileño, en estados como Paraíba y Rio Grande do Norte, y llega hasta el sur de México.[5][7]",
+   "En Natal, el físico Draulio Araujo, de la Universidad Federal de Rio Grande do Norte, estudia en su laboratorio la DMT de la planta.[9]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como árbol sagrado de pueblos y religiones concretas.",
+   "No tratarla como un producto.",
+   "Respetar a quienes guardan el saber de la jurema."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-jurema.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre el nordeste de Brasil.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del uso ritual de la jurema"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "DMT y otros compuestos",
+  "parrafos": [
+   "Contiene varios compuestos medicinales y psicoactivos, entre ellos DMT, triptamina, triptófano y serotonina.[3]",
+   "La corteza de la raíz seca de plantas mexicanas ha mostrado un contenido de DMT de alrededor del 1 al 1,7 %, y la corteza del tallo en torno al 0,03 %.[4]",
+   "Otro estudio cifra la DMT de las cortezas de raíz y tallo en torno al 2 %.[7] Las cifras varían de unos trabajos a otros.",
+   "En 2005 se aisló de la planta la yuremamina, un fitoindol nuevo cuyo efecto exacto sigue sin conocerse.[3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Presente sobre todo en la corteza de la raíz.[4][7]"
+   },
+   {
+    "nombre": "Yuremamina",
+    "clase": "Fitoindol",
+    "img": null,
+    "texto": "Aislado en 2005; su efecto no se conoce bien.[3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una experiencia mística ritual",
+  "parrafos": [
+   "Las bebidas de jurema se caracterizan por facilitar o promover experiencias místicas.[6]",
+   "Algunas personas que la han usado cuentan que les ayudó a cuestionarse sobre su trabajo y la vida cotidiana.[9]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay una revisión de su uso tradicional, fitoquímica y farmacología publicada en <em>Brazilian Archives of Biology and Technology</em>.[2]",
+   "En Brasil se investiga la extracción de DMT de la planta y qué parte de ella es más viable para ello.[7]",
+   "Una revisión de la Universidad de Brasilia analiza la fitoquímica de la jurema y otras especies de <em>Mimosa</em> conocidas con ese nombre.[8]",
+   "Hay un estudio clínico preliminar con otro uso de la planta, el de las úlceras venosas de la pierna, ajeno al uso ritual.[4]"
+  ],
+  "alcance": "Buena documentación etnográfica y química; investigación clínica en sus inicios."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Contiene DMT, un compuesto potente.[3][7]"
+   ],
+   [
+    "Contexto",
+    "Es una planta sagrada de religiones concretas, con saberes que se transmiten por iniciación.[7][8]"
+   ],
+   [
+    "Para el ganado",
+    "Hay indicios de que el forraje de la planta causa defectos de desarrollo en rumiantes preñados en Brasil.[4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta investigación clínica sobre el uso ritual."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ayahuasca",
+   "Banisteriopsis caapi y Psychotria viridis",
+   "Otra bebida ritual con DMT, con la que se ha mezclado la jurema.",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "planta",
+   "Acacias",
+   "Acacia spp.",
+   "Parientes botánicos, algunas con triptaminas.",
+   "enciclopedia/acacias/"
+  ],
+  [
+   "preparado",
+   "Vino de jurema",
+   "",
+   "Bebida ritual de la jurema.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Grünewald RA, Savoldi R. Cada jurema es una jurema: continuidades, rupturas e innovaciones en religiosidades en Brasil. 2020. cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-issn-2081-1160-year-2020-issue-26-article-660/c/660-530.pdf.",
+  "Jurema-Preta (<em>Mimosa tenuiflora</em> [Willd.] Poir.): a review of its traditional use, phytochemistry and pharmacology. Braz Arch Biol Technol. scielo.br/j/babt/a/hJKxG9kcCchhLpzrYSkK6WC.",
+  "Medium (Ethnoco). <em>Mimosa tenuiflora</em> (syn. hostilis) ~ «Jurema». medium.com/ethnoco/mimosa-tenuiflora-syn-hostilis-jurema-98c532635b21.",
+  "Wikipedia. <em>Mimosa tenuiflora</em>. en.wikipedia.org/wiki/Mimosa_tenuiflora.",
+  "GBIF. <em>Mimosa tenuiflora</em> (Willd.) Poir. gbif.org/species/165705677.",
+  "Grünewald RA. Cada jurema é uma jurema: continuidade, rupturas e inovações em religiosidades no Brasil. redalyc.org/journal/2433/243364810019/243364810019.pdf.",
+  "Extracción, aislamiento y caracterización de DMT de <em>Mimosa tenuiflora</em>. pmc.ncbi.nlm.nih.gov/articles/PMC12489689.",
+  "Santos NA. Revisión de la fitoquímica de la jurema (<em>Mimosa tenuiflora</em> y otras). Universidade de Brasília. repositorio.unb.br/bitstream/10482/54824/1/NayaraAlvesSantos_DISSERT.pdf.",
+  "RTBF. Des rituels au laboratoire: une plante contre la dépression au Brésil. rtbf.be/article/des-rituels-au-laboratoire-une-plante-contre-la-depression-au-bresil-11545514."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Iboga",
+  "iboga"
+ ],
+ "siguiente": [
+  "Kanna",
+  "kanna"
+ ]
+}
