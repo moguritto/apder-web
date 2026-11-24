@@ -1,0 +1,271 @@
+{
+ "slug": "belladona",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Europa, Asia occidental y norte de África",
+ "nombre": "Belladona",
+ "cientifico": "Atropa belladonna",
+ "autoridad": "L.",
+ "descripcion": "Belladona (Atropa belladonna): una de las «hierbas de las brujas» de Europa, rica en alcaloides tropánicos. Historia, botánica, atropina y por qué es una planta de gran cuidado.",
+ "entrada": "Una solanácea europea de flores moradas en campana y bayas negras, con un largo historial como medicina, cosmético y veneno. Pertenece a las «hierbas de las brujas» de Europa y es una planta de mucho riesgo que no se debe manipular a la ligera.[1][3][5]",
+ "otros": "belladona · belladonna · solano mortal · deadly nightshade · cerezas del diablo · Atropa belladonna",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto herbáceo perenne de flores moradas en campana"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Del sur de Europa a Asia; naturalizada en otras partes"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hoja, raíz y fruto, muy tóxicos"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Atropina, escopolamina e hiosciamina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Impredecible; no hay datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tradiciones populares de Europa"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una campana morada y una baya negra",
+  "parrafos": [
+   "<em>Atropa belladonna</em> es una planta herbácea perenne y tóxica de la familia de las solanáceas, la misma que incluye el tomate, la patata y la berenjena.[3]",
+   "Es un arbusto de tamaño medio, de hojas verdes oscuras y flores moradas en forma de campana.[4] Las bayas son verdes al principio y se vuelven negras al madurar, cuando se desarrollan los alcaloides.[6]",
+   "Su área original iba del sur de Europa hasta Asia, y hoy está naturalizada en muchas partes del mundo.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Hábito",
+    "Arbusto herbáceo perenne de tamaño medio"
+   ],
+   [
+    "Flor",
+    "Morada, en forma de campana"
+   ],
+   [
+    "Fruto",
+    "Baya negra al madurar"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Todas sus partes contienen alcaloides tropánicos y son muy tóxicas. No es una planta para manipular, probar ni identificar por cuenta propia."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La planta de las brujas",
+  "parrafos": [
+   "En Europa, las «hierbas de las brujas» (los géneros <em>Atropa</em>, <em>Datura</em>, <em>Hyoscyamus</em>, <em>Mandragora</em> y <em>Scopolia</em>) han tenido un papel muy importante en la historia y en la formación de las tradiciones de uso de plantas.[1] Sus alcaloides permitieron usarlas como medicinas, venenos y embriagantes, y generaron un gran mito y una amplia valoración cultural.[1]",
+   "La belladona tiene una larga historia de uso como medicina, cosmético y veneno.[3] El nombre científico se lo dio Linneo.[3] Su nombre significa «mujer bella» en italiano; se cuenta que una joven veneciana usaba gotas de atropina para dilatar las pupilas y embellecer sus ojos.[4]",
+   "El estudio de 2020 sobre estas plantas muestra su importancia, a menudo malentendida y vilipendiada.[1]"
+  ],
+  "cronologia": [
+   [
+    "Antigüedad",
+    "Los alcaloides tropánicos se conocen desde la prehistoria.[2]"
+   ],
+   [
+    "Siglo XVIII",
+    "Linneo le da el nombre <em>Atropa belladonna</em>.[3]"
+   ],
+   [
+    "Siglo XIX",
+    "Se prepara la atropina en forma cristalina pura.[5]"
+   ]
+  ],
+  "nombres": [
+   [
+    "belladona",
+    "«mujer bella», por el uso de la atropina en los ojos"
+   ],
+   [
+    "<em>deadly nightshade</em>",
+    "«solano mortal», nombre inglés"
+   ],
+   [
+    "cerezas del diablo",
+    "nombre inglés popular"
+   ]
+  ],
+  "nota_nombres": "Los nombres populares subrayan su toxicidad; es una planta con una imagen tan oscura como real.[7]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de bosques y escombros",
+  "parrafos": [
+   "Es originaria del sur de Europa y de Asia, y está naturalizada o introducida en partes de Canadá y de Estados Unidos.[5][4]",
+   "Es muy tóxica también para los animales domésticos.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Mirarla y respetarla en su sitio, sin tocar los frutos.",
+   "Mantenerla lejos de niños y animales si se cultiva.",
+   "Conocer su historia y no repetir mitos sobre brujería como si fueran hechos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-belladona.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre Europa y Asia occidental.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada original de la belladona"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides tropánicos",
+  "parrafos": [
+   "El follaje y las bayas contienen alcaloides tropánicos: atropina, escopolamina e hiosciamina, que producen delirio y alucinaciones y que se usan también como anticolinérgicos farmacéuticos.[3]",
+   "Los alcaloides están concentrados en toda la planta, de la hoja a la raíz, y son más abundantes en las raíces.[6] Son anticolinérgicos: bloquean la transmisión de la acetilcolina.[2][8]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Atropina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Forma racémica de la hiosciamina; dilata la pupila.[4][7]"
+   },
+   {
+    "nombre": "Escopolamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Anticolinérgico potente, con efectos psicoactivos.[3][4]"
+   },
+   {
+    "nombre": "Hiosciamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Uno de los principales alcaloides de la planta.[3][7]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Delirio, no visión",
+  "parrafos": [
+   "Los alcaloides de la belladona causan delirio y alucinaciones.[3] Los efectos de la planta son impredecibles.[5]",
+   "Los textos que la describen la tratan como una intoxicación con delirio, más que como una experiencia buscada.[1][3]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "impredecible"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "La atropina y la escopolamina están muy estudiadas como fármacos anticolinérgicos.[2][8]",
+   "La escopolamina figura entre los medicamentos indispensables según la OMS.[8]"
+  ],
+  "alcance": "Hay mucha investigación sobre los alcaloides aislados y muy poca sobre la planta entera, que no es un producto terapéutico."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es muy tóxica por ingestión, en hoja, raíz y fruto.[3][4]"
+   ],
+   [
+    "Efectos impredecibles",
+    "La planta tiene efectos impredecibles y el contenido de alcaloides varía.[5]"
+   ],
+   [
+    "Parecidos",
+    "Hay otras plantas tóxicas que se le parecen y deben identificarse con seguridad.[3]"
+   ],
+   [
+    "Atención médica",
+    "El envenenamiento por belladona se atiende como el de la atropina, con ayuda médica urgente.[5]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Mandrágora",
+   "Mandragora officinarum",
+   "Otra de las hierbas de las brujas europeas.",
+   "enciclopedia/mandragora/"
+  ],
+  [
+   "planta",
+   "Toloache",
+   "Datura inoxia",
+   "Su parienta del Nuevo Mundo.",
+   "enciclopedia/toloache/"
+  ],
+  [
+   "planta",
+   "Estramonio",
+   "Datura stramonium",
+   "Parienta europea con alcaloides parecidos.",
+   "enciclopedia/estramonio/"
+  ]
+ ],
+ "fuentes": [
+  "Fatur K. «Hexing herbs» in ethnobotanical perspective: a historical review of the uses of anticholinergic Solanaceae plants in Europe. Economic Botany. 2020. ui.adsabs.harvard.edu/abs/2020EcBot..74..140F.",
+  "Revisión de alcaloides tropánicos y carga anticolinérgica. PMC9478010. pmc.ncbi.nlm.nih.gov/articles/PMC9478010.",
+  "Wikipedia. «Atropa belladonna». en.wikipedia.org (consultada el 24-11-2026).",
+  "USDA Forest Service. Deadly nightshade, belladonna. fs.usda.gov/wildflowers/ethnobotany.",
+  "Encyclopedia.pub. Atropa belladonna: history. encyclopedia.pub/entry/history/show/82513.",
+  "Evergreen State College. Atropa belladonna. sites.evergreen.edu/plantchemeco/?p=576.",
+  "Fatur K. Belladonna: the witches' plant. Society for Ethnobotany. ethnobotany.org.",
+  "Springer. Tropane alkaloids review. Nat Prod Bioprospect. 2022. link.springer.com/10.1007/s13659-022-00357-w."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ayahuasca",
+  "ayahuasca"
+ ],
+ "siguiente": [
+  "Cacao",
+  "cacao"
+ ]
+}
