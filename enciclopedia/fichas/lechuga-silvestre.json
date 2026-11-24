@@ -1,0 +1,267 @@
+{
+ "slug": "lechuga-silvestre",
+ "tipo": "planta",
+ "migas": "Planta · Asteráceas · Europa y Asia occidental",
+ "nombre": "Lechuga silvestre",
+ "cientifico": "Lactuca virosa",
+ "autoridad": "L.",
+ "descripcion": "Lechuga silvestre (Lactuca virosa): la «lechuga opio» europea, cuyo látex, el lactucario, se usó como calmante suave. Historia, usos y química.",
+ "entrada": "Una lechuga silvestre de Europa, emparentada con la cultivada, que desprende un látex lechoso llamado lactucario, conocido como «opio de lechuga». Se empleó como calmante y analgésico suave, sobre todo en el siglo XIX.[1][2][4]",
+ "otros": "lechuga silvestre · lechuga venenosa · lechuga amarga · opio de lechuga · laitue vireuse · wild lettuce · Lactuca virosa",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Lechuga silvestre de látex lechoso"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Europa central y meridional, hasta Asia occidental y el norte de África"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "El látex del tallo, llamado lactucario"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Lactucina y lactucopicrina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina popular y farmacopeas europeas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una lechuga de látex amargo",
+  "parrafos": [
+   "<em>Lactuca virosa</em> pertenece al género de las lechugas y está emparentada con la lechuga común, <em>L. sativa</em>.[1]",
+   "Es una hierba bienal que puede alcanzar los 200 cm, más alta que la lechuga de campo <em>Lactuca serriola</em>.[4] Los tallos abundan en una savia blanca y lechosa que fluye al romperlos.[3]",
+   "El nombre científico significa, en latín, «látex» (<em>lactuca</em>) y «tóxico» (<em>virosa</em>).[5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Asteraceae"
+   ],
+   [
+    "Altura",
+    "Hasta unos 2 m"
+   ],
+   [
+    "Ciclo",
+    "Bienal"
+   ],
+   [
+    "Savia",
+    "Látex blanco y amargo"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El «opio de lechuga»",
+  "parrafos": [
+   "Se usa por sus efectos suaves, analgésico y sedante.[1] El lactucario es el fluido lechoso que segregan varias especies de lechuga, sobre todo <em>Lactuca virosa</em>, y se le llama «opio de lechuga».[2]",
+   "En el siglo XIX los médicos lo usaron cuando no podían conseguir opio.[4]",
+   "Antes de la época victoriana se conocía bien como calmante y sedante.[5]",
+   "Quedó descrito y normalizado en la Farmacopea de Estados Unidos de 1898 y en el Código Farmacéutico Británico de 1911 para pastillas, tinturas y jarabes como sedante de la tos irritativa o como analgésico suave.[2]",
+   "Aunque ha dejado de usarse en general como analgésico, sigue a la venta y a veces se promociona como psicotrópico.[2]"
+  ],
+  "cronologia": [
+   [
+    "1814",
+    "Fecha de los primeros estudios sobre su uso.[6]"
+   ],
+   [
+    "1898",
+    "Aparece normalizado en la Farmacopea de Estados Unidos.[2]"
+   ],
+   [
+    "1911",
+    "Se incluye en el Código Farmacéutico Británico.[2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "lechuga silvestre",
+    "nombre general"
+   ],
+   [
+    "opio de lechuga",
+    "nombre histórico del látex"
+   ],
+   [
+    "<em>laitue vireuse</em>",
+    "francés"
+   ],
+   [
+    "<em>wild lettuce</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "Varias especies de <em>Lactuca</em> se llaman «lechuga silvestre» y no son idénticas.[7]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Márgenes de ríos y baldíos",
+  "parrafos": [
+   "Está extendida por buena parte de Europa central y meridional, y se encuentra en la costa de Gran Bretaña.[1]",
+   "Crece de forma natural en Europa, hasta Asia occidental y el norte de África, y en orillas de ríos y baldíos.[5]",
+   "En Norteamérica se ha documentado como introducida en California, Alabama, Iowa y Washington D. C.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como parte de la farmacopea popular europea.",
+   "No confundirla con otras lechugas silvestres.",
+   "Respetar sus hábitats."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-lechuga-silvestre.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre Europa y Asia occidental.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la lechuga silvestre"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Lactucina y lactucopicrina",
+  "parrafos": [
+   "El lactucario contiene lactucina y lactucopicrina, sustancias amargas que se asocian con efectos calmantes y analgésicos.[2][6]",
+   "Una parte importante del látex son lactonas sesquiterpénicas.[6]",
+   "La planta contiene flavonoides, cumarinas y N-metil-β-feniletilamina.[4]",
+   "In vitro, la lactucina actúa como agonista de los receptores de adenosina y la lactucopicrina inhibe la acetilcolinesterasa.[8]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Lactucina",
+    "clase": "Lactona sesquiterpénica",
+    "img": null,
+    "texto": "Sustancia amarga del látex.[2][6]"
+   },
+   {
+    "nombre": "Lactucopicrina",
+    "clase": "Lactona sesquiterpénica",
+    "img": null,
+    "texto": "Sustancia amarga del látex.[2][6]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un calmante suave",
+  "parrafos": [
+   "Se describe como un sedante e hipnótico suave, con una posible sensación leve de euforia.[2][3]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay poca evidencia clínica de sus usos, con la excepción de un estudio pequeño sobre el insomnio en mujeres embarazadas.[3]",
+   "Trabajos más recientes han confirmado propiedades analgésicas y sedantes de la lactucina y la lactucopicrina.[2]"
+  ],
+  "alcance": "Uso histórico documentado; evidencia clínica escasa."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "El propio nombre científico alude a su toxicidad.[5]"
+   ],
+   [
+    "Evidencia",
+    "Hay poca evidencia clínica; las promesas comerciales superan lo que se ha demostrado.[3][6]"
+   ],
+   [
+    "Confusiones",
+    "Varias lechugas silvestres se llaman igual, y difieren en aspecto, hábitat y uso tradicional.[7]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta investigación clínica."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ajenjo",
+   "Artemisia absinthium",
+   "Otra asterácea europea de uso tradicional.",
+   "enciclopedia/ajenjo/"
+  ],
+  [
+   "planta",
+   "Belladona",
+   "Atropa belladonna",
+   "Otra planta europea de la farmacopea antigua.",
+   "enciclopedia/belladona/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Lactuca virosa</em>. wikipedia.org/wiki/Lactuca_virosa.",
+  "Wikipedia. Lactucarium. en.wikipedia.org/wiki/Lactucarium.",
+  "Drugs.com. Lettuce opium. drugs.com/npp/lettuce-opium.html.",
+  "Encyclopedia of Life. <em>Lactuca virosa</em>. eol.org/pages/486948/articles.",
+  "Kruidwis. <em>Lactuca virosa</em> / Gifsla / Wild lettuce. sites.google.com/site/kruidwis/kruiden-planten-van-a-tot-z/lactuca-virosa-gifsla-wild-lettuce.",
+  "Healthline. Wild lettuce. healthline.com/nutrition/wild-lettuce.",
+  "Tua Saúde. Wild lettuce: health benefits, types, how to use and side effects. tuasaude.com/en/wild-lettuce/.",
+  "Wikiwand. Lactucarium. wikiwand.com/en/articles/Lactucarium."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Latué",
+  "latue"
+ ],
+ "siguiente": [
+  "Loto azul",
+  "loto-azul"
+ ]
+}
