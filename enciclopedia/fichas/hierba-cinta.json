@@ -1,0 +1,268 @@
+{
+ "slug": "hierba-cinta",
+ "tipo": "planta",
+ "migas": "Planta · Gramíneas · Europa, Asia y Norteamérica",
+ "nombre": "Hierba cinta",
+ "cientifico": "Phalaris arundinacea",
+ "autoridad": "L.",
+ "descripcion": "Hierba cinta (Phalaris arundinacea): gramínea común de orillas con triptaminas en algunos ejemplares, sin tradición ritual. Botánica y química.",
+ "entrada": "Una gramínea alta y perenne de orillas de lagos y arroyos, muy extendida por Europa, Asia, el norte de África y Norteamérica. No tiene una tradición ritual documentada, pero algunos ejemplares contienen triptaminas y hoy figura en la literatura sobre análogos de ayahuasca.[1][3][4]",
+ "otros": "hierba cinta · pasto cinto · alpiste roseau · reed canary grass · ribbon grass · gardener's-garters · Phalaris arundinacea",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Gramínea perenne de orillas húmedas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Europa, Asia, norte de África y Norteamérica"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Sin uso tradicional documentado; las hojas contienen alcaloides"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "DMT, 5-MeO-DMT, hordenina y gramina, con mucha variación"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Sin tradición ritual documentada"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una hierba común de orillas",
+  "parrafos": [
+   "<em>Phalaris arundinacea</em> es una gramínea alta, perenne y de macolla, que suele formar grandes rodales de una sola especie en márgenes de lagos y arroyos y en zonas abiertas húmedas.[1]",
+   "Se extiende bajo tierra mediante gruesos rizomas.[2] Sus otros nombres comunes incluyen «gardener's-garters» y «ribbon grass» en inglés, y «hierba cinta» y «pasto cinto» en español.[1][2]",
+   "Crece bien en suelos pobres y en terrenos industriales contaminados, y se ha propuesto para recuperar suelos.[1] Se emplea también como forraje y como fuente de fibra para papel y de biomasa.[3]",
+   "Se han seleccionado cultivares ornamentales, como los de hojas rayadas.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Poaceae"
+   ],
+   [
+    "Hábito",
+    "Perenne, en macolla, con rizomas"
+   ],
+   [
+    "Hábitat",
+    "Orillas de lagos y arroyos, zonas húmedas"
+   ],
+   [
+    "Usos conocidos",
+    "Forraje, fibra, ornamental, biomasa"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Sin tradición ritual conocida",
+  "parrafos": [
+   "A diferencia de la ayahuasca, esta hierba no tiene una historia de coevolución con las personas.[5] Contiene mucho menos DMT que la ayahuasca y es abundante.[5]",
+   "Las fuentes consultadas no recogen un uso ceremonial o medicinal tradicional.",
+   "Según Erowid, en los años noventa las gramíneas del género <em>Phalaris</em> se hicieron populares como fuente de triptaminas en la cultura de los análogos de ayahuasca.[4] Esto es historia reciente de internet y no una tradición de pueblos.",
+   "El interés científico previo viene del ganado: los animales que pastaban hierba cinta rica en triptaminas tenían diarrea, respiración acelerada y más sed que los que pastaban hierba con menos.[5]"
+  ],
+  "cronologia": [
+   [
+    "Años noventa",
+    "Interés por <em>Phalaris</em> en la cultura de los análogos de ayahuasca.[4]"
+   ]
+  ],
+  "nombres": [
+   [
+    "hierba cinta, pasto cinto",
+    "español"
+   ],
+   [
+    "<em>reed canary grass</em>",
+    "inglés"
+   ],
+   [
+    "<em>ribbon grass</em>",
+    "inglés, cultivares rayados"
+   ],
+   [
+    "<em>Rohrglanzgras</em>",
+    "alemán"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un amplio hábitat húmedo",
+  "parrafos": [
+   "Tiene una distribución amplia por Europa, Asia, el norte de África y Norteamérica.[1]",
+   "Crece en el hemisferio norte con preferencia por orillas húmedas.[5]",
+   "Puede formar rodales extensos y desplazar a otras especies."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como parte de la flora de orillas.",
+   "No confundirla con una planta de tradición ritual.",
+   "Respetar los humedales donde crece."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-hierba-cinta.svg",
+   "alt": "Mapa con zonas sombreadas en ocre sobre Eurasia y Norteamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Distribución aproximada de la hierba cinta"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Triptaminas y otros alcaloides, con mucha variación",
+  "parrafos": [
+   "Las hojas contienen DMT, 5-MeO-DMT y compuestos afines; también se han descrito β-carbolinas y hordenina.[1]",
+   "Los ejemplares presentan niveles variables de hordenina y gramina.[1]",
+   "El contenido total de alcaloides cambia mucho entre muestras: en <em>P. arundinacea</em> se ha informado de 0,0004 a 0,121 % del peso seco.[6]",
+   "Esos alcaloides actúan como defensa contra los herbívoros.[5]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "5-MeO-DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Presente en algunos cultivares de hierba cinta.[4]"
+   },
+   {
+    "nombre": "DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Presente en las hojas.[1]"
+   },
+   {
+    "nombre": "Gramina",
+    "clase": "Alcaloide indólico",
+    "img": null,
+    "texto": "Alcaloide frecuente en las gramíneas del género.[1]"
+   },
+   {
+    "nombre": "Hordenina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Alcaloide frecuente en las gramíneas del género.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "Las fuentes consultadas no ofrecen datos fiables de efectos, aparición ni duración en personas."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay estudios agronómicos y químicos sobre las variaciones de alcaloides en las gramíneas <em>Phalaris</em>, motivados sobre todo por su efecto en el ganado.[5][6]",
+   "No hay estudios clínicos."
+  ],
+  "alcance": "Química y agronomía; sin estudios en personas."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Los alcaloides varían muchísimo entre ejemplares, y también hay otros compuestos de toxicidad conocida en el ganado.[1][5]"
+   ],
+   [
+    "Sin tradición",
+    "No es una planta ritual de ningún pueblo conocido; su uso nace en la cultura de los análogos.[4][5]"
+   ],
+   [
+    "Confusión de plantas",
+    "Varias especies de <em>Phalaris</em> comparten alcaloides pero en proporciones muy distintas.[4][6]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Caña común",
+   "Arundo donax",
+   "Otra gramínea con triptaminas.",
+   "enciclopedia/cana-comun/"
+  ],
+  [
+   "planta",
+   "Ayahuasca",
+   "Banisteriopsis caapi y Psychotria viridis",
+   "Brebaje del que toma nombre la idea de «análogos».",
+   "enciclopedia/ayahuasca/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. Reed canarygrass (<em>Phalaris arundinacea</em>). en.wikipedia.com/wiki/Reed_canarygrass.",
+  "Wikipedia. <em>Phalaris arundinacea</em>. en.wikipedia.org/wiki/Phalaris_arundinacea.",
+  "Wikiwand. Reed canarygrass. wikiwand.com/en/articles/Reed_canarygrass.",
+  "Erowid. What sort of grasses contain DMT? erowid.org/ask/ask.php?ID=3155.",
+  "The Evergreen State College. Reed canary grass and DMT (Plant Chemical Ecology). sites.evergreen.edu/plantchemeco/?p=904.",
+  "Wikipedia. <em>Phalaris</em> (planta). wikipedia.com/wiki/Phalaroides."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Guayusa",
+  "guayusa"
+ ],
+ "siguiente": [
+  "Hierba de la pastora",
+  "hierba-de-la-pastora"
+ ]
+}
