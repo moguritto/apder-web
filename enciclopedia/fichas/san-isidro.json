@@ -1,0 +1,251 @@
+{
+ "slug": "san-isidro",
+ "tipo": "hongo",
+ "migas": "Hongo · Hymenogastráceas · Pantropical",
+ "nombre": "San Isidro",
+ "cientifico": "Psilocybe cubensis",
+ "autoridad": "(Earle) Singer",
+ "descripcion": "San Isidro (Psilocybe cubensis): el hongo psicodélico más conocido y cultivado del mundo; crece sobre estiércol en los trópicos y su uso indígena es raro.",
+ "entrada": "Un hongo de pie blanquecino y sombrero pardo dorado, con un ligero azuleo al tocarlo. Se considera probablemente la especie psicodélica más conocida y más usada del mundo, y debe su nombre a Cuba, aunque allí no se usaba. En México se le conoce como San Isidro, y su uso tradicional indígena parece raro y reciente.[1][2][3]",
+ "otros": "San Isidro · hongo de San Ysidro · gold cap · golden top · palenque · hongo azul (Brasil) · magic mushroom",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hongo de estiércol de pie blanco y sombrero dorado"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Pantropical"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Cuerpo fructífero"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Psilocibina y psilocina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Chatinos, mazatecos, mixes, nahuas y zapotecos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El hongo del ganado",
+  "parrafos": [
+   "<em>Psilocybe cubensis</em> produce hongos de pie blanquecino, sombrero pardo rojizo y azuleo suave.[2] Se llama «gold top» o «gold cap» en Australia, «sacred mushroom» o «blue mushroom» en Brasil y «San Ysidro» o «Palenque» en Estados Unidos y México.[4]",
+   "Crece sobre estiércol de vaca y a veces de caballo, mantillo de caña de azúcar o suelo rico de pasto; en Asia, sobre estiércol de búfalo.[4]",
+   "Aparece de febrero a diciembre en el hemisferio norte y de noviembre a abril en el sur.[4]",
+   "Se cree que colonizó Australia con la introducción del ganado, y las garcillas bueyeras pueden transportar sus esporas.[4]",
+   "Es pantropical y probablemente el hongo de estiércol más común de los trópicos.[3][5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Hymenogastráceas"
+   ],
+   [
+    "Hábitat",
+    "Estiércol de ganado, suelo rico"
+   ],
+   [
+    "Distribución",
+    "Pantropical"
+   ],
+   [
+    "Azuleo",
+    "Suave"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Esta ficha no es una guía de identificación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un nombre cubano, un hongo mexicano",
+  "parrafos": [
+   "El nombre viene de dos hongos pardos que el botánico Franklin Earle recogió en Cuba y llamó <em>Stropharia cubensis</em>; el género lo cambió después Rolf Singer a <em>Psilocybe</em>.[2]",
+   "Un artículo de divulgación recuerda que, aunque Cuba da nombre a la especie, la tradición más antigua con hongos se refiere a la vecina México y, por tanto, a otros hongos como <em>Psilocybe mexicana</em>.[2]",
+   "En 1938 Schultes y Reko recogieron en Huautla de Jiménez <em>Panaeolus sphinctrinus</em>, <em>Psilocybe cubensis</em>, <em>Psilocybe caerulescens</em> y quizá algún <em>Psilocybe mexicana</em>.[6]",
+   "Singer determinó en 1941 que una de las colecciones de Schultes era <em>P. cubensis</em>.[7]",
+   "John W. Allen describe su uso como «raro» entre los pueblos indígenas de México y más extendido entre poblaciones de turistas.[1]",
+   "La tabla de Chacruna atribuye su uso a los chatinos, mazatecos, mixes, nahuas y zapotecos.[3] Los trabajos de Guzmán señalan 53 especies alucinógenas de <em>Psilocybe</em> en México.[8]"
+  ],
+  "cronologia": [
+   [
+    "1938",
+    "Schultes y Reko recogen varias especies en Huautla"
+   ],
+   [
+    "1941",
+    "Singer identifica una de las colecciones como <em>P. cubensis</em>"
+   ]
+  ],
+  "nombres": [
+   [
+    "San Isidro, San Ysidro",
+    "México y EE. UU."
+   ],
+   [
+    "gold cap, golden top",
+    "Australia"
+   ],
+   [
+    "hongo azul",
+    "Brasil"
+   ]
+  ],
+  "nota_nombres": "«San Isidro» alude al santo labrador; no es nombre indígena.",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un hongo de los trópicos",
+  "parrafos": [
+   "Se encuentra en muchos países del mundo, tanto en estado silvestre como en cultivo.[3]",
+   "Es el hongo más cultivado, según la tabla de Chacruna, y la UICN no lo tiene listado.[3]",
+   "Una cepa «Huautla» de <em>P. cubensis</em> procede de pastos cercanos a Huautla de Jiménez; no es una especie distinta sino una variedad local.[9]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectar en comunidades sin permiso.",
+   "No confundir el hongo del ganado con el hongo sagrado indígena.",
+   "Respetar la tradición mazateca."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-san-isidro.svg",
+   "alt": "Mapa con las zonas tropicales sombreadas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de Psilocybe cubensis"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Psilocibina",
+  "parrafos": [
+   "Es un hongo psicodélico del género <em>Psilocybe</em>, cuyos compuestos activos son la psilocibina y la psilocina.[3]",
+   "No se identificaron en las fuentes consultadas análisis cuantitativos específicos de esta especie."
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos propios",
+  "parrafos": [
+   "Las fuentes consultadas no ofrecen descripciones fiables de la experiencia ni datos de aparición o duración propios de esta especie."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Es una especie muy estudiada en micología; en 1967 se estudiaron los factores que influyen en el crecimiento de sus micelios y los de <em>P. mexicana</em>.[10]",
+   "La investigación clínica con psilocibina suele usar el compuesto, no el hongo entero."
+  ],
+  "alcance": "Muy estudiada en micología; investigación clínica ligada al compuesto."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Identidad",
+    "No se debe asimilar a la tradición ritual mexicana: su uso indígena es raro.[1]"
+   ],
+   [
+    "Contexto",
+    "Los hongos sagrados mazatecos son saber de comunidades concretas.[3]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos tradicionales y clínicos propios."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Pajaritos",
+   "Psilocybe mexicana",
+   "Hongo sagrado mazateco.",
+   "enciclopedia/pajaritos/"
+  ],
+  [
+   "hongo",
+   "Derrumbe",
+   "Psilocybe caerulescens",
+   "Otro hongo sagrado de México.",
+   "enciclopedia/derrumbe/"
+  ],
+  [
+   "hongo",
+   "Psilocibe azulado",
+   "Psilocybe cyanescens",
+   "Un Psilocybe de madera.",
+   "enciclopedia/psilocibe-azulado/"
+  ]
+ ],
+ "fuentes": [
+  "Allen, J. W. <em>San Isidro de Labrador – Psilocybe cubensis</em> (capítulo no publicado). researchgate.net (perfil John Allen).",
+  "The Microdose. <em>The poster child for psychedelic mushrooms is named after a country that doesn't use it</em>. themicrodose.substack.com/p/the-poster-child-for-psychedelic.",
+  "Chacruna. Tabla de hongos psicodélicos de México (Table1). chacruna.net (archivo Table1_compact.pdf).",
+  "Wikipedia. <em>Psilocybe cubensis</em>. wikipedia.org/wiki/P._cubensis.",
+  "Chacruna. <em>Psychoactive Mushrooms in Mexico: Overview of Ecology and Ethnomycology</em>. chacruna.net/?p=111563.",
+  "Erowid. <em>Mushrooms History</em>. erowid.org/mushrooms/mushrooms_history.shtml.",
+  "Singer, R. <em>Mycological investigations on teonanacatl</em>. bibliography.maps.org/resources/download/14868.",
+  "Guzmán, G. <em>Hallucinogenic Mushrooms in Mexico: An Overview</em>. Economic Botany 62(3), 2008. bibliography.maps.org/resources/download/13502.",
+  "Double Blind Mag. <em>Huautla mushroom strain</em>. doubleblindmag.com/huautla-mushroom-strain/.",
+  "Ulloa, M. (1967). Factores que influyen en el crecimiento de los micelios de <em>Psilocybe mexicana</em> y <em>P. cubensis</em>. anales.ib.unam.mx."
+ ],
+ "tipo_txt": "Hongo",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ruda siria",
+  "ruda-siria"
+ ],
+ "siguiente": [
+  "San Pedro",
+  "san-pedro"
+ ]
+}
