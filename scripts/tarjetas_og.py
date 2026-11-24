@@ -49,6 +49,12 @@ TARJETAS = [
     ("persona-alan-watts", "Alan Watts", "logo"),
     ("persona-ann-y-alexander-shulgin", "Los Shulgin", "mol:2c-b"),
     ("persona-leo-zeff", "Leo Zeff", "logo"),
+    ("guia-microdosis-setas", "Microdosis de setas", "mol:psilocibina"),
+    ("guia-microdosis-lsd", "Microdosis de LSD", "mol:lsd"),
+    ("guia-microdosis-ayahuasca", "Microdosis de ayahuasca", "mol:ayahuasca"),
+    ("guia-microdosis-dmt", "Microdosis de DMT", "mol:dmt"),
+    ("guia-microdosis-ibogaina", "Microdosis de ibogaína", "mol:ibogaina"),
+    ("guia-microdosis-mescalina", "Microdosis de mescalina", "mol:mescalina"),
 ]
 GUIAS = {
     "psilocibina": "Psilocibina", "lsd": "LSD", "mescalina": "Mescalina", "dmt": "DMT",
