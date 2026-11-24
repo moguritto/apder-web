@@ -898,20 +898,21 @@
    "destinatarios": "clinicos",
    "modalidad": "en_linea",
    "idiomas": [
-    "en"
+    "en",
+    "es"
    ],
    "pais": "ES",
    "sustancias": [
     "varias"
    ],
    "duracion_horas": null,
-   "duracion": "14 semanas en línea: 60 vídeos y 12 charlas en directo",
-   "precio": "Consultar en la web",
-   "precio_eur": null,
+   "duracion": "14 semanas en línea: 60 vídeos y 12 charlas en directo (la edición de 2026 ya terminó; 2027 por confirmar)",
+   "precio": "Según la zona: 690, 1.155 o 1.620 € (España, 1.620 €), IVA incluido, en 3 pagos; becas parciales del 25 % y 50 %",
+   "precio_eur": 1620,
    "reconocimiento": [
     "certificado"
    ],
-   "descripcion": "Curso en línea para profesionales que acompañan la integración tras experiencias psicodélicas, con seis módulos y un protocolo de intervención por escenarios, según el modelo de Marc Aixalà. En noviembre de 2026 la web solo ofrece avisar cuando abran inscripciones.",
+   "descripcion": "Curso en línea para profesionales de la salud y del acompañamiento que apoyan la integración tras experiencias psicodélicas, con seis módulos y un protocolo de intervención por escenarios, según el modelo de Marc Aixalà. Hay edición en español. Certificado propio de 45 horas, no oficial; la web solo ofrece avisar cuando abran inscripciones de 2027.",
    "url": "https://hub.iceers.org/en/academy/integration",
    "estado": "por_confirmar",
    "revisado": "2026-11-24",
@@ -963,18 +964,19 @@
     "introduccion",
     "terapia"
    ],
-   "destinatarios": "clinicos",
+   "destinatarios": "ayuda",
    "modalidad": "mixta",
    "idiomas": [
-    "pt"
+    "pt",
+    "en"
    ],
    "pais": "PT",
    "ciudad": "Lisboa",
    "sustancias": [
     "varias"
    ],
-   "duracion_horas": null,
-   "duracion": "12 módulos en sábados; nueva edición con candidaturas hasta el 31 de diciembre de 2026",
+   "duracion_horas": 48,
+   "duracion": "12 módulos de 4 horas, jueves en línea y sábados presenciales (edición de 2026: febrero a junio); nueva convocatoria con candidaturas hasta el 31 de diciembre de 2026",
    "precio": "Consultar en la universidad",
    "precio_eur": null,
    "reconocimiento": [
@@ -1040,7 +1042,7 @@
    ],
    "duracion_horas": null,
    "duracion": "2 años: clases semanales en línea, encuentros presenciales y talleres de 5 días",
-   "precio": "11.000 (moneda sin confirmar; dato de un portal, agosto de 2025)",
+   "precio": "Consultar en su web (las fuentes secundarias se contradicen)",
    "precio_eur": null,
    "reconocimiento": [
     "certificado"
@@ -1127,7 +1129,7 @@
    "tipo": [
     "terapia"
    ],
-   "destinatarios": "ayuda",
+   "destinatarios": "clinicos",
    "modalidad": "mixta",
    "idiomas": [
     "en"
@@ -1137,8 +1139,8 @@
    "sustancias": [
     "varias"
    ],
-   "duracion_horas": null,
-   "duracion": "Consultar en la web",
+   "duracion_horas": 150,
+   "duracion": "8 meses, 150 horas (según fuentes secundarias; matrícula sin comprobar)",
    "precio": "Consultar en la web",
    "precio_eur": null,
    "reconocimiento": [
@@ -1243,7 +1245,7 @@
     "mdma"
    ],
    "duracion_horas": null,
-   "duracion": "Consultar fechas y formatos en la web",
+   "duracion": "Cohortes: Vancouver (MDMA, 6 días) del 30 de nov. al 5 de dic. de 2026; en línea (psilocibina) en enero de 2027; en línea (MDMA) de enero a marzo de 2027",
    "precio": "Consultar a la entidad",
    "reconocimiento": [
     "certificado"
@@ -1253,7 +1255,8 @@
    ],
    "descripcion": "Formación de una entidad canadiense sin ánimo de lucro, con itinerarios de psilocibina y de MDMA y opciones vivenciales y para prescriptores. Según la propia web ha formado a más de 900 profesionales y no hace falta ser terapeuta: se valoran perfiles sanitarios, de psicología y counselling, doulas de muerte, saberes indígenas y acompañamiento espiritual.",
    "url": "https://therapsil.ca/training/",
-   "estado": "activa"
+   "estado": "activa",
+   "proxima": "2026-11-30"
   },
   {
    "tipo_entidad": "asociacion",
