@@ -1,0 +1,291 @@
+{
+ "slug": "sapo-de-sonora",
+ "tipo": "animal",
+ "migas": "Animal · Bufónidos · Desierto de Sonora",
+ "nombre": "Sapo de Sonora",
+ "cientifico": "Incilius alvarius",
+ "autoridad": "(Girard, 1859)",
+ "descripcion": "Sapo de Sonora (Incilius alvarius): anfibio del desierto de Sonora cuya secreción contiene 5-MeO-DMT. Biología, historia, investigación y cuidados.",
+ "entrada": "Un sapo grande del desierto de Sonora que sale de noche, tras las lluvias. Sus glándulas guardan 5-MeO-DMT, una de las triptaminas más breves e intensas que se conocen, y su uso humano es reciente y discutido.[3][4][5]",
+ "otros": "sapo del río Colorado · Bufo alvarius · el sapo · sapo del desierto de Sonora",
+ "portada": {
+  "img": "idx-sapo.jpg",
+  "alt": "Un sapo grande de piel lisa y parda sobre la tierra seca, con las glándulas parotoideas visibles tras los ojos.",
+  "pie": "Sapo de Sonora (<em>Incilius alvarius</em>).",
+  "cred": "Rstanton13 · CC BY-SA 4.0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Anfibio grande, de hábitos nocturnos, del desierto"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Desierto de Sonora, entre el suroeste de EE. UU. y el noroeste de México"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La secreción de sus glándulas parotoideas"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "5-MeO-DMT y bufotenina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Segundos · 15–45 min"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "No hay un pueblo que la custodie de forma acreditada"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la 5-MeO-DMT",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/5-meo-dmt/"
+ },
+ "planta": {
+  "id": "el-animal",
+  "etq": "Biología",
+  "titulo": "Un sapo de piel lisa que espera la lluvia",
+  "parrafos": [
+   "Es uno de los sapos más grandes de Norteamérica: puede superar los 17 centímetros. Tiene la piel lisa, de color oliva o pardo, con grandes glándulas tras los ojos y otras en las patas.[1][2]",
+   "Pasa buena parte del año oculto en madrigueras y sale de noche, sobre todo en la temporada de lluvias de verano, cuando se reproduce en charcos temporales.[1][2]",
+   "Las glándulas parotoideas liberan, cuando el animal se siente amenazado, una secreción lechosa que le sirve de defensa frente a sus depredadores.[2][3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Bufonidae"
+   ],
+   [
+    "Tamaño",
+    "Hasta unos 17 cm o más"
+   ],
+   [
+    "Hábitos",
+    "Nocturno, vive en madrigueras"
+   ],
+   [
+    "Reproducción",
+    "En charcas temporales tras las lluvias de verano"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Una medicina de historia breve",
+  "parrafos": [
+   "A diferencia de otras medicinas de esta enciclopedia, no se conoce una tradición indígena documentada que la use. Que pudiera haber sido empleada en el México precolombino es una hipótesis de investigadores, no un hecho acreditado.[4]",
+   "Su conocimiento moderno arranca de la ciencia: en 1992 Davis y Weil describieron al sapo como candidato a ser el primer agente alucinógeno de origen animal, y en 1994 mostraron que su secreción seca se puede fumar y es muy psicoactiva, mientras que es tóxica si se ingiere.[3][4]",
+   "Desde entonces ha pasado a ser una práctica de ceremonias y grupos contemporáneos. Es una tradición joven, y quien se acerque a ella conviene que lo haga sabiéndolo."
+  ],
+  "cronologia": [
+   [
+    "1859",
+    "Girard describe la especie con el nombre de <em>Bufo alvarius</em>.[2]"
+   ],
+   [
+    "1992",
+    "Davis y Weil publican «Identity of a new world psychoactive toad».[4]"
+   ],
+   [
+    "1994",
+    "Weil y Davis documentan que la secreción es psicoactiva si se fuma y tóxica si se ingiere.[3]"
+   ],
+   [
+    "2022",
+    "Una revisión recoge la farmacología clínica de la 5-MeO-DMT y su posible desarrollo terapéutico.[5]"
+   ]
+  ],
+  "nombres": [
+   [
+    "Sapo de Sonora",
+    "por el desierto de Sonora donde vive"
+   ],
+   [
+    "Sapo del río Colorado",
+    "nombre inglés, <em>Colorado River toad</em>"
+   ],
+   [
+    "<em>Bufo alvarius</em>",
+    "nombre científico anterior; hoy <em>Incilius alvarius</em>"
+   ],
+   [
+    "El sapo",
+    "cómo se nombra a la 5-MeO-DMT en muchos círculos"
+   ]
+  ],
+  "nota_nombres": "El género cambió de <em>Bufo</em> a <em>Incilius</em> tras una revisión de la clasificación de los bufónidos, y por eso conviven ambos nombres en la bibliografía.[1][2]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un animal del desierto en un territorio frágil",
+  "parrafos": [
+   "Vive en el desierto de Sonora y zonas vecinas: el sur de Arizona y el suroeste de Nuevo México en EE. UU., y los estados mexicanos de Sonora, Sinaloa y Chihuahua.[1][2]",
+   "Es un animal salvaje y su demanda en ceremonias fuera de su tierra preocupa a quienes lo cuidan; la 5-MeO-DMT sintética es la alternativa que no toca al animal."
+  ],
+  "ayuda": [
+   "Preferir la 5-MeO-DMT sintética, que no requiere capturar animales.",
+   "No capturar ni ordeñar sapos: es un animal salvaje de un desierto frágil.",
+   "Preguntar por el origen de cualquier secreción antes de dar por buena su procedencia."
+  ],
+  "foto": null,
+  "uicn": null,
+  "mapa": {
+   "img": "mapa-sapo-de-sonora.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre el noroeste de México y el suroeste de EE. UU.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del sapo de Sonora"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "5-MeO-DMT, una triptamina rápida y muy potente",
+  "parrafos": [
+   "La secreción contiene 5-MeO-DMT y bufotenina, entre otras sustancias. Davis y Weil identificaron la 5-MeO-DMT como el componente psicoactivo principal.[3][5]",
+   "La 5-MeO-DMT actúa sobre todo en el receptor de serotonina 5-HT1A, y también en el 5-HT2A.[5] La secreción lleva además otras sustancias, algunas tóxicas si se ingiere, y por eso nunca se toma por la boca.[3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "5-MeO-DMT",
+    "clase": "Triptamina · principal",
+    "img": "5-meo-dmt.svg",
+    "texto": "Se une sobre todo al receptor 5-HT1A, con menor afinidad por el 5-HT2A.[5]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un cuarto de hora que lo cambia todo",
+  "parrafos": [
+   "Empieza a notarse en segundos y dura entre quince y cuarenta y cinco minutos, con un regreso gradual después. Por su rapidez, es una de las experiencias psicodélicas más breves e intensas.[5][6]",
+   "A quienes la viven les cuesta describirla con palabras: muchas personas hablan de una disolución del yo. Por eso, aun siendo corta, no es una experiencia ligera ni conviene vivirla sin acompañamiento."
+  ],
+  "tiempo": {
+   "horas": 1,
+   "tramos": [
+    [
+     "a",
+     0,
+     0.1,
+     "Empieza en segundos"
+    ],
+    [
+     "b",
+     0.1,
+     0.75,
+     "Fase intensa y regreso"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "segundos"
+    ],
+    [
+     "Dura",
+     "15–45 min"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Una revisión de 2022 recoge que la 5-MeO-DMT se ha estudiado en seres humanos con exploraciones iniciales y que se justifica seguir investigándola con las mismas precauciones que otros psicodélicos clásicos.[5]",
+   "En 2023, un estudio de fase 1/2 con una formulación vaporizada de 5-MeO-DMT sintética, en personas con depresión resistente al tratamiento, comunicó seguridad aceptable y una mejoría de los síntomas.[6]"
+  ],
+  "alcance": "Son estudios iniciales, con pocas personas y sin grupo con placebo suficiente para sacar conclusiones. No existe ningún medicamento aprobado con 5-MeO-DMT, y los estudios usan la forma sintética, no la secreción del sapo."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Nunca por la boca",
+    "La secreción es tóxica si se ingiere; solo se ha descrito su uso fumada y seca.[3]"
+   ],
+   [
+    "Lo más delicado",
+    "Las interacciones: algunos medicamentos, en especial los inhibidores de la monoaminooxidasa, cambian mucho sus efectos. La guía de APDER detalla quién no debería tomarla."
+   ],
+   [
+    "El animal",
+    "Capturar sapos daña un animal salvaje y su hábitat. La 5-MeO-DMT sintética evita ese daño."
+   ],
+   [
+    "Una práctica reciente",
+    "No viene de una tradición documentada; conviene saber de dónde viene quien la ofrece y cómo acompaña.[4]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [
+  {
+   "titulo": "Bufo Alvarius: The Psychedelic Toad of the Sonoran Desert",
+   "autor": "Albert Most",
+   "img": null,
+   "url": "biblioteca/bufo-alvarius-the-psychedelic-toad-of-the-sonoran-desert-545/"
+  }
+ ],
+ "parientes": [
+  [
+   "molecula",
+   "5-MeO-DMT",
+   "Triptamina",
+   "El principio activo principal de la secreción.",
+   "sustancias/5-meo-dmt/"
+  ],
+  [
+   "molecula",
+   "DMT",
+   "Triptamina",
+   "Una triptamina emparentada, presente también en la ayahuasca.",
+   "sustancias/dmt/"
+  ]
+ ],
+ "fuentes": [
+  "AmphibiaWeb. <em>Incilius alvarius</em> — Sonoran Desert Toad. amphibiaweb.org.",
+  "Wikipedia. «Colorado River toad». en.wikipedia.org (consultada el 24-11-2026).",
+  "Weil AT, Davis W. <em>Bufo alvarius</em>: a potent hallucinogen of animal origin. J Ethnopharmacol. 1994;41(1-2):1-8.",
+  "Davis W, Weil AT. Identity of a New World psychoactive toad. Ancient Mesoamerica. 1992;3(1):51-59.",
+  "Reckweg JT, Uthaug MV, Szabo A, et al. The clinical pharmacology and potential therapeutic applications of 5-methoxy-N,N-dimethyltryptamine (5-MeO-DMT). J Neurochem. 2022;162(1):128-146.",
+  "Reckweg JT, van Leeuwen CJ, Henquet C, et al. A phase 1/2 trial to assess safety and efficacy of a vaporized 5-methoxy-N,N-dimethyltryptamine formulation (GH001) in patients with treatment-resistant depression. Front Psychiatry. 2023;14:1133414."
+ ],
+ "tipo_txt": "Animal",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "San Pedro",
+  "san-pedro"
+ ],
+ "siguiente": [
+  "Ayahuasca",
+  "ayahuasca"
+ ]
+}

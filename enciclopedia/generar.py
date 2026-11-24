@@ -138,22 +138,24 @@ def ficha(d):
               ("galeria", "Galería"), ("seguir", "Para seguir"), ("fuentes", "Fuentes")]
     if sin_galeria:
         indice = [i for i in indice if i[0] != "galeria"]
-    creditos = [(d["portada"]["pie"], d["portada"]["cred"])]
-    g = d["guia"]
+    creditos = [(d["portada"]["pie"], d["portada"]["cred"])] if d.get("portada") else []
+    g = d.get("guia")
     h = []
+    ap_foto = f'<figure class="f-ap-foto"><img src="{img}{d["portada"]["img"]}" alt="{d["portada"]["alt"]}"><figcaption>{d["portada"]["pie"]} {d["portada"]["cred"]}</figcaption></figure>' if d.get("portada") else ""
     h.append(f'''<section class="f-apertura"><div class="ancho f-ap-in">
 <div class="f-ap-txt"><a class="f-volver" href="../">{ico("volver", "ico peq")} Enciclopedia de medicinas</a>
 <p class="etq oro">{d["migas"]}</p><h1>{d["nombre"]}</h1>
 <p class="f-lat">{d["cientifico"]} <span>{d["autoridad"]}</span></p>
 <p class="f-entrada">{fmt(d["entrada"])}</p>
 <p class="f-otros"><b>También se llama</b><i>{d["otros"]}</i></p></div>
-<figure class="f-ap-foto"><img src="{img}{d["portada"]["img"]}" alt="{d["portada"]["alt"]}"><figcaption>{d["portada"]["pie"]} {d["portada"]["cred"]}</figcaption></figure>
+{ap_foto}
 </div></section>''')
     datos = "".join(f'<div class="f-dato">{ico(k)}<dt>{t}</dt><dd>{v}</dd></div>' for k, t, v in d["vistazo"])
     h.append(f'<section class="f-vistazo ancho" aria-label="De un vistazo"><dl class="f-vistazo-in">{datos}</dl></section>')
+    guia_aside = f'<a class="f-guia" href="{pre}{g["url"]}"><span class="etq">Para la práctica</span><b>{g["titulo"]}</b><span>Abrir la guía →</span></a>' if g else ""
     idx = "".join(f'<li><a{" class=\"on\"" if i == 0 else ""} href="#{a}">{t}</a></li>' for i, (a, t) in enumerate(indice))
     h.append(f'''<div class="ancho f-cuerpo"><aside class="f-indice"><p class="etq">En esta ficha</p><ol>{idx}</ol>
-<a class="f-guia" href="{pre}{g["url"]}"><span class="etq">Para la práctica</span><b>{g["titulo"]}</b><span>Abrir la guía →</span></a></aside><div class="f-principal">''')
+{guia_aside}</aside><div class="f-principal">''')
     # la planta / el hongo
     s = d["planta"]
     rasgos = "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in s["rasgos"])
@@ -233,7 +235,8 @@ def ficha(d):
                 im = '<div class="sin">Sin foto a propósito: no se identifica por una imagen.</div>'
             items += f'<figure class="f-parecido">{im}<figcaption><b>{p["nombre"]}</b><i>{p["lat"]}</i><p>{fmt(p["texto"])}</p></figcaption></figure>'
         par = f'<h3>Parecidos que importan</h3><div class="f-parecidos">{items}</div>'
-    h.append(f'<section class="f-sec" id="cuidado">{cab_sec(s)}<div class="f-cuidado">{tarj}</div>{par}<a class="f-puente" href="{pre}{g["url"]}"><span><b>{g["titulo"]}</b><span>{g["texto"]}</span></span><span class="btn o">Ir a la guía {ico("flecha", "ico peq")}</span></a></section>')
+    puente = f'<a class="f-puente" href="{pre}{g["url"]}"><span><b>{g["titulo"]}</b><span>{g["texto"]}</span></span><span class="btn o">Ir a la guía {ico("flecha", "ico peq")}</span></a>' if g else ""
+    h.append(f'<section class="f-sec" id="cuidado">{cab_sec(s)}<div class="f-cuidado">{tarj}</div>{par}{puente}</section>')
     # galería
     gal = "".join(figura(x, x["cls"]) for x in d["galeria"])
     creditos += [(x["pie"], x["cred"]) for x in d["galeria"]]

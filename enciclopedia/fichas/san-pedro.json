@@ -16,12 +16,36 @@
   "cred": "Forest & Kim Starr · CC BY 3.0"
  },
  "vistazo": [
-  ["que", "Qué es", "Cactus columnar y ramificado, de crecimiento rápido"],
-  ["territorio", "Territorio", "Andes del sur de Ecuador y de Perú"],
-  ["parte", "Parte usada", "El tallo, hervido o en infusión"],
-  ["activos", "Principios activos", "Mescalina y otros alcaloides"],
-  ["tiempo", "Empieza y dura", "45–90 min · 8–12 h, a veces más"],
-  ["pueblos", "Quién guarda su memoria", "Curanderos y comunidades andinas del norte del Perú"]
+  [
+   "que",
+   "Qué es",
+   "Cactus columnar y ramificado, de crecimiento rápido"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Andes del sur de Ecuador y de Perú"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "El tallo, hervido o en infusión"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Mescalina y otros alcaloides"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "45–90 min · 8–12 h, a veces más"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Curanderos y comunidades andinas del norte del Perú"
+  ]
  ],
  "guia": {
   "titulo": "Guía completa de la mescalina",
@@ -38,10 +62,22 @@
    "Crece en el monte seco andino, hacia los 2.000–3.000 metros, y puede ganar hasta treinta centímetros al año. Se reproduce con facilidad por esqueje.[1][2]"
   ],
   "rasgos": [
-   ["Familia", "Cactaceae"],
-   ["Porte", "Columnar, de 3 a 6 m"],
-   ["Flor", "Blanca, nocturna y perfumada"],
-   ["Fruto", "Alargado, de pulpa blanca"]
+   [
+    "Familia",
+    "Cactaceae"
+   ],
+   [
+    "Porte",
+    "Columnar, de 3 a 6 m"
+   ],
+   [
+    "Flor",
+    "Blanca, nocturna y perfumada"
+   ],
+   [
+    "Fruto",
+    "Alargado, de pulpa blanca"
+   ]
   ],
   "foto": null,
   "lamina": null,
@@ -58,18 +94,48 @@
   ],
   "banda": null,
   "cronologia": [
-   ["1500–500 a. C.", "Cerámica cupisnique de la costa norte del Perú con el cactus representado, las imágenes más antiguas que se conocen.[3]"],
-   ["Hacia 1200–400 a. C.", "Chavín de Huántar, en la sierra de Áncash, se mantiene como centro ceremonial; en sus tubos de hueso aparecen vilca y <em>Nicotiana</em>.[5]"],
-   ["1920", "Britton y Rose lo describen como <em>Trichocereus pachanoi</em>.[2]"],
-   ["1972", "Aparece en Chavín de Huántar la estela del portador del cactus.[6]"],
-   ["1974", "Friedrich y Rowley lo pasan al género <em>Echinopsis</em>.[1]"],
-   ["2012", "Albesiano y Kiesling lo tratan como variedad de <em>Trichocereus macrogonus</em>; Kew mantiene <em>Echinopsis pachanoi</em> como nombre aceptado.[1]"]
+   [
+    "1500–500 a. C.",
+    "Cerámica cupisnique de la costa norte del Perú con el cactus representado, las imágenes más antiguas que se conocen.[3]"
+   ],
+   [
+    "Hacia 1200–400 a. C.",
+    "Chavín de Huántar, en la sierra de Áncash, se mantiene como centro ceremonial; en sus tubos de hueso aparecen vilca y <em>Nicotiana</em>.[5]"
+   ],
+   [
+    "1920",
+    "Britton y Rose lo describen como <em>Trichocereus pachanoi</em>.[2]"
+   ],
+   [
+    "1972",
+    "Aparece en Chavín de Huántar la estela del portador del cactus.[6]"
+   ],
+   [
+    "1974",
+    "Friedrich y Rowley lo pasan al género <em>Echinopsis</em>.[1]"
+   ],
+   [
+    "2012",
+    "Albesiano y Kiesling lo tratan como variedad de <em>Trichocereus macrogonus</em>; Kew mantiene <em>Echinopsis pachanoi</em> como nombre aceptado.[1]"
+   ]
   ],
   "nombres": [
-   ["wachuma", "nombre andino; también huachuma y achuma"],
-   ["aguacolla", "nombre andino"],
-   ["gigantón", "castellano"],
-   ["San Pedro", "castellano; se ha relacionado con las llaves del cielo que guarda el santo"]
+   [
+    "wachuma",
+    "nombre andino; también huachuma y achuma"
+   ],
+   [
+    "aguacolla",
+    "nombre andino"
+   ],
+   [
+    "gigantón",
+    "castellano"
+   ],
+   [
+    "San Pedro",
+    "castellano; se ha relacionado con las llaves del cielo que guarda el santo"
+   ]
   ],
   "nota_nombres": "El nombre cristiano se ha relacionado con la idea de alcanzar el cielo sin salir de la tierra, según el botánico Edward Anderson.[2]"
  },
@@ -82,7 +148,10 @@
    "alt": "Mapa de Sudamérica con una franja ocre sobre los Andes de Ecuador y Perú y tres lugares señalados: Chavín de Huántar, Huancabamba y Cupisnique.",
    "mundo": false,
    "leyenda": [
-    ["#9c4a26", "Área aproximada del San Pedro"]
+    [
+     "#9c4a26",
+     "Área aproximada del San Pedro"
+    ]
    ]
   },
   "parrafos": [
@@ -125,14 +194,38 @@
   "tiempo": {
    "horas": 14,
    "tramos": [
-    ["a", 0.75, 2, "Sube"],
-    ["b", 2, 6, "Máximo"],
-    ["c", 6, 12, "Se apaga"]
+    [
+     "a",
+     0.75,
+     2,
+     "Sube"
+    ],
+    [
+     "b",
+     2,
+     6,
+     "Máximo"
+    ],
+    [
+     "c",
+     6,
+     12,
+     "Se apaga"
+    ]
    ],
    "res": [
-    ["Empieza", "45–90 min"],
-    ["Máximo", "entre las 2 y las 6 h"],
-    ["Dura", "8–12 h, a veces hasta 14"]
+    [
+     "Empieza",
+     "45–90 min"
+    ],
+    [
+     "Máximo",
+     "entre las 2 y las 6 h"
+    ],
+    [
+     "Dura",
+     "8–12 h, a veces hasta 14"
+    ]
    ]
   }
  },
@@ -151,24 +244,75 @@
   "etq": "Con cuidado",
   "titulo": "Lo que conviene saber antes",
   "tarjetas": [
-   ["Lo más delicado", "Una experiencia muy larga y, a veces, difícil; en personas predispuestas, episodios de psicosis o de manía.[10]"],
-   ["Lo que no se mezcla", "El litio es la combinación más peligrosa: se han descrito convulsiones y psicosis.[11]"],
-   ["Cuerpo y estómago", "Náuseas y vómitos con el cactus. Sube la tensión y el pulso de forma moderada.[9][12]"],
-   ["Una tradición viva", "Es medicina de curanderos y comunidades andinas. Conviene conocer ese contexto y tratarlo con respeto.[7]"]
+   [
+    "Lo más delicado",
+    "Una experiencia muy larga y, a veces, difícil; en personas predispuestas, episodios de psicosis o de manía.[10]"
+   ],
+   [
+    "Lo que no se mezcla",
+    "El litio es la combinación más peligrosa: se han descrito convulsiones y psicosis.[11]"
+   ],
+   [
+    "Cuerpo y estómago",
+    "Náuseas y vómitos con el cactus. Sube la tensión y el pulso de forma moderada.[9][12]"
+   ],
+   [
+    "Una tradición viva",
+    "Es medicina de curanderos y comunidades andinas. Conviene conocer ese contexto y tratarlo con respeto.[7]"
+   ]
   ],
   "parecidos": null
  },
  "galeria": [],
  "libros": [
-  {"titulo": "San Pedro Huachuma", "autor": "Javier Regueiro", "img": null, "url": "biblioteca/san-pedro-huachuma-596/"},
-  {"titulo": "Cactus of Mystery", "autor": "Ross Heaven · 2012", "img": "biblioteca/portadas/libro-120.jpg", "url": "biblioteca/cactus-of-mystery/"},
-  {"titulo": "Mescaline", "autor": "Mike Jay · 2019", "img": "biblioteca/portadas/libro-271.jpg", "url": "biblioteca/mescaline/"}
+  {
+   "titulo": "San Pedro Huachuma",
+   "autor": "Javier Regueiro",
+   "img": null,
+   "url": "biblioteca/san-pedro-huachuma-596/"
+  },
+  {
+   "titulo": "Cactus of Mystery",
+   "autor": "Ross Heaven · 2012",
+   "img": "biblioteca/portadas/libro-120.jpg",
+   "url": "biblioteca/cactus-of-mystery/"
+  },
+  {
+   "titulo": "Mescaline",
+   "autor": "Mike Jay · 2019",
+   "img": "biblioteca/portadas/libro-271.jpg",
+   "url": "biblioteca/mescaline/"
+  }
  ],
  "parientes": [
-  ["cactus", "Peyote", "Lophophora williamsii", "El cactus del desierto chihuahuense, con la misma mescalina.", "enciclopedia/peyote/"],
-  ["molecula", "Mescalina", "3,4,5-trimetoxifenetilamina", "El principio activo de los cactus mescalínicos.", "sustancias/mescalina/"],
-  ["cactus", "Antorcha peruana", "Echinopsis peruviana", "Un cactus columnar parecido al San Pedro.", null],
-  ["planta", "Tabaco", "Nicotiana tabacum", "El género <em>Nicotiana</em> aparece en los tubos de hueso de Chavín, junto a la vilca.", "sustancias/tabaco/"]
+  [
+   "cactus",
+   "Peyote",
+   "Lophophora williamsii",
+   "El cactus del desierto chihuahuense, con la misma mescalina.",
+   "enciclopedia/peyote/"
+  ],
+  [
+   "molecula",
+   "Mescalina",
+   "3,4,5-trimetoxifenetilamina",
+   "El principio activo de los cactus mescalínicos.",
+   "sustancias/mescalina/"
+  ],
+  [
+   "cactus",
+   "Antorcha peruana",
+   "Echinopsis peruviana",
+   "Un cactus columnar parecido al San Pedro.",
+   null
+  ],
+  [
+   "planta",
+   "Tabaco",
+   "Nicotiana tabacum",
+   "El género <em>Nicotiana</em> aparece en los tubos de hueso de Chavín, junto a la vilca.",
+   "sustancias/tabaco/"
+  ]
  ],
  "fuentes": [
   "Royal Botanic Gardens, Kew. Plants of the World Online: <em>Echinopsis pachanoi</em> (Britton & Rose) H.Friedrich & G.D.Rowley. powo.science.kew.org.",
@@ -185,6 +329,12 @@
   "Cassels BK, Sáez-Briones P. Dark classics in chemical neuroscience: mescaline. ACS Chem Neurosci. 2018;9(10):2448-2458."
  ],
  "revisado": "24 de noviembre de 2026",
- "anterior": ["Peyote", "peyote"],
- "siguiente": ["Ayahuasca", "ayahuasca"]
+ "anterior": [
+  "Peyote",
+  "peyote"
+ ],
+ "siguiente": [
+  "Sapo de Sonora",
+  "sapo-de-sonora"
+ ]
 }

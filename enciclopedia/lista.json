@@ -111,7 +111,7 @@
    "guia": "sustancias/ibogaina/"
   },
   {
-   "slug": null,
+   "slug": "sapo-de-sonora",
    "tipo": "animal",
    "nombre": "Sapo de Sonora",
    "cientifico": "Incilius alvarius",
@@ -664,7 +664,7 @@
    "nombre": "Sapo de Sonora",
    "detalle": "Incilius alvarius",
    "tipo": "animal",
-   "slug": null
+   "slug": "sapo-de-sonora"
   },
   {
    "nombre": "Ayahuasca",
