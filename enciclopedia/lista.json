@@ -67,7 +67,7 @@
    "guia": null
   },
   {
-   "slug": null,
+   "slug": "hierba-de-la-pastora",
    "tipo": "planta",
    "nombre": "Hierba de la pastora",
    "cientifico": "Salvia divinorum",
@@ -75,7 +75,7 @@
    "meta": "Oaxaca · Salvinorina A",
    "img": "idx-salvia.jpg",
    "grande": false,
-   "guia": "sustancias/salvia-divinorum/"
+   "guia": null
   },
   {
    "slug": null,
@@ -382,7 +382,7 @@
    "nombre": "Hierba de la pastora",
    "detalle": "Salvia divinorum",
    "tipo": "planta",
-   "slug": null
+   "slug": "hierba-de-la-pastora"
   },
   {
    "nombre": "Hierba de los sueños",

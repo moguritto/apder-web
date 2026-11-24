@@ -55,6 +55,14 @@ Qué consta en este repositorio sobre el origen y la licencia de cada imagen de 
 | `docs/enciclopedia/img/pey-grava.jpg` | Lophophora williamsii 2023-10-01 02.jpg | Agnieszka Kwiecień · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_2023-10-01_02.jpg) | CC BY-SA 4.0 | Descargada el 24/11/2026, reducida |
 | `docs/enciclopedia/img/pey-redondo.jpg` | Lophophora williamsii (5675739043).jpg | Amante Darmanin from Malta · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_(5675739043).jpg) | CC BY 2.0 | Descargada el 24/11/2026, reducida |
 | `docs/enciclopedia/img/pey-peregrinacion.jpg` | La peregrinación a Wirikuta de los wixaritari.jpg | Kauyumarie · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:La_peregrinaci%C3%B3n_a_Wirikuta_de_los_wixaritari.jpg) | CC BY-SA 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/sal-hero.jpg` | Salvia divinorum -1.jpg | Eric Hunt · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salvia_divinorum_-1.jpg) | CC BY 2.5 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/sal-hoja.jpg` | Salvia divinorum young leaf.jpg | Alexander Abair · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salvia_divinorum_young_leaf.jpg) | CC BY 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/sal-tallo.jpg` | Salvia divinorum auriculate stem.jpg | Alex Abair · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salvia_divinorum_auriculate_stem.jpg) | CC BY 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/sal-flor.jpg` | Salvia divinorum flower 1.jpg | Alexander Abair · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salvia_divinorum_flower_1.jpg) | CC BY 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/sal-espiga.jpg` | Salvia divinorum inflorescence 1.jpg | Alexander Abair · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salvia_divinorum_inflorescence_1.jpg) | CC BY 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/sal-esqueje.jpg` | Salvia Divinorum rooted leaf.jpg | RuzmarOax · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salvia_Divinorum_rooted_leaf.jpg) | CC BY-SA 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/sal-cerro.jpg` | Vista del cerro rabón desde San Pedro Ixcatlán, Oaxaca.jpg | Koffermejia · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vista_del_cerro_rab%C3%B3n_desde_San_Pedro_Ixcatl%C3%A1n,_Oaxaca.jpg) | CC BY-SA 4.0 | Descargada el 24/11/2026, reducida |
+| `docs/enciclopedia/img/sal-jalapa.jpg` | Jalapa de Díaz.jpg | Juanluis92 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jalapa_de_D%C3%ADaz.jpg) | CC BY-SA 4.0 | Descargada el 24/11/2026, reducida |
 
 ## Fuera de esta tabla
 
