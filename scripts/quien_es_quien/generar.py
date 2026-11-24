@@ -43,8 +43,8 @@ def monograma(iniciales, nombre):
             f'aria-label="Iniciales de {html.escape(nombre)}">'
             f'<circle cx="100" cy="100" r="96" fill="#efe4d0"/>'
             f'<circle cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/>'
-            f'<text x="100" y="124" text-anchor="middle" font-family="\'DM Serif Display\',Georgia,serif" '
-            f'font-size="68" fill="#9c4a26">{iniciales}</text></svg>')
+            f'<text x="100" y="{132 if len(iniciales) == 1 else 124}" text-anchor="middle" font-family="\'DM Serif Display\',Georgia,serif" '
+            f'font-size="{92 if len(iniciales) == 1 else 68}" fill="#9c4a26">{iniciales}</text></svg>')
 
 
 ESTILO = """<style>
@@ -54,6 +54,7 @@ ESTILO = """<style>
 .q-ficha .s-ficha-dato{text-align:left;margin:.35em 0 0}
 .q-tipo{display:inline-block;font-size:.85rem;letter-spacing:.02em;color:var(--suave);background:var(--arena);border-radius:99px;padding:2px 12px;margin:0 0 .8em}
 .q-crono th{white-space:nowrap;vertical-align:top}
+.s-cuerpo h2.q-grupo{margin-top:1.6em}
 .q-tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:1em 0 2em;padding:0;list-style:none}
 .q-tarjetas a{display:flex;gap:16px;align-items:center;background:#fff;border-radius:20px;padding:16px 18px;text-decoration:none;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.06);min-height:44px}
 .q-tarjetas a:hover,.q-tarjetas a:focus-visible{background:var(--arena)}
@@ -112,6 +113,8 @@ def cabeza(titulo, desc, url, og, og_alt, ld, prof):
 """
 
 
+ORDEN_TIPOS = ["Ciencia", "Psicología y terapia", "Pensamiento y espiritualidad", "Saber tradicional"]
+
 TOC = [("claves", "En pocas palabras"), ("vida", "Vida"), ("aportaciones", None),
        ("mirada", None), ("cronologia", "Cronología"), ("leer-mas", "Para leer más"),
        ("referencias", "Referencias")]
@@ -121,17 +124,31 @@ def ficha(p):
     url = f"{BASE}quien-es-quien/{p['slug']}/"
     secciones = [(i, t or p["titulos"][i]) for i, t in TOC]
     toc = "\n".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in secciones)
-    persona = {"@type": "Person", "@id": url + "#persona", "name": p["nombre"],
-               "birthDate": p["nacio_iso"], "description": p["que"]}
-    if p.get("murio_iso"):
-        persona["deathDate"] = p["murio_iso"]
-    if p.get("lugar"):
-        persona["birthPlace"] = {"@type": "Place", "name": p["lugar"]}
+    if p.get("ld_personas"):
+        personas = []
+        for i, q in enumerate(p["ld_personas"]):
+            d = {"@type": "Person", "@id": f"{url}#persona" + ("" if i == 0 else str(i + 1)), "name": q["name"],
+                 "description": q["description"]}
+            if q.get("birthDate"):
+                d["birthDate"] = q["birthDate"]
+            if q.get("deathDate"):
+                d["deathDate"] = q["deathDate"]
+            if q.get("birthPlace"):
+                d["birthPlace"] = {"@type": "Place", "name": q["birthPlace"]}
+            personas.append(d)
+    else:
+        persona = {"@type": "Person", "@id": url + "#persona", "name": p["nombre"],
+                   "birthDate": p["nacio_iso"], "description": p["que"]}
+        if p.get("murio_iso"):
+            persona["deathDate"] = p["murio_iso"]
+        if p.get("lugar"):
+            persona["birthPlace"] = {"@type": "Place", "name": p["lugar"]}
+        personas = [persona]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "ProfilePage", "@id": url, "url": url, "name": p["nombre"], "inLanguage": "es-ES",
          "dateModified": FECHA, "mainEntity": {"@id": url + "#persona"},
          "publisher": {"@type": "Organization", "@id": BASE + "#organizacion", "name": "APDER", "url": BASE}},
-        persona,
+        *personas,
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE},
             {"@type": "ListItem", "position": 2, "name": "Quién es quién", "item": BASE + "quien-es-quien/"},
@@ -239,10 +256,16 @@ Object.keys(m).forEach(function(id){{var h=document.getElementById(id);if(h)o.ob
 
 def portada():
     url = BASE + "quien-es-quien/"
-    items = []
-    for p in PERSONAS:
-        items.append(f'<li><a href="{p["slug"]}/">{monograma(p["iniciales"], p["nombre"])}'
-                     f'<div><strong>{p["nombre"]}</strong><span>{p["tarjeta"]}</span></div></a></li>')
+    grupos = []
+    for tipo in ORDEN_TIPOS:
+        ps = sorted((q for q in PERSONAS if q["tipo"] == tipo), key=lambda q: q["anio"])
+        if not ps:
+            continue
+        tarjetas = "\n".join(
+            f'<li><a href="{p["slug"]}/">{monograma(p["iniciales"], p["nombre"])}'
+            f'<div><strong>{p["nombre"]}</strong><span>{p["tarjeta"]}</span></div></a></li>' for p in ps)
+        grupos.append(f'<h2 class="q-grupo">{tipo}</h2>\n<ul class="q-tarjetas">\n{tarjetas}\n</ul>')
+    assert sum(1 for q in PERSONAS if q["tipo"] not in ORDEN_TIPOS) == 0
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "@id": url, "url": url, "name": "Quién es quién", "inLanguage": "es-ES",
          "dateModified": FECHA, "description": PORTADA["desc"],
@@ -269,9 +292,7 @@ def portada():
 </section>
 <div class="s-ancho">
 <article class="s-cuerpo">
-<ul class="q-tarjetas">
-{chr(10).join(items)}
-</ul>
+{chr(10).join(grupos)}
 {PORTADA['pie']}
 </article>
 </div>

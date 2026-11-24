@@ -65,8 +65,8 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 
 ## Quién es quién (nuevo, 23-11-2026)
 
-- `docs/quien-es-quien/`: fichas de personas (por ahora Albert Hofmann, Stanislav Grof y María Sabina) y una portada con tarjetas. En el menú desde el 23/11/2026, dentro de «Aprender» (el generador marca «Aprender» como sección actual).
-- Se generan con `python3 scripts/quien_es_quien/generar.py .` (desde la raíz). Los textos y las fuentes están en `scripts/quien_es_quien/contenido.py`; la cabecera y el pie se copian de la guía del 2C-B. Para añadir a alguien: nueva entrada en `contenido.py`, su tarjeta en `scripts/tarjetas_og.py` (`persona-<slug>`), su dirección en `sitemap.xml` y volver a lanzar `construir_indice.py`.
+- `docs/quien-es-quien/`: fichas de personas (12 desde el 24/11/2026: Hofmann, Grof, María Sabina, Huxley, Osmond, los Wasson, Schultes, Leary, Ram Dass, Watts, los Shulgin y Zeff; la portada las agrupa por tipo y año de nacimiento; las fichas conjuntas usan `ld_personas` y una sola inicial) y una portada con tarjetas. En el menú desde el 23/11/2026, dentro de «Aprender» (el generador marca «Aprender» como sección actual).
+- Se generan con `python3 scripts/quien_es_quien/generar.py .` (desde la raíz). Los textos y las fuentes están en `scripts/quien_es_quien/contenido.py` (primeras tres) y `personas_tanda2a.py` / `personas_tanda2b.py`; la cabecera y el pie se copian de la guía del 2C-B. Para añadir a alguien: nueva entrada en `contenido.py`, su tarjeta en `scripts/tarjetas_og.py` (`persona-<slug>`), su dirección en `sitemap.xml` y volver a lanzar `construir_indice.py`.
 - Sin fotos de personas: cada ficha lleva un monograma con las iniciales.
 
 ## Formaciones en el mundo (en preparación, 23-11-2026)

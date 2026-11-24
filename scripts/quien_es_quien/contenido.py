@@ -10,10 +10,10 @@ def rr(*ns):
 
 PORTADA = {
     "alias": "Las personas que abrieron el camino",
-    "nota": ("Fichas breves de científicos, terapeutas y personas de saber tradicional: quiénes fueron, "
+    "nota": ("Fichas breves de científicos, terapeutas, pensadores y personas de saber tradicional: quiénes fueron, "
              "qué aportaron, cómo veían las cosas y por dónde empezar a leerles."),
-    "desc": ("Quién es quién en los psicodélicos: fichas de Albert Hofmann, Stanislav Grof y María Sabina, "
-             "con su vida, sus aportaciones y libros de la Biblioteca."),
+    "desc": ("Quién es quién en los psicodélicos: fichas de científicos, terapeutas, pensadores y sabios "
+             "tradicionales, con su vida, sus aportaciones y lecturas."),
     "pie": ('<p>Iremos añadiendo personas poco a poco. Si echas en falta a alguien, escríbenos a '
             '<a href="mailto:info@apder.org">info@apder.org</a>.</p>'),
 }
@@ -29,7 +29,7 @@ HOFMANN = {
     "alias": "Químico suizo (Baden, 1906 – Burg im Leimental, 2008)",
     "entrada": ("Sintetizó el LSD en 1938, descubrió sus efectos por accidente en 1943 y pasó el resto de su "
                 "larga vida pensando en lo que había encontrado."),
-    "tipo": "Ciencia",
+    "tipo": "Ciencia", "anio": 1906,
     "nacio_iso": "1906-01-11", "murio_iso": "2008-04-29", "lugar": "Baden, Suiza",
     "datos": [("Nació", "11 de enero de 1906, Baden (Suiza)"),
               ("Murió", "29 de abril de 2008, a los 102 años"),
@@ -53,11 +53,11 @@ HOFMANN = {
 <p>Hofmann buscaba un estimulante de la circulación y la respiración entre los derivados del ácido lisérgico, la base química del cornezuelo. El 16 de noviembre de 1938 preparó el vigésimo quinto de la serie: la dietilamida del ácido lisérgico, LSD-25. En los animales no mostró nada interesante y quedó guardado.{rr(1, 9)}</p>
 <p>Cinco años después, el viernes 16 de abril de 1943, volvió a prepararlo porque intuía que se le había escapado algo. Mientras trabajaba sintió un estado extraño, como de sueño, que duró unas dos horas: probablemente había absorbido una cantidad mínima por la piel. El 19 de abril tomó a propósito 0,25 miligramos, una cantidad que creyó prudente y que resultó ser una dosis fuerte. Volvió a casa en bicicleta mientras el efecto subía, y por eso el 19 de abril se recuerda hoy como el «Día de la bicicleta».{rr(2, 7)}</p>
 <h3>La psilocibina y la psilocina (1958)</h3>
-<p>Tras las expediciones de Gordon Wasson y del micólogo francés Roger Heim a México, llegaron a Sandoz setas sagradas mazatecas que se cultivaron en el laboratorio. Hofmann aisló sus dos principios activos, la psilocibina y la psilocina, los nombró, describió su estructura y logró fabricarlos en el laboratorio.{rr(1, 3)}</p>
+<p>Tras las expediciones de <a href="../valentina-y-gordon-wasson/">Gordon Wasson</a> y del micólogo francés Roger Heim a México, llegaron a Sandoz setas sagradas mazatecas que se cultivaron en el laboratorio. Hofmann aisló sus dos principios activos, la psilocibina y la psilocina, los nombró, describió su estructura y logró fabricarlos en el laboratorio.{rr(1, 3)}</p>
 <h3>El ololiuqui (1960)</h3>
 <p>Analizó también las semillas de ololiuqui, una enredadera de la familia de la campanilla que se usaba en ceremonias en México. Encontró en ellas la amida del ácido lisérgico, un pariente cercano del LSD. Le sorprendió que una planta produjera de forma natural algo tan parecido a la molécula que él había fabricado.{r(4)}</p>
 <h3>El viaje a México (1962)</h3>
-<p>En 1962 viajó con Wasson a la sierra Mazateca para estudiar la <em>Salvia divinorum</em>, las «hojas de la pastora». Las muestras que recogieron permitieron describir la planta como especie nueva.{r(5)} En ese viaje conoció a <a href="../maria-sabina/">María Sabina</a> y le ofreció pastillas de psilocibina. Según contó él mismo, tras tomarlas ella dijo que tenían el mismo espíritu que los hongos.{r(2)}</p>""",
+<p>En 1962 viajó con <a href="../valentina-y-gordon-wasson/">Wasson</a> a la sierra Mazateca para estudiar la <em>Salvia divinorum</em>, las «hojas de la pastora». Las muestras que recogieron permitieron describir la planta como especie nueva.{r(5)} En ese viaje conoció a <a href="../maria-sabina/">María Sabina</a> y le ofreció pastillas de psilocibina. Según contó él mismo, tras tomarlas ella dijo que tenían el mismo espíritu que los hongos.{r(2)}</p>""",
     "mirada": f"""<p><em>Esta sección resume sus ideas y su interpretación de lo que vivió. No son hechos comprobados.</em></p>
 <p>Hofmann llamó a su libro de memorias <em>LSD – mein Sorgenkind</em>, «mi niño problemático». Le alegraba haber dado a la psiquiatría una herramienta tan poderosa para explorar la mente. Le preocupaba que se usara sin cuidado, lejos del contexto médico y contemplativo que él veía como el adecuado.{r(2)}</p>
 <p>Creía que la sociedad industrial había perdido la experiencia de unidad con la naturaleza, y que sustancias como el LSD, tomadas con respeto, podían ayudar a recuperarla. Con Wasson y el filólogo Carl Ruck defendió la hipótesis de que la bebida de los misterios de Eleusis, en la antigua Grecia, contenía alcaloides del cornezuelo. Es una hipótesis, todavía discutida.{r(8)} Al cumplir cien años dijo que el LSD era una herramienta para llegar a ser lo que estamos llamados a ser.{r(9)}</p>
@@ -85,6 +85,7 @@ HOFMANN = {
         ("../../sustancias/lsd/", "Guía del LSD", "Qué es, cómo actúa y cómo reducir riesgos."),
         ("../../sustancias/psilocibina/", "Guía de las setas de psilocibina", "La molécula que aisló en 1958."),
         ("../maria-sabina/", "María Sabina", "La sabia mazateca que conoció en 1962."),
+        ("../valentina-y-gordon-wasson/", "Valentina y Gordon Wasson", "Quienes trajeron las setas a Sandoz."),
     ],
     "refs": [
         'Encyclopaedia Britannica. «Albert Hofmann». <a href="https://www.britannica.com/biography/Albert-Hofmann">https://www.britannica.com/biography/Albert-Hofmann</a>',
@@ -110,7 +111,7 @@ GROF = {
     "alias": "Psiquiatra (Praga, 1931)",
     "entrada": ("Acompañó miles de sesiones con LSD, dibujó un mapa de la psique más amplio que la biografía y, "
                 "con Christina Grof, creó la respiración holotrópica."),
-    "tipo": "Psicología",
+    "tipo": "Psicología y terapia", "anio": 1931,
     "nacio_iso": "1931-07-01", "lugar": "Praga, Checoslovaquia",
     "datos": [("Nació", "1 de julio de 1931, Praga (entonces Checoslovaquia)"),
               ("Ámbito", "psiquiatría y psicología transpersonal"),
@@ -199,7 +200,7 @@ SABINA = {
     "alias": "Sabia mazateca (Huautla de Jiménez, hacia 1894 – 1985)",
     "entrada": ("Curaba en veladas nocturnas con los hongos que llamaba niños santos, guiada por su canto. Su "
                 "encuentro con un banquero de Nueva York cambió la historia de los psicodélicos, y también su vida."),
-    "tipo": "Saber tradicional",
+    "tipo": "Saber tradicional", "anio": 1894,
     "nacio_iso": "1894", "murio_iso": "1985-11", "lugar": "Huautla de Jiménez, Oaxaca, México",
     "datos": [("Nació", "hacia 1894 (se suele dar el 22 de julio), en Huautla de Jiménez (Oaxaca, México)"),
               ("Murió", "noviembre de 1985, a los 91 años"),
@@ -222,7 +223,7 @@ SABINA = {
     "aportaciones": f"""<h3>La velada</h3>
 <p>La velada mazateca es una ceremonia nocturna de curación. Quienes participan comen los hongos sagrados, y la sabia canta y habla durante horas en mazateco: pregunta por la enfermedad, busca lo que se ha perdido, habla con los santos y con las fuerzas de la naturaleza.{rr(1, 10)} En la tradición de María Sabina, el poder de los niños santos está en el lenguaje que hacen brotar.{r(1)}</p>
 <h3>El encuentro con Gordon Wasson (1955)</h3>
-<p>Robert Gordon Wasson era un banquero de Nueva York apasionado por los hongos, que investigaba con su esposa, la pediatra Valentina Pávlovna Wasson. A finales de junio de 1955, él y el fotógrafo Allan Richardson participaron en una velada con María Sabina.{r(3)} Para que les dejara entrar, Wasson le dijo que estaba preocupado por su hijo, que estaba lejos. No era verdad.{r(4)}</p>
+<p>Robert Gordon Wasson (<a href="../valentina-y-gordon-wasson/">su ficha</a>) era un banquero de Nueva York apasionado por los hongos, que investigaba con su esposa, la pediatra Valentina Pávlovna Wasson. A finales de junio de 1955, él y el fotógrafo Allan Richardson participaron en una velada con María Sabina.{r(3)} Para que les dejara entrar, Wasson le dijo que estaba preocupado por su hijo, que estaba lejos. No era verdad.{r(4)}</p>
 <p>El 13 de mayo de 1957, la revista <em>Life</em> publicó su relato con el título «Seeking the Magic Mushroom». Wasson la llamó «Eva Méndez» para protegerla, pero los detalles bastaban para encontrarla, y en publicaciones posteriores apareció su nombre real y sus fotos.{rr(2, 4)} El artículo se leyó en plena Guerra Fría y con una mirada exótica sobre los pueblos indígenas, que hoy se analiza de forma crítica.{r(7)}</p>
 <p>En 1962, <a href="../albert-hofmann/">Albert Hofmann</a> le ofreció en persona pastillas de psilocibina fabricadas en Sandoz. Según contó él, ella dijo que tenían el mismo espíritu que los hongos.{r(5)}</p>
 <h3>Las consecuencias</h3>
@@ -253,6 +254,7 @@ SABINA = {
     "relacion": [
         ("../../sustancias/psilocibina/", "Guía de las setas de psilocibina", "Qué son, cómo actúan y cómo reducir riesgos."),
         ("../albert-hofmann/", "Albert Hofmann", "El químico que aisló la psilocibina y la visitó en 1962."),
+        ("../valentina-y-gordon-wasson/", "Valentina y Gordon Wasson", "Quienes dieron a conocer su velada."),
         ("../../sustancias/salvia-divinorum/", "Guía de la Salvia divinorum", "La otra planta sagrada de la sierra Mazateca."),
     ],
     "refs": [
@@ -271,4 +273,7 @@ SABINA = {
     ],
 }
 
-PERSONAS = [HOFMANN, GROF, SABINA]
+from personas_tanda2a import HUXLEY, OSMOND, WASSON, SCHULTES, LEARY
+from personas_tanda2b import RAMDASS, WATTS, SHULGIN, ZEFF
+
+PERSONAS = [HOFMANN, GROF, SABINA, HUXLEY, OSMOND, WASSON, SCHULTES, LEARY, RAMDASS, WATTS, SHULGIN, ZEFF]

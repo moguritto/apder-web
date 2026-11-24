@@ -40,6 +40,15 @@ TARJETAS = [
     ("persona-albert-hofmann", "Albert Hofmann", "mol:lsd"),
     ("persona-stanislav-grof", "Stanislav Grof", "logo"),
     ("persona-maria-sabina", "María Sabina", "logo"),
+    ("persona-aldous-huxley", "Aldous Huxley", "mol:mescalina"),
+    ("persona-humphry-osmond", "Humphry Osmond", "logo"),
+    ("persona-valentina-y-gordon-wasson", "Valentina y Gordon Wasson", "logo"),
+    ("persona-richard-evans-schultes", "Richard Evans Schultes", "logo"),
+    ("persona-timothy-leary", "Timothy Leary", "logo"),
+    ("persona-ram-dass", "Ram Dass", "logo"),
+    ("persona-alan-watts", "Alan Watts", "logo"),
+    ("persona-ann-y-alexander-shulgin", "Los Shulgin", "mol:2c-b"),
+    ("persona-leo-zeff", "Leo Zeff", "logo"),
 ]
 GUIAS = {
     "psilocibina": "Psilocibina", "lsd": "LSD", "mescalina": "Mescalina", "dmt": "DMT",
