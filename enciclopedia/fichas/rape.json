@@ -1,0 +1,247 @@
+{
+ "slug": "rape",
+ "tipo": "preparado",
+ "migas": "Preparado · Tabaco · Amazonía occidental",
+ "nombre": "Rapé",
+ "cientifico": "Nicotiana rustica con ceniza de árboles",
+ "autoridad": "",
+ "descripcion": "Rapé (hapé): rapé de tabaco rústico y ceniza de árboles que soplan en la nariz pueblos amazónicos como los yawanawá y huni kuin; medicina y oración.",
+ "entrada": "Un polvo fino de tabaco, con ceniza de árboles específicos y a veces otras plantas, que se sopla en las fosas nasales. Lo usan desde hace siglos pueblos amazónicos como los yawanawá, huni kuin y katukina. Su uso está ligado a la sanación física, a la conexión espiritual y a la limpieza energética, según esas comunidades.[1][2]",
+ "otros": "rapé · hapé · rapeh · rume reshke (huni kuin) · rume poto (yawanawá) · snuff amazónico",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Polvo de tabaco y ceniza soplado en la nariz"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Amazonía colombiana, peruana y brasileña"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hoja de tabaco rústico y ceniza de corteza"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Nicotina y otros compuestos de la planta"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Yawanawá, huni kuin, katukina, nukini, kuntanawa, matsés"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Ingredientes",
+  "titulo": "Tabaco y ceniza",
+  "parrafos": [
+   "El rapé es una familia diversa de productos de tabaco sin humo originarios de Sudamérica; se usa como rapé nasal y contiene una cantidad sustancial de material vegetal, con o sin tabaco.[3]",
+   "En los rapés con tabaco se ha confirmado la presencia de <em>Nicotiana rustica</em>, una especie de tabaco con mucha nicotina.[3]",
+   "La preparación no comercial es parecida entre los pueblos y emplea <em>Nicotiana rustica</em>.[3] Según las comunidades, cada una mezcla ceniza de árboles concretos y otras plantas, con variaciones.[1]",
+   "El rapé yawanawá se hace a menudo solo con tabaco y tsunô, un árbol que algunos identifican como «pau-pereira» (<em>Platycyamus regnellii</em>).[4]"
+  ],
+  "rasgos": [
+   [
+    "Base",
+    "<em>Nicotiana rustica</em>"
+   ],
+   [
+    "Ceniza",
+    "De árboles concretos"
+   ],
+   [
+    "Aplicación",
+    "Con tepi o kuripe"
+   ],
+   [
+    "Textura",
+    "Polvo muy fino"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva; no incluye indicaciones de preparación ni de uso."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El aliento de la vida",
+  "parrafos": [
+   "Los pueblos indígenas de la Amazonía lo usan desde hace generaciones en ceremonias de sanación, para calmar la mente, limpiar el espíritu y reforzar la concentración espiritual.[2]",
+   "Muchas de las mismas comunidades que usan ayahuasca emplean el hapé para la sanación física, la conexión espiritual y la limpieza energética.[5]",
+   "Entre los huni kuin se llama «rume reshke» y entre los yawanawá «rume poto».[5]",
+   "Se aplica a uno mismo con un instrumento llamado kuripe, en forma de V, o lo sopla otra persona con un tepi, una pipa larga.[2][1]",
+   "Las fuentes divulgativas lo ligan sobre todo a los yawanawá, huni kuin, katukina, nukini, kuntanawa y matsés.[1][2]",
+   "Un trabajo científico lo describe como la forma de uso del tabaco más extendida entre indígenas sudamericanos, y lo sitúa dentro de tradiciones de uso mucho más amplias que el tabaco.[3]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "rapé, hapé",
+    "portugués y castellano"
+   ],
+   [
+    "rume reshke",
+    "huni kuin"
+   ],
+   [
+    "rume poto",
+    "yawanawá"
+   ],
+   [
+    "tepi, kuripe",
+    "los instrumentos de aplicación"
+   ]
+  ],
+  "nota_nombres": "«Rapé» se aplica en Europa a tabacos molidos industriales con aromas, que no son lo mismo que el hapé amazónico.",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Amazonía occidental",
+  "parrafos": [
+   "El texto de Chacruna lo sitúa en el extremo oeste de la Amazonía brasileña, cerca de la frontera con Perú.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Preferir procedencia indígena y trazable.",
+   "Respetar las linajes que lo guardan.",
+   "Apoyar a los pueblos, no a la apropiación."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-rape.svg",
+   "alt": "Mapa con la Amazonía occidental sombreada.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del rapé"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Tabaco, ceniza y otras plantas",
+  "parrafos": [
+   "Un análisis de rapés comerciales halló nicotina y los alcaloides menores del tabaco, y confirmó la presencia de <em>Nicotiana rustica</em>.[3]",
+   "El mismo trabajo señala que cantidades de miligramos de constituyentes no tabacaleros, como alcanfor, cumarina y eugenol, merecen más evaluación.[3]",
+   "Desde la perspectiva occidental, el tabaco sin humo contiene cancerígenos, y se citan riesgos cardíacos, dentales y complicaciones en el embarazo.[1][2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Nicotina",
+    "clase": "alcaloide",
+    "img": null,
+    "texto": "Alcaloide principal del tabaco; <em>N. rustica</em> es una especie de alto contenido.[3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un golpe de aire",
+  "parrafos": [
+   "No hay datos fiables de aparición ni de duración procedentes de estudios."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay análisis químicos de rapés, incluidos nicotina, nitrosaminas específicas del tabaco y aromas.[3]",
+   "Hay tesis antropológicas sobre la tradición yawanawá.[6]"
+  ],
+  "alcance": "Análisis de producto y antropología; sin ensayos clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Contiene mucha nicotina, y el tabaco sin humo tiene riesgos conocidos.[1][3]"
+   ],
+   [
+    "Procedencia",
+    "Quienes lo aplican sin linaje o con formación solo en redes sociales suponen un riesgo mayor, según una fuente.[1]"
+   ],
+   [
+    "Contexto",
+    "Es un saber vivo de pueblos concretos; su difusión plantea cuestiones éticas.[2]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Mapacho",
+   "Nicotiana rustica",
+   "El tabaco amazónico de su base.",
+   "enciclopedia/mapacho/"
+  ],
+  [
+   "planta",
+   "Tabaco",
+   "Nicotiana tabacum",
+   "El tabaco común.",
+   "enciclopedia/tabaco/"
+  ],
+  [
+   "planta",
+   "Yopo",
+   "Anadenanthera peregrina",
+   "Otro rapé visionario amazónico.",
+   "enciclopedia/yopo/"
+  ]
+ ],
+ "fuentes": [
+  "Healing Maps. <em>Hape (Rapé): Traditional Amazonian Shamanic Snuff</em>. healingmaps.com/hape-tobacco-shamanic-snuff/.",
+  "Tripsitter. <em>Sacred Snuff: The Ancient Wisdom of Amazonian Hapé</em>. tripsitter.substack.com/p/sacred-snuff-hape.",
+  "PubMed Central. Análisis de rapés (nicotina, nitrosaminas, aromas). pmc.ncbi.nlm.nih.gov/articles/PMC5704902.",
+  "Chacruna. <em>Kambô, Rapé and Sananga: A Reset on Body, Mind and Vision</em>. chacruna.net/?p=14033.",
+  "Healing Maps. <em>Here's Why Hapé Tobacco is Shunned by Westerners</em>. healingmaps.com/?p=35803.",
+  "Santos, H. Tesis sobre la tradición yawanawá (UFAM). tede.ufam.edu.br/bitstream/tede/10765/9/DISS_HelioSantos_PPGAS.pdf."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Raíz africana de los sueños",
+  "raiz-africana-de-los-suenos"
+ ],
+ "siguiente": [
+  "Rosa lisérgica",
+  "rosa-lisergica"
+ ]
+}
