@@ -1,0 +1,250 @@
+{
+ "slug": "ashwagandha",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · India",
+ "nombre": "Ashwagandha",
+ "cientifico": "Withania somnifera",
+ "autoridad": "(L.) Dunal",
+ "descripcion": "Ashwagandha (Withania somnifera): la raíz rasayana del Ayurveda, «el olor del caballo». Botánica, memoria tradicional, withanólidos y lo que no se sabe.",
+ "entrada": "Una planta medicinal clave del Ayurveda, nativa de la India y hoy usada en todo el mundo. No es un psicodélico: se incluye aquí por su lugar entre las plantas de la consciencia, el sueño y la vitalidad en la medicina tradicional india.[1][2]",
+ "otros": "ashwagandha · ginseng indio · cereza de invierno · Withania somnifera · bufera",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto perenne de la familia de las solanáceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "India; cultivada también en otros países"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La raíz (mula)"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Withanólidos, entre otros"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica: no es una planta de efecto agudo"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina ayurvédica de la India"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un arbusto de raíz muy apreciada",
+  "parrafos": [
+   "<em>Withania somnifera</em> (L.) Dunal es un arbusto perenne bien conocido de la familia de las solanáceas.[3] Es una planta medicinal clave nativa de la India.[1]",
+   "Se usa sobre todo su raíz, la <em>mula</em>, que el Ayurveda recomienda para la salud y la curación, con muchas formulaciones simples y compuestas.[3]",
+   "En la India se cultivan a gran escala dos especies de <em>Withania</em>: <em>W. somnifera</em> y <em>W. coagulans</em>.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Hábito",
+    "Arbusto perenne"
+   ],
+   [
+    "Parte usada",
+    "Raíz (mula)"
+   ],
+   [
+    "Otros nombres",
+    "Ginseng indio, cereza de invierno"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El olor del caballo y el sueño",
+  "parrafos": [
+   "En el Ayurveda, la medicina tradicional de la India, la ashwagandha ocupa un lugar de honor.[4] Su nombre sánscrito significa «el olor del caballo», en alusión a la creencia de que da la fuerza y la resistencia de un semental.[4]",
+   "El nombre de la especie, <em>somnifera</em>, se habría acuñado por su uso popular para «inducir el sueño» en el Ayurveda.[3]",
+   "Es una hierba rasayana de uso tradicional desde hace mucho tiempo.[2] Se le conocen también los nombres de ginseng indio, por sus propiedades restauradoras, cereza de invierno y grosella venenosa.[1]"
+  ],
+  "cronologia": [
+   [
+    "Antigüedad",
+    "Se usa en la medicina tradicional india desde tiempos antiguos.[3]"
+   ],
+   [
+    "Siglos",
+    "Su uso médico se reporta durante siglos.[2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "ashwagandha",
+    "sánscrito: «el olor del caballo»"
+   ],
+   [
+    "ginseng indio",
+    "por sus propiedades restauradoras"
+   ],
+   [
+    "cereza de invierno",
+    "nombre inglés del fruto"
+   ],
+   [
+    "<em>rasayana</em>",
+    "categoría ayurvédica de las hierbas de renovación"
+   ]
+  ],
+  "nota_nombres": "El curso exacto de su uso médico se desconoce.[2]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de la India, hoy global",
+  "parrafos": [
+   "Es nativa de la India y se usa en todo el mundo para tratar diversas dolencias.[1] La OMS señala que más de la mitad de la población mundial depende de medicinas de origen vegetal, entre ellas la ayurvédica.[1]",
+   "Hoy está presente en suplementos dietéticos y alimentos, además de en la medicina tradicional.[5]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Elegir productos con origen y análisis conocidos.",
+   "Informarse de su contexto ayurvédico, no solo de su uso como suplemento.",
+   "Consultar con un profesional sanitario antes de tomarla junto a otros tratamientos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-ashwagandha.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre la India.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la ashwagandha (India)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Withanólidos",
+  "parrafos": [
+   "Es una fuente principal de compuestos farmacéuticamente activos llamados withanólidos.[6]",
+   "Se ha descrito que el mecanismo por el que actúa la planta no está aclarado.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Withanólidos",
+    "clase": "Lactonas esteroideas",
+    "img": null,
+    "texto": "Compuestos principales de la planta.[6]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "No es una planta de viaje",
+  "parrafos": [
+   "No tiene efecto psicodélico. Se toma como tónico tradicional, sobre todo la raíz.[3]",
+   "Su uso tradicional la relaciona con el estrés, el sueño y la vitalidad.[2][3]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay revisiones que recogen estudios in vitro, in vivo y clínicos sobre sus extractos, con efectos descritos en muchos sistemas.[2]",
+   "Una revisión de 2025 la considera potencialmente útil para el envejecimiento saludable.[4]"
+  ],
+  "alcance": "Hay mucha investigación, pero las propias revisiones piden estudios más profundos en clínica y de toxicología para un uso seguro.[2]"
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Los análisis toxicológicos detallados siguen pendientes para su uso seguro.[2]"
+   ],
+   [
+    "Origen",
+    "Es una planta con variación según el origen y la preparación; elegir productos de confianza."
+   ],
+   [
+    "Medicación",
+    "Quien toma medicación debe consultarlo con un profesional."
+   ],
+   [
+    "Lo que no se sabe",
+    "El mecanismo de su acción no está aclarado.[1]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Belladona",
+   "Atropa belladonna",
+   "Otra solanácea, con alcaloides muy distintos.",
+   null
+  ],
+  [
+   "planta",
+   "Mandrágora",
+   "Mandragora officinarum",
+   "Otra solanácea de la medicina tradicional.",
+   "enciclopedia/mandragora/"
+  ]
+ ],
+ "fuentes": [
+  "Molecules. 2023;28(3):1208. Biodiversity, biochemical profiling, and pharmaco-commercial applications of Withania somnifera: a review. mdpi.com/1420-3049/28/3/1208.",
+  "Paul S, Chakraborty S et al. Withania somnifera (L.) Dunal (Ashwagandha): a comprehensive review on ethnopharmacology, pharmacotherapeutics, biomedicinal and toxicological aspects. Biomed Pharmacother. 2021. doi:10.1016/j.biopha.2021.112175 · pubmed.gov/34649336.",
+  "Revisión de los usos tradicionales de la ashwagandha en la medicina india (Joshi, 2021; texto en scribd.com/document/547937081).",
+  "Revisión de la ashwagandha y el envejecimiento saludable. Biogerontology. 2025. doi:10.1007/s10522-025-10320-0.",
+  "Recent advancements in extraction techniques of Ashwagandha. communities.acs.org.",
+  "Bhat JA, Akther T, Najar RA, Rasool F, Hamid A. Withania somnifera (L.) Dunal (Ashwagandha): current understanding and future prospect as a potential drug candidate. Front Pharmacol. 2022;13:1029123."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ajenjo",
+  "ajenjo"
+ ],
+ "siguiente": [
+  "Ayahuasca",
+  "ayahuasca"
+ ]
+}
