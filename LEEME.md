@@ -37,6 +37,15 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - En el HTML va dentro de `lang="en"`. Estilos al final de `docs/tierra.css` (`.marca-txt`, `.portada-sigla`).
 - Si se regeneran páginas con guiones que viven fuera del repo (por ejemplo, las fichas de la biblioteca), hay que mantener el nombre en inglés en el pie.
 
+## Portada (rehecha el 24-11-2026)
+
+- `docs/index.html` habla el mismo lenguaje que la Enciclopedia: `<main class="enc ini">` carga `tierra.css`, `enciclopedia/enciclopedia.css` y `inicio.css` (lo propio de la portada, todo bajo `.ini`). Si se cambia `enciclopedia.css`, hay que mirar también la portada.
+- Orden: apertura con buscador y tres fotos en arcos; tira de seis puertas; Enciclopedia (tres fichas); Guías de medicinas (las 19, por familias); La experiencia y Terapia e investigación; Biblioteca y Quién es quién; cita; Quiénes somos (`#about`) y Hablemos (`#contacto`). Esas dos anclas se enlazan desde la cabecera de todas las páginas: no hay que cambiarlas.
+- Fotos: recortes ligeros en `docs/img/inicio/*.webp`, hechos con `python3 scripts/fotos_portada.py` (necesita `pip install pillow`) a partir de `docs/enciclopedia/img/`. Autor y licencia de cada una, al final de la portada («Fotografías») y en `CREDITOS.md`. El arco grande (`peyote.webp`) es la imagen principal de la página: se precarga en el `<head>` y no lleva animación de opacidad.
+- Recuentos escritos a mano en la portada: «19 guías» y «más de 800 libros». Si cambian, hay que cambiarlos ahí (antes decía 425 libros cuando la Biblioteca ya tenía 807).
+- Los enlaces «Entrar por» de la Biblioteca usan sus filtros por dirección (`biblioteca/?idioma=español`, `biblioteca/?cat=…`).
+- La portada no regenera `docs/buscar/indice.json`: su resumen se actualiza la próxima vez que alguien lance `scripts/construir_indice.py`.
+
 ## Sustancias (nuevo)
 
 - `docs/sustancias/index.html`: página general de sustancias psicodélicas (tarjetas, comparativa, riesgos, preguntas).
