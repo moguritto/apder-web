@@ -100,7 +100,7 @@
    "guia": "sustancias/psilocibina/"
   },
   {
-   "slug": null,
+   "slug": "iboga",
    "tipo": "planta",
    "nombre": "Iboga",
    "cientifico": "Tabernanthe iboga",
@@ -394,7 +394,7 @@
    "nombre": "Iboga",
    "detalle": "Tabernanthe iboga",
    "tipo": "planta",
-   "slug": null
+   "slug": "iboga"
   },
   {
    "nombre": "Jurema",

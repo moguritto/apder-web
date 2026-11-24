@@ -1,0 +1,345 @@
+{
+ "slug": "iboga",
+ "tipo": "planta",
+ "tipo_txt": "Planta",
+ "migas": "Planta · Apocináceas · Selvas de África central",
+ "nombre": "Iboga",
+ "cientifico": "Tabernanthe iboga",
+ "autoridad": "Baill.",
+ "descripcion": "Iboga (Tabernanthe iboga): arbusto de la selva de Gabón y raíz sagrada del bwiti. Botánica, historia, ibogaína, investigación y cuidados.",
+ "entrada": "Un arbusto de la selva de África central cuya corteza de raíz es, para el bwiti de Gabón, un sacramento de iniciación. Desde que un médico naval la llevó a Francia en 1864, sigue siendo una de las medicinas más delicadas.[3][4][8]",
+ "otros": "iboga · raíz de iboga · árbol de iboga",
+ "portada": {
+  "img": "idx-iboga.jpg",
+  "alt": "Un arbusto de iboga con hojas verdes y finas ramas, del que cuelgan frutos alargados de color naranja.",
+  "pie": "Iboga (<em>Tabernanthe iboga</em>) con sus frutos anaranjados.",
+  "cred": "Marco Schmidt · CC BY-SA 2.5"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto siempre verde de la selva, con látex blanco"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Gabón y países vecinos de África central"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La corteza de la raíz"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Ibogaína y otros alcaloides indólicos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "1–3 h · 24–36 h, con efectos residuales"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Los pueblos fang y tsogho, en la tradición bwiti"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la ibogaína",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/ibogaina/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un arbusto de frutos anaranjados bajo el dosel",
+  "parrafos": [
+   "Es un arbusto de selva, de hojas verdes y estrechas que suele medir unos dos metros. Con tiempo y buenas condiciones puede llegar a ser un arbolillo de hasta diez.[1]",
+   "Sus flores son tubulares, de color blanco amarillento o rosa, y dan paso a frutos alargados que maduran anaranjados y recuerdan a un chile.[1]",
+   "La parte que se usa es la raíz: su corteza concentra el alcaloide principal, tiene un sabor muy amargo y duerme la boca y la piel. La planta crece en suelo húmedo y a media sombra.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Apocynaceae"
+   ],
+   [
+    "Porte",
+    "Arbusto de 2 m, a veces arbolillo"
+   ],
+   [
+    "Flor",
+    "Tubular, blanca amarillenta o rosa"
+   ],
+   [
+    "Fruto",
+    "Alargado, anaranjado al madurar"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La raíz que une a los vivos con los antepasados",
+  "parrafos": [
+   "El bwiti es la tradición de iniciación de Gabón y de países vecinos en la que se toma la iboga. Se cuenta que el conocimiento de la raíz pasó de los pueblos pigmeos de la selva a los fang y a otros pueblos de Gabón.[4][5]",
+   "Las ceremonias suelen durar toda la noche y combinan música, trajes y ritos complejos. Para quienes las practican, la iboga se entiende ligada al mundo de los antepasados.[6][7] National Geographic calcula que alrededor del cinco por ciento de la población de Gabón practica el bwiti.[6]",
+   "Los europeos la conocieron en el siglo XIX: en 1864 un médico de la marina francesa, Griffon du Bellay, llevó muestras a Francia.[4] En 1962, Howard Lotsof, un joven con dependencia de la heroína, descubrió su efecto sobre la abstinencia, y desde entonces la ibogaína interesa a quienes investigan las adicciones.[4][7]"
+  ],
+  "banda": null,
+  "cronologia": [
+   [
+    "1864",
+    "Griffon du Bellay, médico de la marina francesa, recoge el primer informe europeo del uso de la raíz en Gabón y el Congo y lleva muestras a Francia.[4]"
+   ],
+   [
+    "1889",
+    "Henri Baillon describe el género <em>Tabernanthe</em>.[2]"
+   ],
+   [
+    "Finales del XIX",
+    "Los fang de Gabón fundan una iglesia cristiana sincrética, el bwiti, que usa la iboga en sus ritos de iniciación.[4]"
+   ],
+   [
+    "1901",
+    "Dybowski y Landrin aíslan la ibogaína.[4]"
+   ],
+   [
+    "1939",
+    "Se comercializa en Francia el clorhidrato de ibogaína con el nombre de Lambarène.[7]"
+   ],
+   [
+    "1962",
+    "Howard Lotsof comunica que la ibogaína le quitó el deseo y la abstinencia de heroína.[4][7]"
+   ],
+   [
+    "1966",
+    "Se consigue la síntesis completa de la ibogaína.[4]"
+   ]
+  ],
+  "nombres": [
+   [
+    "iboga",
+    "del myene, lengua de Gabón"
+   ],
+   [
+    "bwiti",
+    "nombre de la tradición de iniciación; la iboga es su sacramento"
+   ],
+   [
+    "fang",
+    "uno de los pueblos de Gabón que la guardan"
+   ],
+   [
+    "tsogho",
+    "otro pueblo de Gabón; National Geographic asocia el nombre a una palabra tsogho que significa «sanar».[6]"
+   ]
+  ],
+  "nota_nombres": "El nombre <em>iboga</em> procede del myene y pasó, con pequeñas variantes, a otras lenguas de la región.[1]"
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una raíz que viaja lejos de la selva",
+  "mapa": {
+   "img": "mapa-iboga.svg",
+   "alt": "Mapa de África con una zona sombreada en ocre en Gabón y países vecinos de África central.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la iboga"
+    ]
+   ]
+  },
+  "parrafos": [
+   "Es originaria de las selvas de Gabón, la República Democrática del Congo y la República del Congo, y se cultiva en otros lugares de África central.[1]",
+   "Según National Geographic, buena parte de la ibogaína del mundo sale de plantas extraídas de Gabón, y las autoridades buscan una regulación de comercio justo y sostenible.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Respetar la iboga como sacramento del bwiti, no como producto de consumo.",
+   "Preguntar por el origen de cualquier extracto o raíz antes de dar por buena su procedencia.",
+   "Apoyar a las comunidades que la cuidan y su participación en cualquier comercio."
+  ],
+  "foto": null
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Ibogaína, una molécula que toca muchos sistemas a la vez",
+  "parrafos": [
+   "La corteza de la raíz contiene ibogaína y varios alcaloides más; los alcaloides indólicos suponen en torno al seis por ciento de la raíz.[1][3]",
+   "La ibogaína no actúa como los psicodélicos clásicos: bloquea el receptor NMDA, actúa sobre receptores opioides y sobre el transportador de serotonina. El hígado la convierte en noribogaína, que permanece en el cuerpo varios días.[8]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Ibogaína",
+    "clase": "Alcaloide indólico · principal",
+    "img": "ibogaina.svg",
+    "texto": "Bloquea canales de potasio del corazón (hERG), lo que alarga el intervalo QT y explica su riesgo cardíaco.[8]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Más de un día",
+  "parrafos": [
+   "Empieza a notarse entre una y tres horas después y se prolonga hasta un día o más, con efectos residuales de uno a tres días: cansancio, insomnio y sensibilidad a la luz y al ruido.[7][8] La fase intensa, de unas cuatro a ocho horas, suele describirse como un sueño despierto, con recuerdos de la propia vida que pasan como una película.",
+   "Es una experiencia larga y exigente, nada recreativa, y por eso la persona necesita estar tumbada y acompañada de principio a fin."
+  ],
+  "tiempo": {
+   "horas": 40,
+   "tramos": [
+    [
+     "a",
+     1,
+     4,
+     "Sube"
+    ],
+    [
+     "b",
+     4,
+     8,
+     "Fase intensa"
+    ],
+    [
+     "c",
+     8,
+     36,
+     "Reflexión y cansancio"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "1–3 h"
+    ],
+    [
+     "Fase intensa",
+     "entre las 4 y las 8 h"
+    ],
+    [
+     "Dura",
+     "24–36 h, efectos hasta 3 días"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Un estudio observacional con seguimiento de doce meses en personas con dependencia de opioides vio menos abstinencia tras un solo tratamiento y menos consumo en los meses siguientes.[10] Otra revisión de resultados de desintoxicación recoge efectos parecidos, junto con recaídas frecuentes.[11]",
+   "En 2024, un estudio sin grupo de comparación con veteranos con lesión cerebral traumática, tratados con magnesio e ibogaína, describió mejoras en sus síntomas.[12]"
+  ],
+  "alcance": "Son estudios observacionales o sin grupo de comparación, hechos con supervisión médica. No hay ensayos con placebo que confirmen estos resultados, y no existe ningún medicamento con ibogaína ni con iboga."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "El corazón: la ibogaína alarga el intervalo QT y puede causar arritmias graves, también en los días posteriores.[8][9]"
+   ],
+   [
+    "Antes, solo con médico",
+    "Electrocardiograma, análisis de potasio y magnesio y revisión de toda la medicación. La guía de APDER detalla quién no debería tomarla.[8]"
+   ],
+   [
+    "Lo que no se mezcla",
+    "Los medicamentos que alargan el QT suman su efecto sobre el corazón.[8] En la guía hay una tabla de interacciones, con los opioides entre las más delicadas."
+   ],
+   [
+    "Una raíz sagrada",
+    "Para el bwiti es un sacramento. Conviene conocer ese contexto y tratarlo con respeto.[6]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "galeria": [],
+ "libros": [
+  {
+   "titulo": "Bwiti",
+   "autor": "James W. Fernandez · 1982",
+   "img": "biblioteca/portadas/libro-069.jpg",
+   "url": "biblioteca/bwiti/"
+  },
+  {
+   "titulo": "Iboga: The Visionary Root of African Shamanism",
+   "autor": "Vincent Ravalec, Mallendi y Agnès Paicheler",
+   "img": null,
+   "url": "biblioteca/iboga-the-visionary-root-of-african-shamanism-636/"
+  },
+  {
+   "titulo": "Ibogaine",
+   "autor": "Kenneth R. Alper y Stanley D. Glick (eds.) · 2001",
+   "img": "biblioteca/portadas/libro-002.jpg",
+   "url": "biblioteca/ibogaine/"
+  }
+ ],
+ "parientes": [
+  [
+   "molecula",
+   "Ibogaína",
+   "Alcaloide indólico",
+   "El principio activo principal de la raíz.",
+   "sustancias/ibogaina/"
+  ],
+  [
+   "planta",
+   "Voacanga africana",
+   "Voacanga africana",
+   "Otra apocinácea africana que contiene ibogaína.",
+   null
+  ],
+  [
+   "planta",
+   "Tabernaemontana undulata",
+   "Tabernaemontana undulata",
+   "Otra planta de la misma familia con ibogaína.",
+   null
+  ],
+  [
+   "planta",
+   "Tabernanthe elliptica",
+   "Tabernanthe elliptica",
+   "La otra especie reconocida del género, también africana.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. «<em>Tabernanthe iboga</em>». en.wikipedia.org (consultada el 24-11-2026).",
+  "Revisión taxonómica del género <em>Tabernanthe</em> (Apocynaceae). Wageningen Agricultural University Papers 89-4; 1989. edepot.wur.nl.",
+  "ICEERS. Iboga: Basic Info. iceers.org.",
+  "Erowid. Ibogaine timeline. erowid.org.",
+  "Wikipedia. «Ibogaine». en.wikipedia.org (consultada el 24-11-2026).",
+  "National Geographic. This psychoactive plant could save lives—and everyone wants to cash in. nationalgeographic.com.",
+  "Berkeley Center for the Science of Psychedelics. Ibogaine. psychedelics.berkeley.edu.",
+  "Koenig X, Hilber K. The anti-addiction drug ibogaine and the heart: a delicate relation. Molecules. 2015;20(2):2208-2228.",
+  "Alper KR, Stajić M, Gill JR. Fatalities temporally associated with the ingestion of ibogaine. J Forensic Sci. 2012;57(2):398-412.",
+  "Noller GE, Frampton CM, Yazar-Klosinski B. Ibogaine treatment outcomes for opioid dependence from a twelve-month follow-up observational study. Am J Drug Alcohol Abuse. 2018;44(1):37-46.",
+  "Brown TK, Alper K. Treatment of opioid use disorder with ibogaine: detoxification and drug use outcomes. Am J Drug Alcohol Abuse. 2018;44(1):24-36.",
+  "Cherian KN, Keynan JN, Anker L, et al. Magnesium–ibogaine therapy in veterans with traumatic brain injuries. Nat Med. 2024;30(2):373-381."
+ ],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Hierba de la pastora",
+  "hierba-de-la-pastora"
+ ],
+ "siguiente": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ]
+}
