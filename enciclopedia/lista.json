@@ -412,7 +412,7 @@
    "nombre": "Kava",
    "detalle": "Piper methysticum",
    "tipo": "planta",
-   "slug": null
+   "slug": "kava"
   },
   {
    "nombre": "Khat",

@@ -1,0 +1,259 @@
+{
+ "slug": "kava",
+ "tipo": "planta",
+ "migas": "Planta · Piperáceas · Islas del Pacífico",
+ "nombre": "Kava",
+ "cientifico": "Piper methysticum",
+ "autoridad": "G. Forst.",
+ "descripcion": "Kava (Piper methysticum): raíz sagrada del Pacífico, bebida ceremonial de Vanuatu, Fiji, Tonga y Hawái, con kavalactonas. Historia y química.",
+ "entrada": "Un arbusto perenne de las islas del Pacífico, de cuya raíz se prepara una bebida que se considera sagrada y que se sirve en ceremonias de bienvenida, nacimientos, bodas y funerales. Sus principios activos son las kavalactonas.[1][3][4]",
+ "otros": "kava · kava kava · ʻawa (Hawái) · ʻava · yaqona (Fiji) · sakau (Pohnpei) · Piper methysticum",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto de la familia de la pimienta, de raíz sedante"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Hawái, Micronesia, Vanuatu, Fiji, Samoa y Tonga"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La raíz o rizoma"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Kavalactonas"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de Melanesia, Polinesia y Micronesia"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "La pimienta embriagadora",
+  "parrafos": [
+   "El kava es un arbusto perenne dioico del Pacífico sur, de la familia de las piperáceas, y su nombre científico <em>Piper methysticum</em> viene del latín «pimienta» y del griego latinizado «embriagante».[1][5]",
+   "Los cultivares son estériles y se clonan a partir de su ancestro silvestre, <em>Piper wichmannii</em>, de modo que hoy hay cientos de cultivares repartidos por el Pacífico.[2]",
+   "Las plantas se cosechan tradicionalmente hacia los cuatro años, porque las más viejas tienen más kavalactonas.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Piperaceae"
+   ],
+   [
+    "Antepasado silvestre",
+    "<em>Piper wichmannii</em>"
+   ],
+   [
+    "Parte usada",
+    "Raíz o rizoma"
+   ],
+   [
+    "Cosecha tradicional",
+    "Hacia los cuatro años"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La bebida sagrada del Pacífico",
+  "parrafos": [
+   "Su origen estaría en Nueva Guinea o en Vanuatu, donde navegantes la habrían domesticado a partir de <em>Piper wichmannii</em>.[1]",
+   "La evidencia botánica sugiere que se domesticó por primera vez en el norte de Vanuatu.[6]",
+   "El nombre «kava» procede del tongano y del marquesano, donde significa «amargo».[2]",
+   "El producto se considera sagrado en las culturas del Pacífico y se sirve en ocasiones importantes: dar la bienvenida a invitados, celebrar un nacimiento, bodas y funerales.[3]",
+   "Hoy, en muchos lugares, la bebida se toma también para socializar, reafirmar relaciones y rango, y como alternativa al alcohol.[5]",
+   "No se sabe si las prácticas actuales son iguales a las del pasado, ni si el consumo era más o menos ceremonial que ahora.[6]",
+   "En Vanuatu, el kava «tudei» o de dos días se reserva para ocasiones ceremoniales especiales y no se permite exportarlo.[2]",
+   "En Tonga, Fiji y Pohnpei las ceremonias de kava siguen vivas.[5]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "kava",
+    "tongano y marquesano: «amargo»"
+   ],
+   [
+    "ʻawa",
+    "Hawái"
+   ],
+   [
+    "yaqona",
+    "Fiji"
+   ],
+   [
+    "sakau",
+    "Pohnpei"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Las islas del Pacífico",
+  "parrafos": [
+   "Históricamente solo se cultivó en Hawái, los Estados Federados de Micronesia, Vanuatu, Fiji, Samoa y Tonga.[1]",
+   "No hay pruebas de que se usara en Nueva Caledonia hasta hace unos veinte años, y hay solo indicios marginales de uso en las islas Salomón.[6]",
+   "Desde los años noventa se ha popularizado fuera del Pacífico, en Estados Unidos, Europa y Australia, como relajante.[7]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como bebida sagrada de pueblos del Pacífico.",
+   "Preferir productos que respeten a las comunidades que lo cultivan.",
+   "Respetar las variedades reservadas a las ceremonias."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-kava.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre las islas del Pacífico.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del kava"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Kavalactonas",
+  "parrafos": [
+   "Sus principios activos se llaman kavalactonas.[1]",
+   "Los análisis de cultivos de Fiji describen también flavokavaínas y distintos quimiotipos.[8]",
+   "Algunas variedades tienen una composición de kavalactonas más favorable que otras.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Kavalactonas",
+    "clase": "Lactonas",
+    "img": null,
+    "texto": "Principios activos de la raíz.[1]"
+   },
+   {
+    "nombre": "Flavokavaínas",
+    "clase": "Chalconas",
+    "img": null,
+    "texto": "Compuestos descritos en cultivos de Fiji.[8]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Calma y relajación",
+  "parrafos": [
+   "Tiene propiedades psicoactivas, sobre todo efectos calmantes y relajantes.[5]",
+   "Se considera una de las razones de su difusión por el Pacífico: da una sensación de calma y relajación.[5]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "Una revisión Cochrane concluyó que probablemente es más eficaz que un placebo para la ansiedad a corto plazo.[1]",
+   "Los extractos de kava se usaron en Europa como medicina para la ansiedad.[3]",
+   "Un proyecto de 2010 en Hawái reunió a científicos indígenas del Pacífico, practicantes de la cultura hawaiana y farmacólogos occidentales para estudiar la bebida.[4]",
+   "También se investiga su potencial en modelos de cáncer.[5]"
+  ],
+  "alcance": "Hay ensayos clínicos en ansiedad; la tradición pesa más que la clínica en el resto."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Productos hechos con disolventes orgánicos o con cantidades excesivas de baja calidad se han relacionado con un mayor riesgo de efectos adversos, incluida una posible lesión del hígado.[1]"
+   ],
+   [
+    "Con otras sustancias",
+    "Se aconseja no combinarlo con alcohol ni con otros psicofármacos, y evitar el uso prolongado.[7]"
+   ],
+   [
+    "Contexto",
+    "Es una bebida sagrada con variedades y reglas propias de cada isla.[2][3]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No se ha establecido la seguridad del uso a largo plazo.[7]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Betel",
+   "Piper betle",
+   "Otra piperácea masticada y compartida en el Pacífico y Asia.",
+   "enciclopedia/betel/"
+  ],
+  [
+   "planta",
+   "Nuez de betel",
+   "Areca catechu",
+   "Otra planta de uso social en el Pacífico.",
+   "enciclopedia/nuez-de-betel/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. Kava. wikipedia.com/wiki/Kava.",
+  "Wikipedia. Kava (borrador). wikipedia.org/wiki/User:Millieghawkins/sandbox.",
+  "Kava: revisión de sus bebidas y extractos. pmc.ncbi.nlm.nih.gov/articles/PMC7600512.",
+  "Contemporary Pacific and Western perspectives on ʻawa (<em>Piper methysticum</em>) toxicology. Fitoterapia. 2015;100:56-67. pubmed.ncbi.nlm.nih.gov/25464054/.",
+  "Kava (revisión: toxicología y potencial en cáncer). pmc.ncbi.nlm.nih.gov/articles/PMC9315573.",
+  "Lynch J. Kava in Oceania (extracto). muse.jhu.edu/article/37694/.",
+  "Encyclopedia of Life. Kava (<em>Piper methysticum</em>). eol.org/pages/39966189/articles.",
+  "Pasinszki T, Devi DD, Krebsz M. Bioactive compound profile and nutrition values of kava cultivated in Fiji. Horticulturae. 2025;11:1456. openresearch-repository.anu.edu.au/bitstreams/a49c9036-d63f-436b-a080-3eb7b483a2f7/download."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Kanna",
+  "kanna"
+ ],
+ "siguiente": [
+  "Kratom",
+  "kratom"
+ ]
+}
