@@ -1,0 +1,256 @@
+{
+ "slug": "coca",
+ "tipo": "planta",
+ "migas": "Planta · Eritroxiláceas · Andes y Amazonia",
+ "nombre": "Coca",
+ "cientifico": "Erythroxylum coca",
+ "autoridad": "Lam.",
+ "descripcion": "Coca (Erythroxylum coca): arbusto andino y amazónico cuya hoja se masca desde hace miles de años como alimento, medicina y ofrenda. Historia y cuidados.",
+ "entrada": "Un arbusto cultivado por los pueblos andinos y amazónicos durante milenios con fines nutritivos, medicinales, ceremoniales y sociales. Su hoja, masticada o en infusión, tiene una historia propia, distinta de la del alcaloide aislado.[1][2][3][7]",
+ "otros": "coca · hoja de coca · mama coca · kuka · Erythroxylum coca · Erythroxylum novogranatense",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto cultivado de la familia de las eritroxiláceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Andes y Amazonia"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La hoja"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides tropánicos, entre ellos la cocaína en la hoja"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "El efecto de la hoja es suave y de absorción lenta"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos andinos y amazónicos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Cuatro cultivos y dos especies principales",
+  "parrafos": [
+   "La coca es cualquiera de las cuatro plantas cultivadas de la familia de las eritroxiláceas: <em>Erythroxylum coca</em> var. <em>coca</em> y var. <em>ipadu</em>, y <em>E. novogranatense</em> var. <em>novogranatense</em> y var. <em>truxillense</em>.[5]",
+   "El género <em>Erythroxylum</em> incluye unas 230 especies repartidas por los trópicos, y dos de ellas, <em>E. coca</em> y <em>E. novogranatense</em>, son especialmente destacadas.[2] Los primeros botánicos creyeron que todas las cocas eran la misma especie; después se vio que había dos especies domesticadas.[4]",
+   "Es una de las plantas medicinales cultivadas más antiguas, con evidencia de uso de al menos 8000 años en Sudamérica.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Erythroxylaceae"
+   ],
+   [
+    "Especies cultivadas",
+    "<em>E. coca</em> y <em>E. novogranatense</em>"
+   ],
+   [
+    "Variedades",
+    "Cuatro"
+   ],
+   [
+    "Parte usada",
+    "La hoja"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La hoja sagrada de los Andes",
+  "parrafos": [
+   "Los productos de la hoja de coca son parte integral de la vida de los pueblos andinos, tanto desde la perspectiva cultural como desde la medicina tradicional.[1]",
+   "Hay arqueólogos que han hallado evidencia de que se masticaban hojas de coca en la costa del Pacífico del actual Perú antes del 5000 a. C.[3]",
+   "Tradicionalmente, en las culturas andinas las hojas de coca se han usado con fines medicinales, nutritivos, religiosos y sociales, como estimulante, remedio, herramienta espiritual y sustento, sobre todo masticadas o en infusión.[5]",
+   "Los españoles desaprobaron la coca e intentaron erradicarla, sin éxito; hoy el masticado sigue siendo casi universal en las tierras altas y no solo como ayuda para el trabajo duro.[3]",
+   "El uso más común, antiguo y moderno, de la coca entre los pueblos nativos es masticar las hojas.[4]"
+  ],
+  "cronologia": [
+   [
+    "Hace 8000 años o más",
+    "Evidencia más antigua de uso en Sudamérica.[2]"
+   ],
+   [
+    "Antes del 5000 a. C.",
+    "Masticado en la costa peruana.[3]"
+   ],
+   [
+    "Época colonial",
+    "Los españoles intentan erradicarla sin lograrlo.[3]"
+   ]
+  ],
+  "nombres": [
+   [
+    "coca",
+    "del quechua <em>kuka</em>"
+   ],
+   [
+    "<em>chacchar</em>",
+    "masticar la hoja, de uso andino"
+   ],
+   [
+    "hoja de coca",
+    "la hoja, distinta de la cocaína"
+   ]
+  ],
+  "nota_nombres": "La literatura insiste en diferenciar el uso tradicional y cultural de la hoja del uso ilegal de la cocaína.[6]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de la ladera andina y de la selva",
+  "parrafos": [
+   "El consumo tradicional sigue siendo habitual en muchas comunidades andinas y amazónicas.[2]",
+   "Su cultivo y su regulación tienen una historia propia de debate internacional, que ICEERS recoge junto a su investigación etnobotánica y sus implicaciones de derechos humanos.[7]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Distinguir siempre la hoja del alcaloide aislado.",
+   "Escuchar a los pueblos que la usan y cultivan.",
+   "Informarse con fuentes que respeten su contexto cultural."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-coca.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre los Andes y la Amazonia occidental.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la coca"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides en la hoja",
+  "parrafos": [
+   "Las hojas contienen cocaína, que actúa como estimulante suave cuando se mastica o se toma en infusión; este uso tradicional implica una absorción más lenta que la de la cocaína purificada.[5]",
+   "Las temperaturas más bajas parecen afectar de forma adversa al contenido de alcaloides en todos los cultivares estudiados.[2]",
+   "La biosíntesis de alcaloides tropánicos en <em>E. coca</em> es un tema de investigación propio.[2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Cocaína",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Presente en la hoja; su efecto en la hoja masticada es suave y lento.[5]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un estimulante suave y un compañero de trabajo",
+  "parrafos": [
+   "La hoja se masca colocándola en la boca; su uso es social, ritual, medicinal y laboral a la vez.[4]",
+   "No es una experiencia de visión: es parte de la vida cotidiana y de los rituales andinos.[1][3]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay revisiones sobre la historia y el significado médico de la tradición andina, que examinan la toxicología de la coca entera y sus aplicaciones medicinales pasadas, presentes y futuras.[1]",
+   "El trabajo de Plowman de 1984 sobre la etnobotánica de la coca es una referencia clásica.[8]",
+   "Otra revisión recoge los usos tradicionales y los posibles efectos adversos de las formas de uso, y subraya la diferencia entre el uso tradicional y cultural y el de la cocaína.[6]"
+  ],
+  "alcance": "Hay mucha literatura etnobotánica y médica sobre la hoja; los debates sobre su regulación son un campo aparte."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Hoja y cocaína",
+    "La hoja entera y el alcaloide aislado no son lo mismo, y la literatura insiste en separarlos.[5][6]"
+   ],
+   [
+    "Efectos adversos",
+    "Las revisiones recogen posibles efectos adversos del consumo de la hoja.[6]"
+   ],
+   [
+    "Contexto",
+    "Para los pueblos andinos y amazónicos es una planta cultural y ritual.[1][7]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios a largo plazo sobre la hoja entera."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Cebil",
+   "Anadenanthera colubrina",
+   "Otra planta andina de uso ritual.",
+   "enciclopedia/cebil/"
+  ],
+  [
+   "planta",
+   "San Pedro",
+   "Echinopsis pachanoi",
+   "Otra planta sagrada de los Andes.",
+   "enciclopedia/san-pedro/"
+  ]
+ ],
+ "fuentes": [
+  "Biondich AS, Joslin JD. Coca: the history and medical significance of an ancient Andean tradition. Emerg Med Int. 2016;2016:4048764. doi:10.1155/2016/4048764.",
+  "Restrepo DA, Saenz E, Jara-Muñoz OA et al. <em>Erythroxylum</em> in focus: an interdisciplinary review of an overlooked genus. Molecules. 2019;24(20):3788. doi:10.3390/molecules24203788.",
+  "JSTOR Daily. What coca means in Peru. daily.jstor.org/what-coca-means-in-peru.",
+  "Revisión sobre la coca: especies domesticadas y uso. core.ac.uk/download/60545824.pdf.",
+  "Wikipedia. «Coca». en.wikipedia.org/wiki/Coca (consultada el 24-11-2026).",
+  "Revisión de la hoja de coca: usos tradicionales, efectos adversos y marco legal. dialnet.unirioja.es/descarga/articulo/9586014.pdf.",
+  "ICEERS. Coca. iceers.org/en/tag/coca.",
+  "Plowman T. The ethnobotany of coca (<em>Erythroxylum</em> spp.). Advances in Economic Botany. 1984;1:62-111."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Chiric sanango",
+  "chiric-sanango"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
