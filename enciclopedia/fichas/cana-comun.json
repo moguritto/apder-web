@@ -1,0 +1,265 @@
+{
+ "slug": "cana-comun",
+ "tipo": "planta",
+ "migas": "Planta · Poáceas · Regiones templadas y cálidas del mundo",
+ "nombre": "Caña común",
+ "cientifico": "Arundo donax",
+ "autoridad": "L.",
+ "descripcion": "Caña común (Arundo donax): gramínea gigante de cañaverales y de la flauta nay. Contiene triptaminas en cantidades variables y poco estudiadas.",
+ "entrada": "Una gramínea alta de aspecto de bambú que da las cañas de flautas, oboes y clarinetes. Se ha descrito que contiene triptaminas, pero los datos son escasos y variables, y casi todo viene de fuentes no académicas.[1][2][3]",
+ "otros": "caña común · caña · carrizo · giant reed · giant river reed · Colorado River reed · Arundo donax",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Gramínea perenne alta, de aspecto de bambú"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Zonas templadas y cálidas; crece en orillas húmedas"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Rizomas y tallos; las cañas se usan para instrumentos"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Triptaminas (DMT, bufotenina, 5-MeO-DMT) y gramina, según informes"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Músicos de Persia y de otras tradiciones, por la flauta nay"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un cañaveral de hasta ocho metros",
+  "parrafos": [
+   "<em>Arundo donax</em> es una gramínea perenne y alta, de naturaleza parecida al bambú.[2] Crece hasta unos ocho metros de altura a orillas de lagos, arroyos y otros lugares húmedos.[4]",
+   "Pertenece a la familia de las poáceas.[5] En inglés se la llama <em>giant reed</em> y <em>Colorado River reed</em>.[5]",
+   "Se distingue de la caña común europea <em>Phragmites</em> porque su panícula cuelga solo hacia un lado en esta última.[6]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Poaceae"
+   ],
+   [
+    "Hábito",
+    "Gramínea perenne alta"
+   ],
+   [
+    "Altura",
+    "Hasta unos 8 m"
+   ],
+   [
+    "Hábitat",
+    "Orillas húmedas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La caña de la flauta",
+  "parrafos": [
+   "En Persia se usa la caña para hacer el <em>nay</em>, una flauta de soplado por el extremo, ligada a la tradición sufí.[1] La misma planta es la fuente de las lengüetas de clarinete, saxofón, oboe, fagot y gaita.[1]",
+   "Sobre un uso psicoactivo tradicional de la caña común no hay fuentes verificables; lo que circula se basa en análisis químicos recientes y en relatos de aficionados.[1][2]"
+  ],
+  "cronologia": [
+   [
+    "1977",
+    "Smith recoge triptaminas en plantas, entre ellas la caña común.[7]"
+   ],
+   [
+    "1997",
+    "Los Shulgin la mencionan como una fuente rica de triptaminas en <em>TIHKAL</em>.[2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "caña común",
+    "nombre habitual en castellano"
+   ],
+   [
+    "carrizo",
+    "nombre popular, que también se aplica a otras cañas"
+   ],
+   [
+    "<em>giant reed</em>",
+    "nombre inglés"
+   ]
+  ],
+  "nota_nombres": "El nombre «carrizo» designa también a <em>Phragmites</em>, otra caña de panícula distinta.[6]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta muy extendida",
+  "parrafos": [
+   "Según la correspondencia citada, crece de forma silvestre en grandes macizos en muchas zonas de Estados Unidos.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla por su lugar en la música y en la artesanía.",
+   "No presentarla como fuente de nada: los datos son escasos.",
+   "Tratarla con la misma prudencia con que se trata cualquier dato sin contrastar."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-cana-comun.svg",
+   "alt": "Mapa con zonas sombreadas en ocre sobre regiones templadas y cálidas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la caña común"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Triptaminas poco estudiadas",
+  "parrafos": [
+   "Se ha descrito que la planta contiene algunas sustancias psicoactivas, entre ellas DMT, bufotenina y 5-MeO-DMT.[3] Otros informes añaden gramina.[3]",
+   "Un compendio de 1977 recogió triptaminas y compuestos relacionados en plantas; es la fuente que se cita a menudo para esta especie.[7]",
+   "Las concentraciones son muy variables, con una tendencia a ser bajas.[3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Descrita en cantidades variables y bajas.[3]"
+   },
+   {
+    "nombre": "Bufotenina",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Descrita en la planta.[3]"
+   },
+   {
+    "nombre": "5-MeO-DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Citada en informes, sin confirmación sólida.[2]"
+   },
+   {
+    "nombre": "Gramina",
+    "clase": "Alcaloide indólico",
+    "img": null,
+    "texto": "Citada en informes sobre la planta.[3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que no se sabe",
+  "parrafos": [
+   "No hay una tradición de uso documentada ni datos fiables de experiencia de la planta como tal.",
+   "Las fuentes que hablan de efectos son de divulgación o de aficionados, no de estudios.[3][8]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "La base es un compendio fitoquímico de 1977 sobre triptaminas en plantas.[7]",
+   "Otras fuentes reproducen esa información y la complementan con informes de aficionados, sin verificación independiente.[2][3]"
+  ],
+  "alcance": "No hay estudios clínicos ni etnográficos sobre un uso psicoactivo de la caña. Conviene leer con cautela cualquier cifra que circule."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Los datos sobre su contenido son escasos, variables y de origen no académico.[3]"
+   ],
+   [
+    "Otras gramíneas",
+    "Hay gramíneas con triptaminas y otras con alcaloides que pueden ser tóxicos; no se pueden distinguir a simple vista.[8]"
+   ],
+   [
+    "Mitos",
+    "Lo que circula en internet sobre esta planta no es evidencia sólida.[2]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay datos sobre seguridad ni sobre efectos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Acacias",
+   "Acacia spp.",
+   "Otro grupo de plantas con DMT descrito en la literatura.",
+   "enciclopedia/acacias/"
+  ],
+  [
+   "molecula",
+   "DMT",
+   "Triptamina",
+   "Una de las triptaminas descritas.",
+   "sustancias/dmt/"
+  ]
+ ],
+ "fuentes": [
+  "Erowid. <em>Arundo donax</em> como fuente de DMT (correspondencia de 1992 y comentarios). erowid.org/plants/arundo_donax/arundo_donax_info3.shtml.",
+  "Shulgin A, Shulgin A. TIHKAL, cap. 15: «DMT is everywhere» (1997), en Erowid. erowid.org/plants/arundo_donax/arundo_donax_info2.shtml.",
+  "The Drug Classroom. <em>Arundo donax</em>. thedrugclassroom.com/video/arundo-donax.",
+  "Erowid. <em>Arundo donax</em>, ficha general. erowid.org/plants/arundo_donax/arundo_donax.shtml.",
+  "Erowid. <em>Arundo donax</em>, clasificación botánica. erowid.org/plants/arundo_donax.",
+  "TripSit Wiki. Reed (<em>Phragmites</em>). wiki.tripsit.me/wiki/Reed.",
+  "Smith TA. Tryptamine and related compounds in plants. Phytochemistry. 1977;16(2):171-175. doi:10.1016/S0031-9422(00)86778-3.",
+  "Erowid. ¿Qué gramíneas contienen DMT? erowid.org/ask/ask.php?ID=3155."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Cálamo aromático",
+  "calamo-aromatico"
+ ],
+ "siguiente": [
+  "Cannabis",
+  "cannabis"
+ ]
+}
