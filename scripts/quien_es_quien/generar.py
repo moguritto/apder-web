@@ -15,6 +15,7 @@ REPO = sys.argv[1]
 DOCS = os.path.join(REPO, "docs")
 FECHA = "2026-11-23"
 FECHA_TXT = "23 de noviembre de 2026"
+FECHA_PORTADA = "2026-11-24"
 BASE = "https://apder.org/"
 
 guia = open(os.path.join(DOCS, "sustancias/2c-b/index.html"), encoding="utf-8").read()
@@ -54,6 +55,7 @@ ESTILO = """<style>
 .q-ficha .s-ficha-dato{text-align:left;margin:.35em 0 0}
 .q-tipo{display:inline-block;font-size:.85rem;letter-spacing:.02em;color:var(--suave);background:var(--arena);border-radius:99px;padding:2px 12px;margin:0 0 .8em}
 .q-crono th{white-space:nowrap;vertical-align:top}
+.s-refs li{overflow-wrap:anywhere}
 .s-cuerpo h2.q-grupo{margin-top:1.6em}
 .q-tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:1em 0 2em;padding:0;list-style:none}
 .q-tarjetas a{display:flex;gap:16px;align-items:center;background:#fff;border-radius:20px;padding:16px 18px;text-decoration:none;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.06);min-height:44px}
@@ -121,6 +123,7 @@ TOC = [("claves", "En pocas palabras"), ("vida", "Vida"), ("aportaciones", None)
 
 
 def ficha(p):
+    fecha, fecha_txt = p.get("fecha", (FECHA, FECHA_TXT))
     url = f"{BASE}quien-es-quien/{p['slug']}/"
     secciones = [(i, t or p["titulos"][i]) for i, t in TOC]
     toc = "\n".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in secciones)
@@ -137,8 +140,10 @@ def ficha(p):
                 d["birthPlace"] = {"@type": "Place", "name": q["birthPlace"]}
             personas.append(d)
     else:
-        persona = {"@type": "Person", "@id": url + "#persona", "name": p["nombre"],
-                   "birthDate": p["nacio_iso"], "description": p["que"]}
+        persona = {"@type": "Person", "@id": url + "#persona", "name": p["nombre"]}
+        if p.get("nacio_iso"):  # sin fecha publicada, no se pone
+            persona["birthDate"] = p["nacio_iso"]
+        persona["description"] = p["que"]
         if p.get("murio_iso"):
             persona["deathDate"] = p["murio_iso"]
         if p.get("lugar"):
@@ -146,7 +151,7 @@ def ficha(p):
         personas = [persona]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "ProfilePage", "@id": url, "url": url, "name": p["nombre"], "inLanguage": "es-ES",
-         "dateModified": FECHA, "mainEntity": {"@id": url + "#persona"},
+         "dateModified": fecha, "mainEntity": {"@id": url + "#persona"},
          "publisher": {"@type": "Organization", "@id": BASE + "#organizacion", "name": "APDER", "url": BASE}},
         *personas,
         {"@type": "BreadcrumbList", "itemListElement": [
@@ -160,6 +165,8 @@ def ficha(p):
         t, a, m = libro(slug)
         extra = f" ({html.escape(m)})" if m else ""
         libros.append(f'<li>{html.escape(a)}, <a href="../../biblioteca/{slug}/"><em>{html.escape(t)}</em></a>{extra}. {nota}</li>')
+    lista_libros = (f'<p>Libros de la <a href="../../biblioteca/">Biblioteca</a>:</p>\n<ul>\n{chr(10).join(libros)}\n</ul>'
+                    if libros else "")
     relacion = "\n".join(f'<a href="{h}"><strong>{t}</strong><span>{s}</span></a>' for h, t, s in p["relacion"])
     refs = "\n".join(f'<li id="ref-{n}">{r}</li>' for n, r in enumerate(p["refs"], 1))
     datos = "\n".join(f'<p class="s-ficha-dato"><strong>{k}:</strong> {v}</p>' for k, v in p["datos"])
@@ -221,10 +228,7 @@ def ficha(p):
 </div>
 
 <h2 id="leer-mas">Para leer más</h2>
-<p>Libros de la <a href="../../biblioteca/">Biblioteca</a>:</p>
-<ul>
-{chr(10).join(libros)}
-</ul>
+{lista_libros}
 <div class="s-relacion">
 {relacion}
 </div>
@@ -233,7 +237,7 @@ def ficha(p):
 <ol class="s-refs">
 {refs}
 </ol>
-<p class="s-revisado">Última revisión: {FECHA_TXT}.</p>
+<p class="s-revisado">Última revisión: {fecha_txt}.</p>
 <div class="s-nota s-descargo" role="note"><p><strong>Antes de seguir.</strong> Esta ficha es divulgativa. La hemos preparado con cuidado a partir de las fuentes citadas, pero puede tener errores o quedarse antigua. Si ves un error, escríbenos a <a href="mailto:info@apder.org">info@apder.org</a>.</p></div>
 <p class="s-solo-impresion">Dirección canónica: {url}</p>
 </article>
@@ -268,7 +272,7 @@ def portada():
     assert sum(1 for q in PERSONAS if q["tipo"] not in ORDEN_TIPOS) == 0
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "@id": url, "url": url, "name": "Quién es quién", "inLanguage": "es-ES",
-         "dateModified": FECHA, "description": PORTADA["desc"],
+         "dateModified": FECHA_PORTADA, "description": PORTADA["desc"],
          "hasPart": [{"@id": f"{url}{p['slug']}/"} for p in PERSONAS],
          "publisher": {"@type": "Organization", "@id": BASE + "#organizacion", "name": "APDER", "url": BASE}},
         {"@type": "BreadcrumbList", "itemListElement": [
