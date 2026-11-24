@@ -1,0 +1,265 @@
+{
+ "slug": "epena",
+ "tipo": "planta",
+ "migas": "Planta · Miristicáceas · Alto Orinoco y Río Negro",
+ "nombre": "Epená",
+ "cientifico": "Virola spp.",
+ "autoridad": "",
+ "descripcion": "Epená (Virola spp.): rapé alucinógeno de la resina de árboles amazónicos, de los waika y yanomami del Orinoco y el Río Negro. Historia y química.",
+ "entrada": "Un rapé que pueblos del alto Orinoco y del Río Negro, como los waika o yanomami, preparan con la resina rojiza de la corteza de árboles del género Virola. Su identificación botánica y química es una historia de campo de varias décadas.[1][2][3][5]",
+ "otros": "epená · epena · nyakwana · yakee · yato · parica (en parte) · Virola theiodora · Virola elongata · Virola calophylla",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Rapé de la resina de árboles de la familia de la nuez moscada"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Alto Orinoco, Río Negro y zonas vecinas de Venezuela, Brasil y Colombia"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La resina rojiza de la corteza interior"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Triptaminas, entre ellas DMT y 5-MeO-DMT"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Waika o yanomami, puinave y otros pueblos amazónicos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Árboles de la familia de la nuez moscada",
+  "parrafos": [
+   "El epená se obtiene de varias especies del género <em>Virola</em>, árboles de la familia de las miristicáceas.[3] Entre ellas figuran <em>V. theiodora</em>, <em>V. elongata</em>, <em>V. calophylla</em> y <em>V. calophylloidea</em>.[4]",
+   "La especie más importante parece ser <em>V. theiodora</em>.[2] Un estudio etnotoxicológico detallado de 1968 mostró que los grupos waika de los afluentes norteños del Río Negro, en Brasil, emplean esa especie, aparentemente con exclusión de otras.[5]",
+   "Además de <em>Virola</em>, en la región se emplean como componentes de rapé otras plantas como <em>Elizabetha princeps</em> y <em>Justicia pectoralis</em> var. <em>stenophylla</em>.[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Myristicaceae"
+   ],
+   [
+    "Especie principal",
+    "<em>Virola theiodora</em>"
+   ],
+   [
+    "Parte usada",
+    "Resina de la corteza interior"
+   ],
+   [
+    "Otras plantas del rapé",
+    "<em>Elizabetha princeps</em>, <em>Justicia pectoralis</em>"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El rapé de los waika",
+  "parrafos": [
+   "En Venezuela hay pueblos que preparan un rapé alucinógeno muy potente a partir de una de varias especies de <em>Virola</em>; se llama <em>epena</em>, <em>nyakwana</em>, <em>yakee</em> o <em>yato</em>.[2]",
+   "Los indígenas del alto Río Negro usan las hojas secas de <em>V. theiodora</em> y de <em>V. cuspidata</em> para hacer un polvo de rapé que llaman <em>parica</em>.[1]",
+   "Las declaraciones de Ducke parecen la primera identificación de este narcótico con <em>Virola</em>.[1] Cuando se hablaba de un rapé en Sudamérica, los antropólogos tendían a suponer automáticamente que era de otra planta.[1]",
+   "El misionero James Barker ofreció en 1953 una discusión muy detallada de los rapés del Orinoco, trabajando sobre todo con los waika cerca de la misión de El Platanal.[1]",
+   "En el Amazonas colombiano y el Perú vecino, otros pueblos no usan <em>Virola</em> como rapé, sino que ingieren píldoras preparadas con la resina rojiza de la corteza interior.[2]",
+   "Según Seitz y Holmstedt y Lindgren, entre los waika el rapé de <em>Virola</em> se administra a comienzos de la tarde, raramente por la noche y nunca por la mañana.[6]",
+   "Brewer-Carías y Steyermark documentaron en 1976 los rapés alucinógenos de los yanomami caburiwe-teri del río Cauaburi, en Brasil.[4]"
+  ],
+  "cronologia": [
+   [
+    "1953",
+    "James Barker describe los rapés del Orinoco con los waika.[1]"
+   ],
+   [
+    "1968",
+    "Schultes y Holmstedt publican el estudio etnotoxicológico detallado.[5]"
+   ],
+   [
+    "1976",
+    "Brewer-Carías y Steyermark documentan los rapés de los yanomami del río Cauaburi.[4]"
+   ]
+  ],
+  "nombres": [
+   [
+    "epená",
+    "nombre general del rapé"
+   ],
+   [
+    "<em>nyakwana</em>",
+    "nombre del rapé de los waika"
+   ],
+   [
+    "<em>yakee</em>, <em>yato</em>",
+    "otros nombres regionales"
+   ],
+   [
+    "<em>parica</em>",
+    "término usado para otros rapés del Río Negro"
+   ]
+  ],
+  "nota_nombres": "Waika, yanomami o yanomamö son nombres de pueblos cercanos que las fuentes usan de forma distinta.[4]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "El Orinoco y el Río Negro",
+  "parrafos": [
+   "Se usa en la región fronteriza entre Venezuela y Brasil y en el alto Río Negro.[1][4]",
+   "Las investigaciones sobre el terreno se hicieron con los waika al norte del Río Negro y los puinave del río Apaporis.[1][5]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como parte de una tradición viva de los pueblos amazónicos.",
+   "No presentarlo como un producto.",
+   "Respetar el territorio y las normas de cada pueblo."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-epena.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre el alto Orinoco y el Río Negro.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del epená"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Triptaminas de la resina",
+  "parrafos": [
+   "La resina de <em>Virola theiodora</em> es rica en triptaminas; el rapé nyakwana de los waika contiene 5-MeO-DMT y DMT, además de trazas de otras triptaminas.[5]",
+   "El rapé de <em>Virola</em> comparte la actividad psicoactiva de rapés de otra procedencia, como los de <em>Anadenanthera</em>.[5][7]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "5-MeO-DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Principal triptamina del rapé de <em>Virola theiodora</em>.[5]"
+   },
+   {
+    "nombre": "DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Presente junto a la anterior.[5]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un rapé de uso ritual",
+  "parrafos": [
+   "Las fuentes lo describen como un rapé alucinógeno muy potente.[2]",
+   "No ofrecen datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay trabajos de campo y de laboratorio de Schultes y otros investigadores sobre la botánica y la química del rapé.[2][5]",
+   "Una revisión multidisciplinar de los rapés sudamericanos recoge la etnobotánica, la fitoquímica y la farmacología de los rapés de <em>Virola</em>, <em>Anadenanthera</em> y otros.[7]"
+  ],
+  "alcance": "Hay buena documentación etnobotánica y química y poca investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Se describe como un rapé muy potente.[2]"
+   ],
+   [
+    "Otras plantas",
+    "Los rapés de la región mezclan a veces otras plantas, y no es fácil saber qué contiene cada uno.[4][7]"
+   ],
+   [
+    "Contexto",
+    "Su uso es parte de la vida ritual de pueblos concretos.[1][6]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Cebil",
+   "Anadenanthera colubrina",
+   "Otra planta de la que se hace un rapé con triptaminas.",
+   "enciclopedia/cebil/"
+  ],
+  [
+   "planta",
+   "Nuez moscada",
+   "Myristica fragrans",
+   "Pariente botánica de la misma familia.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Schultes RE. Narcotic use of the genus <em>Virola</em> (capítulo). bibliography.maps.org/resources/download/15074.",
+  "Schultes RE. Resumen del uso de <em>Virola</em> y otros rapés americanos. bibliography.maps.org/resources/download/15073.",
+  "Schultes RE, Holmstedt B. Estudio de los rapés de miristicáceas de los waika. Rhodora. 1968;70. archive.org/download/biostor-180813/biostor-180813.pdf.",
+  "Brewer-Carías C, Steyermark JA. Hallucinogenic snuff drugs of the Yanomamo Caburiwe-Teri in the Cauaburi River, Brazil. Economic Botany. 1976. bibliography.maps.org/resources/download/12875.",
+  "Schultes RE. Estudio de las miristicáceas usadas como rapé (resina rica en triptaminas). archive.org/download/biostor-160705/biostor-160705.pdf.",
+  "Erowid. Ayahuasca: alkaloids, plants y analogs, sección 3, parte 2 (<em>Anadenanthera</em>), con cita de Seitz y de Holmstedt y Lindgren. erowid.org/books_online/ayahuasca_apa/aya_sec3_part2_anadenanthera.shtml.",
+  "De Smet PAGM, Rivier L. Multidisciplinary overview of Piaroa and related snuffs. J Psychoactive Drugs. bibliography.maps.org/resources/download/12242."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Efedra",
+  "efedra"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
