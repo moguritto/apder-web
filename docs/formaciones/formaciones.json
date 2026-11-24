@@ -723,7 +723,8 @@
    "estado": "activa",
    "revisado": "2026-11-24",
    "lat": 52.52,
-   "lon": 13.405
+   "lon": 13.405,
+   "proxima": "2027-03-13"
   },
   {
    "id": "mind-medicine-australia-cpat",
@@ -1548,6 +1549,490 @@
    "lat": 40.42,
    "lon": -3.7,
    "ciudad": ""
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "activa",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "oregon",
+    "certificado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Consultar",
+   "precio_eur": null,
+   "ciudad": "Eugene",
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "todos",
+   "tipo_entidad": "instituto",
+   "id": "emerald-valley-institute-psilocybin-facilitator-training",
+   "nombre": "Psilocybin Facilitator Training (Emerald Valley Institute)",
+   "nombre_es": "Formación de facilitadores de psilocibina del Emerald Valley Institute",
+   "entidad": "Emerald Valley Institute",
+   "tipo": [
+    "facilitacion"
+   ],
+   "modalidad": "mixta",
+   "pais": "US",
+   "duracion": "Itinerario presencial con práctica e itinerario a distancia en el que la práctica es opcional",
+   "descripcion": "Programa de formación de facilitadores de una escuela de Eugene (Oregón) incluido en la lista oficial de programas activos de Oregon Psilocybin Services de 2026. Ofrece un itinerario presencial con práctica y otro a distancia.",
+   "url": "https://emeraldvalleyinstitute.com",
+   "lat": 44.052,
+   "lon": -123.087
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "activa",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "oregon",
+    "certificado"
+   ],
+   "incluye": [
+    "practica_supervisada"
+   ],
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Consultar",
+   "precio_eur": null,
+   "ciudad": "San Francisco",
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "todos",
+   "tipo_entidad": "instituto",
+   "id": "alfred-m-hubbard-institute-psilocybin-facilitator-training",
+   "nombre": "Psilocybin Facilitator Training (Alfred M. Hubbard Institute)",
+   "nombre_es": "Formación de facilitadores de psilocibina del Alfred M. Hubbard Institute",
+   "entidad": "Alfred M. Hubbard Institute",
+   "tipo": [
+    "facilitacion"
+   ],
+   "modalidad": "mixta",
+   "pais": "US",
+   "duracion": "Clases en línea por las tardes y los fines de semana; práctica presencial opcional de 40 h",
+   "descripcion": "Formación de facilitadores con sede en San Francisco, incluida en la lista oficial de programas activos de Oregon Psilocybin Services de 2026. Las clases son sobre todo en línea y la práctica es presencial.",
+   "url": "https://www.alfredhubbard.com/",
+   "lat": 37.775,
+   "lon": -122.419
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "universidad"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "310 € con la subvención del Plan Microcred",
+   "precio_eur": 310,
+   "ciudad": "Tarragona",
+   "idiomas": [
+    "es"
+   ],
+   "destinatarios": "clinicos",
+   "tipo_entidad": "universidad",
+   "id": "urv-psicoterapias-asistidas-con-psicodelicos",
+   "nombre": "Psicoterapias Asistidas con Psicodélicos (Fundació URV)",
+   "nombre_es": "Psicoterapias asistidas con psicodélicos de la Fundació URV",
+   "entidad": "Universitat Rovira i Virgili (Fundació URV)",
+   "tipo": [
+    "terapia"
+   ],
+   "modalidad": "en_linea",
+   "pais": "ES",
+   "duracion": "Curso de formación permanente con módulos de unas 11 h y créditos ECTS; edición 2026",
+   "descripcion": "Formación universitaria en castellano para profesionales de la salud mental y técnicos del ámbito social. Cubre historia, farmacología, seguridad, psicopatología y psicoterapia asistida, con una orientación clínica y de investigación.",
+   "url": "https://www.fundacio.urv.cat/es/formacion-permanente/oferta/ficha/?pe_codi=MCPSICOP-A1-2026-1",
+   "lat": 41.118,
+   "lon": 1.245
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Consultar",
+   "precio_eur": null,
+   "ciudad": "Madrid",
+   "idiomas": [
+    "es"
+   ],
+   "destinatarios": "clinicos",
+   "tipo_entidad": "empresa",
+   "id": "clinica-synaptica-seminario-terapia-psilocibina-madrid",
+   "nombre": "Psilocybin-assisted therapy training seminar (Clínica Synaptica)",
+   "nombre_es": "Seminario de formación en terapia asistida con psilocibina de Clínica Synaptica",
+   "entidad": "Clínica Synaptica",
+   "tipo": [
+    "terapia"
+   ],
+   "modalidad": "presencial",
+   "pais": "ES",
+   "duracion": "Tres días de formación clínica, en noviembre de 2026",
+   "descripcion": "Seminario para profesionales de la salud mental sobre evidencia científica y bases clínicas de la psicoterapia asistida con psilocibina. Incluye introducción, historia cultural, principios de la terapia y neurociencia de los psicodélicos clásicos.",
+   "url": "https://www.clinicasynaptica.com/es/formacion-psilocibina/",
+   "lat": 40.417,
+   "lon": -3.704
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "3.600 ILS",
+   "precio_eur": 936,
+   "ciudad": null,
+   "idiomas": [
+    "en",
+    "he"
+   ],
+   "destinatarios": "clinicos",
+   "tipo_entidad": "asociacion",
+   "id": "acpt-israel-psychedelic-guide-training",
+   "nombre": "Psychedelic Guide Training for Israeli Therapists (ACPT Israel)",
+   "nombre_es": "Formación de guías psicodélicos para terapeutas de Israel de ACPT",
+   "entidad": "ACPT Israel",
+   "tipo": [
+    "facilitacion",
+    "terapia"
+   ],
+   "modalidad": "mixta",
+   "pais": "IL",
+   "duracion": "Formación del Psychedelic Sitters School adaptada a terapeutas israelíes; la cohorte publicada es la de primavera de 2025",
+   "descripcion": "Asociación israelí que ofrece a terapeutas con licencia el programa de formación de guías del Psychedelic Sitters School. Tiene además cursos breves sobre psilocibina, ketamina, ayahuasca e integración.",
+   "url": "https://acptisrael.com/en/pgt25-en/",
+   "lat": 32.085,
+   "lon": 34.782
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "psilocibina",
+    "ketamina",
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Consultar",
+   "precio_eur": null,
+   "ciudad": "Boulder",
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "todos",
+   "tipo_entidad": "instituto",
+   "id": "psychedelic-sitters-school-guide-training",
+   "nombre": "Psychedelic Sitters School training program",
+   "nombre_es": "Formación del Psychedelic Sitters School",
+   "entidad": "Psychedelic Sitters School (Center for Medicinal Mindfulness)",
+   "tipo": [
+    "facilitacion",
+    "terapia"
+   ],
+   "modalidad": "mixta",
+   "pais": "US",
+   "duracion": "Itinerario por niveles a ritmo propio (guía, terapeuta y especialista) con clases en directo y retiros; 35.ª cohorte en 2025",
+   "descripcion": "Escuela que forma desde 2012 en terapia psicodélica basada en la atención plena. Combina clases en línea y presenciales, con grupos en varios países, y ofrece credenciales de integración, guía, terapeuta y especialista.",
+   "url": "https://psychedelicsittersschool.org/training-program-overview/",
+   "lat": 40.015,
+   "lon": -105.271
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "ce"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Consultar",
+   "precio_eur": null,
+   "ciudad": null,
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "clinicos",
+   "tipo_entidad": "empresa",
+   "id": "equanimity-therapy-academy-psychedelic-assisted-therapy-courses",
+   "nombre": "Psychedelic-assisted therapy courses (Equanimity Therapy Academy)",
+   "nombre_es": "Cursos de terapia asistida con psicodélicos de Equanimity Therapy Academy",
+   "entidad": "Equanimity Therapy Academy (Syntonic)",
+   "tipo": [
+    "terapia",
+    "introduccion"
+   ],
+   "modalidad": "en_linea",
+   "pais": "ZA",
+   "duracion": "Cursos en línea acreditados para formación continuada (CPD) por el organismo sudafricano de profesiones sanitarias",
+   "descripcion": "Cursos en línea para profesionales de la salud mental. El introductorio está pensado para el contexto médico sudafricano y se apoya en evidencia internacional.",
+   "url": "https://www.equanimitytherapyacademy.com/",
+   "lat": -30.56,
+   "lon": 22.94
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "psilocibina",
+    "mdma",
+    "ketamina"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "3.995 USD según un comparador (agosto de 2025)",
+   "precio_eur": 3436,
+   "ciudad": "Nueva York",
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "clinicos",
+   "tipo_entidad": "empresa",
+   "id": "beckley-academy-relational-psychedelic-assisted-therapy",
+   "nombre": "Relational Psychedelic-Assisted Therapy (Beckley Academy)",
+   "nombre_es": "Terapia asistida con psicodélicos relacional de Beckley Academy",
+   "entidad": "Beckley Academy",
+   "tipo": [
+    "terapia"
+   ],
+   "modalidad": "en_linea",
+   "pais": "US",
+   "duracion": "6 meses en línea; existe también un curso de fundamentos de 13 semanas",
+   "descripcion": "Formación en línea para profesionales de la salud mental sobre habilidades aplicables a distintos estados no ordinarios de conciencia. La academia publicó un marco de aprendizaje abierto para la terapia asistida.",
+   "url": "https://beckleyacademy.com",
+   "lat": 40.713,
+   "lon": -74.006
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 9,
+   "reconocimiento": [
+    "ce",
+    "certificado"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Desde 54 USD al mes",
+   "precio_eur": null,
+   "ciudad": null,
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "todos",
+   "tipo_entidad": "asociacion",
+   "id": "zendo-project-sit-sitting-integration-training",
+   "nombre": "Zendo SIT: Sitting and Integration Training",
+   "nombre_es": "Formación de acompañamiento e integración Zendo SIT",
+   "entidad": "Zendo Project",
+   "tipo": [
+    "riesgos",
+    "integracion"
+   ],
+   "modalidad": "en_linea",
+   "pais": "US",
+   "duracion": "Curso en directo de 4 semanas: 8 h en directo y 1 h de fundamentos a ritmo propio",
+   "descripcion": "Formación en apoyo entre iguales y reducción de riesgos psicodélicos para acompañar experiencias difíciles. Está abierta a cuidadores, personal de apoyo comunitario y público interesado, con plazas subvencionadas y un minicurso gratuito.",
+   "url": "https://zendoproject.org/sit",
+   "lat": 37.0,
+   "lon": -95.7
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "ce",
+    "certificado"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "1.200 USD",
+   "precio_eur": 1032,
+   "ciudad": "Portland",
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "ayuda",
+   "tipo_entidad": "instituto",
+   "id": "fluence-integration-essentials",
+   "nombre": "Integration Essentials (Fluence)",
+   "nombre_es": "Fundamentos de integración psicodélica de Fluence",
+   "entidad": "Fluence International",
+   "tipo": [
+    "integracion"
+   ],
+   "modalidad": "en_linea",
+   "pais": "US",
+   "duracion": "12 semanas en directo; da 15 créditos de formación continuada",
+   "descripcion": "Curso de integración con distintas perspectivas sobre la sanación psicodélica, teorías de los efectos, reducción de riesgos y precauciones de seguridad. Se ofrece cada trimestre.",
+   "url": "https://www.fluencetraining.com/",
+   "lat": 45.523,
+   "lon": -122.676
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 31,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "2.100 USD",
+   "precio_eur": 1806,
+   "ciudad": "Portland",
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "ayuda",
+   "tipo_entidad": "instituto",
+   "id": "fluence-psychedelic-harm-reduction-integration-therapy",
+   "nombre": "Psychedelic Harm Reduction and Integration Therapy (Fluence)",
+   "nombre_es": "Reducción de riesgos e integración terapéutica psicodélica de Fluence",
+   "entidad": "Fluence International",
+   "tipo": [
+    "riesgos",
+    "integracion"
+   ],
+   "modalidad": "en_linea",
+   "pais": "US",
+   "duracion": "7 semanas: 29,5 h en directo y 2 h grabadas, con un grupo opcional en casa de 4 h",
+   "descripcion": "Curso para profesionales sobre reducción de riesgos e integración de experiencias psicodélicas. Combina clases en directo con material grabado.",
+   "url": "https://www.fluencetraining.com/",
+   "lat": 45.523,
+   "lon": -122.676
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "activa",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "ce",
+    "universidad"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": "2027-03-04",
+   "precio": "Consultar",
+   "precio_eur": null,
+   "ciudad": "Boston",
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "clinicos",
+   "tipo_entidad": "universidad",
+   "id": "harvard-medical-school-cme-psychedelic-assisted-psychotherapy",
+   "nombre": "Psychedelic-Assisted Psychotherapy: New Choices, New Tensions (Harvard Medical School CME)",
+   "nombre_es": "Psicoterapia asistida con psicodélicos: nuevas opciones, nuevas tensiones (formación continuada de Harvard Medical School)",
+   "entidad": "Harvard Medical School (formación médica continuada)",
+   "tipo": [
+    "terapia",
+    "introduccion"
+   ],
+   "modalidad": "mixta",
+   "pais": "US",
+   "duracion": "Dos días, el 4 y el 5 de marzo de 2027, con asistencia presencial o virtual en directo",
+   "descripcion": "Curso de formación médica continuada de la Facultad de Medicina de Harvard para profesionales de la salud. El catálogo ofrece tarifas distintas para médicos, enfermería, residentes y otros profesionales sanitarios.",
+   "url": "https://cmecatalog.hms.harvard.edu/psychedelic-assisted-psychotherapy",
+   "lat": 42.336,
+   "lon": -71.104
+  },
+  {
+   "revisado": "2026-11-24",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "universidad"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Consultar",
+   "precio_eur": null,
+   "ciudad": "Nueva York",
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "clinicos",
+   "tipo_entidad": "universidad",
+   "id": "nyu-langone-psychedelic-medicine-research-training-program",
+   "nombre": "Psychedelic Medicine Research Training Program (NYU Langone)",
+   "nombre_es": "Programa de formación en investigación en medicina psicodélica de NYU Langone",
+   "entidad": "NYU Langone Health, Center for Psychedelic Medicine",
+   "tipo": [
+    "investigacion"
+   ],
+   "modalidad": "presencial",
+   "pais": "US",
+   "duracion": "Programa para investigadores noveles con formación, mentoría y financiación para estudios piloto",
+   "descripcion": "Programa de un centro universitario de medicina para investigadores en los inicios de su carrera. Ofrece educación, mentoría, oportunidades de formación y financiación de proyectos piloto.",
+   "url": "https://med.nyu.edu/departments-institutes/psychiatry/research/psychedelic-medicine/education-training",
+   "lat": 40.742,
+   "lon": -73.974
   }
  ]
 }
