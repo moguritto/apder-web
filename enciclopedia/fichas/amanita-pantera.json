@@ -1,0 +1,238 @@
+{
+ "slug": "amanita-pantera",
+ "tipo": "hongo",
+ "migas": "Hongo · Amanitáceas · Eurasia",
+ "nombre": "Amanita pantera",
+ "cientifico": "Amanita pantherina",
+ "autoridad": "(DC.) Krombh.",
+ "descripcion": "Amanita pantera (Amanita pantherina): hongo de Eurasia emparentado con la muscaria, con ácido iboténico y muscimol; potencia variable y mal acotada.",
+ "entrada": "Un hongo de Eurasia de la misma sección que la amanita muscaria, con la que comparte ácido iboténico y muscimol. Se le llama «panther cap» y «false blusher» por su parecido con otro hongo comestible, la amanita rojiza. Se le considera venenoso y psicoactivo a la vez.[1][2][3]",
+ "otros": "amanita pantera · panther cap · panther amanita · false blusher",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hongo de sombrero y anillo, de la sección de la muscaria"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Eurasia, con introducciones en otros lugares"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Cuerpo fructífero"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Ácido iboténico y muscimol"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Sin uso ritual documentado en las fuentes consultadas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un pariente de la muscaria",
+  "parrafos": [
+   "<em>Amanita pantherina</em> es un hongo de Eurasia llamado «panther cap», «false blusher» y «panther amanita» por su semejanza con la amanita rojiza (<em>Amanita rubescens</em>).[2]",
+   "Pertenece a la sección <em>Amanita</em>, junto a <em>A. muscaria</em> y sus parientes cercanos como <em>A. gemmata</em>, <em>A. farinosa</em> y <em>A. xanthocephala</em>.[1]",
+   "Sus rasgos incluyen láminas libres, anillo y volva en el pie y esporada blanca; es micorrícico.[2]",
+   "Se cree que llegó a África del Sur junto con árboles importados de Europa y Asia.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Amanitáceas"
+   ],
+   [
+    "Esporada",
+    "Blanca"
+   ],
+   [
+    "Ecología",
+    "Micorrícico"
+   ],
+   [
+    "Distribución",
+    "Eurasia"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Esta ficha no es una guía de identificación: varias amanitas son tóxicas y se confunden entre sí."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "A la sombra de la muscaria",
+  "parrafos": [
+   "Las fuentes consultadas no documentan un uso ritual específico de este hongo por un pueblo determinado; la tradición escrita gira en torno a <em>Amanita muscaria</em>, usada ritualmente por chamanes de Siberia desde al menos los siglos XVII a XIX.[4]",
+   "Erowid agrupa a las dos como los amanitas psicoactivos más comunes y señala que su inebriación es muy distinta de la de los hongos de psilocibina.[5]",
+   "Hoy se comercializa en el sector del bienestar y de etnobotánica, con un estatus legal que cambia de un país a otro; las fuentes divulgativas lo mencionan sin garantías.[6]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "amanita pantera",
+    "castellano"
+   ],
+   [
+    "<em>panther cap</em>, <em>false blusher</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Bosques de Eurasia",
+  "parrafos": [
+   "Se encuentra en Eurasia.[2] Sus variedades norteamericanas, como la variedad <em>pantherinoides</em>, se consideran incomestibles y posiblemente venenosas.[2]",
+   "Vive asociada a árboles por micorriza.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No identificarlo sin un experto micólogo local.",
+   "Conocer el riesgo de confusión con hongos comestibles.",
+   "No recolectar en espacios protegidos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-amanita-pantera.svg",
+   "alt": "Mapa con Eurasia templada sombreada.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la amanita pantera"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Ácido iboténico y muscimol",
+  "parrafos": [
+   "Contiene ácido iboténico y muscimol, dos compuestos psicoactivos; el ácido iboténico se considera responsable de su toxicidad.[3]",
+   "Ambos se aislaron también de <em>A. strobiliformis</em> y de <em>A. pantherina</em>.[7]",
+   "Del ácido iboténico, al secarse o calentarse, deriva el muscimol por descarboxilación.[7][6]",
+   "En <em>A. pantherina</em> se han aislado además el ácido estizolóbico y el estizolobínico, de farmacología poco conocida.[7]",
+   "Erowid indica que en Norteamérica la potencia media de <em>A. pantherina</em> es mayor que la de <em>A. muscaria</em>, aunque con datos limitados.[5]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Muscimol",
+    "clase": "isoxazol",
+    "img": null,
+    "texto": "Producto de descarboxilación del ácido iboténico; señalado como principal responsable de los efectos psicoactivos.[6]"
+   },
+   {
+    "nombre": "Ácido iboténico",
+    "clase": "aminoácido",
+    "img": null,
+    "texto": "Compuesto atribuido a la toxicidad del hongo; precursor del muscimol.[3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una inebriación distinta",
+  "parrafos": [
+   "Erowid señala que la intoxicación por amanitas es muy distinta de la de los hongos de psilocibina.[5]",
+   "No hay datos fiables de aparición ni de duración en las fuentes consultadas."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Se han estudiado desde los años sesenta la química y la farmacología del ácido iboténico y el muscimol.[7][8]",
+   "Los estudios sobre el uso humano se refieren sobre todo a <em>A. muscaria</em>."
+  ],
+  "alcance": "Química y farmacología; sin ensayos clínicos específicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es venenoso y psicoactivo a la vez; el ácido iboténico se asocia a su toxicidad.[3]"
+   ],
+   [
+    "Confusión",
+    "Su parecido con un hongo comestible ha dado nombre a «false blusher».[2]"
+   ],
+   [
+    "Variabilidad",
+    "Su potencia varía y los datos son limitados.[5]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos tradicionales y clínicos propios."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Amanita muscaria",
+   "Amanita muscaria",
+   "El pariente más conocido, con uso ritual siberiano.",
+   "enciclopedia/amanita-muscaria/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Amanita muscaria</em> (sección <em>Amanita</em>). wikipedia.org/wiki/Fly_agaric.",
+  "Wikipedia. <em>Amanita pantherina</em>. wikipedia.org/wiki/Panther_cap.",
+  "Wikipedia. <em>Amanita pantherina</em> (compuestos y toxicidad). en.wikipedia.org/wiki/Amanita_pantherina.",
+  "Hartmann, M. y otros. Uso accidental de <em>Amanita</em> psicotrópicas (historia de <em>A. muscaria</em> en Siberia). bibliography.maps.org/resources/download/20545.",
+  "Erowid. <em>Psychoactive Amanita: Basics</em>. erowid.org/amanitas/amanitas_basics.shtml.",
+  "Rentry. <em>Panther Fly Agaric: Botanical Profile and Psychoactive Chemistry</em> (fuente divulgativa). rentry.co/kegck9u7.",
+  "Ott, J. <em>Pharmacotheon</em> (extracto). erowid.org/amanitas/amanitas_info_ott.shtml.",
+  "Catalfomo, P. y Eugster, C. H. <em>Bulletin on Narcotics</em>. unodc.org/unodc/en/data-and-analysis/bulletin/bulletin_1970-01-01_4_page005.html."
+ ],
+ "tipo_txt": "Hongo",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ajenjo",
+  "ajenjo"
+ ],
+ "siguiente": [
+  "Antorcha peruana",
+  "antorcha-peruana"
+ ]
+}
