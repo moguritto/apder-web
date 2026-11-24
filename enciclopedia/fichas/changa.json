@@ -1,0 +1,249 @@
+{
+ "slug": "changa",
+ "tipo": "preparado",
+ "migas": "Preparado · Mezcla moderna · Australia",
+ "nombre": "Changa",
+ "cientifico": "DMT con planta inhibidora de la MAO",
+ "autoridad": "",
+ "descripcion": "Changa: mezcla moderna para fumar que combina DMT con plantas inhibidoras de la MAO, creada en Australia hacia 2003–2004; no es una tradición indígena.",
+ "entrada": "Una mezcla de hierbas para fumar que combina DMT con una planta con inhibidores de la monoaminooxidasa (IMAO), casi siempre la liana del ayahuasca o la ruda siria. La creó el australiano Julian Palmer en 2003–2004 y la difundió después por festivales de varios continentes. Es una invención moderna inspirada en el saber amazónico, no una tradición indígena.[1][2]",
+ "otros": "changa · xanga · fumable de ayahuasca · smokeable ayahuasca",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Mezcla fumable de DMT e inhibidores de la MAO"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Origen en Australia; difusión mundial"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hierbas con DMT o extracto sobre hierbas IMAO"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "DMT y alcaloides β-carbolínicos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Experiencia más breve que la del ayahuasca, según una fuente divulgativa"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Sin pueblo originario; el conocimiento de mezclar DMT e IMAO viene de culturas amazónicas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Ingredientes",
+  "titulo": "Dos piezas",
+  "parrafos": [
+   "La changa consta de dos componentes principales: dimetiltriptamina (DMT) y un inhibidor de la monoaminooxidasa (IMAO), típicamente de origen vegetal como <em>Banisteriopsis caapi</em> o <em>Peganum harmala</em> (ruda siria).[1]",
+   "Las plantas con DMT que se usan en estas mezclas incluyen especies de <em>Mimosa</em>, <em>Psychotria viridis</em>, <em>Diplopterys cabrerana</em> y <em>Acacia</em>.[1]",
+   "A menudo se añaden otras hierbas, como pasiflora, menta, gordolobo o loto azul, para modificar la experiencia.[3]",
+   "No hay una receta única: las mezclas varían mucho según los ingredientes y su proporción, y hay debate sobre qué es una «verdadera» changa.[4][5]"
+  ],
+  "rasgos": [
+   [
+    "Tipo",
+    "Mezcla para fumar"
+   ],
+   [
+    "Activos",
+    "DMT + IMAO"
+   ],
+   [
+    "Creada",
+    "Australia, 2003–2004"
+   ],
+   [
+    "Variantes",
+    "Muchas, sin receta fija"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva; no incluye recetas ni indicaciones de preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Una invención reciente",
+  "parrafos": [
+   "La changa fue nombrada y desarrollada por el australiano Julian Palmer en 2003–2004; desde mediados de esa década la promovió en festivales de Europa, Asia, África y Sudamérica.[1][6]",
+   "Palmer la concibió como alternativa a fumar cristales de DMT puros, que a su juicio dejaban a menudo a las personas desbordadas.[6]",
+   "Según se cuenta, el nombre surgió durante una sesión de ayahuasca en la que Palmer «pidió» un nombre.[1]",
+   "Un texto de Erowid recuerda que mezclas de DMT con sustratos de caapi ya se describían en 2006 en <em>The Entheogen Review</em>, sin llamarlas changa, y que en 1985 Gracie y Zarkov describieron experiencias con extractos fumados de pasiflora, ruda siria y caapi.[7]",
+   "El conocimiento de mezclar DMT con inhibidores de la MAO procede de culturas nativas.[1]",
+   "Como dice Palmer, la changa «es ya su propia tradición».[8]"
+  ],
+  "cronologia": [
+   [
+    "1985",
+    "Gracie y Zarkov describen extractos fumados con plantas β-carbolínicas"
+   ],
+   [
+    "2003–2004",
+    "Julian Palmer crea la changa"
+   ],
+   [
+    "Mediados de los 2000",
+    "Difusión por festivales en varios continentes"
+   ]
+  ],
+  "nombres": [
+   [
+    "changa, xanga",
+    "nombre moderno"
+   ],
+   [
+    "ayahuasca fumable",
+    "descripción popular"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "De Australia al mundo",
+  "parrafos": [
+   "Según un colaborador de Erowid, la changa se produce sobre todo en Australia.[7]",
+   "Una de sus bases es el DMT extraído de especies locales de <em>Acacia</em>.[8]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocer que es una creación moderna.",
+   "Respetar la tradición amazónica de la que toma ideas.",
+   "No confundirla con una medicina tradicional."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-changa.svg",
+   "alt": "Mapa con Australia sombreada.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Origen de la changa"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "DMT y β-carbolinas",
+  "parrafos": [
+   "La DMT por vía fumada se potencia y alarga con los alcaloides β-carbolínicos de la planta IMAO.[9]",
+   "Una fuente divulgativa describe una experiencia en torno a un 75 % más corta y más suave que la del ayahuasca; es una valoración de esa fuente.[5]",
+   "Los alcaloides IMAO de la hoja de <em>B. caapi</em> están en concentraciones bajas, de aproximadamente 0,28–0,7 %, según Erowid.[7]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Más breve que el ayahuasca",
+  "parrafos": [
+   "Las fuentes divulgativas la describen como más breve y suave que el ayahuasca, y más sostenida que la DMT fumada sola.[9][5]",
+   "No hay datos fiables de aparición ni de duración procedentes de estudios."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "más breve que el ayahuasca (fuente divulgativa)"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Hay poca investigación formal: los datos vienen de informes de usuarios, de divulgación y de análisis de muestras.[7]"
+  ],
+  "alcance": "Casi sin investigación formal."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Composición variable",
+    "Las dosis y los ingredientes varían mucho entre muestras.[4]"
+   ],
+   [
+    "Contexto",
+    "Es una creación reciente, no una práctica de pueblos originarios.[1][6]"
+   ],
+   [
+    "Interacciones",
+    "Los inhibidores de la MAO pueden interactuar con otras sustancias y con fármacos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Chacruna",
+   "Psychotria viridis",
+   "Una de las plantas con DMT que se usan.",
+   "enciclopedia/chacruna/"
+  ],
+  [
+   "planta",
+   "Acacias",
+   "Acacia spp.",
+   "Fuente de DMT en la changa australiana.",
+   "enciclopedia/acacias/"
+  ],
+  [
+   "preparado",
+   "Ayahuasca",
+   "Banisteriopsis caapi + Psychotria viridis",
+   "La bebida amazónica de la que se inspira.",
+   "enciclopedia/ayahuasca/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Changa (drug)</em>. en.wikipedia.org/wiki/Changa_(drug).",
+  "Double Blind Mag. <em>What to Know About Changa, the Smokable «Ayahuasca»</em>. newsletter.doubleblindmag.com/p/what-to-know-about-changa-the-smokable-ayahuasca.",
+  "Double Blind Mag. <em>DMT plants</em>. doubleblindmag.com/dmt-plants/.",
+  "Double Blind Mag. <em>What is changa, smokeable ayahuasca?</em>. doubleblindmag.com/what-is-changa-smokeable-ayahausca/.",
+  "Tripsitter. <em>Changa: Smokeable Ayahuasca</em>. tripsitter.substack.com/p/changa.",
+  "Wikipedia. <em>Julian Palmer</em>. en.wikipedia.org/wiki/Julian_Palmer.",
+  "Erowid. <em>Got Changa?</em>. erowid.org/dmt/dmt_article1.shtml.",
+  "Knowledge Mapping (HEIG-VD). Changa. knowledge-mapping.heig-vd.ch/view/3083.",
+  "Healing Maps. <em>What Is Changa?</em>. healingmaps.com/what-is-changa-effects-dosage-recipes/."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Chaliponga",
+  "chaliponga"
+ ],
+ "siguiente": [
+  "Chiric sanango",
+  "chiric-sanango"
+ ]
+}
