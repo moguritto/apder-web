@@ -1,0 +1,248 @@
+{
+ "slug": "pericon",
+ "tipo": "planta",
+ "migas": "Planta · Asteráceas · México y Centroamérica",
+ "nombre": "Pericón",
+ "cientifico": "Tagetes lucida",
+ "autoridad": "Cav.",
+ "descripcion": "Pericón (Tagetes lucida): hierba aromática de México y Centroamérica, incienso azteca (yauhtli) y tabaco ritual huichol. Historia y química.",
+ "entrada": "Una hierba aromática perenne de México y Centroamérica. Los aztecas la usaron en un incienso ritual llamado yauhtli, los mayas la añadieron a mezclas de tabaco y hoy se bebe como té y se emplea como tranquilizante tradicional.[1][2]",
+ "otros": "pericón · yerbaniz · hierbanís · tzitziqui · yauhtli · sweet marigold · Mexican tarragon · Tagetes lucida",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba aromática de la familia de las margaritas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "México y Centroamérica"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Las partes aéreas, con flores"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Aceites esenciales, metileugenol y flavonoides"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Mexicas, mayas, huicholes y medicina popular mexicana"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una caléndula aromática",
+  "parrafos": [
+   "<em>Tagetes lucida</em> es una planta perenne de la familia de las asteráceas, nativa de México y Centroamérica.[1]",
+   "Mide de 45 a 75 cm, necesita pleno sol o sombra ligera, y puede ser erguida o arbustiva, según la variedad.[1] Sus cabezuelas miden unos 15 mm y tienen de 3 a 5 flores radiales amarillo dorado.[1]",
+   "El género <em>Tagetes</em> tiene aproximadamente 50-55 especies.[2] El pericón (<em>T. lucida</em>), el cinco llagas (<em>T. lunulata</em>) y el anisillo (<em>T. micrantha</em>) se usan como recurso terapéutico en Nicolás Romero, estado de México.[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Asteraceae"
+   ],
+   [
+    "Altura",
+    "45 a 75 cm"
+   ],
+   [
+    "Flor",
+    "Cabezuelas de unos 15 mm, amarillo dorado"
+   ],
+   [
+    "Aroma",
+    "Anisado"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Yauhtli, incienso y tabaco",
+  "parrafos": [
+   "Los aztecas la usaron en un incienso ritual llamado yauhtli y la dedicaron al dios de la lluvia, Tláloc.[1]",
+   "Los arqueólogos hallaron que los mayas la usaban como aditivo en mezclas de tabaco.[1]",
+   "Se ha informado de que los huicholes de México la fuman con <em>Nicotiana rustica</em> como enteógeno, y de que a veces se fuma sola como alucinógeno.[1]",
+   "Hoy se sigue usando sobre todo como té para el resfriado, los gases intestinales y la diarrea.[1]",
+   "Entre los nombres comunes figuran pericón, yerbaniz y hierbanís, además de «sweet marigold» y «Mexican tarragon».[1]",
+   "En Morelos, curanderos y vendedores de mercado la emplean por sus propiedades tranquilizantes.[3]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "pericón",
+    "México"
+   ],
+   [
+    "yerbaniz, hierbanís",
+    "otros nombres españoles"
+   ],
+   [
+    "tzitziqui",
+    "náhuatl"
+   ],
+   [
+    "<em>yauhtli</em>",
+    "incienso azteca"
+   ]
+  ],
+  "nota_nombres": "En las fuentes sobre el yauhtli se discute su identificación exacta; aquí solo se recoge lo que se atribuye a <em>Tagetes lucida</em>.[1]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "México y Centroamérica",
+  "parrafos": [
+   "Es nativa de México y Centroamérica y se cultiva en otros lugares como aromática.[1]",
+   "Los estudios etnobotánicos se hicieron con curanderos y mercados del estado de Morelos y con comunidades de Nicolás Romero, en el estado de México.[2][3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como planta de las tradiciones mexicanas.",
+   "Preguntar a quienes la usan y la venden.",
+   "Respetar a los pueblos que la guardan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-pericon.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre México y Centroamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del pericón"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Aceites esenciales y flavonoides",
+  "parrafos": [
+   "Entre sus compuestos aparecen el metileugenol y la quercetina.[1]",
+   "Los metabolitos secundarios del género <em>Tagetes</em> dan a las plantas sus propiedades medicinales, y producen pigmentos que se usan en la agroindustria.[4]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Metileugenol",
+    "clase": "Fenilpropanoide",
+    "img": null,
+    "texto": "Compuesto aromático identificado en la planta.[1]"
+   },
+   {
+    "nombre": "Quercetina",
+    "clase": "Flavonoide",
+    "img": null,
+    "texto": "Flavonoide presente en la planta.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un tranquilizante suave",
+  "parrafos": [
+   "En Morelos se usa en la medicina tradicional para influir en la actividad del sistema nervioso central, como tranquilizante.[3]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Un estudio de 2016 reunió entrevistas a curanderos y vendedores de Morelos con pruebas en ratones, que mostraron respuestas ansiolíticas y sedantes.[3]",
+   "No hay estudios clínicos en personas."
+  ],
+  "alcance": "Etnobotánica y modelos animales; sin ensayos en personas."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "El uso fumado como enteógeno solo se conoce por informes aislados.[1]"
+   ],
+   [
+    "Confusión de plantas",
+    "Hay varias especies de <em>Tagetes</em> y no son intercambiables.[2]"
+   ],
+   [
+    "Contexto",
+    "Su uso ritual pertenece a pueblos concretos.[1]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Tabaco",
+   "Nicotiana tabacum",
+   "Planta con la que se mezcla en el uso ritual huichol.",
+   "enciclopedia/tabaco/"
+  ],
+  [
+   "planta",
+   "Ajenjo",
+   "Artemisia absinthium",
+   "Otra asterácea aromática de uso tradicional.",
+   "enciclopedia/ajenjo/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Tagetes lucida</em>. wikipedia.com/wiki/Tagetes_lucida.",
+  "Etnobotánica y morfo-anatomía comparada de tres especies de <em>Tagetes</em> que se utilizan en Nicolás Romero, Estado de México. Botanical Sciences. 2012;90(3):221-232. scielo.org.mx/pdf/bs/v90n3/v90n3a1.pdf.",
+  "<em>Tagetes lucida</em> Cav.: ethnobotany, phytochemistry and pharmacology of its tranquilizing properties. J Ethnopharmacol. 2016;181:221-228. pesquisa.bvsalud.org/bvsms/resource/pt/mdl-26873624.",
+  "Tagetes (género): usos y metabolitos. core.ac.uk/download/322440759.pdf."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ololiuqui",
+  "ololiuqui"
+ ],
+ "siguiente": [
+  "Peyote",
+  "peyote"
+ ]
+}
