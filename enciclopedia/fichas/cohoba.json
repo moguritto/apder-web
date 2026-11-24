@@ -1,0 +1,249 @@
+{
+ "slug": "cohoba",
+ "tipo": "preparado",
+ "migas": "Preparado · Rapé · Caribe taíno",
+ "nombre": "Cohoba",
+ "cientifico": "Anadenanthera peregrina (semillas)",
+ "autoridad": "",
+ "descripcion": "Cohoba: rapé ceremonial de los taínos del Caribe, que aspiraban los especialistas rituales para comunicarse con los zemís; la tradición vinculada al yopo.",
+ "entrada": "El polvo que los taínos de La Española aspiraban en ceremonias para comunicarse con sus deidades, los zemís. Fray Ramón Pané lo describió hacia 1498 en la primera cita escrita, y la arqueología ha confirmado, en Puerto Rico, restos de almidón compatibles con semillas de cojoba.[1][2][3]",
+ "otros": "cohoba · cojoba · cojóbana · kohobba · rapé taíno · Anadenanthera peregrina",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Rapé ceremonial de semillas, con tubos y bandejas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Antillas: La Española, Puerto Rico, Cuba oriental, Jamaica"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Semillas de cojoba"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Bufotenina y DMT, según análisis del árbol"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Taínos y descendientes"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Ingredientes",
+  "titulo": "Polvo de cojoba",
+  "parrafos": [
+   "Las semillas de <em>Anadenanthera peregrina</em> se usaban como rapé, aspirado a través de un tubo de madera en forma de Y.[3]",
+   "Fernández de Oviedo (1556) describió un árbol alucinógeno de los taínos; Safford (1916) lo identificó como <em>Anadenanthera peregrina</em>.[2]",
+   "Sauer (1966) señaló que la cojóbana, <em>A. peregrina</em>, se usaba como rapé narcótico mezclado con tabaco y que probablemente se introdujo desde Sudamérica.[2]",
+   "Una confusión taxonómica llevó a que otra leguminosa sin potencial narcótico se tomara por <em>A. peregrina</em> en la literatura.[2]"
+  ],
+  "rasgos": [
+   [
+    "Origen",
+    "Semillas de cojoba"
+   ],
+   [
+    "Uso",
+    "Aspirado como rapé"
+   ],
+   [
+    "Utensilios",
+    "Tubos de madera, bandejas"
+   ],
+   [
+    "Contexto",
+    "Ceremonia taína"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha histórica; no incluye indicaciones de preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La ceremonia de los zemís",
+  "parrafos": [
+   "Durante el segundo viaje de Colón (1493–1496), el almirante comentó un «polvo» misterioso que los «reyes» taínos de La Española aspiraban y con el que perdían la conciencia.[4]",
+   "Colón encargó a fray Ramón Pané estudiar las costumbres taínas; Pané escribió que el buhuitihu, o chamán, toma un polvo llamado cohoba, que lo embriaga hasta no saber lo que hace.[4]",
+   "En su Relación, Pané describe la cohoba como un polvo que los hace «purgarse» mucho, según una recopilación universitaria.[2]",
+   "En esa ceremonia, los taínos se sentaban en círculo para comunicarse con sus deidades.[2]",
+   "Se ha sugerido que los especialistas rituales la usaron también en curación, en especial para diagnosticar enfermedades mediante visiones.[3]",
+   "Un zemí de guayacán taíno usado como soporte de cohoba, probablemente de La Española, se ha fechado entre 974 y 1020 d. C.[5]",
+   "Hay objetos asociados a esas ceremonias, como soportes para el polvo y palos para provocar vómitos rituales.[6]"
+  ],
+  "cronologia": [
+   [
+    "974–1020 d. C.",
+    "Zemí taíno soporte de cohoba (datación del objeto)"
+   ],
+   [
+    "1150–1250 d. C.",
+    "Almidones de cojoba en un molino de coral en Puerto Rico"
+   ],
+   [
+    "1493–1498",
+    "Colón y Ramón Pané describen el polvo"
+   ]
+  ],
+  "nombres": [
+   [
+    "cohoba, cojoba",
+    "taíno"
+   ],
+   [
+    "cojóbana, kohobba",
+    "variantes de cronistas"
+   ],
+   [
+    "yopo",
+    "nombre en Sudamérica"
+   ]
+  ],
+  "nota_nombres": "Durante siglos se creyó que la cohoba era una forma de tabaco, hasta que Safford la identificó con el rapé de <em>A. peregrina</em>.[4]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Las Antillas",
+  "parrafos": [
+   "Los taínos ocupaban La Española, Puerto Rico, Jamaica, las Bahamas y el este de Cuba.[7]",
+   "El rango nativo del árbol incluye Puerto Rico, La Española y partes de las Antillas Menores, según Kew.[5]",
+   "Los restos arqueológicos de uso de <em>Anadenanthera</em> aparecen en Argentina, Brasil, Chile, Colombia, Costa Rica, República Dominicana, Haití y Perú.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocer la historia taína.",
+   "Apoyar la memoria de los descendientes taínos.",
+   "No tratar el polvo como mercancía."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-cohoba.svg",
+   "alt": "Mapa con las Antillas Mayores sombreadas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la cohoba"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Bufotenina y DMT",
+  "parrafos": [
+   "La cojoba y sus semillas contienen DMT, según el Museo Nacional de Trinidad y Tobago.[6]",
+   "En el árbol, el alcaloide dominante de la semilla suele ser la bufotenina (5-HO-DMT); la DMT es variable o menor en muchos análisis.[5]",
+   "El trabajo preclínico se ha hecho sobre moléculas, no sobre el árbol ni el rapé; ningún estudio humano controlado caracteriza el polvo con su contexto ritual.[5]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "Las crónicas hablan de pérdida de conciencia, purga y comunicación con los zemís.[2][4]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Se ha estudiado desde la arqueología, la etnohistoria y la botánica, incluidos hallazgos arqueobotánicos en Puerto Rico.[8][9]",
+   "No hay estudios clínicos del polvo.[5]"
+  ],
+  "alcance": "Arqueología y etnohistoria; sin investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Contexto",
+    "Es una ceremonia de pueblos taínos, no una práctica general.[7]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos clínicos y de seguridad.[5]"
+   ],
+   [
+    "Distinguirla",
+    "No debe confundirse con el yopo sudamericano, aunque comparta árbol."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Yopo",
+   "Anadenanthera peregrina",
+   "La tradición sudamericana del mismo árbol.",
+   "enciclopedia/yopo/"
+  ],
+  [
+   "planta",
+   "Cebil",
+   "Anadenanthera colubrina",
+   "Especie hermana.",
+   "enciclopedia/cebil/"
+  ]
+ ],
+ "fuentes": [
+  "Kaye, Q. <em>Intoxicant use in the prehistoric Caribbean with particular reference to spouted ceramic inhaling bowls</em>. student-journals.ucl.ac.uk/pia/article/86/galley/126/view.",
+  "Universidad de Puerto Rico en Mayagüez. Estudio sobre la ceremonia de la cohoba. scholar.uprm.edu (documento en repositorio).",
+  "Wikipedia. <em>Cohoba</em>. en.wikipedia.org/wiki/Cohoba.",
+  "Erowid. <em>The Entheogenic Legumes</em>. erowid.org/dmt/dmt_culture1.shtml.",
+  "LILA visionary.art. <em>Anadenanthera peregrina</em>. visionary.art/pharmakon/plants/anadenanthera-peregrina/.",
+  "National Trust de Trinidad y Tobago. <em>Communicating with spirits, getting high</em>. nationaltrust.tt/wooden-artefacts-cohoba-ceremony/.",
+  "Smarthistory. <em>Taíno: natives of the Caribbean</em>. smarthistory.org/?p=44648.",
+  "Pagán-Jiménez, J. R. Hallazgos arqueobotánicos de cojoba en Puerto Rico. cambridge.org/core/journals/latin-american-antiquity.",
+  "Meijer, J. <em>From the Grave into the Spirit World</em> (tesis, Universidad de Leiden). studenttheses.universiteitleiden.nl."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Coca",
+  "coca"
+ ],
+ "siguiente": [
+  "Cola de león",
+  "cola-de-leon"
+ ]
+}
