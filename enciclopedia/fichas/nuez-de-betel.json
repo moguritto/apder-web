@@ -1,0 +1,267 @@
+{
+ "slug": "nuez-de-betel",
+ "tipo": "planta",
+ "migas": "Planta · Arecáceas · Pacífico, Asia del Sur y Sudeste Asiático",
+ "nombre": "Nuez de betel",
+ "cientifico": "Areca catechu",
+ "autoridad": "L.",
+ "descripcion": "Nuez de betel (Areca catechu): semilla de palma que se mastica desde hace miles de años en Asia y el Pacífico. Botánica, tradición, arecolina y cuidados.",
+ "entrada": "La semilla de una palma que se mastica desde hace milenios, sobre todo envuelta en hoja de betel con cal apagada. Su alcaloide principal, la arecolina, es a la vez su principio psicoactivo y su compuesto más tóxico.[1][3][4]",
+ "otros": "nuez de betel · nuez de areca · areca · betel nut · areca nut · supari · Areca catechu",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Semilla de una palma, mal llamada «nuez»"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Pacífico tropical, Asia del Sur y Sudeste Asiático, y partes del este de África"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La semilla, en el fruto"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Arecolina y otros alcaloides de la areca"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Muchos pueblos de Asia del Sur, Sudeste Asiático y Oceanía"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una semilla de palma, no una nuez",
+  "parrafos": [
+   "La nuez de betel o de areca no es una nuez, sino la semilla del fruto de la palma <em>Areca catechu</em>, que crece en gran parte del Pacífico tropical (Melanesia y Micronesia), Asia del Sur, Sudeste Asiático y partes del este de África.[4][10]",
+   "Es una palma de tronco sin ramas que llega a unos 15 metros, coronada por 6 a 9 frondas.[8] La semilla está dentro de un fruto del tamaño de un huevo, es de color pardo moteado con marcas blanco grisáceas, y se recoge poco antes de madurar, generalmente entre agosto y noviembre, y se cuece y seca hasta que se vuelve parda.[8]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Arecaceae"
+   ],
+   [
+    "Altura",
+    "Hasta unos 15 m"
+   ],
+   [
+    "Fruto",
+    "Del tamaño de un huevo"
+   ],
+   [
+    "Semilla",
+    "Parda moteada"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Masticar durante milenios",
+  "parrafos": [
+   "El «quid de betel», que se prepara tradicionalmente con nuez de areca, hoja de betel y cal apagada, se consume desde hace miles de años, sobre todo masticándolo.[1]",
+   "Para masticarla suelen envolverse unas lonchas de la nuez en una hoja de betel con hidróxido de calcio (cal apagada), y puede llevar clavo, cardamomo, resina de catecú u otras especias.[4]",
+   "Masticar el compuesto de nuez y hoja de betel es una actividad cultural importante y popular en muchos países de Asia del Sur, Sudeste Asiático, Asia oriental y Oceanía.[4]",
+   "En la tradición de Singapur y la región se usa como símbolo del lazo del amor y el matrimonio, y se ofrecen hojas de betel en compromisos y bodas.[8]",
+   "Según la medicina tradicional ayurvédica, masticar nuez de areca y hoja de betel es un buen remedio contra el mal aliento.[4]"
+  ],
+  "cronologia": [
+   [
+    "Hace milenios",
+    "Ya se mastica el quid de betel.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "nuez de betel",
+    "nombre habitual, aunque la planta no es el betel (<em>Piper betle</em>)"
+   ],
+   [
+    "nuez de areca",
+    "nombre botánico más exacto"
+   ],
+   [
+    "<em>supari</em>",
+    "nombre en lenguas del sur de Asia"
+   ]
+  ],
+  "nota_nombres": "El betel propiamente dicho es la hoja de otra planta, <em>Piper betle</em>; la nuez es la semilla de la areca.[8]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una palma del trópico húmedo",
+  "parrafos": [
+   "Es originaria, según algunas fuentes, de Malasia o de Filipinas, y se cultiva y se procesa de forma extensa en regiones subtropicales como el sur de China y la India.[5][6]",
+   "Se vende como producto para masticar en mercados asiáticos de Estados Unidos y Europa.[10]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocer su contexto cultural, que es muy variado según el pueblo.",
+   "Informarse de los riesgos para la salud antes de cualquier uso.",
+   "No tomar el quid como si fuera un alimento corriente."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-nuez-de-betel.svg",
+   "alt": "Mapa con zonas sombreadas en ocre sobre Asia del Sur, el Sudeste Asiático, Oceanía y el este de África.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la nuez de betel"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Arecolina y sus parientes",
+  "parrafos": [
+   "El alcaloide principal es la arecolina.[4] Los alcaloides de la areca son arecolina, arecaidina, guvacolina y guvacina, de estructura parecida; la arecaidina es el producto hidrolizado de la arecolina.[2]",
+   "La arecolina es un alcaloide con propiedades de agonista colinérgico muscarínico, y es el principal componente psicoactivo de la nuez.[7] Es también el principal compuesto tóxico de la planta.[3]",
+   "La arecolina constituye alrededor del 0,25 % de la nuez.[8]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Arecolina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Principal alcaloide de la nuez, agonista muscarínico.[3][7]"
+   },
+   {
+    "nombre": "Arecaidina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Producto hidrolizado de la arecolina.[2]"
+   },
+   {
+    "nombre": "Guvacolina y guvacina",
+    "clase": "Alcaloides",
+    "img": null,
+    "texto": "Otros alcaloides de la areca.[2]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un estimulante suave de ritmo propio",
+  "parrafos": [
+   "Se mastica por sus efectos psicoestimulantes.[9] Esa excitación nerviosa ha contribuido a que se vuelva popular.[5]",
+   "La arecolina produce efectos colinérgicos en el sistema nervioso parasimpático y actúa como agente psicoactivo.[9]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay revisiones sobre su historia y uso, su química, su farmacología y su toxicología.[2][3]",
+   "Una revisión de 2015 recoge que la semilla se ha usado ampliamente en la práctica clínica en China, la India y otros países del sur y sudeste asiático.[3]"
+  ],
+  "alcance": "Hay mucha investigación sobre sus riesgos para la salud; la investigación sobre su valor ritual y cultural es mucho menor."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "La arecolina es a la vez el principal activo y el principal tóxico de la planta.[3]"
+   ],
+   [
+    "Salud bucal",
+    "Masticar nuez de betel se asocia con fibrosis submucosa oral y cáncer oral, entre otros riesgos.[5]"
+   ],
+   [
+    "Dependencia",
+    "El uso prolongado puede crear dependencia del quid de betel.[5]"
+   ],
+   [
+    "Con tabaco",
+    "Se mastica con o sin tabaco, y los riesgos se suman.[7]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Betel",
+   "Piper betle",
+   "La hoja en que se envuelve la nuez.",
+   null
+  ],
+  [
+   "planta",
+   "Kava",
+   "Piper methysticum",
+   "Otra planta masticada o bebida en el Pacífico.",
+   null
+  ],
+  [
+   "planta",
+   "Tabaco",
+   "Nicotiana tabacum",
+   "Se mastica a menudo junto con ella.",
+   "enciclopedia/tabaco/"
+  ]
+ ],
+ "fuentes": [
+  "Revisión sistemática sobre nuez de areca y quid de betel (literatura de 1919 a 2019). pmc.ncbi.nlm.nih.gov/articles/PMC7558723.",
+  "Revisión sobre la nuez de areca: historia, componentes, actividad farmacológica y toxicidad. pmc.ncbi.nlm.nih.gov/articles/PMC10219234.",
+  "Areca catechu L. (Arecaceae): a review of its traditional uses, botany, phytochemistry, pharmacology and toxicology. J Ethnopharmacol. 2015;164:340-356. doi:10.1016/j.jep.2015.02.010.",
+  "Wikipedia. «Areca nut». wikipedia.org/wiki/Supari (consultada el 24-11-2026).",
+  "Revisión sobre la nuez de betel y la arecolina como factor de riesgo de cáncer oral. pmc.ncbi.nlm.nih.gov/articles/PMC8387188.",
+  "Taylor y Francis. Areca. taylorandfrancis.com/knowledge.",
+  "Dependence among daily areca nut chewers in Karnataka, India. pmc.ncbi.nlm.nih.gov/articles/PMC3143027.",
+  "Betel chewing. Infopedia, National Library Board of Singapore. eresources.nlb.gov.sg/infopedia/articles/SIP_883_2004-12-17.html.",
+  "Kozlakidis Z, Cheong IH, Wang H. Betel nut and arecoline: past, present, and future trends. typeset.io.",
+  "LiverTox. Areca nut. Bookshelf NBK590486. ncbi.nlm.nih.gov/books/NBK590486."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Mongui",
+  "mongui"
+ ],
+ "siguiente": [
+  "Ololiuqui",
+  "ololiuqui"
+ ]
+}
