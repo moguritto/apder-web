@@ -1,0 +1,257 @@
+{
+ "slug": "haoma",
+ "tipo": "preparado",
+ "migas": "Preparado · Bebida sagrada · Irán y Asia central",
+ "nombre": "Haoma",
+ "cientifico": "Planta no identificada con certeza",
+ "autoridad": "",
+ "descripcion": "Haoma: bebida y deidad sagrada del Avesta zoroástrico, hermana del soma védico; su planta sigue en debate, con la efedra como candidata más citada.",
+ "entrada": "Haoma es a la vez una bebida ritual de gran importancia en la cultura indoiraní y una deidad. En el Avesta, tres capítulos del Yasna y algunos fragmentos de los Yashts tratan de ella. Los estudiosos no están seguros de cuál era la planta, ni de si era la misma que el soma védico: se han propuesto varias candidatas, entre ellas la efedra.[1][2][3]",
+ "otros": "haoma · hōm · hom · parahaoma · sauma · soma (védico)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Bebida ritual y deidad zoroástrica"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Irán, Asia central, mundo indoiranio"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Tallos de una planta; identidad en debate"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "No determinados; depende de la identificación"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica: no hay un uso descrito con claridad"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Comunidades zoroástricas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La planta",
+  "titulo": "Una planta en debate",
+  "parrafos": [
+   "Tanto el avéstico <em>haoma</em> como el sánscrito <em>soma</em> proceden del protoindoiranio *sauma; la raíz de haoma, <em>hu-</em>, y la de soma, <em>su-</em>, sugiere «prensar» o «machacar».[3]",
+   "Muchos de los atributos físicos de la planta descritos en el Avesta coinciden con la planta usada en la práctica zoroástrica actual.[3]",
+   "La mayoría de las propuestas se han apoyado solo en la lingüística, en la farmacología comparada o en el uso ritual; rara vez se han considerado las tres a la vez.[4]",
+   "Los estudios sobre su identidad han propuesto, entre otras, <em>Ephedra</em>, <em>Peganum harmala</em> (ruda siria), el loto sagrado, el cáñamo y una caña de azúcar; también se han propuesto hongos.[5]",
+   "Un texto de Iranica señala que lo que se atribuye al haoma/soma en el Avesta y los Vedas debe explicarse por las propiedades (psico)farmacológicas de esa planta.[1]"
+  ],
+  "rasgos": [
+   [
+    "Estatuto",
+    "Bebida y deidad"
+   ],
+   [
+    "Texto central",
+    "Yasna y Hōm Yašt (Y. 9–11)"
+   ],
+   [
+    "Candidata más citada",
+    "Efedra"
+   ],
+   [
+    "Otras",
+    "Ruda siria, hongos, cáñamo"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha de naturaleza histórica; la identidad botánica es hipótesis, no un hecho."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Bebida, planta y dios",
+  "parrafos": [
+   "Es la única divinidad con un Yasht que no tiene además un día del mes dedicado en el calendario zoroástrico.[3]",
+   "Según la tradición zoroástrica, Zoroastro recibió su revelación en la orilla de un río mientras preparaba parahaoma.[2] En los himnos, Haoma aparece ante Zoroastro como un «hombre hermoso», que le pide que recoja y prense haoma para purificar las aguas.[2]",
+   "Haoma es símbolo de inmortalidad, pureza y conexión con lo divino en los rituales zoroástricos.[6] El papel del haoma ha evolucionado y sigue siendo relevante en las prácticas zoroástricas contemporáneas.[6]",
+   "El Hōm Yašt es la principal fuente avéstica que da indicios sobre el haoma/soma.[1]",
+   "Hay quien sostiene que no hubo tiempo ritual para una fermentación ni para una destilación, y que no hay prueba textual de ese proceso.[1]",
+   "En el siglo XVIII, tras la traducción del Avesta por Anquetil-Duperron, varios estudiosos buscaron un equivalente botánico del haoma.[5]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XVIII",
+    "Anquetil-Duperron da a conocer el Avesta en Occidente"
+   ],
+   [
+    "1968",
+    "Wasson propone la amanita muscaria"
+   ],
+   [
+    "1989",
+    "Flattery y Schwartz proponen la ruda siria"
+   ]
+  ],
+  "nombres": [
+   [
+    "haoma, hōm",
+    "avéstico y persa medio"
+   ],
+   [
+    "soma",
+    "sánscrito"
+   ],
+   [
+    "parahaoma",
+    "mezcla ritual actual"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un mundo indoiranio",
+  "parrafos": [
+   "Se asocia con el antiguo Irán y con los pueblos indoiranios.[6]",
+   "Hallazgos en sitios de la cultura BMAC, en Asia central, han alimentado la tesis de Harry Falk de que el haoma era un extracto de efedra, aunque también hay trazas de otros pólenes, como cáñamo, adormidera y cannabis.[7]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como símbolo religioso vivo.",
+   "Respetar la tradición zoroástrica.",
+   "Mantener la humildad ante la incertidumbre histórica."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-haoma.svg",
+   "alt": "Mapa con Irán y Asia central sombreados.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del haoma"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Según qué planta",
+  "parrafos": [
+   "Si fue <em>Ephedra</em>, el contenido sería de alcaloides estimulantes; si fue la ruda siria, de β-carbolinas como la harmina y la harmalina.[4][8]",
+   "David Flattery propuso en 1989 que la verdadera planta era la ruda siria y que la efedra sería solo el ingrediente secundario de la mezcla parahaoma.[4][8]",
+   "Wasson y O'Flaherty descartaron la efedra porque no vieron a los sacerdotes zoroástricos intoxicarse.[4]",
+   "Un estudio del Atirātra védico sugiere el uso del soma como bebida que mantiene despiertos a los sacerdotes.[9]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que dicen los textos",
+  "parrafos": [
+   "Los textos avésticos dan casi ningún detalle sobre la droga y sus efectos: hay solo unas cuatro referencias, según un resumen de Flattery.[8]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Es objeto de un largo debate en historia, botánica y estudios religiosos.[6]",
+   "Una revisión etnobotánica reciente aboga por la efedra, por su importancia histórica y sus propiedades psicotrópicas.[6]",
+   "La efedra se consideró dominante hasta que un estudio de 1989 la puso parcialmente en cuestión.[1][3]"
+  ],
+  "alcance": "Estudio filológico, histórico y etnobotánico; identidad abierta."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Identidad",
+    "No hay consenso sobre la planta; cualquier identificación es hipótesis.[3][4]"
+   ],
+   [
+    "Soma y haoma",
+    "Pueden no ser la misma planta; la equivalencia es discutida.[3]"
+   ],
+   [
+    "Tradición viva",
+    "El haoma sigue siendo un rito vivo para comunidades zoroástricas.[6]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Efedra",
+   "Ephedra spp.",
+   "La candidata más citada.",
+   "enciclopedia/efedra/"
+  ],
+  [
+   "planta",
+   "Ruda siria",
+   "Peganum harmala",
+   "La candidata de Flattery.",
+   "enciclopedia/ruda-siria/"
+  ],
+  [
+   "preparado",
+   "Soma",
+   "Bebida de los himnos védicos",
+   "Su hermana védica.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Encyclopaedia Iranica. <em>Haoma i</em>. iranicaonline.org/articles/haoma-i.",
+  "New World Encyclopedia. <em>Haoma</em>. newworldencyclopedia.org/entry/Haoma.",
+  "Wikipedia. <em>Haoma</em>. en.wikipedia.com/wiki/Haoma.",
+  "Wikidoc. <em>Botanical identity of Soma-Haoma</em>. wikidoc.org/index.php/Botanical_identity_of_Soma-Haoma.",
+  "Wikipedia. <em>Botanical identity of soma–haoma</em>. en.wikipedia.com/wiki/Botanical_identity_of_Soma-Haoma.",
+  "Zarei Karyani, T., Yousefzadi, M. y Sheikhakbari-Mehr, R. <em>Haoma: unveiling the mysteries of Iran's sacred Zoroastrian botanical wonder</em>. ethnobotanyjournal.org/index.php/era/article/view/6824.",
+  "Electronic Journal of Vedic Studies. Discusión sobre BMAC y soma/haoma. hasp.ub.uni-heidelberg.de/journals/ejvs/article/download/788/10446/23246.",
+  "Watkins. <em>Soma/haoma and harmel</em>. sjsu.edu/faculty/watkins/soma.htm.",
+  "Encyclopaedia Iranica. Soma y el ritual Atirātra. iranicaonline.org/?p=3214."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Gymnopilus",
+  "gymnopilus"
+ ],
+ "siguiente": [
+  "Hierba cinta",
+  "hierba-cinta"
+ ]
+}
