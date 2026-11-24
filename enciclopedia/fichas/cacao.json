@@ -1,0 +1,294 @@
+{
+ "slug": "cacao",
+ "tipo": "planta",
+ "migas": "Planta · Malváceas · Sotobosque tropical de América",
+ "nombre": "Cacao",
+ "cientifico": "Theobroma cacao",
+ "autoridad": "L.",
+ "descripcion": "Cacao (Theobroma cacao): árbol del sotobosque tropical y bebida ritual de Mesoamérica. Botánica, historia, teobromina, investigación y cuidados.",
+ "entrada": "Un árbol pequeño del sotobosque tropical cuyas semillas se bebían en ceremonias mucho antes de ser chocolate. Su origen se sitúa hoy en la Alta Amazonía, hace unos 5.300 años, y no es un psicodélico: es un estimulante suave.[3][4][5]",
+ "otros": "cacao ceremonial · cocoa · árbol del cacao · alimento de los dioses",
+ "portada": {
+  "img": "idx-cacao.jpg",
+  "alt": "Una mazorca de cacao abierta sobre el árbol, con las semillas cubiertas de pulpa blanca.",
+  "pie": "Mazorca de cacao (<em>Theobroma cacao</em>) abierta.",
+  "cred": "Rodrigo.Argenton · CC BY-SA 4.0"
+ },
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol tropical de hoja perenne que crece bajo el dosel"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Origen en la Alta Amazonía; hoy se cultiva en todos los trópicos"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La semilla, fermentada, tostada y molida hasta hacer pasta"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Teobromina y, en menor cantidad, cafeína"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Unos 30–60 min · 2–4 h; la teobromina tarda en irse"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Olmecas, mayas y mexicas; antes, los mayo-chinchipe"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa del cacao ceremonial",
+  "texto": "Interacciones, quién no debería tomarlo y cómo reducir riesgos.",
+  "url": "sustancias/cacao/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un árbol que da fruto en el tronco",
+  "parrafos": [
+   "Es un árbol pequeño de hoja perenne, de entre 6 y 12 metros en el bosque, donde crece en el sotobosque, bajo los árboles grandes.[1][2]",
+   "Sus flores, diminutas, nacen en racimos pegados directamente al tronco y a las ramas viejas, algo que se llama cauliflora. De ellas salen las mazorcas, de piel acostillada.[1][2]",
+   "Cada mazorca guarda entre 20 y 60 semillas de unos 2,5 cm, envueltas en una pulpa blanca y dulce. Esas semillas, ya fermentadas y tostadas, son lo que llamamos cacao.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Malvaceae"
+   ],
+   [
+    "Porte",
+    "Árbol de 6–12 m, de sotobosque"
+   ],
+   [
+    "Flor",
+    "Pequeña, en racimos sobre el tronco"
+   ],
+   [
+    "Fruto",
+    "Mazorca con 20–60 semillas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Una bebida antes de ser dulce",
+  "parrafos": [
+   "En Mesoamérica, olmecas, mayas y mexicas cultivaban el cacao y lo bebían en ceremonias, bodas y ofrendas, y sus semillas servían de moneda.[4]",
+   "La arqueología ha movido su origen más al sur: en Santa Ana-La Florida, en el sureste de Ecuador, la cultura Mayo-Chinchipe ya usaba cacao hace unos 5.300 años, la huella más antigua conocida. Eso sitúa en la Alta Amazonía el origen de su domesticación.[3]",
+   "Hacia el 1100 a. C., en Puerto Escondido (Honduras), ya se bebían bebidas de cacao.[4] Los españoles lo llevaron a Europa en el siglo XVI, donde se endulzó hasta convertirse en el chocolate. Las ceremonias de cacao de hoy, muy extendidas en círculos de bienestar, mezclan elementos mesoamericanos con prácticas modernas."
+  ],
+  "cronologia": [
+   [
+    "Hace unos 5.300 años",
+    "La cultura Mayo-Chinchipe usa cacao en Santa Ana-La Florida, en la Alta Amazonía de Ecuador.[3]"
+   ],
+   [
+    "Hacia 1100 a. C.",
+    "En Puerto Escondido (Honduras) se beben bebidas de cacao.[4]"
+   ],
+   [
+    "Mesoamérica",
+    "Olmecas, mayas y mexicas lo toman en ceremonias y lo usan como moneda.[4]"
+   ],
+   [
+    "Siglo XVI",
+    "Los españoles lo llevan a Europa, donde se endulza y nace el chocolate."
+   ]
+  ],
+  "nombres": [
+   [
+    "cacao",
+    "palabra que en Mesoamérica nombró a la semilla y a la bebida"
+   ],
+   [
+    "<em>Theobroma</em>",
+    "«alimento de los dioses», nombre que le dio Linneo"
+   ],
+   [
+    "cacao ceremonial",
+    "pasta de cacao puro que se disuelve en agua caliente"
+   ]
+  ],
+  "nota_nombres": "Cacao y cocoa nombran la misma planta; en español se suele llamar cacao a la semilla y a la pasta, y chocolate a la mezcla con azúcar.",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Del sotobosque amazónico a las plantaciones del mundo",
+  "parrafos": [
+   "Su origen se sitúa en las zonas tropicales y húmedas de Sudamérica, con la mayor diversidad cerca de las fronteras de Colombia y Ecuador, en la Alta Amazonía.[3]",
+   "Hoy se cultiva en todos los trópicos. Buena parte del cacao mundial procede de plantaciones donde el trabajo infantil sigue presente, y por eso el origen importa.[8]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Elegir cacao de origen trazable y con condiciones laborales verificadas.",
+   "Preferir a quienes trabajan directamente con comunidades productoras.",
+   "Respetar el cacao como alimento sagrado de pueblos que lo guardan, no como moda."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-cacao.svg",
+   "alt": "Mapa con dos zonas sombreadas en ocre: la Alta Amazonía y Mesoamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Origen en la Alta Amazonía y uso ceremonial en Mesoamérica (áreas aproximadas)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Teobromina, la sustancia principal",
+  "parrafos": [
+   "El cacao contiene teobromina, cafeína y flavanoles. Hay entre tres y diez veces más teobromina que cafeína.[5]",
+   "Teobromina y cafeína son metilxantinas: bloquean los receptores de adenosina, la sustancia del cerebro que da sensación de cansancio, y por eso dan alerta y energía.[5] Un estudio concluyó que las metilxantinas son los componentes psicofarmacológicamente activos del chocolate.[6]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Teobromina",
+    "clase": "Metilxantina · principal",
+    "img": null,
+    "texto": "Estimulante más suave que la cafeína; su semivida en voluntarios sanos es de unas 10 horas, más larga que la de la cafeína.[5]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una energía suave que se queda unas horas",
+  "parrafos": [
+   "Se toma despacio, con una intención, música o silencio. Quien lo bebe describe energía suave y sostenida, calor en el cuerpo, ánimo más alto y una sensación de apertura, durante unas dos a cuatro horas.[5]",
+   "Mucho de lo que se vive procede del ritual y del grupo, más que de la sustancia. Como la teobromina tarda en eliminarse, puede costar dormir esa noche."
+  ],
+  "tiempo": {
+   "horas": 12,
+   "tramos": [
+    [
+     "a",
+     0,
+     1,
+     "Sube"
+    ],
+    [
+     "b",
+     1,
+     4,
+     "Efecto sostenido"
+    ],
+    [
+     "c",
+     4,
+     12,
+     "La teobromina se va"
+    ]
+   ],
+   "res": [
+    [
+     "Empieza",
+     "30–60 min"
+    ],
+    [
+     "Efecto",
+     "2–4 h"
+    ],
+    [
+     "Eliminación",
+     "semivida de unas 10 h"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Una revisión Cochrane, que reúne ensayos con asignación al azar, encontró que el cacao rico en flavanoles baja ligeramente la tensión arterial en estudios cortos.[7]",
+   "Una revisión sobre la teobromina recoge sus efectos sobre el sistema nervioso y los vasos sanguíneos, aunque gran parte del trabajo se ha hecho en laboratorio.[5]"
+  ],
+  "alcance": "Los estudios usan cacao o chocolate habitual, no la cantidad de una ceremonia. No hay evidencia de que el cacao ceremonial trate ninguna enfermedad."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Con mucha cantidad: insomnio, nerviosismo, palpitaciones o dolor de cabeza. Más cuidado en el embarazo, en la infancia y con problemas de corazón.[5]"
+   ],
+   [
+    "Medicación",
+    "Con antidepresivos IMAO, consúltalo antes con quien te los recete. La guía de APDER recoge el resto de interacciones."
+   ],
+   [
+    "Embarazo y lactancia",
+    "La EFSA recomienda no pasar de 200 mg de cafeína al día de todas las fuentes en el embarazo y la lactancia.[10]"
+   ],
+   [
+    "Para los perros",
+    "La teobromina es tóxica para los perros, y el cacao puro es lo más concentrado. Si uno lo ha comido, llama al veterinario.[9]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "molecula",
+   "Teobromina",
+   "Metilxantina",
+   "La sustancia principal del cacao.",
+   null
+  ],
+  [
+   "planta",
+   "Café",
+   "Coffea arabica",
+   "Otra planta con metilxantinas, con cafeína como activo principal.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Britannica. Cacao (Theobroma cacao). britannica.com.",
+  "Wikipedia. «Theobroma cacao». en.wikipedia.org (consultada el 24-11-2026).",
+  "Zarrillo S, Gaikwad N, Lanaud C, et al. The use and domestication of <em>Theobroma cacao</em> during the mid-Holocene in the upper Amazon. Nat Ecol Evol. 2018;2:1879-1888.",
+  "Henderson JS, Joyce RA, Hall GR, Hurst WJ, McGovern PE. Chemical and archaeological evidence for the earliest cacao beverages. Proc Natl Acad Sci U S A. 2007.",
+  "Martínez-Pinilla E, Oñatibia-Astibia A, Franco R. The relevance of theobromine for the beneficial effects of cocoa consumption. Front Pharmacol. 2015;6:30.",
+  "Smit HJ, Gaffan EA, Rogers PJ. Methylxanthines are the psycho-pharmacologically active constituents of chocolate. Psychopharmacology. 2004;176:412-419.",
+  "Ried K, Fakler P, Stocks NP. Effect of cocoa on blood pressure. Cochrane Database Syst Rev. 2017;(4):CD008893.",
+  "NORC at the University of Chicago. Child labor grows in certain areas of cocoa production. Noviembre de 2020. norc.org.",
+  "Hayes C. Chocolate toxicosis in animals. Merck Veterinary Manual, versión profesional. merckvetmanual.com.",
+  "Autoridad Europea de Seguridad Alimentaria (EFSA). EFSA explains risk assessment: caffeine. 2015. efsa.europa.eu."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ayahuasca",
+  "ayahuasca"
+ ],
+ "siguiente": [
+  "Hierba de la pastora",
+  "hierba-de-la-pastora"
+ ]
+}

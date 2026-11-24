@@ -122,7 +122,7 @@
    "guia": "sustancias/5-meo-dmt/"
   },
   {
-   "slug": null,
+   "slug": "cacao",
    "tipo": "planta",
    "nombre": "Cacao",
    "cientifico": "Theobroma cacao",
@@ -250,7 +250,7 @@
    "nombre": "Cacao",
    "detalle": "Theobroma cacao",
    "tipo": "planta",
-   "slug": null
+   "slug": "cacao"
   },
   {
    "nombre": "Cálamo aromático",
