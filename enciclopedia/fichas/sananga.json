@@ -1,0 +1,245 @@
+{
+ "slug": "sananga",
+ "tipo": "planta",
+ "migas": "Planta · Apocináceas · Amazonia",
+ "nombre": "Sananga",
+ "cientifico": "Tabernaemontana undulata y T. sananho",
+ "autoridad": "",
+ "descripcion": "Sananga (Tabernaemontana undulata): colirio amazónico de raíz y corteza que usan matsés, kaxinawá y otros pueblos para ver mejor y cazar. Historia.",
+ "entrada": "Un preparado en gotas que pueblos amazónicos como los matsés, matis, ticuna y kaxinawá aplican en los ojos, hecho con la raíz y la corteza de arbustos de <em>Tabernaemontana</em>. Se emplea para cazar, antes de ceremonias de ayahuasca y en dolencias de la vista.[1][2]",
+ "otros": "sananga · becchete · bëcchëte · Tabernaemontana undulata · Tabernaemontana sananho",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Gotas oculares de uso tradicional amazónico"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Alta Amazonia de Brasil, Perú y países vecinos"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Raíz y corteza"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides del tipo de la iboga, sin confirmar en todas las fuentes"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Matsés, matis, ticuna, kaxinawá y yawanawá"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Arbustos de látex",
+  "parrafos": [
+   "<em>Tabernaemontana undulata</em>, llamada <em>becchete</em> o <em>bëcchëte</em>, es una especie de la familia de las apocináceas, de látex, que habita la selva amazónica.[1][3] El nombre es una palabra matis y matsés para una planta medicinal.[3]",
+   "El sananga suele hacerse con <em>T. undulata</em> y <em>T. sananho</em>.[4]",
+   "Los ticuna mezclan con agua el látex de una especie muy cercana, <em>T. sananho</em>, para tratar heridas oculares.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Apocynaceae"
+   ],
+   [
+    "Especies",
+    "<em>T. undulata</em> y <em>T. sananho</em>"
+   ],
+   [
+    "Rasgo",
+    "Látex"
+   ],
+   [
+    "Parte usada",
+    "Raíz y corteza"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Para ver mejor y cazar",
+  "parrafos": [
+   "Lo usan pueblos como los ticuna, kaxinawá y matsés antes de ceremonias de ayahuasca, para mejorar la vista y para tratar ciertas dolencias de los ojos.[4]",
+   "Aplicada en el ojo, los pueblos que la usan dicen que da al entorno más textura y dimensión, y que facilita localizar animales en la caza.[3]",
+   "Además de aplicarse en los ojos, como hacen los matis y los ticuna, los matsés la toman sobre todo por vía oral.[1]",
+   "Scott Wallace, de National Geographic, fue el primero en informar de este uso entre los matis.[2]",
+   "La literatura moderna la presenta como remedio de la vista, pero aún hay poca investigación sobre ella.[5]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "sananga",
+    "nombre más difundido"
+   ],
+   [
+    "<em>becchete</em>, <em>bëcchëte</em>",
+    "matis y matsés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "La Amazonia alta",
+  "parrafos": [
+   "Se conoce sobre todo de la alta Amazonia, en Brasil y Perú.[1][3]",
+   "Su difusión fuera de la Amazonia es reciente y comercial."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como medicina de pueblos concretos.",
+   "Preferir fuentes que respeten a las comunidades.",
+   "No tratarla como producto de bienestar."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-sananga.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre la alta Amazonia.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del uso del sananga"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides del tipo de la iboga",
+  "parrafos": [
+   "Se afirma que <em>Tabernaemontana undulata</em> contiene alcaloides del tipo de la iboga.[1]",
+   "Una fuente jurídica los sitúa en la misma «familia» que los de la ibogaína, aunque no se la conoce por inducir estados alterados como los psicodélicos.[4]",
+   "Otras fuentes comerciales discuten si hay ibogaína y señalan que algunas especies del subgénero tendrían solo efectos analgésicos o sedantes.[6] Esto exige confirmación en fuentes primarias."
+  ],
+  "moleculas": [
+   {
+    "nombre": "Alcaloides del tipo iboga",
+    "clase": "Indoles",
+    "img": null,
+    "texto": "Citados en <em>T. undulata</em>; sin cifras fiables en las fuentes consultadas.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un ardor intenso y mayor atención",
+  "parrafos": [
+   "Se describe una sensación de ardor en el ojo.[4]",
+   "Los pueblos que la usan hablan de una mayor atención, concentración y percepción en la caza.[3][7]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "La investigación sobre sananga es escasa, comparada con la de otras plantas medicinales, aunque hay estudios sobre propiedades antiinflamatorias y antimicrobianas de especies de <em>Tabernaemontana</em>.[5]",
+   "Hay pocos datos científicos sobre su seguridad y eficacia.[4]"
+  ],
+  "alcance": "Uso tradicional documentado; investigación mínima."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Se aplica en el ojo, un órgano muy sensible, y su seguridad no está estudiada.[4]"
+   ],
+   [
+    "Promesas comerciales",
+    "Muchos textos le atribuyen curar el glaucoma o las cataratas sin pruebas.[5]"
+   ],
+   [
+    "Contexto",
+    "Es una medicina de pueblos concretos, con saberes de uso propios.[3][4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios clínicos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Iboga",
+   "Tabernanthe iboga",
+   "Apocinácea con ibogaína, de África.",
+   "enciclopedia/iboga/"
+  ],
+  [
+   "planta",
+   "Ayahuasca",
+   "Banisteriopsis caapi y Psychotria viridis",
+   "Ceremonia en la que a veces se usa antes.",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "animal",
+   "Kambó",
+   "Phyllomedusa bicolor",
+   "Otra herramienta de caza amazónica.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Tabernaemontana undulata</em>. en.wikipedia.org/wiki/Tabernaemontana_undulata.",
+  "Wikipedia. Bëcchëte (<em>Tabernaemontana undulata</em>). en.wikipedia.com/wiki/B%C3%ABcch%C3%ABte.",
+  "Earthpedia. Becchete (<em>Tabernaemontana</em>). earthpedia.earth.com/plant-encyclopedia/angiosperms/apocynaceae/tabernaemontana-attenuata.",
+  "Psychedelic Law. Sananga. psychedeliclaw.ca/sananga.",
+  "Psychedelic Times. Scientific studies hint at how sananga eye drops treat ocular diseases. psychedelictimes.com/?p=3248.",
+  "The White Arrow. About sananga. thewhitearrow.squarespace.com/about-sananga.",
+  "Sananga (documento divulgativo). billetweb.fr/files/page/upload/453571/EN_SANANGA.pdf."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "San Pedro",
+  "san-pedro"
+ ],
+ "siguiente": [
+  "Sapo de Sonora",
+  "sapo-de-sonora"
+ ]
+}
