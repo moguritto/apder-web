@@ -914,7 +914,10 @@
    "descripcion": "Curso en línea para profesionales sanitarios que acompañan a personas tras estados no ordinarios de consciencia, basado en el modelo de integración de Marc Aixalà. Da un certificado propio de ICEERS, que aclara que la integración no es aún una profesión reconocida oficialmente en la mayoría de los países.",
    "url": "https://hub.iceers.org/en/academy/integration",
    "estado": "por_confirmar",
-   "revisado": "2026-11-24"
+   "revisado": "2026-11-24",
+   "ciudad": "Barcelona",
+   "lat": 41.3874,
+   "lon": 2.1686
   },
   {
    "id": "iceers-ayasafety",
@@ -945,7 +948,413 @@
    "descripcion": "Curso en línea de reducción de riesgos para quienes facilitan ceremonias con plantas. La edición de 2026 cerró inscripciones el 25 de mayo; conviene mirar si hay una nueva convocatoria.",
    "url": "https://www.iceers.org/en/how-we-help/iceers-academy/",
    "estado": "por_confirmar",
+   "revisado": "2026-11-24",
+   "ciudad": "Barcelona",
+   "lat": 41.3874,
+   "lon": 2.1686
+  },
+  {
+   "id": "fmul-introducao-terapia-psicadelicos",
+   "nombre": "Introdução à Terapia com Psicadélicos: Investigação e Clínica",
+   "nombre_es": "Introducción a la terapia con psicodélicos: investigación y clínica (Facultad de Medicina de Lisboa)",
+   "entidad": "Faculdade de Medicina da Universidade de Lisboa",
+   "tipo_entidad": "universidad",
+   "tipo": [
+    "introduccion",
+    "terapia"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "pt"
+   ],
+   "pais": "PT",
+   "ciudad": "Lisboa",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "12 módulos en sábados, desde febrero de 2026 (1.ª edición)",
+   "precio": "Consultar en la universidad",
+   "precio_eur": null,
+   "reconocimiento": [
+    "universidad"
+   ],
+   "descripcion": "Curso de actualización de posgrado con doce módulos, de la historia de los psicodélicos a la investigación clínica reciente. La primera edición empezó en febrero de 2026; hay que preguntar si habrá una segunda y a quién se dirige.",
+   "url": "https://www.medicina.ulisboa.pt/sites/default/files/2025-09/programa-preliminar-introducao-terapia-com-psicadelicos.pdf",
+   "estado": "por_confirmar",
+   "revisado": "2026-11-24",
+   "lat": 38.7223,
+   "lon": -9.1393
+  },
+  {
+   "id": "alma-viva-pos-graduacao-psicoterapia-assistida-psicodelicos",
+   "nombre": "Pós-Graduação em Psicoterapia Assistida por Psicodélicos",
+   "nombre_es": "Posgrado en psicoterapia asistida por psicodélicos (Instituto Alma Viva)",
+   "entidad": "Instituto Alma Viva",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "pt"
+   ],
+   "pais": "BR",
+   "ciudad": "São Paulo",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "18 meses, 11 módulos",
+   "precio": "Consultar en la web",
+   "precio_eur": null,
+   "reconocimiento": [
+    "universidad"
+   ],
+   "descripcion": "Posgrado para psicólogos y psiquiatras, presentado como el primero aprobado por el Ministerio de Educación de Brasil en este campo. Mezcla clases en línea con prácticas presenciales en São Paulo y en centros asociados.",
+   "url": "https://moreblossom.com/courses/pos-graduacao-em-psicotereapia-assistida-por-psicodelicos",
+   "estado": "activa",
+   "revisado": "2026-11-24",
+   "lat": -23.5505,
+   "lon": -46.6333
+  },
+  {
+   "id": "institute-of-psychedelic-therapy-training",
+   "nombre": "Psychedelic Assisted Therapy Training (Institute of Psychedelic Therapy)",
+   "nombre_es": "Formación en terapia asistida con psicodélicos del Institute of Psychedelic Therapy",
+   "entidad": "Institute of Psychedelic Therapy",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "GB",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "2 años: clases semanales en línea, encuentros presenciales y talleres de 5 días",
+   "precio": "11.000 (moneda sin confirmar; dato de un portal, agosto de 2025)",
+   "precio_eur": null,
+   "reconocimiento": [
+    "certificado"
+   ],
+   "descripcion": "Formación británica de dos años para terapeutas y otras personas que cumplan los requisitos, con enfoque de psicología profunda y terapia personal. Un portal la daba sin nuevas fechas: confirmar convocatoria.",
+   "url": "https://moreblossom.com/courses/psychedelic-assisted-training-course",
+   "estado": "por_confirmar",
    "revisado": "2026-11-24"
+  },
+  {
+   "id": "monash-foundations-of-psychedelic-therapies",
+   "nombre": "Foundations of Psychedelic Therapies (PDM1189)",
+   "nombre_es": "Fundamentos de las terapias psicodélicas (Monash University)",
+   "entidad": "Monash University",
+   "tipo_entidad": "universidad",
+   "tipo": [
+    "introduccion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "AU",
+   "ciudad": "Melbourne",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "12 semanas, en línea y a tu ritmo",
+   "precio": "3.500 AUD",
+   "precio_eur": 2000,
+   "reconocimiento": [
+    "universidad"
+   ],
+   "proxima": "2027-07-26",
+   "descripcion": "Microcredencial universitaria para un público amplio. La propia universidad aclara que no enseña a aplicar tratamientos psicodélicos: es una base teórica sobre compuestos, modelos de atención y formación de terapeutas.",
+   "url": "https://www.monash.edu/study/courses/find-a-course/foundations-of-psychedelic-therapies-pdm1189",
+   "estado": "activa",
+   "revisado": "2026-11-24",
+   "lat": -37.9136,
+   "lon": 145.1312
+  },
+  {
+   "id": "monash-psychedelic-science-fundamentals-to-frontiers",
+   "nombre": "Psychedelic Science: Fundamentals to Frontiers (PDM1188)",
+   "nombre_es": "Ciencia psicodélica: de los fundamentos a la frontera (Monash University)",
+   "entidad": "Monash University",
+   "tipo_entidad": "universidad",
+   "tipo": [
+    "introduccion",
+    "investigacion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "AU",
+   "ciudad": "Melbourne",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "12 semanas, en línea (semestre 1 de 2027)",
+   "precio": "Pendiente de publicar",
+   "precio_eur": null,
+   "reconocimiento": [
+    "universidad"
+   ],
+   "descripcion": "Curso corto de posgrado con base multidisciplinar en ciencia psicodélica. La universidad advierte que no da formación clínica para aplicar terapia asistida con psicodélicos.",
+   "url": "https://www.monash.edu/study/courses/find-a-course/psychedelic-science-fundamentals-to-frontiers-pdm1188",
+   "estado": "activa",
+   "revisado": "2026-11-24",
+   "lat": -37.9136,
+   "lon": 145.1312
+  },
+  {
+   "id": "naropa-certificate-psychedelic-assisted-therapies",
+   "nombre": "Certificate in Psychedelic-Assisted Therapies (Naropa)",
+   "nombre_es": "Certificado en terapias asistidas con psicodélicos de Naropa University",
+   "entidad": "Naropa University",
+   "tipo_entidad": "universidad",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "Boulder",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "Consultar en la web",
+   "precio": "Consultar en la web",
+   "precio_eur": null,
+   "reconocimiento": [
+    "universidad"
+   ],
+   "descripcion": "Certificado de una universidad contemplativa, con práctica de atención plena como eje de la formación de quienes facilitan. Comprobar en la web si sigue abierto el programa y a quién se dirige.",
+   "url": "https://www.naropa.edu/?p=65920",
+   "estado": "por_confirmar",
+   "revisado": "2026-11-24",
+   "lat": 40.015,
+   "lon": -105.27
+  },
+  {
+   "tipo_entidad": "asociacion",
+   "precio_eur": 3600,
+   "revisado": "2026-11-24",
+   "id": "maps-mexico-formacion-psicoterapia-asistida",
+   "nombre": "MAPS in México: Formación en Psicoterapia Asistida con Psicodélicos",
+   "nombre_es": "Formación en psicoterapia asistida con psicodélicos de MAPS y Ciencia Psicodélica (México)",
+   "entidad": "MAPS y Ciencia Psicodélica (Newman Institute)",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en",
+    "es"
+   ],
+   "pais": "MX",
+   "ciudad": "Ciudad de México",
+   "sustancias": [
+    "mdma"
+   ],
+   "duracion_horas": 65,
+   "duracion": "Una semana presencial (4-11 de octubre de 2026) más clases grabadas",
+   "precio": "4.200 USD con alojamiento y comidas",
+   "reconocimiento": [
+    "certificado"
+   ],
+   "incluye": [
+    "experiencial"
+   ],
+   "descripcion": "Programa intensivo para terapeutas y profesionales de la salud mental, con 15 horas grabadas y 50 presenciales que incluyen respiración Grof. Se imparte en inglés con traducción simultánea al español y para 50 personas. La edición de 2026 ya pasó: hay que ver si hay otra.",
+   "url": "https://maps.org/event/maps-mexico-formacion-en-psicoterapia-asistida-con-psicodelicos/",
+   "estado": "por_confirmar",
+   "lat": 19.4326,
+   "lon": -99.1332
+  },
+  {
+   "tipo_entidad": "empresa",
+   "precio_eur": null,
+   "revisado": "2026-11-24",
+   "id": "thailand-psilocybin-facilitator-program-koh-phangan",
+   "nombre": "Psilocybin Facilitator Program (Koh Phangan)",
+   "nombre_es": "Programa de facilitación con psilocibina en Koh Phangan",
+   "entidad": "PsiloThai / New Earth Healing Center",
+   "tipo": [
+    "facilitacion"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "presencial",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "TH",
+   "ciudad": "Koh Phangan",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": null,
+   "duracion": "Intensivo de 10 días",
+   "precio": "Consultar en la web",
+   "reconocimiento": [
+    "certificado"
+   ],
+   "descripcion": "Formación intensiva de diez días sobre procesos y protocolos de sesión, atención plena, acompañamiento, reducción de riesgos e integración. Según la ficha, la práctica no incluye tomar psilocibina durante la formación.",
+   "url": "https://www.moreblossom.com/courses/psilocybin-facilitator-program-psilothai",
+   "estado": "por_confirmar",
+   "lat": 9.7319,
+   "lon": 100.0136
+  },
+  {
+   "tipo_entidad": "asociacion",
+   "precio_eur": null,
+   "revisado": "2026-11-24",
+   "id": "therapsil-training-program",
+   "nombre": "TheraPsil Training Program",
+   "nombre_es": "Formación de TheraPsil en psicoterapia asistida con psilocibina",
+   "entidad": "TheraPsil",
+   "tipo": [
+    "terapia"
+   ],
+   "destinatarios": "clinicos",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "CA",
+   "sustancias": [
+    "psilocibina",
+    "mdma"
+   ],
+   "duracion_horas": null,
+   "duracion": "Programa de diez semanas en su primera edición",
+   "precio": "Consultar a la entidad",
+   "reconocimiento": [
+    "certificado"
+   ],
+   "incluye": [
+    "experiencial"
+   ],
+   "descripcion": "Formación de una entidad canadiense sin ánimo de lucro para profesionales sanitarios, centrada en el acompañamiento al final de la vida. Incluye una parte vivencial y una línea de MDMA para quienes terminan la de psilocibina. Un portal la daba sin nuevas fechas.",
+   "url": "https://therapsil.ca/",
+   "estado": "por_confirmar"
+  },
+  {
+   "tipo_entidad": "asociacion",
+   "precio_eur": 1720,
+   "revisado": "2026-11-24",
+   "id": "chacruna-certificate-ceremony-ethics-reciprocity",
+   "nombre": "Certificate in Ceremony, Ethics & Reciprocity",
+   "nombre_es": "Certificado en ceremonia, ética y reciprocidad del Chacruna Institute",
+   "entidad": "Chacruna Institute for Psychedelic Plant Medicines",
+   "tipo": [
+    "facilitacion",
+    "riesgos",
+    "tradiciones"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "ciudad": "San Francisco",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 80,
+   "duracion": "6 meses en línea (edición de 2026: del 22 de octubre de 2026 al 8 de abril de 2027)",
+   "precio": "2.000 USD según la página del evento",
+   "reconocimiento": [
+    "certificado"
+   ],
+   "descripcion": "Certificado para quienes ya guían o ayudan en ceremonias con plantas. No enseña cómo facilitar: trata ética, seguridad, reducción de riesgos y justicia y reciprocidad con los pueblos indígenas. Los créditos de formación continuada de 2026 estaban por confirmar.",
+   "url": "https://chacruna.net/ceremony-ethics-reciprocity/",
+   "estado": "activa",
+   "lat": 37.7749,
+   "lon": -122.4194
+  },
+  {
+   "tipo_entidad": "empresa",
+   "precio_eur": null,
+   "revisado": "2026-11-24",
+   "id": "psychedelics-today-vital",
+   "nombre": "Vital: Certificate in Integrative Psychedelic Studies",
+   "nombre_es": "Vital: certificado en estudios psicodélicos integrativos (Psychedelics Today)",
+   "entidad": "Psychedelics Today",
+   "tipo": [
+    "facilitacion",
+    "integracion"
+   ],
+   "destinatarios": "ayuda",
+   "modalidad": "mixta",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 180,
+   "duracion": "12 meses, en línea con parte presencial",
+   "precio": "Consultar en la web (la mentoría cuesta 2.000 USD aparte)",
+   "reconocimiento": [
+    "certificado"
+   ],
+   "incluye": [
+    "mentoria"
+   ],
+   "descripcion": "Programa de un año para clínicos, terapeutas, coaches y otros profesionales del bienestar, con más de 180 horas de enseñanza. La entidad aclara que no forma para aplicar psicoterapia asistida con psicodélicos.",
+   "url": "https://psychedelicstoday.com/?p=10511",
+   "estado": "activa"
+  },
+  {
+   "tipo_entidad": "universidad",
+   "precio_eur": null,
+   "revisado": "2026-11-24",
+   "id": "pacifica-psychedelics-depth-psychology-certificates",
+   "nombre": "Psychedelics and Depth Psychology certificates (Pacifica Graduate Institute)",
+   "nombre_es": "Certificados en psicodélicos y psicología profunda del Pacifica Graduate Institute",
+   "entidad": "Pacifica Graduate Institute",
+   "tipo": [
+    "introduccion",
+    "integracion"
+   ],
+   "destinatarios": "todos",
+   "modalidad": "en_linea",
+   "idiomas": [
+    "en"
+   ],
+   "pais": "US",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": null,
+   "duracion": "Nivel 1: 16 semanas. Nivel 2: 12 semanas, en directo por Zoom",
+   "precio": "Nivel 1: unos 930 USD en 2025. Nivel 2: pendiente",
+   "reconocimiento": [
+    "universidad",
+    "ce"
+   ],
+   "descripcion": "Certificados de posgrado desde la psicología profunda: marco médico y psiquiátrico, historia indígena de las medicinas y psicología analítica aplicada a la facilitación. El nivel 2 aparece sin fecha, así que conviene preguntar por la próxima edición.",
+   "url": "https://extension.pacifica.edu/advanced-psychedelics-graduate-certificate-level-2/",
+   "estado": "por_confirmar"
   }
  ]
 }
