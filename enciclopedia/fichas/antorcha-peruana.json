@@ -1,0 +1,228 @@
+{
+ "slug": "antorcha-peruana",
+ "tipo": "cactus",
+ "migas": "Cactus · Cactáceas · Andes occidentales de Perú",
+ "nombre": "Antorcha peruana",
+ "cientifico": "Echinopsis peruviana",
+ "autoridad": "(Britton & Rose) Friedrich & G.D.Rowley",
+ "descripcion": "Antorcha peruana (Echinopsis peruviana): cactus columnar de los Andes occidentales de Perú, pariente del San Pedro, con mescalina en algunas poblaciones.",
+ "entrada": "Un cactus columnar de crecimiento rápido de la vertiente occidental de los Andes peruanos. Se le conoce en inglés como «Peruvian torch» y se agrupa con el San Pedro entre los cactus de mescalina de los Andes, aunque su contenido varía mucho y los datos son contradictorios.[1][2][3]",
+ "otros": "antorcha peruana · Peruvian torch · Trichocereus peruvianus · Echinopsis peruviana",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Cactus columnar andino, pariente del San Pedro"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Vertiente occidental de los Andes, Perú"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Tallo"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Mescalina (contenido variable)"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Curanderos andinos del norte de Perú, en torno al San Pedro"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un cactus de antorcha",
+  "parrafos": [
+   "<em>Echinopsis peruviana</em> (sinónimo <em>Trichocereus peruvianus</em>) es un cactus columnar de crecimiento rápido, nativo de la vertiente occidental de los Andes de Perú, entre unos 2000 y 3000 m de altitud.[1]",
+   "La parte del género <em>Echinopsis</em> que antes se llamaba <em>Trichocereus</em> reúne a los cactus columnares andinos que se agrupan como «San Pedro».[2][4]",
+   "Los límites entre los cactus columnares cultivados siguen sin estar resueltos, y un nombre de vivero no equivale a una identificación botánica.[5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Cactáceas"
+   ],
+   [
+    "Hábito",
+    "Columnar, crecimiento rápido"
+   ],
+   [
+    "Altitud",
+    "2000–3000 m"
+   ],
+   [
+    "Origen",
+    "Andes occidentales de Perú"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un cactus a la sombra del San Pedro",
+  "parrafos": [
+   "Las fuentes consultadas no recogen un uso tradicional propio de esta especie distinto del del San Pedro; los usos documentados se refieren al grupo de cactus columnares andinos.[3][4]",
+   "En la costa norte de Perú, los curanderos emplean el San Pedro para diagnosticar y curar enfermedades, en una práctica ligada a la estructura social de la comunidad.[6]",
+   "Según ICEERS, la ceremonia del San Pedro tiene más de 3000 años y posiblemente hasta unos 8000.[7]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "antorcha peruana",
+    "castellano"
+   ],
+   [
+    "Peruvian torch",
+    "inglés"
+   ],
+   [
+    "<em>Trichocereus peruvianus</em>",
+    "sinónimo científico"
+   ]
+  ],
+  "nota_nombres": "«San Pedro» abarca también cactus emparentados con mescalina: el nombre puede designar una planta, un cultivar, un preparado o una clase ritual.[5]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "La vertiente occidental andina",
+  "parrafos": [
+   "Es nativa de la vertiente occidental de los Andes de Perú, entre 2000 y 3000 m.[1]",
+   "Circulan numerosas variedades con nombres de vivero o de colección sin validez científica, ligadas a localidades como Ancash, Ayacucho, Cuzco o Trujillo.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Distinguirla de otros cactus columnares con identificación fiable.",
+   "Preferir ejemplares de cultivo antes que extracciones silvestres.",
+   "Respetar el contexto de los curanderos andinos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-antorcha-peruana.svg",
+   "alt": "Mapa con la vertiente occidental de los Andes peruanos sombreada.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la antorcha peruana"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Mescalina, pero no siempre",
+  "parrafos": [
+   "Es una de varias especies de <em>Echinopsis</em> andinas en las que se ha comunicado la presencia de mescalina.[1]",
+   "Algunos estudios no hallaron mescalina en ejemplares silvestres peruanos de esta especie.[1]",
+   "Un estudio analítico de 14 taxones y cultivares de <em>Echinopsis</em> encontró mescalina en todos, con un rango amplio de concentraciones; la relación entre ese contenido y el uso chamánico real no está clara.[8]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos propios fiables",
+  "parrafos": [
+   "Las fuentes consultadas no ofrecen descripciones fiables de la experiencia con esta especie en concreto, ni de su aparición o duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Se ha estudiado su contenido en mescalina dentro de trabajos analíticos sobre <em>Echinopsis</em>.[8]",
+   "La identificación botánica sigue siendo un problema abierto en el grupo.[5]"
+  ],
+  "alcance": "Estudios químicos y botánicos; sin investigación clínica específica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Identidad",
+    "Su contenido varía mucho entre poblaciones y la identificación botánica es incierta.[1][5]"
+   ],
+   [
+    "Contexto",
+    "Es un saber de curanderos andinos en torno al San Pedro, no una práctica de la especie en sí.[6]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos tradicionales y clínicos propios."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "cactus",
+   "San Pedro",
+   "Echinopsis pachanoi",
+   "Su pariente más conocido, con uso ritual milenario.",
+   "enciclopedia/san-pedro/"
+  ],
+  [
+   "cactus",
+   "Peyote",
+   "Lophophora williamsii",
+   "Otro cactus con mescalina, de México.",
+   "enciclopedia/peyote/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Echinopsis peruviana</em>. en.wikipedia-on-ipfs.org/wiki/Echinopsis_peruviana.",
+  "Wikipedia. <em>Psychoactive cactus</em>. wikipedia.org/wiki/Psychoactive_cacti.",
+  "ICEERS. <em>San Pedro: Basic Info</em> (otras especies del género). iceers.org/?p=5495.",
+  "Wikipedia. <em>Trichocereus macrogonus</em> var. <em>pachanoi</em>. wikipedia.org/wiki/Huachuca.",
+  "LILA visionary.art. <em>Echinopsis pachanoi</em> (taxonomía y nombres). visionary.art/pharmakon/plants/echinopsis-pachanoi/.",
+  "Dobkin de Ríos, M. <em>Trichocereus pachanoi—A Mescaline Cactus Used in Folk Healing in Peru</em>. bibliography.maps.org/resources/download/13068.",
+  "ICEERS. <em>San Pedro: Basic Info</em>. iceers.org/san-pedro-basic-info/.",
+  "Ogunbodede, O. et al. (2010). <em>Journal of Ethnopharmacology</em> 131: 356–362. uvm.edu/~dbarring/241/241_PUBS/ogunbodede2010.pdf."
+ ],
+ "tipo_txt": "Cactus",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ajenjo",
+  "ajenjo"
+ ],
+ "siguiente": [
+  "Ashwagandha",
+  "ashwagandha"
+ ]
+}
