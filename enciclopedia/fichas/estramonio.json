@@ -1,0 +1,297 @@
+{
+ "slug": "estramonio",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · Cosmopolita, de origen discutido",
+ "nombre": "Estramonio",
+ "cientifico": "Datura stramonium",
+ "autoridad": "L.",
+ "descripcion": "Estramonio (Datura stramonium): hierba de las solanáceas, venenosa y cosmopolita. Botánica, historia, tropanos, investigación y cuidados.",
+ "entrada": "Una hierba de caminos y escombreras, con flores en trompeta y cápsulas espinosas, que hoy crece por medio mundo. Es un delirante, no un psicodélico, y su historia mezcla medicina, brujería y accidentes.[4][5][6]",
+ "otros": "estramonio · hierba del diablo · manzana espinosa · datura · jimsonweed · hierba de Jamestown",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba anual de las solanáceas, de cápsulas espinosas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Cosmopolita; su origen exacto está discutido"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hoja, flor y semilla; toda la planta es tóxica"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Escopolamina, atropina e hiosciamina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Horas · de 24 a 48 horas o más"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos indígenas de América; en Europa, la botica y la brujería"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la datura",
+  "texto": "Por qué es tan peligrosa, interacciones y qué hacer ante una intoxicación.",
+  "url": "sustancias/datura/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una hierba que aprovecha el suelo removido",
+  "parrafos": [
+   "Es una hierba anual de entre uno y cuatro pies de altura, es decir, hasta algo más de un metro. El tallo es erguido y hueco, verde o purpúreo, y las hojas son de bordes dentados.[5]",
+   "Las flores son solitarias, perfumadas y en forma de trompeta; se abren a última hora de la tarde y las polinizan sobre todo polillas nocturnas.[5][8]",
+   "Cada planta da muchas semillas, que pueden seguir vivas en el suelo durante años; en algunas zonas se considera invasora.[5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Ciclo",
+    "Anual"
+   ],
+   [
+    "Flor",
+    "Trompeta de 7–15 cm, abierta al atardecer"
+   ],
+   [
+    "Fruto",
+    "Cápsula con espinas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Medicina, brujería y un bocado de soldados",
+  "parrafos": [
+   "En las Américas, el uso de las dauras es antiguo. Los pueblos indígenas aplicaban hojas trituradas a las heridas, fumaban la planta para el asma y usaban las semillas en cataplasmas para el dolor de garganta.[8] Un canto de los pima, cantado por chamanes tohono o'odham, habla de las hojas de datura que marean.[7]",
+   "En 1676, en Jamestown (Virginia), unos soldados ingleses comieron la planta y quedaron delirantes. De «Jamestown weed» viene el nombre inglés <em>jimsonweed</em>.[6][8]",
+   "En el siglo XIX, el estramonio se fumaba en cigarrillos contra el asma. Hoy se sabe que los riesgos de intoxicación superan los beneficios.[12] La atropina se aisló de esta planta en 1833.[6]"
+  ],
+  "cronologia": [
+   [
+    "1676",
+    "Soldados ingleses en Jamestown comen la planta y se intoxican; de ahí su nombre inglés.[6][8]"
+   ],
+   [
+    "1833",
+    "Se aísla la atropina a partir de la planta.[6]"
+   ],
+   [
+    "Siglo XIX",
+    "Se fuman cigarrillos de estramonio contra el asma.[12]"
+   ],
+   [
+    "2020",
+    "Se publica en España un caso de intoxicación por infusión de una planta de este grupo.[10]"
+   ]
+  ],
+  "nombres": [
+   [
+    "estramonio",
+    "del latín botánico <em>stramonium</em>, de origen incierto"
+   ],
+   [
+    "datura",
+    "del hindi <em>dhatūra</em>, «manzana espinosa blanca»"
+   ],
+   [
+    "jimsonweed",
+    "corrupción de «Jamestown weed»"
+   ],
+   [
+    "hierba del diablo",
+    "nombre popular de varias dauras en América"
+   ]
+  ],
+  "nota_nombres": "El nombre latino <em>stramonium</em> se usaba ya en el siglo XVII para varias plantas, y su origen no está claro.[4]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una hierba sin patria clara",
+  "parrafos": [
+   "Su origen está discutido: según las fuentes, procede de México, de América Central o incluso de Eurasia.[4][5][9] Hoy crece por todo el mundo, en suelos removidos, bordes de camino y escombreras.[4][6]",
+   "Como crece junto a las casas y los cultivos, es una causa clásica de intoxicaciones accidentales, también en España.[10]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recoger ni consumir ninguna parte de esta planta.",
+   "Si la ves en tu terreno, arráncala con guantes y no dejes que dé semilla.",
+   "Enseñar a los niños que no se prueba ninguna planta desconocida."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-estramonio.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre México y América Central.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Posible origen (discutido); hoy es cosmopolita"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Atropina, escopolamina e hiosciamina",
+  "parrafos": [
+   "Casi toda la planta contiene derivados de la atropina, de la escopolamina y de la hiosciamina.[5] Son alcaloides tropánicos que bloquean la acetilcolina.[1][2]",
+   "La cantidad de alcaloides varía mucho entre plantas, partes y estaciones.[3] Por eso no se puede saber cuánto hay en una hoja o semilla concreta."
+  ],
+  "moleculas": [
+   {
+    "nombre": "Atropina",
+    "clase": "Alcaloide tropánico · anticolinérgico",
+    "img": null,
+    "texto": "Se aisló del estramonio en 1833.[6]"
+   },
+   {
+    "nombre": "Escopolamina",
+    "clase": "Alcaloide tropánico · anticolinérgico",
+    "img": null,
+    "texto": "Causa buena parte del delirio y de la pérdida de memoria.[1][2]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un delirio que se olvida",
+  "parrafos": [
+   "No es una experiencia explorable: la persona ve y oye cosas que cree reales, pierde el contacto con la realidad y después casi no recuerda nada.[1][2]",
+   "Puede durar de 24 a 48 horas.[1][2] En urgencias se describe con alucinaciones, desorientación y pupilas dilatadas.[10]"
+  ],
+  "tiempo": {
+   "horas": 48,
+   "tramos": [
+    [
+     "a",
+     0,
+     2,
+     "Empieza"
+    ],
+    [
+     "b",
+     2,
+     36,
+     "Delirio"
+    ],
+    [
+     "c",
+     36,
+     48,
+     "Se apaga, con amnesia"
+    ]
+   ],
+   "res": [
+    [
+     "Dura",
+     "de 24 a 48 h o más"
+    ],
+    [
+     "Lo que queda",
+     "casi ningún recuerdo"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Lo estudiado es la intoxicación: cómo se reconoce y cómo se trata el delirio anticolinérgico.[1][2]",
+   "También se ha descrito la carga acumulada de fármacos anticolinérgicos, que suman sus efectos con los de estas plantas.[11]"
+  ],
+  "alcance": "No hay estudios que apoyen usar la planta cruda como medicina ni como psicoactivo. Sus alcaloides se emplean aislados y en dosis controladas en medicamentos concretos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Intoxicaciones graves con fiebre, convulsiones o coma, y accidentes por el delirio. No existe una dosis segura.[1]"
+   ],
+   [
+    "Lo que no se mezcla",
+    "Los antihistamínicos que dan sueño, los antidepresivos tricíclicos y algunos antipsicóticos suman efectos anticolinérgicos.[11]"
+   ],
+   [
+    "Si pasa algo",
+    "Llama a urgencias: en España, el 112. Es una emergencia médica."
+   ],
+   [
+    "Accidentes en casa",
+    "Las semillas y las flores tientan a niños y jóvenes; en España hay casos descritos.[10]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Toloache",
+   "Datura innoxia",
+   "La datura de flores blancas de México, con los mismos alcaloides.",
+   "enciclopedia/toloache/"
+  ],
+  [
+   "planta",
+   "Mandrágora",
+   "Mandragora officinarum",
+   "Otra solanácea con tropanos, ligada a la brujería europea.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Emergency Medicine Residents' Association (EMRA). Tripping off trumpets: diagnosis and management of jimson weed toxicity. EM Resident. emra.org.",
+  "Dawson AH, Buckley NA. Pharmacological management of anticholinergic delirium: theory, evidence and practice. Br J Clin Pharmacol. 2016;81(3):516-524.",
+  "EFSA Panel on Contaminants in the Food Chain (CONTAM). Scientific opinion on tropane alkaloids in food and feed. EFSA Journal. 2013. efsa.europa.eu.",
+  "Wikipedia. «Datura stramonium». en.wikipedia.org (consultada el 24-11-2026).",
+  "NC State Extension. Datura stramonium. Plant Toolbox. plants.ces.ncsu.edu.",
+  "ADLM (Association for Diagnostics & Laboratory Medicine). Jimson weed. Toxin spotlight. myadlm.org.",
+  "USDA Forest Service. Jimsonweed, thornapple, moonflower, and sacred daturas. Ethnobotany. fs.usda.gov/wildflowers.",
+  "Kansas Wildflowers and Grasses. Jimsonweed (Datura stramonium). kswildflower.org.",
+  "Brooklyn Botanic Garden. Weed of the month: Jimson weed. bbg.org.",
+  "Gomila Muñiz I, Sánchez de Muniain MS, Zuabi García LB, et al. Alucinaciones tras ingerir una infusión de una planta anticolinérgica con confirmación toxicológica. Emergencias. 2020;32(5):377-378.",
+  "NHS Scotland, Polypharmacy Guidance. Why are anticholinergics problematic? rightdecisions.scot.nhs.uk.",
+  "Universidad de Texas en El Paso (UTEP). Jimsonweed. Herbal Safety. utep.edu/herbal-safety."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Cannabis",
+  "cannabis"
+ ],
+ "siguiente": [
+  "Hierba de la pastora",
+  "hierba-de-la-pastora"
+ ]
+}
