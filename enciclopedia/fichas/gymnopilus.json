@@ -1,0 +1,236 @@
+{
+ "slug": "gymnopilus",
+ "tipo": "hongo",
+ "migas": "Hongo · Hymenogastráceas · Cosmopolita",
+ "nombre": "Gymnopilus",
+ "cientifico": "Gymnopilus junonius",
+ "autoridad": "(Fr.) P.D.Orton",
+ "descripcion": "Gymnopilus (Gymnopilus junonius): gran hongo anaranjado de troncos, el «waraitake» japonés; solo algunas poblaciones contienen psilocibina.",
+ "entrada": "Un hongo grande de color naranja que crece en densos racimos sobre troncos y bases de árboles. Se le conoce como «laughing gym» y en Japón como waraitake, «hongo de la risa». Algunas poblaciones contienen psilocibina y otras no, y los trabajos anteriores a 2020 podrían referirse a varias especies distintas.[1][2][3]",
+ "otros": "gymnopilus · laughing gym · laughing Jim · spectacular rustgill · Gymnopilus spectabilis · waraitake · ōwaraitake",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hongo grande, naranja, que crece sobre madera"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Muy amplio, en varios continentes"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Cuerpo fructífero"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Psilocibina en algunas poblaciones; gimnopilina y pironas"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Sin uso ritual documentado en las fuentes consultadas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El gran hongo de racimo",
+  "parrafos": [
+   "<em>Gymnopilus junonius</em> (sinónimo, <em>G. spectabilis</em>) es un hongo grande y de color naranja que crece en densos racimos sobre troncos, tocones y bases de árboles; vive en maderas muertas de frondosas y coníferas.[1][4]",
+   "Su sombrero mide de 5 a 40 cm y es convexo, extendiéndose con la edad hasta casi plano.[1]",
+   "La esporada es naranja herrumbre, el sabor amargo, y con KOH se tiñe de rojo.[5]",
+   "Es muy extenso en su distribución y se menciona en Australasia y Sudamérica.[2]",
+   "Se confunde a menudo con <em>Gymnopilus ventricosus</em>, que no contiene psilocibina.[1][2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Hymenogastráceas (antes Cortinariáceas)"
+   ],
+   [
+    "Sombrero",
+    "5–40 cm"
+   ],
+   [
+    "Esporada",
+    "Naranja herrumbre"
+   ],
+   [
+    "Hábitat",
+    "Madera muerta, en racimos"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Esta ficha no es una guía de identificación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El hongo de la risa",
+  "parrafos": [
+   "En Japón se le llama waraitake, «hongo de la risa»; existen dos hongos con nombres parecidos: el waraitake (<em>Panaeolus papilionaceus</em>) y el ōwaraitake, «gran hongo de la risa» (<em>Gymnopilus</em> spp.).[6][4]",
+   "Las fuentes consultadas no recogen un uso ritual tradicional bien documentado."
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "laughing gym, laughing Jim",
+    "inglés"
+   ],
+   [
+    "waraitake, ōwaraitake",
+    "japonés"
+   ],
+   [
+    "spectacular rustgill",
+    "nombre en inglés de la especie"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Muy extendido",
+  "parrafos": [
+   "Los ejemplares del este de Estados Unidos o de Japón tienen más probabilidad de contener psilocibina que los del oeste de Estados Unidos o de Europa.[4]",
+   "Los grandes gimnopilos del noreste de Estados Unidos fructifican sobre todo en otoño.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectarlo sin un experto local.",
+   "Cuidar la madera muerta del bosque.",
+   "No dar por hecho que un ejemplar contiene psilocibina."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-gymnopilus.svg",
+   "alt": "Mapa con zonas templadas del hemisferio norte y Australasia sombreadas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de Gymnopilus junonius"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Un complejo de especies",
+  "parrafos": [
+   "Se han hallado psilocibina, psilocina, baeocistina y norbaeocistina en parte de las poblaciones, pero no en todas.[1][6]",
+   "Cuatro de trece muestras de <em>G. junonius</em> dieron positivo a psilocibina, y las referencias anteriores a 2020 probablemente describen varias especies de <em>Gymnopilus</em>.[7]",
+   "Hatfield, Valdés y Smith detectaron psilocibina en <em>Gymnopilus validipes</em> tras un caso accidental de intoxicación, y su aparición en <em>G. spectabilis</em> resultó inconsistente.[8]",
+   "Contiene también gimnopilina, un oligoisoprenoide neurotóxico, y bis-noryangonina e hispidina, pironas relacionadas con las de la kava.[2][4]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Gimnopilina",
+    "clase": "oligoisoprenoide",
+    "img": null,
+    "texto": "Compuesto neurotóxico presente en algunas poblaciones.[2]"
+   },
+   {
+    "nombre": "Psilocibina",
+    "clase": "triptamina",
+    "img": null,
+    "texto": "Presente en algunas poblaciones y ausente en otras.[1][7]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "Las fuentes consultadas no ofrecen datos fiables de aparición ni de duración, y señalan que la búsqueda de psilocibina en este hongo sigue siendo elusiva.[7]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "La presencia de psilocibina en <em>Gymnopilus</em> se estudió desde el trabajo de Hatfield, Valdés y Smith.[8]",
+   "Quedan pendientes estudios que aclaren si hay en realidad dos grupos, uno activo y otro no.[1]"
+  ],
+  "alcance": "Estudios químicos y taxonómicos; muchas dudas de identidad."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Identidad",
+    "Es un complejo de especies; no se puede dar por hecho qué contiene un ejemplar.[7]"
+   ],
+   [
+    "Neurotoxinas",
+    "Contiene gimnopilina, un compuesto neurotóxico.[2]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos tradicionales y clínicos propios."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Copelandia",
+   "Panaeolus cyanescens",
+   "Otro hongo con psilocibina, de pastos cálidos.",
+   "enciclopedia/copelandia/"
+  ]
+ ],
+ "fuentes": [
+  "iNaturalist. <em>Gymnopilus junonius</em>. inaturalist.org/guide_taxa/636077.",
+  "Wikipedia. <em>Gymnopilus junonius</em>. en.wikipedia.org/wiki/Gymnopilus_junonius.",
+  "Wikipedia. <em>Gymnopilus junonius</em> (descripción). en.wikipedia.com/wiki/Gymnopilus_junonius.",
+  "ChemEurope. <em>Gymnopilus spectabilis</em>. chemeurope.com/en/encyclopedia/Gymnopilus_spectabilis.html.",
+  "ChemEurope. <em>Gymnopilus junonius</em>. chemeurope.com/en/encyclopedia/Gymnopilus_junonius.html.",
+  "Mushroom Monday. <em>Big laughing gyms</em>. mushroommonday.substack.com/p/toadstool-tuesday-06c.",
+  "Double Blind Mag. <em>Gymnopilus junonius: A Quick Guide to Big Laughing Gym</em>. doubleblindmag.com/gymnopilus-junonius-big-laughing-gym/.",
+  "Hatfield, G. M., Valdés, L. J. y Smith, A. H. <em>The Occurrence of Psilocybin in Gymnopilus Species</em>. bibliography.maps.org/resources/download/13611."
+ ],
+ "tipo_txt": "Hongo",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Guayusa",
+  "guayusa"
+ ],
+ "siguiente": [
+  "Hierba cinta",
+  "hierba-cinta"
+ ]
+}
