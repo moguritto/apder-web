@@ -1,0 +1,280 @@
+{
+ "slug": "ololiuqui",
+ "tipo": "planta",
+ "migas": "Planta · Convolvuláceas · México y Centroamérica",
+ "nombre": "Ololiuqui",
+ "cientifico": "Ipomoea corymbosa",
+ "autoridad": "(L.) Roth",
+ "descripcion": "Ololiuqui (Ipomoea corymbosa, antes Rivea corymbosa): la «semilla de la Virgen» de los mexicas y los mazatecos. Historia, botánica, ergina y cuidados.",
+ "entrada": "Una trepadora leñosa de México y Centroamérica cuyas semillas, el ololiuqui, usaron los mexicas con fines medicinales y adivinatorios. Su identificación botánica, en 1939 y 1941, y el aislamiento de su ergina por Albert Hofmann en 1960 forman una de las historias más conocidas de la etnobotánica.[1][2][4]",
+ "otros": "ololiuqui · ololiuhqui · coatl xoxouhqui · semilla de la Virgen · piule · Rivea corymbosa · Turbina corymbosa",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Trepadora leñosa de la familia de las campanillas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "De México a Perú, naturalizada en otras partes"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La semilla"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Ergina (LSA) e isoergina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Mexicas, mazatecos, chinantecos y zapotecos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una trepadora de semillas pardas y redondas",
+  "parrafos": [
+   "<em>Ipomoea corymbosa</em> es una especie de campanilla nativa de toda Latinoamérica, desde México hasta Perú, y naturalizada en otros lugares. Entre sus nombres populares en inglés están <em>Christmasvine</em> y <em>snakeplant</em>.[3]",
+   "Es una trepadora grande y leñosa de la familia de las convolvuláceas.[5] Sus semillas son pardas y casi redondas, y se distinguen de las de <em>Ipomoea violacea</em>, que son largas, negras y angulosas.[6]",
+   "El nombre científico ha cambiado varias veces: se la conoce también como <em>Rivea corymbosa</em> y <em>Turbina corymbosa</em>.[3][7]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Convolvulaceae"
+   ],
+   [
+    "Hábito",
+    "Trepadora grande y leñosa"
+   ],
+   [
+    "Semilla",
+    "Parda y casi redonda"
+   ],
+   [
+    "Distribución",
+    "De México a Perú"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La semilla de la Virgen",
+  "parrafos": [
+   "Tras la conquista de México, en 1521, varios cronistas españoles describieron rituales religiosos de los mexicas y otros pueblos que usaban las semillas del ololiuqui por su efecto embriagante.[5] Un informe de la época habla de una hierba llamada <em>cóatl-xoxouhqui</em>, «serpiente verde», cuyas semillas eran el ololiuqui.[4]",
+   "Un misionero español dijo que privaba de razón a quien lo tomaba y que era el modo en que los nativos se comunicaban con el diablo.[5] Es una mirada colonial; la tradición indígena lo entendía como medicina y adivinación.[8]",
+   "En la región mazateca las semillas se conocen hoy como «la semilla de la Virgen».[1] Los chinantecos la llaman <em>a-mu-kia</em>, «medicina de adivinación», y los mazatecos <em>piule</em>.[4]",
+   "Los botánicos tardaron en aceptar que fuera una campanilla. Durante años se pensó que el ololiuqui no podía serlo, pues no se conocía ningún uso intoxicante de esas semillas ni ningún constituyente tóxico en la familia. Aun así, varios botánicos mexicanos sostuvieron que lo era, y en 1939 Schultes y Reko recogieron en Oaxaca un ejemplar de una convolvulácea usada como narcótico adivinatorio: era <em>Rivea corymbosa</em>.[2]",
+   "En 1960, Albert Hofmann describió su composición química: contiene ergina, un alcaloide ergolínico emparentado con el LSD.[3] Aisló la ergina y la isoergina, que ya conocía como análogos semisintéticos del LSD.[1]"
+  ],
+  "cronologia": [
+   [
+    "1521",
+    "Tras la conquista, los cronistas españoles describen el uso ritual de las semillas.[5]"
+   ],
+   [
+    "1939",
+    "Schultes y Reko recogen en Oaxaca la planta usada como narcótico adivinatorio.[2]"
+   ],
+   [
+    "1941",
+    "Schultes la identifica como <em>Rivea corymbosa</em>.[3][8]"
+   ],
+   [
+    "1960",
+    "Hofmann describe su composición química y aísla la ergina.[1][3]"
+   ]
+  ],
+  "nombres": [
+   [
+    "ololiuqui",
+    "del náhuatl; designa las semillas pardas de la planta"
+   ],
+   [
+    "<em>cóatl-xoxouhqui</em>",
+    "«serpiente verde», nombre de la hierba"
+   ],
+   [
+    "la semilla de la Virgen",
+    "nombre mazateco, en Huautla"
+   ],
+   [
+    "<em>piule</em>",
+    "nombre mazateco"
+   ],
+   [
+    "<em>a-mu-kia</em>",
+    "chinanteco: «medicina de adivinación»"
+   ]
+  ],
+  "nota_nombres": "No hay que confundirlo con el tlitliltzin, que son las semillas negras de otra campanilla (<em>Ipomoea tricolor</em>).[6][9]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "De México al Perú",
+  "parrafos": [
+   "Crece de forma nativa en toda Latinoamérica, desde México por el norte hasta Perú por el sur, y se ha naturalizado en otros lugares.[3]",
+   "Esa amplitud la convierte en una planta común de jardines y cercados, pero su valor para los pueblos que la custodian está en su uso medicinal y adivinatorio, no en la planta como curiosidad."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Aprender su historia desde la voz de los pueblos mazateco, chinanteco y zapoteco.",
+   "No tratarla como un producto: es una planta de medicina y de memoria.",
+   "Evitar la compra de semillas sin información fiable sobre su origen y contenido."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-ololiuqui.svg",
+   "alt": "Mapa con una zona sombreada en ocre desde México hasta Perú.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del ololiuqui (México a Perú)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Ergina, un alcaloide ergolínico",
+  "parrafos": [
+   "Las semillas contienen ergina, también llamada amida del ácido lisérgico o LSA, un alcaloide ergolínico emparentado con el LSD.[3] También contienen isoergina.[1]",
+   "Hofmann señaló que la ergina y la isoergina se conocían antes como análogos semisintéticos del LSD, antes de hallarlas en una planta.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Ergina (LSA)",
+    "clase": "Ergolina · principal",
+    "img": null,
+    "texto": "Amida del ácido lisérgico; el alcaloide principal de las semillas.[1][4]"
+   },
+   {
+    "nombre": "Isoergina",
+    "clase": "Ergolina",
+    "img": null,
+    "texto": "Amida del ácido isolisérgico, acompañante de la ergina.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se sabe y lo que no",
+  "parrafos": [
+   "Las fuentes históricas hablan de un uso con fines medicinales y adivinatorios.[2][8] Sobre la experiencia en sí no hay medidas fiables de cuándo empieza ni cuánto dura.",
+   "Las semillas de <em>Ipomoea violacea</em> se creen más potentes que las de <em>Rivea corymbosa</em>.[6]"
+  ],
+  "tiempo": {
+   "horas": 8,
+   "tramos": [
+    [
+     "a",
+     0,
+     8,
+     "Variable y poco documentado"
+    ]
+   ],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Lo mejor documentado es la botánica y la química: la identificación de la planta en 1939 y 1941, y el aislamiento de las ergolinas en 1960.[1][2][3]",
+   "Hubo avances posteriores en la fitoquímica de las convolvuláceas y en la farmacología de los compuestos aislados de sus semillas.[8]"
+  ],
+  "alcance": "No hay ensayos clínicos con estas semillas. Lo que se sabe de su uso viene de crónicas históricas y de estudios de química."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es una semilla de uso tradicional, no un producto de consumo, y su contenido de alcaloides no se conoce en lo que se compra.[1]"
+   ],
+   [
+    "Otras campanillas",
+    "Hay semillas de campanilla de jardín con alcaloides parecidos; no se sabe cuál es cuál sin análisis.[6]"
+   ],
+   [
+    "Contexto",
+    "Para los pueblos que la han custodiado es una planta de medicina y de adivinación.[2][5]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios sobre sus efectos y riesgos en seres humanos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Gloria de la mañana",
+   "Ipomoea tricolor",
+   "Campanilla cuyas semillas negras son el tlitliltzin.",
+   "enciclopedia/gloria-de-la-manana/"
+  ],
+  [
+   "molecula",
+   "LSD",
+   "Ergolina semisintética",
+   "Pariente químico de la ergina.",
+   "sustancias/lsd/"
+  ]
+ ],
+ "fuentes": [
+  "Hofmann A. The active principles of the seeds of <em>Rivea corymbosa</em> and <em>Ipomoea violacea</em>. Botanical Museum Leaflets, Harvard University. 1963;20:194-212.",
+  "Schultes RE. Planta Medica. 1976;29 (artículo sobre las convolvuláceas alucinógenas). bibliography.maps.org/resources/download/15072.",
+  "Wikipedia. «Ipomoea corymbosa». en.wikipedia.org (consultada el 24-11-2026).",
+  "ICEERS. Basic info: ergot, LSA and morning glory. iceers.org/?p=5549.",
+  "ICEERS. <em>Ipomoea violacea</em>: basic info. iceers.org/ipomoea-violacea-basic-info/.",
+  "Wasson RG. Notes on the present status of ololiuqui and the other hallucinogens of Mexico. druglibrary.org/Schaffer/lsd/wasson.htm.",
+  "Wikidoc. «Rivea corymbosa». wikidoc.org/index.php/Rivea_corymbosa.",
+  "Ololiuqui, Tlitliltzin and related pre-Columbian Central American convolvulaceous drugs. bibliography.maps.org/resources/download/13618.",
+  "Wikipedia. «Aztec use of entheogens». en.wikipedia.org (consultada el 24-11-2026)."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Mongui",
+  "mongui"
+ ],
+ "siguiente": [
+  "Peyote",
+  "peyote"
+ ]
+}
