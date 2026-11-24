@@ -1,0 +1,241 @@
+{
+ "slug": "copelandia",
+ "tipo": "hongo",
+ "migas": "Hongo · Bolbitiáceas · Trópicos y subtrópicos",
+ "nombre": "Copelandia",
+ "cientifico": "Panaeolus cyanescens",
+ "autoridad": "(Berk. & Broome) Sacc.",
+ "descripcion": "Copelandia (Panaeolus cyanescens): pequeño hongo coprófilo de pastos tropicales con psilocibina y psilocina; se describe como de los más potentes de su grupo.",
+ "entrada": "Un hongo pequeño y esbelto que crece sobre estiércol en pastos tropicales y subtropicales de ambos hemisferios. Contiene psilocina, serotonina y urea en todas las colecciones analizadas, y se describe como psicoactivo y potente.[1][2][3]",
+ "otros": "Copelandia · Panaeolus cyanescens · Copelandia cyanescens · blue meanie · pan cyan",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hongo pequeño de estiércol, de esporada negra"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Trópicos y subtrópicos de ambos hemisferios"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Cuerpo fructífero"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Psilocibina, psilocina y baeocistina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Sin uso tradicional documentado en las fuentes consultadas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un hongo de estiércol",
+  "parrafos": [
+   "<em>Panaeolus cyanescens</em>, también llamado <em>Copelandia cyanescens</em>, es un hongo de la familia de las bolbitiáceas, parecido a <em>Panaeolus tropicalis</em>, que se distingue por rasgos microscópicos.[1][5]",
+   "Su sombrero mide de 1,5 a 4 cm, es primero hemisférico y luego convexo o campanulado; joven es pardo claro y madura hasta blanco grisáceo. La esporada es negra y su ecología saprótrofa.[1]",
+   "Es coprófilo: vive sobre excrementos en zonas tropicales y neotropicales de los dos hemisferios.[3]",
+   "Se describió por primera vez en Sri Lanka como <em>Agaricus cyanescens</em> por Berkeley y Broome en 1871, y su nomenclatura ha dado muchas vueltas.[6]",
+   "No debe confundirse con <em>Psilocybe cyanescens</em>, aunque ambos se abrevien igual (P. cyanescens).[6]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Bolbitiáceas"
+   ],
+   [
+    "Sombrero",
+    "1,5–4 cm"
+   ],
+   [
+    "Esporada",
+    "Negra"
+   ],
+   [
+    "Ecología",
+    "Saprótrofo, sobre estiércol"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Esta ficha no es una guía de identificación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un hongo de pocas memorias",
+  "parrafos": [
+   "Las fuentes consultadas no recogen un uso ritual tradicional documentado para esta especie.",
+   "Merlin y Allen estudiaron en 1993 especies de <em>Copelandia</em> y de <em>Panaeolus</em> en Hawái y confirmaron la presencia de psilocibina y psilocina en varias de ellas.[7]",
+   "El género <em>Panaeolus</em> incluye trece especies productoras de psilocibina, pero no todas contienen psilocibina.[6]"
+  ],
+  "cronologia": [
+   [
+    "1871",
+    "Primera descripción como <em>Agaricus cyanescens</em> (Sri Lanka)"
+   ],
+   [
+    "1966",
+    "Heim y colaboradores comunican psilocibina en la especie"
+   ]
+  ],
+  "nombres": [
+   [
+    "Copelandia",
+    "nombre de género antiguo"
+   ],
+   [
+    "<em>blue meanie</em>, <em>pan cyan</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Pastos cálidos",
+  "parrafos": [
+   "Crece en pastos tropicales y subtropicales y puede aparecer en zonas templadas durante veranos húmedos.[8]",
+   "Hay colecciones analizadas de Australia, Hawái y Tailandia.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "No recolectarlo sin un experto local.",
+   "Cuidar los pastos y su fauna.",
+   "No confundirlo con otros hongos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-copelandia.svg",
+   "alt": "Mapa con las zonas tropicales y subtropicales sombreadas.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de Copelandia"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Psilocina, psilocibina y serotonina",
+  "parrafos": [
+   "Un estudio de Stijve (1992) halló psilocina, serotonina y urea en las 70 colecciones analizadas de Australia, Hawái y Tailandia.[4]",
+   "El mismo trabajo señala que se informa de un contenido de psilocina y psilocibina inusualmente alto, y que usuarios describieron un efecto más fuerte que el de una cantidad igual de <em>Psilocybe semilanceata</em>.[4]",
+   "Se ha detectado además baeocistina, un análogo de la psilocibina.[7]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Psilocibina",
+    "clase": "triptamina",
+    "img": null,
+    "texto": "Precursor de la psilocina; presente en la especie según los estudios citados.[4]"
+   },
+   {
+    "nombre": "Psilocina",
+    "clase": "triptamina",
+    "img": null,
+    "texto": "Presente en todas las colecciones analizadas por Stijve.[4]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "Las fuentes consultadas la describen como psicoactiva y potente, pero sin datos fiables de aparición ni de duración.[1][4]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay estudios químicos desde los años sesenta, con análisis de colecciones de varios orígenes.[4][7]",
+   "La investigación clínica sobre psilocibina se refiere sobre todo a otras especies."
+  ],
+  "alcance": "Estudios químicos y etnobotánicos; sin investigación clínica específica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Su contenido varía según el origen de la colección.[4]"
+   ],
+   [
+    "Identidad",
+    "Hay varias especies parecidas y confusión de nombres.[6][8]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan datos tradicionales y clínicos propios."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Psilocibe azulado",
+   "Psilocybe cyanescens",
+   "Otro hongo azulado de nombre parecido.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Panaeolus cyanescens</em>. en.wikipedia-on-ipfs.org/wiki/Panaeolus_cyanescens.",
+  "Wikipedia. <em>Panaeolus cyanescens</em> (análisis de muestras). wikipedia.org/wiki/Panaeolus_cyanescens.",
+  "Wikipedia. <em>Panaeolus cyanescens</em> (hábitat). wikipedia.com/wiki/Panaeolus_cyanescens.",
+  "Stijve, T. (1992). Psilocin, psilocybin, serotonin and urea in <em>Panaeolus cyanescens</em> from various origin. <em>Persoonia</em> 15(1): 117–121. repository.naturalis.nl/document/569927.",
+  "Wikipedia. <em>Panaeolus tropicalis</em>. en.wikipedia.com/wiki/Panaeolus_tropicalis.",
+  "Double Blind Mag. <em>Blue meanies mushrooms (Panaeolus cyanescens)</em>. doubleblindmag.com/blue-meanies-mushrooms-panaeolus-cyanescens/.",
+  "Merlin, M. D. y Allen, J. W. (1993). <em>Journal of Ethnopharmacology</em> 40: 21–40. bibliography.maps.org/resources/download/20077.",
+  "Healing Maps. <em>Blue Meanie Mushrooms Are Hard to Identify</em>. healingmaps.com/?p=27650."
+ ],
+ "tipo_txt": "Hongo",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Copa de oro",
+  "copa-de-oro"
+ ],
+ "siguiente": [
+  "Damiana",
+  "damiana"
+ ]
+}
