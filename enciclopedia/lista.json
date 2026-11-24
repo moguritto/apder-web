@@ -244,7 +244,7 @@
    "nombre": "Betel",
    "detalle": "Piper betle",
    "tipo": "planta",
-   "slug": null
+   "slug": "betel"
   },
   {
    "nombre": "Cacao",

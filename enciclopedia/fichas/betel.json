@@ -1,0 +1,257 @@
+{
+ "slug": "betel",
+ "tipo": "planta",
+ "migas": "Planta · Piperáceas · Malasia, Asia del Sur y Sudeste Asiático",
+ "nombre": "Betel",
+ "cientifico": "Piper betle",
+ "autoridad": "L.",
+ "descripcion": "Betel (Piper betle): la hoja trepadora en la que se envuelve la nuez de areca. Botánica, memoria ritual del paan, hidroxichavicol y cuidados.",
+ "entrada": "Una enredadera perenne de hojas brillantes en forma de corazón, central en la cultura hindú y en las ceremonias sociales y religiosas de Asia. Es la hoja del paan, donde se envuelve la nuez de areca.[1][2][4]",
+ "otros": "betel · hoja de betel · paan · sirih · betle · Piper betle · Piper betel",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Enredadera perenne de la familia de las piperáceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Origen en Malasia; extendida por Asia del Sur, Sudeste Asiático y este de África"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La hoja"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Hidroxichavicol, chavicol y chavibetol, entre otros"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica como planta sola"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Muchos pueblos de Asia, con un papel central en la cultura hindú"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una enredadera de hojas en forma de corazón",
+  "parrafos": [
+   "<em>Piper betle</em> L. es una planta trepadora perenne de la familia de las piperáceas, originaria de la zona central y oriental de la península malaya y distribuida hasta el este de África y los trópicos.[2]",
+   "Es una enredadera de hojas simples, alternas, ovadas, acorazonadas y de un verde brillante.[6] Es una planta que prefiere los climas cálidos y húmedos.[6]",
+   "En la India hay entre 125 y 150 cultivares de la planta.[6]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Piperaceae"
+   ],
+   [
+    "Hábito",
+    "Enredadera perenne"
+   ],
+   [
+    "Hoja",
+    "Verde brillante, en forma de corazón"
+   ],
+   [
+    "Parte usada",
+    "La hoja"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La hoja del paan",
+  "parrafos": [
+   "La hoja de betel y la nuez de areca tienen un papel central en la cultura hindú, donde se usan en ceremonias sociales, culturales y religiosas.[2]",
+   "El nombre más extendido de la planta en la India, Pakistán, Nepal y Bangladés es <em>paan</em>.[2]",
+   "Su uso aparece en muchos sistemas de medicina tradicional: el Ayurveda indio, la medicina tradicional china y la medicina popular de las Antillas y Latinoamérica.[2] En el Ayurveda, el jugo de la hoja se usa a menudo como adyuvante en combinaciones de hierbas.[2]",
+   "En medicina tradicional, las hojas se usan en Indonesia para lavados vaginales, en la India y Tailandia como enjuague bucal, y en Malasia para problemas dentales, dolores de cabeza, artritis y dolor articular.[7]",
+   "Hay también usos como veneno de peces, cebo, insecticida, ornamento, aceites, perfumes y alucinógenos.[2]"
+  ],
+  "cronologia": [
+   [
+    "Hace milenios",
+    "El quid de betel se usa desde hace unos pocos miles de años.[5]"
+   ]
+  ],
+  "nombres": [
+   [
+    "<em>paan</em>",
+    "India, Pakistán, Nepal y Bangladés"
+   ],
+   [
+    "<em>sirih</em>",
+    "Malasia e Indonesia"
+   ],
+   [
+    "<em>phlu</em>",
+    "Tailandia"
+   ],
+   [
+    "betel",
+    "nombre inglés y español"
+   ]
+  ],
+  "nota_nombres": "En la nuez y la hoja se mezclan nombres: el betel es la hoja, no la nuez de areca.[3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta de la selva húmeda",
+  "parrafos": [
+   "Es un bejuco perenne que se encuentra de forma común en la selva tropical.[4] Probablemente se originó en Malasia y se cultiva también en la India, Sri Lanka, Bangladés, Birmania y Nepal.[6]",
+   "Hay millones de asiáticos que consumen la hoja a diario, casi siempre junto con la nuez de areca y a veces con kava o cola.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla por su lugar en las ceremonias de Asia.",
+   "Distinguir la hoja de betel de la nuez de areca.",
+   "Informarse de los riesgos del quid antes de cualquier uso."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-betel.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre Asia del Sur y el Sudeste Asiático.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del betel"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Hidroxichavicol y fenoles",
+  "parrafos": [
+   "El hidroxichavicol es el compuesto bioactivo más importante entre los fitoconstituyentes del aceite esencial y los extractos de la hoja.[2]",
+   "También se han identificado chavicol, chavibetol, acetato de hidroxichavicol, alilpirocatecol, piperbetol, metilpiperbetol y otros.[2][6]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Hidroxichavicol",
+    "clase": "Fenol",
+    "img": null,
+    "texto": "Compuesto bioactivo principal de la hoja.[2][4]"
+   },
+   {
+    "nombre": "Chavicol y chavibetol",
+    "clase": "Fenoles",
+    "img": null,
+    "texto": "Componentes del aceite esencial.[2]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "El estimulante suave del paan",
+  "parrafos": [
+   "La hoja se usa como planta medicinal y recreativa, casi siempre con la nuez de areca.[6]",
+   "El efecto estimulante del quid se asocia sobre todo con la arecolina de la nuez, no con la hoja.[5]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay revisiones sobre sus usos religiosos y tradicionales, su composición fitoquímica y sus propiedades farmacológicas.[1][2]",
+   "Una revisión de 2022 sobre el hidroxichavicol indica que tiene actividad antiproliferativa en dosis micromolares sobre varias líneas celulares de cáncer.[4] Eso es investigación de laboratorio, no tratamiento.",
+   "Otra revisión señala que el extracto y el aceite esencial inhiben el crecimiento de microbios.[8]"
+  ],
+  "alcance": "Hay mucha investigación de laboratorio y poco ensayo clínico; las propias revisiones piden más estudios."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Algunos estudios han señalado que las hojas de betel contribuyen al cáncer oral; la hoja se usa casi siempre junto con la nuez y la cal.[4]"
+   ],
+   [
+    "Hoja y nuez",
+    "No hay que confundir la hoja con la nuez de areca, cuyo principal alcaloide es tóxico.[3]"
+   ],
+   [
+    "Laboratorio no es clínica",
+    "Los efectos descritos in vitro no se pueden dar por probados en personas.[4]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta ensayo clínico sobre la hoja como tal."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Nuez de betel",
+   "Areca catechu",
+   "La semilla que se envuelve en la hoja.",
+   "enciclopedia/nuez-de-betel/"
+  ],
+  [
+   "planta",
+   "Kava",
+   "Piper methysticum",
+   "Otra piperácea de uso ceremonial en el Pacífico.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Revisión de los usos religiosos, tradicionales, fitoquímicos y farmacológicos de <em>Piper betel</em>. Chin J Integr Med. link.springer.com/article/10.1007/s11655-013-1334-1.",
+  "Betelvine (<em>Piper betle</em> L.): a comprehensive insight into its ethnopharmacology, phytochemistry, and pharmacological, biomedical and therapeutic attributes. J Cell Mol Med. 2022. doi:10.1111/jcmm.17323.",
+  "Wikipedia. «Areca nut». wikipedia.org/wiki/Supari (consultada el 24-11-2026).",
+  "Mohamad NA, Abdul Rahman A, Sheikh Abdul Kadir SH. Hydroxychavicol as a potential anticancer agent (review). Oncol Lett. 2022;25(1):34. doi:10.3892/ol.2022.13620.",
+  "Pawar S, Bhane P, Jha U. Review on betel pepper leaf for anti-inflammatory activity. World J Pharm Res. wisdomlib.org.",
+  "Phytochemistry, pharmacological profile and therapeutic uses of <em>Piper betle</em> Linn: an overview. cdn.shopify.com.",
+  "Revisión de la hoja de betel: perfil fitoquímico, seguridad y productos. pmc.ncbi.nlm.nih.gov/articles/PMC8073370.",
+  "Revisión de la actividad antimicrobiana del extracto de hoja de betel. Appl Biochem Biotechnol. 2022. doi:10.1007/s12010-022-03912-w."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Belladona",
+  "belladona"
+ ],
+ "siguiente": [
+  "Cacao",
+  "cacao"
+ ]
+}
