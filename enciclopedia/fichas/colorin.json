@@ -1,0 +1,256 @@
+{
+ "slug": "colorin",
+ "tipo": "planta",
+ "migas": "Planta · Fabáceas · México",
+ "nombre": "Colorín",
+ "cientifico": "Erythrina americana",
+ "autoridad": "Mill.",
+ "descripcion": "Colorín o zompantle (Erythrina americana): árbol mexicano de flores rojas y semillas rojas, planta de mil usos, de semillas tóxicas por sus alcaloides.",
+ "entrada": "Un árbol mexicano de flores rojo encendido y semillas rojas, de uso muy variado: alimento, adorno, medicina y amuleto. Sus semillas son tóxicas por sus alcaloides, y la idea de un uso visionario entre los mexicas se apoya sobre todo en divulgación.[1][4][5]",
+ "otros": "colorín · zompantle · pemoche · tzompāmitl · árbol del coral · frijolillo rojo · Erythrina americana",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol de la familia de las leguminosas, de 4 a 5 m"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "México"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Flor (alimento), semilla y corteza (usos tradicionales y tóxicos)"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Alcaloides isoquinolínicos, entre ellos la beta-eritroidina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica; las semillas son tóxicas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos de México, entre ellos los de Morelos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un árbol de flores y semillas rojas",
+  "parrafos": [
+   "<em>Erythrina americana</em> es un árbol nativo de México que crece de 4 a 5 metros y tiene corteza pálida, parda y lisa, con ramas extendidas y muy ramificadas.[2]",
+   "El género <em>Erythrina</em> tiene 115 especies repartidas por las regiones tropicales del mundo, y 25 de ellas se conocen en México.[1]",
+   "Sus flores forman penachos de un rojo encendido, y sus frijoles rojos son llamativos.[5]",
+   "La palabra «colorín» significa color chillón, «gaudy», según Williams (1959).[2]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Fabaceae"
+   ],
+   [
+    "Altura",
+    "4–5 m"
+   ],
+   [
+    "Flor",
+    "Rojo encendido, en penachos"
+   ],
+   [
+    "Semilla",
+    "Roja, tóxica"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Las semillas son tóxicas por sus alcaloides. No son comestibles ni medicina."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El árbol de los mil usos",
+  "parrafos": [
+   "Es un recurso muy versátil en México: se usa como alimento (la flor), como sombra para cacao y café, como cerca viva y en artesanías, como las máscaras de baile tradicionales.[1][2][3]",
+   "La flor se come hervida, solo la parte roja, y se cocina con huevo o atún en muchas zonas del sur de México.[2]",
+   "Las semillas molidas se usan como veneno de ratas, y la corteza como veneno de peces.[2]",
+   "En el siglo XX, el biólogo Máximino Martínez recogió que tiene usos medicinales como antídoto, antiinflamatorio y narcótico, y que producía parálisis.[5]",
+   "El frijol rojo del colorín se considera un amuleto de abundancia.[4] Una fuente de divulgación dice que sus semillas tenían atributos enteógenos y que los aztecas las consumían para ver el futuro; ese dato no se ha podido contrastar con una fuente académica.[5]",
+   "El topónimo Zumpahuacán, en México, deriva del náhuatl <em>tzompahuacá</em>, «lugar del <em>Erythrina americana</em>».[3]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XX",
+    "Máximino Martínez registra sus usos medicinales.[5]"
+   ],
+   [
+    "2001",
+    "Se publica una revisión de la planta como recurso versátil de México.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "colorín",
+    "color chillón; nombre habitual"
+   ],
+   [
+    "zompantle",
+    "también llamado tzompāmitl en náhuatl"
+   ],
+   [
+    "pemoche",
+    "nombre regional"
+   ]
+  ],
+  "nota_nombres": "En Morelos y otras regiones la flor se llama a menudo «flor de colorín».[4]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un árbol de casi todo México",
+  "parrafos": [
+   "Se encuentra en casi todo México.[5]",
+   "Según una fuente divulgativa, enfrenta amenazas de extinción en algunas regiones y es un elemento clave en las tradiciones de comunidades como las de Morelos.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocer su uso culinario y ornamental, que es el más extendido.",
+   "No usar las semillas como si fueran un alimento o un remedio.",
+   "Respetar las tradiciones locales que la nombran."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-colorin.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre México.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del colorín (México)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides isoquinolínicos",
+  "parrafos": [
+   "Los primeros compuestos aislados fueron alcaloides isoquinolínicos; entre ellos, la beta-eritroidina y su derivado más potente, la dihidro-beta-eritroidina, mostraron actividad curariforme.[1]",
+   "Las semillas son tóxicas por la presencia de alcaloides.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Beta-eritroidina",
+    "clase": "Alcaloide isoquinolínico",
+    "img": null,
+    "texto": "Primer compuesto aislado; con actividad curariforme.[1]"
+   },
+   {
+    "nombre": "Dihidro-beta-eritroidina",
+    "clase": "Alcaloide isoquinolínico",
+    "img": null,
+    "texto": "Derivado más potente de la beta-eritroidina.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una planta que no se toma",
+  "parrafos": [
+   "No hay una experiencia documentada con garantías en la literatura científica.[1]",
+   "Las propiedades curariformes de sus alcaloides explican por qué se la describe como planta que produce parálisis.[1][5]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "La revisión de 2001 recoge información publicada e inédita sobre este árbol leguminoso tropical de uso múltiple.[1]",
+   "Una tesis de la UNAM de 2017 estudia una harina desengrasada y destoxificada de las semillas, porque son una fuente de proteína.[6]"
+  ],
+  "alcance": "Hay estudios de química y de aprovechamiento; no hay ensayos clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Las semillas son tóxicas por sus alcaloides y no deben consumirse.[1]"
+   ],
+   [
+    "Medicina popular",
+    "En la medicina tradicional se aplican como laxante, diurético, expectorante, antiasmático y antipalúdico; eso no es una indicación.[1]"
+   ],
+   [
+    "Procesado",
+    "Para aprovecharlas como alimento se estudian procesos de destoxificación, no se hace en casa.[6]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta evidencia de seguridad."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Frijolillo",
+   "Sophora secundiflora",
+   "Otra leguminosa de semillas rojas y tóxicas, de uso ritual.",
+   null
+  ],
+  [
+   "planta",
+   "Peyote",
+   "Lophophora williamsii",
+   "Otra planta sagrada de México.",
+   "enciclopedia/peyote/"
+  ]
+ ],
+ "fuentes": [
+  "García-Mateos R, Soto-Hernández M, Vibrans H. <em>Erythrina americana</em> Miller («colorín»; Fabaceae), a versatile resource from Mexico: a review. Economic Botany. link.springer.com/doi/10.1007/BF02866562.",
+  "Wikipedia. «<em>Erythrina americana</em>». en.wikipedia.org (consultada el 24-11-2026).",
+  "Wikipedia. «Bucare» (género <em>Erythrina</em>). en.wikipedia.com/wiki/Bucare.",
+  "México Desconocido. Las flores del árbol zompantle. mexicodesconocido.com.mx/flores-de-arbol-de-zompantle.html.",
+  "México Desconocido. Colorín, el árbol mágico. mexicodesconocido.com.mx/arbol-colorin.html.",
+  "Harina desengrasada y destoxificada de colorín (<em>Erythrina americana</em>). Tesis, UNAM, 2017. ru.dgb.unam.mx."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Cola de león",
+  "cola-de-leon"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
