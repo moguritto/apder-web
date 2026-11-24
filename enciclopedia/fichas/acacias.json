@@ -1,0 +1,268 @@
+{
+ "slug": "acacias",
+ "tipo": "planta",
+ "migas": "Planta · Fabáceas · Australia y otras regiones",
+ "nombre": "Acacias",
+ "cientifico": "Acacia spp.",
+ "autoridad": "",
+ "descripcion": "Acacias (Acacia spp.): un género con casi un millar de especies australianas, algunas con DMT. Qué se sabe, qué es dudoso y por qué hay que ir despacio.",
+ "entrada": "Un género enorme del que algunas especies australianas contienen DMT y otros alcaloides. Es un terreno donde abundan las afirmaciones sin fuente: conviene separar lo confirmado de lo que solo se dice.[1][2]",
+ "otros": "acacias · mimosas · wattle · Acacia maidenii · Acacia phlebophylla · Acacia obtusifolia",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Un género de árboles y arbustos con cientos de especies"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Sobre todo Australia; también África y otras regiones"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Corteza y hojas, según la especie"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Triptaminas como el DMT, betacarbolinas y otras"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables fuera de estudios"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos aborígenes de Australia; datos poco documentados"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un género con casi mil especies australianas",
+  "parrafos": [
+   "En el mundo hay más de mil especies de <em>Acacia</em> en sentido estricto, y la gran mayoría, 975, son endémicas de Australia.[1]",
+   "En el sur de África, 44 especies y 4 subespecies se revisaron en 2011 y se pasaron a los géneros <em>Senegalia</em> y <em>Vachellia</em>.[1]",
+   "Conviene no mezclar las acacias africanas y las australianas: la química psicoactiva comprobada se refiere a especies australianas.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Fabaceae"
+   ],
+   [
+    "Especies",
+    "Más de mil en sentido estricto"
+   ],
+   [
+    "Endémicas de Australia",
+    "975"
+   ],
+   [
+    "Nombre inglés",
+    "<em>Wattle</em>"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Una memoria poco documentada",
+  "parrafos": [
+   "Las acacias aparecen en el simbolismo egipcio y se citan con frecuencia en la Biblia, aunque en las traducciones antiguas se denominan de otra manera.[1] Eso no las convierte en plantas de uso psicoactivo.",
+   "Sobre el uso de las acacias australianas en la tradición de los pueblos aborígenes, la bibliografía a mano es escasa y no permite afirmar nada concreto. Lo que circula en medios y páginas web a menudo no tiene fuente primaria.[1]",
+   "Hoy hay en Australia personas que beben preparados de acacia en un contexto contemporáneo, y se habla de una espiritualidad de las acacias psicodélicas australianas como un terreno poco explorado por la antropología.[4]"
+  ],
+  "cronologia": [
+   [
+    "1747",
+    "Linneo ya usa el nombre <em>Acacia</em> para el género.[1]"
+   ],
+   [
+    "1965",
+    "Fitzgerald y Sioumis publican datos de <em>Acacia maidenii</em>.[3]"
+   ],
+   [
+    "2011",
+    "Las acacias de África se reorganizan en <em>Senegalia</em> y <em>Vachellia</em>.[1]"
+   ],
+   [
+    "2025",
+    "Primer estudio exploratorio con voluntarios sanos de formulaciones a base de acacia.[2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "acacia",
+    "género; el nombre se usa desde el siglo XIV"
+   ],
+   [
+    "<em>wattle</em>",
+    "nombre inglés de las acacias australianas"
+   ]
+  ],
+  "nota_nombres": "En Australia se conserva el nombre <em>Acacia</em> aunque en África se cambió.[1]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Árboles de un territorio frágil",
+  "parrafos": [
+   "La mayor parte de las especies crece en Australia.[1]",
+   "Hay conversación entre quienes las usan sobre la conservación de las acacias frente a la recolección silvestre.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Preguntarse por el origen de cualquier material que circule como «acacia».",
+   "No arrancar ni descortezar árboles silvestres.",
+   "Respetar el vínculo de los pueblos aborígenes con estas plantas y con su tierra."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-acacias.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre Australia.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de las acacias psicoactivas (Australia)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Triptaminas, betacarbolinas y más",
+  "parrafos": [
+   "Los análisis químicos han demostrado de forma inequívoca la presencia de triptaminas, como el DMT, betacarbolinas, histaminas y feniletilaminas en especies australianas.[1]",
+   "En la mayoría de los casos en que aparece DMT en una acacia aparece también MMT, un compuesto relacionado.[3] Algunas especies llevan además betacarbolinas, que podrían explicar efectos raros y distintos.[3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Triptamina presente en algunas especies australianas.[1]"
+   },
+   {
+    "nombre": "MMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Suele acompañar al DMT en las acacias.[3]"
+   },
+   {
+    "nombre": "Betacarbolinas",
+    "clase": "Alcaloides",
+    "img": null,
+    "texto": "Presentes en algunas especies australianas.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se ha estudiado",
+  "parrafos": [
+   "En 2025 se publicó un estudio clínico exploratorio con nueve voluntarios sanos con experiencia previa de ayahuasca. Probó tres formulaciones purificadas de DMT procedente de dos especies australianas de <em>Acacia</em>, combinadas con alcaloides de <em>Peganum harmala</em>.[2]",
+   "Su objetivo era valorar la seguridad, la tolerabilidad y los efectos psicodélicos.[2] Es un estudio pequeño y exploratorio.",
+   "Fuera de ese estudio, lo que se cuenta de la experiencia viene de relatos, no de mediciones."
+  ],
+  "tiempo": {
+   "horas": 6,
+   "tramos": [
+    [
+     "a",
+     0,
+     6,
+     "Sin datos fiables fuera de estudios"
+    ]
+   ],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "En 2022 se publicó una revisión de las especies de acacia con posible uso psicoactivo, donde se separa lo confirmado en la bibliografía de lo que solo aparece en los medios.[1]",
+   "Esa revisión señala, por ejemplo, que algunas especies figuran como psicoactivas en fuentes ya caducadas de internet o que se afirma que contienen DMT sin que haya fuente primaria que lo confirme.[1]"
+  ],
+  "alcance": "Hay química bien establecida para algunas especies australianas y un único estudio clínico pequeño. No hay estudios de efectos a largo plazo ni de riesgos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Muchas afirmaciones sobre acacias son de internet y no tienen fuente primaria; no se puede saber qué especie ni qué contenido tiene un material.[1]"
+   ],
+   [
+    "Mezclar especies",
+    "Las acacias australianas y las africanas no son equivalentes.[1]"
+   ],
+   [
+    "Combinaciones",
+    "El estudio de 2025 combinó el DMT con alcaloides de otra planta; no es algo que deba improvisarse.[2]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios de seguridad a largo plazo y de contenido por especie."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ayahuasca",
+   "Banisteriopsis caapi y Psychotria viridis",
+   "Comparte el DMT, pero con una tradición amazónica documentada.",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "molecula",
+   "DMT",
+   "Triptamina",
+   "La molécula que une a ambas.",
+   "sustancias/dmt/"
+  ]
+ ],
+ "fuentes": [
+  "Plants (Basel). 2022;11(23):3356. Revisión de las acacias con posible uso psicoactivo. pubmed.gov/36501395 · mdpi.com/2223-7747/11/23/3356.",
+  "Bonomo YA, Norman AF, Collins L, Ross M, Dwyer J, Perkins D, Sarris J. DMT and harmala alkaloids: an exploratory study of oral Acacia based formulations in healthy volunteers. Front Psychiatry. 2025;16:1545915. doi:10.3389/fpsyt.2025.1545915.",
+  "Erowid. Ayahuasca: alkaloids, plants y analogs, sección 3. erowid.org/books_online/ayahuasca_apa.",
+  "Psychedelic Café, n.º 5: Drinking the psychedelic acacias (pódcast). jameswjesso.libsyn.com."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Toloache",
+  "toloache"
+ ],
+ "siguiente": [
+  "Ayahuasca",
+  "ayahuasca"
+ ]
+}
