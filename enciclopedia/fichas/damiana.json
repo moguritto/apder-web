@@ -1,0 +1,259 @@
+{
+ "slug": "damiana",
+ "tipo": "planta",
+ "migas": "Planta · Pasifloráceas · México, Centroamérica y Caribe",
+ "nombre": "Damiana",
+ "cientifico": "Turnera diffusa",
+ "autoridad": "Willd. ex Schult.",
+ "descripcion": "Damiana (Turnera diffusa): arbusto aromático de zonas semiáridas, planta afrodisíaca tradicional de México. Historia, química y lo poco que se sabe.",
+ "entrada": "Un arbusto aromático de zonas semiáridas de México, Centroamérica, el Caribe y Sudamérica, entre los afrodisíacos vegetales más apreciados. La mayoría de sus efectos se han estudiado solo en laboratorio o en animales.[1][2]",
+ "otros": "damiana · oreganillo · bourrique · damiane · Turnera diffusa",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto aromático de la familia de las pasifloráceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Zonas semiáridas de México, Centroamérica, Caribe y Sudamérica; sur de Texas"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La hoja"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Flavonoides, fenoles, terpenoides y cafeína, entre otros"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Maya yucateco y pueblos de México"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un arbusto de zonas secas",
+  "parrafos": [
+   "<em>Turnera diffusa</em> es un arbusto nativo del sur de Texas, México, Centroamérica, Sudamérica y el Caribe.[3] En las Américas se distribuye por zonas semiáridas.[4]",
+   "Es la especie más representativa de su género.[4] De las 135 especies de <em>Turnera</em> aceptadas, media docena se usan en medicina tradicional, sobre todo esta.[1]",
+   "Se la ha colocado en la familia Passifloraceae.[1][3] Su aroma recuerda al de la manzanilla, por los compuestos aromáticos de la planta.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Passifloraceae"
+   ],
+   [
+    "Hábito",
+    "Arbusto aromático"
+   ],
+   [
+    "Hábitat",
+    "Zonas semiáridas"
+   ],
+   [
+    "Parte usada",
+    "La hoja"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un afrodisíaco de la tradición mexicana",
+  "parrafos": [
+   "Es una de las plantas afrodisíacas más apreciadas.[1] En México aparece en fuentes botánicas y médicas como afrodisíaca y también como diurética y para el dolor de estómago, la dispepsia y otros males.[2]",
+   "La etnobotánica del maya yucateco la recoge entre sus plantas.[5]",
+   "Es un ingrediente de un licor mexicano tradicional que a veces se usa en lugar del triple seco en los margaritas; el folclore dice que se usó en el «margarita original».[3]",
+   "Se incluyó en varios medicamentos de patente del siglo XIX, como el French Wine Coca de Pemberton.[3]",
+   "En el folclore se creía que era afrodisíaca, de ahí un sinónimo binomial antiguo, <em>Turnera aphrodisiaca</em>.[3]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XIX",
+    "Forma parte de medicamentos de patente como el French Wine Coca.[3]"
+   ],
+   [
+    "2014",
+    "Revisión de la etnobotánica, fitoquímica y bioactividad del género <em>Turnera</em>.[1]"
+   ],
+   [
+    "2023",
+    "Revisión de la bioactividad del género en los últimos diez años.[4]"
+   ]
+  ],
+  "nombres": [
+   [
+    "damiana",
+    "nombre habitual"
+   ],
+   [
+    "oreganillo",
+    "nombre popular mexicano"
+   ],
+   [
+    "<em>bourrique</em>",
+    "nombre usado en Bahamas"
+   ]
+  ],
+  "nota_nombres": "Parte de las plantas y semillas que se venden como <em>T. diffusa</em> son en realidad <em>T. ulmifolia</em>, la «falsa damiana».[3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Planta de zonas semiáridas",
+  "parrafos": [
+   "Vive en zonas semiáridas de México, Centroamérica, las islas del Caribe y Sudamérica.[4]",
+   "Los contenidos de antioxidantes y oligoelementos se han estudiado en poblaciones silvestres y cultivadas de zonas semiáridas.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Preferir material cuyo origen y especie estén claros.",
+   "Saber que la «falsa damiana» se vende con frecuencia.",
+   "Conocer su lugar en la medicina tradicional de México."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-damiana.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre México, Centroamérica, el Caribe y Sudamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la damiana"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Flavonoides y otros compuestos",
+  "parrafos": [
+   "En el género <em>Turnera</em> se han hallado 22 flavonoides, maltol glucósido, fenoles, siete glucósidos cianogénicos, monoterpenoides, sesquiterpenoides, triterpenoides, ácidos grasos y cafeína.[1]",
+   "El flavonoide apigenina destaca como excepción por haberse identificado en experimentos con animales como activo ansiolítico.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Apigenina",
+    "clase": "Flavonoide",
+    "img": null,
+    "texto": "Identificada en experimentos animales como compuesto ansiolítico.[1]"
+   },
+   {
+    "nombre": "Cafeína",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Hallada en el género <em>Turnera</em>.[1]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que no se sabe",
+  "parrafos": [
+   "Las actividades descritas son sobre todo de laboratorio, cultivos celulares o animales.[1]",
+   "No hay datos fiables de aparición ni duración de efectos en personas."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Se han demostrado experimentalmente en el género actividades ansiolítica, antibacteriana, antidiabética, antioxidante, adaptógena, antiobesidad, antiespasmódica, citotóxica, gastroprotectora, hepatoprotectora y afrodisíaca, casi siempre en ensayos químicos, celulares o animales.[1]",
+   "Un estudio con voluntarios sanos evaluó la actividad antiobesidad de un preparado herbal con otros ingredientes, entre ellos damiana.[1]",
+   "Una revisión de 2023 pide más ensayos clínicos para respaldar los resultados de laboratorio.[4]"
+  ],
+  "alcance": "Hay mucha investigación de laboratorio y muy pocos ensayos clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Los efectos descritos son de laboratorio y no equivalen a un efecto en personas.[1][4]"
+   ],
+   [
+    "Contenido",
+    "Contiene glucósidos cianogénicos, entre otros compuestos.[1]"
+   ],
+   [
+    "Especie",
+    "Se vende a menudo la «falsa damiana», de química distinta.[3]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan ensayos clínicos y estudios de toxicidad."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Kanna",
+   "Sceletium tortuosum",
+   "Otra planta tradicional de efecto suave.",
+   "enciclopedia/kanna/"
+  ],
+  [
+   "planta",
+   "Cacao",
+   "Theobroma cacao",
+   "Otra planta de sabor y tradición mesoamericana.",
+   "enciclopedia/cacao/"
+  ]
+ ],
+ "fuentes": [
+  "Szewczyk K, Zidorn C. Ethnobotany, phytochemistry, and bioactivity of the genus <em>Turnera</em> (Passifloraceae) with a focus on damiana — <em>Turnera diffusa</em>. J Ethnopharmacol. 2014;152(3):424-443. doi:10.1016/j.jep.2014.01.019.",
+  "USDA Phytochemical Database. Ethnobotanical plant <em>Turnera diffusa</em>. phytochem.nal.usda.gov/ethnobotanical-plant-turnera-diffusa.",
+  "Wikipedia. «<em>Turnera diffusa</em>». en.wikipedia.org (consultada el 24-11-2026).",
+  "Bioactivity of the genus <em>Turnera</em>: a review of the last 10 years. Pharmaceuticals. 2023;16(11):1573. pmc.ncbi.nlm.nih.gov/articles/PMC10675026.",
+  "Ankli A, Sticher O, Heinrich M. Medical ethnobotany of the Yucatec Maya: healers' consensus as a quantitative criterion. Econ Bot. 1999;53:144-160.",
+  "Antioxidant and trace element content of damiana under wild and cultivated conditions in semi-arid zones. Ind Crops Prod. 2012;37:321-327."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Copa de oro",
+  "copa-de-oro"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
