@@ -1,0 +1,249 @@
+{
+ "slug": "soma",
+ "tipo": "preparado",
+ "migas": "Preparado · Bebida sagrada · India védica",
+ "nombre": "Soma",
+ "cientifico": "Planta no identificada con certeza",
+ "autoridad": "",
+ "descripcion": "Soma: bebida sagrada de los himnos védicos, prensada de una planta cuya identidad se ignora; Wasson propuso la amanita muscaria, y no hay consenso.",
+ "entrada": "Soma es una bebida ritual prensada de una planta del mismo nombre, que según los himnos védicos confería poder, inspiración, inmortalidad y acceso a estados alterados. A pesar de la abundante descripción textual de su mito y su rito, no hay consenso académico sobre qué sustancia era. Hay más de cien candidatas.[1][2][3]",
+ "otros": "soma · sauma · haoma (avéstico) · Soma Pavamana",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Bebida ritual prensada y divinidad védica"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "India védica y Asia central"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Una planta prensada; identidad desconocida"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Desconocidos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tradición védica; sacerdotes del Rigveda"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La planta",
+  "titulo": "Cien candidatas",
+  "parrafos": [
+   "La importancia de la planta del soma en la religión védica nunca se ha subestimado: muchos estudiosos han especulado sobre su identidad botánica, con muchos géneros propuestos, entre los más favorecidos <em>Ephedra</em>, <em>Sarcostemma</em>, <em>Periploca</em> y, más recientemente, <em>Cannabis</em>.[4]",
+   "Una revisión contabiliza más de cien candidatas botánicas; algunas, como la efedra o la amanita muscaria, han liderado el campo durante años, y otras, como el hidromiel, ya no se consideran seriamente.[5]",
+   "Wasson descartó los hongos de psilocibina porque dudaba de que crecieran en la India, pero los micólogos han identificado hoy numerosas variedades en el subcontinente.[5]",
+   "Los estudiosos aceptan hoy que no era una bebida alcohólica: la preparación del soma no permite fermentación y el verbo védico <em>mad</em> no significa «intoxicar» si eso implica borrachera y no éxtasis.[6]"
+  ],
+  "rasgos": [
+   [
+    "Texto central",
+    "Rigveda"
+   ],
+   [
+    "Estatuto",
+    "Bebida y divinidad"
+   ],
+   [
+    "Candidatas",
+    "Más de cien"
+   ],
+   [
+    "Descartada",
+    "Bebida alcohólica"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha de naturaleza histórica; la identidad botánica es hipótesis, no un hecho."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La bebida de la inmortalidad",
+  "parrafos": [
+   "La mayoría de los himnos del Rigveda se compusieron para el ritual del soma.[6]",
+   "El Rigveda está, por así decirlo, impregnado de soma.[7] El soma-sacrificio es central en los textos yajúrvedicos.[4]",
+   "Su identidad parece haberse perdido hace unos 3000 años, cuando los sacerdotes abandonaron su uso; los antiguos indios no parecieron tener curiosidad por esa identidad, según Wasson.[8]",
+   "R. Gordon Wasson propuso en 1968 que era el hongo <em>Amanita muscaria</em>, y su evidencia era el tono extático de los himnos, que a su juicio no cuadraba con una bebida en fermentación.[9]",
+   "John Brough respondió con una crítica que muchos estudiosos tomaron como muy persuasiva; el indólogo Kuiper también la criticó.[10]",
+   "Un estudioso reciente dice que no hay evidencia de experiencia chamánica o visionaria en el védico, ni de que el soma fuera alucinógeno, aunque tampoco afirma que no lo fuera.[10]",
+   "El historiador del alcohol James McHugh ha refutado la idea de que fuera una concoción alcohólica.[11]"
+  ],
+  "cronologia": [
+   [
+    "Hace unos 3000 años",
+    "Se pierde la identidad de la planta, según Wasson"
+   ],
+   [
+    "1968",
+    "Wasson propone la amanita muscaria"
+   ]
+  ],
+  "nombres": [
+   [
+    "soma",
+    "sánscrito"
+   ],
+   [
+    "haoma",
+    "avéstico"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "India védica y Asia central",
+  "parrafos": [
+   "La hipótesis más defendida de que el soma era un estimulante, con la efedra como candidata más frecuente, se apoya en que se usa efedra en el ritual zoroástrico actual y en las trazas de efedra halladas en sitios de la cultura BMAC.[12]",
+   "Las trazas de otros pólenes en sitios BMAC, como cáñamo y adormidera, hacen que Sarianidi describa el soma/haoma como una bebida alucinógena.[10]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerlo como tradición védica.",
+   "Distinguir la hipótesis del hecho.",
+   "Respetar el uso ritual vivo del soma en la India."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-soma.svg",
+   "alt": "Mapa con el noroeste de India y Asia central sombreados.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del soma védico"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Según qué planta",
+  "parrafos": [
+   "La química depende de la identificación: efedra (alcaloides estimulantes), amanita muscaria (muscimol y ácido iboténico) u otras.[4][9]",
+   "Un historiador sostiene que cada década ha elevado como candidata la droga característica de su época: el alcohol hasta los años veinte, el cannabis en los cincuenta.[2]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que dicen los himnos",
+  "parrafos": [
+   "Los poetas-sacerdotes la describían como inebriante y sublime.[8]",
+   "La pregunta clave, según una historiadora, es cómo transformaba soma la experiencia sensorial del sacerdote, más que cuál era su botánica.[3]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Es objeto de debate filológico, botánico y arqueológico desde hace siglos.[4][5]",
+   "Una crítica historiográfica señala que cada generación tiene «el soma que merece o desea».[2]"
+  ],
+  "alcance": "Estudio filológico y arqueológico; la identidad sigue abierta."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Identidad",
+    "No hay consenso académico sobre qué fue el soma.[2]"
+   ],
+   [
+    "Hipótesis",
+    "Las identificaciones con plantas psicoactivas son propuestas, no hechos.[5][10]"
+   ],
+   [
+    "Tradición",
+    "Es un rito védico central; no una droga recreativa."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "preparado",
+   "Haoma",
+   "Bebida sagrada del Avesta",
+   "Su hermana iránica.",
+   "enciclopedia/haoma/"
+  ],
+  [
+   "hongo",
+   "Amanita muscaria",
+   "Amanita muscaria",
+   "La candidata de Wasson.",
+   "enciclopedia/amanita-muscaria/"
+  ],
+  [
+   "planta",
+   "Efedra",
+   "Ephedra spp.",
+   "La candidata estimulante más citada.",
+   "enciclopedia/efedra/"
+  ]
+ ],
+ "fuentes": [
+  "Harvard Divinity School, CSWR. <em>The Soma Question</em> (Moore Gerety). cswr.hds.harvard.edu/publications/psychedelic-intersections/soma-question-gerety.md.",
+  "Harvard Divinity School, CSWR. <em>The Soma Question</em> (crítica historiográfica). cswr.hds.harvard.edu/publications/psychedelic-intersections/soma-question-gerety.",
+  "Harvard Divinity School, CSWR. Moore Gerety, A. <em>Soma</em> (PDF). cswr.hds.harvard.edu.",
+  "Brough, J. <em>Soma and Amanita muscaria</em>. <em>Bulletin of SOAS</em>. bibliography.maps.org/resources/download/12542.",
+  "Harvard Divinity School, CSWR. <em>The Soma Question</em> (candidatas). cswr.hds.harvard.edu/publications/psychedelic-intersections/soma-question-gerety.",
+  "Jamison, S. y Brereton, J. <em>The Rigveda</em>, introducción: ritual del soma. vishvasa.github.io (introducción de Jamison y Brereton).",
+  "Brough, J. <em>Soma and Amanita muscaria</em>. <em>BSOAS</em> (Cambridge). resolve.cambridge.org.",
+  "Wasson, R. G. y Wasson, V. P. Texto sobre el soma. bibliography.maps.org/resources/download/15616.",
+  "Revisión sobre la teoría de Wasson. bibliography.maps.org/resources/download/14757.",
+  "Electronic Journal of Vedic Studies. hasp.ub.uni-heidelberg.de/journals/ejvs/article/download/788/10446/23246.",
+  "McHugh, J. Historia del alcohol en el sur de Asia, citada en la bibliografía de CSWR. cswr.hds.harvard.edu.",
+  "Jamison, S. y Brereton, J. Introducción al Rigveda (hipótesis de la efedra). vishvasa.github.io."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Sinicuichi",
+  "sinicuichi"
+ ],
+ "siguiente": [
+  "Tabaco",
+  "tabaco"
+ ]
+}
