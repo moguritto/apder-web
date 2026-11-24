@@ -1,0 +1,301 @@
+{
+ "slug": "kanna",
+ "tipo": "planta",
+ "migas": "Planta · Aizoáceas · Karoo y Namaqualand, Sudáfrica",
+ "nombre": "Kanna",
+ "cientifico": "Mesembryanthemum tortuosum",
+ "autoridad": "L.",
+ "descripcion": "Kanna (Mesembryanthemum tortuosum, antes Sceletium): suculenta sudafricana que san y khoikhoi mascan. Botánica, historia, mesembrina, investigación y cuidados.",
+ "entrada": "Una pequeña suculenta de las tierras secas de Sudáfrica que los pueblos san y khoikhoi mascan, fermentada, desde hace siglos. Su efecto es suave y relajante, sin alucinaciones, y lo poco que se sabe de ella aún está por confirmar.[1][9][10]",
+ "otros": "kanna · kougoed · channa · Sceletium tortuosum · higo esqueleto",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Suculenta rastrera, de hojas con células de agua"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Karoo y Namaqualand, en el sur de África"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La planta entera, machacada y fermentada (kougoed)"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Mesembrina y mesembrenona"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Poco después de mascarla · 1–3 h"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Los pueblos san y khoikhoi"
+  ]
+ ],
+ "guia": {
+  "titulo": "Guía completa de la kanna",
+  "texto": "Interacciones con antidepresivos, quién no debería tomarla y cómo reducir riesgos.",
+  "url": "sustancias/kanna/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una suculenta que se ahueca al secarse",
+  "parrafos": [
+   "Es una hierba suculenta de vida corta, de porte rastrero, que crece en las zonas secas del oeste de Sudáfrica.[10][11]",
+   "Sus hojas, curvadas en la punta, tienen células de agua visibles y tres a cinco nervios; los tallos se vuelven algo leñosos con la edad. Al secarse, la hoja queda esquelética, y de ahí el nombre antiguo <em>Sceletium</em>.[3][12]",
+   "Crece en suelos arenosos, bajo arbustos y en semisombra, desde el Namaqualand hasta Montagu y, más al este, hasta Aberdeen.[12]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Aizoaceae"
+   ],
+   [
+    "Porte",
+    "Suculenta rastrera, de vida corta"
+   ],
+   [
+    "Hoja",
+    "Curvada, con células de agua"
+   ],
+   [
+    "Hábitat",
+    "Suelo arenoso del Karoo y el Namaqualand"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Lo que se masca para aguantar el día",
+  "parrafos": [
+   "Los pueblos san, cazadores-recolectores, y khoikhoi, pastores, mascan la kanna desde hace siglos, a menudo después de fermentarla. Les servía para calmar la sed y el hambre, combatir el cansancio, mejorar el ánimo y también en contextos sociales y espirituales.[1][10]",
+   "El nombre <em>kougoed</em> es afrikáans y significa «lo que se mastica». Para los san, «kanna» está ligado al eland, el antílope que consideran el animal de trance por excelencia.[9]",
+   "Los primeros registros escritos son coloniales: Jan van Riebeeck la menciona hacia 1662, y Simon van der Stel dejó en 1685 un dibujo de la planta.[10][12]"
+  ],
+  "cronologia": [
+   [
+    "Hace siglos",
+    "Los pueblos san y khoikhoi mascan la kanna, a menudo fermentada.[1]"
+   ],
+   [
+    "1662",
+    "Jan van Riebeeck deja el primer relato escrito de su uso.[12]"
+   ],
+   [
+    "1685",
+    "Simon van der Stel la dibuja en su viaje a Namaqualand.[10]"
+   ],
+   [
+    "1996",
+    "Una revisión histórica reúne 300 años de datos y no encuentra evidencia de que sea alucinógena.[9]"
+   ],
+   [
+    "2010",
+    "El Gobierno de Sudáfrica anuncia un acuerdo de bioprospección para beneficiar a los san.[8]"
+   ]
+  ],
+  "nombres": [
+   [
+    "kanna",
+    "nombre khoi; para los san evoca al eland"
+   ],
+   [
+    "kougoed",
+    "afrikáans, «lo que se mastica»"
+   ],
+   [
+    "channa",
+    "variante antigua de kanna"
+   ],
+   [
+    "<em>Sceletium</em>",
+    "género antiguo; hoy la especie se incluye en <em>Mesembryanthemum</em>"
+   ]
+  ],
+  "nota_nombres": "En la bibliografía hallarás tanto <em>Sceletium tortuosum</em> como <em>Mesembryanthemum tortuosum</em>: es la misma planta con dos clasificaciones.[12]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Una planta del Karoo bajo presión",
+  "parrafos": [
+   "Es originaria de las provincias del Cabo, en Sudáfrica, y crece en el semidesierto del Karoo y el Namaqualand.[11][12]",
+   "Hay mucha presión sobre la cosecha silvestre, aunque ya se cultiva a gran escala.[11] De las ocho especies de <em>Sceletium</em>, tres están amenazadas.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Preferir kanna cultivada a la recogida en la naturaleza.",
+   "Preguntar por el origen y por si la comunidad san y khoikhoi participa del beneficio.",
+   "Respetarla como medicina de pueblos que la guardan, no como producto de moda."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-kanna.svg",
+   "alt": "Mapa con una zona sombreada en ocre en el suroeste de Sudáfrica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la kanna (Karoo y Namaqualand)"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Mesembrina, una molécula que toca la serotonina",
+  "parrafos": [
+   "Sus alcaloides principales son la mesembrina y la mesembrenona. El contenido varía mucho entre especies y entre plantas silvestres de la misma especie.[2][5]",
+   "Inhiben la recaptación de serotonina, como algunos antidepresivos, y también la enzima PDE4. La mesembrina es el alcaloide más potente sobre el transportador de serotonina, y la mesembrenona actúa sobre ambas dianas.[5]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Mesembrina",
+    "clase": "Alcaloide · principal",
+    "img": null,
+    "texto": "Es el más potente sobre el transportador de serotonina.[5]"
+   },
+   {
+    "nombre": "Mesembrenona",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Actúa sobre el transportador de serotonina y sobre la PDE4.[5]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una calma suave, sin alucinaciones",
+  "parrafos": [
+   "Quien la toma suele describir relajación, menos ansiedad y un ánimo algo elevado. No produce alucinaciones: no es un psicodélico.[3][9]",
+   "Los efectos que se describen duran entre una y tres horas. No se ha medido la semivida de sus alcaloides en personas.[4]"
+  ],
+  "tiempo": {
+   "horas": 4,
+   "tramos": [
+    [
+     "a",
+     0,
+     0.5,
+     "Sube"
+    ],
+    [
+     "b",
+     0.5,
+     3,
+     "Efecto principal"
+    ],
+    [
+     "c",
+     3,
+     4,
+     "Baja"
+    ]
+   ],
+   "res": [
+    [
+     "Dura",
+     "1–3 h"
+    ],
+    [
+     "Dependencia",
+     "no parece causar síndrome de abstinencia"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay pocos ensayos, pequeños y con voluntarios sanos. En un estudio de imagen cerebral, un extracto estandarizado (Zembrin) redujo la respuesta de la amígdala a imágenes de miedo.[7]",
+   "Una revisión de los ensayos concluye que no hay ninguno de más de tres meses.[4]"
+  ],
+  "alcance": "No está probada como tratamiento de la ansiedad ni de la depresión. Los estudios usan un extracto concreto, no la planta fermentada que se mastica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "La mezcla con antidepresivos, IMAO (también la ayahuasca), MDMA o tramadol: por su acción sobre la serotonina podría causar un síndrome serotoninérgico.[5][6]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Hay pocos estudios en personas, ninguno de más de tres meses, y la cantidad de alcaloides varía mucho entre productos.[2][4]"
+   ],
+   [
+    "Mezclas",
+    "La tradición ya señalaba que potencia el efecto del cannabis fumado.[9]"
+   ],
+   [
+    "Origen",
+    "Conviene saber de dónde viene y quién se beneficia.[8][11]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Kratom",
+   "Mitragyna speciosa",
+   "Otra planta estimulante y sedante, de Asia.",
+   null
+  ],
+  [
+   "planta",
+   "Cacao",
+   "Theobroma cacao",
+   "Otra planta cotidiana con compuestos que actúan en el cerebro.",
+   "enciclopedia/cacao/"
+  ]
+ ],
+ "fuentes": [
+  "Gericke N, Viljoen AM. <em>Sceletium</em>: a review update. J Ethnopharmacol. 2008;119(3):653-663.",
+  "Reddy K, Stafford GI, Makunga NP. Skeletons in the closet? Using a bibliometric lens to visualise phytochemical and pharmacological activities linked to <em>Sceletium</em>, a mood enhancer. Front Plant Sci. 2024;15:1268101.",
+  "Drugs.com. <em>Sceletium tortuosum</em>. Monografía de productos naturales. drugs.com/npp.",
+  "Alzheimer's Drug Discovery Foundation. <em>Sceletium tortuosum</em> (Zembrin): Cognitive Vitality report. alzdiscovery.org.",
+  "Harvey AL, Young LC, Viljoen AM, Gericke NP. Pharmacological actions of the South African medicinal and functional food plant <em>Sceletium tortuosum</em> and its principal alkaloids. J Ethnopharmacol. 2011;137(3):1124-1129.",
+  "Yip K, Tanen D. Síndrome de la serotonina. Manual MSD, versión para el público general. msdmanuals.com.",
+  "Terburg D, Syal S, Rosenberger LA, et al. Acute effects of <em>Sceletium tortuosum</em> (Zembrin), a dual 5-HT reuptake and PDE4 inhibitor, in the human amygdala and its connection to the hypothalamus. Neuropsychopharmacology. 2013;38(13):2708-2716.",
+  "SAnews (Gobierno de Sudáfrica). 10 000 San to benefit from bio-prospecting license. 4 de octubre de 2010. sanews.gov.za.",
+  "Smith MT, Crouch NR, Gericke N, Hirst M. Psychoactive constituents of the genus <em>Sceletium</em> N.E.Br. and other Mesembryanthemaceae: a review. J Ethnopharmacol. 1996;50(3):119-130.",
+  "Manganyi MC, Bezuidenhout CC, Regnier T, Ateba CN. A chewable cure «Kanna»: biological and pharmaceutical properties of <em>Sceletium tortuosum</em>. Molecules. 2021;26(9):2557.",
+  "South African National Biodiversity Institute (SANBI). <em>Sceletium tortuosum</em>. PlantZAfrica. pza.sanbi.org.",
+  "Wikipedia. «Mesembryanthemum tortuosum». en.wikipedia.org (consultada el 24-11-2026)."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Iboga",
+  "iboga"
+ ],
+ "siguiente": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ]
+}
