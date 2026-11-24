@@ -1,0 +1,264 @@
+{
+ "slug": "efedra",
+ "tipo": "planta",
+ "migas": "Planta · Efedráceas · Zonas áridas de Asia y otras regiones",
+ "nombre": "Efedra",
+ "cientifico": "Ephedra spp.",
+ "autoridad": "",
+ "descripcion": "Efedra (Ephedra spp.): el «ma huang» de la medicina china, arbusto de desierto con efedrina, de uso tradicional milenario. Historia, química y cuidados.",
+ "entrada": "Un arbusto de zonas áridas conocido en China como «ma huang», usado en medicina tradicional durante milenios. Su alcaloide principal, la efedrina, se aisló en el siglo XIX y fue clave en la historia de la farmacología.[1][2]",
+ "otros": "efedra · ma huang · mahuang · Ephedra sinica · Ephedra equisetina · Ephedra intermedia · Ephedrae herba",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbustos sin hojas de zonas desérticas, de la familia de las efedráceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Zonas áridas; en China sobre todo"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Los tallos secos"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Efedrina, pseudoefedrina y otros alcaloides"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina tradicional china; también la India"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Tallos de desierto",
+  "parrafos": [
+   "La efedra, llamada «ma huang» en China, crece sobre todo en entornos desérticos secos.[1]",
+   "La Farmacopea de la República Popular China, en su edición de 2020, incluye como efedra los tallos secos de <em>Ephedra sinica</em>, <em>E. intermedia</em> o <em>E. equisetina</em>.[1]",
+   "La planta puede superar el metro de altura, con un fuerte olor a pino y un sabor astringente.[7] El término chino «ma huang» se traduce libremente como «amarillo astringente», «cola de caballo amarilla» o «cáñamo amarillo».[7]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Ephedraceae"
+   ],
+   [
+    "Hábito",
+    "Arbusto de zonas áridas"
+   ],
+   [
+    "Altura",
+    "Puede superar 1 m"
+   ],
+   [
+    "Parte usada",
+    "Tallos secos"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Cinco mil años de «ma huang»",
+  "parrafos": [
+   "Se ha usado en la medicina tradicional china durante más de 5000 años.[1] Otras revisiones hablan de unos 5000 años como una de las plantas medicinales más antiguas.[4][5]",
+   "Fue registrada originalmente en el clásico herbario de Sheng Nong y se ha usado como medicina y como alimento.[3]",
+   "Se ha empleado como estimulante y antiasmático, y tradicionalmente para el resfriado, el asma bronquial, la tos, la fiebre, la gripe, el dolor de cabeza, el edema y las alergias.[4]",
+   "La efedra y su alcaloide principal fueron quizá el primer remedio de la medicina china con uso significativo en la medicina occidental; <em>E. gerardiana</em> se usó en la India.[6]",
+   "El alcaloide puro, la efedrina, fue aislado y caracterizado por Nagai en 1885; después se olvidó hasta que Chen y Schmidt lo redescubrieron a principios de la década de 1920.[2] Se volvió un tratamiento muy popular y eficaz para el asma.[2]"
+  ],
+  "cronologia": [
+   [
+    "Hace unos 5000 años",
+    "Se usa en la medicina tradicional china.[1][5]"
+   ],
+   [
+    "1885",
+    "Nagai aísla y caracteriza la efedrina.[2]"
+   ],
+   [
+    "Década de 1920",
+    "Chen y Schmidt redescubren la efedrina.[2]"
+   ],
+   [
+    "2020",
+    "La Farmacopea china recoge tres especies de efedra.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "ma huang",
+    "chino: «amarillo astringente»"
+   ],
+   [
+    "efedra",
+    "nombre castellano, del género <em>Ephedra</em>"
+   ],
+   [
+    "<em>Ephedrae herba</em>",
+    "nombre farmacopeico de los tallos secos"
+   ]
+  ],
+  "nota_nombres": "«Ma huang» designa más específicamente las partes aéreas de <em>E. sinica</em>, <em>E. equisetina</em> o <em>E. intermedia</em>.[7]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un arbusto del desierto",
+  "parrafos": [
+   "Crece sobre todo en desiertos y zonas áridas.[1]",
+   "Hay especies del género en India (<em>E. gerardiana</em>), en el norte de África y en zonas áridas y saharianas de Túnez.[6][5]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla por su lugar en la medicina china.",
+   "No tratarla como suplemento sin información.",
+   "Respetar los marcos de uso de cada tradición."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-efedra.svg",
+   "alt": "Mapa con zonas sombreadas en ocre sobre Asia central y oriental y el norte de África.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la efedra"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Efedrina y compañía",
+  "parrafos": [
+   "Los compuestos más comunes son la efedrina y la pseudoefedrina, además de una gran diversidad de otros alcaloides y compuestos no alcaloides.[5]",
+   "Tres pares de estereoisómeros suelen considerarse los ingredientes activos de la efedra y se llaman en conjunto efedrinas.[1]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Efedrina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Alcaloide principal, aislado en 1885.[2][5]"
+   },
+   {
+    "nombre": "Pseudoefedrina",
+    "clase": "Alcaloide",
+    "img": null,
+    "texto": "Estereoisómero acompañante.[5]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un estimulante de acción adrenérgica",
+  "parrafos": [
+   "Se usa como estimulante y antiasmático.[4]",
+   "Sus acciones sobre los adrenorreceptores se clasificaron en efectos alfa y beta, un hito de la historia de la farmacología autonómica.[2]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "Hay revisiones sistemáticas de su uso tradicional, constituyentes químicos, efectos farmacológicos, aplicaciones clínicas, control de calidad, toxicología y farmacocinética.[3]",
+   "Los componentes no alcaloides de la efedra podrían usarse en lugar de los extractos de efedrina para tratar algunas enfermedades, y un uso razonable puede asegurar su seguridad.[1]",
+   "Un ensayo clínico aleatorizado y doble ciego probó un suplemento herbal con ma huang y guaraná para adelgazar.[5]"
+  ],
+  "alcance": "Hay mucha farmacología y clínica de la efedrina; la planta como producto tiene riesgos descritos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Hay un número creciente de pruebas de posibles riesgos por mal uso o abuso de la planta.[7]"
+   ],
+   [
+    "Toxicidad por alcaloides",
+    "Las revisiones dedican un apartado propio a la toxicidad de sus alcaloides.[1]"
+   ],
+   [
+    "Suplementos",
+    "El resurgimiento de la efedra como suplemento dietético ha traído regulación y debate.[7]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios sobre la planta entera."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Kratom",
+   "Mitragyna speciosa",
+   "Otra planta de efecto estimulante o sedante según su preparación.",
+   "enciclopedia/kratom/"
+  ],
+  [
+   "planta",
+   "Khat",
+   "Catha edulis",
+   "Otra planta estimulante tradicional.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Ephedrae herba: a review of its phytochemistry, pharmacology, clinical application, and alkaloid toxicity. Molecules. 2023. pmc.ncbi.nlm.nih.gov/articles/PMC9863261.",
+  "The history of Ephedra (ma-huang). Royal College of Physicians of Edinburgh. rcpe.ac.uk/taxonomy/term/777.",
+  "Ephedrae herba: traditional use, chemical constituents, pharmacological effects, clinical applications, quality control, toxicology and pharmacokinetics. J Ethnopharmacol. 2023. pubmed.gov/36641108.",
+  "Revisión de <em>Ephedra sinica</em>: usos tradicionales y farmacoterapia. pmc.ncbi.nlm.nih.gov/articles/PMC7210547.",
+  "Medicinal and therapeutic properties of <em>Ephedra</em>. Rev Bras Farmacogn. 2022. doi:10.1007/s43450-022-00304-3.",
+  "Capítulo sobre efedra (ma huang) en la medicina occidental. Taylor y Francis. taylorfrancis.com.",
+  "<em>Ephedra</em> in perspective: a current review. University of Mississippi. typeset.io/pdf/ephedra-in-perspective-a-current-review-xb92flvhjt.pdf."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Damiana",
+  "damiana"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
