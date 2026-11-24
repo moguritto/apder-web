@@ -1,0 +1,256 @@
+{
+ "slug": "chaliponga",
+ "tipo": "planta",
+ "migas": "Planta · Malpigiáceas · Cuenca amazónica",
+ "nombre": "Chaliponga",
+ "cientifico": "Diplopterys cabrerana",
+ "autoridad": "(Cuatrec.) B.Gates",
+ "descripcion": "Chaliponga (Diplopterys cabrerana): liana amazónica usada como aditivo del yagé por los siona, los secoya y otros pueblos, rica en DMT y 5-MeO-DMT.",
+ "entrada": "Una liana de la cuenca amazónica que se añade al yagé o ayahuasca como fuente de DMT, usada por los pueblos siona y secoya del Ecuador y por los mocoa de Colombia. A veces se la llama chacruna, nombre que en otros lugares designa a otra planta distinta.[1][2][3]",
+ "otros": "chaliponga · chagropanga · chacruna (en partes de Ecuador) · oco-yagé · Banisteriopsis cabrerana · Diplopterys cabrerana",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Liana o arbusto trepador de la familia de las malpigiáceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Cuenca amazónica: Brasil, Colombia, Ecuador, Perú y Venezuela"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La hoja"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "DMT y 5-MeO-DMT"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Depende del brebaje en que se use; sin datos fiables de la planta sola"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Siona y secoya (Ecuador), mocoa (Colombia)"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Una liana de la selva amazónica",
+  "parrafos": [
+   "<em>Diplopterys cabrerana</em> es una liana o arbusto trepador nativo de la cuenca amazónica, que se extiende por Brasil, Colombia, Ecuador y Perú.[1] Según los registros hay colecciones también de Venezuela y, según Gates (1982), de Bolivia.[2]",
+   "Antes se la clasificaba como <em>Banisteriopsis cabrerana</em>.[1]",
+   "La planta almacena en sus hojas y tallos alcaloides como el N,N-DMT, el 5-MeO-DMT y un derivado de la betacarbolina.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Malpighiaceae"
+   ],
+   [
+    "Hábito",
+    "Liana o arbusto trepador"
+   ],
+   [
+    "Parte usada",
+    "La hoja"
+   ],
+   [
+    "Sinónimo",
+    "<em>Banisteriopsis cabrerana</em>"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El aditivo del yagé",
+  "parrafos": [
+   "Es un aditivo habitual del brebaje ayahuasca, junto con otra planta, <em>Psychotria viridis</em>.[1]",
+   "Se encuentra en el Putumayo colombiano y la usan los mocoa en Colombia y los siona y secoya en Ecuador.[2] Su uso es mucho menos común en Perú que en Colombia y Ecuador.[2]",
+   "El tratado de Gates de 1982 es la monografía más completa sobre el género <em>Diplopterys</em>.[2]"
+  ],
+  "cronologia": [
+   [
+    "1968",
+    "Der Marderosian y colaboradores analizan la planta.[2]"
+   ],
+   [
+    "1982",
+    "Gates publica la monografía del género <em>Diplopterys</em>.[2]"
+   ]
+  ],
+  "nombres": [
+   [
+    "chaliponga",
+    "nombre quechua"
+   ],
+   [
+    "chagropanga",
+    "nombre quechua"
+   ],
+   [
+    "chacruna",
+    "en partes de Ecuador; es el nombre propio de otra planta, <em>Psychotria viridis</em>"
+   ]
+  ],
+  "nota_nombres": "En Ecuador, «chacruna» designa a veces a la chaliponga, aunque en otros lugares es el nombre de <em>Psychotria viridis</em>.[1][3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un bosque húmedo compartido",
+  "parrafos": [
+   "Crece en la cuenca amazónica, desde Colombia y Ecuador hasta Perú y Brasil.[1]",
+   "Se la reconoce como planta de los pueblos amazónicos que la usan junto con otras plantas del yagé."
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como parte de un conjunto de plantas, no aislada.",
+   "Cuidar la selva donde crece.",
+   "Respetar a los pueblos siona, secoya y mocoa que la han custodiado."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-chaliponga.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre la cuenca amazónica occidental.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la chaliponga"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "DMT y 5-MeO-DMT",
+  "parrafos": [
+   "Es una fuente rica de DMT, una triptamina que se cree endógena en seres humanos y otras especies, como la chacruna (<em>P. viridis</em>).[1] Produce además 5-MeO-DMT, un análogo menos común.[1]",
+   "En las hojas hay también trazas de metiltriptamina y bufotenina.[1][3]",
+   "Las hojas pueden tener cantidades notables de DMT, y sus alcaloides se han medido en varios trabajos.[2]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Alcaloide principal de las hojas.[1][3]"
+   },
+   {
+    "nombre": "5-MeO-DMT",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Análogo menos común, que esta planta también produce.[1]"
+   },
+   {
+    "nombre": "Bufotenina",
+    "clase": "Triptamina",
+    "img": null,
+    "texto": "Solo en trazas.[1][3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Parte de un brebaje compuesto",
+  "parrafos": [
+   "En la tradición la chaliponga no se toma sola: es un aditivo del yagé, el brebaje ayahuasca.[1]",
+   "Las fuentes consultadas no ofrecen datos fiables sobre su experiencia aislada."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay análisis químicos de las hojas desde 1968 y una monografía botánica del género.[2]",
+   "La mayor parte de lo que se sabe de la planta es química y etnobotánica."
+  ],
+  "alcance": "No hay estudios clínicos de la planta sola. Lo que se conoce se refiere al brebaje en conjunto."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "La ayahuasca es un brebaje con interacciones y contraindicaciones; esta planta es solo uno de sus componentes.[1]"
+   ],
+   [
+    "Nombres",
+    "El nombre «chacruna» se aplica a veces a otra planta distinta: hay que saber de cuál se habla.[1][3]"
+   ],
+   [
+    "Contexto",
+    "Su uso se entiende dentro de una tradición amazónica y con acompañamiento.[2]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan estudios de la planta sola."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Chacruna",
+   "Psychotria viridis",
+   "La otra planta aditiva del yagé, a veces confundida por el nombre.",
+   "enciclopedia/chacruna/"
+  ],
+  [
+   "planta",
+   "Ayahuasca",
+   "Banisteriopsis caapi",
+   "El brebaje al que se añade.",
+   "enciclopedia/ayahuasca/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. «Diplopterys cabrerana». en.wikipedia.org (consultada el 24-11-2026).",
+  "Erowid. Ayahuasca: alkaloids, plants y analogs. Sección 3, parte 1: el género <em>Diplopterys</em>. erowid.org/books_online/ayahuasca_apa/aya_sec3_part1_diplopterys.shtml.",
+  "Wikidoc. «Diplopterys cabrerana». wikidoc.org/index.php/Diplopterys_cabrerana."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Chacruna",
+  "chacruna"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
