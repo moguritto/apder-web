@@ -1,0 +1,257 @@
+{
+ "slug": "kykeon",
+ "tipo": "preparado",
+ "migas": "Preparado · Bebida sagrada · Grecia antigua",
+ "nombre": "Kykeon",
+ "cientifico": "Mezcla de cebada, agua y menta",
+ "autoridad": "",
+ "descripcion": "Kykeon: bebida griega de cebada y menta con la que culminaban los Misterios de Eleusis; la hipótesis del cornezuelo psicoactivo sigue abierta y debatida.",
+ "entrada": "El kykeon («mezclar, remover» en griego) fue una bebida de la antigua Grecia de composición variable: unas versiones eran de agua y cebada, otras de vino y queso rallado. La que se tomaba en Eleusis para romper el ayuno sagrado dio pie a una hipótesis célebre: que la cebada tuviera cornezuelo y la bebida fuera psicoactiva. Es una hipótesis, no un hecho cerrado.[1][2][3]",
+ "otros": "kykeon · kykeón · ciceón · la bebida de Eleusis",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Bebida griega de cebada, agua y hierbas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Eleusis y el mundo griego"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Cebada y menta; el resto es hipótesis"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Sin confirmar; hipótesis de alcaloides del cornezuelo"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica: no hay descripción de la experiencia"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Iniciados de los Misterios de Eleusis"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Ingredientes",
+  "titulo": "Cebada, agua y menta",
+  "parrafos": [
+   "El kykeon era una bebida de agua y cebada, a veces con menta o tomillo, popular entre las clases trabajadoras de la antigua Grecia.[4] Otros eran con vino y queso rallado.[1]",
+   "En la <em>Ilíada</em> se describe con vino de Pramnos, cebada y queso de cabra rallado; en la <em>Odisea</em>, Circe añade miel a su poción.[1]",
+   "En el <em>Himno homérico a Deméter</em>, la diosa rechaza el vino tinto y acepta kykeon de agua, cebada y poleo.[2][3]",
+   "El kykeon se menciona también como bebida favorita de campesinos griegos, y los aristócratas lo despreciaban como bebida de pobres.[2]",
+   "La menta del himno, «blechon» o «glechon», es probablemente <em>Mentha pulegium</em> o <em>M. aquatica</em>.[5]"
+  ],
+  "rasgos": [
+   [
+    "Base",
+    "Agua y cebada"
+   ],
+   [
+    "Hierba",
+    "Menta o poleo"
+   ],
+   [
+    "Contexto",
+    "Eleusis, pero también uso cotidiano"
+   ],
+   [
+    "Hipótesis",
+    "Cornezuelo de cebada"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha de naturaleza histórica; no incluye indicaciones de preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "«Ayuné; bebí el kykeon»",
+  "parrafos": [
+   "El kykeon se usó en el clímax de los Misterios de Eleusis para romper el ayuno sagrado.[2]",
+   "De los ritos solo se conocen fragmentos, a menudo por sus críticos; entre ellos Clemente de Alejandría, que conservó una frase: «Ayuné; bebí el kykeon».[6]",
+   "El himno a Deméter se compuso en torno al siglo VII a. C.[7] Tras días de ayuno y purificación, los iniciados bebían el kykeon.[8]",
+   "Los Misterios fueron durante casi 2000 años de los rituales espirituales más importantes del mundo occidental.[7]",
+   "Quien más ha estudiado el nexo con el cornezuelo es el trío Wasson, Hofmann y Ruck, en <em>El camino a Eleusis</em>: proponen que el cornezuelo <em>Claviceps purpurea</em> era recogido por los sacerdotes en su entorno natural.[9]",
+   "Hofmann propuso además una hipótesis alternativa: otro cornezuelo, <em>Claviceps paspali</em>, que crece en otra hierba y no en la cebada.[9]"
+  ],
+  "cronologia": [
+   [
+    "Siglo VII a. C.",
+    "Himno homérico a Deméter"
+   ],
+   [
+    "Siglo II",
+    "Clemente de Alejandría recoge fragmentos del rito"
+   ],
+   [
+    "1978",
+    "Se propone el cornezuelo como base psicoactiva"
+   ],
+   [
+    "2026",
+    "Un estudio de <em>Scientific Reports</em> reabre el debate"
+   ]
+  ],
+  "nombres": [
+   [
+    "kykeon, kykeón",
+    "griego"
+   ],
+   [
+    "ciceón",
+    "castellano clásico"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Eleusis",
+  "parrafos": [
+   "Eleusis fue el centro del culto de Deméter y Core; su rito fue el más famoso y celebrado del mundo griego antiguo.[5]",
+   "En época del Imperio romano seguía siendo bebida popular, de agua, vino, miel y cebada con hierbas al gusto.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Estudiarlo como patrimonio histórico.",
+   "Distinguir hipótesis de hecho.",
+   "No tratar los Misterios como un producto."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-kykeon.svg",
+   "alt": "Mapa con Eleusis, en el Ática, sombreada.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de Eleusis"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Una hipótesis en discusión",
+  "parrafos": [
+   "Si la cebada tuvo cornezuelo, habría dos alcaloides psicoactivos, ergonovina y amida del ácido lisérgico, según Hofmann.[3]",
+   "Ivan Valencic ha formulado objeciones a la hipótesis del cornezuelo, entre otras que la receta del himno es incompleta o incluso falsa y que la fórmula de agua, cebada y menta es solo una versión reducida.[9][5]",
+   "Un estudio de <em>Scientific Reports</em> de febrero de 2026 afirma que una preparación cuidadosa del cornezuelo pudo reducir su toxicidad y conservar efectos psicoactivos, según reportó la prensa; los datos experimentales sobre preparaciones antiguas siguen siendo limitados.[10]",
+   "Hay objetos hallados cerca de Eleusis con trazas de esclerocios de cornezuelo, según una síntesis divulgativa.[3]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "El secreto del rito",
+  "parrafos": [
+   "Qué ocurría después de beber el kykeon sigue siendo desconocido.[8]",
+   "Eso mismo explica el interés: se busca explicar cómo tantas personas, durante dos milenios, tuvieron estados reveladores en el clímax del rito.[1]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "desconocida"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "La hipótesis del cornezuelo es objeto de debate filológico, arqueológico y químico desde los años setenta.[9][10]",
+   "Un estudio reciente observó la conversión de ergopéptidos tóxicos en amidas del ácido lisérgico en laboratorio.[10]"
+  ],
+  "alcance": "Hipótesis estudiada con filología, arqueología y laboratorio; sin consenso."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Hipótesis, no hecho",
+    "La identificación del kykeon como psicodélico no está establecida.[9]"
+   ],
+   [
+    "Cornezuelo",
+    "El cornezuelo es un hongo venenoso; la ficha del cornezuelo recoge su historia y su química."
+   ],
+   [
+    "Historia",
+    "Los datos vienen de textos, críticos del rito y arqueología."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Cornezuelo",
+   "Claviceps purpurea",
+   "El hongo asociado a la hipótesis.",
+   "enciclopedia/cornezuelo/"
+  ],
+  [
+   "preparado",
+   "Soma",
+   "Bebida de los himnos védicos",
+   "Otra bebida sagrada antigua de identidad discutida.",
+   null
+  ],
+  [
+   "preparado",
+   "Haoma",
+   "Bebida sagrada del Avesta",
+   "Otra bebida sagrada antigua de identidad discutida.",
+   "enciclopedia/haoma/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Kykeon</em>. en.wikipedia.com/wiki/Kykeon.",
+  "Wikipedia. <em>Kykeon</em> (peasant drink). en.wikipedia.org/wiki/Kykeon.",
+  "Wikiwand. <em>Kykeon</em>. wikiwand.com/en/articles/Kykeon.",
+  "World History Encyclopedia. <em>Kykeon</em>. worldhistory.org/Kykeon/.",
+  "Valencic, I. ¿Fue el kykeon...? druglibrary.org/Schaffer/lsd/valencic.htm.",
+  "To Vima. <em>Kykeon Mystery of Eleusis May Have Scientific Basis</em>. tovima.com/science/kykeon-mystery-of-eleusis-may-have-scientific-basis/amp/.",
+  "Greek Reporter. <em>Ancient Greeks, ergot fungus and the Eleusinian Mysteries</em> (2026). greekreporter.com/2026/02/17/ancient-greeks-ergot-fungus-eleusinian-mysteries/.",
+  "Arkeonews. <em>Did a hallucinogenic fungus power the Eleusinian Mysteries?</em> (2026). arkeonews.net/ancient-greeces-deadliest-secret-did-a-hallucinogenic-fungus-power-the-eleusinian-mysteries/.",
+  "Webster, P. Artículo sobre LSA y los misterios eleusinos. taz4.erowid.org/chemicals/lsa/lsa_article1.pdf.",
+  "<em>Investigating the psychedelic hypothesis of kykeon</em>. ouci.dntb.gov.ua/en/works/73181WMQ/."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Kratom",
+  "kratom"
+ ],
+ "siguiente": [
+  "Latué",
+  "latue"
+ ]
+}
