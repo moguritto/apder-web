@@ -1,0 +1,265 @@
+{
+ "slug": "hierba-de-los-suenos",
+ "tipo": "planta",
+ "migas": "Planta · Asteráceas · México y Centroamérica",
+ "nombre": "Hierba de los sueños",
+ "cientifico": "Calea ternifolia",
+ "autoridad": "Kunth",
+ "descripcion": "Hierba de los sueños (Calea ternifolia): arbusto mexicano que los chontales de Oaxaca usan para soñar y adivinar. Historia, usos y química.",
+ "entrada": "Un arbusto de México y Centroamérica que los chontales de Oaxaca usan para obtener mensajes adivinatorios en sueños. En la medicina tradicional mexicana sirve también para la disentería, la fiebre y otras dolencias.[1][2][3]",
+ "otros": "hierba de los sueños · zacatechichi · «hierba amarga» · thle-pela-kano · «hoja de Dios» · Calea zacatechichi · Mexican dream herb",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto de la familia de las margaritas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "De México a Costa Rica"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Las hojas secas"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Lactonas sesquiterpénicas y flavonoides; aún no se conoce el responsable del efecto onírico"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Chontales de Oaxaca, zoques popolucas y mixes"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "La hierba amarga",
+  "parrafos": [
+   "<em>Calea ternifolia</em> (sinónimo <em>Calea zacatechichi</em>) es una planta con flores de la familia de las asteráceas, nativa de México y Centroamérica.[3] Se distribuye de México a Costa Rica.[2]",
+   "Es un arbusto de tamaño mediano.[5] Sus nombres en inglés incluyen «bitter-grass», «Mexican calea» y «dream herb».[3]",
+   "La especie se registró como <em>Calea ternifolia</em> en 1820 y se renombró <em>Calea zacatechichi</em> en 1835 con la palabra náhuatl <em>zacatechichi</em>, «hierba amarga».[4]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Asteraceae"
+   ],
+   [
+    "Hábito",
+    "Arbusto de tamaño medio"
+   ],
+   [
+    "Distribución",
+    "De México a Costa Rica"
+   ],
+   [
+    "Parte usada",
+    "Hojas secas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Soñar para adivinar",
+  "parrafos": [
+   "Los chontales de Oaxaca la usan para obtener mensajes adivinatorios durante el sueño.[1] La llaman <em>thle-pela-kano</em>, «hoja de Dios», y dicen que «aclara los sentidos».[5][6]",
+   "Se describen rituales aislados en los que se fuma una planta que se cree que es esta especie, se bebe en té y se coloca bajo la almohada para inducir sueños adivinatorios o lúcidos.[3]",
+   "En México se usa también como remedio para la disentería y la fiebre.[3] Los zoques popolucas la llaman <em>tam huñi</em>, «goma amarga», y la usan contra la diarrea y el asma; los mixes la llaman <em>poop taam ujts</em>, «hierba blanca amarga», y la usan para el dolor de estómago y la fiebre.[3]",
+   "No se sabe desde cuándo se usa, y su empleo está extendido por México mucho más allá del territorio chontal.[4]",
+   "En México, los curanderos la siguen empleando desde la resaca hasta la diabetes, mientras que fuera de allí se usa para provocar sueños lúcidos.[4]"
+  ],
+  "cronologia": [
+   [
+    "1820",
+    "Se registra como <em>Calea ternifolia</em>.[4]"
+   ],
+   [
+    "1835",
+    "Se renombra como <em>Calea zacatechichi</em>.[4]"
+   ],
+   [
+    "1986",
+    "Primer análisis psicofarmacológico en humanos y animales.[1]"
+   ]
+  ],
+  "nombres": [
+   [
+    "zacatechichi",
+    "náhuatl: «hierba amarga»"
+   ],
+   [
+    "<em>thle-pela-kano</em>",
+    "chontal: «hoja de Dios»"
+   ],
+   [
+    "<em>tam huñi</em>",
+    "zoque popoluca: «goma amarga»"
+   ],
+   [
+    "<em>dream herb</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "De México a Costa Rica",
+  "parrafos": [
+   "Está distribuida desde México hasta Costa Rica.[2]",
+   "Su uso se concentra en Oaxaca, entre los chontales, y se extiende por muchas regiones de México.[1][4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como parte de la medicina tradicional mexicana.",
+   "No tratarla como un producto.",
+   "Respetar a los pueblos que la guardan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-hierba-de-los-suenos.svg",
+   "alt": "Mapa con una zona sombreada en ocre de México a Costa Rica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la hierba de los sueños"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Compuestos de la hoja",
+  "parrafos": [
+   "Una revisión de 2021 recoge sus constituyentes químicos, ensayos de control de calidad y estudios farmacológicos y toxicológicos.[2]",
+   "En un estudio reciente de la hoja aparecen el ácido clorogénico, la rutina y la nictoflorina.[7]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Ácido clorogénico",
+    "clase": "Ácido fenólico",
+    "img": null,
+    "texto": "Descrito en la hoja.[7]"
+   },
+   {
+    "nombre": "Rutina",
+    "clase": "Flavonoide",
+    "img": null,
+    "texto": "Descrita en la hoja.[7]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "El sueño más que la vigilia",
+  "parrafos": [
+   "En un estudio de 1986, extractos orgánicos a dosis humanas produjeron signos de somnolencia en el EEG y sueño ligero en gatos.[1]",
+   "En voluntarios sanos, dosis bajas del extracto aumentaron el tiempo de reacción y la estimación del tiempo, y aumentaron las fases superficiales del sueño y el número de despertares espontáneos.[1]",
+   "El efecto del extracto sobre la actividad cerebral era distinto al de las drogas alucinógenas-disociativas como la ketamina.[1]",
+   "En el uso tradicional se toman hojas secas antes de dormir para aumentar los sueños.[5]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay un estudio doble ciego con voluntarios de 1986 y una revisión de 2021 sobre uso tradicional, botánica, química, farmacología y toxicidad.[1][2]",
+   "La revisión concluye que la investigación farmacológica sólida respalda el uso de la planta para la oniromancia, y muestra efectos espasmolíticos, antidiabéticos, antidepresivos, antiinflamatorios y antinociceptivos.[2]"
+  ],
+  "alcance": "Estudio pequeño en voluntarios; sin ensayos clínicos amplios."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "A dosis grandes se describen salivación, falta de coordinación, arcadas y a veces vómitos.[1]"
+   ],
+   [
+    "Contexto",
+    "Su uso adivinatorio pertenece a los chontales, con saberes propios.[1]"
+   ],
+   [
+    "Efecto real",
+    "El efecto observado en laboratorio es sobre el sueño ligero y los despertares, no una visión.[1]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Faltan ensayos clínicos amplios y se desconoce el compuesto responsable."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Raíz africana de los sueños",
+   "Silene capensis",
+   "Otra planta onírica de África austral.",
+   "enciclopedia/raiz-africana-de-los-suenos/"
+  ],
+  [
+   "planta",
+   "Hierba de la pastora",
+   "Salvia divinorum",
+   "Planta mexicana de uso adivinatorio.",
+   "enciclopedia/hierba-de-la-pastora/"
+  ]
+ ],
+ "fuentes": [
+  "Mayagoitia L, Díaz JL, Contreras CM. Psychopharmacologic analysis of an alleged oneirogenic plant: <em>Calea zacatechichi</em>. J Ethnopharmacol. 1986;18(3):229-243. pubmed.ncbi.nlm.nih.gov/3821139/.",
+  "Mata R et al. <em>Calea ternifolia</em> Kunth, the Mexican dream herb, a concise review. 2021. agris.fao.org/search/en/records/6748532e6b7cc10eeb5abd31.",
+  "Wikiwand. <em>Calea zacatechichi</em>. wikiwand.com/en/Calea_zacatechichi.",
+  "Double Blind. Calea zacatechichi (Mexican dream herb). doubleblindmag.com/calea-zacatechichi-mexican-dream-herb/.",
+  "Erowid. <em>Calea zacatechichi</em>. cache.erowid.org/plants/calea_zacatechichi.",
+  "Wikidoc. <em>Calea zacatechichi</em>. wikidoc.org/index.php/Calea_zacatechichi.",
+  "Estudio fitoquímico de «Mexican calea» (<em>Calea zacatechichi</em> Schltdl.). recipp.ipp.pt/bitstreams/0bed35c7-0785-4ca4-ac44-ff467be934cf/download."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Hierba de la pastora",
+  "hierba-de-la-pastora"
+ ],
+ "siguiente": [
+  "Iboga",
+  "iboga"
+ ]
+}
