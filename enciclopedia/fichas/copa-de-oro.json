@@ -1,0 +1,267 @@
+{
+ "slug": "copa-de-oro",
+ "tipo": "planta",
+ "migas": "Planta · Solanáceas · México, Centroamérica y Caribe",
+ "nombre": "Copa de oro",
+ "cientifico": "Solandra spp.",
+ "autoridad": "Sw.",
+ "descripcion": "Copa de oro (Solandra spp.): trepadora de grandes flores doradas, el «kieri» de los huicholes, con alcaloides tropánicos y larga ligazón con la hechicería.",
+ "entrada": "Una trepadora de flores amarillas enormes, conocida en México como copa de oro y entre los huicholes como kieli o kieri. Contiene alcaloides tropánicos y, según algunos autores, su uso ritual es anterior al del peyote.[1][2]",
+ "otros": "copa de oro · kieli · kieri · árbol del viento · bolsa de Judas · tecomaxóchitl · chalice vine · Solandra",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Género de trepadoras de la familia de las solanáceas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "México, Caribe y Sudamérica"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Ramas, raíces y frutos, según la tradición"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Atropina, noratropina, hiosciamina y tropina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Huicholes (wixárika) y otros pueblos de México"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Trepadoras de flores doradas enormes",
+  "parrafos": [
+   "<em>Solandra</em> es un género de plantas de la familia de las solanáceas que reúne trepadoras conocidas como copas de oro, de los trópicos y el Caribe, México y Sudamérica.[1]",
+   "Tienen flores muy grandes y un follaje brillante.[1] Se reconocen diez especies.[1]",
+   "<em>Solandra maxima</em>, la copa de oro, es una trepadora vigorosa de flores amarillas muy grandes, endémica de México y Centroamérica.[1]",
+   "El género está estrechamente emparentado con <em>Datura</em> y se distingue por una serie parecida de alcaloides tropánicos.[3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Solanaceae"
+   ],
+   [
+    "Hábito",
+    "Trepadora vigorosa"
+   ],
+   [
+    "Flor",
+    "Amarilla, muy grande"
+   ],
+   [
+    "Especies",
+    "Diez reconocidas"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Contiene alcaloides tropánicos y es una planta de riesgo. No es para probar."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "El kieri de los huicholes",
+  "parrafos": [
+   "<em>Solandra grandiflora</em> fue (y probablemente sigue siendo) usada por los huicholes de México y otros pueblos de la región, donde se conoce como «kieli» o «kieri», y hay evidencia arqueológica que apoya la hipótesis de que su uso como alucinógeno es anterior al del peyote.[1]",
+   "En las tradiciones nativas se bebe un té de las ramas, y más aún de las raíces y los frutos, como embriagante.[1]",
+   "Peter Furst describió el kieri y las solanáceas en la mitología huichola, y planteó que podría tener implicaciones para un cambio religioso en el pasado huichol, de un foco ritual en una solanácea al cactus peyote.[3]",
+   "En México, todas las especies del género reciben nombres populares como «árbol del viento» y «bolsa de Judas»; son especies de importancia etnofarmacológica <em>S. brevicalyx</em> (kieli, kieri), <em>S. guerrerensis</em> (huipatli, hueypahtli, tecomaxóchitl) y <em>S. nitida</em> (cutaquatzitziqui, copa de oro).[2]",
+   "Erowid recoge que tiene una larga historia de uso ritual, quizá desde tiempos prehistóricos, y que está estrechamente asociada con la hechicería.[4]"
+  ],
+  "cronologia": [
+   [
+    "Prehistoria",
+    "Posible uso ritual anterior al del peyote, según algunos autores.[1][4]"
+   ],
+   [
+    "1966",
+    "Se identifica el kieri huichol con una <em>Solandra</em>.[3]"
+   ]
+  ],
+  "nombres": [
+   [
+    "kieli / kieri",
+    "nombre huichol"
+   ],
+   [
+    "copa de oro",
+    "nombre popular mexicano"
+   ],
+   [
+    "tecomaxóchitl",
+    "nombre náhuatl del género"
+   ],
+   [
+    "árbol del viento",
+    "nombre popular"
+   ],
+   [
+    "bolsa de Judas",
+    "nombre popular"
+   ]
+  ],
+  "nota_nombres": "Los nombres populares se aplican a todo el género, y la identificación de la especie concreta ha sido discutida entre los autores.[2][3]",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Un género del trópico americano",
+  "parrafos": [
+   "Las trepadoras del género son nativas del Caribe, México y Sudamérica.[1]",
+   "<em>S. grandiflora</em> se distribuye por la América tropical, <em>S. longiflora</em> por Venezuela, Ecuador y Surinam, y <em>S. maxima</em> por México y Centroamérica.[1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como planta ornamental y de tradición huichola.",
+   "Respetar el lugar del kieri en la mitología wixárika.",
+   "No considerarla un producto."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-copa-de-oro.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre México, el Caribe y el norte de Sudamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la copa de oro"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Alcaloides tropánicos",
+  "parrafos": [
+   "Los alcaloides presentes incluyen atropina, noratropina, hiosciamina y tropina, con un contenido total de aproximadamente el 0,15 % en las hojas.[1]",
+   "Furst señala que el género tiene una serie de alcaloides tropánicos parecida a la de <em>Datura</em>, sobre todo escopolamina, hiosciamina y nortropina.[3]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Atropina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Presente en las hojas.[1]"
+   },
+   {
+    "nombre": "Hiosciamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Presente en las hojas.[1][3]"
+   },
+   {
+    "nombre": "Escopolamina",
+    "clase": "Alcaloide tropánico",
+    "img": null,
+    "texto": "Señalada por Furst entre los alcaloides principales.[3]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Un delirante, según las fuentes",
+  "parrafos": [
+   "Erowid clasifica sus efectos como deliriantes.[4]",
+   "Las fuentes consultadas no ofrecen datos fiables de tiempos."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "La literatura se centra en la etnobotánica y en la química de los alcaloides tropánicos.[1][3]",
+   "Existe una revisión de las especies de importancia etnofarmacológica citada por fuentes de divulgación.[2]"
+  ],
+  "alcance": "No hay estudios clínicos. Casi todo lo que hay es etnobotánico o de divulgación."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Como otras solanáceas con alcaloides tropánicos, es una planta de riesgo y de efectos impredecibles.[3][4]"
+   ],
+   [
+    "Identificación",
+    "La identificación de las especies del género es difícil incluso para los botánicos.[2]"
+   ],
+   [
+    "Contexto",
+    "Para los huicholes el kieri tiene un lugar propio en su mitología.[3]"
+   ],
+   [
+    "Lo que no se sabe",
+    "No hay estudios de seguridad."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Toloache",
+   "Datura inoxia",
+   "Su parienta más cercana.",
+   "enciclopedia/toloache/"
+  ],
+  [
+   "cactus",
+   "Peyote",
+   "Lophophora williamsii",
+   "Quizá lo precedió en el ritual huichol.",
+   "enciclopedia/peyote/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. «Solandra». en.wikipedia.org/wiki/Solandra (consultada el 24-11-2026).",
+  "TripSit Wiki. Cup of Gold (extractos de Rätsch). wiki.tripsit.me/wiki/Cup_of_Gold.",
+  "Furst P. Kieri and the Solanaceae: nature and culture in Huichol mythology. Erowid. erowid.org/plants/solandra/solandra_article1.shtml.",
+  "Erowid. <em>Solandra</em> spp. erowid.org/plants/solandra."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Colorín",
+  "colorin"
+ ],
+ "siguiente": [
+  "Estramonio",
+  "estramonio"
+ ]
+}
