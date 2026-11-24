@@ -1,0 +1,266 @@
+{
+ "slug": "guayusa",
+ "tipo": "planta",
+ "migas": "Planta · Aquifoliáceas · Amazonia alta",
+ "nombre": "Guayusa",
+ "cientifico": "Ilex guayusa",
+ "autoridad": "Loes.",
+ "descripcion": "Guayusa (Ilex guayusa): acebo de la Amazonia alta cuya infusión toman antes del amanecer los kichwa, rica en cafeína; sueños, ritual e historia.",
+ "entrada": "Un acebo de la Amazonia alta de Colombia, Ecuador y Perú. Los pueblos indígenas y mestizos de la región beben una infusión de sus hojas, rica en cafeína, y entre los kichwa y los shuar es una bebida cotidiana con valor ritual y onírico.[1][2][3]",
+ "otros": "guayusa · waisa (kichwa) · wayus, wais (shuar) · Ilex guayusa · Ilex utilis",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Árbol de la familia del acebo cuyas hojas se toman en infusión"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Alta cuenca amazónica de Colombia, Ecuador y Perú"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "La hoja, secada tras la cosecha"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Cafeína y otras xantinas"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Kichwa, shuar y otros pueblos amazónicos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "Un acebo amazónico",
+  "parrafos": [
+   "<em>Ilex guayusa</em> es una especie de árbol del género del acebo, nativa de la selva amazónica.[3] Se conoce simplemente como guayusa en español, <em>waisa</em> en kichwa y <em>wayus</em> o <em>wais</em> en shuar.[2]",
+   "En el género <em>Ilex</em> es difícil distinguir las especies por su morfología, porque presentan poca variación floral, palinológica y anatómica.[1]",
+   "Aunque es monoica y propensa a la poligamia floral, rinde poco material fértil y se reproduce sobre todo de forma asexual.[3] Por eso se discute su origen y su domesticación.[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Aquifoliaceae"
+   ],
+   [
+    "Género",
+    "<em>Ilex</em>, como la yerba mate"
+   ],
+   [
+    "Parte usada",
+    "Hoja seca"
+   ],
+   [
+    "Compuestos",
+    "Cafeína, teobromina"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "La bebida del amanecer",
+  "parrafos": [
+   "Los pueblos indígenas y mestizos de la alta Amazonia beben una infusión de las hojas de guayusa.[1]",
+   "Los kichwa cultivan la planta en huertos de bosque llamados chakras y la toman a diario.[2] Es una bebida matutina que se toma antes del amanecer para tener energía durante el día.[4]",
+   "Un perfil publicado en HerbalGram sostiene que las hojas se usan desde al menos el 500 a. C.[5]",
+   "Un uso ritual entre los quechua consiste en beber la infusión para tener sueños premonitorios que traigan éxito en las cacerías.[3]",
+   "Según Tyler Gage, de la Runa Foundation, los kichwa cuentan que en tiempos antiguos la gente pidió una planta que le enseñara a soñar.[6]",
+   "Lewis y colaboradores describieron en 1991 el uso ritual de la planta entre los jíbaros amazónicos.[7]"
+  ],
+  "cronologia": [
+   [
+    "500 a. C.",
+    "Fecha desde la que se usaría, según un perfil de HerbalGram.[5]"
+   ],
+   [
+    "1972",
+    "Schultes publica «<em>Ilex guayusa</em> from 500 A.D. to the present».[7]"
+   ],
+   [
+    "1991",
+    "Lewis y colaboradores describen su uso ritual entre los jíbaros.[7]"
+   ]
+  ],
+  "nombres": [
+   [
+    "guayusa",
+    "nombre en español"
+   ],
+   [
+    "<em>waisa</em>",
+    "nombre kichwa"
+   ],
+   [
+    "<em>wayus</em>, <em>wais</em>",
+    "nombres shuar"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "La alta cuenca amazónica",
+  "parrafos": [
+   "Se encuentra en la alta cuenca amazónica de Colombia, Ecuador y Perú.[1][3]",
+   "Los kichwa la cultivan en chakras, sin fertilizantes ni productos químicos.[8]",
+   "Hoy se exporta, y los kichwa que cosechan las hojas a mano conservan el saber sobre cuándo están listas.[5]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como bebida y planta de enseñanza de pueblos concretos.",
+   "Preferir productos que respeten a las comunidades que la cultivan.",
+   "Respetar el saber de quienes la guardan."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-guayusa.svg",
+   "alt": "Mapa con una zona sombreada en ocre sobre la alta Amazonia de Colombia, Ecuador y Perú.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de la guayusa"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Cafeína y xantinas",
+  "parrafos": [
+   "Contiene altas concentraciones de cafeína y otras xantinas, además de muchos otros compuestos.[1]",
+   "Como otras especies del género, tiene alcaloides como la cafeína y la teobromina.[9]",
+   "Se dice que la infusión tiene tanta cafeína como el café.[4][6]"
+  ],
+  "moleculas": [
+   {
+    "nombre": "Cafeína",
+    "clase": "Xantina",
+    "img": null,
+    "texto": "Presente en altas concentraciones.[1]"
+   },
+   {
+    "nombre": "Teobromina",
+    "clase": "Xantina",
+    "img": null,
+    "texto": "Presente junto a la cafeína.[9]"
+   }
+  ]
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Una energía suave y los sueños",
+  "parrafos": [
+   "Es un estimulante suave que se bebe como el té; técnicamente no es té, pero pertenece al mismo género que la yerba mate.[4]",
+   "Entre los kichwa y otros pueblos se la asocia con el sueño y con la enseñanza.[3][6]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Hay una síntesis histórica y etnobotánica de 2016 y una revisión de 2025 sobre su historia, usos tradicionales, química y actividad biológica.[1][10]",
+   "Los propios autores señalan la necesidad urgente de estudiar su origen y su proceso de domesticación.[1]"
+  ],
+  "alcance": "Buena documentación etnobotánica; poca investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "Es un estimulante por su contenido en cafeína.[1]"
+   ],
+   [
+    "Contexto",
+    "Para los kichwa es una bebida cotidiana y ritual, no un producto.[2][4]"
+   ],
+   [
+    "Comercio",
+    "Hay empresas que la comercializan, y conviene saber de dónde viene.[5]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta investigación clínica."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Yerba mate",
+   "Ilex paraguariensis",
+   "Pariente del mismo género que también contiene xantinas.",
+   null
+  ],
+  [
+   "planta",
+   "Cacao",
+   "Theobroma cacao",
+   "Otra planta ritual con teobromina.",
+   "enciclopedia/cacao/"
+  ]
+ ],
+ "fuentes": [
+  "Dueñas-Serrano JF, Jarrett C, Cummins I, Logan-Hines E. A historical and ethno-botanical overview of <em>Ilex guayusa</em> Loes. (Aquifoliaceae) with notes on its distribution. cdn.shopify.com/s/files/1/0012/1952/6721/files/20140729_Ethnobotany_of_Guayusa_Runa.pdf.",
+  "Wikipedia. <em>Ilex guayusa</em>. en.wikipedia.org/wiki/Ilex_guayusa.",
+  "Wikipedia. <em>Ilex guayusa</em> (versión ampliada). en.wikipedia.org/wiki/Guayusa.",
+  "FoodNavigator. Guayusa: ceremonial energy tea from Ecuador to begin European charge. 2018. foodnavigator.com/Article/2018/10/17/guayusa-ceremonial-energy-tea-from-ecuador-to-begin-european-charge/.",
+  "NutraIngredients. Homegrown guayusa brand seeks to have big impact on Ecuadorian farmers. 2021. nutraingredients.com/Article/2021/03/01/Homegrown-guayusa-brand-seeks-to-have-big-impact-on-Ecuadorian-farmers.",
+  "National Geographic. Ecuador's «Superleaf» Tea: Could It Replace Your Afternoon Coffee? 2014. nationalgeographic.com/science/article/140703-guayusa-ecuador-amazon-health-foods-tea.",
+  "Lewis WH et al. Ritualistic use of the holly <em>Ilex guayusa</em> by Amazonian Jívaro indians. J Ethnopharmacol. 1991;33:25-30; Schultes RE. 1972. dx.doi.org/10.1007/s12231-016-9334-2.",
+  "National Geographic (2014), entrevista a Tyler Gage. nationalgeographic.com/news/2014/7/140703-guayusa-ecuador-amazon-health-foods-tea/.",
+  "Dueñas JF et al. Amazonian guayusa (<em>Ilex guayusa</em> Loes.): a historical and ethnobotanical overview. Economic Botany. 2016. cdn.shopify.com/s/files/1/0012/1952/6721/files/Duenas_etal_2016_-_Runa_Studie_zu_Guayusa_-_herkunft_und_verbreitung.pdf.",
+  "Noriega P et al. Guayusa (<em>Ilex guayusa</em> Loes.) ancestral plant of Ecuador: history, traditional uses, chemistry, biological activity, and potential industrial uses. Molecules. 2025. doaj.org/article/0d4f6ba0cf0e4e69a5c9f3173a33bd20."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Gloria de la mañana",
+  "gloria-de-la-manana"
+ ],
+ "siguiente": [
+  "Hierba de la pastora",
+  "hierba-de-la-pastora"
+ ]
+}
