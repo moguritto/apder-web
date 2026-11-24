@@ -1,0 +1,239 @@
+{
+ "slug": "taique",
+ "tipo": "planta",
+ "migas": "Planta · Columeliáceas · Andes y sur de Sudamérica",
+ "nombre": "Taique",
+ "cientifico": "Desfontainia spinosa",
+ "autoridad": "Ruiz & Pav.",
+ "descripcion": "Taique (Desfontainia spinosa): arbusto andino de hojas de acebo y flores rojas, té de visiones de chamanes de Chile y Colombia. Poco estudiado.",
+ "entrada": "Un arbusto de hojas brillantes como las del acebo y flores rojas tubulares, que crece desde Costa Rica hasta Tierra del Fuego. Los chamanes del valle de Sibundoy, en Colombia, hacen un té de sus hojas para soñar y ver visiones, y en Chile se le conoce desde hace tiempo como narcótico.[1][2][3]",
+ "otros": "taique · chapico · michay blanco · trautrau · borrachera de páramo · Chilean holly · Desfontainia spinosa",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Arbusto perenne de hojas de acebo y flores rojas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "De Costa Rica a Tierra del Fuego, por los Andes"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Hojas y fruto"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Desconocidos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Sin datos fiables en las fuentes consultadas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Chamanes del valle de Sibundoy y pueblos de Chile"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "Botánica",
+  "titulo": "El acebo chileno",
+  "parrafos": [
+   "<em>Desfontainia spinosa</em> es la especie más conocida de su género y se llama «Chilean holly» en inglés; es nativa de selvas y laderas de montaña del sur de Centroamérica y Sudamérica, desde Costa Rica hasta algunas islas de Tierra del Fuego.[1]",
+   "Tiene hojas verde oscuro brillantes como las del acebo y flores tubulares rojas cerosas, a menudo con puntas amarillas, de hasta 4 cm; el fruto es una baya verde amarillenta de unos 1,5 cm.[4] En cultivo crece despacio hasta unos 2,5 m, y en estado silvestre puede ser un árbol pequeño de cerca de 4 m.[4]",
+   "En los bosques valdivianos de Chile y Argentina crece en el sotobosque de bosques de <em>Nothofagus</em>.[1]",
+   "Ha estado clasificada en varias familias: solanáceas, gencianáceas, aquifoliáceas, loganiáceas y la propia desfontainiáceas; hoy se ubica en las columeliáceas.[2][3]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Columelliaceae"
+   ],
+   [
+    "Altura",
+    "Hasta unos 4 m"
+   ],
+   [
+    "Flores",
+    "Rojas, tubulares, con puntas amarillas"
+   ],
+   [
+    "Fruto",
+    "Baya verde amarillenta"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Un té de visiones",
+  "parrafos": [
+   "Carlos Mariani Ramírez informó de que se usaba como «narcótico» y estomacal en Chile.[2]",
+   "Más tarde, en Colombia, Schultes determinó que su té se usa o se usaba para provocar visiones y diagnosticar enfermedades.[2]",
+   "Los chamanes del valle de Sibundoy hacen un té de las hojas «cuando quieren soñar» o «para ver visiones y diagnosticar enfermedades».[1]",
+   "Las fuentes señalan que los curanderos de Sibundoy mostraban gran reticencia a hablar de su uso y que se dice que nunca se cultiva.[2]",
+   "En el páramo de Tambillo se la conoce como «borrachera de páramo»; en Chile también como chapico, michay blanco, taique y trautrau.[2]",
+   "De sus hojas se obtiene un tinte amarillo para tejidos.[2]"
+  ],
+  "cronologia": [],
+  "nombres": [
+   [
+    "taique",
+    "Chile"
+   ],
+   [
+    "chapico, michay blanco, trautrau",
+    "otros nombres chilenos"
+   ],
+   [
+    "borrachera de páramo",
+    "páramo de Tambillo"
+   ],
+   [
+    "<em>Chilean holly</em>",
+    "inglés"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "De Costa Rica a Tierra del Fuego",
+  "parrafos": [
+   "Está presente también en Panamá, Colombia, Venezuela, Perú, Bolivia y Ecuador, además de Chile y Argentina.[5]",
+   "Es una planta de montaña con una vida lenta en cultivo, de 10 a 20 años hasta llegar a su tamaño.[4]",
+   "Sus semillas las dispersa el monito del monte, un pequeño marsupial.[5]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla como planta de pueblos andinos.",
+   "No cortarla en estado silvestre sin necesidad.",
+   "Respetar la reserva de los curanderos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-taique.svg",
+   "alt": "Mapa con una zona sombreada en ocre a lo largo de los Andes.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del taique"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Química desconocida",
+  "parrafos": [
+   "Se desconocen su seguridad, su dosificación, su toxicidad, sus reacciones adversas y sus componentes activos.[2]",
+   "Erowid lo califica como planta de efectos desconocidos, con poca información específica sobre su uso psicoactivo.[6]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sin datos fiables",
+  "parrafos": [
+   "Las fuentes hablan de sueños y visiones, sin descripciones sistemáticas.[1][2]",
+   "No hay datos fiables de aparición ni de duración."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "sin datos fiables"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "Se sabe relativamente poco de su uso.[2]",
+   "No hay estudios clínicos ni química publicada en las fuentes consultadas."
+  ],
+  "alcance": "Casi sin investigación."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Lo más delicado",
+    "No se conocen sus componentes activos ni su toxicidad.[2]"
+   ],
+   [
+    "Información escasa",
+    "Casi todo viene de relatos de Schultes y de recopilaciones divulgativas.[2][6]"
+   ],
+   [
+    "Contexto",
+    "Es un saber que los curanderos de Sibundoy guardan con reserva.[2]"
+   ],
+   [
+    "Lo que no se sabe",
+    "Falta casi todo."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Latué",
+   "Latua pubiflora",
+   "Otro arbusto de visiones del sur de Chile.",
+   "enciclopedia/latue/"
+  ],
+  [
+   "planta",
+   "Floripondio",
+   "Brugmansia spp.",
+   "Planta que usan chamanes del mismo valle de Sibundoy.",
+   "enciclopedia/floripondio/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Desfontainia</em>. en.wikipedia.com/wiki/Desfontainia.",
+  "Erowid. Ayahuasca: alkaloids, plants & analogs. Sección 3, parte 3: <em>Desfontainia spinosa</em>. erowid.org/books_online/ayahuasca_apa/aya_sec3_part3_desfontainia_spinosa.shtml.",
+  "Wikiwand. <em>Desfontainia</em>. wikiwand.com/en/articles/Desfontainia.",
+  "Wikiland. <em>Desfontainia</em>. wikiland.org/wiki/Desfontainia.",
+  "Wikipedia. <em>Desfontainia</em> (distribución y dispersión). ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Desfontainia.html.",
+  "Erowid. <em>Desfontainia</em> spp. erowid.org/plants/desfontainia."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Tabaco",
+  "tabaco"
+ ],
+ "siguiente": [
+  "Toloache",
+  "toloache"
+ ]
+}
