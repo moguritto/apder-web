@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24",
+ "actualizado": "2026-11-25",
  "formaciones": [
   {
    "id": "academy-of-intrinsic-studies-facilitator-certification",
@@ -1147,7 +1147,7 @@
    "reconocimiento": [
     "universidad"
    ],
-   "descripcion": "Certificado de una universidad contemplativa lanzado en 2021. La página del programa ya no existe en la web de Naropa, así que puede estar cerrado: confirmar con la universidad antes de contar con él.",
+   "descripcion": "Certificado de una universidad contemplativa lanzado en 2021. La página del programa ya no existe en la web de Naropa, así que puede estar cerrado: confirmar con la universidad antes de contar con él. Desde 2025 la formación continúa en el Memoru Center for Visionary Healing Arts, que nació como escisión del centro de Naropa.",
    "url": "https://www.naropa.edu/?s=psychedelic-assisted+therapies",
    "estado": "por_confirmar",
    "revisado": "2026-11-24",
@@ -2033,6 +2033,83 @@
    "url": "https://med.nyu.edu/departments-institutes/psychiatry/research/psychedelic-medicine/education-training",
    "lat": 40.742,
    "lon": -73.974
+  },
+  {
+   "revisado": "2026-11-25",
+   "estado": "activa",
+   "sustancias": [
+    "varias"
+   ],
+   "duracion_horas": 150,
+   "reconocimiento": [
+    "colorado",
+    "certificado"
+   ],
+   "incluye": [
+    "practica_supervisada",
+    "supervision"
+   ],
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Consultar",
+   "precio_eur": null,
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "todos",
+   "tipo_entidad": "instituto",
+   "tipo": [
+    "facilitacion"
+   ],
+   "modalidad": "mixta",
+   "pais": "US",
+   "id": "memoru-center-psychedelic-facilitator-training",
+   "nombre": "Psychedelic Facilitator Training (Memoru Center for Visionary Healing Arts)",
+   "nombre_es": "Formación de facilitadores psicodélicos del Memoru Center for Visionary Healing Arts",
+   "entidad": "Memoru Center for Visionary Healing Arts",
+   "ciudad": "Boulder",
+   "duracion": "8 meses y 150 h de formación; la candidatura de 2026 estaba abierta",
+   "descripcion": "Centro de Boulder surgido de la escisión del centro de estudios psicodélicos de Naropa. Aparece en la lista oficial de programas aprobados de Colorado e imparte un programa de facilitación de ocho meses con sesiones informativas gratuitas.",
+   "url": "https://memorucenter.org/training-program/psychedelic-facilitator-training/",
+   "lat": 40.015,
+   "lon": -105.271
+  },
+  {
+   "revisado": "2026-11-25",
+   "estado": "por_confirmar",
+   "sustancias": [
+    "psilocibina"
+   ],
+   "duracion_horas": null,
+   "reconocimiento": [
+    "colorado",
+    "certificado"
+   ],
+   "incluye": null,
+   "otros_lugares": null,
+   "proxima": null,
+   "precio": "Consultar",
+   "precio_eur": null,
+   "idiomas": [
+    "en"
+   ],
+   "destinatarios": "todos",
+   "tipo_entidad": "asociacion",
+   "tipo": [
+    "facilitacion"
+   ],
+   "modalidad": "mixta",
+   "pais": "US",
+   "id": "ceremonia-edu-facilitator-training",
+   "nombre": "Ceremonia Facilitator Training (Ceremonia Edu)",
+   "nombre_es": "Formación de facilitadores de Ceremonia Edu",
+   "entidad": "Ceremonia Edu",
+   "ciudad": "Arvada",
+   "duracion": "Sin datos de duración ni de fechas en lo consultado",
+   "descripcion": "Programa de formación de facilitadores de una organización sin ánimo de lucro de Colorado, que figura en la lista oficial de programas aprobados del estado. Su web consultada se centra en retiros, así que faltan los datos del curso.",
+   "url": "https://www.ceremoniacircle.org",
+   "lat": 39.803,
+   "lon": -105.088
   }
  ]
 }
