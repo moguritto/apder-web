@@ -1,0 +1,227 @@
+{
+ "slug": "ibogaina",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Ibogaína",
+ "cientifico": "12-metoxiibogamina",
+ "autoridad": "",
+ "descripcion": "Ibogaína: alcaloide indólico de la raíz de iboga, ligado al rito bwiti y a su uso en adicciones desde 1962; exige vigilancia cardiaca por su efecto en el QT.",
+ "entrada": "La ibogaína es un alcaloide indólico de la corteza de la raíz de <em>Tabernanthe iboga</em>, arbusto de África central y occidental, usado en rituales de iniciación como el bwiti. Desde 1962 se explora para la adicción a opioides; su principal riesgo documentado es cardiaco, por alargar el intervalo QT.[1][2][3]",
+ "otros": "12-metoxiibogamina · alcaloide de iboga",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Alcaloide indólico psicoactivo"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "África central y occidental"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Corteza de raíz de iboga o ibogaína purificada"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Mecanismo complejo; múltiples dianas"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Efectos largos, de muchas horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos bwiti de Gabón y Camerún"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "El alcaloide principal de la iboga",
+  "parrafos": [
+   "Es un alcaloide indólico psicoactivo de la corteza de la raíz de <em>Tabernanthe iboga</em>, arbusto nativo del África central y occidental.[1][2]",
+   "Es uno de una docena de alcaloides de la corteza, y pertenece a una familia de unos ochenta alcaloides de iboga.[5][6]",
+   "Se ha propuesto clasificarla como alucinógeno, psicodélico u oneirógeno por la variedad de sus efectos.[5]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Alcaloide indólico"
+   ],
+   [
+    "Fuente",
+    "Tabernanthe iboga"
+   ],
+   [
+    "Contexto",
+    "Bwiti y adicciones"
+   ],
+   [
+    "Riesgo",
+    "Cardiaco (QT)"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "Del bwiti a Howard Lotsof",
+  "parrafos": [
+   "En África central, dosis bajas de extractos de iboga se han empleado contra la fatiga, el hambre y la sed, y dosis mayores en rituales de iniciación religiosos.[3]",
+   "La corteza se usa tradicionalmente en Gabón, Camerún y otros lugares del África centro-occidental en rituales chamánicos de la religión bwiti.[5]",
+   "Hacia 1962 Howard Lotsof, un consumidor de heroína, notó que la ibogaína podía reducir los deseos de consumo y los síntomas de abstinencia, y defendió esta vía el resto de su vida.[1][7]",
+   "En 1993 la FDA aprobó un ensayo clínico en humanos; por su estatus prohibido, su desarrollo se dio sobre todo fuera de los marcos médicos convencionales.[3]"
+  ],
+  "cronologia": [
+   [
+    "1962",
+    "Lotsof descubre su efecto sobre la adicción"
+   ],
+   [
+    "1993",
+    "La FDA aprueba un ensayo clínico"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "En África central, dosis bajas de extractos de iboga se han empleado contra la fatiga, el hambre y la sed, y dosis mayores en rituales de iniciación religiosos.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-ibogaina.svg",
+   "alt": "Mapa de África central.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Origen de la iboga: África centro-occidental"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Mecanismo complejo y efecto cardiaco",
+  "parrafos": [
+   "Los mecanismos con que actúa en el cerebro se comprenden mal por su farmacología compleja.[3]",
+   "Inhibe canales de potasio hERG, de sodio y de calcio, lo que puede alargar el QT y causar arritmias.[9]",
+   "La noribogaína, su metabolito, parece al menos igual de dañina para el corazón.[4]",
+   "El 18-metoxicoronaridina, derivado, tiene menor afinidad por los canales cardiacos.[9]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "La ibogaína se describe como de efectos largos y variados.[5]",
+   "Una revisión señala que se hallan casos de cefalea tras tratamiento con ibogaína o noribogaína.[8]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "muchas horas, según la bibliografía[5]"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Una revisión sistemática de 2022 recoge ensayos clínicos y aplicaciones terapéuticas.[1]",
+   "Una revisión de PROSPERO halló eficacia antiadictiva y toxicidad cardiaca como principales resultados.[8]"
+  ],
+  "alcance": "Ensayos pequeños y estudios observacionales; evidencia limitada y riesgo cardiaco documentado."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Corazón",
+    "Puede prolongar el QT y causar arritmias; requiere evaluación y monitorización médicas.[4][9]"
+   ],
+   [
+    "Contexto",
+    "Se usa sin licencia en el tratamiento de adicciones, con preocupación por su toxicidad.[4]"
+   ],
+   [
+    "Evidencia",
+    "Su eficacia y toxicidad siguen sin estar claras.[8]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Iboga",
+   "Tabernanthe iboga",
+   "Su fuente vegetal.",
+   "enciclopedia/iboga/"
+  ],
+  [
+   "planta",
+   "Voacanga",
+   "Voacanga africana",
+   "Planta con alcaloides afines.",
+   "enciclopedia/voacanga/"
+  ]
+ ],
+ "fuentes": [
+  "Berkeley Center for the Science of Psychedelics. Ibogaína. psychedelics.berkeley.edu/?p=176.",
+  "Berkeley Center for the Science of Psychedelics. <em>Ibogaine</em>. psychedelics.berkeley.edu/substance/ibogaine/.",
+  "Revisión sobre ibogaína, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/mid/EMS62840.",
+  "Litjens, R. y Brunt, T. <em>How toxic is ibogaine?</em>. pubmed.ncbi.nlm.nih.gov/26807959/.",
+  "Estudio sobre ibogaína, MAPS. bibliography.maps.org/resources/download/16376.",
+  "Ibogaine y canales cardiacos, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC4382526.",
+  "Caso clínico de ibogaína y paro cardiaco. pmc.ncbi.nlm.nih.gov/articles/PMC4837967.",
+  "Revisión sistemática de ibogaína, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC10556383/.",
+  "Koenig, X. et al. Ibogaína y canales iónicos cardiacos. pmc.ncbi.nlm.nih.gov/articles/PMC3853361."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Iboga",
+  "iboga"
+ ],
+ "siguiente": [
+  "Jurema",
+  "jurema"
+ ]
+}
