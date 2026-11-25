@@ -26,7 +26,9 @@
 <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
 <link rel="preload" href="../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../tierra.css?v=20261125a">
+<link rel="stylesheet" href="medicinas.css?v=20261125a">
 </head>
 <body class="guia">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -120,15 +122,29 @@
   </div>
 </header>
 <main id="contenido" class="guia-cuerpo">
-<section class="s-cabeza s-cabeza-sola">
+<!-- apertura:inicio (la escribe scripts/medicinas/apertura.py) -->
+<section class="mf-portada">
 <div class="s-ancho">
-<div>
-<p class="s-antetitulo"><a href="../">Inicio</a> · Medicinas</p>
-<h1>Medicinas por familias</h1>
-<p class="s-sub-art">Un mapa de las plantas, hongos y moléculas que cambian la conciencia, agrupados por su química y por cómo actúan. Para ver de un vistazo qué comparten, en qué se diferencian y qué riesgos tiene cada familia.</p>
+<div class="mf-texto">
+<p class="s-antetitulo"><a href="../sustancias/">Medicinas</a> · Por familias</p>
+<h1>Medicinas <em>por familias</em></h1>
+<p class="mf-entrada">Un mapa de las plantas, hongos y moléculas que cambian la conciencia, agrupados por su química y por cómo actúan. Para ver de un vistazo qué comparten, en qué se diferencian y qué riesgos tiene cada familia.</p>
+<p class="mf-atajos"><a href="#introduccion">Qué entendemos por medicina</a><a href="#reduccion-de-riesgos">Reducción de riesgos</a><a href="../sustancias/">Las 19 guías, una a una</a></p>
 </div>
+<ol class="mf-familias" aria-label="Las 9 familias">
+<li><a href="#triptaminas"><b>1</b><span class="mf-nombre">Triptaminas</span><span class="mf-ej">Psilocibina, DMT, ayahuasca, 5-MeO-DMT, 4-AcO-DMT, bufotenina</span><span class="mf-accion">Activan el receptor de serotonina 5-HT2A</span></a></li>
+<li><a href="#ergolinas"><b>2</b><span class="mf-nombre">Ergolinas</span><span class="mf-ej">LSD, LSA (semillas de <em>Ipomoea</em> y <em>Argyreia</em>), cornezuelo</span><span class="mf-accion">Receptores de serotonina (5-HT2A) y de dopamina</span></a></li>
+<li><a href="#fenetilaminas"><b>3</b><span class="mf-nombre">Fenetilaminas</span><span class="mf-ej">Mescalina (peyote, San Pedro), 2C-B, familia 2C, DOx</span><span class="mf-accion">Activan el receptor 5-HT2A</span></a></li>
+<li><a href="#empatogenos"><b>4</b><span class="mf-nombre">Empatógenos</span><span class="mf-ej">MDMA, MDA</span><span class="mf-accion">Liberan serotonina, noradrenalina y dopamina</span></a></li>
+<li><a href="#disociativos"><b>5</b><span class="mf-nombre">Disociativos</span><span class="mf-ej">Ketamina, esketamina, óxido nitroso, DXM</span><span class="mf-accion">Bloquean el receptor de glutamato NMDA</span></a></li>
+<li><a href="#oneirogenos"><b>6</b><span class="mf-nombre">Oneirógenos y otros alcaloides</span><span class="mf-ej">Ibogaína, <em>Calea zacatechichi</em>, <em>Silene capensis</em></span><span class="mf-accion">Variada; en parte desconocida</span></a></li>
+<li><a href="#plantas-diversas"><b>7</b><span class="mf-nombre">Plantas y hongos de acción diversa</span><span class="mf-ej"><em>Salvia divinorum</em>, <em>Amanita muscaria</em>, cannabis, kanna, kratom, kava, cacao, tabaco, ruda siria…</span><span class="mf-accion">Muy distinta según la planta (opioide kappa, GABA, cannabinoides, IMAO…)</span></a></li>
+<li><a href="#delirantes"><b>8</b><span class="mf-nombre">Delirantes</span><span class="mf-ej">Datura, <em>Brugmansia</em>, belladona, mandrágora</span><span class="mf-accion">Bloquean los receptores muscarínicos de acetilcolina</span></a></li>
+<li><a href="#nuevas-moleculas"><b>9</b><span class="mf-nombre">Nuevas moléculas y fármacos en desarrollo</span><span class="mf-ej">Análogos no alucinógenos, psicoplastógenos, formulaciones de acción corta</span><span class="mf-accion">En investigación; buscan los beneficios con menos efectos</span></a></li>
+</ol>
 </div>
 </section>
+<!-- apertura:fin -->
 
 <div class="s-ancho s-guia">
 <nav class="s-toc" aria-label="Índice">

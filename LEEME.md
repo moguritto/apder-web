@@ -60,6 +60,12 @@ Mannu pidió que las secciones no se parezcan tanto entre sí. La cabecera, el p
 
 Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
 
+## Investigación terapéutica y Medicinas por familias (aperturas del 25-11-2026)
+
+- Las dos páginas se siguen escribiendo a mano. Solo su apertura sale de un guion, entre las marcas `<!-- apertura:inicio -->` y `<!-- apertura:fin -->`, y se puede rehacer las veces que haga falta:
+  - `python3 scripts/investigacion/apertura.py`: portada con la seña de Terapia y «De un vistazo», una tarjeta por problema de salud con su nivel de evidencia (uno, dos o tres trazos). Las tarjetas se leen de la tabla «Cómo va la investigación en cada problema de salud» de la propia página: si cambia la tabla, se relanza. Estilos en `docs/investigacion-terapeutica/investigacion.css`.
+  - `python3 scripts/medicinas/apertura.py`: portada de cuaderno y nueve casillas numeradas, leídas de los títulos numerados y de la tabla «Las familias de un vistazo». Estilos en `docs/medicinas/medicinas.css`.
+
 ## Todas las guías (rehecha el 25-11-2026)
 
 - `docs/sustancias/index.html` ya no se edita a mano: sale de `python3 scripts/guias/generar.py`.
