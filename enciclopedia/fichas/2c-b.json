@@ -1,0 +1,227 @@
+{
+ "slug": "2c-b",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "2C-B",
+ "cientifico": "4-bromo-2,5-dimetoxifenetilamina",
+ "autoridad": "",
+ "descripcion": "2C-B: fenetilamina sintetizada por Shulgin en 1974, emparentada con la mescalina; psicodélico con matiz empatógeno y duración más corta que el LSD.",
+ "entrada": "2C-B es una fenetilamina sintética creada por Alexander Shulgin en 1974, cercana estructuralmente a la mescalina. Se la describe como psicodélico con un leve componente entactógeno. Es poco estudiada clínicamente.[1][2][3]",
+ "otros": "2C-B · Nexus · Venus · Erox (nombre comercial histórico)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Fenetilamina psicodélica sintética"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Origen de laboratorio, Estados Unidos"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Síntesis química"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista parcial de receptores serotoninérgicos 5-HT2"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varias horas, según la fuente"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   " Shulgin, la literatura psiconáutica y la farmacología"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Una fenetilamina de la familia 2C",
+  "parrafos": [
+   "Es un derivado de la fenetilamina con sustituciones metoxi en las posiciones 2 y 5, estructuralmente próximo a la mescalina; es uno de los fármacos 2C más antiguos y conocidos.[4]",
+   "La única fenetilamina psicodélica clásica es la mescalina, y 2C-B se considera además un leve entactógeno.[5]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Fenetilamina 2C"
+   ],
+   [
+    "Pariente",
+    "Mescalina"
+   ],
+   [
+    "Creador",
+    "Alexander Shulgin"
+   ],
+   [
+    "Año",
+    "1974"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni síntesis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De PiHKAL a los comercios holandeses",
+  "parrafos": [
+   "Shulgin la sintetizó en 1974 y descubrió su actividad el 25 de junio de 1975, describiéndola como «bellamente activa»; la escribió después en PiHKAL.[6]",
+   "En los años ochenta se vendió como sustituto del éxtasis y, antes de su prohibición, como afrodisíaco bajo el nombre Erox, de la empresa alemana Drittewelle.[6][7]",
+   "Durante años se vendió en tiendas holandesas bajo el nombre Nexus.[1]",
+   "Se cuenta que, cuando era legal, terapeutas como Ann Shulgin la usaron como apoyo en terapia.[7]"
+  ],
+  "cronologia": [
+   [
+    "1974",
+    "Shulgin la sintetiza"
+   ],
+   [
+    "1975",
+    "Descubre su actividad"
+   ],
+   [
+    "Años ochenta",
+    "Se comercializa como Erox"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Shulgin la sintetizó en 1974 y descubrió su actividad el 25 de junio de 1975, describiéndola como «bellamente activa»; la escribió después en PiHKAL.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-2c-b.svg",
+   "alt": "Mapa de Estados Unidos.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Origen de la síntesis"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Un agonista parcial serotoninérgico",
+  "parrafos": [
+   "Actúa como agonista parcial de los receptores 5-HT2A, 5-HT2B y 5-HT2C.[4]",
+   "Hay evidencia contradictoria sobre su acción en 5-HT2A: unos estudios apuntan a agonista parcial y otros a antagonista.[3]",
+   "Provoca una respuesta débil en las vías de señalización de 5-HT2A, y en orina se han detectado la sustancia y nueve metabolitos.[4]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Shulgin la resumió en PiHKAL como un «lujo de realce sensorial», visual, sexual y gustativo, con un mínimo de distorsión.[2]",
+   "Se describe una curva dosis-respuesta muy empinada, por lo que pequeñas diferencias cambian mucho la experiencia.[3]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "entre 4 y 8 horas por vía oral, según una fuente divulgativa[5]"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Existe poca investigación en comparación con los psicodélicos clásicos.[5]",
+   "Hay estudios sobre su farmacología en humanos y sus efectos en cortisol.[4]"
+  ],
+  "alcance": "Farmacología básica y estudios observacionales; sin ensayos clínicos terapéuticos consolidados."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Pureza",
+    "Las sustancias del mercado ilícito suelen venir adulteradas o con impurezas.[1]"
+   ],
+   [
+    "Salud",
+    "Aumenta frecuencia cardiaca y presión arterial.[3]"
+   ],
+   [
+    "Evidencia",
+    "Hay poca investigación clínica.[5]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "molecula",
+   "Mescalina",
+   "Fenetilamina natural",
+   "Su pariente estructural.",
+   null
+  ],
+  [
+   "molecula",
+   "MDMA",
+   "Entactógeno",
+   "Mezcla histórica «Nexus flip».",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>2C-B</em>. en.wikipedia.com/wiki/2cb.",
+  "Wikiwand. <em>2C-B</em> (PiHKAL). wikiwand.com/en/articles/2CB.",
+  "Drug Science. <em>2C-B</em>. drugscience.org.uk/2c-b.",
+  "Artículo de farmacología de 2C-B, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC5859368.",
+  "Healing Maps. <em>2C-B: Receptor Action, Effects, &amp; More</em>. healingmaps.com/?p=31267.",
+  "Erowid. <em>2C-B basics</em>. erowid.org/2cb/2cb_basics.shtml.",
+  "Healing Maps. <em>2C-B – Graceful, Erotic, and Sensual?</em>. healingmaps.com/2c-b-effects-dosage/."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Yopo",
+  "yopo"
+ ],
+ "siguiente": [
+  "Acacias",
+  "acacias"
+ ]
+}
