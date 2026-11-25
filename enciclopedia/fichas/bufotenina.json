@@ -1,0 +1,237 @@
+{
+ "slug": "bufotenina",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Bufotenina",
+ "cientifico": "5-hidroxi-N,N-dimetiltriptamina (5-HO-DMT)",
+ "autoridad": "",
+ "descripcion": "Bufotenina: triptamina emparentada con la serotonina, hallada en sapos, hongos y plantas como Anadenanthera; su psicoactividad humana es discutida.",
+ "entrada": "La bufotenina es una triptamina derivada de la serotonina que aparece en la piel de algunos sapos, en ciertos hongos y en plantas como las Anadenanthera, con larga historia de uso enteógeno en Sudamérica. Su psicoactividad en humanos se discute, y el sapo del Colorado es otra cosa: su secreción es rica sobre todo en 5-MeO-DMT.[1][3][4]",
+ "otros": "5-HO-DMT · dimetilserotonina · cebilcina · mapina",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Triptamina natural"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Sudamérica, México y otros"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Sapos, semillas de Anadenanthera, hongos"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Serotoninérgico (5-HT2A)"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varía según la vía"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tradiciones de rapés sudamericanos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Una triptamina emparentada con la serotonina",
+  "parrafos": [
+   "Es un derivado de la DMT y del neurotransmisor serotonina; un alcaloide hallado en algunos sapos, hongos y plantas, y presente en pequeñas cantidades en el cuerpo humano.[7]",
+   "El nombre procede del género de sapos <em>Bufo</em>, y se encuentra en piel y huevos de varias especies.[1][7]",
+   "Las semillas de <em>Anadenanthera colubrina</em> y <em>A. peregrina</em> la contienen, y parecen tener una larga historia de uso enteógeno en Sudamérica.[4][7]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Triptamina"
+   ],
+   [
+    "Fuentes",
+    "Sapos, plantas, hongos"
+   ],
+   [
+    "Pariente",
+    "5-MeO-DMT"
+   ],
+   [
+    "Aislamiento",
+    "Siglo XX"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin extracción ni dosis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De los sapos del siglo XX al rapé sudamericano",
+  "parrafos": [
+   "Se aisló por primera vez de la piel de sapo durante la Primera Guerra Mundial, a cargo del químico austriaco Handovsky, en la Universidad de Praga.[2][6]",
+   "Su estructura se confirmó en 1934 en el laboratorio de Heinrich Wieland, en Múnich.[6]",
+   "Extractos de veneno de sapo con bufotenina se han usado en medicinas tradicionales, como el ch'an su chino.[1]",
+   "El sapo se representó de forma recurrente en el arte mesoamericano, aunque la hipótesis de su uso ritual necesita evidencia etnohistórica.[1][6]",
+   "En 1983 Albert Most publicó un folleto sobre el sapo del desierto de Sonora que difundió su uso recreativo.[6]"
+  ],
+  "cronologia": [
+   [
+    "Primera Guerra Mundial",
+    "Handovsky la aísla"
+   ],
+   [
+    "1934",
+    "Se confirma su estructura"
+   ],
+   [
+    "1959",
+    "Se aísla 5-MeO-DMT de semillas de Anadenanthera"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Se aisló por primera vez de la piel de sapo durante la Primera Guerra Mundial, a cargo del químico austriaco Handovsky, en la Universidad de Praga.[2][6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-bufotenina.svg",
+   "alt": "Mapa de Sudamérica.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Zona de uso de Anadenanthera"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Receptores de serotonina",
+  "parrafos": [
+   "Comparte estructura con la psilocina, la 5-MeO-DMT y la DMT.[2]",
+   "La 5-MeO-DMT se desmetila en bufotenina, metabolito activo que actúa sobre el receptor 5-HT2A con afinidad unas diez veces mayor.[3]",
+   "Los venenos de Bufo contienen además glucósidos cardiacos parecidos a la digoxina, y su ingestión puede ser mortal.[6]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Ott afirma que se dice a menudo que carece de actividad visionaria, aunque existen cinco informes publicados de farmacología humana.[8]",
+   "La publicación sobre la vía intranasal, sublingual, rectal, pulmonar y oral de bufotenina fue en la <em>Journal of Psychoactive Drugs</em>, 2001.[8]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "varía según la vía[8]"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "La conexión con la esquizofrenia se considera hoy un concepto prácticamente abandonado.[5]",
+   "Hay pocos datos de farmacología humana publicados.[8]"
+  ],
+  "alcance": "Farmacología básica y estudios psiconáuticos aislados."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Sapos",
+    "El veneno de sapo puede contener cardiotoxinas y su consumo ha causado muertes.[2][6]"
+   ],
+   [
+    "Confusión",
+    "No debe confundirse con la 5-MeO-DMT del sapo de Sonora.[1]"
+   ],
+   [
+    "Evidencia",
+    "La actividad psicodélica en humanos está en discusión.[8]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "molecula",
+   "5-MeO-DMT",
+   "Su derivado O-metilado",
+   "Pariente más estudiado.",
+   "enciclopedia/5-meo-dmt/"
+  ],
+  [
+   "planta",
+   "Cebil",
+   "Anadenanthera colubrina",
+   "Una de sus fuentes vegetales.",
+   "enciclopedia/cebil/"
+  ],
+  [
+   "planta",
+   "Yopo",
+   "Anadenanthera peregrina",
+   "Rapé ritual que la contiene.",
+   "enciclopedia/yopo/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>5-HO-DMT</em>. en.wikipedia.com/wiki/5-HO-DMT.",
+  "Wikipedia (borrador de usuario). Bufotenina. wikipedia.com/wiki/User:Pszewczy.",
+  "Science.gov. <em>Sample records for bufotenine</em>. science.gov/topicpages/b/bufotenine.",
+  "Wikipedia (archivo). <em>Bufotenin</em>. webcf.waybackmachine.org/web/20211013034104/https://en.wikipedia.org/wiki/Bufotenin.",
+  "Wikipedia. Discusión sobre Bufotenin (2020). wikipedia.com/wiki/Talk:Bufotenin/Archives/2020/February.",
+  "Wikidoc. <em>Bufotenin</em>. wikidoc.org/index.php/Bufotenin.",
+  "Wikiwand. <em>Bufotenin</em>. wikiwand.com/en/articles/Bufotenin.",
+  "Ott, J. <em>Pharmanopo-Psychonautics: bufotenine</em>. <em>Journal of Psychoactive Drugs</em>, 2001. taz4.erowid.org/archive/sonoran_desert_toad/ott.htm."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Betel",
+  "betel"
+ ],
+ "siguiente": [
+  "Cacao",
+  "cacao"
+ ]
+}
