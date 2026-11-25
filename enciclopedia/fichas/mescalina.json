@@ -1,0 +1,239 @@
+{
+ "slug": "mescalina",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Mescalina",
+ "cientifico": "3,4,5-trimetoxifenetilamina",
+ "autoridad": "",
+ "descripcion": "Mescalina: protoalcaloide fenetilamínico del peyote y de cactus del género Trichocereus, aislado en 1897 y sintetizado por Späth; agonista serotoninérgico.",
+ "entrada": "La mescalina es un protoalcaloide psicodélico de la familia de las fenetilaminas, presente en el peyote y en cactus columnares como el San Pedro. Heffter la aisló en 1897 y Späth la sintetizó en 1919. Sus efectos se comparan con los del LSD y la psilocibina y actúa sobre receptores serotoninérgicos 5-HT2A.[1][2][4][7]",
+ "otros": "3,4,5-trimetoxifenetilamina · TMPEA · mescalina (mescalin)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Psicodélico fenetilamínico natural"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "México, Andes y suroeste de Estados Unidos"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Peyote, San Pedro y otros cactus"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista 5-HT2A; también 5-HT1A y α2A"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Muchas horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos que usan peyote y San Pedro"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un protoalcaloide de cactus",
+  "parrafos": [
+   "Se encuentra en el peyote (<em>Lophophora williamsii</em>) y en cactus columnares como <em>Echinopsis pachanoi</em>, <em>E. peruviana</em> y <em>E. lageniformis</em>.[1]",
+   "La concentración varía mucho entre ejemplares de una misma especie; en los cactus columnares se concentra en la parte superior y en el peyote, en los lados.[1]",
+   "El peyote contiene además otros alcaloides, como pelotina, anhalonidina e hordenina.[6]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Fenetilamina"
+   ],
+   [
+    "Fuentes",
+    "Peyote, San Pedro"
+   ],
+   [
+    "Aislamiento",
+    "1897"
+   ],
+   [
+    "Síntesis",
+    "1919"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni extracción."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De Heffter a Huxley",
+  "parrafos": [
+   "Heffter publicó en 1894 sobre el «pellote» como embriagante y medicina en el norte de México, y aisló antes la pelotina.[8]",
+   "El 23 de noviembre de 1897, Arthur Heffter aisló e identificó la mescalina, que nombró por «mescal», otro nombre del peyote.[3][4]",
+   "Ernst Späth la sintetizó en Viena en 1919 y estableció su fórmula, algo distinta de la propuesta por Heffter.[3][5]",
+   "En 1927 Kurt Beringer publicó un extenso estudio con 32 sujetos.[4]",
+   "En 1954 Aldous Huxley publicó <em>Las puertas de la percepción</em>, sobre su experiencia con mescalina en 1953.[4]",
+   "En 1960 Alexander Shulgin la probó por primera vez.[4]"
+  ],
+  "cronologia": [
+   [
+    "1897",
+    "Heffter aísla la mescalina"
+   ],
+   [
+    "1919",
+    "Späth la sintetiza"
+   ],
+   [
+    "1954",
+    "Huxley publica su libro"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Heffter publicó en 1894 sobre el «pellote» como embriagante y medicina en el norte de México, y aisló antes la pelotina.[8]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-mescalina.svg",
+   "alt": "Mapa del norte de México.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Región del peyote"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Serotonina 5-HT2A",
+  "parrafos": [
+   "Los efectos psicoactivos del peyote se deben a la activación del receptor 5-HT2A y la liberación de calcio.[6]",
+   "Se une también a 5-HT1A y α2A en un rango de concentración similar, y se excreta sobre todo sin cambios por la orina.[8]",
+   "Como derivado de fenetilamina, los signos son compatibles con un efecto simpaticomimético.[9]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Los efectos clínicos se parecen a los de LSD y psilocibina e incluyen euforia, alucinaciones y despersonalización.[9]",
+   "Se la ha tratado como una de las clásicas con los mismos marcos de set y setting.[6]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "muchas horas, según las revisiones"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Se evalúa hoy su beneficio terapéutico.[6]",
+   "La investigación se frenó en los años sesenta y setenta con la prohibición.[9]"
+  ],
+  "alcance": "Farmacología histórica y revisión reciente; ensayos clínicos escasos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Contexto",
+    "El peyote es sacramento de iglesias y pueblos indígenas."
+   ],
+   [
+    "Conservación",
+    "El peyote es de crecimiento lento; ver la ficha del peyote."
+   ],
+   [
+    "Cuerpo",
+    "Tiene efectos simpaticomiméticos.[9]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Peyote",
+   "Lophophora williamsii",
+   "Su fuente más conocida.",
+   "enciclopedia/peyote/"
+  ],
+  [
+   "planta",
+   "San Pedro",
+   "Echinopsis pachanoi",
+   "Cactus andino.",
+   "enciclopedia/san-pedro/"
+  ],
+  [
+   "molecula",
+   "MDMA",
+   "Fenetilamina",
+   "Pariente químico lejano.",
+   "enciclopedia/mdma/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Mescaline</em>. wikipedia.com/wiki/Mescalin.",
+  "Springer. Historia de la investigación sobre el peyote. link.springer.com/article/10.1007/s00706-019-02444-0.",
+  "Chacruna. <em>A Century of Mescaline</em>. chacruna.net/century_of_mescaline/.",
+  "Erowid. <em>Mescaline Timeline</em>. erowid.org/mescaline/mescaline_timeline.php.",
+  "Chacruna. <em>A Century of Mescaline</em> (archivo). chacruna.net/?p=103022.",
+  "Peyote y mescalina, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC10746114/.",
+  "Wikipedia. <em>Mescaline</em> (síntesis). en.wikipedia.com/wiki/Mescalin.",
+  "Dark Classics in Chemical Neuroscience. repositorio.uchile.cl/bitstream/handle/2250/155746/Dark_Classics_in_Chemical.pdf.",
+  "Farmacocinética y toxicidad de la mescalina, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC6864602."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "MDMA",
+  "mdma"
+ ],
+ "siguiente": [
+  "Mongui",
+  "mongui"
+ ]
+}
