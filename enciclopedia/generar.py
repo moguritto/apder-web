@@ -6,6 +6,7 @@
 
 - fichas/<slug>.json  -> docs/enciclopedia/<slug>/index.html   (una ficha por archivo)
 - lista.json          -> docs/enciclopedia/index.html          (portada, tarjetas e índice A–Z)
+- otras.json          -> docs/enciclopedia/otras/index.html    (otras plantas psicoactivas, sin ficha completa)
 La cabecera y el pie se copian de docs/sustancias/ en cada generación, así siguen al resto del sitio.
 Solo usa la biblioteca estándar. Las reglas para escribir una ficha están en enciclopedia/LEEME.md.
 Marcas en los textos: [n] = cita a la fuente n · <em>…</em> = cursiva."""
@@ -18,7 +19,7 @@ import unicodedata
 AQUI = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.normpath(os.path.join(AQUI, "..", "docs"))
 SALIDA = os.path.join(DOCS, "enciclopedia")
-HOY = "2026-11-23"
+HOY = "2026-11-25"
 
 def leer(ruta):
     with open(ruta, encoding="utf-8") as f:
@@ -282,6 +283,8 @@ def portada(L):
     pre, img = "../", "img/"
     cuenta = {t: sum(1 for x in L["az"] if x["tipo"] == t) for t, _, _ in L["tipos"]}
     total = len(L["az"])
+    n_otras = sum(len(g["items"]) for g in json.loads(leer(os.path.join(AQUI, "otras.json")))["grupos"])
+    faltan = sum(1 for x in L["az"] if not x["slug"])
     h = []
     atajos = "".join(f'<a href="{pre}{u}">{n}</a>' for n, u in L["atajos"])
     h.append(f'''<section class="e-portada"><div class="ancho e-portada-in">
@@ -292,7 +295,7 @@ def portada(L):
 <figure class="e-orbitas"><div class="orb orb-1"><img src="{img}ama-joven.jpg" alt="Matamoscas joven, de sombrero rojo cubierto de verrugas blancas."></div><div class="orb orb-2"><img src="{img}aya-flores.jpg" alt="Flores rosadas de la liana de la ayahuasca."></div><div class="orb orb-3"><img src="{img}idx-loto.jpg" alt="Flor de loto azul."></div><span class="chispa a" aria-hidden="true">✧</span><span class="chispa b" aria-hidden="true">✧</span><figcaption>Matamoscas · flor de ayahuasca · loto azul</figcaption></figure>
 </div></section>''')
     tiles = "".join(f'<a class="e-tipo t-{t}" href="#fichas">{ico(t)}<b>{n}</b><span>{cuenta[t]} fichas · {txt}</span></a>' for t, n, txt in L["tipos"])
-    h.append(f'<section class="e-sec ancho"><div class="e-cab"><div><p class="etq">Entrar por</p><h2>Seis reinos de medicinas</h2></div><p class="nota">{total} fichas previstas en la primera edición. También puedes buscar por nombre o recorrer el índice alfabético.</p></div><div class="e-tipos">{tiles}</div></section>')
+    h.append(f'<section class="e-sec ancho"><div class="e-cab"><div><p class="etq">Entrar por</p><h2>Seis reinos de medicinas</h2></div><p class="nota">{total} fichas. Otras {n_otras} plantas, de efecto más leve o menos estudiado, van en <a href="otras/">una página aparte</a>.</p></div><div class="e-tipos">{tiles}</div></section>')
     filtros = '<button type="button" class="on" data-f="todas">Todas</button>' + "".join(f'<button type="button" data-f="{t}">{n}</button>' for t, n, _ in L["tipos"])
     cards = ""
     for c in L["tarjetas"]:
@@ -325,7 +328,7 @@ def portada(L):
             det = f' <i>{x["detalle"]}</i>' if x["tipo"] in ("planta", "hongo", "cactus", "animal") else f' · {x["detalle"]}'
             filas += f'<a href="{x["slug"]}/">{x["nombre"]}</a>' if x["slug"] else f'<span>{x["nombre"]}{det}</span>'
         az += f'<div class="e-letra"><b>{letra}</b>{filas}</div>'
-    h.append(f'<section class="e-sec ancho" id="az"><div class="e-cab"><div><p class="etq">Índice alfabético</p><h2>Todas, de la A a la Z</h2></div><p class="nota">En negrita y con flecha, las fichas ya escritas. Las demás están en preparación.</p></div><div class="e-az">{az}</div></section>')
+    h.append(f'<section class="e-sec ancho" id="az"><div class="e-cab"><div><p class="etq">Índice alfabético</p><h2>Todas, de la A a la Z</h2></div><p class="nota">{"En negrita y con flecha, las fichas ya escritas. Las demás están en preparación." if faltan else "Todas tienen ficha. Las plantas de efecto leve o poco estudiado están en «Otras plantas psicoactivas»."}</p></div><div class="e-az">{az}</div><p class="e-mas"><a href="otras/">Ver otras {n_otras} plantas psicoactivas</a></p></section>')
     libros = ""
     for b in L["libros"]:
         cub = f'<img src="{pre}{b["img"]}" alt="" loading="lazy">' if b.get("img") else f'<span class="tapa"><small>Biblioteca de APDER</small><span>{b["titulo"]}</span></span>'
@@ -337,9 +340,33 @@ def portada(L):
 <div class="e-caja o"><p class="etq">Biblioteca de APDER</p><h2>Libros para abrir la enciclopedia</h2><div class="e-libros">{libros}</div></div></section>''')
     return pagina("enciclopedia/", "Enciclopedia de medicinas", L["descripcion"], "\n".join(h), pre, "sustancias/index.html", JS_PORTADA)
 
+# ------------------------------------------------------------------ OTRAS
+def otras(O):
+    pre = "../../"
+    total = sum(len(g["items"]) for g in O["grupos"])
+    h = []
+    chips = "".join(f'<a href="#g-{g["id"]}">{g["titulo"]}</a>' for g in O["grupos"])
+    h.append(f'''<section class="e-portada"><div class="ancho o-cabeza"><p class="etq oro"><a href="../">Enciclopedia de medicinas</a> · Otras plantas</p><h1>Otras plantas <em>psicoactivas</em></h1>
+<p class="e-intro">{total} plantas que también alteran el ánimo, el sueño o la conciencia, pero con un efecto más leve, cotidiano o poco estudiado. Cada una, con una línea y su fuente.</p>
+<p class="e-atajos">Ir a {chips}</p></div></section>''')
+    for g in O["grupos"]:
+        items = "".join(f'<article class="o-item" id="{x["id"]}"><h3>{x["nombre"]}</h3><p class="lat">{x["cientifico"]}</p><p>{fmt(x["linea"])}</p></article>' for x in g["items"])
+        h.append(f'<section class="e-sec ancho o-grupo" id="g-{g["id"]}"><div class="e-cab"><div><p class="etq">{len(g["items"])} plantas</p><h2>{g["titulo"]}</h2></div><p class="nota">{fmt(g["texto"])}</p></div><div class="o-lista">{items}</div></section>')
+    h.append('''<section class="ancho o-porque"><div class="e-caja b"><p class="etq">Criterio</p><h2>Por qué van aparte</h2><ul>
+<li>Su efecto es leve, cotidiano o está poco documentado.</li><li>Una ficha completa pide historia, mapa, química y cuidados contrastados; aquí basta una línea con su fuente.</li>
+<li>Algunas son tóxicas o las usan solo unos pocos especialistas, y no tendría sentido darles el peso de una medicina con tradición viva.</li>
+<li>Si alguna llega a merecer ficha propia, pasará a la enciclopedia.</li><li>APDER no anima a consumir: informa.</li></ul></div></section>''')
+    fu = "".join(f'<li id="fuente-{i + 1}">{f}</li>' for i, f in enumerate(O["fuentes"]))
+    h.append(f'<section class="e-sec ancho" id="fuentes"><p class="etq">Fuentes</p><h2>De dónde sale cada dato</h2><ol class="f-fuentes">{fu}</ol><p class="f-revision">Última revisión: 25 de noviembre de 2026. Si ves un error, escríbenos a info@apder.org.</p><p class="e-mas"><a href="../">Volver a la enciclopedia</a></p></section>')
+    cuerpo = "\n".join(h)
+    usadas = set(re.findall(r'href="#fuente-(\d+)"', cuerpo))
+    assert usadas == {str(i + 1) for i in range(len(O["fuentes"]))}, "fuentes de otras.json sin cuadrar"
+    return pagina("enciclopedia/otras/", "Otras plantas psicoactivas", O["descripcion"], cuerpo, pre, "sustancias/ayahuasca/index.html")
+
 if __name__ == "__main__":
     n = portada(json.loads(leer(os.path.join(AQUI, "lista.json"))))
     print("portada", n)
+    print("otras", otras(json.loads(leer(os.path.join(AQUI, "otras.json")))))
     for ruta in sorted(glob.glob(os.path.join(AQUI, "fichas", "*.json"))):
         d = json.loads(leer(ruta))
         print(d["slug"], ficha(d))

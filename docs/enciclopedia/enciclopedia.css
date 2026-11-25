@@ -276,3 +276,18 @@
 .enc .e-filtros button.on{background:var(--bosque);color:#fff}
 .enc .e-ficha .aviso{position:absolute;right:12px;top:12px;padding:5px 10px;border-radius:999px;background:rgba(19,41,35,.82);color:#f5efdb;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;line-height:1}
 .enc [hidden]{display:none!important}
+/* Otras plantas psicoactivas (25-11-2026) */
+.enc .o-cabeza{padding-top:54px;padding-bottom:58px}
+.enc .o-cabeza .etq a{color:inherit;text-decoration:none}
+.enc .o-cabeza .e-intro{margin-bottom:6px}
+.enc .o-lista{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.enc .o-item{background:#fff;border:1px solid var(--linea);border-radius:22px;padding:22px 22px 20px;scroll-margin-top:96px}
+.enc .o-item h3{font-size:1.35rem;line-height:1.15;margin:0}
+.enc .o-item .lat{font-family:var(--serif);font-style:italic;color:var(--suave);margin:3px 0 10px}
+.enc .o-item p{font-size:.95rem;line-height:1.5}
+.enc .o-item a,.enc .o-grupo .nota a{color:var(--tierra-osc)}
+.enc .o-item:target{border-color:var(--tierra-osc);box-shadow:0 0 0 2px var(--tierra-osc)}
+.enc .o-grupo{scroll-margin-top:80px}
+.enc .o-porque{margin-top:64px}
+@container enc (max-width:1100px){.enc .o-lista{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@container enc (max-width:560px){.enc .o-lista{grid-template-columns:minmax(0,1fr)}.enc .o-item{padding:18px}}

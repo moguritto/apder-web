@@ -1,0 +1,227 @@
+{
+ "descripcion": "Otras plantas psicoactivas de la Enciclopedia de APDER: estimulantes, sedantes, plantas de los sueños, de la dieta amazónica y otras sin ficha completa.",
+ "grupos": [
+  {
+   "id": "estimulantes",
+   "titulo": "Estimulantes cotidianos",
+   "texto": "Plantas con cafeína que despiertan y quitan el cansancio. Muchas tuvieron un origen ritual, pero hoy se toman a diario. Unas sesenta especies vegetales contienen cafeína.[1] Con ficha propia: <a href=\"../cacao/\">cacao</a>, <a href=\"../guayusa/\">guayusa</a>, <a href=\"../coca/\">coca</a> y <a href=\"../khat/\">khat</a>.",
+   "items": [
+    {
+     "id": "cafe",
+     "nombre": "Café",
+     "cientifico": "Coffea arabica",
+     "linea": "Nativo de las tierras altas de Etiopía.[4] Las cofradías sufíes del Yemen lo tomaban en sus rezos nocturnos desde el siglo XV.[5]"
+    },
+    {
+     "id": "te",
+     "nombre": "Té",
+     "cientifico": "Camellia sinensis",
+     "linea": "Sus hojas contienen cafeína; por taza, el té es una fuente más suave que el café.[7]"
+    },
+    {
+     "id": "yerba-mate",
+     "nombre": "Yerba mate",
+     "cientifico": "Ilex paraguariensis",
+     "linea": "La cultivaron primero pueblos indígenas de Sudamérica; hoy es la bebida diaria del Cono Sur.[6] Pariente de la <a href=\"../guayusa/\">guayusa</a>."
+    },
+    {
+     "id": "guarana",
+     "nombre": "Guaraná",
+     "cientifico": "Paullinia cupana",
+     "linea": "Liana amazónica, la semilla más rica en cafeína del mundo.[1] Los sateré-mawé la cultivan desde hace siglos y se llaman «hijos del guaraná».[2][3]"
+    },
+    {
+     "id": "nuez-de-cola",
+     "nombre": "Nuez de cola",
+     "cientifico": "Cola spp.",
+     "linea": "Semilla africana con cafeína, como el té, el café y el cacao.[7]"
+    }
+   ]
+  },
+  {
+   "id": "sedantes",
+   "titulo": "Sedantes y relajantes",
+   "texto": "Hierbas que calman y ayudan a dormir. Su efecto es suave y la evidencia clínica es irregular. Con ficha propia: <a href=\"../kava/\">kava</a>, <a href=\"../loto-azul/\">loto azul</a> y <a href=\"../lechuga-silvestre/\">lechuga silvestre</a>.",
+   "items": [
+    {
+     "id": "valeriana",
+     "nombre": "Valeriana",
+     "cientifico": "Valeriana officinalis",
+     "linea": "Sedante popular en Europa desde el siglo XVI; la evidencia sobre el sueño es incompleta y contradictoria.[10]"
+    },
+    {
+     "id": "lupulo",
+     "nombre": "Lúpulo",
+     "cientifico": "Humulus lupulus",
+     "linea": "Se estudia junto a la valeriana y la pasionaria; la combinación de las tres dio los mejores resultados en una revisión de ensayos.[9]"
+    },
+    {
+     "id": "pasionaria",
+     "nombre": "Pasionaria",
+     "cientifico": "Passiflora incarnata",
+     "linea": "Con la valeriana, una de las plantas con más potencial frente al insomnio con ansiedad, según una revisión de 2021.[9]"
+    },
+    {
+     "id": "amapola-de-california",
+     "nombre": "Amapola de California",
+     "cientifico": "Eschscholzia californica",
+     "linea": "Los pueblos indígenas de California la usan desde la prehistoria por su efecto sedante y ligeramente psicoactivo.[8] Pariente de la <a href=\"../adormidera/\">adormidera</a>."
+    },
+    {
+     "id": "menta-de-turkestan",
+     "nombre": "Menta de Turkestán",
+     "cientifico": "Lagochilus inebrians",
+     "linea": "Arbusto de Uzbekistán, Turkmenistán y Tayikistán, con el que se prepara un té ligeramente embriagante.[11]"
+    }
+   ]
+  },
+  {
+   "id": "suenos",
+   "titulo": "Plantas de los sueños",
+   "texto": "Plantas a las que se atribuyen sueños más vivos o lúcidos; varias se han usado para adivinar en sueños.[12] Con ficha propia: <a href=\"../hierba-de-los-suenos/\">hierba de los sueños</a> y <a href=\"../raiz-africana-de-los-suenos/\">raíz africana de los sueños</a>.",
+   "items": [
+    {
+     "id": "haba-africana-de-los-suenos",
+     "nombre": "Haba africana de los sueños",
+     "cientifico": "Entada rheedii",
+     "linea": "Leguminosa citada entre las plantas usadas en la adivinación por sueños.[12]"
+    },
+    {
+     "id": "artemisa",
+     "nombre": "Artemisa",
+     "cientifico": "Artemisia spp.",
+     "linea": "Varias artemisas figuran entre las plantas a las que se atribuye un efecto sobre los sueños.[12] Pariente del <a href=\"../ajenjo/\">ajenjo</a>."
+    }
+   ]
+  },
+  {
+   "id": "dieta",
+   "titulo": "Plantas maestras de la dieta amazónica",
+   "texto": "En el vegetalismo peruano, la dieta es un periodo de aislamiento y restricciones en el que se toma una planta maestra para sanar o aprender.[13][14][15] Muchas de esas plantas no son psicoactivas en sentido estricto. Con ficha propia: <a href=\"../ayahuasca/\">ayahuasca</a>, <a href=\"../chiric-sanango/\">chiric sanango</a>, <a href=\"../mapacho/\">mapacho</a> y <a href=\"../floripondio/\">floripondio</a>.",
+   "items": [
+    {
+     "id": "bobinsana",
+     "nombre": "Bobinsana",
+     "cientifico": "Calliandra angustifolia",
+     "linea": "Planta de dieta descrita como un espíritu femenino que ayuda en la creatividad y el canto.[16]"
+    },
+    {
+     "id": "ajo-sacha",
+     "nombre": "Ajo sacha",
+     "cientifico": "Mansoa alliacea",
+     "linea": "«Ajo del monte», por su olor. Una divulgación la propone como limpieza inicial antes de otras plantas maestras.[17]"
+    },
+    {
+     "id": "camalonga",
+     "nombre": "Camalonga",
+     "cientifico": "Strychnos sp.",
+     "linea": "Semilla usada como planta maestra en el centro Takiwasi, en Perú.[18]"
+    }
+   ]
+  },
+  {
+   "id": "rituales",
+   "titulo": "Resinas y bebidas rituales",
+   "texto": "Sahumerios y bebidas fermentadas que acompañan ceremonias desde hace milenios. Con ficha propia: <a href=\"../balche/\">balché</a>.",
+   "items": [
+    {
+     "id": "incienso",
+     "nombre": "Incienso",
+     "cientifico": "Boswellia spp.",
+     "linea": "Su resina se quema en ceremonias desde hace milenios. En ratones, uno de sus componentes, el acetato de incensol, reduce la ansiedad.[19]"
+    },
+    {
+     "id": "pulque",
+     "nombre": "Pulque",
+     "cientifico": "Agave spp. (maguey)",
+     "linea": "Savia fermentada del maguey, el <em>octli</em> nahua. Era sagrado antes de la conquista, y Mayahuel era la madre de sus dioses.[20][21]"
+    }
+   ]
+  },
+  {
+   "id": "locales",
+   "titulo": "Poco estudiadas o de uso muy local",
+   "texto": "Plantas citadas en la etnobotánica cuyo efecto se conoce mal, o que solo usan unos pocos especialistas. Varias son tóxicas.",
+   "items": [
+    {
+     "id": "yohimbe",
+     "nombre": "Yohimbe",
+     "cientifico": "Pausinystalia johimbe",
+     "linea": "Árbol de África central y occidental cuya corteza se usa como afrodisíaco. La yohimbina se ha asociado a arritmias y convulsiones.[22][23]"
+    },
+    {
+     "id": "coleo",
+     "nombre": "Coleo",
+     "cientifico": "Coleus scutellarioides",
+     "linea": "Los mazatecos lo usan como sustituto de la <a href=\"../hierba-de-la-pastora/\">hierba de la pastora</a>; apenas se sabe de su efecto o su química.[26]"
+    },
+    {
+     "id": "iochroma",
+     "nombre": "Borrachero de Sibundoy",
+     "cientifico": "Iochroma fuchsioides",
+     "linea": "Arbusto de flor roja que usaban los médicos kamsá del valle de Sibundoy, en Colombia, según Schultes.[24]"
+    },
+    {
+     "id": "culebra-borrachero",
+     "nombre": "Culebra borrachero",
+     "cientifico": "Methysticodendron amesianum",
+     "linea": "Árbol del valle de Sibundoy que los kamsá e ingas reservan para casos difíciles de adivinación; su nombre kamsá significa «embriagante del jaguar».[25] Pariente del <a href=\"../floripondio/\">floripondio</a>."
+    },
+    {
+     "id": "datura-metel",
+     "nombre": "Datura metel",
+     "cientifico": "Datura metel",
+     "linea": "Datura de Asia meridional presente en textos del tantra budista.[27] Hermana del <a href=\"../estramonio/\">estramonio</a> y el <a href=\"../toloache/\">toloache</a>."
+    }
+   ]
+  },
+  {
+   "id": "parientes",
+   "titulo": "Parientes de otras fichas",
+   "texto": "Especies que se citan dentro de una ficha como parientes y no necesitan una propia.",
+   "items": [
+    {
+     "id": "tabernaemontana-undulata",
+     "nombre": "Tabernaemontana undulata",
+     "cientifico": "Tabernaemontana undulata",
+     "linea": "Apocinácea que también contiene ibogaína, según la ficha de la <a href=\"../iboga/\">iboga</a>."
+    },
+    {
+     "id": "tabernanthe-elliptica",
+     "nombre": "Tabernanthe elliptica",
+     "cientifico": "Tabernanthe elliptica",
+     "linea": "La otra especie reconocida del género de la iboga, también africana. Ver la ficha de la <a href=\"../iboga/\">iboga</a>."
+    }
+   ]
+  }
+ ],
+ "fuentes": [
+  "Revisión sobre la historia médica y la etnofarmacología del guaraná. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC2887323.",
+  "Cultural Survival. <em>Eyes of the Forest</em> (guaraná y pueblo sateré-mawé). culturalsurvival.org/node/8847.",
+  "JSTOR Daily. <em>Guaraná: Stimulation from the Amazon to the World</em>. daily.jstor.org/guarana-stimulation-from-the-amazon-to-the-world.",
+  "Encyclopaedia Britannica. <em>History of coffee</em>. britannica.com/topic/history-of-coffee.",
+  "JSTOR Daily. <em>How Coffee Went from a Mystical Sacrament to an Everyday Drink</em>. daily.jstor.org/how-coffee-went-from-a-mystical-sacrament-to-an-everyday-drink.",
+  "Reseña de Folch, C. <em>The Book of Yerba Mate: A Stimulating History</em> (Princeton, 2024). Cambridge Core. cambridge.org/core/product/3B98C14941DD5EE08D4E62F85552C5D7/core-reader.",
+  "The Wire. <em>A Brief History of Coffee: The Brew of Empire, Sedition and Exile</em>. m.thewire.in/article_pdf/culture/a-brief-history-of-coffee-the-brew-of-empire-sedition-and-exile.",
+  "U.S. Forest Service. <em>Sedatives</em> (Ethnobotany: Mind and Spirit). fs.usda.gov/wildflowers/ethnobotany/Mind_and_Spirit/sedatives.shtml.",
+  "<em>Medicinal Plants for Insomnia Related to Anxiety: An Updated Review</em>. <em>Planta Medica</em>, 2021. thieme-connect.com/products/ejournals/html/10.1055/a-1510-9826.",
+  "EBSCO Research Starters. <em>Valerian's therapeutic uses</em>. ebsco.com/research-starters/complementary-and-alternative-medicine/valerians-therapeutic-uses.",
+  "Wikipedia (vía Wikiwand). <em>Lagochilus inebrians</em>. wikiwand.com/en/articles/Turkistan_mint.",
+  "Wikipedia. <em>Oneirogen</em>. en.wikipedia.org/wiki/Oneirogen.",
+  "O'Shaughnessy, D. M. y Berlowitz, I. <em>Amazonian Medicine and the Psychedelic Revival: Considering the «Dieta»</em>. <em>Frontiers in Pharmacology</em> 12, 2021. doi.org/10.3389/fphar.2021.639124.",
+  "Jauregui, X. et al. <em>«Plantas con madre»: plants that teach and guide in the shamanic initiation process in the East-Central Peruvian Amazon</em>. <em>Journal of Ethnopharmacology</em>, 2011. pubmed.ncbi.nlm.nih.gov/21295130/.",
+  "Berlowitz, I. et al. <em>Teacher plants: Indigenous Peruvian-Amazonian dietary practices as a method for using psychoactives</em>. <em>Journal of Ethnopharmacology</em>, 2022. discovery.ucl.ac.uk/id/eprint/10141249/.",
+  "Hadlock, L. Tesis doctoral sobre las dietas de plantas shipibo. University of Chicago. knowledge.uchicago.edu/record/12983.",
+  "Ayahuasca Higher Learning. <em>Ways to Learn from Plants: Sitting in Dieta</em>. medium.com/ayahuasca-higher-learning/ways-to-learn-from-plants-sitting-in-dieta-b8bb92a7407b.",
+  "Centro Takiwasi. Artículo sobre el uso de plantas maestras «en modo contención». doi.mendelu.cz/pdfs/doi/9900/02/900.pdf.",
+  "Moussaieff, A. et al. <em>Incensole acetate, an incense component, elicits psychoactivity by activating TRPV3 channels in the brain</em>. <em>FASEB Journal</em> 22(8), 2008. pubmed.ncbi.nlm.nih.gov/18492727/.",
+  "Cartwright, M. <em>Pulque</em>. <em>World History Encyclopedia</em>, 2023. worldhistory.org/Pulque/.",
+  "Wikipedia. <em>Pulque</em>. en.wikipedia.org/wiki/Pulque.",
+  "Revisión sobre la yohimbina. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC9590431/.",
+  "NCCIH (National Institutes of Health). <em>Yohimbe</em>. nccih.nih.gov/health/yohimbe.",
+  "Schultes, R. E. <em>A New Hallucinogen from Andean Colombia: Iochroma fuchsioides</em>. <em>Journal of Psychedelic Drugs</em> 9(1), 1977. bibliography.maps.org/resources/download/14806.",
+  "Schultes, R. E. <em>A new narcotic genus from the Amazon slope of the Colombian Andes</em>. <em>Bulletin on Narcotics</em> (UNODC), 1956. unodc.org/unodc/en/data-and-analysis/bulletin/bulletin_1956-01-01_4_page002.html.",
+  "Erowid. <em>Coleus</em>. erowid.org/plants/coleus/coleus.shtml.",
+  "Grimes, S. M. <em>Portrait of a Poison: Datura in Buddhist Magic</em>. University of Virginia, Mandala. texts.mandala.library.virginia.edu/node/67550."
+ ]
+}
