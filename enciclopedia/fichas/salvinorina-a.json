@@ -1,0 +1,228 @@
+{
+ "slug": "salvinorina-a",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Salvinorina A",
+ "cientifico": "diterpenoide neoclerodano",
+ "autoridad": "",
+ "descripcion": "Salvinorina A: diterpeno no nitrogenado de la salvia de los adivinos; agonista selectivo del receptor opioide kappa y no serotoninérgico.",
+ "entrada": "La salvinorina A es el principio activo de <em>Salvia divinorum</em>, la «salvia de los adivinos», usada por los mazatecos de Oaxaca. Es un diterpeno sin nitrógeno que actúa como agonista potente y selectivo del receptor opioide kappa, no sobre el 5-HT2A de los psicodélicos clásicos. Se aisló en 1982.[1][2][5][6]",
+ "otros": "salvinorina · divinorina (nombre inicial de Valdés)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Diterpeno alucinógeno no alcaloide"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Sierra Mazateca, Oaxaca, México"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Hojas de Salvia divinorum"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista selectivo del receptor opioide kappa"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Muy breve: unos quince a treinta minutos"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblo mazateco"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un diterpeno sin nitrógeno",
+  "parrafos": [
+   "Es un diterpenoide trans-neoclerodano, el primer compuesto que actúa sobre el receptor opioide kappa sin ser un alcaloide.[8][7]",
+   "Se halla junto con salvinorinas B a I, divinorinas A a F y otros compuestos relacionados.[4]",
+   "<em>Salvia divinorum</em> es una menta de la familia de las lamiáceas, con tradición de uso mazateca.[9]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Diterpenoide"
+   ],
+   [
+    "Fuente",
+    "Salvia divinorum"
+   ],
+   [
+    "Receptor",
+    "Opioide kappa"
+   ],
+   [
+    "Aislamiento",
+    "1982"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "La salvia de los adivinos",
+  "parrafos": [
+   "El pueblo mazateco de Oaxaca la usa desde hace siglos en prácticas espirituales y de adivinación.[7][3]",
+   "Los mazatecos la llaman «ska Maria Pastora» por la creencia de que es la encarnación de la Virgen María.[2]",
+   "Tradicionalmente se masca como bolo o se bebe en extracto de hojas frescas.[9]",
+   "Alfredo Ortega y colegas la aislaron y describieron en 1982 en México, y Leander Valdés la estudió en una tesis publicada en 1983 como «divinorina»; el nombre se corrigió a salvinorina A y B en 1984.[8]",
+   "La planta fue recolectada por Hofmann y Wasson, y la describió como nueva especie Epling.[3][9]"
+  ],
+  "cronologia": [
+   [
+    "1982",
+    "Ortega aísla la salvinorina A"
+   ],
+   [
+    "2002",
+    "Se identifica el receptor opioide kappa"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "El pueblo mazateco de Oaxaca la usa desde hace siglos en prácticas espirituales y de adivinación.[7][3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-salvinorina-a.svg",
+   "alt": "Mapa de la Sierra Mazateca, Oaxaca.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Región de uso tradicional"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Opioide kappa, no serotoninérgico",
+  "parrafos": [
+   "En 2002 se halló que la salvinorina A es un agonista potente y selectivo del receptor opioide kappa; fue el primer agonista opioide selectivo de subtipo no alcaloide.[5][7]",
+   "Sus efectos no están mediados por el receptor 5-HT2A, la diana clásica de LSD o psilocibina.[2]",
+   "Se ha visto también que actúa como agonista parcial del receptor D2.[8]",
+   "Es activa a dosis muy bajas y su duración es muy corta.[8]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Produce un estado alucinógeno leve de corta duración, de unos quince a treinta minutos, según la tradición.[1]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "15 a 30 minutos, según la fuente[1]"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Se investigan los antagonistas kappa como candidatos a psicofármacos para percepciones distorsionadas como la esquizofrenia o la demencia.[5]",
+   "Sus análogos se estudian como probes de receptores opioides y para diseñar fármacos.[1]",
+   "Hay una revisión de su psicofarmacología.[3]"
+  ],
+  "alcance": "Farmacología básica y química medicinal; sin ensayos clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Experiencia",
+    "Su efecto es intenso y desorientador, aunque breve; en la tradición se hace con acompañamiento."
+   ],
+   [
+    "Receptor",
+    "Su acción opioide kappa difiere de la de los psicodélicos clásicos.[2]"
+   ],
+   [
+    "Uso reciente",
+    "Su uso recreativo ha aumentado en la última década.[9]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Hierba de la pastora",
+   "Salvia divinorum",
+   "Su fuente vegetal.",
+   "enciclopedia/hierba-de-la-pastora/"
+  ],
+  [
+   "molecula",
+   "Psilocibina",
+   "Triptamina",
+   "Otra tradición mazateca.",
+   "enciclopedia/psilocibina/"
+  ]
+ ],
+ "fuentes": [
+  "MAPS. <em>Salvia divinorum: Chemistry and Pharmacology</em>. bibliography.maps.org/resources/download/19202.",
+  "Estudio sobre la salvinorina A como agonista opioide, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC3082450.",
+  "MAPS. Psicofarmacología de Salvia divinorum. bibliography.maps.org/resources/download/19274.",
+  "MAPS. Salvinorinas y receptores opioides. bibliography.maps.org/resources/download/14710.",
+  "Roth, B. L. et al. <em>Salvinorin A: a potent naturally occurring nonnitrogenous kappa opioid selective agonist</em>. <em>PNAS</em>, 2002. pubmed.ncbi.nlm.nih.gov/12192085/.",
+  "Estudio sobre farmacóforo de la salvinorina A, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC2777653.",
+  "Roth, B. L. et al. <em>PNAS</em> 2002 (texto completo). pmc.ncbi.nlm.nih.gov/articles/129372.",
+  "Wikipedia. <em>Salvinorin A</em>. wikipedia.com/wiki/Salvinorin_A.",
+  "MAPS. Salvia divinorum, uso mazateco. bibliography.maps.org/bibliography/resources/download/20612."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Salema",
+  "salema"
+ ],
+ "siguiente": [
+  "San Isidro",
+  "san-isidro"
+ ]
+}
