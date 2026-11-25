@@ -59,6 +59,7 @@ AP_DOSIS = re.compile(r"\b(dosis|dosificaci[oó]n|posolog[ií]a|v[ií]as? de adm
 AP_ELABORA = re.compile(r"\b(preparaci[oó]n|elaboraci[oó]n|extracci[oó]n|s[ií]ntesis|cultivo|recetas?)\b", re.I)
 # Cantidades sueltas («50 mg», «3,5 g», «100 µg»): se quita la frase entera.
 CANTIDAD = re.compile(r"\d(?:\s|&nbsp;|\u00a0)*(?:mg|µg|μg|mcg|ug|ml|miligramos?|microgramos?|mililitros?|gramos?|g)\b", re.I)
+CON_LEGALIDAD = False   # --con-legalidad: Mannu (25-11-2026) quiere la situación legal; solo se quitaría la legalidad referida a terapia
 LEGAL = re.compile(r"\b(legal|legalidad|ilegal|leyes|fiscalizaci[oó]n)\b|\blegal status\b", re.I)
 
 
@@ -171,11 +172,12 @@ def preparar_cuerpo(c, mapa, slug, tipo="", cuenta=None):
     c = re.sub(r'<p class="e-atrib">.*?</p>', "", c, flags=re.S)
     c = re.sub(r"<p><em>La información de dosis no se traduce.*?</em></p>", "", c, flags=re.S)
     c = re.sub(r'<div class="p-tabla">(.*?)</div>', r"\1", c, flags=re.S)              # se vuelve a poner abajo
-    c = quitar_apartados(c, lambda t: bool(LEGAL.search(t) or AP_DOSIS.search(t)))
+    c = quitar_apartados(c, lambda t: bool((LEGAL.search(t) and not CON_LEGALIDAD) or AP_DOSIS.search(t)))
     if tipo == "sustancia":
         c = quitar_apartados(c, lambda t: bool(AP_ELABORA.search(t)), hijos=False)
     c = sin_cantidades(c, cuenta)
-    c = re.sub(r"<li>(?:(?!</li>).)*?(?:Legal status|[Ee]statu[st] legal|[Ss]ituación legal|[Ll]egalidad)(?:(?!</li>).)*?</li>\s*", "", c, flags=re.S)
+    if not CON_LEGALIDAD:
+        c = re.sub(r"<li>(?:(?!</li>).)*?(?:Legal status|[Ee]statu[st] legal|[Ss]ituación legal|[Ll]egalidad)(?:(?!</li>).)*?</li>\s*", "", c, flags=re.S)
     c = re.sub(r"</ul>\s*<ul>", "\n", c)
     c = re.sub(r"<(ul|ol)>\s*</\1>", "", c)
     # párrafos que anuncian una lista que no vino («…incluyen:») y apartados que se quedan vacíos
@@ -477,8 +479,11 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--json", help="carpeta con los .json de las páginas traducidas")
     ap.add_argument("--excluidas", help="archivo con títulos originales o slugs que no se publican (uno por línea)")
+    ap.add_argument("--con-legalidad", action="store_true", help="publica los apartados de situación legal")
     ap.add_argument("--hoy", default="2026-11-25", help="fecha para el mapa del sitio (AAAA-MM-DD)")
     a = ap.parse_args()
+    global CON_LEGALIDAD
+    CON_LEGALIDAD = a.con_legalidad
 
     pags = {}
     for ruta in sorted(glob.glob(os.path.join(SALIDA, "*", "index.html"))):
