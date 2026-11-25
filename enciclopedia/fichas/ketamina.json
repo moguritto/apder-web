@@ -1,0 +1,231 @@
+{
+ "slug": "ketamina",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Ketamina",
+ "cientifico": "(RS)-2-(2-clorofenil)-2-(metilamino)ciclohexanona",
+ "autoridad": "",
+ "descripcion": "Ketamina: anestésico disociativo sintetizado en 1962 y reposicionado como antidepresivo de acción rápida; su isómero esketamina se aprobó en 2019.",
+ "entrada": "La ketamina es un anestésico disociativo sintetizado en 1962 que bloquea los receptores NMDA del glutamato. Aprobada como anestésico en 1970, se estudia desde 2000 como antidepresivo de acción rápida; su isómero esketamina está aprobado desde 2019 para la depresión resistente.[1][2][6]",
+ "otros": "ketamina · esketamina (isómero S) · arketamina (isómero R) · Spravato (nombre comercial de la esketamina)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Anestésico disociativo sintético"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Origen de laboratorio, Estados Unidos"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Síntesis farmacéutica"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Antagonista no competitivo de receptores NMDA"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Efecto agudo breve"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina y psiquiatría"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un derivado de la fenciclidina",
+  "parrafos": [
+   "La sintetizó en 1962 el químico Calvin Stevens en Parke-Davis, como derivado de la fenciclidina (PCP), con la meta de lograr un anestésico alternativo.[6][7]",
+   "La ketamina es una mezcla racémica: la mitad esketamina (S) y la mitad arketamina (R); la esketamina se une unas cuatro veces más fuerte al receptor NMDA.[4]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Anestésico disociativo"
+   ],
+   [
+    "Año",
+    "1962"
+   ],
+   [
+    "Isómeros",
+    "Esketamina y arketamina"
+   ],
+   [
+    "Receptor",
+    "NMDA"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni protocolos."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De anestésico a antidepresivo",
+  "parrafos": [
+   "Se probó en humanos en 1964 y la FDA la aprobó como anestésico en 1970.[2][1]",
+   "Sus propiedades disociativas, que daban experiencias extrañas y de salida del cuerpo, fueron sus efectos secundarios hasta que se reposicionó.[1]",
+   "En 2000, el psiquiatra John Krystal, de Yale, descubrió que la ketamina alivia rápido los síntomas de la depresión mayor.[6]",
+   "El 5 de marzo de 2019, la FDA aprobó la esketamina (Spravato) intranasal como terapia complementaria en la depresión resistente.[3][7]",
+   "Originalmente un anestésico y una sonda «psicotomimética», se reposicionó como antidepresivo de acción rápida.[5]"
+  ],
+  "cronologia": [
+   [
+    "1962",
+    "Síntesis por Stevens"
+   ],
+   [
+    "1970",
+    "Aprobación como anestésico"
+   ],
+   [
+    "2000",
+    "Krystal describe el efecto antidepresivo rápido"
+   ],
+   [
+    "2019",
+    "Aprobación de la esketamina"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Se probó en humanos en 1964 y la FDA la aprobó como anestésico en 1970.[2][1]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-ketamina.svg",
+   "alt": "Mapa de Estados Unidos.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Origen de la síntesis"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Glutamato y NMDA",
+  "parrafos": [
+   "Es un antagonista no competitivo de los receptores NMDA del glutamato.[5]",
+   "A diferencia de los antidepresivos monoaminérgicos, que tardan semanas, parece actuar potenciando la transmisión glutamatérgica.[7][3]",
+   "Se la distingue de los psicodélicos clásicos por su mecanismo, aunque se la suele agrupar en la psiquiatría psicodélica."
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Produjo en los primeros ensayos experiencias disociativas, de «desapego», que condicionaron su uso.[1]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "breve por vía parenteral; ver protocolo clínico"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "La literatura sugiere posible utilidad en depresión bipolar, TEPT, TOC, ansiedad y la ideación suicida, con estudios piloto.[7]",
+   "El NIMH vincula décadas de investigación con la aprobación de 2019.[1]"
+  ],
+  "alcance": "Uso médico consolidado como anestésico; esketamina aprobada para depresión resistente; otros usos en investigación."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Medicina",
+    "Se usa en entorno clínico; la ketamina no psicodélica requiere supervisión médica."
+   ],
+   [
+    "Retos",
+    "Hay desafíos en seguridad, equidad de acceso, regulación y presión comercial.[5]"
+   ],
+   [
+    "Uso fuera de indicación",
+    "La ketamina intravenosa racémica se usa mucho fuera de ficha técnica en la práctica.[5]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "molecula",
+   "MDMA",
+   "Entactógeno",
+   "Otra sustancia en terapia asistida.",
+   null
+  ],
+  [
+   "molecula",
+   "Psilocibina",
+   "Psicodélico clásico",
+   "Contraste farmacológico.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "NIMH. <em>Cracking the Ketamine Code</em>. nimh.nih.gov/news/science-updates/2023/cracking-the-ketamine-code.",
+  "Psychiatric Times. <em>Depression's Journey From Monoamines to Glutamate</em>, 2019. psychiatrictimes.com/esketamine-depressions-journey-monoamines-glutamate.",
+  "Psychiatric Times. <em>Esketamine</em>, aprobación de la FDA. psychiatrictimes.com/view/esketamine-depressions-journey-monoamines-glutamate.",
+  "Psychiatric Times. Isómeros de la ketamina. psychiatrictimes.com/depression/esketamine-depressions-journey-monoamines-glutamate.",
+  "Cabrera Abreu, C. et al. <em>From model psychosis to rapid antidepressant</em>. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC12698990.",
+  "Yale School of Medicine. <em>Ketamine: How Yale Redefined Depression Treatment</em>. medicine.yale.edu/news-article/ketamine-how-yale-redefined-depression-treatment/.",
+  "The Carlat Report. <em>Esketamine Gets FDA Approval</em>. thecarlatreport.com/articles/2962-esketamine-gets-fda-approval."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Kava",
+  "kava"
+ ],
+ "siguiente": [
+  "Khat",
+  "khat"
+ ]
+}
