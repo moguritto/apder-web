@@ -21,7 +21,7 @@ BASE = "https://apder.org/"
 guia = open(os.path.join(DOCS, "sustancias/2c-b/index.html"), encoding="utf-8").read()
 CAB = guia[guia.index('<a class="saltar"'):guia.index("</header>") + len("</header>")]
 CAB = CAB.replace(' aria-current="page"', "").replace("menu-abre actual", "menu-abre")
-CAB = CAB.replace('menu-abre" aria-expanded="false" aria-controls="panel-aprender"', 'menu-abre actual" aria-expanded="false" aria-controls="panel-aprender"')  # Quién es quién va en «Aprender»
+CAB = CAB.replace('menu-abre" aria-expanded="false" aria-controls="panel-biblioteca"', 'menu-abre actual" aria-expanded="false" aria-controls="panel-biblioteca"')  # Quién es quién va en «Biblioteca» (menú del 25-11-2026; scripts/cabecera.py es la copia buena)
 PIE = guia[guia.index('<script src="../../menu.js'):]
 
 

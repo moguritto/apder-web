@@ -291,8 +291,8 @@ def marco(origen):
     s = leer(os.path.join(DOCS, origen))
     cab = s[s.find('<header class="cabecera"'):s.find("</header>") + 9].replace(' aria-current="page"', "")
     cab = cab.replace("menu-abre actual", "menu-abre").replace(
-        'menu-abre" aria-expanded="false" aria-controls="panel-aprender"',
-        'menu-abre actual" aria-expanded="false" aria-controls="panel-aprender"')          # Psiconáutica va en «Aprender»
+        'menu-abre" aria-expanded="false" aria-controls="panel-experiencia"',
+        'menu-abre actual" aria-expanded="false" aria-controls="panel-experiencia"')          # Psiconáutica va en «La experiencia» (menú del 25-11-2026)
     pie = s[s.find("<footer"):s.find("</footer>") + 9]
     css = re.search(r'tierra\.css\?v=[^"]+', s)
     menu = re.search(r'menu\.js\?v=[^"]+', s)

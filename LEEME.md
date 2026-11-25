@@ -37,6 +37,17 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - En el HTML va dentro de `lang="en"`. Estilos al final de `docs/tierra.css` (`.marca-txt`, `.portada-sigla`).
 - Si se regeneran páginas con guiones que viven fuera del repo (por ejemplo, las fichas de la biblioteca), hay que mantener el nombre en inglés en el pie.
 
+## Cabecera, menú y pie (25-11-2026)
+
+- **La copia buena está en `scripts/cabecera.py`.** La cabecera y el pie siguen copiados dentro de cada página, pero ya no se tocan a mano: se cambia el guion y se lanza `python3 scripts/cabecera.py` (con `--mira` solo dice cuántas páginas cambiaría). Escribe las direcciones relativas a cada carpeta, marca la sección (`actual`) y pone `aria-current="page"` en el enlace de la propia página. También pone la misma versión de `tierra.css` en todas (`VERSION_CSS`).
+- Menú por intención, cuatro puertas y «Quiénes somos»: **Medicinas** (las 19 guías, Todas las guías, Medicinas por familias y la Enciclopedia destacada) · **La experiencia** (set y setting, reducción de riesgos, el acompañante, experiencias difíciles, unidad, microdosis y Psiconáutica) · **Terapia** (guías de terapia, investigación, participar en un ensayo y dónde formarse; el desplegable dice que APDER no ofrece sesiones) · **Biblioteca** (libros, entradas por tema e idioma y Quién es quién). «Aprender» ya no existe. «Terapia asistida con MDMA» sigue fuera del menú.
+- Qué sección se marca: `seccion()` en el guion (Enciclopedia → Medicinas; Microdosis y Psiconáutica → La experiencia; Formaciones e Investigación → Terapia; Quién es quién → Biblioteca).
+- El logo lleva las letras originales (`docs/img/apder-letras.webp`), no texto. El lema en inglés ya no va bajo el logo: sigue en el pie, en la portada y en el aviso legal.
+- Pie: marca, texto y contacto una sola vez, y cinco columnas de navegación (`PIE_COLUMNAS`). Conserva el ancla `#contact`.
+- Estilos: bloque «Menú por intención y pie con navegación», al final de `docs/tierra.css`. El desplegable nunca es más alto que la pantalla; entre 1001 y 1079 px se oculta «Quiénes somos» (está en el pie).
+- Los generadores de la Enciclopedia y de Quién es quién copian la cabecera de una página publicada y marcan su sección; después de lanzarlos conviene lanzar `scripts/cabecera.py`.
+- Los párrafos más antiguos de este archivo que hablan del menú de cinco entradas con «Aprender» quedan como historia.
+
 ## Portada (rehecha el 24-11-2026)
 
 - `docs/index.html` habla el mismo lenguaje que la Enciclopedia: `<main class="enc ini">` carga `tierra.css`, `enciclopedia/enciclopedia.css` y `inicio.css` (lo propio de la portada, todo bajo `.ini`). Si se cambia `enciclopedia.css`, hay que mirar también la portada.
@@ -67,8 +78,8 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 
 ## Psiconáutica (rediseño del 25-11-2026)
 
-- `docs/psiconautica/`: PsychonautWiki en español. Portada con buscador, filtros por tipo e índice A–Z, y una página por artículo (`docs/psiconautica/<slug>/`). Va **aparte** de la Enciclopedia de medicinas (decisión de Mannu, 25-11-2026) y está en el menú, dentro de «Aprender».
-- No se edita el HTML a mano. Todo sale de `python3 scripts/psiconautica/generar.py`, que copia la cabecera y el pie de `docs/sustancias/` y marca «Aprender» como sección actual. Solo usa la biblioteca estándar.
+- `docs/psiconautica/`: PsychonautWiki en español. Portada con buscador, filtros por tipo e índice A–Z, y una página por artículo (`docs/psiconautica/<slug>/`). Va **aparte** de la Enciclopedia de medicinas (decisión de Mannu, 25-11-2026) y está en el menú, dentro de «La experiencia».
+- No se edita el HTML a mano. Todo sale de `python3 scripts/psiconautica/generar.py`, que copia la cabecera y el pie de `docs/sustancias/` y marca «La experiencia» como sección actual. Solo usa la biblioteca estándar.
   - Sin argumentos rehace todo a partir de lo ya publicado (sirve para cambiar la plantilla sin tener las traducciones).
   - `--json CARPETA` añade o sustituye páginas desde archivos `.json` (`slug`, `titulo`, `original`, `cuerpo` y, opcionales, `tipo`, `nota`, `alias`); `--excluidas ARCHIVO` deja fuera los títulos de esa lista. Las traducciones viven en el Mac de Mannu (`Documentos/psychonautwiki-es`), no en el repositorio.
 - Tres plantillas con el mismo esqueleto: **sustancia**, **efecto** (los niveles numerados salen como escalera) y **portada**. Además hay dos tipos menores, cuidado y concepto. Si la página no trae tipo, se deduce de sus apartados.

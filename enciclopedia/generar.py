@@ -28,7 +28,7 @@ def marco(origen):
     """Cabecera, pie, hoja de estilos y guiones de una página real del sitio a la misma profundidad."""
     s = leer(os.path.join(DOCS, origen))
     cab = s[s.find('<header class="cabecera"'):s.find("</header>") + 9].replace(' aria-current="page"', "")
-    cab = cab.replace("menu-abre actual", "menu-abre").replace('menu-abre" aria-expanded="false" aria-controls="panel-aprender"', 'menu-abre actual" aria-expanded="false" aria-controls="panel-aprender"')  # la enciclopedia va en «Aprender»
+    cab = cab.replace("menu-abre actual", "menu-abre").replace('menu-abre" aria-expanded="false" aria-controls="panel-medicinas"', 'menu-abre actual" aria-expanded="false" aria-controls="panel-medicinas"')  # la enciclopedia va en «Medicinas» (menú del 25-11-2026; scripts/cabecera.py es la copia buena)
     pie = s[s.find("<footer"):s.find("</footer>") + 9]
     css = re.search(r'tierra\.css\?v=[^"]+', s)
     return cab, pie, (css.group(0) if css else "tierra.css")

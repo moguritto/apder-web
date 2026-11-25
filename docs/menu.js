@@ -1,4 +1,4 @@
-/* APDER · menú principal: paneles «Medicinas» y «Aprender», menú de móvil y cabecera compacta al bajar. */
+/* APDER · menú principal: paneles (Medicinas, La experiencia, Terapia, Biblioteca), menú de móvil y cabecera compacta al bajar. */
 (function(){
   var cab=document.querySelector('.cabecera'); if(!cab)return;
   var html=document.documentElement,menu=cab.querySelector('#menu'),tog=cab.querySelector('.menu-toggle');

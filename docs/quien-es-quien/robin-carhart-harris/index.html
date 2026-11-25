@@ -26,7 +26,7 @@
 <link rel="apple-touch-icon" href="../../img/apple-touch-icon.png">
 <link rel="preload" href="../../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../../tierra.css?v=20261123a">
+<link rel="stylesheet" href="../../tierra.css?v=20261125a">
 <style>
 /* Quién es quién (23-11-2026) */
 .q-ficha{text-align:center}
@@ -109,7 +109,7 @@
 <a class="saltar" href="#contenido">Saltar al contenido</a>
 <header class="cabecera">
   <div class="ancho cab-fila">
-    <a class="marca" href="../../" aria-label="APDER · Association for Psychedelic Divulgation, Education and Research, inicio"><img src="../../img/apder-icono.webp" alt="" width="455" height="344"><span class="marca-txt">APDER<small lang="en" style="display:none">Association for Psychedelic<br>Divulgation, Education and Research</small></span></a>
+    <a class="marca marca-original" href="../../" aria-label="APDER · Association for Psychedelic Divulgation, Education and Research, inicio"><img src="../../img/apder-icono.webp" alt="" width="455" height="344"><span class="marca-txt"><img class="marca-letras" src="../../img/apder-letras.webp" alt="APDER" width="423" height="88"></span></a>
     <nav class="menu" id="menu" aria-label="Menú principal">
       <ul class="menu-lista">
         <li class="menu-item menu-desp">
@@ -117,15 +117,13 @@
           <div class="panel" id="panel-medicinas">
             <div class="ancho panel-in">
               <div class="panel-intro">
-                <p class="panel-titulo">Guías de medicinas</p>
-                <p>Qué son, cómo actúan, qué dice la investigación y cómo reducir riesgos.</p>
+                <p class="panel-titulo">Medicinas</p>
+                <p>Dos maneras de conocer cada una: la guía, para la práctica; la ficha de la Enciclopedia, para la planta y su historia.</p>
                 <ul class="panel-atajos">
                   <li><a href="../../sustancias/">Todas las guías</a></li>
                   <li><a href="../../medicinas/">Medicinas por familias</a></li>
-                  <li><a href="../../enciclopedia/">Enciclopedia de medicinas</a></li>
-                  <li><a href="../../sustancias/microdosis/">Microdosis</a></li>
-                  <li><a href="../../terapia/">Guías de terapia</a></li>
                 </ul>
+                <a class="panel-destacado" href="../../enciclopedia/"><img src="../../img/inicio/matamoscas.webp" alt="" width="560" height="700" loading="lazy" decoding="async"><span><b>Enciclopedia de medicinas</b><small>Plantas, hongos y preparados: origen, territorio y cultura</small></span></a>
               </div>
               <div class="panel-grupos">
 <div class="panel-grupo"><p class="panel-sub" id="grupo-1">Psicodélicos clásicos</p><ul aria-labelledby="grupo-1"><li><a href="../../sustancias/psilocibina/"><img src="../../sustancias/moleculas/psilocibina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Setas de psilocibina</a></li><li><a href="../../sustancias/lsd/"><img src="../../sustancias/moleculas/lsd.svg" alt="" width="40" height="32" loading="lazy" decoding="async">LSD</a></li><li><a href="../../sustancias/mescalina/"><img src="../../sustancias/moleculas/mescalina.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Mescalina, peyote y San Pedro</a></li><li><a href="../../sustancias/dmt/"><img src="../../sustancias/moleculas/dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async">DMT</a></li><li><a href="../../sustancias/ayahuasca/"><img src="../../sustancias/moleculas/ayahuasca.svg" alt="" width="40" height="32" loading="lazy" decoding="async">Ayahuasca</a></li><li><a href="../../sustancias/5-meo-dmt/"><img src="../../sustancias/moleculas/5-meo-dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async">5-MeO-DMT</a></li></ul></div>
@@ -136,24 +134,57 @@
           </div>
         </li>
         <li class="menu-item menu-desp">
-          <button type="button" class="menu-enlace menu-abre actual" aria-expanded="false" aria-controls="panel-aprender">Aprender<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-          <div class="panel panel-aprender" id="panel-aprender">
+          <button type="button" class="menu-enlace menu-abre" aria-expanded="false" aria-controls="panel-experiencia">La experiencia<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="panel panel-aprender" id="panel-experiencia">
             <div class="ancho panel-in">
               <div class="panel-intro">
-                <p class="panel-titulo">Aprender</p>
-                <p>Las medicinas en su historia y su cultura, la experiencia por dentro, las personas que abrieron el camino y dónde formarse.</p>
+                <p class="panel-titulo">La experiencia</p>
+                <p>Lo que pasa antes, durante y después cuenta tanto como la sustancia. Aquí, lo que ayuda a prepararla, acompañarla y cuidarla.</p>
+                <ul class="panel-atajos">
+                  <li><a href="../../psiconautica/">Todo Psiconáutica</a></li>
+                </ul>
               </div>
               <div class="panel-grupos">
-<div class="panel-grupo"><p class="panel-sub" id="grupo-a1">Medicinas</p><ul aria-labelledby="grupo-a1"><li><a href="../../enciclopedia/"><span>Enciclopedia de medicinas<small>Plantas, hongos y preparados: origen, historia y cultura</small></span></a></li></ul></div>
-<div class="panel-grupo"><p class="panel-sub" id="grupo-a2">Experiencia</p><ul aria-labelledby="grupo-a2"><li><a href="../../psiconautica/"><span>Psiconáutica<small>Set y setting, acompañar, mal viaje y estados de consciencia</small></span></a></li></ul></div>
-<div class="panel-grupo"><p class="panel-sub" id="grupo-a3">Personas y formación</p><ul aria-labelledby="grupo-a3"><li><a href="../../quien-es-quien/"><span>Quién es quién<small>Las personas que abrieron el camino</small></span></a></li><li><a href="../../formaciones/"><span>Dónde formarse<small>Formaciones en el mundo</small></span></a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-e1">Preparar</p><ul aria-labelledby="grupo-e1"><li><a href="../../psiconautica/set-y-setting/"><span>Set y setting<small>La disposición y el entorno: lo que más influye</small></span></a></li><li><a href="../../medicinas/#reduccion-de-riesgos"><span>Reducción de riesgos<small>Mezclas, análisis y compañía</small></span></a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-e2">Acompañar</p><ul aria-labelledby="grupo-e2"><li><a href="../../psiconautica/acompanante/"><span>El acompañante<small>Quién acompaña y cómo hacerlo bien</small></span></a></li><li><a href="../../psiconautica/mal-viaje/"><span>Experiencias difíciles<small>Qué son y cómo atravesarlas</small></span></a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-e3">Profundizar</p><ul aria-labelledby="grupo-e3"><li><a href="../../psiconautica/unidad-e-interconexion/"><span>Unidad e interconexión<small>La vivencia de que todo está unido</small></span></a></li><li><a href="../../sustancias/microdosis/"><span>Microdosis<small>Qué es y qué dice la investigación</small></span></a></li></ul></div>
               </div>
             </div>
           </div>
         </li>
-        <li class="menu-item"><a class="menu-enlace" href="../../investigacion-terapeutica/">Investigación</a></li>
-        <li class="menu-item"><a class="menu-enlace" href="../../biblioteca/">Biblioteca</a></li>
-        <li class="menu-item"><a class="menu-enlace" href="../../#about">Quiénes somos</a></li>
+        <li class="menu-item menu-desp">
+          <button type="button" class="menu-enlace menu-abre" aria-expanded="false" aria-controls="panel-terapia">Terapia<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="panel panel-aprender" id="panel-terapia">
+            <div class="ancho panel-in">
+              <div class="panel-intro">
+                <p class="panel-titulo">Terapia e investigación</p>
+                <p>Qué se sabe del uso terapéutico de estas medicinas y qué falta todavía por saber. APDER no ofrece sesiones ni terapias.</p>
+              </div>
+              <div class="panel-grupos">
+<div class="panel-grupo"><p class="panel-sub" id="grupo-t1">Guías de terapia</p><ul aria-labelledby="grupo-t1"><li><a href="../../terapia/"><span>Las ocho guías<small>MDMA, psilocibina, LSD, ketamina, ayahuasca, ibogaína, mescalina y 5-MeO-DMT</small></span></a></li><li><a href="../../terapia/#en-comun"><span>Lo que tienen en común<small>Preparar, acompañar e integrar</small></span></a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-t2">Investigación</p><ul aria-labelledby="grupo-t2"><li><a href="../../investigacion-terapeutica/"><span>Investigación terapéutica<small>Qué se ha estudiado, por problema de salud</small></span></a></li><li><a href="../../investigacion-terapeutica/#participar"><span>Participar en un ensayo<small>Cómo hacerlo con garantías</small></span></a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-t3">Formación</p><ul aria-labelledby="grupo-t3"><li><a href="../../formaciones/"><span>Dónde formarse<small>Directorio de formaciones en el mundo</small></span></a></li></ul></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item menu-desp">
+          <button type="button" class="menu-enlace menu-abre actual" aria-expanded="false" aria-controls="panel-biblioteca">Biblioteca<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="panel panel-aprender" id="panel-biblioteca">
+            <div class="ancho panel-in">
+              <div class="panel-intro">
+                <p class="panel-titulo">Biblioteca</p>
+                <p>Más de 800 libros para leer a fondo y las personas que abrieron el camino.</p>
+              </div>
+              <div class="panel-grupos">
+<div class="panel-grupo"><p class="panel-sub" id="grupo-b1">Libros</p><ul aria-labelledby="grupo-b1"><li><a href="../../biblioteca/"><span>Todos los libros<small>Con buscador y filtros por tema, medicina e idioma</small></span></a></li><li><a href="../../biblioteca/?idioma=espa%C3%B1ol"><span>En español<small>Los que se pueden leer en castellano</small></span></a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-b2">Por tema</p><ul aria-labelledby="grupo-b2"><li><a href="../../biblioteca/?cat=Terapia%20y%20cl%C3%ADnica"><span>Terapia y clínica</span></a></li><li><a href="../../biblioteca/?cat=Antropolog%C3%ADa%2C%20etnobot%C3%A1nica%20y%20chamanismo"><span>Antropología y chamanismo</span></a></li><li><a href="../../biblioteca/?cat=Memorias%20y%20testimonios"><span>Memorias y testimonios</span></a></li></ul></div>
+<div class="panel-grupo"><p class="panel-sub" id="grupo-b3">Personas</p><ul aria-labelledby="grupo-b3"><li><a href="../../quien-es-quien/"><span>Quién es quién<small>Hofmann, María Sabina, Grof, Naranjo y otras personas</small></span></a></li></ul></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item menu-somos"><a class="menu-enlace" href="../../#about">Quiénes somos</a></li>
       </ul>
       <div class="menu-pie"><a class="cab-escribe" href="../../#contacto">Escríbenos</a><p>o directamente por <a href="https://wa.me/447916618725">WhatsApp</a></p></div>
     </nav>
@@ -280,22 +311,25 @@ var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInters
 Object.keys(m).forEach(function(id){var h=document.getElementById(id);if(h)o.observe(h)});})();
 </script>
 <script src="../../menu.js?v=20261123a" defer></script>
-<footer class="pie">
+<footer class="pie pie-nav">
 <div class="ancho">
-<div class="pie-arriba">
-<div class="pie-col">
 <span class="ancla" id="contact"></span>
-<p class="pie-correo"><a href="mailto:info@apder.org" rel="noopener" target="_blank">info@apder.org</a></p>
-<p class="pie-tel"><a href="tel:+447916618725">+44 7916 618725</a></p>
-<p>Somos una asociación sin ánimo de lucro dedicada a la divulgación.<br/>Compartimos información rigurosa sobre los psicodélicos: qué dice la investigación sobre su uso terapéutico, su historia y cómo reducir sus riesgos.</p>
-</div>
-<div class="pie-col">
-<p class="imagen"><img alt="" loading="lazy" src="../../img/apder-1-transparent.webp" width="739" height="664"></p>
-<p class="pie-etiqueta">Contacto</p>
+<div class="pie-mapa">
+<div class="pie-marca">
+<a class="pie-logo" href="../../" aria-label="APDER, inicio"><img src="../../img/apder-icono.webp" alt="" width="455" height="344" loading="lazy" decoding="async"><img class="pie-letras" src="../../img/apder-letras.webp" alt="APDER" width="423" height="88" loading="lazy" decoding="async"></a>
+<p>Somos una asociación sin ánimo de lucro dedicada a la divulgación. Compartimos información rigurosa sobre los psicodélicos: su historia, lo que dice la investigación sobre su uso terapéutico y cómo reducir sus riesgos.</p>
 <div class="contacto-directo">
-<p>Escríbenos por WhatsApp o por correo. Respondemos en cuanto podemos.</p>
-<a class="btn t" href="https://wa.me/447916618725">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a></div>
+<a class="btn t" href="https://wa.me/447916618725">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a>
 </div>
+<p class="pie-tel"><a href="tel:+447916618725">+44 7916 618725</a></p>
+</div>
+<nav class="pie-cols" aria-label="Mapa de la web">
+<div class="pie-grupo"><p class="pie-tit" id="pie-g1">Medicinas</p><ul aria-labelledby="pie-g1"><li><a href="../../sustancias/">Todas las guías</a></li><li><a href="../../medicinas/">Por familias</a></li><li><a href="../../enciclopedia/">Enciclopedia</a></li></ul></div>
+<div class="pie-grupo"><p class="pie-tit" id="pie-g2">La experiencia</p><ul aria-labelledby="pie-g2"><li><a href="../../psiconautica/">Psiconáutica</a></li><li><a href="../../psiconautica/set-y-setting/">Set y setting</a></li><li><a href="../../psiconautica/mal-viaje/">Experiencias difíciles</a></li><li><a href="../../sustancias/microdosis/">Microdosis</a></li></ul></div>
+<div class="pie-grupo"><p class="pie-tit" id="pie-g3">Terapia</p><ul aria-labelledby="pie-g3"><li><a href="../../terapia/">Guías de terapia</a></li><li><a href="../../investigacion-terapeutica/">Investigación</a></li><li><a href="../../formaciones/">Dónde formarse</a></li></ul></div>
+<div class="pie-grupo"><p class="pie-tit" id="pie-g4">Biblioteca</p><ul aria-labelledby="pie-g4"><li><a href="../../biblioteca/">Libros</a></li><li><a href="../../quien-es-quien/">Quién es quién</a></li></ul></div>
+<div class="pie-grupo"><p class="pie-tit" id="pie-g5">APDER</p><ul aria-labelledby="pie-g5"><li><a href="../../#about">Quiénes somos</a></li><li><a href="../../#contacto">Escríbenos</a></li><li><a href="../../buscar/">Buscar</a></li></ul></div>
+</nav>
 </div>
 <div class="pie-abajo">
 <p><span lang="en">Association for Psychedelic Divulgation, Education and Research</span><br/>© 2026 APDER. Todos los derechos reservados.</p>
