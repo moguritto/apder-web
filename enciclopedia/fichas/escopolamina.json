@@ -1,0 +1,231 @@
+{
+ "slug": "escopolamina",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Escopolamina",
+ "cientifico": "(–)-hioscina",
+ "autoridad": "",
+ "descripcion": "Escopolamina: alcaloide tropánico de solanáceas que bloquea los receptores muscarínicos; fármaco contra el mareo y causa del delirio de la Datura.",
+ "entrada": "La escopolamina, o hioscina, es un alcaloide tropánico de plantas solanáceas como el beleño, el estramonio o la mandrágora. Es antagonista de los receptores muscarínicos y se usa como fármaco contra el mareo y las náuseas. A dosis altas provoca delirio, no un efecto psicodélico clásico.[1][2][4]",
+ "otros": "hioscina · escopolamina · «aliento del diablo» (apodo mediático)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Alcaloide tropánico anticolinérgico"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Solanáceas de todo el mundo"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Beleño, estramonio, belladona, Duboisia"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Antagonista muscarínico"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varias horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Medicina y plantas rituales históricas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un alcaloide tropánico",
+  "parrafos": [
+   "Se aísla de solanáceas, de forma similar a la atropina y la hiosciamina, que imitan estructuralmente a la acetilcolina.[5]",
+   "Los alcaloides tropánicos se dividen en tres grupos: hioscina y escopolamina, cocaína y calisteginas; la escopolamina es la de mayor mercado legítimo.[4]",
+   "Se encuentra en plantas como beleño, estramonio, belladona, mandrágora y Duboisia.[6]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Alcaloide tropánico"
+   ],
+   [
+    "Fuentes",
+    "Solanáceas"
+   ],
+   [
+    "Uso médico",
+    "Mareo y náuseas"
+   ],
+   [
+    "Receptores",
+    "Muscarínicos"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De las plantas de bruja a la farmacia",
+  "parrafos": [
+   "El nombre «escopolamina» deriva de <em>Scopolia</em> y «hioscina» de <em>Hyoscyamus niger</em>, el beleño negro.[2][3]",
+   "Se escribió sobre ella en 1881 y se usa en medicina desde 1947; figura en la Lista de Medicamentos Esenciales de la OMS.[7]",
+   "Sus efectos que alteran la mente se han empleado con fines recreativos y ocultistas.[1]",
+   "Los géneros como <em>Datura</em> han sido de los más famosos e infames de la historia por sus alcaloides.[8]"
+  ],
+  "cronologia": [
+   [
+    "1881",
+    "Primeros escritos sobre la hioscina"
+   ],
+   [
+    "1947",
+    "Entra en el uso médico"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "El nombre «escopolamina» deriva de <em>Scopolia</em> y «hioscina» de <em>Hyoscyamus niger</em>, el beleño negro.[2][3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-escopolamina.svg",
+   "alt": "Mapa mundial simplificado.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Solanáceas, distribución global"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Bloqueo de la acetilcolina",
+  "parrafos": [
+   "Su efecto procede del antagonismo competitivo de los receptores muscarínicos periféricos y centrales (M1 a M4).[1]",
+   "A dosis superiores a las médicas, la alteración alucinógena de la conciencia y el delirio se vinculan al receptor M1.[1]",
+   "Es un compuesto anticolinérgico no selectivo.[7]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "A dosis altas produce delirio, un estado confusional que no equivale a la experiencia psicodélica clásica.[1]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "varias horas, según dosis y vía"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Se usa en medicina contra el mareo, las náuseas y el espasmo, y se ha estudiado como antidepresivo.[5][7]",
+   "No hay uso psicodélico terapéutico establecido."
+  ],
+  "alcance": "Uso médico consolidado; efectos psíquicos descritos sobre todo en intoxicaciones."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Delirio",
+    "A dosis altas produce delirio, no una experiencia controlable.[1]"
+   ],
+   [
+    "Contraindicaciones",
+    "No se recomienda en glaucoma ni obstrucción intestinal.[7]"
+   ],
+   [
+    "Plantas",
+    "Las plantas que la contienen son tóxicas y han causado muertes."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Beleño negro",
+   "Hyoscyamus niger",
+   "Una de sus fuentes.",
+   "enciclopedia/beleno-negro/"
+  ],
+  [
+   "planta",
+   "Estramonio",
+   "Datura stramonium",
+   "Otra fuente.",
+   "enciclopedia/estramonio/"
+  ],
+  [
+   "planta",
+   "Mandrágora",
+   "Mandragora officinarum",
+   "Otra fuente.",
+   "enciclopedia/mandragora/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Hyoscine</em>. wikipedia.org/wiki/Hyoscine.",
+  "Encyclopedia.pub. <em>Hyoscine: History</em>. encyclopedia.pub/entry/history/show/82561.",
+  "Wikiwand. <em>Hyoscine</em>. wikiwand.com/en/Hyoscine.",
+  "Kohnen-Johannsen, K. L. y Kayser, O. <em>Tropane Alkaloids</em>. <em>Molecules</em>, 2019. mdpi.com/1420-3049/24/4/796.",
+  "PubChem. <em>Hyoscine</em>. pubchem.ncbi.nlm.nih.gov/compound/3000322.",
+  "Tropane alkaloids, poisonous plants and anticholinergic action. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC9478010.",
+  "Wikipedia (borrador). Hyoscine. en.wikipedia.com/wiki/User:Ejohnston5/sandbox.",
+  "Alcaloides de <em>Datura</em>. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC8124590."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Epená",
+  "epena"
+ ],
+ "siguiente": [
+  "Escopolia",
+  "escopolia"
+ ]
+}
