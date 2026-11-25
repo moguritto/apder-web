@@ -833,6 +833,12 @@
    "detalle": "Cannabinoide",
    "tipo": "molecula",
    "slug": "thc"
+  },
+  {
+   "nombre": "Adormidera",
+   "detalle": "Papaver somniferum",
+   "tipo": "planta",
+   "slug": "adormidera"
   }
  ],
  "libros": [

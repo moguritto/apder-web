@@ -1,0 +1,271 @@
+{
+ "slug": "adormidera",
+ "tipo": "planta",
+ "migas": "Planta · Papaveráceas · Mediterráneo y Asia Menor",
+ "nombre": "Adormidera",
+ "cientifico": "Papaver somniferum",
+ "autoridad": "L.",
+ "descripcion": "Adormidera: Papaver somniferum, planta del opio, domesticada en el Neolítico europeo y ligada al sueño y a lo sagrado; fuente de la morfina y la codeína.",
+ "entrada": "La adormidera es la planta del opio, el látex seco de sus cápsulas. Acompaña a los pueblos de Europa desde el Neolítico y fue símbolo sagrado en el Egeo de la Edad del Bronce. De ella proceden la morfina y la codeína, todavía hoy medicamentos contra el dolor.[1][2][9]",
+ "otros": "amapola del opio · opio (el látex) · Papaver somniferum · «la que trae el sueño»",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Hierba anual de la familia de las amapolas"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Mediterráneo y Asia Menor; hoy cultivada en muchos países"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Látex de la cápsula verde; las semillas, como alimento"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "Morfina, codeína, tebaína, papaverina y noscapina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica: ficha botánica e histórica"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos neolíticos de Europa, Egeo, Mesopotamia y Asia"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La planta",
+  "titulo": "La amapola que trae el sueño",
+  "parrafos": [
+   "Es una hierba anual de hojas verde azuladas, casi siempre lampiñas, y savia blanca. Esa savia lechosa, rica en morfina y otros opiáceos, recorre la planta por un sistema de vasos laticíferos; las semillas apenas tienen morfina y se usan como condimento y para aceite.[4]",
+   "El opio es el látex secado al aire que sale de la cápsula de la semilla.[3]",
+   "Su nombre científico significa «la que trae el sueño».[1]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Papaveráceas"
+   ],
+   [
+    "Ciclo",
+    "Anual"
+   ],
+   [
+    "Savia",
+    "Látex blanco"
+   ],
+   [
+    "Semillas",
+    "Alimento y aceite"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": null
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "Siete mil años junto a los humanos",
+  "parrafos": [
+   "Es quizá la única planta cuya domesticación empezó en la Europa neolítica: se cree que se cultivó primero en la cuenca mediterránea desde mediados del sexto milenio a. C., donde vivía su probable antepasado silvestre, <em>Papaver somniferum</em> subsp. <em>setigerum</em>.[2]",
+   "Fuera del Mediterráneo, los hallazgos más frecuentes son de yacimientos de la cultura de la cerámica de bandas (5300–4900 a. C.), con una dispersión de sur a norte.[2]",
+   "Se han descrito al menos diecisiete hallazgos en asentamientos neolíticos de Suiza, Alemania y España, entre ellos muchas cápsulas en un enterramiento de la Cueva de los Murciélagos.[3]",
+   "En el Egeo de la Edad del Bronce aparece en contextos religiosos minoicos y micénicos; en el museo de Heraclión se conserva una figura de diosa de Gazi, en Creta, con los brazos alzados, que la investigación relaciona con la adormidera.[1]",
+   "A menudo se lee que tablillas sumerias del cuarto milenio a. C. ya hablan de su cultivo.[2] Un estudio de 2022 revisa qué hay de hecho y qué de «factoide» en esa historia temprana, así que conviene tomar esas fechas con cautela.[6]",
+   "En toda Eurasia, antes de la anestesia, el opio fue uno de los pocos remedios eficaces contra el dolor.[4] Hoy la planta se mira también desde la etnografía de sus usos como alimento, medicina y estupefaciente.[5]"
+  ],
+  "cronologia": [
+   [
+    "h. 5500 a. C.",
+    "Primeros cultivos probables en el Mediterráneo occidental"
+   ],
+   [
+    "5300–4900 a. C.",
+    "Presente en la cultura de la cerámica de bandas"
+   ],
+   [
+    "h. 1400–1100 a. C.",
+    "Contextos sagrados minoicos y micénicos"
+   ],
+   [
+    "1803",
+    "Derosne aísla la «sal de opio»"
+   ],
+   [
+    "1817",
+    "Sertürner describe la morfina"
+   ]
+  ],
+  "nombres": [
+   [
+    "adormidera",
+    "castellano"
+   ],
+   [
+    "opio",
+    "del griego <em>opós</em>, jugo"
+   ],
+   [
+    "Schlafmohn",
+    "alemán, «amapola del sueño»"
+   ],
+   [
+    "papaver somniferum",
+    "latín"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Del Mediterráneo al mundo",
+  "parrafos": [
+   "Se la describe como originaria de Asia Menor,[4] aunque la arqueobotánica apunta a la cuenca mediterránea como cuna de su cultivo.[2]",
+   "Sus restos aparecen en yacimientos del Neolítico, la Edad del Bronce y la Edad del Hierro de toda Europa.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Conocerla por su historia y su botánica.",
+   "Recordar que es la fuente de medicamentos esenciales.",
+   "Diferenciar su papel medicinal del uso sin control.",
+   "Respetar los marcos legales y sanitarios de cada país."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-adormidera.svg",
+   "alt": "Mapa del Mediterráneo y Asia Menor sombreados.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada de su origen y primer cultivo"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "Cinco alcaloides principales",
+  "parrafos": [
+   "La planta tiene cinco alcaloides principales: morfina, noscapina, codeína, tebaína y papaverina. Unos actúan sobre los receptores opioides y otros tienen efectos no opioides.[7]",
+   "En 1803 Derosne aisló una «sal de opio», y en 1817 Sertürner la describió con detalle y la llamó morfina, por Morfeo, dios griego de los sueños.[7]",
+   "Los alcaloides del opio producen efectos analgésicos y narcóticos a través de los receptores opioides, y de ellos derivan medicamentos como la morfina y la codeína.[9]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Sueño y alivio del dolor",
+  "parrafos": [
+   "Las fuentes antiguas la asocian al sueño y al alivio del dolor; su nombre lo dice.[1][4]",
+   "No es un psicodélico: su efecto es analgésico y narcótico, mediado por receptores opioides.[9]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 5,
+  "parrafos": [
+   "Sus alcaloides son medicamentos aprobados: la morfina contra el dolor moderado o intenso y la codeína como analgésico y antitusivo.[9]",
+   "La revisión farmacológica describe también su mecanismo, la dependencia y la abstinencia.[7]"
+  ],
+  "alcance": "Medicamentos aprobados derivados de la planta; la planta en sí no forma parte de la terapia psicodélica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Dependencia",
+    "Los alcaloides del opio crean dependencia y tolerancia, y su uso continuado se sostiene para evitar la abstinencia.[7]"
+   ],
+   [
+    "Respiración",
+    "La toxicidad aguda por sobredosis de opioides deprime la respiración.[8]"
+   ],
+   [
+    "Mezclas",
+    "La morfina suma su efecto al de otros depresores respiratorios, como otros opiáceos o los barbitúricos.[10]"
+   ],
+   [
+    "Contexto",
+    "Ficha histórica y botánica: no es una guía de uso."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Lechuga silvestre",
+   "Lactuca virosa",
+   "Su látex se llamó «opio de lechuga».",
+   "enciclopedia/lechuga-silvestre/"
+  ],
+  [
+   "planta",
+   "Kratom",
+   "Mitragyna speciosa",
+   "Otra planta con alcaloides que actúan en receptores opioides.",
+   "enciclopedia/kratom/"
+  ],
+  [
+   "molecula",
+   "Mitraginina",
+   "Alcaloide del kratom",
+   "Agonista opioide parcial.",
+   "enciclopedia/mitraginina/"
+  ]
+ ],
+ "fuentes": [
+  "Hunt, P. <em>A Selective History of the Sacred Poppy</em>. <em>Electrum Magazine</em>. electrummagazine.com/?p=2980.",
+  "Salavert, A. et al. <em>The opium poppy in Europe: exploring its origin and dispersal during the Neolithic</em>. <em>Antiquity</em>, 2018. cambridge.org/core/journals/antiquity/article/opium-poppy-in-europe-exploring-its-origin-and-dispersal-during-the-neolithic/2EF55CA05436425F48982EF9C405B849.",
+  "Wikipedia. <em>Opium</em>. en.wikipedia.org/wiki/Opium.",
+  "Oxford Botanic Garden and Herbaria. <em>Plants 400: Papaver somniferum</em>. herbaria.plants.ox.ac.uk/bol/plants400/Profiles/OP/Papaver.",
+  "Makovnyka, G. <em>Opium Poppy Agriculture and Consumption</em>. <em>The Arbutus Review</em> 11(2), 2020. journals.uvic.ca/index.php/arbutus/article/view/19609/8794.",
+  "<em>Facts and Factoids in the Early History of the Opium Poppy</em>. <em>The Social History of Alcohol and Drugs</em> 36(1), 2022. journals.uchicago.edu/doi/full/10.1086/718481.",
+  "Capítulo de revisión sobre los alcaloides del opio. IntechOpen. intechopen.com/online-first/71219.",
+  "Revisión sobre la toxicidad de morfina, codeína, noscapina y papaverina. <em>Current Issues in Pharmacy and Medical Sciences</em>. czasopisma.umlub.pl/curipms/article/download/2745/3086/8354.",
+  "DrugBank. <em>Opiate Alkaloids</em>. drugbank.ca/categories/DBCAT000692.",
+  "Kapoor, L. D. <em>Chemical and Pharmacological Aspects of Opium Alkaloids</em>, cap. 8. Taylor &amp; Francis. taylorfrancis.com/books/e/9781003075356/chapters/10.1201/9781003075356-8."
+ ],
+ "tipo_txt": "Planta",
+ "galeria": [],
+ "revisado": "25 de noviembre de 2026",
+ "anterior": [
+  "Ácido iboténico",
+  "acido-ibotenico"
+ ],
+ "siguiente": [
+  "Ajenjo",
+  "ajenjo"
+ ]
+}
