@@ -54,3 +54,7 @@ Marcas en los textos: `[3]` cita la fuente 3; `<em>…</em>` es cursiva. Título
 3. El resto de `lista.json`, por orden alfabético. Las moléculas, al final.
 
 Al añadir una ficha: poner su `slug` en `lista.json` (en `az` y, si tiene tarjeta, en `tarjetas`), actualizar `anterior` y `siguiente` de las vecinas, añadir su dirección a `docs/sitemap.xml` y regenerar.
+
+## Otras plantas psicoactivas
+
+Las plantas de efecto leve, cotidiano o poco estudiado no llevan ficha: van en `otras.json` (grupos → plantas con `id`, `nombre`, `cientifico`, `linea` con citas `[n]`, y `fuentes`). `generar.py` escribe `docs/enciclopedia/otras/`. Un pariente sin ficha puede enlazar a su ancla: `enciclopedia/otras/#<id>`.
