@@ -1,0 +1,232 @@
+{
+ "slug": "harmina-y-harmalina",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Harmina y harmalina",
+ "cientifico": "β-carbolinas (7-metoxi-1-metil-β-carbolina)",
+ "autoridad": "",
+ "descripcion": "Harmina y harmalina: β-carbolinas de la ruda siria y de la liana de la ayahuasca; inhibidores reversibles de la MAO-A que hacen activa la DMT por vía oral.",
+ "entrada": "La harmina y la harmalina son alcaloides β-carbolínicos presentes en la ruda siria y en la liana <em>Banisteriopsis caapi</em>, base de la ayahuasca. Inhiben de forma reversible la monoaminooxidasa A, lo que permite que la DMT sea activa por vía oral en la ayahuasca.[1][2][3]",
+ "otros": "harmina: telepatina · banisterina · yageína · harmalina · alcaloides harmala",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "β-carbolinas inhibidoras de la MAO-A"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Asia central, Oriente Medio y Amazonía"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Ruda siria y Banisteriopsis caapi"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Inhibidor reversible de MAO-A (RIMA)"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varias horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos amazónicos y tradiciones de Oriente Medio"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Alcaloides harmala",
+  "parrafos": [
+   "Se encuentran en las semillas de <em>Peganum harmala</em> (ruda siria) y en <em>Banisteriopsis caapi</em>, además de hojas de tabaco y granos de café.[1]",
+   "Incluyen harmina, harmalina, harmalol y tetrahidroharmina, con estructuras parecidas.[1]",
+   "En la liana de la ayahuasca las concentraciones varían entre 0,31 y 8,43 % para la harmina, 0,03 a 0,83 % para la harmalina y 0,05 a 2,94 % para la tetrahidroharmina.[6]",
+   "En la ayahuasca, la corteza de <em>B. caapi</em> se combina habitualmente con hojas de <em>Psychotria viridis</em>, que aportan DMT.[5]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "β-carbolina"
+   ],
+   [
+    "Fuentes",
+    "Ruda siria y B. caapi"
+   ],
+   [
+    "Mecanismo",
+    "IMAO-A reversible"
+   ],
+   [
+    "Brebaje",
+    "Ayahuasca"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin preparación ni dosis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "Telepatina: una molécula con varios nombres",
+  "parrafos": [
+   "La harmina se aisló y nombró por primera vez por el químico alemán Julius Fritzsche, a partir de la ruda siria.[3]",
+   "La telepatina se creyó el constituyente activo de <em>B. caapi</em> y un compuesto nuevo, pero pronto se vio que era la harmina conocida de la ruda siria.[6]",
+   "También se llamó banisterina y yageína.[2][3]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XIX",
+    "Aislamiento de la harmina por Fritzsche"
+   ],
+   [
+    "Siglo XX",
+    "Se la identifica con la telepatina de la ayahuasca"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "La harmina se aisló y nombró por primera vez por el químico alemán Julius Fritzsche, a partir de la ruda siria.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-harmina-y-harmalina.svg",
+   "alt": "Mapa de Asia central y Oriente Medio.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área de la ruda siria"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Un inhibidor reversible",
+  "parrafos": [
+   "La harmina inhibe de forma reversible la MAO-A, pero no la MAO-B; la harmalina es también un RIMA.[2][5]",
+   "En semillas de ruda siria, extractos inhibieron potente y reversiblemente la MAO-A humana; la inhibición se atribuyó a la harmalina y a la harmina.[4]",
+   "Este efecto permite la ingestión oral de DMT y otras triptaminas.[6]",
+   "Se usa carbono-11 harmina en tomografía por emisión de positrones para estudiar la MAO-A.[5]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "En general no se usan como alucinógenos por sí solas, aunque hay informes de ello.[6]",
+   "En dosis altas son purgantes.[1]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "varias horas"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Se investigan sus efectos sobre la cognición y su potencial farmacológico.[7]",
+   "Se citan usos en el párkinson, sin fuente sólida.[1]"
+  ],
+  "alcance": "Farmacología básica; estudios preclínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Interacciones",
+    "Como IMAO, interactúan con alimentos y fármacos serotoninérgicos.[2]"
+   ],
+   [
+    "Efectos",
+    "Dosis altas pueden causar agitación, cambios del pulso, visión borrosa y parestesias.[5]"
+   ],
+   [
+    "Ruda siria",
+    "Se usa también en «análogos de ayahuasca»; no equivale al brebaje tradicional.[4]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ruda siria",
+   "Peganum harmala",
+   "Una de sus fuentes.",
+   "enciclopedia/ruda-siria/"
+  ],
+  [
+   "preparado",
+   "Ayahuasca",
+   "Brebaje amazónico",
+   "Su contexto tradicional.",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "molecula",
+   "DMT",
+   "Triptamina",
+   "Activada por vía oral gracias a ellas.",
+   "enciclopedia/dmt/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Harmala alkaloid</em>. wikipedia.org/wiki/Harmala.",
+  "Wikipedia. <em>Harmine</em>. wikipedia.org/wiki/Harmine.",
+  "Wikipedia. <em>Harmine</em> (historia). en.wikipedia.org/wiki/Harmine.",
+  "Herraiz, T. et al. <em>β-Carboline alkaloids in Peganum harmala and inhibition of human MAO</em>. <em>Food and Chemical Toxicology</em>, 2010. pubmed.ncbi.nlm.nih.gov/20036304/.",
+  "Wikiwand. <em>Harmine</em>. wikiwand.com/en/articles/Harmine.",
+  "Wikidoc. <em>Harmala alkaloid</em>. wikidoc.org/index.php/Harmala_alkaloid.",
+  "ESTHER. <em>Harmine</em>. bioweb.supagro.inrae.fr/ESTHER/inhibitor/Harmine."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Haoma",
+  "haoma"
+ ],
+ "siguiente": [
+  "Hierba cinta",
+  "hierba-cinta"
+ ]
+}
