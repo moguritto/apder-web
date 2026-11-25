@@ -1,0 +1,235 @@
+{
+ "slug": "dmt",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "DMT",
+ "cientifico": "N,N-dimetiltriptamina",
+ "autoridad": "",
+ "descripcion": "DMT: triptamina presente en muchas plantas y animales, también en el cuerpo humano; núcleo de la ayahuasca y de la jurema, con efectos muy breves si se fuma.",
+ "entrada": "La DMT es una triptamina que existe en muchas plantas y animales, y también en el cuerpo humano, aunque su función biológica no está clara. Es el componente central de la ayahuasca y del vino de jurema. Se sintetizó en 1931 y sus efectos psicodélicos se describieron en los años cincuenta.[1][2][3]",
+ "otros": "N,N-DMT · dimetiltriptamina · «la molécula del espíritu»",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Triptamina psicodélica endógena"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Amazonía, nordeste de Brasil y otras regiones"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Plantas, animales, cuerpo humano o síntesis"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista 5-HT2A y receptor sigma-1"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Muy breve por vía inhalada; larga con IMAO oral"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos amazónicos y religiones ayahuasqueras"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Una triptamina del cuerpo y de la selva",
+  "parrafos": [
+   "Se produce en muchas especies de plantas, a menudo junto a 5-MeO-DMT y bufotenina, y las plantas con DMT se usan en prácticas chamánicas amazónicas.[3]",
+   "Es una de las pocas sustancias alucinógenas presentes de forma natural en el cuerpo humano, aunque su finalidad biológica no está clara.[4]",
+   "Es un componente central de la ayahuasca, usada por pueblos indígenas de la Amazonía con fines religiosos, adivinatorios o médicos desde hace más de mil años.[4]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Triptamina"
+   ],
+   [
+    "Presencia",
+    "Plantas, animales, humanos"
+   ],
+   [
+    "Brebajes",
+    "Ayahuasca, jurema"
+   ],
+   [
+    "Primera síntesis",
+    "1931"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin extracción ni dosis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De Manske a Szára",
+  "parrafos": [
+   "La sintetizó en 1931 el químico canadiense Richard Manske.[4][8]",
+   "En 1956 Stephen Szára, químico y psicólogo húngaro, informó de que producía experiencias psicodélicas similares a las del LSD.[4][5]",
+   "Szára se interesó por la DMT cuando Sandoz rechazó su pedido de LSD.[3]",
+   "Se la considera un alucinógeno endógeno; su estudio ha vuelto a despertar interés como posible diana neurofarmacológica.[1]"
+  ],
+  "cronologia": [
+   [
+    "1931",
+    "Síntesis por Manske"
+   ],
+   [
+    "1956",
+    "Szára describe sus efectos"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "La sintetizó en 1931 el químico canadiense Richard Manske.[4][8]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-dmt.svg",
+   "alt": "Mapa de la Amazonía.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Zona de uso tradicional de plantas con DMT"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Serotonina, sigma-1 y plasticidad",
+  "parrafos": [
+   "Es un agonista de receptores serotoninérgicos 5-HT2A y actúa también sobre el receptor sigma-1.[6]",
+   "Se metaboliza por monoaminooxidasa: tomar un inhibidor de la MAO prolonga el efecto de la vaporizada o inyectada.[3]",
+   "El IMAO de la ayahuasca permite la actividad oral, según las revisiones sobre «pharmahuasca».[7]",
+   "Un trabajo en neuronas humanas halló efectos protectores frente a la hipoxia mediados por sigma-1.[9]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Su experiencia aguda es corta, aunque se sugiere que puede tener impactos significativos.[4]",
+   "Aumenta la frecuencia cardiaca y la presión arterial.[4]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "variable según la vía y el contexto[4]"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Hay poca investigación del potencial terapéutico; algunos estudios en ratas muestran menos ansiedad y depresión.[4]",
+   "El consenso científico es que es una molécula natural del cuerpo, pero el efecto de la DMT endógena sigue sin comprenderse bien.[10]"
+  ],
+  "alcance": "Farmacología básica, revisión de su papel endógeno y estudios clínicos tempranos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Cuerpo",
+    "Aumenta la frecuencia cardiaca y la presión arterial.[4]"
+   ],
+   [
+    "IMAO",
+    "La combinación con IMAO prolonga y cambia el efecto.[3]"
+   ],
+   [
+    "Contexto",
+    "En ayahuasca y jurema es un sacramento ritual."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "preparado",
+   "Ayahuasca",
+   "Banisteriopsis caapi y Psychotria viridis",
+   "Brebaje que la contiene.",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "preparado",
+   "Vino de jurema",
+   "Mimosa tenuiflora",
+   "Bebida con DMT del nordeste de Brasil.",
+   "enciclopedia/vino-de-jurema/"
+  ],
+  [
+   "molecula",
+   "5-MeO-DMT",
+   "Triptamina del sapo",
+   "Pariente metoxilado.",
+   "enciclopedia/5-meo-dmt/"
+  ]
+ ],
+ "fuentes": [
+  "Barker, S. A. Historia de la investigación sobre DMT endógena. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC6088236.",
+  "Barker, S. A. <em>DMT, an Endogenous Hallucinogen</em>. <em>Frontiers in Neuroscience</em>, 2018. frontiersin.org/articles/10.3389/fnins.2018.00536/full.",
+  "Wikipedia. <em>N,N-Dimethyltryptamine</em>. wikipedia.org/wiki/DMT.",
+  "Berkeley Center for the Science of Psychedelics. DMT. psychedelics.berkeley.edu/?p=172.",
+  "Wikipedia. <em>DMT</em>, historia de Szára. wikipedia.com/wiki/DMT.",
+  "Chaves, C. et al. <em>Why N,N-dimethyltryptamine matters</em>. <em>Frontiers in Psychiatry</em>, 2024. frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1485337/pdf.",
+  "Barker, S. A. <em>Administration of DMT in psychedelic therapeutics and research</em>. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC8782705.",
+  "Wikipedia. <em>Richard Manske</em>. en.wikipedia.org/wiki/Richard_Manske.",
+  "Berkeley Center for the Science of Psychedelics. DMT y neuroprotección. psychedelics.berkeley.edu/substance/dmt.",
+  "Wikipedia. <em>DMT</em> (consenso sobre DMT endógena). wikipedia.com/wiki/DMT."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Derrumbe",
+  "derrumbe"
+ ],
+ "siguiente": [
+  "Efedra",
+  "efedra"
+ ]
+}
