@@ -1,0 +1,232 @@
+{
+ "slug": "5-meo-dmt",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "5-MeO-DMT",
+ "cientifico": "5-metoxi-N,N-dimetiltriptamina",
+ "autoridad": "",
+ "descripcion": "5-MeO-DMT: triptamina de acción muy breve presente en el sapo del desierto de Sonora, plantas y hongos; en estudio por sus experiencias de tipo místico.",
+ "entrada": "5-MeO-DMT es una triptamina psicoactiva natural de acción corta, presente en la secreción del sapo del desierto de Sonora, en varias plantas y en algunos hongos. Se investiga por experiencias de tipo místico intensas, aunque los ensayos clínicos son aún escasos.[1][2][3]",
+ "otros": "5-metoxi-DMT · «Bufo» · «la molécula de Dios» · «el sapo»",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Triptamina psicodélica natural y sintética"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Desierto de Sonora y plantas sudamericanas"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Secreción del sapo, plantas, hongos o síntesis"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista serotoninérgico"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Muy breve: unos veinte a treinta minutos"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Investigación contemporánea y tradiciones de plantas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Una triptamina en varios reinos",
+  "parrafos": [
+   "Se encuentra en la secreción de la glándula del sapo del desierto de Sonora (<em>Incilius alvarius</em>, antes <em>Bufo alvarius</em>), en numerosas plantas y puede producirse sintéticamente.[3][4]",
+   "También aparece en los hongos <em>Amanita citrina</em> y <em>Amanita porphyria</em>.[5]",
+   "Las plantas con 5-MeO-DMT se han usado ritualmente a lo largo de la historia.[1]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Triptamina"
+   ],
+   [
+    "Fuentes",
+    "Sapo, plantas, hongos"
+   ],
+   [
+    "Acción",
+    "Muy breve"
+   ],
+   [
+    "Primera síntesis",
+    "1936"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De la bufotoxina a los laboratorios",
+  "parrafos": [
+   "Se sintetizó por primera vez en 1936 y después se halló en plantas, hongos y animales.[6]",
+   "La investigación con psilocibina ha renacido en las dos últimas décadas, y 5-MeO-DMT se perfila como candidata con interés clínico.[5]",
+   "Un estudio con personas que habían tomado bufotoxina vaporizada por su cuenta halló experiencias místicas completas en el 75 %.[2]"
+  ],
+  "cronologia": [
+   [
+    "1936",
+    "Primera síntesis"
+   ],
+   [
+    "2018",
+    "Estudio sobre intensidad de experiencias místicas"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Se sintetizó por primera vez en 1936 y después se halló en plantas, hongos y animales.[6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-5-meo-dmt.svg",
+   "alt": "Mapa del desierto de Sonora.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Origen de una de sus fuentes naturales"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Serotonina y experiencia pico",
+  "parrafos": [
+   "La revisión de Ermakova y colegas apunta que, pese a estudios en modelos animales, faltan estudios clínicos en humanos y que conviene la misma cautela que con otros psicodélicos clásicos.[5]",
+   "Un solo ensayo clínico publicado demuestra seguridad con dosificación vaporizada hasta 18 mg, según una revisión farmacológica.[7]",
+   "La escalada individual de dosis induce de forma fiable una experiencia «pico», que se considera predictor central de eficacia terapéutica.[7]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "En un estudio con 20 participantes, la inhalación de 5-MeO-DMT vaporizada produjo experiencias místicas intensas, y el 75 % tuvo una «experiencia mística completa».[1][2]",
+   "La intensidad fue similar a la de una dosis alta de psilocibina en laboratorio.[2]",
+   "El inicio es de segundos y dura unos veinte a treinta minutos.[8]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "20 a 30 minutos, según la fuente[8]"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 3,
+  "parrafos": [
+   "Un caso clínico publicado con bufotoxina vaporizada mostró mejoría de TEPT sin efectos adversos graves, con limitaciones metodológicas reconocidas.[6]",
+   "Una revisión indica que su corta duración puede facilitar la búsqueda individual de dosis.[7]"
+  ],
+  "alcance": "Estudios observacionales, un ensayo de seguridad y un caso clínico; aún sin ensayos clínicos terapéuticos consolidados."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Evidencia",
+    "La evidencia terapéutica es preliminar.[7]"
+   ],
+   [
+    "Combinaciones",
+    "A veces se combina con IMAO, lo que puede alargar e intensificar la experiencia.[8]"
+   ],
+   [
+    "Origen",
+    "La bufotoxina implica sapos silvestres; hay controversia por la conservación del animal."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "animal",
+   "Sapo de Sonora",
+   "Incilius alvarius",
+   "Una de sus fuentes naturales.",
+   "enciclopedia/sapo-de-sonora/"
+  ],
+  [
+   "molecula",
+   "DMT",
+   "N,N-dimetiltriptamina",
+   "Su pariente próximo.",
+   null
+  ],
+  [
+   "molecula",
+   "Bufotenina",
+   "5-HO-DMT",
+   "Metabolito y pariente.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Berkeley Center for the Science of Psychedelics. Síntesis narrativa sobre 5-MeO-DMT. psychedelics.berkeley.edu/open-access/yes/page/36/.",
+  "Uthaug, M. et al. <em>Intensity of Mystical Experiences Occasioned by 5-MeO-DMT</em>. <em>Frontiers in Psychology</em>, 2018. frontiersin.org/articles/10.3389/fpsyg.2018.02459/full.",
+  "PubMed Central. Intensity of mystical experiences occasioned by 5-MeO-DMT. pmc.ncbi.nlm.nih.gov/articles/PMC6292276.",
+  "Frontiers. 5-MeO-DMT, bufotoxina del sapo del Colorado. frontiersin.org/articles/430539.",
+  "Ermakova, A. O. et al. <em>A narrative synthesis of research with 5-MeO-DMT</em>. <em>Journal of Psychopharmacology</em>, 2021. pmc.ncbi.nlm.nih.gov/articles/PMC8902691.",
+  "Caso clínico de bufotoxina vaporizada y TEPT. pmc.ncbi.nlm.nih.gov/articles/PMC10710141/.",
+  "Revisión de farmacología clínica de 5-MeO-DMT. pmc.ncbi.nlm.nih.gov/articles/PMC9314805/.",
+  "Berkeley Center for the Science of Psychedelics. 5-MeO-DMT. psychedelics.berkeley.edu/substance/5-meo-dmt."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "2C-B",
+  "2c-b"
+ ],
+ "siguiente": [
+  "Acacias",
+  "acacias"
+ ]
+}
