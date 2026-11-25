@@ -1,0 +1,243 @@
+{
+ "slug": "psilocibina",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Psilocibina",
+ "cientifico": "fosfato de 4-hidroxi-N,N-dimetiltriptamina",
+ "autoridad": "",
+ "descripcion": "Psilocibina: triptamina de los hongos Psilocybe aislada por Hofmann en 1958; profármaco de la psilocina, agonista 5-HT2A, en ensayos clínicos avanzados.",
+ "entrada": "La psilocibina es una triptamina presente en hongos del género <em>Psilocybe</em> y en otros. Hofmann la aisló en 1958. En el cuerpo se convierte en psilocina, que activa receptores serotoninérgicos 5-HT2A. Tras décadas de pausa, se estudia en depresión, ansiedad y adicciones, con ensayos de fase 3.[1][3][4][4]",
+ "otros": "psilocibina · psilocina (metabolito activo) · Indocybin (nombre comercial histórico de Sandoz)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Triptamina psicodélica fúngica"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Hongos Psilocybe de todo el mundo"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Hongos o síntesis"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Profármaco de la psilocina; agonista 5-HT2A"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varias horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos mazatecos, mixtecos y otros; investigación clínica"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un profármaco de la psilocina",
+  "parrafos": [
+   "Al ingerirse, la psilocibina se metaboliza en psilocina, la forma activa del compuesto; la psilocibina intacta es poco activa.[4][5]",
+   "Fosfatasas alcalinas y esterasas la desfosforilan en intestino e hígado.[5]",
+   "Los hongos con psilocibina se han usado en rituales religiosos durante siglos, quizá milenios.[1]",
+   "Los IMAO que produce el propio hongo podrían intensificar los efectos de la psilocina.[5]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Triptamina"
+   ],
+   [
+    "Fuentes",
+    "Hongos Psilocybe"
+   ],
+   [
+    "Aislamiento",
+    "1958"
+   ],
+   [
+    "Metabolito activo",
+    "Psilocina"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni cultivo."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "Wasson, María Sabina y Hofmann",
+  "parrafos": [
+   "Hacia 1952 Robert Gordon Wasson se interesó por los trabajos de Schultes y viajó a México con su esposa Valentina Pavlovna.[2]",
+   "En 1955 Wasson participó en una velada con la sabia mazateca María Sabina, en Huautla de Jiménez, Oaxaca.[2][3]",
+   "Sin su consentimiento, Wasson reveló la identidad y ubicación de Sabina, y la popularidad de su obra trajo una oleada de occidentales a Oaxaca que trastornó la comunidad.[2]",
+   "Roger Heim cultivó los hongos en Francia y envió una muestra de <em>Psilocybe mexicana</em> a Hofmann, que caracterizó la psilocibina por cromatografía y diseñó una síntesis comercializada por Sandoz como Indocybin.[2][3]",
+   "Hofmann la aisló en 1958.[3][5][7]"
+  ],
+  "cronologia": [
+   [
+    "1955",
+    "Wasson participa en una velada"
+   ],
+   [
+    "1958",
+    "Hofmann aísla psilocibina"
+   ],
+   [
+    "1998",
+    "Vollenweider muestra el papel del 5-HT2A"
+   ],
+   [
+    "2006",
+    "Johns Hopkins publica el estudio de experiencia mística"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Hacia 1952 Robert Gordon Wasson se interesó por los trabajos de Schultes y viajó a México con su esposa Valentina Pavlovna.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-psilocibina.svg",
+   "alt": "Mapa del sur de México.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Región de Huautla, Oaxaca"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Serotonina 5-HT2A",
+  "parrafos": [
+   "La psilocina es agonista parcial del receptor 5-HT2A; la psilocibina en sí, no.[3]",
+   "Se une con afinidad moderada a otros receptores serotoninérgicos, y menos a D3 y α2-adrenérgicos.[3]",
+   "El efecto psicotomimético se frena con antagonistas 5-HT2A como la ketanserina.[1]",
+   "La ocupación cerebral de 5-HT2A por psilocina se correlaciona con la intensidad de la experiencia.[3]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Los estudios de Johns Hopkins hallaron que produce experiencias que los voluntarios valoran, tras catorce meses, entre las más significativas de su vida.[6]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "varias horas"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "Un ensayo de fase 2 doble ciego, el mayor hasta la fecha, halló menos síntomas depresivos a las tres semanas con una dosis de 25 mg de psilocibina sintética más psicoterapia.[4]",
+   "COMPASS Pathways reportó mejoras significativas en dos ensayos de fase 3 en depresión resistente.[7]",
+   "Dos ensayos cruzados en depresión y ansiedad por cáncer (NYU y Johns Hopkins) hallaron reducciones grandes y duraderas.[7]",
+   "Una revisión no halló eventos adversos graves en los estudios actuales, aunque quedan preguntas de seguridad.[1]"
+  ],
+  "alcance": "Ensayos de fase 2 y 3 en depresión, ansiedad al final de la vida y adicciones."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Contexto",
+    "El efecto depende de preparación, acompañamiento e integración."
+   ],
+   [
+    "Seguridad",
+    "Persisten preguntas de seguridad y utilidad.[1]"
+   ],
+   [
+    "Náuseas",
+    "Es frecuente la náusea con los hongos.[5]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "San Isidro",
+   "Psilocybe cubensis",
+   "Hongo con psilocibina.",
+   "enciclopedia/san-isidro/"
+  ],
+  [
+   "hongo",
+   "Psilocybe azulado",
+   "Psilocybe spp.",
+   "Género con psilocibina.",
+   "enciclopedia/psilocibe-azulado/"
+  ],
+  [
+   "molecula",
+   "LSD",
+   "Psicodélico semisintético",
+   "Comparte mecanismo 5-HT2A.",
+   "enciclopedia/lsd/"
+  ]
+ ],
+ "fuentes": [
+  "Reseña sobre psilocibina y depresión, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC8538432.",
+  "Psilocybin and Hallucinogenic Mushrooms. Cambridge Core. cambridge.org/core/product/140D11EABA6F8494D7B0A68A6582DAC1.",
+  "Cayman Chemical. <em>Rediscovering Psilocybin and Its Therapeutic Potential</em>. caymanchem.com/news/rediscovering-psilocybin-and-its-therapeutic-potential.",
+  "American Society for Microbiology. <em>Psilocybin and Mental Health</em>. asm.org/articles/2023/february/psilocybin-and-mental-health-the-magic-in-the-mush.",
+  "PowerPak. Curso sobre psilocibina. powerpak.com/course/print/121140.",
+  "MoreBlossom. <em>Psilocybin: Research journey</em>. moreblossom.com/compounds/psilocybin/timeline.",
+  "MoreBlossom. <em>Psilocybin</em>. moreblossom.com/compounds/psilocybin."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Psilocibe azulado",
+  "psilocibe-azulado"
+ ],
+ "siguiente": [
+  "Raíz africana de los sueños",
+  "raiz-africana-de-los-suenos"
+ ]
+}
