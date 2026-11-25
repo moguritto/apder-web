@@ -8,7 +8,8 @@ y se puede lanzar las veces que haga falta (no cambia lo que ya está al día):
 
 - Apertura (`section.s-cabeza` → añade `s-cab-guia` y la familia, `f1`, `f2` o `f3`): cada dato de la ficha en su línea
   (`<p class="s-ficha-dato"><strong>Familia:</strong> <span>…</span></p>`) y el símbolo de la guía en la esquina
-  (SIMBOLOS, en scripts/guias/generar.py). Sin fotos: la seña de las guías es la molécula.
+  (SIMBOLOS, en scripts/guias/generar.py). La apertura no lleva fotos: la seña de las guías es la molécula.
+- Una foto dentro del texto, tras el primer párrafo de «Qué es», en las guías que la tienen (FOTOS, en generar.py).
 - «En pocas palabras» (`ul.s-claves` → añade `s-resumen`): el texto de cada punto va en un `<span>`.
 - Enlaza `docs/sustancias/guia.css`, donde están los estilos de las dos piezas.
 
@@ -20,9 +21,9 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from generar import DOCS, MEDICINAS, SIMBOLOS  # noqa: E402
+from generar import DOCS, FOTOS, MEDICINAS, SIMBOLOS  # noqa: E402
 
-VERSION = "20261125b"
+VERSION = "20261125c"
 FAMILIA = {slug: i for i, (_, lista) in enumerate(MEDICINAS, 1) for slug, _, _ in lista}
 CSS = f'<link rel="stylesheet" href="../guia.css?v={VERSION}">'
 
@@ -50,6 +51,24 @@ def ficha(aside, slug):
     return aside
 
 
+def foto_en_texto(s, slug):
+    """una foto dentro del texto, tras el primer párrafo de «Qué es», en las guías que la tienen (FOTOS)"""
+    s = re.sub(r'\n<figure class="s-foto-cuerpo">.*?</figure>', "", s, flags=re.S)
+    if slug not in FOTOS:
+        return s
+    pie = FOTOS[slug][2]
+    alt = html.escape(re.sub(r"<[^>]+>", "", pie))
+    figura = (f'\n<figure class="s-foto-cuerpo"><img src="../img/{slug}.webp" alt="{alt}" width="880" height="495" loading="lazy" decoding="async">'
+              f'<figcaption>{pie} <a href="../../creditos/">Créditos de las fotos</a></figcaption></figure>')
+    i = s.index('<h2 id="que-es"')
+    j = s.index("</p>", i) + 4
+    if re.sub(r"<[^>]+>", "", s[i:j]).rstrip().endswith(":"):      # el párrafo presenta una lista: la foto va después de ella
+        k = re.search(r"</(ul|ol)>", s[j:])
+        if k and "<h" not in s[j:j + k.start()]:
+            j += k.end()
+    return s[:j] + figura + s[j:]
+
+
 def claves(ul):
     def li(m):
         cuerpo = m.group(2)
@@ -68,6 +87,7 @@ def main():
         s = re.sub(r'<aside class="s-ficha-mol">.*?</aside>', lambda m: ficha(m.group(0), slug), s, count=1, flags=re.S)
         s = s.replace('<ul class="s-claves">', '<ul class="s-claves s-resumen">', 1)
         s = re.sub(r'<ul class="s-claves s-resumen">.*?</ul>', lambda m: claves(m.group(0)), s, count=1, flags=re.S)
+        s = foto_en_texto(s, slug)
         s = re.sub(r'<link rel="stylesheet" href="\.\./guia\.css[^>]*>\n?', "", s)
         s = re.sub(r'(<link rel="stylesheet" href="\.\./\.\./tierra\.css[^>]*>)', r"\1\n" + CSS, s, count=1)
         if s != antes:

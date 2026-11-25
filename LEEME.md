@@ -66,12 +66,19 @@ Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
   - `python3 scripts/investigacion/apertura.py`: portada con la seña de Terapia y «De un vistazo», una tarjeta por problema de salud con su nivel de evidencia (uno, dos o tres trazos). Las tarjetas se leen de la tabla «Cómo va la investigación en cada problema de salud» de la propia página: si cambia la tabla, se relanza. Estilos en `docs/investigacion-terapeutica/investigacion.css`.
   - `python3 scripts/medicinas/apertura.py`: portada de cuaderno y nueve casillas numeradas, leídas de los títulos numerados y de la tabla «Las familias de un vistazo». Estilos en `docs/medicinas/medicinas.css`.
 
+## Fotos, créditos y pie (25-11-2026, decisiones de Mannu)
+
+- **Fotos, de cuando en cuando.** Mannu quiere que haya fotos repartidas por la web, sin saturar. Dónde van hoy fuera de la Enciclopedia: la portada; una franja en «Todas las guías» («Las plantas, de cerca»); una foto dentro del texto de 11 guías, tras el primer párrafo de «Qué es»; el fondo de «Buscar» y el de la página no encontrada. Dónde no: en las tarjetas de las guías (ahí, solo molécula) ni en Quién es quién (sin fotos de personas).
+- **Créditos en una sola página.** El párrafo de créditos de la portada saturaba. Ahora todos están en `docs/creditos/` (`python3 scripts/creditos.py`, que los lee de `CREDITOS.md`) y el pie de todas las páginas enlaza a ella («Créditos de las fotos»). Las licencias piden citar al autor: la página de créditos y la fila en `CREDITOS.md` no son opcionales. Al añadir una foto: su fila en `CREDITOS.md` y relanzar el guion. Las fichas de la Enciclopedia siguen llevando además sus créditos propios.
+- **Pie rehecho:** oscuro, con el lema en grande, el contacto a la derecha, el mapa de la web en cinco columnas y una línea final con los enlaces legales y los créditos. Sale de `scripts/cabecera.py`; estilos al final de `docs/tierra.css` (`footer.pie.pie-2`). El logo del pie es el mismo archivo, aclarado con un filtro.
+- **Buscar y página no encontrada:** apertura con foto de fondo y el buscador encima (`docs/buscar/buscar.css`, que también carga `docs/404.html`). Los recortes salen de `scripts/fotos_portada.py`.
+
 ## Todas las guías (rehecha el 25-11-2026)
 
 - `docs/sustancias/index.html` ya no se edita a mano: sale de `python3 scripts/guias/generar.py`.
 - Parte alta en `<div class="enc gui">` (estilos en `docs/sustancias/guias.css`, todo bajo `.gui`; de `enciclopedia.css` solo usa la rejilla y el buscador): apertura de cuaderno con buscador de guías (por nombre y por apodos) y la **tabla de símbolos** (una celda por guía, una fila por familia; `SIMBOLOS` en el guion), las 19 tarjetas por familias, el esquema «Cuánto dura cada una» y cuatro puertas. Debajo sigue el texto de siempre (`scripts/guias/texto.html`), con los estilos de lectura de `tierra.css`.
 - Las familias y el orden son los del menú (`MEDICINAS`, en `scripts/cabecera.py`). Familia y duración de cada tarjeta se leen de la ficha de cada guía publicada; el esquema de duraciones usa la tabla `DURA` del guion, copiada a mano de esas fichas (si cambia una duración en una guía, hay que cambiarla ahí). El tabaco no tiene duración en su guía y no sale en el esquema.
-- Cada tarjeta lleva la molécula y su símbolo, sin fotos.
+- Cada tarjeta lleva la molécula y su símbolo, sin fotos. Las fotos van en la franja «Las plantas, de cerca» (`FRANJA`), que enlaza a la Enciclopedia.
 
 ## Plantilla de las guías (25-11-2026)
 
@@ -91,7 +98,7 @@ Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
 
 - `docs/index.html` habla el mismo lenguaje que la Enciclopedia: `<main class="enc ini">` carga `tierra.css`, `enciclopedia/enciclopedia.css` y `inicio.css` (lo propio de la portada, todo bajo `.ini`). Si se cambia `enciclopedia.css`, hay que mirar también la portada.
 - Orden: apertura con buscador y tres fotos en arcos; tira de seis puertas; Enciclopedia (tres fichas); Guías de medicinas (las 19, por familias); La experiencia y Terapia e investigación; Biblioteca y Quién es quién; cita; Quiénes somos (`#about`) y Hablemos (`#contacto`). Esas dos anclas se enlazan desde la cabecera de todas las páginas: no hay que cambiarlas.
-- Fotos: recortes ligeros en `docs/img/inicio/*.webp`, hechos con `python3 scripts/fotos_portada.py` (necesita `pip install pillow`) a partir de `docs/enciclopedia/img/`. Autor y licencia de cada una, al final de la portada («Fotografías») y en `CREDITOS.md`. El arco grande (`peyote.webp`) es la imagen principal de la página: se precarga en el `<head>` y no lleva animación de opacidad.
+- Fotos: recortes ligeros en `docs/img/inicio/*.webp`, hechos con `python3 scripts/fotos_portada.py` (necesita `pip install pillow`) a partir de `docs/enciclopedia/img/`. Autor y licencia de cada una, en `CREDITOS.md` y en la página de créditos (la portada ya no los lleva). El arco grande (`peyote.webp`) es la imagen principal de la página: se precarga en el `<head>` y no lleva animación de opacidad.
 - Bajo la tira de seis puertas hay una línea de **extras** («Y además»: Quién es quién, Dónde formarse, Medicinas por familias y Microdosis), en pequeño y aparte, para lo que no es una de las seis secciones principales (25-11-2026). Lo nuevo que no sea principal va ahí, no como séptima puerta.
 - Recuentos escritos a mano en la portada: «19 guías» y «más de 800 libros». Si cambian, hay que cambiarlos ahí (antes decía 425 libros cuando la Biblioteca ya tenía 807).
 - Los enlaces «Entrar por» de la Biblioteca usan sus filtros por dirección (`biblioteca/?idioma=español`, `biblioteca/?cat=…`).

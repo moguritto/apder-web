@@ -2,6 +2,7 @@
 """Página «Todas las guías» (docs/sustancias/index.html).
 
   python3 scripts/guias/generar.py            escribe la página
+  python3 scripts/guias/generar.py --fotos    además rehace los recortes de docs/sustancias/img/ (necesita Pillow)
 
 De dónde sale cada cosa:
 - Las guías y sus familias: MEDICINAS, en scripts/cabecera.py (las mismas del menú).
@@ -11,7 +12,8 @@ De dónde sale cada cosa:
   de esa misma ficha. Si cambia la duración de una guía, hay que cambiarla también ahí.
 - El texto largo (qué son, cómo se usan, tipos, riesgos, si algo va mal, preguntas): scripts/guias/texto.html.
 - Cabecera, pie y <head>: se conservan los de la página publicada (la cabecera la escribe scripts/cabecera.py).
-- Sin fotos: la seña de las guías es la molécula y su símbolo (SIMBOLOS). Las fotos son cosa de la Enciclopedia.
+- Las tarjetas no llevan fotos: la seña de las guías es la molécula y su símbolo (SIMBOLOS). Fotos, solo de cuando en cuando
+  (FOTOS y FRANJA): una franja en esta página y una foto dentro del texto de algunas guías. Créditos en /creditos/.
 """
 import html
 import math
@@ -26,7 +28,7 @@ from cabecera import MEDICINAS  # noqa: E402
 
 DOCS = RAIZ / "docs"
 PAG = DOCS / "sustancias" / "index.html"
-VERSION = "20261125b"
+VERSION = "20261125c"
 
 ANCLAS = ["clasicos", "otras", "plantas"]
 ENTRADILLAS = [
@@ -42,6 +44,32 @@ SIMBOLOS = {
     "amanita-muscaria": "Am", "salvia-divinorum": "Sa", "cannabis": "Ca", "kanna": "Kn", "kratom": "Kr",
     "datura": "Da", "cacao": "Cc", "tabaco": "Tb", "microdosis": "μ",
 }
+# Fotos, de cuando en cuando (25-11-2026): una dentro del texto de la guía cuando la medicina es una planta, un hongo
+# o un animal, y una franja en «Todas las guías». Nunca en las tarjetas (ahí, solo molécula).
+# guía: (origen en docs/enciclopedia/img, caja x0,y0,x1,y1 en fracciones, pie de foto)
+FOTOS = {
+    "psilocibina":      ("idx-psilocybe.jpg", (0.00, 0.03, 1.00, 0.47), "Monguis (<em>Psilocybe semilanceata</em>), una de las setas de psilocibina de los prados europeos."),
+    "mescalina":        ("idx-peyote.jpg",    (0.00, 0.10, 1.00, 0.86), "Peyote (<em>Lophophora williamsii</em>) en flor."),
+    "dmt":              ("aya-chacruna.jpg",  (0.00, 0.12, 1.00, 0.88), "Hojas de chacruna (<em>Psychotria viridis</em>), una de las plantas que contienen DMT."),
+    "ayahuasca":        ("aya-liana.jpg",     (0.00, 0.08, 1.00, 0.92), "Tallo de la liana de la ayahuasca (<em>Banisteriopsis caapi</em>)."),
+    "5-meo-dmt":        ("idx-sapo.jpg",      (0.00, 0.08, 1.00, 0.92), "Sapo del desierto de Sonora (<em>Incilius alvarius</em>)."),
+    "ibogaina":         ("idx-iboga.jpg",     (0.00, 0.30, 1.00, 0.68), "Arbusto de iboga (<em>Tabernanthe iboga</em>) con frutos."),
+    "amanita-muscaria": ("ama-hero.jpg",      (0.00, 0.10, 1.00, 0.94), "Matamoscas (<em>Amanita muscaria</em>) en el bosque."),
+    "salvia-divinorum": ("idx-salvia.jpg",    (0.00, 0.08, 1.00, 0.93), "Flor de <em>Salvia divinorum</em>."),
+    "datura":           ("idx-datura.jpg",    (0.00, 0.20, 1.00, 0.76), "Flor de <em>Datura inoxia</em>."),
+    "cacao":            ("idx-cacao.jpg",     (0.00, 0.20, 1.00, 0.76), "Fruto de cacao (<em>Theobroma cacao</em>) abierto."),
+    "tabaco":           ("idx-tabaco.jpg",    (0.00, 0.08, 1.00, 0.92), "Tabaco rústico o mapacho (<em>Nicotiana rustica</em>) en flor."),
+}
+# franja de «Todas las guías»: (ficha de la Enciclopedia, origen, caja, nombre)
+FRANJA = [
+    ("mongui", "idx-psilocybe.jpg", (0.00, 0.00, 1.00, 0.88), "Mongui"),
+    ("peyote", "pey-flor.jpg", (0.26, 0.00, 0.80, 1.00), "Peyote"),
+    ("ayahuasca", "aya-flores.jpg", (0.00, 0.00, 1.00, 1.00), "Ayahuasca"),
+    ("iboga", "idx-iboga.jpg", (0.00, 0.10, 1.00, 0.95), "Iboga"),
+    ("hierba-de-la-pastora", "sal-hero.jpg", (0.20, 0.00, 0.80, 1.00), "Hierba de la pastora"),
+    ("cacao", "idx-cacao.jpg", (0.10, 0.00, 0.90, 1.00), "Cacao"),
+]
+
 NOMBRES_CORTOS = {"psilocibina": "Psilocibina", "mescalina": "Mescalina", "amanita-muscaria": "Amanita", "salvia-divinorum": "Salvia"}
 
 # duración en minutos para el esquema: (mínimo, máximo, «hasta» o None, abierta por arriba)
@@ -83,6 +111,44 @@ def leer_guia(slug):
     dur_corta = m.group(0).strip() if m else re.split(r"[,(;]", dur)[0].strip()
     return {"alias": alias, "familia": corta, "familia_larga": familia, "dur": dur, "dur_corta": dur_corta,
             "via": datos.get("Vía habitual", ""), "inicio": datos.get("Inicio", "")}
+
+
+def creditos():
+    """autor (con enlace) y licencia de cada foto de origen, leídos de CREDITOS.md"""
+    out = {}
+    for fila in (RAIZ / "CREDITOS.md").read_text(encoding="utf-8").splitlines():
+        m = re.match(r"\| `docs/enciclopedia/img/([^`]+)` \|[^|]*\| (.*?) · \[Wikimedia Commons\]\((.*?)\) \| ([^|]+) \|", fila)
+        if m:
+            out[m.group(1)] = (re.sub(r"\[\d+\]", "", m.group(2)).strip(), m.group(3), m.group(4).strip())
+    return out
+
+
+def hacer_fotos():
+    """recortes de docs/sustancias/img/ (necesita Pillow): 16:9 para el texto de las guías y 4:5 para la franja"""
+    from PIL import Image
+    origen = DOCS / "enciclopedia" / "img"
+    salida = DOCS / "sustancias" / "img"
+    salida.mkdir(exist_ok=True)
+
+    def recorte(nombre, fuente, caja, ancho, proporcion, calidad=74):
+        im = Image.open(origen / fuente).convert("RGB")
+        w, h = im.size
+        x0, y0, x1, y1 = caja
+        im = im.crop((round(x0 * w), round(y0 * h), round(x1 * w), round(y1 * h)))
+        w, h = im.size
+        if w / h > proporcion:
+            n = round(h * proporcion); im = im.crop(((w - n) // 2, 0, (w - n) // 2 + n, h))
+        else:
+            n = round(w / proporcion); im = im.crop((0, (h - n) // 2, w, (h - n) // 2 + n))
+        if im.width > ancho:
+            im = im.resize((ancho, round(im.height * ancho / im.width)), Image.LANCZOS)
+        im.save(salida / nombre, "WEBP", quality=calidad, method=6)
+        print(f"{nombre:30s} {im.width}x{im.height} {(salida / nombre).stat().st_size // 1024} KB")
+
+    for slug, (fuente, caja, _) in FOTOS.items():
+        recorte(slug + ".webp", fuente, caja, 880, 16 / 9)
+    for slug, fuente, caja, _ in FRANJA:
+        recorte(f"franja-{slug}.webp", fuente, caja, 400, 4 / 5)
 
 
 RELOJ = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>'
@@ -152,6 +218,9 @@ def construir():
                           f'<small>{html.escape(g["dur_corta"])}</small><b>{sim}</b><span>{html.escape(corto)}</span></a>')
     tabla = "".join(celdas)
 
+    franja = "".join(f'<a href="../enciclopedia/{slug}/"><img src="img/franja-{slug}.webp" alt="" width="400" height="500" loading="lazy" decoding="async"><b>{nombre}</b></a>'
+                     for slug, _, _, nombre in FRANJA)
+
     texto = (RAIZ / "scripts" / "guias" / "texto.html").read_text(encoding="utf-8").strip()
 
     principal = f"""<main id="contenido">
@@ -182,12 +251,16 @@ def construir():
 </div>
 </section>
 
+<section class="e-sec ancho" id="plantas-de-cerca">
+<div class="e-cab"><div><h2>Las plantas, de cerca</h2></div><p class="nota">Varias de estas medicinas son una planta, un hongo o un animal antes que una molécula. Su retrato, su territorio y su historia están en la <a href="../enciclopedia/">Enciclopedia</a>.</p></div>
+<div class="g-franja">{franja}</div>
+</section>
+
 <section class="e-sec ancho" id="mas">
 <div class="e-cab"><div><h2>Otras maneras de entrar</h2></div></div>
 <div class="g-puertas">
 <a href="microdosis/"><b>Microdosis</b><span>Qué es, qué se sabe y qué no. Sin cifras ni pautas.</span></a>
 <a href="../medicinas/"><b>Medicinas por familias</b><span>Triptaminas, fenetilaminas, disociativos y el resto, en un solo artículo.</span></a>
-<a class="g-enci" href="../enciclopedia/"><b>Enciclopedia de medicinas</b><span>La planta, el hongo o el animal: origen, territorio y cultura.</span></a>
 <a href="../terapia/"><b>Guías de terapia</b><span>Cómo es un proceso terapéutico con cada medicina, según la investigación.</span></a>
 </div>
 <nav class="g-indice" aria-label="En esta página"><b>Y debajo, para situarse</b><a href="#que-son">¿Qué son?</a><a href="#usos">¿Cómo se usan?</a><a href="#tipos">Tipos</a><a href="#riesgos">Riesgos</a><a href="#si-algo-va-mal">Si algo va mal</a><a href="#preguntas">Preguntas frecuentes</a></nav>
@@ -225,4 +298,6 @@ filtra()}})();
 
 
 if __name__ == "__main__":
+    if "--fotos" in sys.argv:
+        hacer_fotos()
     construir()

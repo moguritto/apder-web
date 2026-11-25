@@ -1,0 +1,26 @@
+/* «Buscar» y la página no encontrada: apertura con una foto de fondo.
+   Fotos: recortes de docs/img/inicio/ (scripts/fotos_portada.py); créditos en /creditos/. */
+.bq-portada,.guia-cuerpo .nf-foto{position:relative;overflow:hidden;isolation:isolate;margin-bottom:34px;padding:74px 0 66px;border-radius:0 0 40px 40px;background:#1b1d16;color:#fbf6e6;text-align:left}
+.bq-fondo{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover}
+.bq-portada::after,.nf-foto::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(14,18,12,.86),rgba(14,18,12,.6) 55%,rgba(14,18,12,.3))}
+.guia-cuerpo .bq-portada h1,.guia-cuerpo .nf-foto h1{margin:0 0 .18em;font-size:clamp(3rem,7vw,5.4rem);line-height:1;letter-spacing:-.015em;color:#fbf6e6}
+.bq-sub,.guia-cuerpo .nf-foto p{max-width:34em;margin:0 0 26px;font-size:1.18rem;line-height:1.5;color:#e9e6d6}
+.bq-portada .bq-form,.nf-foto .bq-form{flex-wrap:nowrap;gap:8px;max-width:680px;margin:0;padding:7px;border-radius:999px;background:#fffcf4;box-shadow:0 18px 40px -20px rgba(0,0,0,.7)}
+.bq-portada .bq-form label,.nf-foto .bq-form label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.bq-portada .bq-form input,.nf-foto .bq-form input{flex:1 1 auto;min-height:50px;padding:0 0 0 20px;border:0;background:transparent;font-size:1.08rem}
+.bq-portada .bq-form input:focus,.nf-foto .bq-form input:focus{outline:0}
+.bq-portada .bq-form:focus-within,.nf-foto .bq-form:focus-within{box-shadow:0 0 0 3px #ebcc92,0 18px 40px -20px rgba(0,0,0,.7)}
+.bq-portada .bq-form button,.nf-foto .bq-form button{flex:none;min-height:50px;padding:0 26px}
+.bq-ej,.nf-foto .acciones{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:8px;margin:20px 0 0!important;font-size:.93rem;color:#d9d6c6}
+.bq-ej a,.nf-foto .acciones a{display:inline-flex;align-items:center;min-height:38px;padding:0 15px;border:1px solid rgba(255,255,255,.4);border-radius:999px;color:#fbf6e6;text-decoration:none;font-weight:600}
+.bq-ej a:hover,.nf-foto .acciones a:hover{border-color:#ebcc92;background:rgba(0,0,0,.25)}
+.bq-ej a:focus-visible,.nf-foto .acciones a:focus-visible{outline:3px solid #ebcc92;outline-offset:2px}
+.guia-cuerpo .nf-foto{margin-bottom:0;padding:110px 0 120px}
+@media (max-width:640px){
+  .bq-portada,.guia-cuerpo .nf-foto{padding:44px 0 42px;border-radius:0 0 28px 28px}
+  .guia-cuerpo .nf-foto{padding:64px 0 70px}
+  .bq-portada::after,.nf-foto::after{background:rgba(14,18,12,.72)}
+  .bq-portada .bq-form button,.nf-foto .bq-form button{padding:0 18px}
+  .bq-ej a,.nf-foto .acciones a{min-height:44px}
+}
+@media print{.bq-fondo{display:none}.bq-portada,.guia-cuerpo .nf-foto{background:none;color:#000;padding:0}.guia-cuerpo .bq-portada h1,.guia-cuerpo .nf-foto h1{color:#000}}

@@ -1078,29 +1078,45 @@ body .guia-cuerpo .lb-info h2{font-size:1.3rem;margin:.8em 0 .3em;padding-top:.6
 @media (max-width:420px){.menu-toggle span{display:block;position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.menu-toggle{position:relative;width:44px;padding:0;justify-content:center}}
 @media (max-width:340px){.cabecera .marca .marca-letras{height:12px}.cabecera .marca>img{height:32px}.cab-fila{gap:6px}}
 
-/* pie: marca y contacto una sola vez, y el mapa de la web en columnas */
-footer.pie.pie-nav{padding-top:60px}
-footer.pie .pie-mapa{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:40px 72px;align-items:start}
-footer.pie .pie-logo{display:inline-flex;align-items:center;gap:12px;min-height:56px;margin-bottom:14px;text-decoration:none}
-footer.pie .pie-logo img{height:50px;width:auto}
-footer.pie .pie-logo .pie-letras{height:23px}
-footer.pie .pie-marca>p{max-width:40ch;font-size:.98rem;line-height:1.6;color:var(--suave)}
-footer.pie .pie-marca .contacto-directo{margin:18px 0 4px}
-footer.pie .pie-marca .pie-tel{margin:0;font-size:.98rem}
-footer.pie .pie-cols{display:grid;grid-template-columns:repeat(5,auto);justify-content:space-between;gap:30px 24px;padding-top:12px}
-footer.pie .pie-tit{margin:0 0 8px;white-space:nowrap;font-family:var(--serif);font-size:1.22rem;line-height:1.2;color:var(--texto)}
-footer.pie .pie-grupo ul{list-style:none;margin:0;padding:0}
-footer.pie .pie-grupo li{margin:0}
-footer.pie .pie-grupo a{display:inline-flex;align-items:center;min-height:38px;font-size:.95rem;line-height:1.3;color:var(--texto);text-decoration:none}
-footer.pie .pie-grupo a:hover{color:var(--tierra-hondo);text-decoration:underline;text-underline-offset:3px}
-footer.pie .pie-grupo a[aria-current="page"]{font-weight:700;color:var(--tierra-hondo)}
-@media (max-width:1100px){
-  footer.pie .pie-mapa{grid-template-columns:1fr}
-  footer.pie .pie-marca>p{max-width:60ch}
-  footer.pie .pie-cols{padding-top:0}
+/* pie (rehecho el 25-11-2026): oscuro, con el lema en grande, el contacto a la derecha y el mapa de la web a todo lo ancho */
+footer.pie.pie-2{--pie:#241d18;--pie-linea:rgba(255,255,255,.14);--pie-suave:#b9ab9a;margin-top:64px;padding:64px 0 22px;border-radius:40px 40px 0 0;background:radial-gradient(ellipse at 18% 0%,#33281f,var(--pie) 60%);color:#f1e7d8;font-size:1rem}
+footer.pie.pie-2 a:hover{text-decoration:none}
+footer.pie-2 .pie-lema{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:40px 72px;align-items:end;padding-bottom:44px;border-bottom:1px solid var(--pie-linea)}
+footer.pie-2 .pie-logo{display:inline-flex;align-items:center;gap:12px;min-height:56px;margin-bottom:20px;text-decoration:none}
+footer.pie-2 .pie-logo img{height:50px;width:auto;filter:brightness(0) invert(1);opacity:.92}
+footer.pie-2 .pie-logo .pie-letras{height:23px}
+footer.pie-2 .pie-frase{margin:0;max-width:24em;font-family:var(--serif);font-size:clamp(1.5rem,2.5vw,2.05rem);line-height:1.22;color:#fbf3e4;text-wrap:balance}
+footer.pie-2 .pie-contacto p{margin:0 0 14px;color:var(--pie-suave);font-size:.98rem}
+footer.pie-2 .contacto-directo{display:flex;flex-wrap:wrap;gap:10px;margin:0}
+footer.pie-2 .btn.c{background:transparent;border-color:rgba(255,255,255,.4);color:#fbf3e4}
+footer.pie-2 .btn.c:hover{background:#fbf3e4;border-color:#fbf3e4;color:var(--pie)}
+footer.pie-2 .pie-contacto .pie-tel{margin:14px 0 0;font-size:.98rem;font-weight:400}
+footer.pie-2 .pie-tel a{display:inline-flex;align-items:center;min-height:44px;color:#f1e7d8;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,255,255,.35)}
+footer.pie-2 .pie-cols{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:30px 28px;padding:40px 0 8px}
+footer.pie-2 .pie-tit{margin:0 0 10px;font-family:var(--serif);font-size:1.2rem;line-height:1.2;color:#ebcc92;white-space:nowrap}
+footer.pie-2 .pie-grupo ul{list-style:none;margin:0;padding:0}
+footer.pie-2 .pie-grupo li{margin:0}
+footer.pie-2 .pie-grupo a{display:inline-flex;align-items:center;min-height:38px;font-size:.96rem;line-height:1.3;color:#eadfce;text-decoration:none}
+footer.pie-2 .pie-grupo a:hover{color:#fff;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#ebcc92}
+footer.pie-2 .pie-grupo a[aria-current="page"]{font-weight:700;color:#ebcc92}
+footer.pie-2 .pie-abajo{margin-top:30px;padding-top:16px;border-top:1px solid var(--pie-linea);color:var(--pie-suave);font-size:.84rem;line-height:1.6}
+footer.pie-2 .pie-abajo a{color:#eadfce;text-decoration-color:rgba(255,255,255,.35)}
+footer.pie-2 .pie-abajo a:hover{color:#fff}
+footer.pie-2 a:focus-visible{outline:3px solid #ebcc92;outline-offset:3px;border-radius:6px}
+@media (max-width:1000px){
+  footer.pie-2 .pie-lema{grid-template-columns:minmax(0,1fr);align-items:start;padding-bottom:34px}
+  footer.pie-2 .pie-cols{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
-@media (max-width:760px){
-  footer.pie .pie-cols{grid-template-columns:repeat(2,minmax(0,1fr));justify-content:normal;gap:26px 20px}
-  footer.pie .pie-grupo a{min-height:44px}
+@media (max-width:640px){
+  footer.pie.pie-2{margin-top:44px;padding:44px 0 18px;border-radius:30px 30px 0 0}
+  footer.pie-2 .pie-cols{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 20px;padding-top:32px}
+  footer.pie-2 .pie-grupo a{min-height:44px}
+  footer.pie-2 .pie-abajo{flex-direction:column;align-items:flex-start}
+  footer.pie-2 .pie-abajo a{padding:0 14px 0 0}
 }
-@media print{footer.pie .pie-cols,footer.pie .contacto-directo{display:none!important}}
+@media print{footer.pie.pie-2{background:none;color:#000}footer.pie-2 .pie-cols,footer.pie-2 .contacto-directo{display:none!important}}
+/* lista de la página de créditos */
+.legal-texto .creditos-lista{margin:0 0 1.4em;padding:0;list-style:none;columns:2;column-gap:40px;font-size:.92rem;line-height:1.45}
+.legal-texto .creditos-lista li{margin:0 0 .7em;break-inside:avoid;overflow-wrap:anywhere}
+.legal-texto .creditos-lista li::marker{content:none}
+@media (max-width:760px){.legal-texto .creditos-lista{columns:1}}

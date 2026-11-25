@@ -56,3 +56,10 @@
   .s-cab-guia .s-simbolo{display:none}
   .s-cab-guia .s-ficha-mol{box-shadow:none}
 }
+
+/* una foto dentro del texto, de cuando en cuando (la pone scripts/guias/plantilla.py) */
+.s-cuerpo .s-foto-cuerpo{margin:1.7em 0 1.9em}
+.s-foto-cuerpo img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:22px;background:var(--arena)}
+.s-foto-cuerpo figcaption{margin-top:10px;font-size:.86rem;line-height:1.45;color:var(--suave)}
+.s-cuerpo .s-foto-cuerpo figcaption a{margin-left:4px;font-size:.78rem;white-space:nowrap;color:var(--suave);text-decoration:underline;text-decoration-color:var(--linea);text-underline-offset:3px}
+@media print{.s-foto-cuerpo{max-width:60%}}

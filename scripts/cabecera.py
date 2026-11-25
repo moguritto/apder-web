@@ -18,7 +18,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOCS = RAIZ / "docs"
-VERSION_CSS = "20261125a"   # se cambia cuando cambia tierra.css, para que el navegador no use la copia vieja
+VERSION_CSS = "20261125b"   # se cambia cuando cambia tierra.css, para que el navegador no use la copia vieja
 
 FLECHA = ('<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" '
           'stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>')
@@ -252,25 +252,26 @@ class Pagina:
             cols.append(f'<div class="pie-grupo"><p class="pie-tit" id="pie-g{i}">{titulo}</p>'
                         f'<ul aria-labelledby="pie-g{i}">{lis}</ul></div>')
         cols = "\n".join(cols)
-        return f"""<footer class="pie pie-nav">
+        return f"""<footer class="pie pie-nav pie-2">
 <div class="ancho">
 <span class="ancla" id="contact"></span>
-<div class="pie-mapa">
-<div class="pie-marca">
+<div class="pie-lema">
+<div>
 <a class="pie-logo" href="{inicio}" aria-label="APDER, inicio"><img src="{r}img/apder-icono.webp" alt="" width="455" height="344" loading="lazy" decoding="async"><img class="pie-letras" src="{r}img/apder-letras.webp" alt="APDER" width="423" height="88" loading="lazy" decoding="async"></a>
-<p>Somos una asociación sin ánimo de lucro dedicada a la divulgación. Compartimos información rigurosa sobre los psicodélicos: su historia, lo que dice la investigación sobre su uso terapéutico y cómo reducir sus riesgos.</p>
-<div class="contacto-directo">
-<a class="btn t" href="https://wa.me/447916618725">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a>
+<p class="pie-frase">Información rigurosa sobre los psicodélicos: su historia, lo que dice la investigación sobre su uso terapéutico y cómo reducir sus riesgos.</p>
 </div>
+<div class="pie-contacto">
+<p>Escríbenos. Respondemos en cuanto podemos.</p>
+<div class="contacto-directo"><a class="btn t" href="https://wa.me/447916618725">WhatsApp</a><a class="btn c" href="mailto:info@apder.org">info@apder.org</a></div>
 <p class="pie-tel"><a href="tel:+447916618725">+44 7916 618725</a></p>
+</div>
 </div>
 <nav class="pie-cols" aria-label="Mapa de la web">
 {cols}
 </nav>
-</div>
 <div class="pie-abajo">
-<p><span lang="en">Association for Psychedelic Divulgation, Education and Research</span><br/>© 2026 APDER. Todos los derechos reservados.</p>
-<p><a {self.h("aviso-legal/")}>Aviso legal</a> <a {self.h("politica-de-privacidad/")}>Privacidad y cookies</a></p>
+<p>Somos una asociación sin ánimo de lucro dedicada a la divulgación. <span lang="en">Association for Psychedelic Divulgation, Education and Research</span><br/>© 2026 APDER. Todos los derechos reservados.</p>
+<p><a {self.h("aviso-legal/")}>Aviso legal</a> <a {self.h("politica-de-privacidad/")}>Privacidad y cookies</a> <a {self.h("creditos/")}>Créditos de las fotos</a></p>
 </div>
 </div>
 </footer>"""

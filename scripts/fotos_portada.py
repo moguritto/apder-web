@@ -26,6 +26,9 @@ RECORTES = [
     ("ayahuasca.webp",  "aya-liana.jpg",     (0.080, 0.000, 0.915, 1.000), 1100, 78),
     ("matamoscas.webp", "ama-joven.jpg",     (0.230, 0.000, 0.808, 1.000), 560, 76),
     ("cacao.webp",      "idx-cacao.jpg",     (0.100, 0.000, 0.900, 1.000), 560, 80),
+    # fondos de «Buscar» y de la página no encontrada (docs/buscar/buscar.css)
+    ("bosque.webp",     "ama-bosque.jpg",    (0.000, 0.300, 1.000, 0.880), 1600, 62),
+    ("rio.webp",        "aya-rio.jpg",       (0.000, 0.180, 1.000, 0.900), 1600, 62),
 ]
 
 
