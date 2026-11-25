@@ -1,0 +1,224 @@
+{
+ "slug": "acido-ibotenico",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Ácido iboténico",
+ "cientifico": "ácido (S)-2-amino-2-(3-hidroxiisoxazol-5-il)acético",
+ "autoridad": "",
+ "descripcion": "Ácido iboténico: aminoácido de la amanita muscaria, agonista del glutamato que actúa como profármaco del muscimol; se usa en neurociencia como lesionante.",
+ "entrada": "El ácido iboténico es un aminoácido natural de la amanita muscaria y especies cercanas. Es agonista del receptor de glutamato y, al descarboxilarse, da muscimol. En laboratorio se usa como agente lesionante del cerebro; en el hongo, su papel psicoactivo y su toxicidad se debaten.[1][2][4]",
+ "otros": "ibotenato · premuscimol",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Aminoácido psicoactivo natural"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Hongos Amanita de zonas templadas"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Amanita muscaria y afines"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista de receptores de glutamato"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Micología y neurociencia"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un aminoácido que imita al glutamato",
+  "parrafos": [
+   "Es un análogo del neurotransmisor glutamato, con restricción conformacional, y se encuentra en <em>Amanita muscaria</em> y otras Amanita.[1][2]",
+   "Se conoce también como premuscimol, porque actúa como precursor del muscimol.[2][5]",
+   "La biosíntesis se supuso hace cincuenta años a partir del 3-hidroxiglutamato, y en 2019 se identificó una glutamato hidroxilasa del hongo.[4]"
+  ],
+  "rasgos": [
+   [
+    "Tipo",
+    "Aminoácido"
+   ],
+   [
+    "Hongos",
+    "Amanita muscaria, A. pantherina"
+   ],
+   [
+    "Derivado",
+    "Muscimol"
+   ],
+   [
+    "Uso en ciencia",
+    "Lesión experimental"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin preparación del hongo."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "Del hongo al laboratorio",
+  "parrafos": [
+   "Ott resume cómo se aclaró la química de la amanita: el ácido iboténico resultó ser un aminoácido isoxazólico y el muscimol su producto de descarboxilación.[3]",
+   "En neurociencia se emplea por inyección craneal como agente que destruye zonas cerebrales de forma controlada.[1]"
+  ],
+  "cronologia": [
+   [
+    "Años 1960",
+    "Se identifican ácido iboténico y muscimol"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Ott resume cómo se aclaró la química de la amanita: el ácido iboténico resultó ser un aminoácido isoxazólico y el muscimol su producto de descarboxilación.[3]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-acido-ibotenico.svg",
+   "alt": "Mapa del hemisferio norte templado.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Zonas donde crecen las amanitas"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Glutamato, NMDA y descarboxilación",
+  "parrafos": [
+   "Es un agonista potente de receptores NMDA y de los metabotrópicos de grupos I y II, y débil de AMPA y kainato.[1]",
+   "Por descarboxilación se convierte en muscimol, agonista GABA-A.[5]",
+   "A dosis altas puede ser una potente neurotoxina, con efectos relacionados con la dosis; los riesgos por consumo del hongo son poco claros.[1]",
+   "Un trabajo señala que es menos tóxico de lo que se suele suponer.[4]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Sus efectos psicoactivos en la intoxicación por amanita proceden de la similitud estructural con glutamato y, por su derivado, con GABA.[4]",
+   "El cuadro por consumo del hongo corresponde a la ficha de la amanita muscaria."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Se emplea como herramienta en investigación animal y como lesionante.[1][2]",
+   "No hay uso clínico establecido."
+  ],
+  "alcance": "Investigación básica de laboratorio."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Neurotoxicidad",
+    "A dosis altas es neurotóxico en modelos experimentales.[1]"
+   ],
+   [
+    "Descarboxilación",
+    "Se transforma en muscimol al secar o ingerir el hongo.[5]"
+   ],
+   [
+    "Contexto",
+    "Esta ficha no es una guía de consumo de hongos."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Amanita muscaria",
+   "Amanita muscaria",
+   "Su principal fuente.",
+   "enciclopedia/amanita-muscaria/"
+  ],
+  [
+   "hongo",
+   "Amanita pantera",
+   "Amanita pantherina",
+   "Otra fuente.",
+   "enciclopedia/amanita-pantera/"
+  ],
+  [
+   "molecula",
+   "Muscimol",
+   "Derivado GABAérgico",
+   "Su producto de descarboxilación.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Ibotenic acid</em>. en.wikipedia.com/wiki/Ibotenic_acid.",
+  "Wikiwand. <em>Ibotenic acid</em>. wikiwand.com/en/articles/Ibotenic_Acid.",
+  "Ott, J. <em>Pharmacotheon</em> (Amanitas). erowid.org/amanitas/amanitas_info_ott.shtml.",
+  "bioRxiv. Biosíntesis de ácido iboténico y muscimol en <em>Amanita muscaria</em>. biorxiv.org/content/10.1101/846857v1.full-text.",
+  "Wikipedia. <em>Muscimol</em>. wikipedia.com/wiki/Muscimol."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Acacias",
+  "acacias"
+ ],
+ "siguiente": [
+  "Ajenjo",
+  "ajenjo"
+ ]
+}
