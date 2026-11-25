@@ -41,7 +41,11 @@
    "Yawanawá, huni kuin, katukina, nukini, kuntanawa, matsés"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Ficha breve: Tabaco sagrado (mapacho y rapé)",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/tabaco/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "Ingredientes",

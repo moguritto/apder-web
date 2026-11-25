@@ -41,7 +41,11 @@
    "Pueblos amazónicos y religiones ayahuasqueras"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Ficha breve: DMT",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/dmt/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

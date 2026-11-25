@@ -41,7 +41,11 @@
    "Shulgin, MAPS y terapeutas"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Guía completa: MDMA",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/mdma/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

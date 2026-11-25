@@ -41,7 +41,11 @@
    "Pueblos mazatecos, mixtecos y otros; investigación clínica"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Guía completa: Setas de psilocibina",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/psilocibina/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

@@ -41,7 +41,11 @@
    "Hofmann, Sandoz y la investigación psicodélica"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Guía completa: LSD",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/lsd/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

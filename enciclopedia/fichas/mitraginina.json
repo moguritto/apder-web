@@ -41,7 +41,11 @@
    "Tradiciones del sudeste asiático"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Ficha breve: Kratom",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/kratom/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

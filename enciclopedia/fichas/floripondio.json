@@ -41,7 +41,11 @@
    "Curanderos andinos, pueblos amazónicos y nahuas de México"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Guía completa: Datura y floripondio",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/datura/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "Botánica",

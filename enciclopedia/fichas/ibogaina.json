@@ -41,7 +41,11 @@
    "Pueblos bwiti de Gabón y Camerún"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Ficha breve: Ibogaína",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/ibogaina/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

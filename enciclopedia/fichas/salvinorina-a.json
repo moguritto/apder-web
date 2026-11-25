@@ -41,7 +41,11 @@
    "Pueblo mazateco"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Guía completa: Salvia divinorum",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/salvia-divinorum/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

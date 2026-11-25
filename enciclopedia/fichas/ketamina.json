@@ -41,7 +41,11 @@
    "Medicina y psiquiatría"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Guía completa: Ketamina",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/ketamina/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

@@ -41,7 +41,11 @@
    "Investigación contemporánea y tradiciones de plantas"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Ficha breve: 5-MeO-DMT",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/5-meo-dmt/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

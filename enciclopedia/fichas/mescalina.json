@@ -41,7 +41,11 @@
    "Pueblos que usan peyote y San Pedro"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Ficha breve: Mescalina, peyote y San Pedro",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/mescalina/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",

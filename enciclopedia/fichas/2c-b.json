@@ -41,7 +41,11 @@
    " Shulgin, la literatura psiconáutica y la farmacología"
   ]
  ],
- "guia": null,
+ "guia": {
+  "titulo": "Guía completa: 2C-B",
+  "texto": "Interacciones, quién no debería tomarla y qué hacer si algo va mal.",
+  "url": "sustancias/2c-b/"
+ },
  "planta": {
   "id": "la-planta",
   "etq": "La sustancia",
