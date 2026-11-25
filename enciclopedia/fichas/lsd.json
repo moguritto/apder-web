@@ -1,0 +1,244 @@
+{
+ "slug": "lsd",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "LSD",
+ "cientifico": "dietilamida del ácido lisérgico",
+ "autoridad": "",
+ "descripcion": "LSD: derivado semisintético del cornezuelo creado por Hofmann en 1938; potente psicodélico agonista 5-HT2A, de nuevo en investigación clínica.",
+ "entrada": "El LSD es una dietilamida del ácido lisérgico sintetizada en 1938 por Albert Hofmann a partir de alcaloides del cornezuelo. Su efecto psicoactivo se descubrió en 1943. Es un potente psicodélico que actúa sobre receptores serotoninérgicos, y se investigó en psicoterapia en los años cincuenta y sesenta; hoy vuelve a estudiarse.[1][2][4]",
+ "otros": "LSD-25 · ácido · Delysid (nombre comercial histórico de Sandoz)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Psicodélico semisintético"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Basilea, Suiza"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Síntesis a partir de alcaloides del cornezuelo"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista de receptores 5-HT2A, 5-HT1A y otros"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Muchas horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Hofmann, Sandoz y la investigación psicodélica"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un derivado del cornezuelo",
+  "parrafos": [
+   "Se sintetizó en 1938 en los laboratorios Sandoz, de Basilea, como el vigésimo quinto compuesto de una serie de Hofmann, que buscaba sustancias con efecto sobre la circulación.[3][5]",
+   "Al principio no se vio ningún beneficio y no se investigó más durante cinco años.[7]",
+   "Pertenece a los alcaloides derivados del ergot o cornezuelo.[5]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Lisergamida"
+   ],
+   [
+    "Origen",
+    "Cornezuelo"
+   ],
+   [
+    "Síntesis",
+    "1938"
+   ],
+   [
+    "Descubrimiento",
+    "1943"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni síntesis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "El día de la bicicleta",
+  "parrafos": [
+   "Hofmann sintetizó LSD-25 en 1938 y sus propiedades psicoactivas no se reconocieron hasta 1943, tras ingerir accidentalmente una pequeña cantidad.[2][5]",
+   "El 16 de abril de 1943 sufrió una ansiedad creciente de camino a casa en bicicleta, según el relato divulgado.[6]",
+   "En 1947 Sandoz lo llamó Delysid y empezó a distribuirlo como fármaco psiquiátrico experimental.[2]",
+   "En los años cincuenta y sesenta se estudió contra el alcoholismo, la ansiedad y el trauma, y se administró a más de 40 000 pacientes.[2][9]",
+   "La investigación se detuvo a principios de los setenta por presión política tras su uso masivo no controlado.[8]",
+   "Hofmann lo llamó «mi niño problema» en su libro de 1980.[5]"
+  ],
+  "cronologia": [
+   [
+    "1938",
+    "Síntesis"
+   ],
+   [
+    "1943",
+    "Descubrimiento de sus efectos"
+   ],
+   [
+    "1947",
+    "Sandoz lo distribuye como Delysid"
+   ],
+   [
+    "Años 1970",
+    "Se detiene la investigación"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Hofmann sintetizó LSD-25 en 1938 y sus propiedades psicoactivas no se reconocieron hasta 1943, tras ingerir accidentalmente una pequeña cantidad.[2][5]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-lsd.svg",
+   "alt": "Mapa de Suiza.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Lugar de síntesis, Basilea"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Serotonina, dopamina y adrenérgicos",
+  "parrafos": [
+   "Se une potentemente a receptores serotoninérgicos 5-HT1A, 5-HT2A y 5-HT2C, a dopaminérgicos D2 y a adrenérgicos alfa-2.[10]",
+   "Los receptores 5-HT2A median sobre todo sus efectos alucinógenos.[10][8]",
+   "En un estudio, aumentó la sensación de cercanía a los demás, apertura, confianza y sugestionabilidad, y elevó la entropía cerebral global.[8]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Aumentó los sentimientos de cercanía, apertura y confianza, mediados por el receptor 5-HT2A.[8]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "muchas horas, según las revisiones"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "Hay trabajo reciente con LSD en Europa, y ensayos pequeños con psilocibina en depresión, ansiedad y adicciones.[1]",
+   "En personas con ansiedad por una enfermedad que amenaza la vida, la ansiedad bajó durante dos meses tras dos dosis de LSD.[8]",
+   "Se discute si los beneficios de la microdosificación proceden del LSD o del placebo.[2]"
+  ],
+  "alcance": "Ensayos clínicos recientes de fase 2; ensayos controlados aún limitados."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Evidencia",
+    "Faltan ensayos controlados amplios; los resultados son prometedores pero preliminares.[1]"
+   ],
+   [
+    "Contexto",
+    "La experiencia depende de preparación, acompañamiento e integración."
+   ],
+   [
+    "Microdosis",
+    "Se discute si el beneficio es farmacológico o placebo.[2]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "molecula",
+   "Psilocibina",
+   "Triptamina fúngica",
+   "Psicodélico clásico más estudiado.",
+   null
+  ],
+  [
+   "molecula",
+   "LSA",
+   "Amida del ácido lisérgico",
+   "Pariente natural.",
+   null
+  ],
+  [
+   "hongo",
+   "Cornezuelo",
+   "Claviceps purpurea",
+   "Su origen químico.",
+   "enciclopedia/cornezuelo/"
+  ]
+ ],
+ "fuentes": [
+  "Passie, T. y Halpern, J. H. Historia del LSD, MAPS. bibliography.maps.org/resources/download/16431.",
+  "Berkeley Center for the Science of Psychedelics. <em>LSD</em>. psychedelics.berkeley.edu/substance/lsd/.",
+  "Berkeley Center for the Science of Psychedelics. LSD, historia. psychedelics.berkeley.edu/?p=174.",
+  "Hagenbach, D. y Werthmüller, L. <em>Mystic Chemist</em>, reseña. psychedelics.berkeley.edu/tag/albert-hofmann/.",
+  "EBSCO Research Starters. <em>Hofmann Synthesizes the Potent Psychedelic Drug LSD-25</em>. ebsco.com/research-starters/health-and-medicine/hofmann-synthesizes-potent-psychedelic-drug-lsd-25.",
+  "MAPS. <em>First LSD Hallucination: April 16, 1943</em>. maps.org/news/media/first-lsd-hallucination-april-16-1943/.",
+  "Lucas, K. <em>LSD Throughout Time</em>, Clemson OpenText. opentextbooks.clemson.edu/hlth4000holcombtugman/chapter/lsd-throughout-time/.",
+  "Liechti, M. E. <em>Clinical pharmacology and use of LSD in psychiatry</em>. <em>Neuropsychopharmacology</em>, 2017. nature.com/articles/npp201786.",
+  "MAPS. <em>First LSD Hallucination</em> (investigación en 1950-1960). maps.org/?p=5783.",
+  "Revisión de la investigación clínica con LSD, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC5603820."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Loto azul",
+  "loto-azul"
+ ],
+ "siguiente": [
+  "Mandrágora",
+  "mandragora"
+ ]
+}
