@@ -27,6 +27,7 @@
 <link rel="preload" href="../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../tierra.css?v=20261125a">
+<link rel="stylesheet" href="investigacion.css?v=20261125a">
 </head>
 <body class="guia">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -120,15 +121,46 @@
   </div>
 </header>
 <main id="contenido" class="guia-cuerpo">
-<section class="s-cabeza s-cabeza-sola">
-<div class="s-ancho">
-<div>
-<p class="s-antetitulo"><a href="../">Inicio</a> · Investigación</p>
-<h1>Investigación terapéutica</h1>
-<p class="s-sub-art">Qué se sabe, qué falta por saber y cómo participar en un ensayo clínico con garantías.</p>
-</div>
-</div>
+<!-- apertura:inicio (la escribe scripts/investigacion/apertura.py) -->
+<section class="art-portada iv-portada">
+  <div class="ancho">
+    <div>
+      <span class="mini"><a href="../terapia/">Terapia</a> · Investigación</span>
+      <h1>Investigación <i>terapéutica</i></h1>
+      <p class="entrada">Qué se sabe, qué falta por saber y cómo participar en un ensayo clínico con garantías.</p>
+      <p class="iv-atajos"><a href="#estado-evidencia">La tabla completa</a><a href="#participar">Participar en un ensayo</a><a href="#senales-alarma">Señales de alarma</a><a href="#profesionales">Para profesionales</a></p>
+    </div>
+    <div class="art-dibujo" aria-hidden="true">
+      <div class="mancha"></div><div class="mancha2"></div>
+      <svg viewBox="0 0 100 100" focusable="false">
+        <circle cx="50" cy="50" r="37" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="2.2"/>
+        <path d="M32 66V54M44 66V46M56 66V38M68 66V30" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+        <path d="M28 72h44" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <div class="chip" style="left:-2%;top:10%">13 líneas<small>de investigación, una a una</small></div>
+      <div class="chip" style="right:-2%;bottom:8%">Tres niveles<small>preliminar, prometedora y sólida</small></div>
+    </div>
+  </div>
 </section>
+<section class="s-ancho iv-vistazo" aria-labelledby="iv-t">
+  <div class="iv-cab"><h2 id="iv-t">De un vistazo</h2><p>En qué punto está cada línea. <b>Preliminar:</b> estudios pequeños. <b>Prometedora:</b> al menos un ensayo aleatorizado favorable. <b>Sólida:</b> varios ensayos de fase 3 y aprobación como medicamento. Los criterios y los matices, <a href="#estado-evidencia">más abajo</a>.</p></div>
+  <ul class="iv-mapa">
+<li class="n3"><h3><a href="#depresion-resistente">Depresión resistente</a></h3><p class="iv-sust">Esketamina, ketamina, psilocibina, ayahuasca, 5-MeO-DMT</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Sólida (esketamina); prometedora (psilocibina)</p><p class="iv-fase">Aprobada (esketamina); fase 3 (psilocibina)</p></li>
+<li class="n2"><h3><a href="#depresion-mayor">Depresión mayor</a></h3><p class="iv-sust">Psilocibina, ketamina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</p><p class="iv-fase">Fase 2 (con ensayos de fase 3 en marcha)</p></li>
+<li class="n2"><h3><a href="#tept">Trastorno de estrés postraumático (TEPT)</a></h3><p class="iv-sust">MDMA</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora, con dudas metodológicas</p><p class="iv-fase">Fase 3 (no aprobada por la FDA; se receta en Australia)</p></li>
+<li class="n2"><h3><a href="#alcohol">Trastorno por consumo de alcohol</a></h3><p class="iv-sust">Psilocibina, LSD, ketamina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</p><p class="iv-fase">Fase 2</p></li>
+<li class="n1"><h3><a href="#tabaco">Tabaco</a></h3><p class="iv-sust">Psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 2</p></li>
+<li class="n1"><h3><a href="#opioides">Opioides</a></h3><p class="iv-sust">Ibogaína, ketamina, psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 1–2 y estudios observacionales</p></li>
+<li class="n2"><h3><a href="#final-de-vida">Ansiedad y angustia en enfermedad grave o al final de la vida</a></h3><p class="iv-sust">Psilocibina, LSD</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</p><p class="iv-fase">Fase 2</p></li>
+<li class="n1"><h3><a href="#toc">Trastorno obsesivo-compulsivo (TOC)</a></h3><p class="iv-sust">Psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 1–2</p></li>
+<li class="n1"><h3><a href="#anorexia">Anorexia nerviosa</a></h3><p class="iv-sust">Psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 1–2</p></li>
+<li class="n1"><h3><a href="#cefalea-racimos">Cefalea en racimos</a></h3><p class="iv-sust">Psilocibina, LSD y derivados</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 1–2</p></li>
+<li class="n1"><h3><a href="#bipolar">Trastorno bipolar</a></h3><p class="iv-sust">Psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar; precaución, suele ser criterio de exclusión</p><p class="iv-fase">Estudio piloto abierto</p></li>
+<li class="n1"><h3><a href="#dolor-cronico">Dolor crónico</a></h3><p class="iv-sust">Ketamina, psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 2 (ketamina)</p></li>
+<li class="n1"><h3><a href="#otras">Otras</a></h3><p class="iv-sust">LSD, ibogaína, MDMA, psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Variable</p></li>
+  </ul>
+</section>
+<!-- apertura:fin -->
 
 <div class="s-ancho s-guia">
 <nav class="s-toc" aria-label="Índice">

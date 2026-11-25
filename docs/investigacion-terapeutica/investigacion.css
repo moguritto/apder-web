@@ -1,0 +1,35 @@
+/* Investigación terapéutica: apertura y «De un vistazo» (las escribe scripts/investigacion/apertura.py).
+   Seña de la puerta Terapia: fondo claro, manchas y dibujo, como las guías de terapia. */
+.guia-cuerpo .iv-portada{padding:30px 0 0}
+.guia-cuerpo .iv-portada h1{font-size:clamp(2.7rem,6vw,4.6rem);line-height:1.04;margin:14px 0 20px}
+.iv-portada .mini a{text-decoration:underline;text-underline-offset:3px}
+.iv-atajos{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 0!important}
+.iv-atajos a{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:999px;background:#e3ebe1;color:var(--bosque);font-weight:700;font-size:.93rem;text-decoration:none;transition:background .18s,color .18s}
+.iv-atajos a:hover{background:var(--bosque);color:#fff}
+.iv-atajos a:focus-visible,.iv-mapa a:focus-visible{outline:3px solid var(--tierra-osc);outline-offset:3px}
+.iv-vistazo{padding-top:64px;padding-bottom:56px}
+.iv-cab{display:flex;justify-content:space-between;align-items:flex-end;gap:16px 40px;flex-wrap:wrap;margin-bottom:24px}
+.guia-cuerpo .iv-cab h2{margin:0;font-size:clamp(2rem,4vw,3rem)}
+.iv-cab p{margin:0;max-width:44em;font-size:.95rem;line-height:1.55;color:var(--suave)}
+.iv-cab p b{color:var(--texto)}
+.iv-cab p a{text-decoration:underline;text-underline-offset:3px}
+.guia-cuerpo .iv-mapa{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.iv-mapa li{display:flex;flex-direction:column;margin:0;padding:20px 22px 18px;border-radius:22px;background:#fff;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.iv-mapa li::marker{content:none}
+.guia-cuerpo .iv-mapa h3{margin:0;font-size:1.3rem;line-height:1.2}
+.iv-mapa h3 a{text-decoration:none}
+.iv-mapa h3 a:hover{color:var(--tierra-hondo);text-decoration:underline;text-underline-offset:3px}
+.guia-cuerpo .iv-mapa p{margin:0}
+.iv-mapa .iv-sust{margin-top:6px!important;font-size:.88rem;line-height:1.45;color:var(--suave)}
+.iv-mapa .iv-nivel{display:flex;align-items:flex-start;gap:10px;margin-top:auto!important;padding-top:16px;font-size:.9rem;font-weight:700;line-height:1.35}
+.iv-medidor{flex:none;display:inline-flex;gap:3px;margin-top:5px}
+.iv-medidor i{width:18px;height:8px;border-radius:4px;background:var(--linea)}
+.n1 .iv-medidor i:nth-child(-n+1),.n2 .iv-medidor i:nth-child(-n+2),.n3 .iv-medidor i{background:var(--bosque)}
+.iv-mapa .iv-fase{margin-top:4px!important;padding-left:70px;font-size:.82rem;line-height:1.4;color:var(--suave)}
+@media (max-width:1000px){.guia-cuerpo .iv-mapa{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){
+  .guia-cuerpo .iv-mapa{grid-template-columns:minmax(0,1fr);gap:10px}
+  .iv-vistazo{padding-top:44px;padding-bottom:40px}
+  .iv-atajos a{min-height:44px}
+}
+@media print{.iv-atajos,.iv-portada .art-dibujo{display:none!important}.iv-mapa li{box-shadow:none;border:1px solid #999}}
