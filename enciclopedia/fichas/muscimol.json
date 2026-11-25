@@ -1,0 +1,221 @@
+{
+ "slug": "muscimol",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Muscimol",
+ "cientifico": "5-aminometil-isoxazol-3-ol",
+ "autoridad": "",
+ "descripcion": "Muscimol: principal compuesto psicoactivo de la amanita muscaria, agonista GABA-A con efectos sedantes y alucinógenos; derivado del ácido iboténico.",
+ "entrada": "El muscimol es uno de los principales compuestos psicoactivos de la amanita muscaria y de la amanita pantera. Es un agonista del receptor GABA-A con efectos sedantes y alucinógenos. Se origina por descarboxilación del ácido iboténico, y su uso recreativo y de «microdosis» ha crecido en los años recientes.[1][2][3]",
+ "otros": "agarina · pantherina · ácido piroiboténico",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Agonista GABA-A psicoactivo"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Hongos Amanita de zonas templadas"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Amanita muscaria y A. pantherina"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista del receptor GABA-A"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tradiciones siberianas y micología"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un agonista del GABA",
+  "parrafos": [
+   "Es el principal componente psicoactivo de hongos Amanita como la muscaria y la pantera; en el hongo convive con muscarina en trazas, muscazona y ácido iboténico.[1][2]",
+   "En la amanita muscaria, la capa justo bajo la piel del sombrero contiene la mayor cantidad de muscimol.[1]",
+   "El ácido iboténico actúa como profármaco: se convierte en muscimol al ingerir o secar el hongo.[1]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Agonista GABA-A"
+   ],
+   [
+    "Fuentes",
+    "Amanita muscaria, A. pantherina"
+   ],
+   [
+    "Precursor",
+    "Ácido iboténico"
+   ],
+   [
+    "Efectos",
+    "Sedantes y alucinógenos"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin preparación ni dosis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De la tradición a la tendencia",
+  "parrafos": [
+   "Históricamente se ha usado muy poco como droga recreativa, pero hacia mediados de los años 2020 han aumentado el uso recreativo y la «microdosis» con fines terapéuticos declarados en Estados Unidos y Europa.[2]",
+   "Los efectos de la intoxicación por amanita dependen de varios compuestos, y su historia cultural se trata en la ficha de la amanita muscaria."
+  ],
+  "cronologia": [
+   [
+    "Años 2020",
+    "Aumento del interés recreativo y de microdosis"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Históricamente se ha usado muy poco como droga recreativa, pero hacia mediados de los años 2020 han aumentado el uso recreativo y la «microdosis» con fines terapéuticos declarados en Estados Unidos y Europa.[2]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-muscimol.svg",
+   "alt": "Mapa del hemisferio norte templado.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Zonas donde crecen las amanitas"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Un agonista GABA-A",
+  "parrafos": [
+   "Es un potente agonista del receptor GABA-A, el receptor del principal neurotransmisor inhibidor del cerebro, con afinidad muy alta por GABA-A delta.[3]",
+   "También es agonista parcial de GABA-A rho, y su abanico de efectos resulta de esa combinación.[3]",
+   "Una parte se excreta sin metabolizar en la orina.[3]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Se describe como sedante y alucinógeno.[2]",
+   "Los textos divulgativos añaden que el hongo debe consumirse con precaución y preparado correctamente para reducir las náuseas.[1]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "El muscimol llegó a un ensayo clínico de fase I para epilepsia, que se interrumpió.[3]",
+   "No hay uso clínico establecido."
+  ],
+  "alcance": "Farmacología básica; un ensayo de fase I interrumpido."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Variabilidad",
+    "El contenido varía entre hongos y entre partes del hongo.[1]"
+   ],
+   [
+    "Náuseas",
+    "Se describen náuseas sin preparación adecuada.[1]"
+   ],
+   [
+    "Contexto",
+    "Esta ficha no es una guía de consumo."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "hongo",
+   "Amanita muscaria",
+   "Amanita muscaria",
+   "Su principal fuente.",
+   "enciclopedia/amanita-muscaria/"
+  ],
+  [
+   "hongo",
+   "Amanita pantera",
+   "Amanita pantherina",
+   "Otra fuente.",
+   "enciclopedia/amanita-pantera/"
+  ],
+  [
+   "molecula",
+   "Ácido iboténico",
+   "Su precursor",
+   "Se descarboxila a muscimol.",
+   "enciclopedia/acido-ibotenico/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>Muscimol</em>. wikipedia.com/wiki/Muscimol.",
+  "Wikiwand. <em>Muscimol</em>. wikiwand.com/en/articles/Muscimol.",
+  "Wikipedia (borrador). Muscimol, farmacología y ensayo de fase I. en.wikipedia.com/wiki/User:Jclay3/sandbox/chm275."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Mongui",
+  "mongui"
+ ],
+ "siguiente": [
+  "Nuez de betel",
+  "nuez-de-betel"
+ ]
+}
