@@ -1,0 +1,221 @@
+{
+ "slug": "mitraginina",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "Mitraginina",
+ "cientifico": "alcaloide indólico del kratom",
+ "autoridad": "",
+ "descripcion": "Mitraginina: alcaloide principal del kratom (Mitragyna speciosa); actúa en receptores opioides y adrenérgicos, y se transforma en 7-hidroximitraginina.",
+ "entrada": "La mitraginina es el alcaloide principal del kratom, árbol del sudeste asiático. Interactúa con receptores opioides, adrenérgicos y serotoninérgicos. En el hígado se convierte en 7-hidroximitraginina, agonista opioide mucho más potente. Se estudia por su perfil distinto al de los opioides clásicos.[1][2][4][4]",
+ "otros": "mitragynine · alcaloide del kratom",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Alcaloide indólico psicoactivo"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Sudeste asiático"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Hojas de Mitragyna speciosa"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista parcial opioide μ y acción adrenérgica"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varias horas, según la bibliografía"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tradiciones del sudeste asiático"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "El alcaloide dominante del kratom",
+  "parrafos": [
+   "Las hojas de <em>Mitragyna speciosa</em>, planta del sudeste asiático, se usan tradicionalmente como estimulante, analgésico y para tratar la adicción a opioides.[8]",
+   "El kratom produce más de cuarenta alcaloides estructuralmente emparentados, aunque casi todos los estudios se centran en mitraginina y 7-hidroximitraginina.[4]",
+   "Otro trabajo habla de al menos 54 alcaloides en el kratom.[6]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Alcaloide indólico"
+   ],
+   [
+    "Fuente",
+    "Mitragyna speciosa"
+   ],
+   [
+    "Metabolito",
+    "7-hidroximitraginina"
+   ],
+   [
+    "Diana",
+    "Receptores opioides μ"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "Del uso tradicional a la farmacología",
+  "parrafos": [
+   "La planta se ha usado en el sudeste asiático como estimulante, analgésico y para atenuar la abstinencia de opioides.[8][9]",
+   "El uso de kratom ha aumentado desde 2007, sobre todo en Estados Unidos.[7]",
+   "La seguridad y la eficacia del kratom para el dolor son muy controvertidas.[4]"
+  ],
+  "cronologia": [
+   [
+    "Siglo XXI",
+    "Aumenta el uso en Occidente"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "La planta se ha usado en el sudeste asiático como estimulante, analgésico y para atenuar la abstinencia de opioides.[8][9]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-mitraginina.svg",
+   "alt": "Mapa del sudeste asiático.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Región nativa del kratom"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Opioide parcial con sesgo",
+  "parrafos": [
+   "La mitraginina es agonista parcial del receptor opioide μ (Emax ≈ 40 %), y también se une a receptores adrenérgicos α1 y α2.[7]",
+   "La 7-hidroximitraginina, metabolito formado por enzimas CYP3A, es mucho más potente en el receptor opioide μ; basta su concentración cerebral para explicar casi toda la analgesia opioide de la mitraginina en ratones.[2][8]",
+   "Ambos alcaloides muestran sesgo hacia las vías de proteína G, sin reclutamiento medible de β-arrestina, lo que podría implicar menos depresión respiratoria.[1][9]",
+   "En un estudio en ratas, la mitraginina tuvo menor eficacia en el receptor μ que la 7-hidroximitraginina.[3][5]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Se describen estimulación a dosis bajas, analgesia, mejora del ánimo y relajación.[7][9]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "varias horas, según la bibliografía"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Se evalúa su potencial para trastornos por uso de sustancias y para desarrollar opioides más seguros.[2][7]",
+   "La investigación es sobre todo preclínica."
+  ],
+  "alcance": "Farmacología preclínica; escasa investigación clínica."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Opioide",
+    "Su acción opioide implica riesgo de dependencia y abstinencia."
+   ],
+   [
+    "Seguridad",
+    "Su seguridad y eficacia siguen en debate.[4]"
+   ],
+   [
+    "Interacciones",
+    "Puede interactuar con otros fármacos por metabolismo hepático (CYP3A).[2][4]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Kratom",
+   "Mitragyna speciosa",
+   "Su fuente vegetal.",
+   "enciclopedia/kratom/"
+  ],
+  [
+   "planta",
+   "Kava",
+   "Piper methysticum",
+   "Otra planta del sudeste de Oceanía y Asia con uso social.",
+   "enciclopedia/kava/"
+  ]
+ ],
+ "fuentes": [
+  "Nature Index. <em>Kratom Pharmacology and Opioid Use Disorders</em>. nature.com/nature-index/topics/l4/kratom-pharmacology-and-opioid-use-disorders.",
+  "Metabolismo de la mitraginina y 7-hidroximitraginina, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC8673317.",
+  "Pharmacological Comparison of Mitragynine and 7-Hydroxymitragynine. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC7923387.",
+  "Chemical composition and biological effects of kratom. <em>Scientific Reports</em>, 2020. pubmed.ncbi.nlm.nih.gov/33154449/.",
+  "Mitragynine y 7-hidroximitraginina en ratas. <em>JPET</em>, 2021. pubmed.ncbi.nlm.nih.gov/33384303/.",
+  "Kratom Alkaloids as Probes for Opioid Receptor Function. <em>ACS Chem Neurosci</em>, 2021. pubmed.ncbi.nlm.nih.gov/34213886/.",
+  "Kratom y trastornos por uso de sustancias, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC9910625.",
+  "Mitragynine to 7-hydroxymitragynine, PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC6598159.",
+  "Kratom: mitragynine y 7-hidroximitraginina. pubmed.ncbi.nlm.nih.gov/28830758."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Mescalina",
+  "mescalina"
+ ],
+ "siguiente": [
+  "Mongui",
+  "mongui"
+ ]
+}
