@@ -48,25 +48,37 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - Los generadores de la Enciclopedia y de Quién es quién copian la cabecera de una página publicada y marcan su sección; después de lanzarlos conviene lanzar `scripts/cabecera.py`.
 - Los párrafos más antiguos de este archivo que hablan del menú de cinco entradas con «Aprender» quedan como historia.
 
+## Una seña por puerta del menú (25-11-2026, decisión de Mannu)
+
+Mannu pidió que las secciones no se parezcan tanto entre sí. La cabecera, el pie, las letras y la paleta son comunes; cada puerta tiene su seña:
+
+- **Guías de medicinas** (y «Medicinas por familias»): papel cuadriculado, claro, con la molécula y el **símbolo** de cada guía (Ps, LSD, K…) y un color por familia (teja, azul, verde). **Sin fotos**: en las tarjetas mezclar fotos y moléculas no quedaba bien.
+- **Enciclopedia**: verde pino y fotos. Las fotos son cosa suya.
+- **Biblioteca y Quién es quién**: lacre oscuro; cubiertas en una, monogramas en la otra.
+- **Terapia** (guías de terapia e Investigación terapéutica): fondo claro con manchas e ilustración.
+- **Psiconáutica**: curvas de nivel (la lleva otro chat).
+
+Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
+
 ## Todas las guías (rehecha el 25-11-2026)
 
-- `docs/sustancias/index.html` ya no se edita a mano: sale de `python3 scripts/guias/generar.py` (con `--fotos` rehace además los recortes de `docs/sustancias/img/`; necesita Pillow).
-- Habla el lenguaje de la Enciclopedia en su parte alta (`<div class="enc gui">`, estilos en `docs/sustancias/guias.css`, todo bajo `.gui`): apertura con buscador de guías (por nombre y por apodos), las 19 tarjetas por familias, el esquema «Cuánto dura cada una», cuatro puertas y los créditos de las fotos. Debajo sigue el texto de siempre (`scripts/guias/texto.html`), con los estilos de lectura de `tierra.css`.
+- `docs/sustancias/index.html` ya no se edita a mano: sale de `python3 scripts/guias/generar.py`.
+- Parte alta en `<div class="enc gui">` (estilos en `docs/sustancias/guias.css`, todo bajo `.gui`; de `enciclopedia.css` solo usa la rejilla y el buscador): apertura de cuaderno con buscador de guías (por nombre y por apodos) y la **tabla de símbolos** (una celda por guía, una fila por familia; `SIMBOLOS` en el guion), las 19 tarjetas por familias, el esquema «Cuánto dura cada una» y cuatro puertas. Debajo sigue el texto de siempre (`scripts/guias/texto.html`), con los estilos de lectura de `tierra.css`.
 - Las familias y el orden son los del menú (`MEDICINAS`, en `scripts/cabecera.py`). Familia y duración de cada tarjeta se leen de la ficha de cada guía publicada; el esquema de duraciones usa la tabla `DURA` del guion, copiada a mano de esas fichas (si cambia una duración en una guía, hay que cambiarla ahí). El tabaco no tiene duración en su guía y no sale en el esquema.
-- Cada tarjeta lleva siempre la molécula; once llevan además una foto de la Enciclopedia. Sin foto por ahora: LSD, MDMA, ketamina, 2C-B, 4-AcO-DMT, cannabis, kanna y kratom (las tres últimas son plantas: pendientes de foto).
+- Cada tarjeta lleva la molécula y su símbolo, sin fotos.
 
 ## Plantilla de las guías (25-11-2026)
 
-- Las 20 guías (`docs/sustancias/<guía>/`) abren en verde pino, como las fichas de la Enciclopedia: título grande, apodos, aviso y, a la derecha, la ficha con la molécula y los datos en líneas (familia, vía, inicio, duración). Once llevan además una foto redonda con su crédito. «En pocas palabras» es una sola tarjeta con la pregunta a la izquierda. Los apartados van separados por una línea fina.
+- Las 20 guías (`docs/sustancias/<guía>/`) abren como una hoja de cuaderno, con el color de su familia: título grande, apodos, aviso y, a la derecha, la ficha con el símbolo, la molécula y los datos en líneas (familia, vía, inicio, duración). «En pocas palabras» es una sola tarjeta con la pregunta a la izquierda. Los apartados van separados por una línea fina.
 - Estilos en `docs/sustancias/guia.css` (apertura bajo `.s-cab-guia`, resumen bajo `.s-resumen`). El resto sigue en `tierra.css`.
-- Las guías se siguen escribiendo a mano. `python3 scripts/guias/plantilla.py` pone al día el marcado de esas dos piezas sin tocar el texto y se puede lanzar las veces que haga falta. Guía nueva: copiar una carpeta, cambiar el texto y lanzarlo. Las fotos se eligen en `FOTOS` (`scripts/guias/generar.py`).
+- Las guías se siguen escribiendo a mano. `python3 scripts/guias/plantilla.py` pone al día el marcado de esas dos piezas sin tocar el texto y se puede lanzar las veces que haga falta. Guía nueva: copiar una carpeta, cambiar el texto y lanzarlo. El símbolo de cada guía está en `SIMBOLOS` (`scripts/guias/generar.py`).
 
 ## Biblioteca (rehecha el 25-11-2026)
 
 - **Estilos y código compartidos:** `docs/biblioteca/biblioteca.css` y `docs/biblioteca/biblioteca.js`. Antes iban copiados dentro de cada página (unos 7 KB por ficha); ya no. Arriba del CSS están los estilos de siempre y al final, el diseño nuevo.
 - **Portada del catálogo** (`docs/biblioteca/index.html`): sale de `python3 scripts/biblioteca/portada.py`. Apertura con buscador y abanico de cubiertas (`ABANICO`), «Por dónde empezar» (cuatro rutas de tres libros, `RUTAS`), entradas por tema, medicina e idioma con recuentos, el catálogo con sus filtros y un enlace a Quién es quién. El guion conserva tal cual la lista de libros (`ul#b-lista`) y el árbol de filtros (`aside#b-filtros`) de la página publicada y vuelve a contar: los libros no se editan en el guion.
 - El buscador de la apertura y las entradas mueven los filtros del catálogo sin recargar; si se llega con filtros en la dirección (`?idioma=`, `?cat=`, `?sust=`, `?autor=`, `?q=`, `?orden=`), la página baja sola al catálogo.
-- **Ficha de cada libro** (`docs/biblioteca/<libro>/index.html`, 807): apertura en verde pino con la cubierta, título, autoría y etiquetas; debajo, la descripción y los datos de edición a la izquierda y «Dónde encontrarlo» a la derecha; al final, lecturas relacionadas. `python3 scripts/biblioteca/plantilla.py` recoloca esas piezas sin tocar el texto (comprueba que las palabras de cada ficha son las mismas antes y después; si no, no la escribe) y se puede lanzar las veces que haga falta. Las fichas siguen siendo HTML publicado: un libro nuevo se añade copiando una ficha y su `<li>` en la portada, y lanzando los dos guiones.
+- **Ficha de cada libro** (`docs/biblioteca/<libro>/index.html`, 807): apertura en lacre con la cubierta, título, autoría y etiquetas; debajo, la descripción y los datos de edición a la izquierda y «Dónde encontrarlo» a la derecha; al final, lecturas relacionadas. `python3 scripts/biblioteca/plantilla.py` recoloca esas piezas sin tocar el texto (comprueba que las palabras de cada ficha son las mismas antes y después; si no, no la escribe) y se puede lanzar las veces que haga falta. Las fichas siguen siendo HTML publicado: un libro nuevo se añade copiando una ficha y su `<li>` en la portada, y lanzando los dos guiones.
 - Datos que faltan, a la vista en la portada: el idioma está anotado en 426 de las 807 fichas y hay 262 con imagen de portada; el resto lleva cubierta tipográfica.
 
 ## Portada (rehecha el 24-11-2026)

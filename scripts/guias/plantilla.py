@@ -6,9 +6,9 @@
 Las guías se escriben a mano. Este guion solo pone al día el marcado de dos piezas, sin tocar el texto,
 y se puede lanzar las veces que haga falta (no cambia lo que ya está al día):
 
-- Apertura (`section.s-cabeza` → añade `s-cab-guia`): cada dato de la ficha en su línea
-  (`<p class="s-ficha-dato"><strong>Familia:</strong> <span>…</span></p>`) y, si la guía tiene foto
-  (FOTOS, en scripts/guias/generar.py), la foto y su crédito, leído de CREDITOS.md.
+- Apertura (`section.s-cabeza` → añade `s-cab-guia` y la familia, `f1`, `f2` o `f3`): cada dato de la ficha en su línea
+  (`<p class="s-ficha-dato"><strong>Familia:</strong> <span>…</span></p>`) y el símbolo de la guía en la esquina
+  (SIMBOLOS, en scripts/guias/generar.py). Sin fotos: la seña de las guías es la molécula.
 - «En pocas palabras» (`ul.s-claves` → añade `s-resumen`): el texto de cada punto va en un `<span>`.
 - Enlaza `docs/sustancias/guia.css`, donde están los estilos de las dos piezas.
 
@@ -20,13 +20,14 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from generar import DOCS, FOTOS, creditos  # noqa: E402
+from generar import DOCS, MEDICINAS, SIMBOLOS  # noqa: E402
 
-VERSION = "20261125a"
+VERSION = "20261125b"
+FAMILIA = {slug: i for i, (_, lista) in enumerate(MEDICINAS, 1) for slug, _, _ in lista}
 CSS = f'<link rel="stylesheet" href="../guia.css?v={VERSION}">'
 
 
-def ficha(aside, slug, cred):
+def ficha(aside, slug):
     lineas = []
     for linea in aside.split("\n"):
         m = re.fullmatch(r'<p(?: class="s-ficha-dato")?>(<strong>.*)</p>', linea)
@@ -41,14 +42,11 @@ def ficha(aside, slug, cred):
             lineas.append(f'<p class="s-ficha-dato">{k.group(1)} {valor}</p>')
     aside = "\n".join(lineas)
     aside = re.sub(r'\n<img class="s-foto"[^>]*>', "", aside)
-    aside = re.sub(r'\n<p class="s-foto-cred">.*?</p>', "", aside)
-    if slug in FOTOS:
-        fuente, _, que = FOTOS[slug]
-        autor, url, lic = cred[fuente]
-        lic = "dominio público" if lic.lower() in ("public domain", "cc0") else lic
+    aside = re.sub(r'\n?<p class="s-foto-cred">.*?</p>', "", aside)
+    aside = re.sub(r'\n<span class="s-simbolo"[^>]*>.*?</span>', "", aside)
+    if slug in SIMBOLOS:
         aside = aside.replace('<aside class="s-ficha-mol">',
-                              f'<aside class="s-ficha-mol">\n<img class="s-foto" src="../img/{slug}.webp" alt="{html.escape(que)}" width="520" height="390">', 1)
-        aside = aside.replace("</aside>", f'<p class="s-foto-cred">Foto: <a href="{html.escape(url)}" rel="noopener">{html.escape(autor)}</a>, {lic}</p>\n</aside>')
+                              f'<aside class="s-ficha-mol">\n<span class="s-simbolo" aria-hidden="true">{SIMBOLOS[slug]}</span>', 1)
     return aside
 
 
@@ -62,13 +60,12 @@ def claves(ul):
 
 
 def main():
-    cred = creditos()
     n = 0
     for f in sorted((DOCS / "sustancias").glob("*/index.html")):
         slug = f.parent.name
         s = antes = f.read_text(encoding="utf-8")
-        s = s.replace('<section class="s-cabeza">', '<section class="s-cabeza s-cab-guia">', 1)
-        s = re.sub(r'<aside class="s-ficha-mol">.*?</aside>', lambda m: ficha(m.group(0), slug, cred), s, count=1, flags=re.S)
+        s = re.sub(r'<section class="s-cabeza[^"]*">', f'<section class="s-cabeza s-cab-guia f{FAMILIA.get(slug, 0)}">', s, count=1)
+        s = re.sub(r'<aside class="s-ficha-mol">.*?</aside>', lambda m: ficha(m.group(0), slug), s, count=1, flags=re.S)
         s = s.replace('<ul class="s-claves">', '<ul class="s-claves s-resumen">', 1)
         s = re.sub(r'<ul class="s-claves s-resumen">.*?</ul>', lambda m: claves(m.group(0)), s, count=1, flags=re.S)
         s = re.sub(r'<link rel="stylesheet" href="\.\./guia\.css[^>]*>\n?', "", s)

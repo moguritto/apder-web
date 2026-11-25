@@ -21,7 +21,7 @@ from urllib.parse import quote
 RAIZ = Path(__file__).resolve().parent.parent.parent
 DOCS = RAIZ / "docs"
 PAG = DOCS / "biblioteca" / "index.html"
-VERSION = "20261125a"
+VERSION = "20261125b"
 
 # abanico de portadas de la apertura (deben tener imagen de portada)
 ABANICO = ["vida-de-maria-sabina", "the-psychedelic-explorer-s-guide", "how-to-change-your-mind",

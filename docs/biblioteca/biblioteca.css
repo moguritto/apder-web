@@ -241,10 +241,16 @@ a.bx-portada{text-decoration:none!important}
 /* ==========================================================================
    Biblioteca · diseño del 25-11-2026 (se suma a lo anterior)
    Portada: scripts/biblioteca/portada.py · Fichas: scripts/biblioteca/plantilla.py
+   Seña de la Biblioteca (y de Quién es quién): lacre oscuro y cubiertas. La Enciclopedia es verde pino; las guías, papel cuadriculado.
    ========================================================================== */
 
 /* ---------- portada: apertura con abanico de cubiertas ---------- */
+.bib,.lb2{--lacre:#5c2412;--lacre-2:#813a1d;--lacre-3:#431709;--oro:#e1ba71;--oro-claro:#ebcc92}
 .bib [hidden]{display:none!important}
+.bib .e-portada{background:radial-gradient(ellipse at 72% 42%,var(--lacre-2),var(--lacre) 62%,var(--lacre-3));color:#f8eede}
+.bib .e-intro{color:#f1e0cf}
+.bib .e-atajos{color:#e6cdb8}
+.bib .e-atajos a{border-color:rgba(255,255,255,.3);color:#fbf1e2}
 .bib .e-portada h1{font-size:clamp(2.8rem,6cqw,5.4rem)}
 .bib .e-busca{padding-right:8px}
 .bib .e-busca input:focus{outline:0}
@@ -284,17 +290,17 @@ a.bx-portada{text-decoration:none!important}
 .bib .bh-lista a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:46px;padding:6px 16px;border-radius:14px;background:#fffdf7;text-decoration:none;font-weight:600;font-size:.95rem;line-height:1.25;transition:background .18s,color .18s}
 .bib .bh-lista.bh-corta a{border-radius:999px;min-height:42px}
 .bib .bh-lista a small{flex:none;font-size:.8rem;font-weight:700;color:var(--tierra-osc);font-variant-numeric:tabular-nums}
-.bib .bh-lista a:hover{background:var(--pino);color:#f5efdb}
+.bib .bh-lista a:hover{background:var(--lacre);color:#f8eede}
 .bib .bh-lista a:hover small{color:var(--oro-claro)}
 .bib .bh-lista a:focus-visible,.bib .bh-ruta a:focus-visible,.bib .bh-personas:focus-visible{outline:3px solid var(--tierra-osc);outline-offset:2px}
 .bib .bh-nota{margin:14px 0 0;font-size:.82rem;line-height:1.45;color:var(--suave)}
 .bib .bh-catalogo{padding-bottom:0}
 .bib .bh-catalogo .e-cab{margin-bottom:10px}
 .bib-cat .bx{padding-top:8px;scroll-margin-top:84px}
-.bib-fin .bh-personas{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:10px;padding:28px 32px;border-radius:26px;background:var(--pino);color:#f5efdb;text-decoration:none;transition:background .2s}
-.bib-fin .bh-personas:hover{background:var(--pino-2)}
+.bib-fin .bh-personas{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:10px;padding:28px 32px;border-radius:26px;background:var(--lacre);color:#f5efdb;text-decoration:none;transition:background .2s}
+.bib-fin .bh-personas:hover{background:var(--lacre-2)}
 .bib-fin .bh-personas b{display:block;font-family:var(--serif);font-weight:400;font-size:1.7rem;line-height:1.15;color:var(--oro-claro)}
-.bib-fin .bh-personas small{display:block;margin-top:8px;max-width:46em;font-size:.98rem;line-height:1.5;color:#dfe3d3}
+.bib-fin .bh-personas small{display:block;margin-top:8px;max-width:46em;font-size:.98rem;line-height:1.5;color:#f1e0cf}
 .bib-fin .bh-personas i{flex:none;width:12px;height:12px;border-top:2px solid var(--oro);border-right:2px solid var(--oro);transform:rotate(45deg);margin-right:6px}
 
 /* ---------- catálogo: tarjetas y filtros con el mismo aire ---------- */
@@ -327,26 +333,25 @@ a.bx-portada{text-decoration:none!important}
 @media print{.bib .e-busca,.bib .e-atajos,.bib .bh-abanico,.bib .bh-entradas{display:none!important}}
 
 /* ---------- ficha de libro ---------- */
-.lb2{--pino:#132923;--pino-2:#1f3a30;--oro:#e1ba71;--oro-claro:#ebcc92}
 .guia-cuerpo .lb.lb2{padding:0}
-.lb2 .lb-cab{padding:34px 0 0;border-radius:0 0 40px 40px;background:radial-gradient(ellipse at 22% 46%,var(--pino-2),var(--pino) 62%,#0f221d);color:#f5efdb}
+.lb2 .lb-cab{padding:34px 0 0;border-radius:0 0 40px 40px;background:radial-gradient(ellipse at 22% 46%,var(--lacre-2),var(--lacre) 62%,var(--lacre-3));color:#f8eede}
 .lb2 .lb-cab .s-antetitulo{color:var(--oro);margin:0 0 26px}
 .lb2 .lb-cab .s-antetitulo a{color:inherit}
 .lb2 .lb-top{display:grid;grid-template-columns:230px minmax(0,1fr);grid-template-areas:none;grid-template-rows:auto;gap:52px;align-items:end;margin:0}
 .lb2 .lb-col-portada{grid-area:auto;flex:none;max-width:none;margin-bottom:-46px}
 .lb2 .lb-col-portada.lb-con-pie{margin-bottom:0;padding-bottom:30px}
 .lb2 .lb-col-portada.lb-con-pie+.lb-info{align-self:center;padding-bottom:30px}
-.lb2 .lb-col-portada .lb-aviso{margin:10px 0 0!important;font-size:.72rem;line-height:1.35;color:#cdd2c2}
+.lb2 .lb-col-portada .lb-aviso{margin:10px 0 0!important;font-size:.72rem;line-height:1.35;color:#e6cdb8}
 .lb2 .lb-portada{margin:0;border-radius:4px;box-shadow:0 0 0 1px rgba(0,0,0,.25),0 30px 50px -18px rgba(0,0,0,.75)}
 .lb2 .lb-portada:not(.con-img){padding:22px 18px}
 .lb2 .lb-portada .bx-pt{font-size:1.55rem}.lb2 .lb-portada .bx-pa{font-size:.62rem}
 .lb2 .lb-info{grid-area:auto;max-width:none;padding-bottom:44px}
 .guia-cuerpo .lb2 .lb-info h1{font-size:clamp(2.3rem,4.8vw,4rem);line-height:1.02;margin:0 0 .22em;color:#fbf6e6;text-wrap:balance}
-.lb2 .lb-sub{font-family:var(--serif);font-size:1.4rem;line-height:1.3;color:#e3e5d7;margin:0 0 .7em!important;max-width:30em}
+.lb2 .lb-sub{font-family:var(--serif);font-size:1.4rem;line-height:1.3;color:#f1e0cf;margin:0 0 .7em!important;max-width:30em}
 .lb2 .lb-autor{font-family:var(--serif);font-style:italic;font-size:1.45rem;line-height:1.3;color:var(--oro-claro);margin:0!important}
-.lb2 .lb-meta{margin:6px 0 0!important;font-size:.98rem;color:#cdd2c2}
+.lb2 .lb-meta{margin:6px 0 0!important;font-size:.98rem;color:#e6cdb8}
 .lb2 .lb-tags{gap:8px;margin:18px 0 0!important}
-.guia-cuerpo .lb2 .lb-tags a{display:inline-flex;align-items:center;min-height:34px;padding:0 14px;border:1px solid #47604f;border-radius:999px;background:none;font-size:.86rem;color:#f0ead6}
+.guia-cuerpo .lb2 .lb-tags a{display:inline-flex;align-items:center;min-height:34px;padding:0 14px;border:1px solid rgba(255,255,255,.3);border-radius:999px;background:none;font-size:.86rem;color:#fbf1e2}
 .guia-cuerpo .lb2 .lb-tags a:hover{background:none;border-color:var(--oro);color:#fff}
 .lb2 .lb-bajo{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:56px;align-items:start;padding-top:86px;padding-bottom:10px}
 .lb2 .lb-bajo.sin-datos{grid-template-columns:minmax(0,1fr)}
@@ -363,7 +368,7 @@ a.bx-portada{text-decoration:none!important}
 .guia-cuerpo .lb2 .lb-caja h2{font-family:var(--serif);font-weight:400;font-size:1.5rem;letter-spacing:0;text-transform:none;color:var(--texto);margin:0 0 4px}
 .guia-cuerpo .lb2 .lb-caja h3{font-family:var(--sans);font-weight:700;font-size:.9rem;letter-spacing:0;text-transform:none;color:var(--texto);margin:10px 0 0}
 .guia-cuerpo .lb2 .lb-caja .btn{display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:0 18px;border-radius:14px;background:#fffdf7;color:var(--texto);font-weight:700;font-size:.93rem;text-decoration:none;transition:background .18s,color .18s}
-.guia-cuerpo .lb2 .lb-caja .btn:hover{background:var(--pino);color:#f5efdb}
+.guia-cuerpo .lb2 .lb-caja .btn:hover{background:var(--lacre);color:#f8eede}
 .guia-cuerpo .lb2 .lb-caja .btn::after{content:"";flex:none;width:8px;height:8px;margin-left:12px;border-top:2px solid var(--tierra-osc);border-right:2px solid var(--tierra-osc);transform:rotate(45deg)}
 .guia-cuerpo .lb2 .lb-caja .btn:hover::after{border-color:var(--oro)}
 .lb2 .lb-caja p{font-size:.84rem;line-height:1.5}

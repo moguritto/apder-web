@@ -2,7 +2,6 @@
 """Página «Todas las guías» (docs/sustancias/index.html).
 
   python3 scripts/guias/generar.py            escribe la página
-  python3 scripts/guias/generar.py --fotos    además rehace los recortes de docs/sustancias/img/ (necesita Pillow)
 
 De dónde sale cada cosa:
 - Las guías y sus familias: MEDICINAS, en scripts/cabecera.py (las mismas del menú).
@@ -12,7 +11,7 @@ De dónde sale cada cosa:
   de esa misma ficha. Si cambia la duración de una guía, hay que cambiarla también ahí.
 - El texto largo (qué son, cómo se usan, tipos, riesgos, si algo va mal, preguntas): scripts/guias/texto.html.
 - Cabecera, pie y <head>: se conservan los de la página publicada (la cabecera la escribe scripts/cabecera.py).
-- Fotos: recortes de docs/enciclopedia/img/ (FOTOS). El autor y la licencia se leen de CREDITOS.md.
+- Sin fotos: la seña de las guías es la molécula y su símbolo (SIMBOLOS). Las fotos son cosa de la Enciclopedia.
 """
 import html
 import math
@@ -27,7 +26,7 @@ from cabecera import MEDICINAS  # noqa: E402
 
 DOCS = RAIZ / "docs"
 PAG = DOCS / "sustancias" / "index.html"
-VERSION = "20261125a"
+VERSION = "20261125b"
 
 ANCLAS = ["clasicos", "otras", "plantas"]
 ENTRADILLAS = [
@@ -36,25 +35,14 @@ ENTRADILLAS = [
     "Plantas y hongos de acción muy distinta entre sí. Varias no son psicodélicos: cada guía explica qué es y qué cuidados pide.",
 ]
 
-# foto de cada guía: (origen en docs/enciclopedia/img, caja x0,y0,x1,y1 en fracciones, qué se ve)
-FOTOS = {
-    "psilocibina":      ("idx-psilocybe.jpg", (0.00, 0.02, 1.00, 0.54), "Monguis (Psilocybe semilanceata)"),
-    "mescalina":        ("idx-peyote.jpg",    (0.00, 0.00, 1.00, 1.00), "Peyote en flor"),
-    "dmt":              ("aya-chacruna.jpg",  (0.00, 0.00, 1.00, 1.00), "Hojas de chacruna"),
-    "ayahuasca":        ("aya-liana.jpg",     (0.05, 0.00, 0.95, 1.00), "Liana de ayahuasca"),
-    "5-meo-dmt":        ("idx-sapo.jpg",      (0.06, 0.00, 0.94, 1.00), "Sapo del desierto de Sonora"),
-    "ibogaina":         ("idx-iboga.jpg",     (0.00, 0.22, 1.00, 0.72), "Arbusto de iboga con frutos"),
-    "amanita-muscaria": ("ama-hero.jpg",      (0.14, 0.04, 0.86, 0.85), "Matamoscas en el bosque"),
-    "salvia-divinorum": ("idx-salvia.jpg",    (0.02, 0.00, 0.90, 1.00), "Flor de Salvia divinorum"),
-    "datura":           ("idx-datura.jpg",    (0.00, 0.12, 1.00, 0.87), "Flor de datura"),
-    "cacao":            ("idx-cacao.jpg",     (0.00, 0.12, 1.00, 0.87), "Fruto de cacao abierto"),
-    "tabaco":           ("idx-tabaco.jpg",    (0.06, 0.00, 0.94, 1.00), "Tabaco rústico (mapacho) en flor"),
+# símbolo de cada guía, para la tabla de la apertura y la esquina de su ficha (como en una tabla de elementos)
+SIMBOLOS = {
+    "psilocibina": "Ps", "lsd": "LSD", "mescalina": "Me", "dmt": "DMT", "ayahuasca": "Ay", "5-meo-dmt": "5-MeO",
+    "mdma": "MDMA", "ketamina": "K", "ibogaina": "Ib", "2c-b": "2C-B", "4-aco-dmt": "4-AcO",
+    "amanita-muscaria": "Am", "salvia-divinorum": "Sa", "cannabis": "Ca", "kanna": "Kn", "kratom": "Kr",
+    "datura": "Da", "cacao": "Cc", "tabaco": "Tb", "microdosis": "μ",
 }
-ORBITAS = [
-    ("orb-1.webp", "idx-psilocybe.jpg", (0.00, 0.00, 1.00, 0.70), 520, "Monguis de sombrero puntiagudo sobre la hierba."),
-    ("orb-2.webp", "idx-sanpedro.jpg",  (0.00, 0.05, 1.00, 0.80), 280, "Columnas verdes del cactus San Pedro."),
-    ("orb-3.webp", "idx-salvia.jpg",    (0.02, 0.00, 0.69, 1.00), 240, "Flor blanca y violeta de Salvia divinorum."),
-]
+NOMBRES_CORTOS = {"psilocibina": "Psilocibina", "mescalina": "Mescalina", "amanita-muscaria": "Amanita", "salvia-divinorum": "Salvia"}
 
 # duración en minutos para el esquema: (mínimo, máximo, «hasta» o None, abierta por arriba)
 DURA = {
@@ -97,44 +85,6 @@ def leer_guia(slug):
             "via": datos.get("Vía habitual", ""), "inicio": datos.get("Inicio", "")}
 
 
-def creditos():
-    """autor (con enlace) y licencia de cada foto de origen, leídos de CREDITOS.md"""
-    out = {}
-    for fila in (RAIZ / "CREDITOS.md").read_text(encoding="utf-8").splitlines():
-        m = re.match(r"\| `docs/enciclopedia/img/([^`]+)` \|[^|]*\| (.*?) · \[Wikimedia Commons\]\((.*?)\) \| ([^|]+) \|", fila)
-        if m:
-            out[m.group(1)] = (re.sub(r"\[\d+\]", "", m.group(2)).strip(), m.group(3), m.group(4).strip())
-    return out
-
-
-def hacer_fotos():
-    from PIL import Image
-    origen = DOCS / "enciclopedia" / "img"
-    salida = DOCS / "sustancias" / "img"
-    salida.mkdir(exist_ok=True)
-
-    def recorte(nombre, fuente, caja, ancho, proporcion=None, calidad=76):
-        im = Image.open(origen / fuente).convert("RGB")
-        w, h = im.size
-        x0, y0, x1, y1 = caja
-        im = im.crop((round(x0 * w), round(y0 * h), round(x1 * w), round(y1 * h)))
-        if proporcion:                                   # recorte centrado a la proporción pedida
-            w, h = im.size
-            if w / h > proporcion:
-                n = round(h * proporcion); im = im.crop(((w - n) // 2, 0, (w - n) // 2 + n, h))
-            else:
-                n = round(w / proporcion); im = im.crop((0, (h - n) // 2, w, (h - n) // 2 + n))
-        if im.width > ancho:
-            im = im.resize((ancho, round(im.height * ancho / im.width)), Image.LANCZOS)
-        im.save(salida / nombre, "WEBP", quality=calidad, method=6)
-        print(f"{nombre:24s} {im.width}x{im.height} {(salida / nombre).stat().st_size // 1024} KB")
-
-    for slug, (fuente, caja, _) in FOTOS.items():
-        recorte(slug + ".webp", fuente, caja, 520, 4 / 3)
-    for nombre, fuente, caja, ancho, _ in ORBITAS:
-        recorte(nombre, fuente, caja, ancho, 1)
-
-
 RELOJ = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>'
 LUPA = '<svg class="ico peq" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4 4"></path></svg>'
 
@@ -142,11 +92,7 @@ LUPA = '<svg class="ico peq" viewBox="0 0 24 24" aria-hidden="true"><circle cx="
 def tarjeta(slug, mol, nombre, g):
     e = html.escape
     busca = sin_acentos(" ".join([nombre, g["alias"], g["familia_larga"], slug]))
-    if slug in FOTOS:
-        fig = (f'<span class="g-fig foto"><img src="img/{slug}.webp" alt="" width="520" height="390" loading="lazy" decoding="async">'
-               f'<img class="g-mol" src="moleculas/{mol}.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span>')
-    else:
-        fig = f'<span class="g-fig"><img class="g-mol" src="moleculas/{mol}.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span>'
+    fig = f'<span class="g-fig"><img class="g-mol" src="moleculas/{mol}.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><i class="g-sim" aria-hidden="true">{SIMBOLOS[slug]}</i></span>'
     dur = f'<span class="g-dur">{RELOJ}{e(g["dur_corta"])}</span>' if g["dur_corta"] else ""
     return (f'<li><a class="g-guia" href="{slug}/" data-b="{e(busca)}">{fig}'
             f'<span class="g-txt"><b>{e(nombre)}</b><small>{e(g["alias"])}</small></span>'
@@ -163,7 +109,6 @@ def construir():
     css_enc = re.search(r'enciclopedia\.css\?v=[0-9a-z]+', (DOCS / "enciclopedia" / "index.html").read_text(encoding="utf-8"))
     cabeza = cabeza.replace('<link rel="stylesheet" href="../tierra.css',
                             '<link rel="preload" href="../fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>\n'
-                            '<link rel="preload" href="img/orb-1.webp" as="image" type="image/webp" fetchpriority="high">\n'
                             '<link rel="stylesheet" href="../tierra.css')
     cabeza += (f'<link rel="stylesheet" href="../enciclopedia/{css_enc.group(0) if css_enc else "enciclopedia.css"}">\n'
                f'<link rel="stylesheet" href="guias.css?v={VERSION}">\n')
@@ -195,17 +140,17 @@ def construir():
     marcas = "".join(f'<span style="--a:{x(m)}">{t}</span>' for m, t in MARCAS)
     sin_dato = [g["nombre"] for s, g in guias.items() if s not in DURA]
 
-    cred = creditos()
-    usadas = {}
-    for slug, (fuente, _, que) in FOTOS.items():
-        usadas.setdefault(fuente, que)
-    for _, fuente, _, _, _ in ORBITAS:
-        usadas.setdefault(fuente, {"idx-sanpedro.jpg": "San Pedro"}.get(fuente, fuente))
-    lineas = []
-    for fuente, que in usadas.items():
-        autor, url, lic = cred[fuente]
-        lic = "dominio público" if lic.lower() in ("public domain", "cc0") else lic
-        lineas.append(f'{que}: <a href="{html.escape(url)}" rel="noopener">{html.escape(autor)}</a>, {lic}.')
+    # tabla de la apertura: una celda por guía, una fila por familia
+    celdas = []
+    for i, (_, lista) in enumerate(MEDICINAS):
+        for j, (slug, _, nombre) in enumerate(lista):
+            g = guias[slug]
+            sim = SIMBOLOS[slug]
+            corto = NOMBRES_CORTOS.get(slug, nombre)
+            nueva = " g-fila" if j == 0 else ""
+            celdas.append(f'<a class="f{i + 1} l{min(len(sim), 4)}{nueva}" href="{slug}/" aria-label="{html.escape(nombre)}">'
+                          f'<small>{html.escape(g["dur_corta"])}</small><b>{sim}</b><span>{html.escape(corto)}</span></a>')
+    tabla = "".join(celdas)
 
     texto = (RAIZ / "scripts" / "guias" / "texto.html").read_text(encoding="utf-8").strip()
 
@@ -216,7 +161,7 @@ def construir():
 <p class="e-intro">Qué son, cómo actúan, qué dice la investigación y cómo reducir riesgos. En español, sin alarmismo y sin idealizarlas.</p>
 <label class="e-busca">{LUPA}<input type="search" id="g-busca" aria-label="Buscar una guía por nombre" placeholder="Setas, ácido, yagé, MDMA…" autocomplete="off"></label>
 <p class="e-atajos">Ir a <a href="#clasicos">Psicodélicos clásicos</a><a href="#otras">Otras medicinas</a><a href="#plantas">Plantas y hongos</a><a href="#duracion">Cuánto dura cada una</a></p></div>
-<figure class="e-orbitas"><div class="orb orb-1"><img src="img/orb-1.webp" alt="{ORBITAS[0][4]}" width="520" height="520" fetchpriority="high"></div><div class="orb orb-2"><img src="img/orb-2.webp" alt="{ORBITAS[1][4]}" width="280" height="280"></div><div class="orb orb-3"><img src="img/orb-3.webp" alt="{ORBITAS[2][4]}" width="240" height="240"></div><span class="chispa a" aria-hidden="true">✧</span><span class="chispa b" aria-hidden="true">✧</span><figcaption>Monguis · San Pedro · Salvia divinorum</figcaption></figure>
+<nav class="g-tabla" aria-label="Las guías, de un vistazo">{tabla}<p class="g-tabla-pie"><span class="f1">Psicodélicos clásicos</span><span class="f2">Otras medicinas</span><span class="f3">Plantas y hongos</span></p></nav>
 </div></section>
 
 <section class="e-sec ancho" id="guias">
@@ -242,12 +187,11 @@ def construir():
 <div class="g-puertas">
 <a href="microdosis/"><b>Microdosis</b><span>Qué es, qué se sabe y qué no. Sin cifras ni pautas.</span></a>
 <a href="../medicinas/"><b>Medicinas por familias</b><span>Triptaminas, fenetilaminas, disociativos y el resto, en un solo artículo.</span></a>
-<a href="../enciclopedia/"><b>Enciclopedia de medicinas</b><span>La planta, el hongo o el animal: origen, territorio y cultura.</span></a>
+<a class="g-enci" href="../enciclopedia/"><b>Enciclopedia de medicinas</b><span>La planta, el hongo o el animal: origen, territorio y cultura.</span></a>
 <a href="../terapia/"><b>Guías de terapia</b><span>Cómo es un proceso terapéutico con cada medicina, según la investigación.</span></a>
 </div>
 <nav class="g-indice" aria-label="En esta página"><b>Y debajo, para situarse</b><a href="#que-son">¿Qué son?</a><a href="#usos">¿Cómo se usan?</a><a href="#tipos">Tipos</a><a href="#riesgos">Riesgos</a><a href="#si-algo-va-mal">Si algo va mal</a><a href="#preguntas">Preguntas frecuentes</a></nav>
 </section>
-<aside class="g-fotos ancho"><p><b>Fotografías.</b> {" ".join(lineas)} Recortadas; cada una conserva su licencia.</p></aside>
 </div>
 
 <div class="guia-cuerpo g-leer">
@@ -281,6 +225,4 @@ filtra()}})();
 
 
 if __name__ == "__main__":
-    if "--fotos" in sys.argv:
-        hacer_fotos()
     construir()
