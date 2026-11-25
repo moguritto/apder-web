@@ -1,0 +1,60 @@
+/* Guías de medicinas (docs/sustancias/<guía>/): apertura y «En pocas palabras».
+   Se suma a tierra.css. El marcado lo pone al día scripts/guias/plantilla.py. */
+.s-cab-guia{--pino:#132923;--pino-2:#1f3a30;--oro:#e1ba71;--oro-claro:#ebcc92;--papel:#fffdf7}
+
+/* apertura en verde pino, como las fichas de la Enciclopedia */
+.guia-cuerpo .s-cab-guia{padding:54px 0 62px;margin-bottom:54px;border-radius:0 0 40px 40px;background:radial-gradient(ellipse at 76% 40%,var(--pino-2),var(--pino) 62%,#0f221d);color:#f5efdb}
+.s-cab-guia .s-ancho{grid-template-columns:minmax(0,1fr) 372px;gap:64px;align-items:center}
+.s-cab-guia .s-antetitulo{color:var(--oro)}
+.s-cab-guia .s-antetitulo a{color:inherit}
+.guia-cuerpo .s-cab-guia h1{font-size:clamp(3rem,6.6vw,5.6rem);line-height:.98;letter-spacing:-.015em;margin:.22em 0 .2em;color:#fbf6e6;text-wrap:balance}
+.s-cab-guia .s-alias{font-style:italic;font-size:1.5rem;line-height:1.3;color:var(--oro-claro);margin:0 0 1.3em;max-width:26em}
+.s-cab-guia .s-alias em{font-style:normal}
+.s-cab-guia .s-nota{max-width:560px;margin:0;padding:14px 18px;border-left:3px solid var(--oro);border-radius:0 14px 14px 0;background:rgba(255,255,255,.07);color:#e3e5d7;font-size:.98rem;line-height:1.55;box-shadow:none}
+
+/* ficha: molécula, fórmula y datos en líneas */
+.s-cab-guia .s-ficha-mol{position:relative;padding:26px 26px 20px;border-radius:30px;background:var(--papel);color:var(--texto);text-align:left;box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.s-cab-guia .s-ficha-mol>img:not(.s-foto){width:210px;margin:0 auto 6px}
+.s-cab-guia .s-ficha-mol .s-formula{text-align:center;font-size:1.55rem;margin:0 0 .15em}
+.s-cab-guia .s-ficha-mol>p:not([class]){text-align:center;font-size:.9rem;line-height:1.45;margin:0 0 16px;text-wrap:balance}
+.s-cab-guia .s-ficha-dato{display:grid;grid-template-columns:104px minmax(0,1fr);gap:12px;padding:9px 0;border-top:1px solid var(--arena);font-size:.92rem;line-height:1.4;color:var(--texto)}
+.s-cab-guia .s-ficha-dato strong{font-weight:700;color:var(--suave)}
+.s-cab-guia .s-ficha-dato span::first-letter{text-transform:uppercase}
+.s-cab-guia .s-foto{position:absolute;top:-34px;left:-46px;width:128px;height:128px;margin:0;border-radius:50%;object-fit:cover;box-shadow:0 0 0 6px var(--pino),0 0 0 7px rgba(225,186,113,.6)}
+.s-cab-guia .s-ficha-mol .s-foto-cred{margin:10px 0 0;padding-top:10px;border-top:1px solid var(--arena);font-size:.74rem;line-height:1.4;color:var(--suave)}
+.s-cab-guia .s-foto-cred a{text-decoration:underline;text-underline-offset:2px}
+.s-cab-guia+.s-guia nav.s-toc{top:96px}
+
+/* En pocas palabras: una sola tarjeta, con la pregunta a la izquierda */
+.s-claves.s-resumen{display:block;margin:0 0 2em;padding:6px 26px;border-radius:24px;background:#fff;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.s-claves.s-resumen li{display:grid;grid-template-columns:178px minmax(0,1fr);gap:22px;margin:0;padding:15px 0;border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--arena)}
+.s-claves.s-resumen li:first-child{border-top:0}
+.s-claves.s-resumen li strong{font-family:var(--serif);font-weight:400;font-size:1.18rem;line-height:1.25;color:var(--tierra-osc)}
+
+/* un respiro entre apartados largos */
+.s-cab-guia+.s-guia .s-cuerpo>h2{margin-top:1.7em;padding-top:1.1em;border-top:1px solid var(--linea)}
+.s-cab-guia+.s-guia .s-cuerpo>h2:first-of-type{margin-top:0;padding-top:0;border-top:0}
+
+@media (max-width:1100px){
+  .s-cab-guia .s-ancho{grid-template-columns:minmax(0,1fr) 340px;gap:44px}
+  .s-cab-guia .s-foto{left:-30px;width:108px;height:108px}
+}
+@media (max-width:900px){
+  .guia-cuerpo .s-cab-guia{padding:30px 0 40px;margin-bottom:34px;border-radius:0 0 28px 28px}
+  .s-cab-guia .s-ancho{grid-template-columns:minmax(0,1fr);gap:44px}
+  .s-cab-guia .s-alias{font-size:1.25rem}
+  .s-cab-guia .s-ficha-mol{max-width:420px;padding:22px 22px 18px}
+  .s-cab-guia .s-ficha-mol>img:not(.s-foto){width:170px}
+  .s-cab-guia .s-foto{top:-28px;left:auto;right:-6px;width:96px;height:96px}
+}
+@media (max-width:640px){
+  .s-claves.s-resumen{padding:4px 20px}
+  .s-claves.s-resumen li{grid-template-columns:minmax(0,1fr);gap:4px;padding:14px 0}
+}
+@media print{
+  .guia-cuerpo .s-cab-guia{background:none;color:#000;padding:0;margin:0;border-radius:0}
+  .guia-cuerpo .s-cab-guia h1,.s-cab-guia .s-alias,.s-cab-guia .s-antetitulo,.s-cab-guia .s-nota{color:#000}
+  .s-cab-guia .s-nota{background:none}
+  .s-cab-guia .s-foto,.s-cab-guia .s-foto-cred{display:none}
+  .s-cab-guia .s-ficha-mol{box-shadow:none}
+}

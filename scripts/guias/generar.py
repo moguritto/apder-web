@@ -85,7 +85,7 @@ def sin_acentos(t):
 def leer_guia(slug):
     s = (DOCS / "sustancias" / slug / "index.html").read_text(encoding="utf-8")
     caja = re.search(r'<aside class="s-ficha-mol">.*?</aside>', s, re.S).group(0)
-    datos = {limpio(a).rstrip(":"): limpio(b) for a, b in re.findall(r"<strong>([^<]*:)</strong>\s*([^<·]*)", caja)}
+    datos = {limpio(a).rstrip(":"): limpio(b) for a, b in re.findall(r"<strong>([^<]*:)</strong>\s*(?:<span>)?([^<·]*)", caja)}
     alias = limpio(re.search(r'<p class="s-alias[^"]*">(.*?)</p>', s, re.S).group(1)).strip("()")
     familia = datos.get("Familia") or datos.get("Tipo") or ""
     corta = re.split(r"[(;]", familia)[0].strip()

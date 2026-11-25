@@ -55,6 +55,12 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - Las familias y el orden son los del menú (`MEDICINAS`, en `scripts/cabecera.py`). Familia y duración de cada tarjeta se leen de la ficha de cada guía publicada; el esquema de duraciones usa la tabla `DURA` del guion, copiada a mano de esas fichas (si cambia una duración en una guía, hay que cambiarla ahí). El tabaco no tiene duración en su guía y no sale en el esquema.
 - Cada tarjeta lleva siempre la molécula; once llevan además una foto de la Enciclopedia. Sin foto por ahora: LSD, MDMA, ketamina, 2C-B, 4-AcO-DMT, cannabis, kanna y kratom (las tres últimas son plantas: pendientes de foto).
 
+## Plantilla de las guías (25-11-2026)
+
+- Las 20 guías (`docs/sustancias/<guía>/`) abren en verde pino, como las fichas de la Enciclopedia: título grande, apodos, aviso y, a la derecha, la ficha con la molécula y los datos en líneas (familia, vía, inicio, duración). Once llevan además una foto redonda con su crédito. «En pocas palabras» es una sola tarjeta con la pregunta a la izquierda. Los apartados van separados por una línea fina.
+- Estilos en `docs/sustancias/guia.css` (apertura bajo `.s-cab-guia`, resumen bajo `.s-resumen`). El resto sigue en `tierra.css`.
+- Las guías se siguen escribiendo a mano. `python3 scripts/guias/plantilla.py` pone al día el marcado de esas dos piezas sin tocar el texto y se puede lanzar las veces que haga falta. Guía nueva: copiar una carpeta, cambiar el texto y lanzarlo. Las fotos se eligen en `FOTOS` (`scripts/guias/generar.py`).
+
 ## Portada (rehecha el 24-11-2026)
 
 - `docs/index.html` habla el mismo lenguaje que la Enciclopedia: `<main class="enc ini">` carga `tierra.css`, `enciclopedia/enciclopedia.css` y `inicio.css` (lo propio de la portada, todo bajo `.ini`). Si se cambia `enciclopedia.css`, hay que mirar también la portada.
