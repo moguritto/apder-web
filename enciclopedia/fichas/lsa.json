@@ -1,0 +1,243 @@
+{
+ "slug": "lsa",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "LSA",
+ "cientifico": "amida del ácido lisérgico (ergina)",
+ "autoridad": "",
+ "descripcion": "LSA o ergina: alcaloide del grupo de la ergolina presente en semillas de convolvuláceas como el ololiuqui; su actividad psicodélica se discute.",
+ "entrada": "El LSA, o ergina, es un alcaloide ergolínico que aparece en semillas de convolvuláceas como el ololiuqui (<em>Rivea corymbosa</em>), la <em>Ipomoea tricolor</em> y la <em>Argyreia nervosa</em>, y en hongos del cornezuelo. Hofmann lo aisló en 1959. Se le atribuye la actividad de esas semillas, aunque su efecto psicodélico puro se discute.[1][4][5]",
+ "otros": "LSA · ergina · amida del ácido d-lisérgico · LA-111",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Alcaloide ergolínico natural"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "México, Hawái y otras regiones"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Semillas de Rivea, Ipomoea y Argyreia"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Interacción con receptores serotoninérgicos"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos mesoamericanos: aztecas, zapotecos y mazatecos"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "El alcaloide dominante de las semillas",
+  "parrafos": [
+   "Es el alcaloide dominante en las semillas alucinógenas de <em>Rivea corymbosa</em> (ololiuhqui), <em>Argyreia nervosa</em> e <em>Ipomoea tricolor</em> (tlitliltzin).[1]",
+   "Es un alcaloide de la familia de la ergolina presente en hongos clavicipitáceos y en convolvuláceas.[3][6]",
+   "Se ha hallado en una hierba, <em>Stipa robusta</em>, infectada con un hongo endófito.[1]",
+   "Los extractos de ergina se describen solubles en agua fría, por lo que se ha propuesto que podrían separarse de los alcaloides tóxicos del cornezuelo.[7]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Ergolina"
+   ],
+   [
+    "Fuentes",
+    "Convolvuláceas"
+   ],
+   [
+    "Pariente",
+    "LSD"
+   ],
+   [
+    "Aislamiento",
+    "1959"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin extracción ni dosis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "Ololiuqui y la ciencia",
+  "parrafos": [
+   "Tras la colonización española de México (1521), cronistas relataron rituales aztecas y de otros pueblos con semillas de ololiuqui por sus efectos embriagantes.[7]",
+   "Richard Schultes describió en 1941 su uso tradicional entre pueblos mexicanos, con raíces en época azteca.[2]",
+   "Los zapotecos usaron las semillas de <em>Ipomoea</em> (bandungas), a veces junto con las de <em>Rivea</em>, según MacDougall en 1960.[4][3]",
+   "Hofmann probó la ergina en 1947, antes de saber que era natural, y en 1959 aisló la ergina pura de las semillas de <em>Turbina corymbosa</em>.[4]",
+   "En 1961 Hofmann publicó los principios activos del ololiuqui: amidas del ácido d-lisérgico y d-isolisérgico, además de clavinas.[8]",
+   "En 1956 la CIA estudió la ergina de <em>Rivea corymbosa</em> como subproyecto de MKULTRA.[4]"
+  ],
+  "cronologia": [
+   [
+    "1932",
+    "Se describe la ergina en el cornezuelo"
+   ],
+   [
+    "1947",
+    "Hofmann la prueba"
+   ],
+   [
+    "1959",
+    "Hofmann aísla la ergina de las semillas"
+   ],
+   [
+    "1961",
+    "Publicación sobre los principios activos del ololiuqui"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Tras la colonización española de México (1521), cronistas relataron rituales aztecas y de otros pueblos con semillas de ololiuqui por sus efectos embriagantes.[7]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-lsa.svg",
+   "alt": "Mapa de México.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Región de uso tradicional"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Una ergolina sin la fuerza del LSD",
+  "parrafos": [
+   "Se suele decir que la ergina o su epímero, la isoergina, explican la actividad psicodélica de las semillas.[1]",
+   "En realidad, los efectos del LSA y el iso-LSA sintéticos no son particularmente psicodélicos, según las pruebas humanas resumidas.[1]",
+   "La administración intramuscular de una dosis pequeña produjo un estado cansado y onírico con incapacidad de mantener pensamientos claros.[2]",
+   "La isoergina y la ergometrina también contribuyen a los efectos de las semillas.[3]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Los relatos describen un estado soñoliento y onírico, con dificultad para mantener pensamientos claros.[2]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 1,
+  "parrafos": [
+   "No hay ensayos clínicos modernos de relevancia.",
+   "La caracterización química procede sobre todo de los trabajos de Hofmann.[8]"
+  ],
+  "alcance": "Fitoquímica histórica; sin ensayos clínicos."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Mezcla",
+    "Las semillas contienen otros alcaloides con efectos propios y tóxicos.[1]"
+   ],
+   [
+    "Contexto",
+    "Las semillas de ololiuqui tienen uso tradicional mexicano."
+   ],
+   [
+    "Evidencia",
+    "Su efecto psicodélico propio se discute.[1]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Ololiuqui",
+   "Rivea corymbosa",
+   "Una de sus fuentes tradicionales.",
+   "enciclopedia/ololiuqui/"
+  ],
+  [
+   "planta",
+   "Gloria de la mañana",
+   "Ipomoea tricolor",
+   "Otra fuente.",
+   "enciclopedia/gloria-de-la-manana/"
+  ],
+  [
+   "molecula",
+   "LSD",
+   "Derivado semisintético",
+   "Pariente célebre.",
+   "enciclopedia/lsd/"
+  ]
+ ],
+ "fuentes": [
+  "Wikidoc. <em>Lysergic acid amide</em>. wikidoc.org/index.php/Lysergic_acid_amide.",
+  "Wikidoc. <em>Ergine</em>. wikidoc.org/index.php/Ergine.",
+  "Wikiwand. <em>Ergine</em>. wikiwand.com/en/articles/Ergine.",
+  "Wikipedia. <em>Ergine</em>. wikipedia.org/wiki/Ergine.",
+  "ICEERS. <em>Basic Info</em> (LSA). iceers.org/?p=5549.",
+  "ChemEurope. <em>Ergine</em>. chemeurope.com/en/encyclopedia/Ergine.html.",
+  "ICEERS. <em>Ipomoea violacea: Basic Info</em>. iceers.org/ipomoea-violacea-basic-info/.",
+  "Hofmann, A. <em>Die Wirkstoffe der mexikanischen Zauberdroge «Ololiuqui»</em>. <em>Planta Medica</em>, 1961. thieme-connect.com/products/ejournals/pdf/10.1055/s-0028-1100366.pdf."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Loto azul",
+  "loto-azul"
+ ],
+ "siguiente": [
+  "LSD",
+  "lsd"
+ ]
+}
