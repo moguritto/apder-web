@@ -1,0 +1,231 @@
+{
+ "slug": "thc",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "THC",
+ "cientifico": "Δ9-tetrahidrocannabinol",
+ "autoridad": "",
+ "descripcion": "THC: principal componente psicoactivo del cannabis, aislado por Mechoulam en 1964; actúa sobre los receptores CB1 del sistema endocannabinoide.",
+ "entrada": "El Δ9-tetrahidrocannabinol (THC) es el principal componente psicoactivo del cannabis. Raphael Mechoulam y su equipo lo aislaron y determinaron su estructura en 1964. Actúa sobre el receptor cannabinoide CB1, parte del sistema endocannabinoide que el propio cuerpo produce.[1][3][5][7]",
+ "otros": "Δ9-THC · delta-9-tetrahidrocannabinol · dronabinol (uso farmacéutico)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Fitocannabinoide psicoactivo"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Cannabis sativa, de origen asiático"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Cannabis, resina o síntesis"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Agonista parcial de receptores CB1"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varias horas según la vía"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Tradiciones del cáñamo y la ciencia cannabinoide"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "El fitocannabinoide principal",
+  "parrafos": [
+   "El cannabis produce más de 140 fitocannabinoides; los más conocidos son el cannabidiol (CBD) y el THC.[4]",
+   "El THC se llamó al principio Δ1-THC antes de recibir su nombre actual.[1]",
+   "Su estructura se publicó en un artículo del 1 de abril de 1964, «Aislamiento, estructura y síntesis parcial de un constituyente activo del hachís», en el <em>Journal of the American Chemical Society</em>.[9]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Cannabinoide"
+   ],
+   [
+    "Fuente",
+    "Cannabis sativa"
+   ],
+   [
+    "Aislamiento",
+    "1964"
+   ],
+   [
+    "Receptor",
+    "CB1"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni preparación."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "Mechoulam y el sistema endocannabinoide",
+  "parrafos": [
+   "Los equipos de Mechoulam, en la Universidad Hebrea, aislaron en 1964 el THC y probaron que era el principal componente psicoactivo de la marihuana.[2][4]",
+   "Obtener cannabis para la investigación fue un primer obstáculo, y tuvo suerte de que el director administrativo del instituto conociera a un policía.[4]",
+   "Mechoulam y otros aislaron además CBD, cannabigerol, cannabicromeno y ácidos cannabinoides.[1]",
+   "Los receptores CB1 se descubrieron entre 1988 y 1990, y los CB2 en 1993.[8]",
+   "Mechoulam y colaboradores identificaron la anandamida, ligando endógeno del CB1, que ganó la carrera por hallar un «endocannabinoide».[8][1]"
+  ],
+  "cronologia": [
+   [
+    "1964",
+    "Aislamiento del THC"
+   ],
+   [
+    "1988-1990",
+    "Descubrimiento del receptor CB1"
+   ],
+   [
+    "1993",
+    "Descubrimiento del receptor CB2"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Los equipos de Mechoulam, en la Universidad Hebrea, aislaron en 1964 el THC y probaron que era el principal componente psicoactivo de la marihuana.[2][4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-thc.svg",
+   "alt": "Mapa de Israel.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Lugar del aislamiento del THC"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Sistema endocannabinoide",
+  "parrafos": [
+   "El sistema endocannabinoide consiste en los receptores CB1 y CB2 y en ligandos endógenos que los activan.[6]",
+   "Los receptores CB1 median los efectos cannabimiméticos del THC y se expresan en neuronas presinápticas, donde modulan la liberación de neurotransmisores.[6]",
+   "Este sistema modula muchos procesos fisiológicos y ofrece dianas terapéuticas prometedoras.[6]",
+   "La investigación con THC llevó a sintetizar cannabinoides, útiles para entender su farmacología.[6]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Los efectos dependen del contexto, de la vía de consumo y de la persona; se describen en la ficha del cannabis."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "varía según la vía"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "La investigación sobre cannabinoides se aceleró con el descubrimiento del sistema endocannabinoide.[1]",
+   "Se evalúa su potencial terapéutico para varios trastornos cerebrales.[3]"
+  ],
+  "alcance": "Farmacología sólida y uso médico en algunos países; evidencia clínica variable según indicación."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Contexto",
+    "Su efecto depende mucho de la vía, la dosis y la persona."
+   ],
+   [
+    "Evidencia",
+    "La evidencia terapéutica varía según la indicación.[3]"
+   ],
+   [
+    "Más información",
+    "Ver la ficha del cannabis."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Cannabis",
+   "Cannabis sativa",
+   "Su fuente vegetal.",
+   "enciclopedia/cannabis/"
+  ],
+  [
+   "molecula",
+   "MDMA",
+   "Otra molécula con vía clínica",
+   "Contraste de investigación.",
+   "enciclopedia/mdma/"
+  ]
+ ],
+ "fuentes": [
+  "Mechoulam: un pionero de la ciencia cannabinoide. PubMed Central. ncbi.nlm.nih.gov/pmc/articles/PMC7593926/.",
+  "Cambridge University Press. <em>Monumental Marijuana Discoveries</em>. resolve.cambridge.org/core/services/aop-cambridge-core/content/view/51E394ECD69117D2332D5A22FCC1C046/9781108735735c1_1-13.pdf/monumental-marijuana-discoveries.pdf.",
+  "Early phytocannabinoid chemistry to endocannabinoids and beyond. cris.huji.ac.il/en/publications/early-phytocannabinoid-chemistry-to-endocannabinoids-and-beyond/.",
+  "Smithsonian Magazine. Mechoulam y los cannabinoides. smithsonianmag.com/arts-culture/how-ai-could-help-restore-damaged-ancient-art-180981561/.",
+  "Pertwee, R. G. <em>Cannabinoid pharmacology: the first 66 years</em>. <em>British Journal of Pharmacology</em>, 2006. pmc.ncbi.nlm.nih.gov/articles/PMC1760722.",
+  "Descubrimiento del sistema endocannabinoide. PubMed Central. pmc.ncbi.nlm.nih.gov/articles/PMC8637936.",
+  "Weedmaps. <em>A brief history of THC</em>. weedmaps.com/learn/?p=2497.",
+  "Mechoulam: ciencia cannabinoide. <em>International Journal of Molecular Sciences</em>. mdpi.com/1422-0067/21/20/7653.",
+  "Oregon Leaf. Mechoulam y el hachís. issuu.com/nwleaf/docs/oregonleaf_jan2023/s/17806743."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Taique",
+  "taique"
+ ],
+ "siguiente": [
+  "Toloache",
+  "toloache"
+ ]
+}
