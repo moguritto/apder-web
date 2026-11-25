@@ -61,6 +61,14 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - Estilos en `docs/sustancias/guia.css` (apertura bajo `.s-cab-guia`, resumen bajo `.s-resumen`). El resto sigue en `tierra.css`.
 - Las guías se siguen escribiendo a mano. `python3 scripts/guias/plantilla.py` pone al día el marcado de esas dos piezas sin tocar el texto y se puede lanzar las veces que haga falta. Guía nueva: copiar una carpeta, cambiar el texto y lanzarlo. Las fotos se eligen en `FOTOS` (`scripts/guias/generar.py`).
 
+## Biblioteca (rehecha el 25-11-2026)
+
+- **Estilos y código compartidos:** `docs/biblioteca/biblioteca.css` y `docs/biblioteca/biblioteca.js`. Antes iban copiados dentro de cada página (unos 7 KB por ficha); ya no. Arriba del CSS están los estilos de siempre y al final, el diseño nuevo.
+- **Portada del catálogo** (`docs/biblioteca/index.html`): sale de `python3 scripts/biblioteca/portada.py`. Apertura con buscador y abanico de cubiertas (`ABANICO`), «Por dónde empezar» (cuatro rutas de tres libros, `RUTAS`), entradas por tema, medicina e idioma con recuentos, el catálogo con sus filtros y un enlace a Quién es quién. El guion conserva tal cual la lista de libros (`ul#b-lista`) y el árbol de filtros (`aside#b-filtros`) de la página publicada y vuelve a contar: los libros no se editan en el guion.
+- El buscador de la apertura y las entradas mueven los filtros del catálogo sin recargar; si se llega con filtros en la dirección (`?idioma=`, `?cat=`, `?sust=`, `?autor=`, `?q=`, `?orden=`), la página baja sola al catálogo.
+- **Ficha de cada libro** (`docs/biblioteca/<libro>/index.html`, 807): apertura en verde pino con la cubierta, título, autoría y etiquetas; debajo, la descripción y los datos de edición a la izquierda y «Dónde encontrarlo» a la derecha; al final, lecturas relacionadas. `python3 scripts/biblioteca/plantilla.py` recoloca esas piezas sin tocar el texto (comprueba que las palabras de cada ficha son las mismas antes y después; si no, no la escribe) y se puede lanzar las veces que haga falta. Las fichas siguen siendo HTML publicado: un libro nuevo se añade copiando una ficha y su `<li>` en la portada, y lanzando los dos guiones.
+- Datos que faltan, a la vista en la portada: el idioma está anotado en 426 de las 807 fichas y hay 262 con imagen de portada; el resto lleva cubierta tipográfica.
+
 ## Portada (rehecha el 24-11-2026)
 
 - `docs/index.html` habla el mismo lenguaje que la Enciclopedia: `<main class="enc ini">` carga `tierra.css`, `enciclopedia/enciclopedia.css` y `inicio.css` (lo propio de la portada, todo bajo `.ini`). Si se cambia `enciclopedia.css`, hay que mirar también la portada.
@@ -106,7 +114,7 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 
 - `docs/investigacion-terapeutica/`: orientación sobre la investigación por problema de salud y cómo participar en ensayos.
 - `docs/medicinas/`: artículo con las medicinas psicodélicas y enteógenas por categorías.
-- `docs/biblioteca/`: 425 libros con buscador y filtros (categoría, idioma y sustancia).
+- `docs/biblioteca/`: 807 libros con buscador y filtros; ver «Biblioteca (rehecha el 25-11-2026)».
 - `AUDITORIA.md`: fallos encontrados, propuestas y cómo evitar problemas de derechos de autor.
 
 ## Quién es quién (nuevo, 23-11-2026)
