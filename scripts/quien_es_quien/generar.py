@@ -42,36 +42,15 @@ def libro(slug):
 def monograma(iniciales, nombre):
     return (f'<svg class="q-mono" viewBox="0 0 200 200" width="180" height="180" role="img" '
             f'aria-label="Iniciales de {html.escape(nombre)}">'
-            f'<circle cx="100" cy="100" r="96" fill="#efe4d0"/>'
-            f'<circle cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/>'
-            f'<text x="100" y="{132 if len(iniciales) == 1 else 124}" text-anchor="middle" font-family="\'DM Serif Display\',Georgia,serif" '
+            f'<circle class="q-m-fondo" cx="100" cy="100" r="96" fill="#efe4d0"/>'
+            f'<circle class="q-m-aro" cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/>'
+            f'<text class="q-m-txt" x="100" y="{132 if len(iniciales) == 1 else 124}" text-anchor="middle" font-family="\'DM Serif Display\',Georgia,serif" '
             f'font-size="{92 if len(iniciales) == 1 else 68}" fill="#9c4a26">{iniciales}</text></svg>')
 
 
-ESTILO = """<style>
-/* Quién es quién (23-11-2026) */
-.q-ficha{text-align:center}
-.q-mono{display:block;width:180px;height:auto;margin:4px auto 12px}
-.q-ficha .s-ficha-dato{text-align:left;margin:.35em 0 0}
-.q-tipo{display:inline-block;font-size:.85rem;letter-spacing:.02em;color:var(--suave);background:var(--arena);border-radius:99px;padding:2px 12px;margin:0 0 .8em}
-.q-crono th{white-space:nowrap;vertical-align:top}
-.s-refs li{overflow-wrap:anywhere}
-.s-cuerpo h2.q-grupo{margin-top:1.6em}
-.q-tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:1em 0 2em;padding:0;list-style:none}
-.q-tarjetas a{display:flex;gap:16px;align-items:center;background:#fff;border-radius:20px;padding:16px 18px;text-decoration:none;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.06);min-height:44px}
-.q-tarjetas a:hover,.q-tarjetas a:focus-visible{background:var(--arena)}
-.q-tarjetas .q-mono{width:72px;margin:0;flex:none}
-.q-tarjetas strong{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:1.25rem}
-.q-tarjetas span{display:block;font-size:.95rem;color:var(--suave)}
-.s-cuerpo ul.q-tarjetas{padding:0;margin-left:0}
-.s-cuerpo .q-tarjetas li{margin:0;padding:0}
-.s-cuerpo .q-tarjetas li::before{content:none}
-.s-cuerpo .q-tarjetas a,.s-cuerpo .q-tarjetas a span,.s-cuerpo .q-tarjetas a strong{text-decoration:none}
-.s-cuerpo .q-tarjetas a strong{color:var(--tierra-osc)}
-.s-cuerpo .q-tarjetas a span{color:var(--suave)}
-@media print{.q-tarjetas a{box-shadow:none;border:1px solid #666}}
-</style>"""
-
+VERSION_CSS = "20261125a"   # estilos en docs/quien-es-quien/quien.css (seña: lacre y monogramas, como la Biblioteca)
+CLASE_TIPO = {"Ciencia": "t1", "Psicología y terapia": "t2", "Pensamiento y espiritualidad": "t3", "Saber tradicional": "t4"}
+ANCLA_TIPO = {"Ciencia": "ciencia", "Psicología y terapia": "terapia", "Pensamiento y espiritualidad": "pensamiento", "Saber tradicional": "tradicion"}
 
 def cabeza(titulo, desc, url, og, og_alt, ld, prof):
     assert 120 <= len(desc) <= 160, (url, len(desc))
@@ -105,8 +84,9 @@ def cabeza(titulo, desc, url, og, og_alt, ld, prof):
 <link rel="apple-touch-icon" href="{p}img/apple-touch-icon.png">
 <link rel="preload" href="{p}fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{p}fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{p}fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{p}tierra.css?v=20261123a">
-{ESTILO}
+<link rel="stylesheet" href="{p}quien-es-quien/quien.css?v={VERSION_CSS}">
 <script type="application/ld+json">
 {json.dumps(ld, ensure_ascii=False, indent=2)}
 </script>
@@ -158,7 +138,7 @@ def ficha(p):
             {"@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE},
             {"@type": "ListItem", "position": 2, "name": "Quién es quién", "item": BASE + "quien-es-quien/"},
             {"@type": "ListItem", "position": 3, "name": p["nombre"], "item": url}]}]}
-    claves = "\n".join(f"<li><strong>{k}.</strong> {v}</li>" for k, v in p["claves"])
+    claves = "\n".join(f"<li><strong>{k}.</strong> <span>{v}</span></li>" for k, v in p["claves"])
     crono = "\n".join(f"<tr><th>{a}</th><td>{h}</td></tr>" for a, h in p["cronologia"])
     libros = []
     for slug, nota in p["libros"]:
@@ -169,13 +149,13 @@ def ficha(p):
                     if libros else "")
     relacion = "\n".join(f'<a href="{h}"><strong>{t}</strong><span>{s}</span></a>' for h, t, s in p["relacion"])
     refs = "\n".join(f'<li id="ref-{n}">{r}</li>' for n, r in enumerate(p["refs"], 1))
-    datos = "\n".join(f'<p class="s-ficha-dato"><strong>{k}:</strong> {v}</p>' for k, v in p["datos"])
+    datos = "\n".join(f'<p class="s-ficha-dato"><strong>{k}:</strong> <span>{v}</span></p>' for k, v in p["datos"])
     cuerpo = f"""{CAB}
 <main id="contenido" class="guia-cuerpo">
-<section class="s-cabeza">
+<section class="s-cabeza q-cab {CLASE_TIPO[p['tipo']]}">
 <div class="s-ancho">
 <div>
-<p class="s-antetitulo"><a href="../">Quién es quién</a> · Ficha</p>
+<p class="s-antetitulo"><a href="../../biblioteca/">Biblioteca</a> · <a href="../">Quién es quién</a></p>
 <h1>{p['nombre']}</h1>
 <p class="s-alias">{p['alias']}</p>
 <p class="s-nota">{p['entrada']}</p>
@@ -205,7 +185,7 @@ def ficha(p):
 </details>
 
 <h2 id="claves">En pocas palabras</h2>
-<ul class="s-claves">
+<ul class="s-claves s-resumen">
 {claves}
 </ul>
 
@@ -268,7 +248,14 @@ def portada():
         tarjetas = "\n".join(
             f'<li><a href="{p["slug"]}/">{monograma(p["iniciales"], p["nombre"])}'
             f'<div><strong>{p["nombre"]}</strong><span>{p["tarjeta"]}</span></div></a></li>' for p in ps)
-        grupos.append(f'<h2 class="q-grupo">{tipo}</h2>\n<ul class="q-tarjetas">\n{tarjetas}\n</ul>')
+        grupos.append(f'<section class="q-seccion {CLASE_TIPO[tipo]}" id="{ANCLA_TIPO[tipo]}"><h2 class="q-grupo">{tipo}</h2>\n'
+                      f'<ul class="q-tarjetas">\n{tarjetas}\n</ul></section>')
+    # muro de la apertura: todas las personas, por año de nacimiento; el aro dice a qué grupo pertenecen
+    muro = "".join(
+        f'<a class="{CLASE_TIPO[p["tipo"]]}" href="{p["slug"]}/" title="{html.escape(p["nombre"])}">{monograma(p["iniciales"], p["nombre"])}'
+        f'<span>{html.escape(p["nombre"])}</span></a>' for p in sorted(PERSONAS, key=lambda q: q["anio"]))
+    leyenda = "".join(f'<a class="{CLASE_TIPO[t]}" href="#{ANCLA_TIPO[t]}">{t} <small>{sum(1 for q in PERSONAS if q["tipo"] == t)}</small></a>'
+                      for t in ORDEN_TIPOS)
     assert sum(1 for q in PERSONAS if q["tipo"] not in ORDEN_TIPOS) == 0
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "@id": url, "url": url, "name": "Quién es quién", "inLanguage": "es-ES",
@@ -284,17 +271,19 @@ def portada():
     pagina = pagina.replace('<meta property="og:type" content="profile">', '<meta property="og:type" content="website">')
     pagina += f"""{cab}
 <main id="contenido" class="guia-cuerpo">
-<section class="s-cabeza">
+<section class="s-cabeza q-cab q-portada">
 <div class="s-ancho">
 <div>
-<p class="s-antetitulo">Personas</p>
-<h1>Quién es quién</h1>
+<p class="s-antetitulo"><a href="../biblioteca/">Biblioteca</a> · Personas</p>
+<h1>Quién es <em>quién</em></h1>
 <p class="s-alias">{PORTADA['alias']}</p>
 <p class="s-nota">{PORTADA['nota']}</p>
+<p class="q-leyenda">{leyenda}</p>
 </div>
+<nav class="q-muro" aria-label="Las {len(PERSONAS)} personas, de la más antigua a la más reciente">{muro}</nav>
 </div>
 </section>
-<div class="s-ancho">
+<div class="s-ancho q-cuerpo">
 <article class="s-cuerpo">
 {chr(10).join(grupos)}
 {PORTADA['pie']}

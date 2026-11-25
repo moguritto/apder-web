@@ -26,30 +26,9 @@
 <link rel="apple-touch-icon" href="../../img/apple-touch-icon.png">
 <link rel="preload" href="../../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../../tierra.css?v=20261125a">
-<style>
-/* Quién es quién (23-11-2026) */
-.q-ficha{text-align:center}
-.q-mono{display:block;width:180px;height:auto;margin:4px auto 12px}
-.q-ficha .s-ficha-dato{text-align:left;margin:.35em 0 0}
-.q-tipo{display:inline-block;font-size:.85rem;letter-spacing:.02em;color:var(--suave);background:var(--arena);border-radius:99px;padding:2px 12px;margin:0 0 .8em}
-.q-crono th{white-space:nowrap;vertical-align:top}
-.s-refs li{overflow-wrap:anywhere}
-.s-cuerpo h2.q-grupo{margin-top:1.6em}
-.q-tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:1em 0 2em;padding:0;list-style:none}
-.q-tarjetas a{display:flex;gap:16px;align-items:center;background:#fff;border-radius:20px;padding:16px 18px;text-decoration:none;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.06);min-height:44px}
-.q-tarjetas a:hover,.q-tarjetas a:focus-visible{background:var(--arena)}
-.q-tarjetas .q-mono{width:72px;margin:0;flex:none}
-.q-tarjetas strong{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:1.25rem}
-.q-tarjetas span{display:block;font-size:.95rem;color:var(--suave)}
-.s-cuerpo ul.q-tarjetas{padding:0;margin-left:0}
-.s-cuerpo .q-tarjetas li{margin:0;padding:0}
-.s-cuerpo .q-tarjetas li::before{content:none}
-.s-cuerpo .q-tarjetas a,.s-cuerpo .q-tarjetas a span,.s-cuerpo .q-tarjetas a strong{text-decoration:none}
-.s-cuerpo .q-tarjetas a strong{color:var(--tierra-osc)}
-.s-cuerpo .q-tarjetas a span{color:var(--suave)}
-@media print{.q-tarjetas a{box-shadow:none;border:1px solid #666}}
-</style>
+<link rel="stylesheet" href="../../quien-es-quien/quien.css?v=20261125a">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -202,21 +181,21 @@
   </div>
 </header>
 <main id="contenido" class="guia-cuerpo">
-<section class="s-cabeza">
+<section class="s-cabeza q-cab t4">
 <div class="s-ancho">
 <div>
-<p class="s-antetitulo"><a href="../">Quién es quién</a> · Ficha</p>
+<p class="s-antetitulo"><a href="../../biblioteca/">Biblioteca</a> · <a href="../">Quién es quién</a></p>
 <h1>María Sabina</h1>
 <p class="s-alias">Sabia mazateca (Huautla de Jiménez, hacia 1894 – 1985)</p>
 <p class="s-nota">Curaba en veladas nocturnas con los hongos que llamaba niños santos, guiada por su canto. Su encuentro con un banquero de Nueva York cambió la historia de los psicodélicos, y también su vida.</p>
 </div>
 <aside class="s-ficha-mol q-ficha">
-<svg class="q-mono" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="Iniciales de María Sabina"><circle cx="100" cy="100" r="96" fill="#efe4d0"/><circle cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/><text x="100" y="124" text-anchor="middle" font-family="'DM Serif Display',Georgia,serif" font-size="68" fill="#9c4a26">MS</text></svg>
+<svg class="q-mono" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="Iniciales de María Sabina"><circle class="q-m-fondo" cx="100" cy="100" r="96" fill="#efe4d0"/><circle class="q-m-aro" cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/><text class="q-m-txt" x="100" y="124" text-anchor="middle" font-family="'DM Serif Display',Georgia,serif" font-size="68" fill="#9c4a26">MS</text></svg>
 <p class="q-tipo">Saber tradicional</p>
-<p class="s-ficha-dato"><strong>Nació:</strong> hacia 1894 (se suele dar el 22 de julio), en Huautla de Jiménez (Oaxaca, México)</p>
-<p class="s-ficha-dato"><strong>Murió:</strong> noviembre de 1985, a los 91 años</p>
-<p class="s-ficha-dato"><strong>Pueblo y lengua:</strong> mazateco</p>
-<p class="s-ficha-dato"><strong>Su saber:</strong> las veladas de curación con hongos sagrados y el canto</p>
+<p class="s-ficha-dato"><strong>Nació:</strong> <span>hacia 1894 (se suele dar el 22 de julio), en Huautla de Jiménez (Oaxaca, México)</span></p>
+<p class="s-ficha-dato"><strong>Murió:</strong> <span>noviembre de 1985, a los 91 años</span></p>
+<p class="s-ficha-dato"><strong>Pueblo y lengua:</strong> <span>mazateco</span></p>
+<p class="s-ficha-dato"><strong>Su saber:</strong> <span>las veladas de curación con hongos sagrados y el canto</span></p>
 </aside>
 </div>
 </section>
@@ -250,11 +229,11 @@
 </details>
 
 <h2 id="claves">En pocas palabras</h2>
-<ul class="s-claves">
-<li><strong>Quién fue.</strong> Una sabia mazateca de la sierra de Oaxaca, en México, que curaba en veladas nocturnas con hongos sagrados, a los que llamaba niños santos, y con su canto.<sup><a href="#ref-1">1</a>,<a href="#ref-10">10</a></sup></li>
-<li><strong>Por qué importa.</strong> En 1955 dejó participar en una velada a Gordon Wasson. Su artículo en la revista <em>Life</em>, en 1957, dio a conocer al mundo los hongos de psilocibina.<sup><a href="#ref-2">2</a>,<a href="#ref-3">3</a></sup></li>
-<li><strong>El precio.</strong> La fama llevó a Huautla una oleada de forasteros. Ella sintió que los niños santos habían perdido su pureza, y parte de su comunidad la culpó.<sup><a href="#ref-1">1</a>,<a href="#ref-4">4</a></sup></li>
-<li><strong>Por dónde empezar.</strong> <em>Vida de María Sabina</em>, de Álvaro Estrada, su vida contada con su propia voz. Está en la Biblioteca.</li>
+<ul class="s-claves s-resumen">
+<li><strong>Quién fue.</strong> <span>Una sabia mazateca de la sierra de Oaxaca, en México, que curaba en veladas nocturnas con hongos sagrados, a los que llamaba niños santos, y con su canto.<sup><a href="#ref-1">1</a>,<a href="#ref-10">10</a></sup></span></li>
+<li><strong>Por qué importa.</strong> <span>En 1955 dejó participar en una velada a Gordon Wasson. Su artículo en la revista <em>Life</em>, en 1957, dio a conocer al mundo los hongos de psilocibina.<sup><a href="#ref-2">2</a>,<a href="#ref-3">3</a></sup></span></li>
+<li><strong>El precio.</strong> <span>La fama llevó a Huautla una oleada de forasteros. Ella sintió que los niños santos habían perdido su pureza, y parte de su comunidad la culpó.<sup><a href="#ref-1">1</a>,<a href="#ref-4">4</a></sup></span></li>
+<li><strong>Por dónde empezar.</strong> <span><em>Vida de María Sabina</em>, de Álvaro Estrada, su vida contada con su propia voz. Está en la Biblioteca.</span></li>
 </ul>
 
 <h2 id="vida">Vida</h2>

@@ -26,30 +26,9 @@
 <link rel="apple-touch-icon" href="../../img/apple-touch-icon.png">
 <link rel="preload" href="../../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../../tierra.css?v=20261125a">
-<style>
-/* Quién es quién (23-11-2026) */
-.q-ficha{text-align:center}
-.q-mono{display:block;width:180px;height:auto;margin:4px auto 12px}
-.q-ficha .s-ficha-dato{text-align:left;margin:.35em 0 0}
-.q-tipo{display:inline-block;font-size:.85rem;letter-spacing:.02em;color:var(--suave);background:var(--arena);border-radius:99px;padding:2px 12px;margin:0 0 .8em}
-.q-crono th{white-space:nowrap;vertical-align:top}
-.s-refs li{overflow-wrap:anywhere}
-.s-cuerpo h2.q-grupo{margin-top:1.6em}
-.q-tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:1em 0 2em;padding:0;list-style:none}
-.q-tarjetas a{display:flex;gap:16px;align-items:center;background:#fff;border-radius:20px;padding:16px 18px;text-decoration:none;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.06);min-height:44px}
-.q-tarjetas a:hover,.q-tarjetas a:focus-visible{background:var(--arena)}
-.q-tarjetas .q-mono{width:72px;margin:0;flex:none}
-.q-tarjetas strong{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:1.25rem}
-.q-tarjetas span{display:block;font-size:.95rem;color:var(--suave)}
-.s-cuerpo ul.q-tarjetas{padding:0;margin-left:0}
-.s-cuerpo .q-tarjetas li{margin:0;padding:0}
-.s-cuerpo .q-tarjetas li::before{content:none}
-.s-cuerpo .q-tarjetas a,.s-cuerpo .q-tarjetas a span,.s-cuerpo .q-tarjetas a strong{text-decoration:none}
-.s-cuerpo .q-tarjetas a strong{color:var(--tierra-osc)}
-.s-cuerpo .q-tarjetas a span{color:var(--suave)}
-@media print{.q-tarjetas a{box-shadow:none;border:1px solid #666}}
-</style>
+<link rel="stylesheet" href="../../quien-es-quien/quien.css?v=20261125a">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -201,20 +180,20 @@
   </div>
 </header>
 <main id="contenido" class="guia-cuerpo">
-<section class="s-cabeza">
+<section class="s-cabeza q-cab t3">
 <div class="s-ancho">
 <div>
-<p class="s-antetitulo"><a href="../">Quién es quién</a> · Ficha</p>
+<p class="s-antetitulo"><a href="../../biblioteca/">Biblioteca</a> · <a href="../">Quién es quién</a></p>
 <h1>Michael Pollan</h1>
 <p class="s-alias">Periodista y escritor (Long Island, 1955)</p>
 <p class="s-nota">Conocido por sus libros sobre la comida, se acercó a los psicodélicos como un «psiconauta reacio». El resultado fue un libro que cambió la conversación pública sobre ellos.</p>
 </div>
 <aside class="s-ficha-mol q-ficha">
-<svg class="q-mono" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="Iniciales de Michael Pollan"><circle cx="100" cy="100" r="96" fill="#efe4d0"/><circle cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/><text x="100" y="124" text-anchor="middle" font-family="'DM Serif Display',Georgia,serif" font-size="68" fill="#9c4a26">MP</text></svg>
+<svg class="q-mono" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="Iniciales de Michael Pollan"><circle class="q-m-fondo" cx="100" cy="100" r="96" fill="#efe4d0"/><circle class="q-m-aro" cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/><text class="q-m-txt" x="100" y="124" text-anchor="middle" font-family="'DM Serif Display',Georgia,serif" font-size="68" fill="#9c4a26">MP</text></svg>
 <p class="q-tipo">Pensamiento y espiritualidad</p>
-<p class="s-ficha-dato"><strong>Nació:</strong> 6 de febrero de 1955, Long Island (Nueva York)</p>
-<p class="s-ficha-dato"><strong>Ámbito:</strong> periodismo y divulgación</p>
-<p class="s-ficha-dato"><strong>Le debemos:</strong> <em>How to Change Your Mind</em> y <em>This Is Your Mind on Plants</em></p>
+<p class="s-ficha-dato"><strong>Nació:</strong> <span>6 de febrero de 1955, Long Island (Nueva York)</span></p>
+<p class="s-ficha-dato"><strong>Ámbito:</strong> <span>periodismo y divulgación</span></p>
+<p class="s-ficha-dato"><strong>Le debemos:</strong> <span><em>How to Change Your Mind</em> y <em>This Is Your Mind on Plants</em></span></p>
 </aside>
 </div>
 </section>
@@ -248,11 +227,11 @@
 </details>
 
 <h2 id="claves">En pocas palabras</h2>
-<ul class="s-claves">
-<li><strong>Quién es.</strong> Un periodista y escritor estadounidense, profesor de periodismo en Berkeley y de no ficción en Harvard.<sup><a href="#ref-1">1</a>,<a href="#ref-2">2</a></sup></li>
-<li><strong>Por qué importa.</strong> <em>How to Change Your Mind</em> (2018), sobre la historia y la nueva ciencia de los psicodélicos, fue número uno en ventas y tiene serie en Netflix.<sup><a href="#ref-2">2</a>,<a href="#ref-3">3</a></sup></li>
-<li><strong>Su legado.</strong> En 2020 cofundó, con Dacher Keltner y otros, el Centro para la Ciencia de los Psicodélicos de la Universidad de California en Berkeley.<sup><a href="#ref-2">2</a></sup></li>
-<li><strong>Por dónde empezar.</strong> <em>How to Change Your Mind</em> y <em>Tu mente bajo los efectos de las plantas</em>, en la Biblioteca.</li>
+<ul class="s-claves s-resumen">
+<li><strong>Quién es.</strong> <span>Un periodista y escritor estadounidense, profesor de periodismo en Berkeley y de no ficción en Harvard.<sup><a href="#ref-1">1</a>,<a href="#ref-2">2</a></sup></span></li>
+<li><strong>Por qué importa.</strong> <span><em>How to Change Your Mind</em> (2018), sobre la historia y la nueva ciencia de los psicodélicos, fue número uno en ventas y tiene serie en Netflix.<sup><a href="#ref-2">2</a>,<a href="#ref-3">3</a></sup></span></li>
+<li><strong>Su legado.</strong> <span>En 2020 cofundó, con Dacher Keltner y otros, el Centro para la Ciencia de los Psicodélicos de la Universidad de California en Berkeley.<sup><a href="#ref-2">2</a></sup></span></li>
+<li><strong>Por dónde empezar.</strong> <span><em>How to Change Your Mind</em> y <em>Tu mente bajo los efectos de las plantas</em>, en la Biblioteca.</span></li>
 </ul>
 
 <h2 id="vida">Vida</h2>

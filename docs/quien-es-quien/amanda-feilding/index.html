@@ -26,30 +26,9 @@
 <link rel="apple-touch-icon" href="../../img/apple-touch-icon.png">
 <link rel="preload" href="../../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../../tierra.css?v=20261125a">
-<style>
-/* Quién es quién (23-11-2026) */
-.q-ficha{text-align:center}
-.q-mono{display:block;width:180px;height:auto;margin:4px auto 12px}
-.q-ficha .s-ficha-dato{text-align:left;margin:.35em 0 0}
-.q-tipo{display:inline-block;font-size:.85rem;letter-spacing:.02em;color:var(--suave);background:var(--arena);border-radius:99px;padding:2px 12px;margin:0 0 .8em}
-.q-crono th{white-space:nowrap;vertical-align:top}
-.s-refs li{overflow-wrap:anywhere}
-.s-cuerpo h2.q-grupo{margin-top:1.6em}
-.q-tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:1em 0 2em;padding:0;list-style:none}
-.q-tarjetas a{display:flex;gap:16px;align-items:center;background:#fff;border-radius:20px;padding:16px 18px;text-decoration:none;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.06);min-height:44px}
-.q-tarjetas a:hover,.q-tarjetas a:focus-visible{background:var(--arena)}
-.q-tarjetas .q-mono{width:72px;margin:0;flex:none}
-.q-tarjetas strong{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:1.25rem}
-.q-tarjetas span{display:block;font-size:.95rem;color:var(--suave)}
-.s-cuerpo ul.q-tarjetas{padding:0;margin-left:0}
-.s-cuerpo .q-tarjetas li{margin:0;padding:0}
-.s-cuerpo .q-tarjetas li::before{content:none}
-.s-cuerpo .q-tarjetas a,.s-cuerpo .q-tarjetas a span,.s-cuerpo .q-tarjetas a strong{text-decoration:none}
-.s-cuerpo .q-tarjetas a strong{color:var(--tierra-osc)}
-.s-cuerpo .q-tarjetas a span{color:var(--suave)}
-@media print{.q-tarjetas a{box-shadow:none;border:1px solid #666}}
-</style>
+<link rel="stylesheet" href="../../quien-es-quien/quien.css?v=20261125a">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -198,21 +177,21 @@
   </div>
 </header>
 <main id="contenido" class="guia-cuerpo">
-<section class="s-cabeza">
+<section class="s-cabeza q-cab t1">
 <div class="s-ancho">
 <div>
-<p class="s-antetitulo"><a href="../">Quién es quién</a> · Ficha</p>
+<p class="s-antetitulo"><a href="../../biblioteca/">Biblioteca</a> · <a href="../">Quién es quién</a></p>
 <h1>Amanda Feilding</h1>
 <p class="s-alias">Fundadora de la Fundación Beckley (1943 – 2025)</p>
 <p class="s-nota">Pasó la vida explorando los estados de consciencia. Cuando entendió que necesitaba la ciencia para que la tomaran en serio, creó una fundación que financió estudios en universidades y hospitales.</p>
 </div>
 <aside class="s-ficha-mol q-ficha">
-<svg class="q-mono" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="Iniciales de Amanda Feilding"><circle cx="100" cy="100" r="96" fill="#efe4d0"/><circle cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/><text x="100" y="124" text-anchor="middle" font-family="'DM Serif Display',Georgia,serif" font-size="68" fill="#9c4a26">AF</text></svg>
+<svg class="q-mono" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="Iniciales de Amanda Feilding"><circle class="q-m-fondo" cx="100" cy="100" r="96" fill="#efe4d0"/><circle class="q-m-aro" cx="100" cy="100" r="84" fill="none" stroke="#9c4a26" stroke-width="2" opacity=".45"/><text class="q-m-txt" x="100" y="124" text-anchor="middle" font-family="'DM Serif Display',Georgia,serif" font-size="68" fill="#9c4a26">AF</text></svg>
 <p class="q-tipo">Ciencia</p>
-<p class="s-ficha-dato"><strong>Nació:</strong> 30 de enero de 1943</p>
-<p class="s-ficha-dato"><strong>Murió:</strong> 22 de mayo de 2025, a los 82 años</p>
-<p class="s-ficha-dato"><strong>Ámbito:</strong> investigación sobre la consciencia</p>
-<p class="s-ficha-dato"><strong>Le debemos:</strong> la Fundación Beckley y sus programas de investigación</p>
+<p class="s-ficha-dato"><strong>Nació:</strong> <span>30 de enero de 1943</span></p>
+<p class="s-ficha-dato"><strong>Murió:</strong> <span>22 de mayo de 2025, a los 82 años</span></p>
+<p class="s-ficha-dato"><strong>Ámbito:</strong> <span>investigación sobre la consciencia</span></p>
+<p class="s-ficha-dato"><strong>Le debemos:</strong> <span>la Fundación Beckley y sus programas de investigación</span></p>
 </aside>
 </div>
 </section>
@@ -246,11 +225,11 @@
 </details>
 
 <h2 id="claves">En pocas palabras</h2>
-<ul class="s-claves">
-<li><strong>Quién fue.</strong> Una británica, condesa de Wemyss y March, interesada desde niña por los estados de consciencia y la mística.<sup><a href="#ref-1">1</a>,<a href="#ref-2">2</a></sup></li>
-<li><strong>Por qué importa.</strong> En 1998 fundó la que hoy es la Fundación Beckley, que inicia, diseña y apoya investigación sobre los efectos de las sustancias psicoactivas en el cerebro.<sup><a href="#ref-1">1</a>,<a href="#ref-3">3</a></sup></li>
-<li><strong>Sus alianzas.</strong> En 2008 cofundó con David Nutt el programa de investigación psicodélica del Imperial College de Londres; desde 2013 colaboró con Sant Pau en Barcelona.<sup><a href="#ref-4">4</a>,<a href="#ref-5">5</a></sup></li>
-<li><strong>Por dónde empezar.</strong> <em>Hofmann’s Elixir</em>, homenaje a Albert Hofmann en el que participó, en la Biblioteca.</li>
+<ul class="s-claves s-resumen">
+<li><strong>Quién fue.</strong> <span>Una británica, condesa de Wemyss y March, interesada desde niña por los estados de consciencia y la mística.<sup><a href="#ref-1">1</a>,<a href="#ref-2">2</a></sup></span></li>
+<li><strong>Por qué importa.</strong> <span>En 1998 fundó la que hoy es la Fundación Beckley, que inicia, diseña y apoya investigación sobre los efectos de las sustancias psicoactivas en el cerebro.<sup><a href="#ref-1">1</a>,<a href="#ref-3">3</a></sup></span></li>
+<li><strong>Sus alianzas.</strong> <span>En 2008 cofundó con David Nutt el programa de investigación psicodélica del Imperial College de Londres; desde 2013 colaboró con Sant Pau en Barcelona.<sup><a href="#ref-4">4</a>,<a href="#ref-5">5</a></sup></span></li>
+<li><strong>Por dónde empezar.</strong> <span><em>Hofmann’s Elixir</em>, homenaje a Albert Hofmann en el que participó, en la Biblioteca.</span></li>
 </ul>
 
 <h2 id="vida">Vida</h2>
