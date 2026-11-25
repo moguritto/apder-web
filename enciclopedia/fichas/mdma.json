@@ -1,0 +1,243 @@
+{
+ "slug": "mdma",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "MDMA",
+ "cientifico": "3,4-metilendioximetanfetamina",
+ "autoridad": "",
+ "descripcion": "MDMA: entactógeno sintetizado en 1912 y redescubierto por Shulgin; estudiado en terapia asistida para el TEPT, con la aprobación de la FDA pendiente.",
+ "entrada": "La MDMA es una fenetilamina sintética creada por Merck en 1912 y redescubierta en 1976 por Alexander Shulgin. Produce efectos prosociales de confianza y autocompasión con lucidez cognitiva. Se ha estudiado en terapia asistida para el TEPT, y en 2024 la FDA rechazó la solicitud inicial y pidió otro ensayo de fase 3.[1][2][3][4]",
+ "otros": "éxtasis · MDMA · molly (apodos) · entactógeno",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Entactógeno sintético"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Origen de laboratorio, Alemania y Estados Unidos"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Síntesis farmacéutica"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Libera serotonina; efecto prosocial"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varias horas"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Shulgin, MAPS y terapeutas"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Una molécula que esperó medio siglo",
+  "parrafos": [
+   "Se sintetizó y patentó en 1912 en Merck, como intermediario para fabricar un compuesto que frenara hemorragias.[2][3][8]",
+   "Merck la estudió en animales en 1927, de nuevo en 1952 y 1959, y decidió no investigarla en humanos.[7]",
+   "Hay versiones divergentes sobre el propósito original, entre anticoagulante y supresor del apetito, según la fuente.[3][6]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Fenetilamina entactógena"
+   ],
+   [
+    "Año",
+    "1912"
+   ],
+   [
+    "Redescubrimiento",
+    "1976"
+   ],
+   [
+    "Estatus clínico",
+    "En revisión"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni síntesis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De Merck a Shulgin y a la clínica",
+  "parrafos": [
+   "Alexander Shulgin la redescubrió en 1976 y comenzó sus autoexperimentos; fue él quien la introdujo en la psicoterapia.[2][5][6]",
+   "Hacia 1976 había dado MDMA a cientos de psicólogos en Estados Unidos.[9]",
+   "En 1978 Shulgin y Nichols describieron un estado alterado de conciencia controlable, con tonos emocionales y sensuales.[5]",
+   "Tras las audiencias, un juez recomendó en 1986 situarla en la lista III, por considerar que tenía uso médico aceptado.[5]",
+   "En 1996 MAPS completó el primer estudio de seguridad de fase 1 en terapia asistida.[9]"
+  ],
+  "cronologia": [
+   [
+    "1912",
+    "Síntesis en Merck"
+   ],
+   [
+    "1976",
+    "Redescubrimiento por Shulgin"
+   ],
+   [
+    "2017",
+    "Designada terapia innovadora por la FDA"
+   ],
+   [
+    "2024",
+    "La FDA pide otro ensayo de fase 3"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Alexander Shulgin la redescubrió en 1976 y comenzó sus autoexperimentos; fue él quien la introdujo en la psicoterapia.[2][5][6]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-mdma.svg",
+   "alt": "Mapa de Alemania.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Lugar de la primera síntesis"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Serotonina y prosocialidad",
+  "parrafos": [
+   "A diferencia de otros psicodélicos, induce efectos prosociales de confianza y autocompasión, sin perder la funcionalidad del yo ni la lucidez perceptiva.[1]",
+   "Se citan tamaños de efecto grandes en TEPT (d de Cohen entre 1,95 y 2,10).[1]",
+   "La FDA designó la terapia asistida «Breakthrough Therapy» en 2017.[1]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Se describe un aumento de empatía, apertura y emoción.[6]",
+   "Genera confianza y autocompasión con lucidez.[1]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "varias horas, según el protocolo"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 4,
+  "parrafos": [
+   "Los estudios de fase 2 y 3 publicados con control de placebo han sido patrocinados por MAPS.[2]",
+   "Un acceso ampliado empezó en 2022 en entornos regulados por la FDA, aunque la FDA denegó la solicitud inicial en 2024.[1]",
+   "En 2006 se patrocinó un segundo estudio de fase 2 en Suiza, a cargo de Peter Oehen.[3]"
+  ],
+  "alcance": "Ensayos de fase 3 completados en TEPT; aprobación regulatoria pendiente."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Evidencia",
+    "Hay controversia sobre los ensayos y la regulación."
+   ],
+   [
+    "Cuerpo",
+    "Requiere evaluación médica previa en cualquier entorno clínico."
+   ],
+   [
+    "Contexto",
+    "La terapia asistida requiere equipo formado y marco clínico."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "molecula",
+   "Ketamina",
+   "Disociativo",
+   "Otra sustancia en psiquiatría.",
+   "enciclopedia/ketamina/"
+  ],
+  [
+   "molecula",
+   "2C-B",
+   "Fenetilamina",
+   "Mezcla histórica «Nexus flip».",
+   "enciclopedia/2c-b/"
+  ],
+  [
+   "molecula",
+   "Mescalina",
+   "Fenetilamina natural",
+   "Parientes químicos lejanos.",
+   null
+  ]
+ ],
+ "fuentes": [
+  "Psychiatry Online. <em>MDMA-assisted therapy</em>. psychiatryonline.org/doi/10.1176/appi.ajp.20230681.",
+  "Protocolo clínico, MDMA y TEPT en militares. cdn.clinicaltrials.gov/large-docs/62/NCT07704762/Prot_000.pdf.",
+  "MAPS. <em>Towards Breakthrough Healing</em> (Bulletin 2017). maps.org/news/bulletin/towards-breakthrough-healing-a-history-and-overview-of-clinical-mdma-research-3/.",
+  "Springer Nature Communities. <em>Treating PTSD with MDMA-assisted therapy</em>. communities.springernature.com/posts/treating-ptsd-with-mdma-assisted-therapy-a-long-time-in-coming.",
+  "MIND Foundation. <em>A History of Ecstasy Science</em>. mind-foundation.org/?p=1625.",
+  "O'Brien, S. <em>MDMA-assisted therapy: challenges, clinical trials, and the future</em>. Cambridge Core. cambridge.org/core/product/6CDEA4B298F1958CEAEEEA384B0145D1/core-reader.",
+  "MAPS. Williams, E. <em>Towards Breakthrough Healing</em>. maps.org/news/bulletin/articles/420-bulletin-spring-2017/6618-towards-breakthrough-healing-a-history-and-overview-of-clinical-mdma-research-3.",
+  "STAT News. MDMA, FDA y Lykos. statnews.com/2024/08/09/mdma-ptsd-fda-lykos-psychedelics-need-to-know/.",
+  "Benzinga. <em>A Brief History Of MDMA</em>. benzinga.com/z/27404938."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Matamoscas",
+  "amanita-muscaria"
+ ],
+ "siguiente": [
+  "Mongui",
+  "mongui"
+ ]
+}
