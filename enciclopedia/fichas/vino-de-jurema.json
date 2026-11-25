@@ -1,0 +1,253 @@
+{
+ "slug": "vino-de-jurema",
+ "tipo": "preparado",
+ "migas": "Preparado · Bebida ritual · Nordeste de Brasil",
+ "nombre": "Vino de jurema",
+ "cientifico": "Mimosa tenuiflora (jurema preta)",
+ "autoridad": "(Willd.) Poir.",
+ "descripcion": "Vino de jurema: bebida ritual del nordeste de Brasil, ligada a la jurema preta (Mimosa tenuiflora), a pueblos indígenas y al catimbó, con DMT en la planta.",
+ "entrada": "El vino de jurema (<em>vinho da jurema</em>, <em>ajucá</em>) es una bebida ritual del nordeste de Brasil, preparada con la jurema preta, árbol nativo del semiárido. Se asocia a pueblos indígenas, al catimbó y a religiones juremeiras, y se prepara de forma reservada, solo conocida por quien pasó el bautismo.[1][2][3]",
+ "otros": "vinho da jurema · ajucá · jurema sagrada (religión) · juremahuasca (variante con ayahuasca)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Bebida ritual de las religiones juremeiras"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Nordeste de Brasil, semiárido"
+  ],
+  [
+   "parte",
+   "Parte usada",
+   "Planta de jurema preta; preparación reservada"
+  ],
+  [
+   "activos",
+   "Principios activos",
+   "DMT en la planta, según la literatura"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "No aplica"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Pueblos del nordeste, catimbó, umbanda y Jurema Sagrada"
+  ]
+ ],
+ "guia": null,
+ "planta": {
+  "id": "la-planta",
+  "etq": "La planta",
+  "titulo": "Jurema preta",
+  "parrafos": [
+   "En Brasil se llama jurema a varias plantas, bebidas y religiosidades; entre los árboles destaca la jurema preta (<em>Mimosa tenuiflora</em>), planta nativa del semiárido nordestino.[4]",
+   "Es un arbusto o árbol pequeño de la familia Fabaceae, de hojas parecidas a helechos, conocido en México como tepezcohuite, con área natural desde el nordeste de Brasil hasta el sur de México.[7]",
+   "Un maestro pankararé explicó que el vino solo se hace con jurema-de-caboclo, variedad sin espinas de la jurema preta.[8]",
+   "Un estudio etnofarmacobotánico describe el vino de las religiones afrobrasileñas preparado con <em>Mimosa hostilis</em> y <em>M. tenuiflora</em>, con aditivos psicoactivos.[5]"
+  ],
+  "rasgos": [
+   [
+    "Familia",
+    "Fabaceae"
+   ],
+   [
+    "Nombre popular",
+    "Jurema preta"
+   ],
+   [
+    "Región",
+    "Nordeste de Brasil"
+   ],
+   [
+    "Otro nombre",
+    "Tepezcohuite (México)"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: no incluye instrucciones de preparación, que la tradición guarda como reservadas."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria y tradición",
+  "titulo": "De los pueblos indígenas al catimbó",
+  "parrafos": [
+   "Desde el periodo colonial se registra el uso ritual de la jurema entre pueblos indígenas del nordeste de Brasil.[4]",
+   "Esa práctica reaparece en el catimbó, religiosidad vinculada a aquellos ritos, que la umbanda alcanzó a mediados del siglo XX, y en la reciente Jurema Sagrada.[1][4]",
+   "Se citan entre los pueblos que la usaron los kariri, tusha, fulniô, pankararu, acroá, guegue, atanaye y pimenteira, según una síntesis divulgativa.[7]",
+   "Los primeros escritos sobre el uso ritual aparecen en los años treinta, con Mário de Andrade y la Misión de Investigaciones Folclóricas.[6]",
+   "En 1945, Roger Bastide describió un ritual de catimbó y ratificó su origen indígena; otros autores lo ven como confluencia de brujería ibérica, farmacopea indígena y ritmos bantúes.[6]",
+   "Hay pocas referencias antiguas, probablemente por la represión de la época colonial, y solo quien pasó el bautismo sabe cómo se hace el vino.[2]",
+   "Un artículo reciente invita a mirar más allá de lo psicoactivo, hacia las mediaciones rituales del uso.[10]"
+  ],
+  "cronologia": [
+   [
+    "Periodo colonial",
+    "Primeros registros del uso ritual entre pueblos indígenas"
+   ],
+   [
+    "Años 1930",
+    "Primeros escritos sobre la jurema"
+   ],
+   [
+    "1945",
+    "Bastide describe un ritual de catimbó"
+   ]
+  ],
+  "nombres": [
+   [
+    "vinho da jurema",
+    "portugués"
+   ],
+   [
+    "ajucá",
+    "nombre indígena"
+   ]
+  ],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Territorio y cuidado",
+  "titulo": "Nordeste de Brasil",
+  "parrafos": [
+   "La jurema preta es nativa del semiárido nordestino de Brasil.[4]",
+   "El pueblo pankararé ha vinculado la jurema a la recuperación de su tierra.[8]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Respetar el carácter reservado de la preparación.",
+   "Reconocer a los pueblos y comunidades que la guardan.",
+   "Citar a los autores indígenas y brasileños."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-vino-de-jurema.svg",
+   "alt": "Mapa del nordeste de Brasil sombreado.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Área aproximada del uso ritual de la jurema"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Qué contiene",
+  "titulo": "DMT y otros compuestos",
+  "parrafos": [
+   "La literatura considera el vino un enteógeno por la presencia del alcaloide indólico N,N-dimetiltriptamina (DMT).[2]",
+   "Se cita que <em>Mimosa tenuiflora</em> contiene hasta un 1 % de DMT, y que en 2005 se aisló la yuremamina, un fitoindol cuyo aporte a los efectos se desconoce.[7]",
+   "Al saber que la jurema contiene mucho DMT, psiconautas de fuera de Brasil la han mezclado con otra planta de Oriente en una bebida llamada juremahuasca.[1]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Transe y mundo espiritual",
+  "parrafos": [
+   "Un estudio afirma que el vino propicia el transe de incorporación en rituales de umbanda y candomblé dedicados a la entidad Jurema.[5]",
+   "En el catimbó, el maestro catimbozeiro vive un estado místico que incluye la dimensión alucinógena, según un análisis literario.[9]"
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Dura",
+     "no aplica"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "El Instituto del Cerebro de Natal exploró el DMT extraído de la jurema preta para depresión resistente al tratamiento, según una entrevista.[11]",
+   "La antropología ha estudiado las religiones juremeiras, aunque hasta los años noventa recibieron poca atención.[6]"
+  ],
+  "alcance": "Estudios etnográficos y fitoquímicos; la investigación clínica con DMT de jurema es incipiente."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Contexto",
+    "Es un sacramento de religiones vivas, no un producto recreativo.[2]"
+   ],
+   [
+    "Reserva",
+    "La preparación es reservada; esta ficha no la describe.[2]"
+   ],
+   [
+    "Mezclas",
+    "La juremahuasca combina la jurema con otra planta; es una práctica reciente.[1]"
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "planta",
+   "Acacias",
+   "Acacia spp.",
+   "Otras plantas con DMT.",
+   "enciclopedia/acacias/"
+  ],
+  [
+   "preparado",
+   "Ayahuasca",
+   "Banisteriopsis caapi y Psychotria viridis",
+   "Bebida amazónica con DMT.",
+   "enciclopedia/ayahuasca/"
+  ],
+  [
+   "planta",
+   "Chacruna",
+   "Psychotria viridis",
+   "Otra fuente vegetal de DMT.",
+   "enciclopedia/chacruna/"
+  ]
+ ],
+ "fuentes": [
+  "Revista Brasileira (cejsh). Artículo sobre jurema y religiosidades, 2020. cejsh.icm.edu.pl.",
+  "Santos, N. A. Disertación sobre fitoquímica de las Mimosa conocidas como jurema, Universidade de Brasília. repositorio.unb.br/bitstream/10482/54824/1/NayaraAlvesSantos_DISSERT.pdf.",
+  "Artículo sobre jurema y religiosidades (redalyc). redalyc.org/journal/2433/243364810019/243364810019.pdf.",
+  "Artículo sobre jurema, 2020. cejsh.icm.edu.pl, resumen en portugués e inglés.",
+  "<em>Revista Nures</em> 26, 2014. Contribuição ao estudo etnofarmacobotânico do vinho da jurema. revistas.pucsp.br/index.php/nures/article/download/24694/17574/64166.",
+  "Universidade de São Paulo. Texto sobre jurema. ea.fflch.usp.br/sites/ea.fflch.usp.br/files/inline-files/Jurema.pdf.",
+  "Ethnoco. <em>Mimosa tenuiflora (syn. hostilis) ~ Jurema</em>. medium.com/ethnoco/mimosa-tenuiflora-syn-hostilis-jurema-98c532635b21.",
+  "Chacruna. <em>How Jurema helped the Pankararé people recover their land</em>. chacruna.net/this-is-how-jurema-a-dmt-containing-tree-helped-the-pankarare-people-recover-their-land-in-brazil/.",
+  "<em>Moara</em>, Universidade Federal do Pará. Artículo sobre jurema y catimbó. periodicos.ufpa.br/index.php/moara/article/download/21318/13559.",
+  "Barreto, M. V. <em>Para além da questão psicoativa</em>. <em>Revista Brasileira de História das Religiões</em>, 2024. periodicoseletronicos.ufma.br.",
+  "Chacruna. <em>The Enchanted Science of Jurema</em>. chacruna.net/?p=129611."
+ ],
+ "tipo_txt": "Preparado",
+ "galeria": [],
+ "revisado": "24 de noviembre de 2026",
+ "anterior": [
+  "Ungüentos de brujas",
+  "unguentos-de-brujas"
+ ],
+ "siguiente": [
+  "Voacanga",
+  "voacanga"
+ ]
+}
