@@ -1,0 +1,242 @@
+{
+ "slug": "4-aco-dmt",
+ "tipo": "molecula",
+ "migas": "Molécula · Psicoactivo",
+ "nombre": "4-AcO-DMT",
+ "cientifico": "4-acetoxi-N,N-dimetiltriptamina (psilacetina)",
+ "autoridad": "",
+ "descripcion": "4-AcO-DMT o psilacetina: triptamina semisintética patentada por Hofmann y Troxler; en el cuerpo se convierte en psilocina, como la psilocibina.",
+ "entrada": "El 4-AcO-DMT, o psilacetina, es una triptamina semisintética emparentada con la psilocibina. Albert Hofmann y Franz Troxler la patentaron a comienzos de los años sesenta. En 2024 un estudio en ratones confirmó que el cuerpo la transforma en psilocina, como ocurre con la psilocibina.[1][2]",
+ "otros": "psilacetina · O-acetilpsilocina · 4-acetoxi-DMT · «setas sintéticas» (apodo)",
+ "portada": null,
+ "vistazo": [
+  [
+   "que",
+   "Qué es",
+   "Triptamina psicodélica semisintética"
+  ],
+  [
+   "territorio",
+   "Territorio",
+   "Origen de laboratorio, Basilea (Suiza)"
+  ],
+  [
+   "parte",
+   "Fuente",
+   "Síntesis química"
+  ],
+  [
+   "activos",
+   "Mecanismo",
+   "Profármaco de la psilocina"
+  ],
+  [
+   "tiempo",
+   "Empieza y dura",
+   "Varias horas, según la guía de APDER"
+  ],
+  [
+   "pueblos",
+   "Quién guarda su memoria",
+   "Sandoz, Hofmann y la investigación actual"
+  ]
+ ],
+ "guia": {
+  "titulo": "Ficha breve del 4-AcO-DMT",
+  "texto": "Interacciones, quién no debería tomarlo y qué hacer si algo va mal.",
+  "url": "sustancias/4-aco-dmt/"
+ },
+ "planta": {
+  "id": "la-planta",
+  "etq": "La sustancia",
+  "titulo": "Un pariente de laboratorio de la psilocibina",
+  "parrafos": [
+   "Es un éster de la psilocina: donde la psilocibina lleva un grupo fosfato, la psilacetina lleva un grupo acetato. Ambas protegen el mismo grupo hidroxilo de la psilocina.[2]",
+   "David Nichols la propuso como alternativa útil a la psilocibina para estudios farmacológicos, porque ambas se consideran profármacos de la psilocina.[1]",
+   "Es el homólogo menor de otras triptaminas 4-acetoxiladas, como el 4-AcO-MET o el 4-AcO-DET.[1]"
+  ],
+  "rasgos": [
+   [
+    "Clase",
+    "Triptamina 4-sustituida"
+   ],
+   [
+    "Familia",
+    "Ésteres de la psilocina"
+   ],
+   [
+    "Metabolito",
+    "Psilocina"
+   ],
+   [
+    "Patente",
+    "Sandoz, años sesenta"
+   ]
+  ],
+  "foto": null,
+  "lamina": null,
+  "aviso": "Ficha descriptiva: sin dosis ni síntesis."
+ },
+ "tradicion": {
+  "id": "memoria",
+  "etq": "Memoria e historia",
+  "titulo": "De la patente de Sandoz al estudio de 2024",
+  "parrafos": [
+   "Hofmann aisló la psilocibina y la psilocina en 1957, y después se describieron varias triptaminas con sustituciones en la posición 4.[4]",
+   "La psilacetina y otros ésteres de la psilocina aparecen en una patente de Sandoz firmada por Hofmann y Troxler: unas fuentes la fechan en 1961 y otras en enero de 1963.[1][2]",
+   "En esa patente se describían estos ésteres como antagonistas de receptores de serotonina.[3]",
+   "Nichols y Frescas publicaron en 1999 una síntesis mejorada.[2]",
+   "Pese a la patente temprana, su historia de uso es corta, y en los últimos años ha circulado como droga de diseño de la que se sabe muy poco.[1][4]"
+  ],
+  "cronologia": [
+   [
+    "1957",
+    "Hofmann aísla psilocibina y psilocina"
+   ],
+   [
+    "Años sesenta",
+    "Patente de Sandoz (Hofmann y Troxler)"
+   ],
+   [
+    "1999",
+    "Síntesis mejorada de Nichols y Frescas"
+   ],
+   [
+    "2024",
+    "Se confirma en ratones que es un profármaco de la psilocina"
+   ]
+  ],
+  "nombres": [],
+  "nota_nombres": "",
+  "banda": null
+ },
+ "territorio": {
+  "id": "territorio",
+  "etq": "Contexto y cuidado",
+  "titulo": "Origen y contexto",
+  "parrafos": [
+   "Hofmann aisló la psilocibina y la psilocina en 1957, y después se describieron varias triptaminas con sustituciones en la posición 4.[4]"
+  ],
+  "uicn": null,
+  "ayuda": [
+   "Informarse en fuentes fiables.",
+   "Distinguir investigación, experiencia y uso regulado.",
+   "Respetar los marcos legales y clínicos."
+  ],
+  "foto": null,
+  "mapa": {
+   "img": "mapa-4-aco-dmt.svg",
+   "alt": "Mapa de Suiza.",
+   "mundo": true,
+   "leyenda": [
+    [
+     "#e0b25a",
+     "Lugar de la patente, Basilea"
+    ]
+   ]
+  }
+ },
+ "quimica": {
+  "id": "quimica",
+  "etq": "Química y mecanismo",
+  "titulo": "Se transforma en psilocina",
+  "parrafos": [
+   "Un estudio de 2024 en ratones aportó la primera prueba directa de que la psilacetina actúa como profármaco de la psilocina en un organismo vivo.[2]",
+   "Con dosis equivalentes, la psilocibina produjo entre un 10 y un 25 % más de psilocina a los quince minutos; en conjunto, la exposición desde la psilacetina fue de un 70 % aproximadamente. La vida media de la psilocina rondó los treinta minutos en ambos casos.[2]",
+   "Como acaba en psilocina, comparte en lo esencial el mecanismo de la psilocibina, aunque falta farmacología propia en humanos.[2][4]"
+  ],
+  "moleculas": []
+ },
+ "experiencia": {
+  "id": "experiencia",
+  "etq": "La experiencia",
+  "titulo": "Lo que se describe",
+  "parrafos": [
+   "Algunas personas cuentan que sus efectos subjetivos difieren de los de la psilocibina y la psilocina; son testimonios, no estudios.[1]",
+   "Para los cuidados prácticos, la guía de APDER del 4-AcO-DMT reúne interacciones, contraindicaciones y qué hacer si algo va mal."
+  ],
+  "tiempo": {
+   "horas": 0,
+   "tramos": [],
+   "res": [
+    [
+     "Duración",
+     "según la guía de APDER"
+    ]
+   ]
+  }
+ },
+ "investigacion": {
+  "id": "investigacion",
+  "etq": "Investigación",
+  "titulo": "Qué se ha estudiado",
+  "nivel": 2,
+  "parrafos": [
+   "Su farmacología se ha estudiado poco: un trabajo de 2020 señalaba que casi no se sabía nada de los efectos de los análogos 4-acetoxilados.[4]",
+   "Un estudio con roedores de 2017 sugirió efectos sobre la adicción a heroína y nicotina; es un resultado aislado en animales.[3]",
+   "El estudio de 2024 plantea que podría facilitar la investigación con psilocina.[2]"
+  ],
+  "alcance": "Estudios en animales y farmacología básica; sin ensayos clínicos en personas."
+ },
+ "cuidado": {
+  "id": "cuidado",
+  "etq": "Con cuidado",
+  "titulo": "Lo que conviene saber antes",
+  "tarjetas": [
+   [
+    "Evidencia",
+    "Hay muy poca investigación en personas; casi todo lo que se sabe viene de animales o de testimonios.[1][4]"
+   ],
+   [
+    "Origen",
+    "Circula como droga de diseño; su pureza no está garantizada fuera del laboratorio.[4]"
+   ],
+   [
+    "Guía",
+    "La guía de APDER reúne interacciones, contraindicaciones y qué hacer si algo va mal."
+   ]
+  ],
+  "parecidos": null
+ },
+ "libros": [],
+ "parientes": [
+  [
+   "molecula",
+   "Psilocibina",
+   "Triptamina fúngica",
+   "Otro profármaco de la psilocina.",
+   "enciclopedia/psilocibina/"
+  ],
+  [
+   "hongo",
+   "San Isidro",
+   "Psilocybe cubensis",
+   "Hongo con psilocibina.",
+   "enciclopedia/san-isidro/"
+  ],
+  [
+   "molecula",
+   "DMT",
+   "N,N-dimetiltriptamina",
+   "Triptamina emparentada.",
+   "enciclopedia/dmt/"
+  ]
+ ],
+ "fuentes": [
+  "Wikipedia. <em>4-AcO-DMT</em>. wikipedia.org/wiki/4-AcO-DMT.",
+  "Jones, N. T. et al. <em>In vivo validation of psilacetin as a prodrug yielding modestly lower peripheral psilocin exposure than psilocybin</em>. <em>Frontiers in Psychiatry</em> 14, 2024. frontiersin.org/articles/10.3389/fpsyt.2023.1303365/full.",
+  "Psychedelic Review. <em>4-AcO-DMT</em>. psychedelicreview.com/4-aco-dmt/.",
+  "Klein, A. K. et al. Farmacología de la psilocibina y de triptaminas 4-sustituidas. <em>ACS Pharmacology &amp; Translational Science</em> 4(2), 2021. pmc.ncbi.nlm.nih.gov/articles/PMC8033608."
+ ],
+ "tipo_txt": "Molécula",
+ "galeria": [],
+ "revisado": "25 de noviembre de 2026",
+ "anterior": [
+  "2C-B",
+  "2c-b"
+ ],
+ "siguiente": [
+  "5-MeO-DMT",
+  "5-meo-dmt"
+ ]
+}

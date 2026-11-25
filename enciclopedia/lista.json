@@ -839,6 +839,12 @@
    "detalle": "Papaver somniferum",
    "tipo": "planta",
    "slug": "adormidera"
+  },
+  {
+   "nombre": "4-AcO-DMT",
+   "detalle": "Triptamina sintética",
+   "tipo": "molecula",
+   "slug": "4-aco-dmt"
   }
  ],
  "libros": [
