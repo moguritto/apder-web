@@ -10,6 +10,8 @@ Qué indexa (las páginas ya rehechas con el diseño Tierra):
 - Por página: url (relativa a docs/), título (h1), descripción (meta description), sección,
   resumen (máx. 600 caracteres de los primeros párrafos de <main>) y los h2/h3 (t = texto; id = ancla del
   propio encabezado o, si no tiene, la del h2 anterior, para enlazar al apartado).
+- Las páginas de docs/psiconautica/<slug>/ entran con una entrada corta (título, descripción y el primer párrafo
+  recortado, sin encabezados): son cientos y tienen su propio buscador en docs/psiconautica/.
 - Por cada libro de docs/biblioteca/index.html (<li class="b-libro" data-cat data-idioma data-sust>,
   el mismo marcado que lee el buscador de esa página): título, autor, año, categoría, idioma, sustancias
   y descripción. Cada resultado enlaza a la ficha del libro cuando existe.
@@ -30,6 +32,7 @@ SECCIONES = {
     'sustancias': 'Sustancias',
     'medicinas': 'Medicinas',
     'enciclopedia': 'Enciclopedia',
+    'psiconautica': 'Psiconáutica',
     'investigacion-terapeutica': 'Investigación',
     'biblioteca': 'Biblioteca',
     'quien-es-quien': 'Quién es quién',
@@ -179,12 +182,18 @@ def paginas():
             if p.refresh or 'noindex' in p.robots or p.wp or not p.h1:
                 continue
             url = '' if rel == 'index.html' else rel[:-len('index.html')]
+            r = resumen(p.parrafos, p.h1, p.encabezados)
+            if rel.startswith('psiconautica/') and rel != 'psiconautica/index.html':
+                # cientos de páginas largas: entrada corta para que el índice no se dispare (tienen su propio buscador)
+                p.encabezados = []
+                if len(r) > 260:
+                    r = r[:260].rsplit(' ', 1)[0].rstrip(' ,;:.') + '…'
             res.append({
                 'url': url,
                 'titulo': p.h1,
                 'descripcion': limpia(p.descripcion),
                 'seccion': seccion_de(rel),
-                'resumen': resumen(p.parrafos, p.h1, p.encabezados),
+                'resumen': r,
                 'encabezados': p.encabezados,
             })
     return res
