@@ -1,0 +1,110 @@
+/* «Todas las guías» (docs/sustancias/index.html). Se suma a tierra.css y a enciclopedia/enciclopedia.css.
+   Todo va bajo .gui, que es la parte alta de la página (la genera scripts/guias/generar.py). */
+.gui{--f1:#9c4a26;--f2:#3f5479;--f3:#3f6b45}
+.gui .f1{--f:var(--f1)}.gui .f2{--f:var(--f2)}.gui .f3{--f:var(--f3)}
+.gui [hidden]{display:none!important}
+.gui .e-portada h1{font-size:clamp(2.7rem,5.6cqw,5rem)}
+.gui .e-busca input:focus{outline:0}
+.gui .e-busca:focus-within{box-shadow:0 0 0 3px var(--oro)}
+.gui .e-atajos a:hover{border-color:var(--oro);color:#fff}
+.gui .e-cab h2{margin-top:0}
+
+/* familias y tarjetas */
+.gui .g-familia{margin-top:44px;scroll-margin-top:96px}
+.gui .g-familia:first-of-type{margin-top:8px}
+.gui .g-fam-cab{display:flex;align-items:baseline;gap:8px 28px;flex-wrap:wrap;margin-bottom:18px;padding-left:16px;border-left:4px solid var(--f)}
+.gui .g-fam-cab h3{font-size:1.75rem;line-height:1.15}
+.gui .g-fam-cab p{margin:0;max-width:44em;color:var(--suave);font-size:.98rem;line-height:1.5}
+.gui .g-rejilla{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.gui .g-rejilla li{margin:0;display:flex}
+.gui .f1 .g-rejilla{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gui .f2 .g-rejilla{grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+.gui .f2 .g-txt b{font-size:1.3rem}
+.gui .f1 .g-fig{aspect-ratio:16/10}
+.gui .f1 .g-txt b{font-size:1.6rem}
+.gui .g-guia{display:flex;flex-direction:column;width:100%;padding:10px 10px 14px;border-radius:24px;background:#fffdf7;text-decoration:none;color:var(--texto);box-shadow:0 2px 14px rgba(60,40,20,.06);transition:transform .2s,box-shadow .2s}
+.gui .g-guia:hover{transform:translateY(-3px);box-shadow:0 14px 30px -14px rgba(60,40,20,.35)}
+.gui .g-guia:focus-visible{outline:3px solid var(--tierra-osc);outline-offset:3px}
+.gui .g-fig{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;border-radius:16px;overflow:hidden;background:var(--arena)}
+.gui .g-fig>img:not(.g-mol){width:100%;height:100%;object-fit:cover}
+.gui .g-fig .g-mol{width:66%;height:74%;object-fit:contain;mix-blend-mode:multiply;opacity:.9}
+.gui .g-fig.foto .g-mol{position:absolute;right:8px;bottom:8px;width:62px;height:50px;padding:7px 8px;border-radius:14px;background:#fffdf7;mix-blend-mode:normal;opacity:1;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+.gui .g-txt{display:block;padding:14px 8px 0}
+.gui .g-txt b{display:block;font-family:var(--serif);font-weight:400;font-size:1.42rem;line-height:1.15}
+.gui .g-txt small{display:block;margin-top:5px;font-size:.88rem;line-height:1.4;color:var(--suave)}
+.gui .g-datos{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;margin-top:auto;padding:14px 8px 0;font-size:.84rem;line-height:1.3}
+.gui .g-datos>span:first-child{color:var(--f);font-weight:700}
+.gui .g-dur{display:inline-flex;align-items:center;gap:5px;flex:none;font-weight:700;white-space:nowrap}
+.gui .g-dur svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.gui .g-vacio{margin:0 0 10px;padding:18px 22px;border-radius:18px;background:#fffdf7;font-size:1.02rem}
+.gui .g-vacio a{color:var(--tierra-osc);font-weight:700}
+
+/* cuánto dura cada una: una barra por guía, en escala logarítmica */
+.gui .g-esquema{--nom:200px;--val:190px;--hueco:18px;position:relative;padding:26px 30px 24px;border-radius:28px;background:#fffdf7;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.gui .g-leyenda{display:flex;flex-wrap:wrap;gap:6px 22px;margin:0 0 18px;font-size:.88rem;font-weight:700}
+.gui .g-leyenda span{display:inline-flex;align-items:center;gap:8px;color:var(--f)}
+.gui .g-leyenda span::before{content:"";width:22px;height:10px;border-radius:5px;background:var(--f)}
+.gui .g-eje{position:relative;height:22px;margin:0 calc(var(--val) + var(--hueco)) 0 calc(var(--nom) + var(--hueco));font-size:.76rem;color:var(--suave);font-weight:700}
+.gui .g-eje span{position:absolute;left:calc(var(--a)*1%);transform:translateX(-50%);white-space:nowrap}
+.gui .g-filas{list-style:none;margin:0;padding:0}
+.gui .g-filas li{display:grid;grid-template-columns:var(--nom) minmax(0,1fr) var(--val);gap:var(--hueco);align-items:center;margin:0;min-height:38px;border-top:1px solid var(--arena)}
+.gui .g-filas a{font-weight:700;font-size:.95rem;line-height:1.25;text-decoration:none;color:var(--texto)}
+.gui .g-filas a:hover{color:var(--tierra-hondo);text-decoration:underline;text-underline-offset:3px}
+.gui .g-pista{--r:linear-gradient(var(--linea),var(--linea));position:relative;height:38px;background:var(--r) calc(var(--t1)*1%) 0/1px 100% no-repeat,var(--r) calc(var(--t2)*1%) 0/1px 100% no-repeat,var(--r) calc(var(--t3)*1%) 0/1px 100% no-repeat,var(--r) calc(var(--t4)*1%) 0/1px 100% no-repeat,var(--r) calc(var(--t5)*1%) 0/1px 100% no-repeat,var(--r) calc(var(--t6)*1%) 0/1px 100% no-repeat,var(--r) calc(var(--t7)*1%) 0/1px 100% no-repeat}
+.gui .g-pista i{position:absolute;top:13px;height:12px;left:calc(var(--a)*1%);width:max(8px,calc((var(--b) - var(--a))*1%));border-radius:6px;background:var(--f)}
+.gui .g-pista i.hasta{border-radius:0 6px 6px 0;opacity:.32;margin-left:-3px;width:calc((var(--b) - var(--a))*1% + 3px)}
+.gui .g-pista i.mas{width:5%;margin-left:-3px;border-radius:0;background:linear-gradient(90deg,var(--f),transparent);opacity:.5}
+.gui .g-cuanto{font-size:.86rem;line-height:1.3;color:var(--suave)}
+.gui .g-nota-esquema{margin:16px 0 0;font-size:.86rem;line-height:1.5;color:var(--suave);max-width:70em}
+
+/* otras maneras de entrar */
+.gui .g-puertas{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.gui .g-puertas a{display:block;padding:22px 22px 24px;border-radius:22px;background:var(--pino);color:#f5efdb;text-decoration:none;transition:background .2s}
+.gui .g-puertas a:hover{background:var(--pino-2)}
+.gui .g-puertas a:focus-visible{outline:3px solid var(--tierra-osc);outline-offset:3px}
+.gui .g-puertas b{display:block;font-family:var(--serif);font-weight:400;font-size:1.4rem;line-height:1.15;color:var(--oro-claro)}
+.gui .g-puertas span{display:block;margin-top:8px;font-size:.93rem;line-height:1.5;color:#dfe3d3}
+.gui .g-indice{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:44px;padding-top:26px;border-top:1px solid var(--linea)}
+.gui .g-indice b{margin-right:8px;font-family:var(--serif);font-weight:400;font-size:1.3rem}
+.gui .g-indice a{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border:1px solid var(--linea);border-radius:999px;background:#fffdf7;text-decoration:none;font-weight:600;font-size:.93rem}
+.gui .g-indice a:hover{border-color:var(--tierra-osc)}
+.gui .g-fotos{margin-top:26px}
+.gui .g-fotos p{margin:0;font-size:.78rem;line-height:1.6;color:var(--suave)}
+.gui .g-fotos a{text-decoration:underline;text-underline-offset:2px}
+.g-leer .s-intro{padding-top:8px}
+
+@container enc (max-width:1100px){
+  .gui .g-rejilla,.gui .f1 .g-rejilla,.gui .f2 .g-rejilla{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  .gui .f1 .g-fig{aspect-ratio:4/3}
+  .gui .f1 .g-txt b,.gui .f2 .g-txt b{font-size:1.42rem}
+  .gui .g-puertas{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .gui .g-esquema{--nom:170px;--val:150px}
+}
+@container enc (max-width:860px){
+  .gui .g-rejilla,.gui .f1 .g-rejilla,.gui .f2 .g-rejilla{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .gui .g-esquema{--nom:0px;--val:0px;--hueco:0px;padding:22px 18px 20px}
+  .gui .g-filas li{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:0 12px;padding:9px 0 0}
+  .gui .g-filas a{display:inline-flex;align-items:center;min-height:30px}
+  .gui .g-cuanto{text-align:right}
+  .gui .g-pista{grid-column:1 / -1;grid-row:2;height:26px}
+  .gui .g-pista i{top:6px}
+}
+@container enc (max-width:560px){
+  .gui .g-rejilla,.gui .f1 .g-rejilla,.gui .f2 .g-rejilla{grid-template-columns:minmax(0,1fr);gap:10px}
+  .gui .f1 .g-fig{aspect-ratio:1}
+  .gui .f1 .g-txt b,.gui .f2 .g-txt b{font-size:1.25rem}
+  .gui .g-guia{display:grid;grid-template-columns:112px minmax(0,1fr);grid-template-rows:auto auto;column-gap:14px;padding:8px 14px 8px 8px;border-radius:20px}
+  .gui .g-fig{grid-row:1 / span 2;aspect-ratio:1;border-radius:14px}
+  .gui .g-fig.foto .g-mol{right:5px;bottom:5px;width:44px;height:36px;padding:5px;border-radius:10px}
+  .gui .g-txt{padding:6px 0 0;align-self:end}
+  .gui .g-txt small{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+  .gui .g-datos{padding:6px 0 6px;margin-top:0;align-self:start;align-items:center}
+  .gui .g-fam-cab h3{font-size:1.5rem}
+  .gui .g-puertas{grid-template-columns:minmax(0,1fr)}
+  .gui .e-orbitas{width:min(64%,250px);margin-bottom:30px}
+  .gui .e-orbitas figcaption{left:-30%;right:-30%;font-size:1rem}
+  .gui .g-eje span:nth-child(2),.gui .g-eje span:nth-child(6){display:none}
+  .gui .g-indice a{min-height:44px}
+}
+@media (prefers-reduced-motion:reduce){.gui .g-guia{transition:none}.gui .g-guia:hover{transform:none}}
+@media print{.gui .e-busca,.gui .e-atajos,.gui .e-orbitas,.gui .g-indice,.gui .g-puertas{display:none!important}.gui .g-rejilla{grid-template-columns:repeat(3,minmax(0,1fr))}}

@@ -26,7 +26,11 @@
 <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
 <link rel="preload" href="../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/orb-1.webp" as="image" type="image/webp" fetchpriority="high">
 <link rel="stylesheet" href="../tierra.css?v=20261125a">
+<link rel="stylesheet" href="../enciclopedia/enciclopedia.css?v=20261123">
+<link rel="stylesheet" href="guias.css?v=20261125a">
 </head>
 <body class="guia">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -119,52 +123,98 @@
     </div>
   </div>
 </header>
-<main id="contenido" class="guia-cuerpo">
-<section class="s-portada">
-<div class="s-ancho">
-<div class="s-portada-texto">
-<span class="s-rayas" aria-hidden="true"></span>
-<h1>Medicinas psicodélicas</h1>
-<p class="s-sub">Qué son, cómo actúan, qué dice la investigación y cómo reducir riesgos. En español, sin alarmismo y sin idealizarlas.</p>
-</div>
-<div class="s-portada-img"><img src="../img/sustancias-portada.svg" alt="" width="260" height="200"></div>
+
+<main id="contenido">
+<div class="enc gui">
+<section class="e-portada"><div class="ancho e-portada-in">
+<div><p class="etq oro">Medicinas · Guías</p><h1>Medicinas psicodélicas, <em>guía a guía</em></h1>
+<p class="e-intro">Qué son, cómo actúan, qué dice la investigación y cómo reducir riesgos. En español, sin alarmismo y sin idealizarlas.</p>
+<label class="e-busca"><svg class="ico peq" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4 4"></path></svg><input type="search" id="g-busca" aria-label="Buscar una guía por nombre" placeholder="Setas, ácido, yagé, MDMA…" autocomplete="off"></label>
+<p class="e-atajos">Ir a <a href="#clasicos">Psicodélicos clásicos</a><a href="#otras">Otras medicinas</a><a href="#plantas">Plantas y hongos</a><a href="#duracion">Cuánto dura cada una</a></p></div>
+<figure class="e-orbitas"><div class="orb orb-1"><img src="img/orb-1.webp" alt="Monguis de sombrero puntiagudo sobre la hierba." width="520" height="520" fetchpriority="high"></div><div class="orb orb-2"><img src="img/orb-2.webp" alt="Columnas verdes del cactus San Pedro." width="280" height="280"></div><div class="orb orb-3"><img src="img/orb-3.webp" alt="Flor blanca y violeta de Salvia divinorum." width="240" height="240"></div><span class="chispa a" aria-hidden="true">✧</span><span class="chispa b" aria-hidden="true">✧</span><figcaption>Monguis · San Pedro · Salvia divinorum</figcaption></figure>
+</div></section>
+
+<section class="e-sec ancho" id="guias">
+<div class="e-cab"><div><h2>Las 19 guías</h2></div><p class="nota">Todas siguen el mismo orden: qué es, cómo actúa, la experiencia, interacciones, quién no debería, cómo reducir riesgos, investigación e historia.</p></div>
+<p class="g-vacio" id="g-vacio" hidden>Ninguna guía se llama así. Prueba en el <a id="g-general" href="../buscar/">buscador de toda la web</a>.</p>
+<div class="g-familia f1" id="clasicos"><div class="g-fam-cab"><h3>Psicodélicos clásicos</h3><p>Los que dieron nombre a la palabra: las setas, el LSD, los cactus con mescalina, la DMT y sus parientes.</p></div>
+<ul class="g-rejilla">
+<li><a class="g-guia" href="psilocibina/" data-b="setas de psilocibina setas magicas, monguis, trufas, psilocibina psicodelico clasico (triptamina) psilocibina"><span class="g-fig foto"><img src="img/psilocibina.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/psilocibina.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Setas de psilocibina</b><small>Setas mágicas, monguis, trufas, psilocibina</small></span><span class="g-datos"><span>Psicodélico clásico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>4–6 h</span></span></a></li>
+<li><a class="g-guia" href="lsd/" data-b="lsd acido, lsd-25, «tripi», carton, micro psicodelico clasico (ergolina) lsd"><span class="g-fig"><img class="g-mol" src="moleculas/lsd.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><span class="g-txt"><b>LSD</b><small>Ácido, LSD-25, «tripi», cartón, micro</small></span><span class="g-datos"><span>Psicodélico clásico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>8–12 h</span></span></a></li>
+<li><a class="g-guia" href="mescalina/" data-b="mescalina, peyote y san pedro peyote, san pedro, huachuma, antorcha peruana psicodelico clasico (fenetilamina) mescalina"><span class="g-fig foto"><img src="img/mescalina.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/mescalina.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Mescalina, peyote y San Pedro</b><small>Peyote, San Pedro, huachuma, antorcha peruana</small></span><span class="g-datos"><span>Psicodélico clásico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>8–12 h</span></span></a></li>
+<li><a class="g-guia" href="dmt/" data-b="dmt dimetiltriptamina, «dimitri», changa psicodelico clasico (triptamina) dmt"><span class="g-fig foto"><img src="img/dmt.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>DMT</b><small>Dimetiltriptamina, «dimitri», changa</small></span><span class="g-datos"><span>Psicodélico clásico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>5–20 min</span></span></a></li>
+<li><a class="g-guia" href="ayahuasca/" data-b="ayahuasca yage, hoasca, «la medicina», daime, caapi psicodelico clasico (dmt + inhibidores de la mao) ayahuasca"><span class="g-fig foto"><img src="img/ayahuasca.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/ayahuasca.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Ayahuasca</b><small>Yagé, hoasca, «la medicina», daime, caapi</small></span><span class="g-datos"><span>Psicodélico clásico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>4–6 h</span></span></a></li>
+<li><a class="g-guia" href="5-meo-dmt/" data-b="5-meo-dmt «el sapo», bufo, 5-metoxi-dmt psicodelico (triptamina) 5-meo-dmt"><span class="g-fig foto"><img src="img/5-meo-dmt.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/5-meo-dmt.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>5-MeO-DMT</b><small>«El sapo», bufo, 5-metoxi-DMT</small></span><span class="g-datos"><span>Psicodélico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>15–45 min</span></span></a></li>
+</ul></div>
+<div class="g-familia f2" id="otras"><div class="g-fam-cab"><h3>Otras medicinas</h3><p>Empatógenos, disociativos, la ibogaína y dos moléculas de laboratorio emparentadas con los clásicos.</p></div>
+<ul class="g-rejilla">
+<li><a class="g-guia" href="mdma/" data-b="mdma extasis, «m», «cristal», «pastis», molly empatogeno (fenetilamina) mdma"><span class="g-fig"><img class="g-mol" src="moleculas/mdma.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><span class="g-txt"><b>MDMA</b><small>Éxtasis, «M», «cristal», «pastis», molly</small></span><span class="g-datos"><span>Empatógeno</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>3–6 h</span></span></a></li>
+<li><a class="g-guia" href="ketamina/" data-b="ketamina keta, «k», «special k»; esketamina en espray nasal disociativo (arilciclohexilamina) ketamina"><span class="g-fig"><img class="g-mol" src="moleculas/ketamina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><span class="g-txt"><b>Ketamina</b><small>Keta, «K», «special K»; esketamina en espray nasal</small></span><span class="g-datos"><span>Disociativo</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>1–2 h</span></span></a></li>
+<li><a class="g-guia" href="ibogaina/" data-b="ibogaina iboga, tabernanthe iboga oneirogeno (alcaloide indolico) ibogaina"><span class="g-fig foto"><img src="img/ibogaina.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/ibogaina.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Ibogaína</b><small>Iboga, Tabernanthe iboga</small></span><span class="g-datos"><span>Oneirógeno</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>24–36 h</span></span></a></li>
+<li><a class="g-guia" href="2c-b/" data-b="2c-b «nexus», «venus», «bees», 4-bromo-2,5-dimetoxifenetilamina psicodelico (fenetilamina 2c) 2c-b"><span class="g-fig"><img class="g-mol" src="moleculas/2c-b.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><span class="g-txt"><b>2C-B</b><small>«Nexus», «venus», «bees», 4-bromo-2,5-dimetoxifenetilamina</small></span><span class="g-datos"><span>Psicodélico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>4–8 h</span></span></a></li>
+<li><a class="g-guia" href="4-aco-dmt/" data-b="4-aco-dmt psilacetina, o-acetilpsilocina, «4-aco» psicodelico clasico (triptamina sintetica) 4-aco-dmt"><span class="g-fig"><img class="g-mol" src="moleculas/4-aco-dmt.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><span class="g-txt"><b>4-AcO-DMT</b><small>Psilacetina, O-acetilpsilocina, «4-AcO»</small></span><span class="g-datos"><span>Psicodélico clásico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>4–6 h</span></span></a></li>
+</ul></div>
+<div class="g-familia f3" id="plantas"><div class="g-fam-cab"><h3>Plantas y hongos</h3><p>Plantas y hongos de acción muy distinta entre sí. Varias no son psicodélicos: cada guía explica qué es y qué cuidados pide.</p></div>
+<ul class="g-rejilla">
+<li><a class="g-guia" href="amanita-muscaria/" data-b="amanita muscaria matamoscas, falsa oronja, oriol foll, amanita deliriante / sedante (no es un psicodelico clasico) amanita-muscaria"><span class="g-fig foto"><img src="img/amanita-muscaria.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/amanita.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Amanita muscaria</b><small>Matamoscas, falsa oronja, oriol foll, amanita</small></span><span class="g-datos"><span>Deliriante / sedante</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>6–10 h</span></span></a></li>
+<li><a class="g-guia" href="salvia-divinorum/" data-b="salvia divinorum salvia de los adivinos, ska maria pastora, hierba de la pastora disociativo atipico (agonista opioide kappa) salvia-divinorum"><span class="g-fig foto"><img src="img/salvia-divinorum.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/salvia.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Salvia divinorum</b><small>Salvia de los adivinos, ska María Pastora, hierba de la pastora</small></span><span class="g-datos"><span>Disociativo atípico</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>5–15 min</span></span></a></li>
+<li><a class="g-guia" href="cannabis/" data-b="cannabis marihuana, hierba, maria, hachis, porro cannabinoide cannabis"><span class="g-fig"><img class="g-mol" src="moleculas/cannabis.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><span class="g-txt"><b>Cannabis</b><small>Marihuana, hierba, maría, hachís, porro</small></span><span class="g-datos"><span>Cannabinoide</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>2–8 h</span></span></a></li>
+<li><a class="g-guia" href="kanna/" data-b="kanna sceletium tortuosum, kougoed, channa planta de efecto ansiolitico suave; inhibe la recaptacion de serotonina kanna"><span class="g-fig"><img class="g-mol" src="moleculas/kanna.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><span class="g-txt"><b>Kanna</b><small>Sceletium tortuosum, kougoed, channa</small></span><span class="g-datos"><span>Planta de efecto ansiolítico suave</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>1–3 h</span></span></a></li>
+<li><a class="g-guia" href="kratom/" data-b="kratom mitragyna speciosa, ketum, biak estimulante y opioide parcial (alcaloides indolicos) kratom"><span class="g-fig"><img class="g-mol" src="moleculas/kratom.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><span class="g-txt"><b>Kratom</b><small>Mitragyna speciosa, ketum, biak</small></span><span class="g-datos"><span>Estimulante y opioide parcial</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>2–5 h</span></span></a></li>
+<li><a class="g-guia" href="datura/" data-b="datura estramonio, hierba del diablo, chamico, floripondio (brugmansia), toe deliriante (alcaloides anticolinergicos) datura"><span class="g-fig foto"><img src="img/datura.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/datura.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Datura</b><small>Estramonio, hierba del diablo, chamico, floripondio (Brugmansia), toé</small></span><span class="g-datos"><span>Deliriante</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>24–48 h</span></span></a></li>
+<li><a class="g-guia" href="cacao/" data-b="cacao theobroma cacao, «alimento de los dioses» estimulante suave (metilxantinas) cacao"><span class="g-fig foto"><img src="img/cacao.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/cacao.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Cacao</b><small>Theobroma cacao, «alimento de los dioses»</small></span><span class="g-datos"><span>Estimulante suave</span><span class="g-dur"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>2–4 h</span></span></a></li>
+<li><a class="g-guia" href="tabaco/" data-b="tabaco mapacho (nicotiana rustica), rape, tabaco de las americas estimulante (nicotina) tabaco"><span class="g-fig foto"><img src="img/tabaco.webp" alt="" width="520" height="390" loading="lazy" decoding="async"><img class="g-mol" src="moleculas/tabaco.svg" alt="" width="40" height="32" loading="lazy" decoding="async"></span><span class="g-txt"><b>Tabaco</b><small>Mapacho (Nicotiana rustica), rapé, tabaco de las Américas</small></span><span class="g-datos"><span>Estimulante</span></span></a></li>
+</ul></div>
+</section>
+
+<section class="e-sec ancho g-duracion" id="duracion">
+<div class="e-cab"><div><h2>Cuánto dura cada una</h2></div><p class="nota">De los minutos de la DMT a los dos días de la datura. Son tiempos orientativos, tomados de cada guía: cambian con la dosis, la vía y la persona.</p></div>
+<div class="g-esquema" style="--t1:3.28;--t2:19.43;--t3:39.81;--t4:60.19;--t5:76.34;--t6:86.53;--t7:96.72">
+<p class="g-leyenda"><span class="f1">Psicodélicos clásicos</span><span class="f2">Otras medicinas</span><span class="f3">Plantas y hongos</span></p>
+<div class="g-eje" aria-hidden="true"><span style="--a:3.28">5 min</span><span style="--a:19.43">15 min</span><span style="--a:39.81">1 h</span><span style="--a:60.19">4 h</span><span style="--a:76.34">12 h</span><span style="--a:86.53">24 h</span><span style="--a:96.72">48 h</span></div>
+<ol class="g-filas">
+<li class="f3"><a href="salvia-divinorum/">Salvia divinorum</a><span class="g-pista"><i style="--a:3.28;--b:19.43"></i><i class="hasta" style="--a:19.43;--b:39.81"></i></span><span class="g-cuanto">5–15 min intensos, hasta 1 h</span></li>
+<li class="f1"><a href="dmt/">DMT</a><span class="g-pista"><i style="--a:3.28;--b:23.66"></i></span><span class="g-cuanto">5–20 min</span></li>
+<li class="f1"><a href="5-meo-dmt/">5-MeO-DMT</a><span class="g-pista"><i style="--a:19.43;--b:35.58"></i></span><span class="g-cuanto">15–45 min</span></li>
+<li class="f2"><a href="ketamina/">Ketamina</a><span class="g-pista"><i style="--a:39.81;--b:50.0"></i></span><span class="g-cuanto">1–2 h (nasal)</span></li>
+<li class="f3"><a href="kanna/">Kanna</a><span class="g-pista"><i style="--a:39.81;--b:55.96"></i></span><span class="g-cuanto">1–3 h (poco estudiada)</span></li>
+<li class="f3"><a href="cacao/">Cacao</a><span class="g-pista"><i style="--a:50.0;--b:60.19"></i></span><span class="g-cuanto">2–4 h; teobromina con semivida de unas 10 h</span></li>
+<li class="f3"><a href="kratom/">Kratom</a><span class="g-pista"><i style="--a:50.0;--b:63.47"></i></span><span class="g-cuanto">2–5 h</span></li>
+<li class="f2"><a href="mdma/">MDMA</a><span class="g-pista"><i style="--a:55.96;--b:66.15"></i></span><span class="g-cuanto">3–6 h</span></li>
+<li class="f2"><a href="4-aco-dmt/">4-AcO-DMT</a><span class="g-pista"><i style="--a:60.19;--b:66.15"></i></span><span class="g-cuanto">4–6 h</span></li>
+<li class="f1"><a href="psilocibina/">Setas de psilocibina</a><span class="g-pista"><i style="--a:60.19;--b:66.15"></i><i class="hasta" style="--a:66.15;--b:70.38"></i></span><span class="g-cuanto">4–6 h (hasta 8)</span></li>
+<li class="f1"><a href="ayahuasca/">Ayahuasca</a><span class="g-pista"><i style="--a:60.19;--b:66.15"></i><i class="mas" style="--a:66.15"></i></span><span class="g-cuanto">4–6 h, a veces más</span></li>
+<li class="f3"><a href="cannabis/">Cannabis</a><span class="g-pista"><i style="--a:50.0;--b:70.38"></i></span><span class="g-cuanto">2–8 h, según la vía</span></li>
+<li class="f2"><a href="2c-b/">2C-B</a><span class="g-pista"><i style="--a:60.19;--b:70.38"></i></span><span class="g-cuanto">4–8 h</span></li>
+<li class="f3"><a href="amanita-muscaria/">Amanita muscaria</a><span class="g-pista"><i style="--a:66.15;--b:73.66"></i><i class="mas" style="--a:73.66"></i></span><span class="g-cuanto">6–10 h, a veces más</span></li>
+<li class="f1"><a href="lsd/">LSD</a><span class="g-pista"><i style="--a:70.38;--b:76.34"></i></span><span class="g-cuanto">8–12 h</span></li>
+<li class="f1"><a href="mescalina/">Mescalina, peyote y San Pedro</a><span class="g-pista"><i style="--a:70.38;--b:76.34"></i><i class="hasta" style="--a:76.34;--b:78.61"></i></span><span class="g-cuanto">8–12 h (hasta 14)</span></li>
+<li class="f2"><a href="ibogaina/">Ibogaína</a><span class="g-pista"><i style="--a:86.53;--b:92.49"></i></span><span class="g-cuanto">24–36 h</span></li>
+<li class="f3"><a href="datura/">Datura</a><span class="g-pista"><i style="--a:86.53;--b:96.72"></i><i class="mas" style="--a:96.72"></i></span><span class="g-cuanto">24–48 h o más</span></li>
+</ol>
+<p class="g-nota-esquema">El eje no es regular: cada marca vale varias veces la anterior, para que quepan en la misma línea cinco minutos y dos días. La barra clara indica hasta dónde puede alargarse. Sin duración en su guía: Tabaco.</p>
 </div>
 </section>
 
+<section class="e-sec ancho" id="mas">
+<div class="e-cab"><div><h2>Otras maneras de entrar</h2></div></div>
+<div class="g-puertas">
+<a href="microdosis/"><b>Microdosis</b><span>Qué es, qué se sabe y qué no. Sin cifras ni pautas.</span></a>
+<a href="../medicinas/"><b>Medicinas por familias</b><span>Triptaminas, fenetilaminas, disociativos y el resto, en un solo artículo.</span></a>
+<a href="../enciclopedia/"><b>Enciclopedia de medicinas</b><span>La planta, el hongo o el animal: origen, territorio y cultura.</span></a>
+<a href="../terapia/"><b>Guías de terapia</b><span>Cómo es un proceso terapéutico con cada medicina, según la investigación.</span></a>
+</div>
+<nav class="g-indice" aria-label="En esta página"><b>Y debajo, para situarse</b><a href="#que-son">¿Qué son?</a><a href="#usos">¿Cómo se usan?</a><a href="#tipos">Tipos</a><a href="#riesgos">Riesgos</a><a href="#si-algo-va-mal">Si algo va mal</a><a href="#preguntas">Preguntas frecuentes</a></nav>
+</section>
+<aside class="g-fotos ancho"><p><b>Fotografías.</b> Monguis (Psilocybe semilanceata): <a href="https://commons.wikimedia.org/wiki/File:Psilocybe.semilanceata.Alan.jpg" rel="noopener">Alan Rockefeller</a>, CC BY-SA 3.0. Peyote en flor: <a href="https://commons.wikimedia.org/wiki/File:Cactaceae_Lophophora_williamsii_1.jpg" rel="noopener">NasserHalaweh</a>, CC BY-SA 4.0. Hojas de chacruna: <a href="https://commons.wikimedia.org/wiki/File:Feuilles_de_Psychotria_viridis.jpg" rel="noopener">Anthony Baratier</a>, CC BY-SA 4.0. Liana de ayahuasca: <a href="https://commons.wikimedia.org/wiki/File:Tallo_de_Ayahuasca_(Banisteriopsis_caapi).jpg" rel="noopener">Jaime Torres/Archivo Centro Takiwasi</a>, CC BY-SA 4.0. Sapo del desierto de Sonora: <a href="https://commons.wikimedia.org/wiki/File:Incilius_alvarius_Stanton_2.JPG" rel="noopener">Rstanton13</a>, CC BY-SA 4.0. Arbusto de iboga con frutos: <a href="https://commons.wikimedia.org/wiki/File:Tabernanthe_iboga_MS_4098.jpg" rel="noopener">Marco Schmidt</a>, CC BY-SA 2.5. Matamoscas en el bosque: <a href="https://commons.wikimedia.org/wiki/File:Fliegenpilz_fly_agaric_Amanita_muscaria.JPG" rel="noopener">Holger Krisp</a>, CC BY 3.0. Flor de Salvia divinorum: <a href="https://commons.wikimedia.org/wiki/File:Salvia_divinorum_(5628976941).jpg" rel="noopener">Luis Pérez from Medellin, Colombia</a>, CC BY 2.0. Flor de datura: <a href="https://commons.wikimedia.org/wiki/File:Datura_inoxia_-_Rouge_National_Urban_Park.jpg" rel="noopener">The Cosmonaut</a>, CC BY-SA 4.0. Fruto de cacao abierto: <a href="https://commons.wikimedia.org/wiki/File:Theobroma_cacao_(cacau)_open_fruit.jpg" rel="noopener">Rodrigo.Argenton</a>, CC BY-SA 4.0. Tabaco rústico (mapacho) en flor: <a href="https://commons.wikimedia.org/wiki/File:Nicotiana_rustica_inflorescence.jpg" rel="noopener">Flaminglasrswrd</a>, dominio público. San Pedro: <a href="https://commons.wikimedia.org/wiki/File:Starr_070320-5799_Echinopsis_pachanoi.jpg" rel="noopener">Forest &amp; Kim Starr</a>, CC BY 3.0. Recortadas; cada una conserva su licencia.</p></aside>
+</div>
+
+<div class="guia-cuerpo g-leer">
 <section class="s-intro">
 <div class="s-col">
+<h2 class="s-gran" id="que-son">¿Qué son los psicodélicos?</h2>
 <p>La palabra «psicodélico» la propuso el psiquiatra Humphry Osmond en 1957 y viene del griego: algo así como «que hace visible la mente». Con ella nos referimos a sustancias que, durante unas horas, transforman la percepción, el estado de ánimo, el pensamiento y la vivencia del propio yo.</p>
 <p>En estas guías tratamos tanto los <strong>psicodélicos clásicos</strong> (psilocibina, LSD, DMT y mescalina, todos con acción principal en el receptor de serotonina 5-HT2A) como otras sustancias que hoy se investigan en salud mental por caminos distintos: la <strong>MDMA</strong>, la <strong>ketamina</strong> o la <strong>ibogaína</strong>. Nuestro enfoque es el de APDER: divulgación rigurosa, uso terapéutico y reducción de riesgos.</p>
-
-<h2 id="guias">Todas las guías</h2>
-<p>Una guía o una ficha por cada medicina: cómo actúa, efectos, dosis, investigación, riesgos e historia.</p>
-</div>
-<div class="s-moleculas">
-<a href="psilocibina/"><img src="moleculas/psilocibina.svg" alt="Estructura química de la psilocibina" loading="lazy"><span>Setas de psilocibina</span></a>
-<a href="mdma/"><img src="moleculas/mdma.svg" alt="Estructura química de MDMA" loading="lazy"><span>MDMA</span></a>
-<a href="lsd/"><img src="moleculas/lsd.svg" alt="Estructura química de LSD" loading="lazy"><span>LSD</span></a>
-<a href="ketamina/"><img src="moleculas/ketamina.svg" alt="Estructura química de Ketamina" loading="lazy"><span>Ketamina</span></a>
-<a href="ayahuasca/"><img src="moleculas/ayahuasca.svg" alt="Estructura química de Ayahuasca (harmina)" loading="lazy"><span>Ayahuasca</span></a>
-<a href="dmt/"><img src="moleculas/dmt.svg" alt="Estructura química de DMT" loading="lazy"><span>DMT</span></a>
-<a href="5-meo-dmt/"><img src="moleculas/5-meo-dmt.svg" alt="Estructura química de 5-MeO-DMT" loading="lazy"><span>5-MeO-DMT</span></a>
-<a href="mescalina/"><img src="moleculas/mescalina.svg" alt="Estructura química de Mescalina" loading="lazy"><span>Mescalina</span></a>
-<a href="mescalina/"><img src="moleculas/mescalina.svg" alt="Estructura química de Peyote y San Pedro (mescalina)" loading="lazy"><span>Peyote y San Pedro</span></a>
-<a href="ibogaina/"><img src="moleculas/ibogaina.svg" alt="Estructura química de Ibogaína" loading="lazy"><span>Ibogaína</span></a>
-<a href="2c-b/"><img src="moleculas/2c-b.svg" alt="Estructura química de 2C-B" loading="lazy"><span>2C-B</span></a>
-<a href="4-aco-dmt/"><img src="moleculas/4-aco-dmt.svg" alt="Estructura química de 4-AcO-DMT" loading="lazy"><span>4-AcO-DMT</span></a>
-<a href="amanita-muscaria/"><img src="moleculas/amanita.svg" alt="Estructura química de Amanita muscaria (muscimol)" loading="lazy"><span>Amanita muscaria</span></a>
-<a href="salvia-divinorum/"><img src="moleculas/salvia.svg" alt="Estructura química de Salvia divinorum (salvinorina A)" loading="lazy"><span>Salvia divinorum</span></a>
-<a href="cannabis/"><img src="moleculas/cannabis.svg" alt="Estructura química de Cannabis (THC)" loading="lazy"><span>Cannabis</span></a>
-<a href="kanna/"><img src="moleculas/kanna.svg" alt="Estructura química de Kanna (mesembrina)" loading="lazy"><span>Kanna</span></a>
-<a href="kratom/"><img src="moleculas/kratom.svg" alt="Estructura química de Kratom (mitraginina)" loading="lazy"><span>Kratom</span></a>
-<a href="datura/"><img src="moleculas/datura.svg" alt="Estructura química de Datura (escopolamina)" loading="lazy"><span>Datura</span></a>
-<a href="cacao/"><img src="moleculas/cacao.svg" alt="Estructura química de Cacao ceremonial (teobromina)" loading="lazy"><span>Cacao</span></a>
-<a href="tabaco/"><img src="moleculas/tabaco.svg" alt="Estructura química de Tabaco sagrado (nicotina)" loading="lazy"><span>Tabaco</span></a>
-<a href="microdosis/"><img src="moleculas/microdosis.svg" alt="Dibujo: una fracción pequeña de una dosis" loading="lazy"><span>Microdosis</span></a>
-</div>
-
-<div class="s-col">
-<h2 class="s-gran" id="que-son">¿Qué son los psicodélicos?</h2>
 <h3>Psicodélicos de origen natural</h3>
 <p>Muchas de estas sustancias existen en la naturaleza y algunas culturas llevan siglos usándolas:</p>
 <ul>
@@ -273,15 +323,22 @@
 </div>
 <div class="s-espacio"></div>
 </section>
-
+</div>
 </main>
 <script>
-(function(){var l=document.querySelectorAll('.s-toc a');if(!l.length||!('IntersectionObserver' in window))return;
-var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
-var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('activo')});var a=m[e.target.id];if(a)a.classList.add('activo')}})},{rootMargin:'-140px 0px -70% 0px'});
-Object.keys(m).forEach(function(id){var h=document.getElementById(id);if(h)o.observe(h)});})();
+(function(){var c=document.getElementById('g-busca');if(!c)return;
+var t=[].slice.call(document.querySelectorAll('.g-guia')),f=[].slice.call(document.querySelectorAll('.g-familia')),v=document.getElementById('g-vacio'),g=document.getElementById('g-general');
+function n(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim()}
+function filtra(){var q=n(c.value),hay=0;
+t.forEach(function(a){var ok=!q||a.getAttribute('data-b').indexOf(q)>-1;a.parentNode.hidden=!ok;if(ok)hay++});
+f.forEach(function(d){d.hidden=!d.querySelector('li:not([hidden])')});
+v.hidden=hay>0;if(g)g.href='../buscar/'+(q?'?q='+encodeURIComponent(c.value.trim()):'')}
+c.addEventListener('input',filtra);
+c.addEventListener('keydown',function(e){if(e.key==='Enter'){var p=document.querySelector('.g-rejilla li:not([hidden]) .g-guia');if(p&&c.value.trim()){e.preventDefault();p.focus()}}});
+filtra()})();
 </script>
 <script src="../menu.js?v=20261123a" defer></script>
+
 <footer class="pie pie-nav">
 <div class="ancho">
 <span class="ancla" id="contact"></span>
