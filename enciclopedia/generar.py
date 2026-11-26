@@ -213,12 +213,21 @@ def ficha(d):
     # la experiencia
     s = d["experiencia"]
     t = s["tiempo"]
-    tramos = "".join(f'<span class="tramo {k}" style="left:{a / t["horas"] * 100:.2f}%;width:{(b - a) / t["horas"] * 100:.2f}%">{txt}</span>' for k, a, b, txt in t["tramos"])
-    paso = t["horas"] // 4
-    u = "min" if t.get("unidad") == "min" else "h"
-    horas = "".join(f"<span>{i * paso} {u}</span>" for i in range(5))
     res = "".join(f"<span><b>{k}:</b> {v}</span>" for k, v in t["res"])
-    h.append(f'<section class="f-sec" id="experiencia">{cab_sec(s)}{parrafos(s["parrafos"])}<div class="f-tiempo"><div class="pista" role="img" aria-label="Línea de tiempo del efecto">{tramos}</div><div class="horas">{horas}</div><div class="res">{res}</div><p class="nota">Esquema orientativo: cambia con la preparación, la cantidad y la persona.</p></div></section>')
+    grafico = nota = ""
+    if t.get("horas") and t.get("tramos"):       # sin datos no se dibuja el esquema: solo queda la línea de texto
+        tramos = "".join(f'<span class="tramo {k}" style="left:{a / t["horas"] * 100:.2f}%;width:{(b - a) / t["horas"] * 100:.2f}%">{txt}</span>' for k, a, b, txt in t["tramos"])
+        total, u = t["horas"], ("min" if t.get("unidad") == "min" else "h")
+        if u == "h" and total < 4:               # menos de cuatro horas: el eje va en minutos
+            total, u = total * 60, "min"
+
+        def marca(v):
+            v = round(v, 1)
+            return str(int(v)) if v == int(v) else f"{v:.1f}".replace(".", ",")
+        horas = "".join(f"<span>{marca(i * total / 4)} {u}</span>" for i in range(5))
+        grafico = f'<div class="pista" role="img" aria-label="Línea de tiempo del efecto">{tramos}</div><div class="horas">{horas}</div>'
+        nota = '<p class="nota">Esquema orientativo: cambia con la preparación, la cantidad y la persona.</p>'
+    h.append(f'<section class="f-sec" id="experiencia">{cab_sec(s)}{parrafos(s["parrafos"])}<div class="f-tiempo">{grafico}<div class="res">{res}</div>{nota}</div></section>')
     # investigación
     s = d["investigacion"]
     esc = "".join(f'<div class="{"aqui" if i == s["nivel"] - 1 else ("ok" if i < s["nivel"] - 1 else "")}">{e}</div>' for i, e in enumerate(ESCALA))
