@@ -166,14 +166,25 @@ Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
 
 ## Guías de terapia (24-11-2026)
 
-- `docs/terapia/index.html`: portada con tarjetas de las ocho guías, tabla «De un vistazo» (experiencia, duración, sesiones, lo más estudiado y punto de la investigación), lo que tienen en común, mirada humanista y transpersonal, preguntas antes de dar el paso y preguntas frecuentes.
+- `docs/terapia/index.html`: portada de la puerta Terapia, rehecha a mano el 26-11-2026 (ver «Portada de Guías de terapia» más abajo).
 - `docs/terapia/<slug>/index.html`: siete guías rehechas con la plantilla y los componentes `art-*` de `/terapia-asistida-mdma/` (portada con dibujo y dos chips, «En pocas palabras», «Lo que da seguridad», menú en cuatro partes: Conocer, El proceso, Lo que se sabe y Si te interesa): `psilocibina`, `lsd`, `ketamina`, `ayahuasca`, `ibogaina`, `mescalina` y `5-meo-dmt`. Cada una con referencias numeradas, medios y libros de la Biblioteca enlazados a su ficha.
 - La guía de MDMA es `/terapia-asistida-mdma/` (no se toca desde aquí). `/terapia/mdma/` redirige a ella y `/terapia/marco-comun/` redirige a la portada (el marco común está ahora en la portada).
 - Cada guía de medicina (`/sustancias/<slug>/`) enlaza a su guía de terapia (tarjeta en «guías relacionadas» y una frase antes de «Integración»).
-- Estilos propios: `.tg-cards` y `.tg-tabla`, al final de `docs/tierra.css`; las páginas de terapia cargan `tierra.css?v=20261124b`. Tarjetas para compartir: `terapia-guias` y `terapia-<slug>` en `scripts/tarjetas_og.py`.
+- Estilos: las siete guías usan los componentes `art-*` de `docs/tierra.css`. `.tg-cards` y `.tg-tabla` (al final de `tierra.css`) eran de la portada antigua y ya no los usa ninguna página: se pueden borrar la próxima vez que se cambie la versión de `tierra.css`. Tarjetas para compartir: `terapia-guias` y `terapia-<slug>` en `scripts/tarjetas_og.py`.
 - Reglas: sin cifras de dosis; sin legalidad («dónde se ofrece» solo en lenguaje clínico); sin tono alarmista; APDER no ofrece terapias (lo dicen el aviso y el descargo). Pendiente de revisión experta.
 - Se generaron con un guion que vive fuera del repo: los cambios futuros se hacen sobre el HTML publicado. Las cifras de ensayos recientes (psilocibina, LSD, 5-MeO-DMT) vienen de notas de las empresas y de prensa médica especializada; hay que revisarlas cuando se publiquen los artículos.
 - Excepciones del comprobador (`revision/excepciones-comprobador.txt`): `h-wp` en ayahuasca e ibogaína, por dos PDF de ICEERS alojados en `wp-content`.
+
+## Portada de Guías de terapia (26-11-2026)
+
+- `docs/terapia/index.html` se rehízo a mano (diseño y texto) con la seña de la puerta Terapia: fondo claro, manchas e ilustración. No carga `terapia.js` ni ningún guion propio.
+- Orden: portada con un dibujo (el camino entre colinas hacia el sol, con los tres tiempos: preparar, la sesión e integrar) y tres datos; aviso; tira «En esta página»; **las ocho guías** (una mancha y un emblema dibujado por medicina, lema y duración en palabras, sin cajas); **De un vistazo** (los arcos de «Cuánto dura la experiencia» y la tabla «Cómo se vive y cómo se acompaña», de la más breve a la más larga); **Lo que tienen en común** (`#en-comun`, al que enlaza el menú: tres tiempos, disposición y contexto, acompañar sin dirigir y «Lo que cuida un buen acompañamiento»); **De dónde vienen** (cuatro fotos en forma de piedra que llevan a la Enciclopedia y una línea del tiempo); mirada humanista y transpersonal; «Lo que han visto los estudios» (un párrafo, en pequeño); siete preguntas frecuentes; «Para seguir leyendo»; referencias y descargo.
+- Estilos: `docs/terapia/terapia.css` (las piezas comunes `tg-…`, sin tocar) y `docs/terapia/portada.css` (solo lo de la portada, con prefijo `tgp-`). Al cambiar `portada.css`, sube su versión en el `<link>` de la página.
+- Dibujos: SVG escritos a mano dentro de la página, con la paleta Tierra. Los ocho emblemas llevan `id="e-<slug>"` y la tabla los reutiliza con `<use>`; sirven tal cual para rehacer las siete guías. No hay moléculas ni fotos en las tarjetas (regla de Mannu del 25-11: no mezclar).
+- Fotos: cuatro recortes en `docs/terapia/img/portada-*.webp` (hongos, peyote, liana de ayahuasca e iboga), de fotos con licencia de la Enciclopedia, con su fila en `CREDITOS.md`.
+- Enfoque del texto (decisiones de Mannu del 25 y 26-11-2026): desde la experiencia y las raíces; la ciencia es una voz más, en pequeño, y el detalle está en Investigación terapéutica. Fuera lo que había de requisitos y de marco médico-legal: «Lo que da seguridad» (evaluación médica, profesionales, calidad farmacéutica), «Antes de dar el paso», las fases de investigación en tarjetas y tabla, la pregunta sobre España y «dónde se ofrece». La duración va en palabras, sin horas ni número de sesiones. Se mantiene, con calma, lo que protege: «Lo que cuida un buen acompañamiento» y la pregunta «¿Son para todo el mundo?».
+- Datos estructurados: `CollectionPage` con la lista de las ocho guías, migas y `FAQPage` con las siete preguntas (el mismo texto que se ve).
+- Las siete guías de `docs/terapia/<slug>/` siguen con la plantilla `art-*` y el enfoque anterior: están pendientes de pasar a este diseño.
 
 ## Terapia asistida con MDMA: diseño editorial (26-11-2026)
 
