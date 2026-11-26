@@ -27,9 +27,46 @@
 <link rel="preload" href="../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="formaciones.json" as="fetch" crossorigin>
+<link rel="preload" href="mundo.json" as="fetch" crossorigin>
 <link rel="stylesheet" href="../tierra.css?v=20261125b">
+<link rel="stylesheet" href="formaciones.css?v=20261126a">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "CollectionPage",
+   "@id": "https://apder.org/formaciones/#pagina",
+   "url": "https://apder.org/formaciones/",
+   "name": "Formaciones en el mundo",
+   "description": "Directorio en español de formaciones en terapia asistida, facilitación, integración, reducción de riesgos e investigación con psicodélicos en todo el mundo.",
+   "inLanguage": "es",
+   "isPartOf": {"@type": "WebSite", "name": "APDER", "url": "https://apder.org/"},
+   "publisher": {"@type": "Organization", "name": "APDER", "url": "https://apder.org/"}
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://apder.org/"},
+    {"@type": "ListItem", "position": 2, "name": "Terapia", "item": "https://apder.org/terapia/"},
+    {"@type": "ListItem", "position": 3, "name": "Formaciones en el mundo", "item": "https://apder.org/formaciones/"}
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {"@type": "Question", "name": "¿Necesito ser psicólogo o médico para formarme?", "acceptedAnswer": {"@type": "Answer", "text": "Depende del tipo de formación. Las de terapia asistida suelen pedir una titulación sanitaria o de salud mental. Las de facilitación, integración o reducción de riesgos a menudo admiten a personas de otros ámbitos, y las introductorias están abiertas a cualquiera. El filtro «Para quién» lo separa."}},
+    {"@type": "Question", "name": "¿Hay formaciones en español?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Usa el filtro de idioma o el atajo «En español»: verás las que se imparten en castellano, tanto presenciales como en línea."}},
+    {"@type": "Question", "name": "¿Qué diferencia hay entre terapia asistida, facilitación e integración?", "acceptedAnswer": {"@type": "Answer", "text": "La terapia asistida es un tratamiento de salud mental que dirigen profesionales sanitarios. La facilitación prepara para acompañar a alguien antes, durante y después de una experiencia. La integración ayuda a entender lo vivido e incorporarlo a la vida cotidiana. Muchas formaciones combinan varias."}},
+    {"@type": "Question", "name": "¿Un certificado me capacita para tratar a otras personas?", "acceptedAnswer": {"@type": "Answer", "text": "Tratar problemas de salud mental corresponde a profesionales sanitarios con su titulación. Un certificado de una formación especializada añade conocimientos y práctica a esa base, pero no la reemplaza."}},
+    {"@type": "Question", "name": "¿Por qué no aparece una formación que conozco?", "acceptedAnswer": {"@type": "Answer", "text": "Puede que aún no la hayamos encontrado o que no publique datos suficientes para comprobarla. Escríbenos y la revisamos."}}
+   ]
+  }
+ ]
+}
+</script>
 </head>
-<body class="guia">
+<body class="fm-pagina">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
 <header class="cabecera">
   <div class="ancho cab-fila">
@@ -120,684 +157,244 @@
     </div>
   </div>
 </header>
-<main id="contenido" class="guia-cuerpo fm">
-<style>
-/* ==========================================================================
-   Formaciones en el mundo (/formaciones/) · directorio con mapa y filtros
-   ========================================================================== */
-.fm{--fm-sombra:0 2px 14px rgba(60,40,20,.05);--fm-sombra-alta:0 16px 38px rgba(60,40,20,.13)}
-.fm .s-cabeza{padding-bottom:10px}
-.fm-caminos,.fm-dir,.fm-elegir,.fm-faq{padding:0}
-.fm .s-cabeza .s-ancho{grid-template-columns:minmax(0,1fr) 360px;align-items:center}
-.fm h1{text-wrap:balance}
-.fm-forma{position:relative;aspect-ratio:1;width:100%;max-width:360px;justify-self:end}
-.fm-forma .mancha{position:absolute;inset:4% 6% 8% 2%;background:var(--salvia);border-radius:58% 42% 47% 53%/45% 55% 45% 55%;animation:late 14s ease-in-out infinite alternate}
-.fm-forma .mancha2{position:absolute;inset:16% -2% -4% 18%;background:var(--tierra);border-radius:42% 58% 63% 37%/53% 38% 62% 47%;animation:late 18s ease-in-out infinite alternate-reverse}
-.fm-forma svg{position:absolute;left:47%;top:46%;width:56%;height:auto;transform:translate(-50%,-50%);color:#fff;filter:drop-shadow(0 6px 18px rgba(0,0,0,.16))}
-.fm-forma .chip{white-space:nowrap}
-.fm-forma .chip b{font-weight:700}
-.fm-cifras{display:grid;grid-template-columns:repeat(4,minmax(0,auto));justify-content:start;gap:14px 46px;list-style:none;padding:0!important;margin:30px 0 0!important}
-.fm-cifras li{margin:0!important;display:flex;flex-direction:column}
-.fm-cifras b{font-family:var(--serif);font-weight:400;font-size:clamp(2.1rem,4.4vw,3rem);line-height:1;font-variant-numeric:lining-nums}
-.fm-cifras span{margin-top:8px;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--suave)}
-.fm-busca{display:flex;align-items:center;gap:6px;max-width:680px;margin:30px 0 0;padding:6px 6px 6px 20px;background:#fff;border-radius:999px;box-shadow:0 8px 30px rgba(60,40,20,.08)}
-.fm-busca svg{flex:none;color:var(--suave)}
-.fm-busca input{flex:1;min-width:0;height:48px;border:0;background:none;font:inherit;font-size:1.05rem;color:var(--texto);padding:0 6px}
-.fm-busca input:focus{outline:none}
-.fm-busca:focus-within{box-shadow:0 0 0 2px var(--tierra-osc),0 8px 30px rgba(60,40,20,.08)}
-.fm-busca button{flex:none;height:48px;padding:0 26px;border:0;border-radius:999px;background:var(--tierra-osc);color:#fff;font:inherit;font-weight:700;font-size:.98rem;cursor:pointer;transition:background .2s}
-.fm-busca button:hover{background:var(--tierra-hondo)}
-.fm-nota{max-width:680px;margin:18px 0 0!important;font-size:.93rem;line-height:1.55;color:var(--suave)}
-.fm-nota strong{color:var(--texto)}
 
-/* mapa */
-.fm-mapa{position:relative;margin:44px 0 0;padding:30px 34px 24px;background:var(--arena);border-radius:36px;overflow:hidden}
-.fm-mapa-cab{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px 24px;margin:0 0 14px}
-.fm-mapa-cab p{margin:0!important}
-.fm-eyebrow{font-size:.74rem!important;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--tierra-osc);margin:0 0 6px!important}
-.guia-cuerpo .fm-mapa h2{margin:0!important;font-size:clamp(1.55rem,2.8vw,2.05rem);max-width:560px}
-.fm-enlinea{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 18px 0 14px;border:0;border-radius:999px;background:#fff;color:var(--texto);font:inherit;font-weight:700;font-size:.92rem;cursor:pointer;box-shadow:var(--fm-sombra);transition:transform .2s,box-shadow .2s}
-.fm-enlinea:hover{transform:translateY(-1px);box-shadow:var(--fm-sombra-alta)}
-.fm-enlinea svg{color:var(--salvia)}
-.fm-enlinea span{color:var(--tierra-osc)}
-.fm-lienzo{position:relative}
-.fm-lienzo svg{display:block;width:100%;height:auto;overflow:visible}
-.fm-tierra{fill:none;stroke:#d5c7ab;stroke-width:4.3;stroke-linecap:round}
-.fm-punto{cursor:pointer;outline:none}
-.fm-punto .fm-p{fill:var(--tierra-osc);stroke:var(--arena);stroke-width:2.2;transition:fill .2s}
-.fm-punto:hover .fm-p,.fm-punto:focus-visible .fm-p,.fm-punto.activo .fm-p{fill:var(--tierra-hondo)}
-.fm-punto:focus-visible .fm-p{stroke:var(--texto)}
-.fm-punto text{fill:#fff;font:700 9px var(--sans);text-anchor:middle;dominant-baseline:central;pointer-events:none}
-.fm-halo{fill:var(--tierra);opacity:0;transform-box:fill-box;transform-origin:center;animation:fm-late 3.6s cubic-bezier(.2,.6,.3,1) infinite;pointer-events:none}
-@keyframes fm-late{0%{transform:scale(.7);opacity:.38}80%,100%{transform:scale(2.3);opacity:0}}
-.fm-tip{position:absolute;z-index:2;min-width:180px;max-width:260px;padding:11px 15px 12px;border-radius:16px;background:#fff;box-shadow:var(--fm-sombra-alta);font-size:.9rem;line-height:1.4;pointer-events:none;transform:translate(-50%,calc(-100% - 14px))}
-.fm-tip[hidden]{display:none}
-.fm-tip b{display:block;font-family:var(--serif);font-weight:400;font-size:1.15rem}
-.fm-tip span{color:var(--suave)}
-.fm-tip em{display:block;margin-top:4px;font-style:normal;font-weight:700;font-size:.8rem;color:var(--tierra-osc)}
-.fm-leyenda{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;margin:10px 0 0!important;font-size:.86rem;color:var(--suave)}
-.fm-leyenda i{display:inline-block;vertical-align:middle;margin-right:7px;border-radius:50%;background:var(--tierra-osc)}
+<main id="contenido" class="fm">
 
-/* caminos */
-.fm-caminos{margin:84px 0 0}
-.guia-cuerpo .fm-caminos h2,.guia-cuerpo .fm-elegir h2,.guia-cuerpo .fm-dir h2{margin:0 0 .3em}
-.fm-intro{max-width:700px;color:var(--suave);font-size:1.08rem}
-.fm-rejilla{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:24px 0 0}
-.fm-camino{display:flex;flex-direction:column;align-items:flex-start;gap:9px;min-height:100%;padding:22px 22px 20px;border:0;border-radius:24px;background:#fff;color:var(--texto);font:inherit;text-align:left;cursor:pointer;box-shadow:var(--fm-sombra);transition:transform .3s cubic-bezier(.2,.7,.2,1),box-shadow .3s}
-.fm-camino:hover{transform:translateY(-3px);box-shadow:var(--fm-sombra-alta)}
-.fm-camino:focus-visible{outline:2px solid var(--tierra-osc);outline-offset:3px}
-.fm-camino svg{width:34px;height:34px;color:var(--tierra-osc);margin-bottom:4px}
-.fm-camino b{font-family:var(--serif);font-weight:400;font-size:1.32rem;line-height:1.12}
-.fm-camino span{font-size:.92rem;line-height:1.45;color:var(--suave)}
-.fm-camino em{margin-top:auto;padding-top:6px;font-style:normal;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--tierra-osc)}
-.fm-camino[hidden],.fm-cifras li[hidden]{display:none}
-.fm-camino.fm-es{background:var(--bosque);color:var(--crema)}
-.fm-camino.fm-es span{color:#cfd6c8}
-.fm-camino.fm-es svg,.fm-camino.fm-es em{color:#eab89b}
+<section class="fm-hero">
+  <div class="ancho fm-hero-in">
+    <div class="fm-hero-txt">
+      <p class="mini fm-miga"><a href="../terapia/">Terapia</a> · Dónde formarse</p>
+      <h1>Formaciones <i>en el mundo</i></h1>
+      <p class="fm-entrada">Dónde formarse en terapia asistida, acompañamiento, integración, reducción de riesgos e investigación con psicodélicos. Un directorio en español, independiente y sin anuncios.</p>
+      <form class="fm-busca" id="fm-busca-hero" role="search" action="#directorio">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 20 20"/></svg>
+        <label class="fm-oculto" for="fm-q-hero">Buscar formaciones</label>
+        <input type="search" id="fm-q-hero" name="q" placeholder="Psilocibina, Madrid, integración…" autocomplete="off" enterkeyhint="search" maxlength="80">
+        <button type="submit">Buscar</button>
+      </form>
+      <ul class="fm-atajos" aria-label="Atajos">
+        <li class="fm-antetitulo" aria-hidden="true">Atajos</li>
+        <li><button type="button" data-atajo="idioma:es">En español</button></li>
+        <li><button type="button" data-atajo="modo:en_linea">Solo en línea</button></li>
+        <li><button type="button" data-atajo="fecha">Con fecha anunciada</button></li>
+        <li><button type="button" data-atajo="dest:todos">Abiertas a todo el mundo</button></li>
+      </ul>
+    </div>
 
-/* directorio */
-.fm-dir{margin:96px 0 0;scroll-margin-top:90px}
-.fm-dir-cab{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 24px;margin:0 0 22px}
-.fm-dir-cab p{margin:0!important}
-.fm-cuerpo{display:grid;grid-template-columns:268px minmax(0,1fr);gap:44px;align-items:start;padding-bottom:30px}
-.fm-lado{position:sticky;top:84px;max-height:calc(100vh - 100px);overflow:auto;padding-right:8px;scrollbar-width:thin}
-.fm-lado-cab{display:flex;align-items:baseline;justify-content:space-between;padding-bottom:6px}
-.fm-lado-cab h3{margin:0!important;font-size:1.45rem!important}
-.fm-limpiar{background:none;border:0;padding:10px 0;font:inherit;font-size:.86rem;color:var(--tierra-osc);text-decoration:underline;cursor:pointer}
-.fm-limpiar[hidden]{display:none}
-.fm-interruptor{display:flex;align-items:center;gap:10px;margin:2px 0 10px;padding:12px 14px;border-radius:14px;background:#fff;font-size:.92rem;line-height:1.3;cursor:pointer;box-shadow:var(--fm-sombra)}
-.fm-interruptor input{width:17px;height:17px;flex:none;margin:0;accent-color:var(--tierra-osc)}
-.fm-sec{border-top:1px solid var(--linea)}
-.fm-sec>summary{display:flex;align-items:center;gap:8px;min-height:48px;cursor:pointer;list-style:none;font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
-.fm-sec>summary::-webkit-details-marker{display:none}
-.fm-sec>summary::after{content:"";width:8px;height:8px;margin:0 6px 0 auto;border-right:1.6px solid var(--suave);border-bottom:1.6px solid var(--suave);transform:rotate(-45deg);transition:transform .2s}
-.fm-sec[open]>summary::after{transform:rotate(45deg)}
-.fm-insignia{min-width:20px;height:20px;padding:0 6px;border-radius:10px;background:var(--tierra-osc);color:#fff;font-size:.7rem;letter-spacing:0;display:inline-flex;align-items:center;justify-content:center}
-.fm-insignia[hidden]{display:none}
-.fm-opciones{list-style:none;padding:0!important;margin:0 0 10px!important}
-.fm-opciones li{margin:0!important}
-.fm-opciones li::marker{content:none}
-.fm-opciones label{display:flex;align-items:center;gap:10px;min-height:36px;cursor:pointer;font-size:.93rem;line-height:1.3}
-.fm-opciones input{width:17px;height:17px;flex:none;margin:0;accent-color:var(--tierra-osc);cursor:pointer}
-.fm-opciones .fm-et{flex:1}
-.fm-opciones .fm-n{font-size:.8rem;color:var(--suave);font-variant-numeric:tabular-nums}
-.fm-opciones li.cero label{opacity:.42}
-.fm-opciones li.fm-oculta{display:none}
-.fm-mas-op{margin:-4px 0 12px;background:none;border:0;padding:6px 0;font:inherit;font-size:.86rem;color:var(--tierra-osc);text-decoration:underline;cursor:pointer}
-.fm-barra{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px}
-.fm-barra .fm-q{flex:1 1 300px;min-width:0;height:48px;padding:0 22px;border:1px solid var(--linea);border-radius:24px;background:#fff;font:inherit;font-size:1rem;color:var(--texto)}
-.fm-barra .fm-q:focus,.fm-orden select:focus{outline:2px solid var(--tierra-osc);outline-offset:2px}
-.fm-orden{display:flex;align-items:center;gap:10px;font-size:.9rem;color:var(--suave)}
-.fm-orden select{height:44px;padding:0 12px;border:1px solid var(--linea);border-radius:10px;background:#fff;font:inherit;font-size:.92rem;color:var(--texto);cursor:pointer}
-.fm-abre-filtros{display:none}
-.fm-estado{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:16px 0 0!important;padding-bottom:14px;border-bottom:1px solid var(--linea);font-size:.95rem;color:var(--suave)}
-.fm-estado strong{color:var(--texto)}
-.fm-copiar{background:none;border:0;padding:0;font:inherit;font-size:.86rem;color:var(--suave);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
-.fm-copiar:hover{color:var(--tierra-osc)}
-.fm-chips{display:flex;flex-wrap:wrap;gap:8px}
-.fm-chips:not(:empty){padding-top:14px}
-.fm-chips button{display:inline-flex;align-items:center;gap:8px;min-height:34px;padding:0 12px 0 14px;border:1px solid #e4c9b8;border-radius:17px;background:#f6e3d8;font:inherit;font-size:.85rem;color:var(--tierra-hondo);cursor:pointer}
-.fm-chips button:hover{background:#f0d5c5}
-.fm-chips button::after{content:"×";font-size:1.05rem;line-height:1}
-.fm-lista{list-style:none;padding:0!important;margin:0!important}
-.fm-lista>li{margin:0!important}
-.fm-lista>li::marker{content:none}
-.fm-ficha{display:grid;grid-template-columns:minmax(0,1fr) 236px;gap:4px 38px;padding:26px 6px 24px;border-bottom:1px solid var(--linea);animation:fm-sube .5s cubic-bezier(.2,.7,.2,1) both}
-@keyframes fm-sube{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-.fm-f-tipo{grid-column:1/-1;margin:0 0 6px!important;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;font-weight:700;color:var(--tierra-osc)}
-.fm-f-tipo .fm-pausa{margin-left:8px;padding:2px 8px;border-radius:999px;background:var(--texto);color:var(--crema);letter-spacing:.08em}
-.fm-f-tipo .fm-conf{background:var(--arena);color:var(--suave)}
-.guia-cuerpo .fm-f-nombre{margin:0;font-family:var(--serif);font-weight:400;font-size:1.48rem;line-height:1.16}
-.fm-f-nombre a{background-image:linear-gradient(currentColor,currentColor);background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .35s,color .2s}
-.fm-f-nombre a:hover{color:var(--tierra-osc);background-size:100% 1px}
-.fm-f-trad{margin:.25em 0 0!important;font-size:.95rem;line-height:1.4;color:var(--suave)}
-.fm-f-entidad{margin:.5em 0 0!important;font-size:.97rem;line-height:1.4;font-weight:700}
-.fm-f-entidad span{font-weight:400;color:var(--suave)}
-.fm-f-desc{margin:.6em 0 0!important;max-width:620px;font-size:1rem;line-height:1.6;color:#4b433b}
-.fm-f-etiquetas{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0!important}
-.fm-f-etiquetas span{padding:3px 11px;border-radius:999px;background:var(--arena);font-size:.8rem;line-height:1.6}
-.fm-f-etiquetas .fm-sello{background:#e3eadf;color:var(--bosque);font-weight:700}
-.fm-f-etiquetas .fm-req{background:#f6e3d8;color:var(--tierra-hondo)}
-.fm-f-lado{display:flex;flex-direction:column;gap:14px;padding-top:2px}
-.fm-f-datos{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 14px;margin:0;font-size:.88rem;line-height:1.4}
-.fm-f-datos dt{color:var(--suave)}
-.fm-f-datos dd{margin:0;font-weight:600}
-.fm-f-datos .fm-pronto{color:var(--tierra-osc)}
-.fm-f-web{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border:1.5px solid var(--texto);border-radius:999px;font-weight:700;font-size:.88rem;transition:background .2s,color .2s}
-.fm-f-web:hover{background:var(--texto);color:var(--crema)}
-.fm-f-rev{font-size:.78rem;color:var(--suave)}
-.fm-vacio{padding:56px 0;text-align:center}
-.fm-vacio p{margin:0 0 .4em!important}
-.fm-vacio b{display:block;font-family:var(--serif);font-weight:400;font-size:1.7rem}
-.fm-mas{display:flex;justify-content:center;padding:30px 0 0}
-.fm-mas[hidden]{display:none}
-.fm-mas button{min-height:48px;padding:0 28px;border:2px solid var(--texto);border-radius:999px;background:none;font:inherit;font-weight:700;cursor:pointer;transition:background .2s,color .2s}
-.fm-mas button:hover{background:var(--texto);color:var(--crema)}
-.fm-cargando{padding:50px 0;color:var(--suave)}
-
-/* cómo elegir */
-.fm-elegir{margin:100px 0 0}
-.fm-criterios{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;list-style:none;padding:0!important;margin:26px 0 0!important;counter-reset:fm}
-.fm-criterios li{margin:0!important;padding:26px 26px 24px;border-radius:26px;background:#fff;box-shadow:var(--fm-sombra);counter-increment:fm}
-.fm-criterios li::marker{content:none}
-.fm-criterios li::before{content:counter(fm,decimal-leading-zero);display:block;font-family:var(--serif);font-size:2.1rem;line-height:1;color:var(--tierra)}
-.guia-cuerpo .fm-criterios h3{margin:.45em 0 .35em;font-size:1.35rem}
-.fm-criterios p{margin:0!important;font-size:.96rem;line-height:1.6;color:#4b433b}
-
-/* preguntas y método */
-.fm-faq{margin:96px 0 0;max-width:820px}
-.fm-metodo{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:28px 48px;margin:80px 0 0;padding:36px 38px;border-radius:32px;background:var(--arena)}
-.guia-cuerpo .fm-metodo h2{margin:0 0 .45em;font-size:clamp(1.6rem,3vw,2.1rem)}
-.fm-metodo p{font-size:.98rem;line-height:1.65}
-.fm-metodo p a{text-decoration:underline;text-underline-offset:3px}
-.fm-metodo p a:hover{color:var(--tierra-osc)}
-.guia-cuerpo .fm-metodo h3{margin:0 0 .6em;font-size:1.25rem}
-.fm-fuentes{list-style:none;padding:0!important;margin:0!important;font-size:.92rem;line-height:1.45}
-.fm-fuentes li{margin:0 0 .65em!important}
-.fm-fuentes li::marker{content:none}
-.fm-fuentes a{text-decoration:underline;text-underline-offset:3px}
-.fm-fuentes span{display:block;color:var(--suave);font-size:.84rem;overflow-wrap:anywhere}
-
-/* adaptación */
-@media (max-width:1080px){.fm-rejilla{grid-template-columns:repeat(2,minmax(0,1fr))}.fm-criterios{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:900px){
-  .fm .s-cabeza .s-ancho{grid-template-columns:minmax(0,1fr)}
-  .fm-forma{display:none}
-  .fm-cuerpo{display:flex;flex-direction:column;gap:0}
-  .fm-principal{display:contents}
-  .fm-barra{order:1}.fm-lado{order:2}.fm-estado{order:3}.fm-chips{order:4}.fm-lista{order:5}.fm-mas{order:6}
-  .fm-lado{position:static;max-height:none;overflow:visible;padding:0;display:none;margin:14px 0 0}
-  .fm-lado.abierto{display:block}
-  .fm-abre-filtros{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:1px solid var(--linea);border-radius:12px;background:#fff;font:inherit;font-weight:700;font-size:.92rem;color:var(--texto);cursor:pointer}
-  .fm-abre-filtros span{color:var(--tierra-osc)}
-  .fm-ficha{grid-template-columns:minmax(0,1fr);gap:4px}
-  .fm-f-lado{padding-top:12px}
-  .fm-metodo{grid-template-columns:minmax(0,1fr);padding:28px 24px}
-}
-@media (max-width:640px){
-  .fm-cifras{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 18px}
-  .fm-busca{padding-left:14px}
-  .fm-busca button{padding:0 18px}
-  .fm-mapa{margin-left:-12px;margin-right:-12px;padding:22px 16px 18px;border-radius:26px}
-  .fm-rejilla{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
-  .fm-camino{padding:16px 15px;border-radius:20px}
-  .fm-camino b{font-size:1.12rem}
-  .fm-camino span{display:none}
-  .fm-camino svg{width:28px;height:28px}
-  .fm-criterios{grid-template-columns:minmax(0,1fr)}
-  .fm-barra{gap:10px}
-  .fm-orden{flex:1 1 150px}
-  .fm-orden span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-  .fm-orden select{flex:1;min-width:0}
-  .fm-ficha{padding:22px 2px 20px}
-  .guia-cuerpo .fm-f-nombre{font-size:1.3rem}
-}
-@media (prefers-reduced-motion:reduce){.fm-forma .mancha,.fm-forma .mancha2{animation:none}.fm-halo{animation:none;display:none}.fm-ficha{animation:none}.fm-camino,.fm-enlinea{transition:none}}
-@media print{.fm-busca,.fm-mapa,.fm-caminos,.fm-lado,.fm-barra,.fm-chips,.fm-mas,.fm-abre-filtros,.fm-copiar{display:none!important}.fm-ficha{grid-template-columns:1fr;break-inside:avoid;animation:none}}
-.fm-oculto{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
-</style>
-<section class="s-cabeza">
-<div class="s-ancho"><div class="fm-entrada">
-<p class="s-antetitulo"><a href="../">Inicio</a> · Recursos</p>
-<h1>Formaciones en el mundo</h1>
-<p class="s-sub-art">Dónde formarse en terapia asistida, acompañamiento, integración, reducción de riesgos e investigación con psicodélicos. Un directorio en español, independiente y sin anuncios.</p>
-<ul class="fm-cifras" aria-label="El directorio en cifras">
-<li><b data-cifra="total">—</b><span>formaciones</span></li>
-<li><b data-cifra="paises">—</b><span>países</span></li>
-<li><b data-cifra="es">—</b><span>en español</span></li>
-<li><b data-cifra="linea">—</b><span>solo en línea</span></li>
-</ul>
-<form class="fm-busca" id="fm-busca-portada" role="search" action="#directorio">
-<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-<label class="fm-oculto" for="fm-q-portada">Buscar formaciones</label>
-<input id="fm-q-portada" type="search" name="q" placeholder="Busca por nombre, entidad, ciudad o sustancia…" autocomplete="off">
-<button type="submit">Buscar</button>
-</form>
-<p class="fm-nota"><strong>APDER no imparte, organiza ni recomienda ninguna de estas formaciones.</strong> Reunimos lo que cada entidad publica para que puedas comparar con calma. Comprueba siempre los datos en su web antes de inscribirte.</p>
-</div>
-<div class="fm-forma" aria-hidden="true"><div class="mancha"></div><div class="mancha2"></div>
-<svg viewBox="0 0 240 240" fill="none"><g stroke="currentColor" stroke-width="5" stroke-linecap="round"><circle cx="120" cy="120" r="100"/><ellipse cx="120" cy="120" rx="44" ry="100"/><ellipse cx="120" cy="120" rx="82" ry="100"/><path d="M120 20v200M33 70h174M20 120h200M33 170h174"/></g><g fill="#9c4a26" stroke="currentColor" stroke-width="4.5"><circle cx="78" cy="92" r="11"/><circle cx="152" cy="74" r="8"/><circle cx="164" cy="150" r="10"/><circle cx="100" cy="168" r="7"/></g></svg>
-<span class="chip" style="left:-6%;top:14%"><b data-cifra="paises">—</b> países<small>en el mapa</small></span>
-<span class="chip" style="right:-2%;bottom:10%">Revisado<small data-actualizado>—</small></span>
-</div>
-</div>
+    <div class="fm-mundo">
+      <div class="fm-globo-caja">
+        <div class="fm-globo" id="fm-globo">
+          <div class="fm-globo-mar" id="fm-mar" tabindex="0" role="group" aria-label="Globo terráqueo. Cada punto es una ciudad con formaciones presenciales o mixtas. Se gira con las flechas del teclado y se acerca o se aleja con las teclas más y menos."><canvas id="fm-lienzo" aria-hidden="true"></canvas></div>
+          <div class="fm-pines" id="fm-pines"></div>
+          <span class="fm-rotulo" id="fm-rotulo" aria-hidden="true"></span>
+          <span class="fm-gira" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 12h16M8 8l-4 4 4 4M16 8l4 4-4 4"/></svg>Gira el globo</span>
+          <div class="fm-zoom">
+            <button type="button" data-zoom="1" aria-label="Acercar"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></button>
+            <button type="button" data-zoom="-1" aria-label="Alejar" disabled><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"/></svg></button>
+          </div>
+        </div>
+        <div class="fm-lugar" id="fm-lugar" role="region" aria-labelledby="fm-lugar-tit" hidden></div>
+      </div>
+      <ul class="fm-regiones" id="fm-regiones" aria-label="Regiones del mundo"></ul>
+      <p class="fm-mundo-nota" id="fm-mundo-nota" role="status"></p>
+    </div>
+  </div>
 </section>
 
-<div class="s-ancho">
-<section class="fm-mapa" aria-labelledby="fm-mapa-t">
-<div class="fm-mapa-cab">
-<div>
-<p class="fm-eyebrow">Dónde se imparten</p>
-<h2 id="fm-mapa-t">Formaciones presenciales y mixtas</h2>
+<div class="ancho">
+  <dl class="fm-cifras">
+    <div><dt>formaciones</dt><dd id="fm-c-total">—</dd></div>
+    <div><dt>países</dt><dd id="fm-c-paises">—</dd></div>
+    <div><dt>en español</dt><dd id="fm-c-es">—</dd></div>
+    <div><dt>solo en línea</dt><dd id="fm-c-linea">—</dd></div>
+  </dl>
+  <p class="fm-revisado" id="fm-revisado" hidden></p>
+  <aside class="fm-aviso" aria-label="Aviso">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.6v.2"/></svg>
+    <p><strong>Antes de empezar.</strong> APDER no imparte, organiza ni recomienda ninguna de estas formaciones. Reunimos lo que cada entidad publica para que puedas comparar con calma. Comprueba siempre los datos en su web antes de inscribirte.</p>
+  </aside>
+  <noscript><p class="fm-noscript">Para usar el directorio hace falta activar JavaScript en el navegador.</p></noscript>
 </div>
-<button type="button" class="fm-enlinea" id="fm-enlinea"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.8 3.9 9s-1.3 6.2-3.9 9c-2.6-2.8-3.9-5.8-3.9-9S9.4 5.8 12 3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg><b data-cifra="linea">—</b> solo en línea <span aria-hidden="true">→</span></button>
-</div>
-<div class="fm-lienzo" id="fm-lienzo">
-<svg id="fm-svg" viewBox="0 0 1000 446" data-k="187.4028" data-tx="497.637" data-ty="248.609" role="group" aria-label="Mapa del mundo con las ciudades donde hay formaciones presenciales o mixtas. Usa las flechas para pasar de una ciudad a otra."><path class="fm-tierra" aria-hidden="true" d="M38.7 7.4h0M331.1 7.4h0M339.7 7.4h0M348.3 7.4h0M356.9 7.4h0M365.5 7.4h0M391.3 7.4h0M399.9 7.4h0M408.5 7.4h0M417.1 7.4h0M425.7 7.4h0M434.3 7.4h0M442.9 7.4h0M451.5 7.4h0M460.1 7.4h0M520.3 7.4h0M537.5 7.4h0M657.9 7.4h0M666.5 7.4h0M958.9 7.4h0M967.5 7.4h0M976.1 7.4h0M984.7 7.4h0M993.3 7.4h0M0.0 14.9h0M8.6 14.9h0M17.2 14.9h0M25.8 14.9h0M34.4 14.9h0M275.2 14.9h0M395.6 14.9h0M404.2 14.9h0M412.8 14.9h0M421.4 14.9h0M430.0 14.9h0M438.6 14.9h0M447.2 14.9h0M455.8 14.9h0M602.0 14.9h0M662.2 14.9h0M670.8 14.9h0M679.4 14.9h0M688.0 14.9h0M696.6 14.9h0M928.8 14.9h0M937.4 14.9h0M4.3 22.3h0M12.9 22.3h0M21.5 22.3h0M30.1 22.3h0M38.7 22.3h0M47.3 22.3h0M55.9 22.3h0M64.5 22.3h0M73.1 22.3h0M81.7 22.3h0M90.3 22.3h0M98.9 22.3h0M107.5 22.3h0M193.5 22.3h0M202.1 22.3h0M210.7 22.3h0M219.3 22.3h0M253.7 22.3h0M279.5 22.3h0M288.1 22.3h0M296.7 22.3h0M313.9 22.3h0M339.7 22.3h0M356.9 22.3h0M365.5 22.3h0M408.5 22.3h0M417.1 22.3h0M425.7 22.3h0M434.3 22.3h0M442.9 22.3h0M451.5 22.3h0M546.1 22.3h0M632.1 22.3h0M640.7 22.3h0M649.3 22.3h0M657.9 22.3h0M666.5 22.3h0M675.1 22.3h0M683.7 22.3h0M692.3 22.3h0M700.9 22.3h0M709.5 22.3h0M718.1 22.3h0M726.7 22.3h0M735.3 22.3h0M743.9 22.3h0M752.5 22.3h0M761.1 22.3h0M769.7 22.3h0M778.3 22.3h0M786.9 22.3h0M795.5 22.3h0M881.5 22.3h0M890.1 22.3h0M898.7 22.3h0M907.3 22.3h0M941.7 22.3h0M967.5 22.3h0M976.1 22.3h0M984.7 22.3h0M0.0 29.8h0M8.6 29.8h0M17.2 29.8h0M25.8 29.8h0M34.4 29.8h0M43.0 29.8h0M51.6 29.8h0M60.2 29.8h0M68.8 29.8h0M77.4 29.8h0M86.0 29.8h0M94.6 29.8h0M103.2 29.8h0M111.8 29.8h0M120.4 29.8h0M129.0 29.8h0M137.6 29.8h0M146.2 29.8h0M154.8 29.8h0M180.6 29.8h0M189.2 29.8h0M197.8 29.8h0M206.4 29.8h0M215.0 29.8h0M223.6 29.8h0M232.2 29.8h0M240.8 29.8h0M249.4 29.8h0M258.0 29.8h0M266.6 29.8h0M275.2 29.8h0M283.8 29.8h0M292.4 29.8h0M301.0 29.8h0M309.6 29.8h0M318.2 29.8h0M352.6 29.8h0M361.2 29.8h0M369.8 29.8h0M395.6 29.8h0M404.2 29.8h0M412.8 29.8h0M421.4 29.8h0M524.6 29.8h0M533.2 29.8h0M541.8 29.8h0M550.4 29.8h0M559.0 29.8h0M576.2 29.8h0M593.4 29.8h0M602.0 29.8h0M610.6 29.8h0M619.2 29.8h0M627.8 29.8h0M636.4 29.8h0M645.0 29.8h0M653.6 29.8h0M662.2 29.8h0M670.8 29.8h0M679.4 29.8h0M688.0 29.8h0M696.6 29.8h0M705.2 29.8h0M713.8 29.8h0M722.4 29.8h0M731.0 29.8h0M739.6 29.8h0M748.2 29.8h0M756.8 29.8h0M765.4 29.8h0M774.0 29.8h0M782.6 29.8h0M791.2 29.8h0M799.8 29.8h0M808.4 29.8h0M817.0 29.8h0M825.6 29.8h0M834.2 29.8h0M842.8 29.8h0M851.4 29.8h0M860.0 29.8h0M868.6 29.8h0M885.8 29.8h0M894.4 29.8h0M903.0 29.8h0M911.6 29.8h0M920.2 29.8h0M928.8 29.8h0M937.4 29.8h0M946.0 29.8h0M954.6 29.8h0M963.2 29.8h0M971.8 29.8h0M980.4 29.8h0M989.0 29.8h0M997.6 29.8h0M4.3 37.2h0M12.9 37.2h0M21.5 37.2h0M30.1 37.2h0M38.7 37.2h0M47.3 37.2h0M55.9 37.2h0M64.5 37.2h0M73.1 37.2h0M81.7 37.2h0M90.3 37.2h0M98.9 37.2h0M107.5 37.2h0M116.1 37.2h0M124.7 37.2h0M167.7 37.2h0M176.3 37.2h0M184.9 37.2h0M193.5 37.2h0M202.1 37.2h0M210.7 37.2h0M219.3 37.2h0M227.9 37.2h0M236.5 37.2h0M245.1 37.2h0M253.7 37.2h0M262.3 37.2h0M270.9 37.2h0M279.5 37.2h0M288.1 37.2h0M296.7 37.2h0M305.3 37.2h0M356.9 37.2h0M399.9 37.2h0M408.5 37.2h0M520.3 37.2h0M528.9 37.2h0M546.1 37.2h0M554.7 37.2h0M563.3 37.2h0M571.9 37.2h0M580.5 37.2h0M589.1 37.2h0M597.7 37.2h0M606.3 37.2h0M614.9 37.2h0M623.5 37.2h0M632.1 37.2h0M640.7 37.2h0M649.3 37.2h0M657.9 37.2h0M666.5 37.2h0M675.1 37.2h0M683.7 37.2h0M692.3 37.2h0M700.9 37.2h0M709.5 37.2h0M718.1 37.2h0M726.7 37.2h0M735.3 37.2h0M743.9 37.2h0M752.5 37.2h0M761.1 37.2h0M769.7 37.2h0M778.3 37.2h0M786.9 37.2h0M795.5 37.2h0M804.1 37.2h0M812.7 37.2h0M821.3 37.2h0M829.9 37.2h0M838.5 37.2h0M847.1 37.2h0M855.7 37.2h0M864.3 37.2h0M907.3 37.2h0M915.9 37.2h0M924.5 37.2h0M933.1 37.2h0M941.7 37.2h0M950.3 37.2h0M958.9 37.2h0M967.5 37.2h0M976.1 37.2h0M984.7 37.2h0M993.3 37.2h0M0.0 44.7h0M8.6 44.7h0M17.2 44.7h0M25.8 44.7h0M34.4 44.7h0M43.0 44.7h0M51.6 44.7h0M60.2 44.7h0M77.4 44.7h0M94.6 44.7h0M154.8 44.7h0M163.4 44.7h0M172.0 44.7h0M197.8 44.7h0M206.4 44.7h0M215.0 44.7h0M223.6 44.7h0M232.2 44.7h0M240.8 44.7h0M249.4 44.7h0M258.0 44.7h0M266.6 44.7h0M275.2 44.7h0M283.8 44.7h0M292.4 44.7h0M335.4 44.7h0M344.0 44.7h0M361.2 44.7h0M404.2 44.7h0M516.0 44.7h0M524.6 44.7h0M533.2 44.7h0M567.6 44.7h0M576.2 44.7h0M584.8 44.7h0M593.4 44.7h0M602.0 44.7h0M610.6 44.7h0M619.2 44.7h0M627.8 44.7h0M636.4 44.7h0M645.0 44.7h0M653.6 44.7h0M662.2 44.7h0M670.8 44.7h0M679.4 44.7h0M688.0 44.7h0M696.6 44.7h0M705.2 44.7h0M713.8 44.7h0M722.4 44.7h0M731.0 44.7h0M739.6 44.7h0M748.2 44.7h0M756.8 44.7h0M765.4 44.7h0M774.0 44.7h0M782.6 44.7h0M791.2 44.7h0M799.8 44.7h0M808.4 44.7h0M817.0 44.7h0M825.6 44.7h0M842.8 44.7h0M920.2 44.7h0M928.8 44.7h0M937.4 44.7h0M946.0 44.7h0M963.2 44.7h0M971.8 44.7h0M980.4 44.7h0M989.0 44.7h0M997.6 44.7h0M4.3 52.1h0M12.9 52.1h0M55.9 52.1h0M64.5 52.1h0M210.7 52.1h0M219.3 52.1h0M227.9 52.1h0M236.5 52.1h0M245.1 52.1h0M253.7 52.1h0M262.3 52.1h0M270.9 52.1h0M279.5 52.1h0M288.1 52.1h0M331.1 52.1h0M339.7 52.1h0M348.3 52.1h0M356.9 52.1h0M485.9 52.1h0M520.3 52.1h0M528.9 52.1h0M537.5 52.1h0M546.1 52.1h0M554.7 52.1h0M563.3 52.1h0M571.9 52.1h0M580.5 52.1h0M589.1 52.1h0M597.7 52.1h0M606.3 52.1h0M614.9 52.1h0M623.5 52.1h0M632.1 52.1h0M640.7 52.1h0M649.3 52.1h0M657.9 52.1h0M666.5 52.1h0M675.1 52.1h0M683.7 52.1h0M692.3 52.1h0M700.9 52.1h0M709.5 52.1h0M718.1 52.1h0M726.7 52.1h0M735.3 52.1h0M743.9 52.1h0M752.5 52.1h0M761.1 52.1h0M769.7 52.1h0M778.3 52.1h0M786.9 52.1h0M795.5 52.1h0M847.1 52.1h0M941.7 52.1h0M993.3 52.1h0M43.0 59.6h0M206.4 59.6h0M215.0 59.6h0M223.6 59.6h0M232.2 59.6h0M240.8 59.6h0M249.4 59.6h0M258.0 59.6h0M266.6 59.6h0M275.2 59.6h0M283.8 59.6h0M292.4 59.6h0M301.0 59.6h0M309.6 59.6h0M326.8 59.6h0M335.4 59.6h0M344.0 59.6h0M352.6 59.6h0M361.2 59.6h0M481.6 59.6h0M490.2 59.6h0M541.8 59.6h0M550.4 59.6h0M559.0 59.6h0M567.6 59.6h0M576.2 59.6h0M584.8 59.6h0M593.4 59.6h0M602.0 59.6h0M610.6 59.6h0M619.2 59.6h0M627.8 59.6h0M636.4 59.6h0M645.0 59.6h0M653.6 59.6h0M662.2 59.6h0M670.8 59.6h0M679.4 59.6h0M688.0 59.6h0M696.6 59.6h0M705.2 59.6h0M713.8 59.6h0M722.4 59.6h0M731.0 59.6h0M739.6 59.6h0M748.2 59.6h0M756.8 59.6h0M765.4 59.6h0M774.0 59.6h0M782.6 59.6h0M791.2 59.6h0M799.8 59.6h0M851.4 59.6h0M90.3 67.0h0M210.7 67.0h0M219.3 67.0h0M227.9 67.0h0M236.5 67.0h0M245.1 67.0h0M253.7 67.0h0M262.3 67.0h0M270.9 67.0h0M279.5 67.0h0M288.1 67.0h0M296.7 67.0h0M305.3 67.0h0M322.5 67.0h0M331.1 67.0h0M339.7 67.0h0M348.3 67.0h0M356.9 67.0h0M365.5 67.0h0M477.3 67.0h0M485.9 67.0h0M494.5 67.0h0M511.7 67.0h0M520.3 67.0h0M528.9 67.0h0M537.5 67.0h0M546.1 67.0h0M554.7 67.0h0M563.3 67.0h0M571.9 67.0h0M580.5 67.0h0M589.1 67.0h0M597.7 67.0h0M606.3 67.0h0M614.9 67.0h0M623.5 67.0h0M632.1 67.0h0M640.7 67.0h0M649.3 67.0h0M657.9 67.0h0M666.5 67.0h0M675.1 67.0h0M683.7 67.0h0M692.3 67.0h0M700.9 67.0h0M709.5 67.0h0M718.1 67.0h0M726.7 67.0h0M735.3 67.0h0M743.9 67.0h0M752.5 67.0h0M761.1 67.0h0M769.7 67.0h0M778.3 67.0h0M786.9 67.0h0M795.5 67.0h0M804.1 67.0h0M812.7 67.0h0M915.9 67.0h0M206.4 74.5h0M215.0 74.5h0M223.6 74.5h0M232.2 74.5h0M240.8 74.5h0M249.4 74.5h0M258.0 74.5h0M266.6 74.5h0M275.2 74.5h0M283.8 74.5h0M292.4 74.5h0M301.0 74.5h0M309.6 74.5h0M318.2 74.5h0M326.8 74.5h0M335.4 74.5h0M344.0 74.5h0M352.6 74.5h0M369.8 74.5h0M498.8 74.5h0M507.4 74.5h0M516.0 74.5h0M524.6 74.5h0M533.2 74.5h0M541.8 74.5h0M550.4 74.5h0M559.0 74.5h0M567.6 74.5h0M576.2 74.5h0M584.8 74.5h0M593.4 74.5h0M602.0 74.5h0M610.6 74.5h0M619.2 74.5h0M627.8 74.5h0M636.4 74.5h0M645.0 74.5h0M653.6 74.5h0M662.2 74.5h0M670.8 74.5h0M679.4 74.5h0M688.0 74.5h0M696.6 74.5h0M705.2 74.5h0M713.8 74.5h0M722.4 74.5h0M731.0 74.5h0M739.6 74.5h0M748.2 74.5h0M756.8 74.5h0M765.4 74.5h0M774.0 74.5h0M782.6 74.5h0M791.2 74.5h0M799.8 74.5h0M808.4 74.5h0M817.0 74.5h0M825.6 74.5h0M202.1 81.9h0M210.7 81.9h0M219.3 81.9h0M227.9 81.9h0M236.5 81.9h0M245.1 81.9h0M253.7 81.9h0M262.3 81.9h0M270.9 81.9h0M279.5 81.9h0M288.1 81.9h0M296.7 81.9h0M305.3 81.9h0M313.9 81.9h0M322.5 81.9h0M331.1 81.9h0M339.7 81.9h0M494.5 81.9h0M503.1 81.9h0M511.7 81.9h0M520.3 81.9h0M528.9 81.9h0M537.5 81.9h0M546.1 81.9h0M554.7 81.9h0M563.3 81.9h0M571.9 81.9h0M580.5 81.9h0M597.7 81.9h0M606.3 81.9h0M614.9 81.9h0M632.1 81.9h0M640.7 81.9h0M649.3 81.9h0M657.9 81.9h0M666.5 81.9h0M675.1 81.9h0M683.7 81.9h0M692.3 81.9h0M700.9 81.9h0M709.5 81.9h0M718.1 81.9h0M726.7 81.9h0M735.3 81.9h0M743.9 81.9h0M752.5 81.9h0M761.1 81.9h0M769.7 81.9h0M778.3 81.9h0M786.9 81.9h0M795.5 81.9h0M804.1 81.9h0M812.7 81.9h0M821.3 81.9h0M838.5 81.9h0M197.8 89.4h0M206.4 89.4h0M215.0 89.4h0M223.6 89.4h0M232.2 89.4h0M240.8 89.4h0M249.4 89.4h0M258.0 89.4h0M266.6 89.4h0M275.2 89.4h0M283.8 89.4h0M292.4 89.4h0M301.0 89.4h0M309.6 89.4h0M318.2 89.4h0M326.8 89.4h0M498.8 89.4h0M507.4 89.4h0M516.0 89.4h0M524.6 89.4h0M541.8 89.4h0M550.4 89.4h0M559.0 89.4h0M593.4 89.4h0M602.0 89.4h0M610.6 89.4h0M627.8 89.4h0M636.4 89.4h0M645.0 89.4h0M653.6 89.4h0M662.2 89.4h0M670.8 89.4h0M679.4 89.4h0M688.0 89.4h0M696.6 89.4h0M705.2 89.4h0M713.8 89.4h0M722.4 89.4h0M731.0 89.4h0M739.6 89.4h0M748.2 89.4h0M756.8 89.4h0M765.4 89.4h0M774.0 89.4h0M782.6 89.4h0M791.2 89.4h0M799.8 89.4h0M808.4 89.4h0M817.0 89.4h0M825.6 89.4h0M842.8 89.4h0M193.5 96.8h0M202.1 96.8h0M210.7 96.8h0M219.3 96.8h0M227.9 96.8h0M236.5 96.8h0M245.1 96.8h0M253.7 96.8h0M262.3 96.8h0M270.9 96.8h0M279.5 96.8h0M288.1 96.8h0M296.7 96.8h0M305.3 96.8h0M313.9 96.8h0M322.5 96.8h0M477.3 96.8h0M485.9 96.8h0M494.5 96.8h0M503.1 96.8h0M520.3 96.8h0M528.9 96.8h0M546.1 96.8h0M554.7 96.8h0M563.3 96.8h0M606.3 96.8h0M614.9 96.8h0M632.1 96.8h0M640.7 96.8h0M649.3 96.8h0M657.9 96.8h0M666.5 96.8h0M675.1 96.8h0M683.7 96.8h0M692.3 96.8h0M700.9 96.8h0M709.5 96.8h0M718.1 96.8h0M726.7 96.8h0M735.3 96.8h0M743.9 96.8h0M752.5 96.8h0M761.1 96.8h0M769.7 96.8h0M778.3 96.8h0M786.9 96.8h0M795.5 96.8h0M804.1 96.8h0M812.7 96.8h0M189.2 104.3h0M197.8 104.3h0M206.4 104.3h0M215.0 104.3h0M223.6 104.3h0M232.2 104.3h0M240.8 104.3h0M249.4 104.3h0M258.0 104.3h0M266.6 104.3h0M275.2 104.3h0M283.8 104.3h0M292.4 104.3h0M301.0 104.3h0M309.6 104.3h0M481.6 104.3h0M490.2 104.3h0M550.4 104.3h0M567.6 104.3h0M576.2 104.3h0M584.8 104.3h0M593.4 104.3h0M602.0 104.3h0M610.6 104.3h0M619.2 104.3h0M636.4 104.3h0M645.0 104.3h0M653.6 104.3h0M662.2 104.3h0M670.8 104.3h0M679.4 104.3h0M688.0 104.3h0M696.6 104.3h0M705.2 104.3h0M713.8 104.3h0M722.4 104.3h0M731.0 104.3h0M739.6 104.3h0M748.2 104.3h0M756.8 104.3h0M765.4 104.3h0M774.0 104.3h0M782.6 104.3h0M791.2 104.3h0M851.4 104.3h0M193.5 111.7h0M202.1 111.7h0M210.7 111.7h0M219.3 111.7h0M227.9 111.7h0M236.5 111.7h0M245.1 111.7h0M253.7 111.7h0M262.3 111.7h0M270.9 111.7h0M279.5 111.7h0M288.1 111.7h0M296.7 111.7h0M305.3 111.7h0M477.3 111.7h0M485.9 111.7h0M554.7 111.7h0M571.9 111.7h0M580.5 111.7h0M589.1 111.7h0M597.7 111.7h0M606.3 111.7h0M614.9 111.7h0M640.7 111.7h0M649.3 111.7h0M657.9 111.7h0M666.5 111.7h0M675.1 111.7h0M683.7 111.7h0M692.3 111.7h0M700.9 111.7h0M709.5 111.7h0M718.1 111.7h0M726.7 111.7h0M735.3 111.7h0M743.9 111.7h0M752.5 111.7h0M761.1 111.7h0M769.7 111.7h0M778.3 111.7h0M786.9 111.7h0M795.5 111.7h0M804.1 111.7h0M821.3 111.7h0M189.2 119.2h0M197.8 119.2h0M206.4 119.2h0M215.0 119.2h0M223.6 119.2h0M232.2 119.2h0M240.8 119.2h0M249.4 119.2h0M258.0 119.2h0M266.6 119.2h0M275.2 119.2h0M283.8 119.2h0M292.4 119.2h0M301.0 119.2h0M498.8 119.2h0M507.4 119.2h0M516.0 119.2h0M524.6 119.2h0M559.0 119.2h0M593.4 119.2h0M602.0 119.2h0M610.6 119.2h0M619.2 119.2h0M627.8 119.2h0M636.4 119.2h0M645.0 119.2h0M653.6 119.2h0M662.2 119.2h0M670.8 119.2h0M679.4 119.2h0M688.0 119.2h0M696.6 119.2h0M705.2 119.2h0M713.8 119.2h0M722.4 119.2h0M731.0 119.2h0M739.6 119.2h0M748.2 119.2h0M756.8 119.2h0M765.4 119.2h0M774.0 119.2h0M782.6 119.2h0M791.2 119.2h0M799.8 119.2h0M825.6 119.2h0M842.8 119.2h0M851.4 119.2h0M193.5 126.6h0M202.1 126.6h0M210.7 126.6h0M219.3 126.6h0M227.9 126.6h0M236.5 126.6h0M245.1 126.6h0M253.7 126.6h0M262.3 126.6h0M270.9 126.6h0M279.5 126.6h0M288.1 126.6h0M477.3 126.6h0M485.9 126.6h0M494.5 126.6h0M503.1 126.6h0M511.7 126.6h0M520.3 126.6h0M589.1 126.6h0M597.7 126.6h0M606.3 126.6h0M614.9 126.6h0M623.5 126.6h0M632.1 126.6h0M640.7 126.6h0M649.3 126.6h0M657.9 126.6h0M666.5 126.6h0M675.1 126.6h0M683.7 126.6h0M692.3 126.6h0M700.9 126.6h0M709.5 126.6h0M718.1 126.6h0M726.7 126.6h0M735.3 126.6h0M743.9 126.6h0M752.5 126.6h0M761.1 126.6h0M769.7 126.6h0M778.3 126.6h0M786.9 126.6h0M795.5 126.6h0M804.1 126.6h0M838.5 126.6h0M206.4 134.1h0M215.0 134.1h0M223.6 134.1h0M232.2 134.1h0M240.8 134.1h0M249.4 134.1h0M258.0 134.1h0M266.6 134.1h0M275.2 134.1h0M283.8 134.1h0M473.0 134.1h0M481.6 134.1h0M490.2 134.1h0M498.8 134.1h0M507.4 134.1h0M516.0 134.1h0M524.6 134.1h0M533.2 134.1h0M541.8 134.1h0M559.0 134.1h0M567.6 134.1h0M576.2 134.1h0M584.8 134.1h0M593.4 134.1h0M602.0 134.1h0M610.6 134.1h0M619.2 134.1h0M627.8 134.1h0M636.4 134.1h0M645.0 134.1h0M653.6 134.1h0M662.2 134.1h0M670.8 134.1h0M679.4 134.1h0M688.0 134.1h0M696.6 134.1h0M705.2 134.1h0M713.8 134.1h0M722.4 134.1h0M731.0 134.1h0M739.6 134.1h0M748.2 134.1h0M756.8 134.1h0M765.4 134.1h0M774.0 134.1h0M782.6 134.1h0M791.2 134.1h0M799.8 134.1h0M808.4 134.1h0M817.0 134.1h0M202.1 141.5h0M210.7 141.5h0M219.3 141.5h0M227.9 141.5h0M236.5 141.5h0M279.5 141.5h0M477.3 141.5h0M485.9 141.5h0M494.5 141.5h0M503.1 141.5h0M511.7 141.5h0M520.3 141.5h0M528.9 141.5h0M537.5 141.5h0M546.1 141.5h0M554.7 141.5h0M563.3 141.5h0M571.9 141.5h0M580.5 141.5h0M589.1 141.5h0M597.7 141.5h0M606.3 141.5h0M614.9 141.5h0M623.5 141.5h0M640.7 141.5h0M649.3 141.5h0M657.9 141.5h0M666.5 141.5h0M675.1 141.5h0M683.7 141.5h0M692.3 141.5h0M700.9 141.5h0M709.5 141.5h0M718.1 141.5h0M726.7 141.5h0M735.3 141.5h0M743.9 141.5h0M752.5 141.5h0M761.1 141.5h0M769.7 141.5h0M778.3 141.5h0M786.9 141.5h0M795.5 141.5h0M804.1 141.5h0M812.7 141.5h0M197.8 149.0h0M206.4 149.0h0M215.0 149.0h0M223.6 149.0h0M232.2 149.0h0M464.4 149.0h0M473.0 149.0h0M481.6 149.0h0M490.2 149.0h0M498.8 149.0h0M507.4 149.0h0M516.0 149.0h0M524.6 149.0h0M533.2 149.0h0M541.8 149.0h0M550.4 149.0h0M559.0 149.0h0M567.6 149.0h0M576.2 149.0h0M584.8 149.0h0M602.0 149.0h0M610.6 149.0h0M619.2 149.0h0M627.8 149.0h0M645.0 149.0h0M653.6 149.0h0M662.2 149.0h0M670.8 149.0h0M679.4 149.0h0M688.0 149.0h0M696.6 149.0h0M705.2 149.0h0M713.8 149.0h0M722.4 149.0h0M731.0 149.0h0M739.6 149.0h0M748.2 149.0h0M756.8 149.0h0M765.4 149.0h0M774.0 149.0h0M782.6 149.0h0M791.2 149.0h0M799.8 149.0h0M808.4 149.0h0M817.0 149.0h0M210.7 156.4h0M219.3 156.4h0M227.9 156.4h0M288.1 156.4h0M460.1 156.4h0M468.7 156.4h0M477.3 156.4h0M485.9 156.4h0M494.5 156.4h0M503.1 156.4h0M511.7 156.4h0M520.3 156.4h0M528.9 156.4h0M537.5 156.4h0M546.1 156.4h0M554.7 156.4h0M563.3 156.4h0M571.9 156.4h0M580.5 156.4h0M589.1 156.4h0M606.3 156.4h0M614.9 156.4h0M623.5 156.4h0M632.1 156.4h0M649.3 156.4h0M683.7 156.4h0M692.3 156.4h0M700.9 156.4h0M709.5 156.4h0M718.1 156.4h0M726.7 156.4h0M735.3 156.4h0M743.9 156.4h0M752.5 156.4h0M761.1 156.4h0M769.7 156.4h0M778.3 156.4h0M786.9 156.4h0M795.5 156.4h0M804.1 156.4h0M812.7 156.4h0M215.0 163.9h0M223.6 163.9h0M455.8 163.9h0M464.4 163.9h0M473.0 163.9h0M481.6 163.9h0M490.2 163.9h0M498.8 163.9h0M507.4 163.9h0M516.0 163.9h0M524.6 163.9h0M533.2 163.9h0M541.8 163.9h0M550.4 163.9h0M559.0 163.9h0M567.6 163.9h0M576.2 163.9h0M584.8 163.9h0M593.4 163.9h0M610.6 163.9h0M619.2 163.9h0M627.8 163.9h0M636.4 163.9h0M645.0 163.9h0M653.6 163.9h0M696.6 163.9h0M705.2 163.9h0M713.8 163.9h0M722.4 163.9h0M731.0 163.9h0M739.6 163.9h0M748.2 163.9h0M756.8 163.9h0M765.4 163.9h0M774.0 163.9h0M782.6 163.9h0M791.2 163.9h0M799.8 163.9h0M808.4 163.9h0M825.6 163.9h0M210.7 171.3h0M219.3 171.3h0M227.9 171.3h0M253.7 171.3h0M288.1 171.3h0M460.1 171.3h0M468.7 171.3h0M477.3 171.3h0M485.9 171.3h0M494.5 171.3h0M503.1 171.3h0M511.7 171.3h0M520.3 171.3h0M528.9 171.3h0M537.5 171.3h0M546.1 171.3h0M554.7 171.3h0M563.3 171.3h0M571.9 171.3h0M580.5 171.3h0M589.1 171.3h0M597.7 171.3h0M606.3 171.3h0M614.9 171.3h0M623.5 171.3h0M632.1 171.3h0M640.7 171.3h0M649.3 171.3h0M700.9 171.3h0M709.5 171.3h0M718.1 171.3h0M726.7 171.3h0M752.5 171.3h0M761.1 171.3h0M769.7 171.3h0M778.3 171.3h0M786.9 171.3h0M215.0 178.7h0M223.6 178.7h0M232.2 178.7h0M249.4 178.7h0M301.0 178.7h0M309.6 178.7h0M455.8 178.7h0M464.4 178.7h0M473.0 178.7h0M481.6 178.7h0M490.2 178.7h0M498.8 178.7h0M507.4 178.7h0M516.0 178.7h0M524.6 178.7h0M533.2 178.7h0M541.8 178.7h0M550.4 178.7h0M559.0 178.7h0M567.6 178.7h0M576.2 178.7h0M584.8 178.7h0M593.4 178.7h0M619.2 178.7h0M627.8 178.7h0M636.4 178.7h0M645.0 178.7h0M705.2 178.7h0M713.8 178.7h0M722.4 178.7h0M756.8 178.7h0M765.4 178.7h0M774.0 178.7h0M782.6 178.7h0M799.8 178.7h0M227.9 186.2h0M236.5 186.2h0M245.1 186.2h0M460.1 186.2h0M468.7 186.2h0M477.3 186.2h0M485.9 186.2h0M494.5 186.2h0M503.1 186.2h0M511.7 186.2h0M520.3 186.2h0M528.9 186.2h0M537.5 186.2h0M546.1 186.2h0M554.7 186.2h0M563.3 186.2h0M571.9 186.2h0M580.5 186.2h0M589.1 186.2h0M597.7 186.2h0M623.5 186.2h0M632.1 186.2h0M640.7 186.2h0M700.9 186.2h0M709.5 186.2h0M718.1 186.2h0M761.1 186.2h0M769.7 186.2h0M778.3 186.2h0M786.9 186.2h0M249.4 193.6h0M258.0 193.6h0M266.6 193.6h0M455.8 193.6h0M464.4 193.6h0M473.0 193.6h0M481.6 193.6h0M490.2 193.6h0M498.8 193.6h0M507.4 193.6h0M516.0 193.6h0M524.6 193.6h0M533.2 193.6h0M541.8 193.6h0M550.4 193.6h0M559.0 193.6h0M567.6 193.6h0M576.2 193.6h0M584.8 193.6h0M593.4 193.6h0M602.0 193.6h0M610.6 193.6h0M619.2 193.6h0M627.8 193.6h0M705.2 193.6h0M713.8 193.6h0M774.0 193.6h0M782.6 193.6h0M791.2 193.6h0M799.8 193.6h0M834.2 193.6h0M262.3 201.1h0M451.5 201.1h0M460.1 201.1h0M468.7 201.1h0M477.3 201.1h0M485.9 201.1h0M494.5 201.1h0M503.1 201.1h0M511.7 201.1h0M520.3 201.1h0M528.9 201.1h0M537.5 201.1h0M546.1 201.1h0M554.7 201.1h0M563.3 201.1h0M571.9 201.1h0M580.5 201.1h0M589.1 201.1h0M597.7 201.1h0M606.3 201.1h0M614.9 201.1h0M649.3 201.1h0M709.5 201.1h0M718.1 201.1h0M786.9 201.1h0M795.5 201.1h0M292.4 208.5h0M301.0 208.5h0M318.2 208.5h0M326.8 208.5h0M464.4 208.5h0M473.0 208.5h0M481.6 208.5h0M490.2 208.5h0M498.8 208.5h0M507.4 208.5h0M516.0 208.5h0M524.6 208.5h0M533.2 208.5h0M541.8 208.5h0M550.4 208.5h0M559.0 208.5h0M567.6 208.5h0M576.2 208.5h0M584.8 208.5h0M593.4 208.5h0M602.0 208.5h0M610.6 208.5h0M619.2 208.5h0M627.8 208.5h0M636.4 208.5h0M713.8 208.5h0M774.0 208.5h0M791.2 208.5h0M842.8 208.5h0M270.9 216.0h0M279.5 216.0h0M288.1 216.0h0M296.7 216.0h0M305.3 216.0h0M313.9 216.0h0M322.5 216.0h0M468.7 216.0h0M477.3 216.0h0M485.9 216.0h0M494.5 216.0h0M503.1 216.0h0M511.7 216.0h0M520.3 216.0h0M528.9 216.0h0M537.5 216.0h0M546.1 216.0h0M554.7 216.0h0M563.3 216.0h0M571.9 216.0h0M580.5 216.0h0M589.1 216.0h0M597.7 216.0h0M606.3 216.0h0M614.9 216.0h0M623.5 216.0h0M632.1 216.0h0M283.8 223.4h0M292.4 223.4h0M301.0 223.4h0M309.6 223.4h0M318.2 223.4h0M326.8 223.4h0M473.0 223.4h0M481.6 223.4h0M490.2 223.4h0M498.8 223.4h0M507.4 223.4h0M516.0 223.4h0M524.6 223.4h0M533.2 223.4h0M541.8 223.4h0M550.4 223.4h0M559.0 223.4h0M567.6 223.4h0M576.2 223.4h0M584.8 223.4h0M593.4 223.4h0M602.0 223.4h0M610.6 223.4h0M619.2 223.4h0M627.8 223.4h0M722.4 223.4h0M782.6 223.4h0M825.6 223.4h0M288.1 230.9h0M296.7 230.9h0M305.3 230.9h0M313.9 230.9h0M322.5 230.9h0M331.1 230.9h0M339.7 230.9h0M348.3 230.9h0M477.3 230.9h0M520.3 230.9h0M528.9 230.9h0M537.5 230.9h0M546.1 230.9h0M554.7 230.9h0M563.3 230.9h0M571.9 230.9h0M580.5 230.9h0M589.1 230.9h0M597.7 230.9h0M606.3 230.9h0M614.9 230.9h0M623.5 230.9h0M632.1 230.9h0M769.7 230.9h0M786.9 230.9h0M821.3 230.9h0M829.9 230.9h0M283.8 238.3h0M292.4 238.3h0M301.0 238.3h0M309.6 238.3h0M318.2 238.3h0M326.8 238.3h0M335.4 238.3h0M344.0 238.3h0M352.6 238.3h0M533.2 238.3h0M541.8 238.3h0M550.4 238.3h0M559.0 238.3h0M567.6 238.3h0M576.2 238.3h0M584.8 238.3h0M593.4 238.3h0M602.0 238.3h0M610.6 238.3h0M619.2 238.3h0M627.8 238.3h0M774.0 238.3h0M817.0 238.3h0M825.6 238.3h0M279.5 245.8h0M288.1 245.8h0M296.7 245.8h0M305.3 245.8h0M313.9 245.8h0M322.5 245.8h0M331.1 245.8h0M339.7 245.8h0M348.3 245.8h0M528.9 245.8h0M537.5 245.8h0M546.1 245.8h0M554.7 245.8h0M563.3 245.8h0M571.9 245.8h0M580.5 245.8h0M589.1 245.8h0M597.7 245.8h0M606.3 245.8h0M614.9 245.8h0M778.3 245.8h0M812.7 245.8h0M821.3 245.8h0M838.5 245.8h0M847.1 245.8h0M275.2 253.2h0M283.8 253.2h0M292.4 253.2h0M301.0 253.2h0M309.6 253.2h0M318.2 253.2h0M326.8 253.2h0M335.4 253.2h0M344.0 253.2h0M352.6 253.2h0M524.6 253.2h0M533.2 253.2h0M541.8 253.2h0M550.4 253.2h0M559.0 253.2h0M567.6 253.2h0M576.2 253.2h0M584.8 253.2h0M593.4 253.2h0M602.0 253.2h0M610.6 253.2h0M782.6 253.2h0M791.2 253.2h0M808.4 253.2h0M817.0 253.2h0M825.6 253.2h0M834.2 253.2h0M842.8 253.2h0M868.6 253.2h0M279.5 260.7h0M288.1 260.7h0M296.7 260.7h0M305.3 260.7h0M313.9 260.7h0M322.5 260.7h0M331.1 260.7h0M339.7 260.7h0M348.3 260.7h0M356.9 260.7h0M365.5 260.7h0M374.1 260.7h0M382.7 260.7h0M528.9 260.7h0M537.5 260.7h0M546.1 260.7h0M554.7 260.7h0M563.3 260.7h0M571.9 260.7h0M580.5 260.7h0M589.1 260.7h0M597.7 260.7h0M606.3 260.7h0M786.9 260.7h0M795.5 260.7h0M812.7 260.7h0M821.3 260.7h0M838.5 260.7h0M864.3 260.7h0M872.9 260.7h0M881.5 260.7h0M890.1 260.7h0M898.7 260.7h0M275.2 268.1h0M283.8 268.1h0M292.4 268.1h0M301.0 268.1h0M309.6 268.1h0M318.2 268.1h0M326.8 268.1h0M335.4 268.1h0M344.0 268.1h0M352.6 268.1h0M361.2 268.1h0M369.8 268.1h0M378.4 268.1h0M387.0 268.1h0M395.6 268.1h0M533.2 268.1h0M541.8 268.1h0M550.4 268.1h0M559.0 268.1h0M567.6 268.1h0M576.2 268.1h0M584.8 268.1h0M593.4 268.1h0M602.0 268.1h0M791.2 268.1h0M834.2 268.1h0M885.8 268.1h0M894.4 268.1h0M903.0 268.1h0M279.5 275.6h0M288.1 275.6h0M296.7 275.6h0M305.3 275.6h0M313.9 275.6h0M322.5 275.6h0M331.1 275.6h0M339.7 275.6h0M348.3 275.6h0M356.9 275.6h0M365.5 275.6h0M374.1 275.6h0M382.7 275.6h0M391.3 275.6h0M537.5 275.6h0M546.1 275.6h0M554.7 275.6h0M563.3 275.6h0M571.9 275.6h0M580.5 275.6h0M589.1 275.6h0M597.7 275.6h0M606.3 275.6h0M804.1 275.6h0M812.7 275.6h0M890.1 275.6h0M898.7 275.6h0M907.3 275.6h0M283.8 283.0h0M292.4 283.0h0M301.0 283.0h0M309.6 283.0h0M318.2 283.0h0M326.8 283.0h0M335.4 283.0h0M344.0 283.0h0M352.6 283.0h0M361.2 283.0h0M369.8 283.0h0M378.4 283.0h0M387.0 283.0h0M395.6 283.0h0M541.8 283.0h0M550.4 283.0h0M559.0 283.0h0M567.6 283.0h0M576.2 283.0h0M584.8 283.0h0M593.4 283.0h0M602.0 283.0h0M825.6 283.0h0M894.4 283.0h0M911.6 283.0h0M288.1 290.5h0M296.7 290.5h0M305.3 290.5h0M313.9 290.5h0M322.5 290.5h0M331.1 290.5h0M339.7 290.5h0M348.3 290.5h0M356.9 290.5h0M365.5 290.5h0M374.1 290.5h0M382.7 290.5h0M391.3 290.5h0M537.5 290.5h0M546.1 290.5h0M554.7 290.5h0M563.3 290.5h0M571.9 290.5h0M580.5 290.5h0M589.1 290.5h0M597.7 290.5h0M606.3 290.5h0M292.4 297.9h0M301.0 297.9h0M309.6 297.9h0M318.2 297.9h0M326.8 297.9h0M335.4 297.9h0M344.0 297.9h0M352.6 297.9h0M361.2 297.9h0M369.8 297.9h0M378.4 297.9h0M387.0 297.9h0M541.8 297.9h0M550.4 297.9h0M559.0 297.9h0M567.6 297.9h0M576.2 297.9h0M584.8 297.9h0M593.4 297.9h0M602.0 297.9h0M636.4 297.9h0M860.0 297.9h0M868.6 297.9h0M877.2 297.9h0M894.4 297.9h0M296.7 305.4h0M305.3 305.4h0M313.9 305.4h0M322.5 305.4h0M331.1 305.4h0M339.7 305.4h0M348.3 305.4h0M356.9 305.4h0M365.5 305.4h0M374.1 305.4h0M382.7 305.4h0M537.5 305.4h0M546.1 305.4h0M554.7 305.4h0M563.3 305.4h0M571.9 305.4h0M580.5 305.4h0M589.1 305.4h0M597.7 305.4h0M606.3 305.4h0M632.1 305.4h0M847.1 305.4h0M864.3 305.4h0M872.9 305.4h0M898.7 305.4h0M301.0 312.8h0M309.6 312.8h0M318.2 312.8h0M326.8 312.8h0M335.4 312.8h0M344.0 312.8h0M352.6 312.8h0M361.2 312.8h0M369.8 312.8h0M378.4 312.8h0M387.0 312.8h0M533.2 312.8h0M541.8 312.8h0M550.4 312.8h0M559.0 312.8h0M567.6 312.8h0M576.2 312.8h0M584.8 312.8h0M593.4 312.8h0M602.0 312.8h0M627.8 312.8h0M842.8 312.8h0M851.4 312.8h0M860.0 312.8h0M868.6 312.8h0M877.2 312.8h0M894.4 312.8h0M305.3 320.3h0M313.9 320.3h0M322.5 320.3h0M331.1 320.3h0M339.7 320.3h0M348.3 320.3h0M356.9 320.3h0M365.5 320.3h0M374.1 320.3h0M382.7 320.3h0M537.5 320.3h0M546.1 320.3h0M554.7 320.3h0M563.3 320.3h0M571.9 320.3h0M580.5 320.3h0M589.1 320.3h0M623.5 320.3h0M632.1 320.3h0M838.5 320.3h0M847.1 320.3h0M855.7 320.3h0M864.3 320.3h0M872.9 320.3h0M881.5 320.3h0M890.1 320.3h0M898.7 320.3h0M309.6 327.7h0M318.2 327.7h0M326.8 327.7h0M335.4 327.7h0M344.0 327.7h0M352.6 327.7h0M361.2 327.7h0M369.8 327.7h0M378.4 327.7h0M541.8 327.7h0M550.4 327.7h0M559.0 327.7h0M567.6 327.7h0M576.2 327.7h0M584.8 327.7h0M619.2 327.7h0M627.8 327.7h0M817.0 327.7h0M825.6 327.7h0M834.2 327.7h0M842.8 327.7h0M851.4 327.7h0M860.0 327.7h0M868.6 327.7h0M877.2 327.7h0M885.8 327.7h0M894.4 327.7h0M903.0 327.7h0M313.9 335.2h0M322.5 335.2h0M331.1 335.2h0M339.7 335.2h0M348.3 335.2h0M356.9 335.2h0M365.5 335.2h0M374.1 335.2h0M537.5 335.2h0M546.1 335.2h0M554.7 335.2h0M563.3 335.2h0M571.9 335.2h0M580.5 335.2h0M589.1 335.2h0M623.5 335.2h0M812.7 335.2h0M821.3 335.2h0M829.9 335.2h0M838.5 335.2h0M847.1 335.2h0M855.7 335.2h0M864.3 335.2h0M872.9 335.2h0M881.5 335.2h0M890.1 335.2h0M898.7 335.2h0M309.6 342.6h0M318.2 342.6h0M326.8 342.6h0M335.4 342.6h0M344.0 342.6h0M352.6 342.6h0M361.2 342.6h0M541.8 342.6h0M550.4 342.6h0M559.0 342.6h0M567.6 342.6h0M576.2 342.6h0M584.8 342.6h0M619.2 342.6h0M808.4 342.6h0M817.0 342.6h0M825.6 342.6h0M834.2 342.6h0M842.8 342.6h0M851.4 342.6h0M860.0 342.6h0M868.6 342.6h0M877.2 342.6h0M885.8 342.6h0M894.4 342.6h0M903.0 342.6h0M313.9 350.0h0M322.5 350.0h0M331.1 350.0h0M339.7 350.0h0M348.3 350.0h0M356.9 350.0h0M365.5 350.0h0M546.1 350.0h0M554.7 350.0h0M563.3 350.0h0M571.9 350.0h0M580.5 350.0h0M804.1 350.0h0M812.7 350.0h0M821.3 350.0h0M829.9 350.0h0M838.5 350.0h0M847.1 350.0h0M855.7 350.0h0M864.3 350.0h0M872.9 350.0h0M881.5 350.0h0M890.1 350.0h0M898.7 350.0h0M309.6 357.5h0M318.2 357.5h0M326.8 357.5h0M335.4 357.5h0M344.0 357.5h0M352.6 357.5h0M361.2 357.5h0M550.4 357.5h0M559.0 357.5h0M567.6 357.5h0M576.2 357.5h0M808.4 357.5h0M817.0 357.5h0M825.6 357.5h0M834.2 357.5h0M842.8 357.5h0M851.4 357.5h0M860.0 357.5h0M868.6 357.5h0M877.2 357.5h0M885.8 357.5h0M894.4 357.5h0M313.9 364.9h0M322.5 364.9h0M331.1 364.9h0M339.7 364.9h0M348.3 364.9h0M356.9 364.9h0M546.1 364.9h0M554.7 364.9h0M563.3 364.9h0M571.9 364.9h0M804.1 364.9h0M812.7 364.9h0M821.3 364.9h0M829.9 364.9h0M838.5 364.9h0M847.1 364.9h0M855.7 364.9h0M864.3 364.9h0M872.9 364.9h0M881.5 364.9h0M890.1 364.9h0M318.2 372.4h0M326.8 372.4h0M335.4 372.4h0M344.0 372.4h0M352.6 372.4h0M550.4 372.4h0M559.0 372.4h0M799.8 372.4h0M808.4 372.4h0M817.0 372.4h0M851.4 372.4h0M860.0 372.4h0M868.6 372.4h0M877.2 372.4h0M885.8 372.4h0M21.5 379.8h0M313.9 379.8h0M322.5 379.8h0M331.1 379.8h0M339.7 379.8h0M348.3 379.8h0M855.7 379.8h0M864.3 379.8h0M872.9 379.8h0M881.5 379.8h0M34.4 387.3h0M318.2 387.3h0M326.8 387.3h0M335.4 387.3h0M344.0 387.3h0M860.0 387.3h0M868.6 387.3h0M946.0 387.3h0M38.7 394.7h0M313.9 394.7h0M322.5 394.7h0M331.1 394.7h0M339.7 394.7h0M34.4 402.2h0M326.8 402.2h0M335.4 402.2h0M860.0 402.2h0M920.2 402.2h0M38.7 409.6h0M322.5 409.6h0M331.1 409.6h0M907.3 409.6h0M326.8 417.1h0M335.4 417.1h0M322.5 424.5h0M331.1 424.5h0M339.7 424.5h0M335.4 432.0h0M339.7 439.4h0"/><g id="fm-puntos"></g></svg>
-<div class="fm-tip" id="fm-tip" hidden></div>
-</div>
-<p class="fm-leyenda"><span><i style="width:9px;height:9px"></i>Una formación</span><span><i style="width:15px;height:15px"></i>Varias</span><span><i style="width:22px;height:22px"></i>Muchas</span><span>Toca un punto para ver las de esa ciudad.</span></p>
+
+<section class="ancho fm-bloque fm-caminos" aria-labelledby="t-caminos">
+  <div class="fm-bloque-cab">
+    <p class="fm-antetitulo">Por dónde empezar</p>
+    <h2 id="t-caminos">¿Qué quieres aprender?</h2>
+    <p>Cada formación prepara para una tarea distinta. Empieza por la que se parezca a lo que buscas.</p>
+  </div>
+  <ul class="fm-caminos-lista">
+    <li><button type="button" class="fm-camino" data-camino="tipo:facilitacion"><span class="fm-camino-ico"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="10" r="4"/><circle cx="23" cy="10" r="4"/><path d="M3.5 27c.8-5.2 3.6-8 7.5-8s6.7 2.8 7.5 8M15.5 27c.8-5.2 3.6-8 7.5-8s6.7 2.8 7.5 8"/></g></svg></span><span><b>Acompañar sesiones</b><span class="d">Facilitación y acompañamiento durante la experiencia.</span></span><em data-n="tipo:facilitacion"></em><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+    <li><button type="button" class="fm-camino" data-camino="tipo:terapia"><span class="fm-camino-ico"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8.5h16a3 3 0 0 1 3 3v6.5a3 3 0 0 1-3 3h-9l-5 4v-4H5a3 3 0 0 1-3-3v-6.5a3 3 0 0 1 3-3Z"/><path d="M24 13h5a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-1v3.5L24 25h-5"/></g></svg></span><span><b>Terapia asistida</b><span class="d">Para profesionales sanitarios y de la salud mental.</span></span><em data-n="tipo:terapia"></em><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+    <li><button type="button" class="fm-camino" data-camino="tipo:integracion"><span class="fm-camino-ico"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><path d="M17 17.2c0-1.2 1.4-1.6 2.2-.8 1.5 1.5.2 4-1.9 4.3-3 .4-5-2.4-4.5-5.2.6-3.5 4.3-5.4 7.6-4.5 4.4 1.2 6.4 6 5.1 10.1-1.6 5.2-7.4 7.7-12.4 6-6-2-8.9-8.8-6.8-14.6C8.6 5.6 16.3 2.4 23 4.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span><b>Integración</b><span class="d">Ayudar a dar sentido a la experiencia después.</span></span><em data-n="tipo:integracion"></em><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+    <li><button type="button" class="fm-camino" data-camino="tipo:riesgos"><span class="fm-camino-ico"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3.5 6 7.5v8.3c0 7 4.6 12.3 11 14.7 6.4-2.4 11-7.7 11-14.7V7.5Z"/><path d="M17 21.5s-5-2.9-5-6.4a2.8 2.8 0 0 1 5-1.7 2.8 2.8 0 0 1 5 1.7c0 3.5-5 6.4-5 6.4Z"/></g></svg></span><span><b>Reducción de riesgos</b><span class="d">Apoyo entre iguales y cuidado en experiencias difíciles.</span></span><em data-n="tipo:riesgos"></em><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+    <li><button type="button" class="fm-camino" data-camino="tipo:investigacion"><span class="fm-camino-ico"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3.5h8M14.5 3.5v9.2L6.6 26.3A2.8 2.8 0 0 0 9 30.5h16a2.8 2.8 0 0 0 2.4-4.2l-7.9-13.6V3.5"/><path d="M9.4 21.5h15.2"/></g></svg></span><span><b>Investigación</b><span class="d">Ciencia, ensayos clínicos y método.</span></span><em data-n="tipo:investigacion"></em><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+    <li><button type="button" class="fm-camino" data-camino="tipo:introduccion"><span class="fm-camino-ico"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8.5c-3-2.6-7.6-3-12.5-2.4v19.6c4.9-.6 9.5-.2 12.5 2.4 3-2.6 7.6-3 12.5-2.4V6.1C24.6 5.5 20 5.9 17 8.5Z"/><path d="M17 8.5v19.6"/></g></svg></span><span><b>Empezar por lo básico</b><span class="d">Cursos introductorios para entender el campo.</span></span><em data-n="tipo:introduccion"></em><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+    <li><button type="button" class="fm-camino" data-camino="tipo:tradiciones"><span class="fm-camino-ico"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 28c1.5-11 8-19 22-22-1 12.5-8.3 20-19 20.5"/><path d="M6 28 18 15"/></g></svg></span><span><b>Saberes tradicionales</b><span class="d">Usos ancestrales, antropología y respeto cultural.</span></span><em data-n="tipo:tradiciones"></em><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+  </ul>
+  <div class="fm-es" id="fm-es">
+    <span class="fm-es-letra" aria-hidden="true">ñ</span>
+    <div>
+      <h3>¿Buscas formarte en español?</h3>
+      <p>Para estudiar en tu idioma, aquí o en línea. Ahora mismo en el directorio: <strong data-n="idioma:es">…</strong>.</p>
+    </div>
+    <button type="button" data-atajo="idioma:es">Ver las formaciones en español<svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  </div>
 </section>
 
-<section class="fm-caminos" aria-labelledby="fm-caminos-t">
-<h2 id="fm-caminos-t">¿Qué quieres aprender?</h2>
-<p class="fm-intro">Cada formación prepara para una tarea distinta. Empieza por la que se parezca a lo que buscas.</p>
-<div class="fm-rejilla">
-<button type="button" class="fm-camino" data-camino="tipo:facilitacion"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="10" r="4"/><circle cx="23" cy="10" r="4"/><path d="M3.5 27c.8-5.2 3.6-8 7.5-8s6.7 2.8 7.5 8M15.5 27c.8-5.2 3.6-8 7.5-8s6.7 2.8 7.5 8"/></g></svg><b>Acompañar sesiones</b><span>Facilitación y acompañamiento durante la experiencia.</span><em data-n="tipo:facilitacion"></em></button>
-<button type="button" class="fm-camino" data-camino="tipo:terapia"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8.5h16a3 3 0 0 1 3 3v6.5a3 3 0 0 1-3 3h-9l-5 4v-4H5a3 3 0 0 1-3-3v-6.5a3 3 0 0 1 3-3Z"/><path d="M24 13h5a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-1v3.5L24 25h-5"/></g></svg><b>Terapia asistida</b><span>Para profesionales sanitarios y de la salud mental.</span><em data-n="tipo:terapia"></em></button>
-<button type="button" class="fm-camino" data-camino="tipo:integracion"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><path d="M17 17.2c0-1.2 1.4-1.6 2.2-.8 1.5 1.5.2 4-1.9 4.3-3 .4-5-2.4-4.5-5.2.6-3.5 4.3-5.4 7.6-4.5 4.4 1.2 6.4 6 5.1 10.1-1.6 5.2-7.4 7.7-12.4 6-6-2-8.9-8.8-6.8-14.6C8.6 5.6 16.3 2.4 23 4.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><b>Integración</b><span>Ayudar a dar sentido a la experiencia después.</span><em data-n="tipo:integracion"></em></button>
-<button type="button" class="fm-camino" data-camino="tipo:riesgos"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3.5 6 7.5v8.3c0 7 4.6 12.3 11 14.7 6.4-2.4 11-7.7 11-14.7V7.5Z"/><path d="M17 21.5s-5-2.9-5-6.4a2.8 2.8 0 0 1 5-1.7 2.8 2.8 0 0 1 5 1.7c0 3.5-5 6.4-5 6.4Z"/></g></svg><b>Reducción de riesgos</b><span>Apoyo entre iguales y cuidado en experiencias difíciles.</span><em data-n="tipo:riesgos"></em></button>
-<button type="button" class="fm-camino" data-camino="tipo:investigacion"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3.5h8M14.5 3.5v9.2L6.6 26.3A2.8 2.8 0 0 0 9 30.5h16a2.8 2.8 0 0 0 2.4-4.2l-7.9-13.6V3.5"/><path d="M9.4 21.5h15.2"/></g></svg><b>Investigación</b><span>Ciencia, ensayos clínicos y método.</span><em data-n="tipo:investigacion"></em></button>
-<button type="button" class="fm-camino" data-camino="tipo:introduccion"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8.5c-3-2.6-7.6-3-12.5-2.4v19.6c4.9-.6 9.5-.2 12.5 2.4 3-2.6 7.6-3 12.5-2.4V6.1C24.6 5.5 20 5.9 17 8.5Z"/><path d="M17 8.5v19.6"/></g></svg><b>Empezar por lo básico</b><span>Cursos introductorios para entender el campo.</span><em data-n="tipo:introduccion"></em></button>
-<button type="button" class="fm-camino" data-camino="tipo:tradiciones"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 28c1.5-11 8-19 22-22-1 12.5-8.3 20-19 20.5"/><path d="M6 28 18 15"/></g></svg><b>Saberes tradicionales</b><span>Usos ancestrales, antropología y respeto cultural.</span><em data-n="tipo:tradiciones"></em></button>
-<button type="button" class="fm-camino fm-es" data-camino="idioma:es"><svg viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6.5h24a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1-2.5 2.5H15l-6 4.5v-4.5H5A2.5 2.5 0 0 1 2.5 22V9A2.5 2.5 0 0 1 5 6.5Z"/><path d="M11 19v-6.5l6 6.5v-6.5M10.5 10.2c1-.8 1.8.6 3 0"/></g></svg><b>Formaciones en español</b><span>Para estudiar en tu idioma, aquí o en línea.</span><em data-n="idioma:es"></em></button>
-</div>
+<section class="ancho fm-bloque fm-pronto" id="pronto" aria-labelledby="t-pronto" hidden>
+  <div class="fm-pronto-cab">
+    <div>
+      <p class="fm-antetitulo">Calendario</p>
+      <h2 id="t-pronto">Empiezan pronto</h2>
+      <p>Las próximas fechas de inicio que han anunciado las entidades. Plazas y plazos cambian: confírmalos en su web.</p>
+    </div>
+    <button type="button" class="fm-enlace" data-atajo="fecha"><span>Ver todas las que tienen fecha</span><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  </div>
+  <ul class="fm-citas" id="fm-citas"></ul>
 </section>
 
-<section class="fm-dir" id="directorio" aria-labelledby="fm-dir-t">
-<div class="fm-dir-cab">
-<div>
-<p class="fm-eyebrow">Directorio</p>
-<h2 id="fm-dir-t">Todas las formaciones</h2>
-</div>
-<p class="fm-f-rev" id="fm-actualizado"></p>
-</div>
-<div class="fm-cuerpo">
-<aside class="fm-lado" id="fm-lado" aria-label="Filtros">
-<div class="fm-lado-cab"><h3>Filtros</h3><button type="button" class="fm-limpiar" id="fm-limpiar" hidden>Quitar filtros</button></div>
-<label class="fm-interruptor"><input type="checkbox" id="fm-proxima"> Solo con fecha de inicio anunciada</label>
-<div id="fm-facetas"></div>
-</aside>
-<div class="fm-principal">
-<div class="fm-barra">
-<label class="fm-oculto" for="fm-q">Buscar en el directorio</label>
-<input class="fm-q" id="fm-q" type="search" placeholder="Busca por nombre, entidad, ciudad o sustancia…" autocomplete="off">
-<button type="button" class="fm-abre-filtros" id="fm-abre-filtros" aria-expanded="false" aria-controls="fm-lado">Filtros <span id="fm-n-filtros"></span></button>
-<label class="fm-orden"><span>Ordenar por</span> <select id="fm-orden"><option value="fecha">Próximas fechas</option><option value="nombre">Nombre (A–Z)</option><option value="pais">País</option><option value="duracion">Duración</option><option value="precio">Precio orientativo</option></select></label>
-</div>
-<p class="fm-estado" aria-live="polite"><span id="fm-n-res">Cargando el directorio…</span><button type="button" class="fm-copiar" id="fm-copiar">Copiar enlace a estos resultados</button></p>
-<div class="fm-chips" id="fm-chips"></div>
-<ul class="fm-lista" id="fm-lista"></ul>
-<noscript><p class="fm-cargando">Para usar el directorio hace falta activar JavaScript en el navegador.</p></noscript>
-<div class="fm-mas" id="fm-mas" hidden><button type="button">Ver más formaciones</button></div>
-</div>
-</div>
+<section class="ancho fm-bloque fm-dir" id="directorio" aria-labelledby="t-directorio">
+  <div class="fm-dir-cab">
+    <div>
+      <p class="fm-antetitulo">Directorio</p>
+      <h2 id="t-directorio">Todas las formaciones</h2>
+    </div>
+  </div>
+  <div class="fm-barra">
+    <form class="fm-busca" id="fm-busca-dir" role="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 20 20"/></svg>
+      <label class="fm-oculto" for="fm-q">Buscar en el directorio</label>
+      <input type="search" id="fm-q" placeholder="Buscar por nombre, entidad, ciudad o tema" autocomplete="off" enterkeyhint="search" maxlength="80">
+    </form>
+    <div class="fm-orden">
+      <label for="fm-orden">Ordenar por</label>
+      <select id="fm-orden">
+        <option value="fecha">Próximas fechas</option>
+        <option value="nombre">Nombre (A–Z)</option>
+        <option value="pais">País</option>
+        <option value="duracion">Duración</option>
+        <option value="precio">Precio orientativo</option>
+      </select>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 9l7 7 7-7"/></svg>
+    </div>
+    <button type="button" class="fm-abre-filtros" id="fm-abre-filtros" aria-controls="fm-filtros"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h9M19 7h1M4 17h1M11 17h9"/><circle cx="16" cy="7" r="2.6"/><circle cx="8" cy="17" r="2.6"/></svg>Filtros<b data-n-filtros hidden></b></button>
+  </div>
+  <ul class="fm-rapidos" id="fm-rapidos" aria-label="Filtros rápidos"></ul>
+
+  <div class="fm-cuerpo" id="fm-cuerpo">
+    <aside class="fm-filtros" id="fm-filtros" aria-label="Filtros">
+      <div class="fm-filtros-cab">
+        <h3>Filtros</h3>
+        <button type="button" class="fm-quitar" data-limpiar-fijo hidden>Quitar filtros</button>
+        <button type="button" class="fm-cierra" id="fm-cierra-filtros" aria-label="Cerrar los filtros"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <div class="fm-filtros-cuerpo">
+        <label class="fm-suelto"><input type="checkbox" id="fm-prox"> Solo con fecha anunciada</label>
+        <div id="fm-facetas"></div>
+      </div>
+      <div class="fm-filtros-pie">
+        <button type="button" class="fm-quitar" data-limpiar-fijo hidden>Quitar filtros</button>
+        <button type="button" class="fm-ver" id="fm-ver">Ver formaciones</button>
+      </div>
+    </aside>
+
+    <div class="fm-resultados">
+      <div class="fm-estado" id="fm-estado">
+        <p class="fm-recuento" id="fm-n-res" role="status">Cargando el directorio…</p>
+        <button type="button" class="fm-copiar" id="fm-copiar"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span>Copiar enlace a estos resultados</span></button>
+        <div class="fm-chips" id="fm-chips" aria-label="Filtros activos"></div>
+      </div>
+      <ul class="fm-lista" id="fm-lista"><li class="fm-carga">Cargando el directorio…</li></ul>
+      <div class="fm-mas" id="fm-mas" hidden>
+        <button type="button" class="fm-boton" id="fm-mas-btn">Ver más formaciones</button>
+        <button type="button" class="fm-enlace" id="fm-todas"><span>Ver todas</span></button>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="fm-flota" id="fm-flota" aria-controls="fm-filtros"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h9M19 7h1M4 17h1M11 17h9"/><circle cx="16" cy="7" r="2.6"/><circle cx="8" cy="17" r="2.6"/></svg>Filtros<b data-n-filtros hidden></b></button>
 </section>
 
-<section class="fm-elegir" aria-labelledby="fm-elegir-t">
-<h2 id="fm-elegir-t">Cómo elegir una formación</h2>
-<p class="fm-intro">Hay programas muy distintos bajo el mismo nombre. Seis preguntas ayudan a separar lo sólido de lo que solo lo parece.</p>
-<ol class="fm-criterios">
-<li><h3>¿Para quién es?</h3><p>Mira los requisitos de acceso. Algunas piden ser profesional sanitario o de la salud mental; otras están abiertas a quien acompaña desde otros oficios. Elige la que encaje con lo que ya haces.</p></li>
-<li><h3>¿Qué te llevas al acabar?</h3><p>Un título universitario, créditos de formación continuada o un certificado propio de la entidad no son lo mismo. Un certificado complementa una profesión; no la sustituye.</p></li>
-<li><h3>¿Cuánta práctica real hay?</h3><p>Las horas de teoría no bastan. Pregunta por la práctica supervisada, quién la supervisa, cuántas horas son y si hay mentoría al terminar.</p></li>
-<li><h3>¿Cómo cuidan la ética?</h3><p>Una buena formación habla claro de consentimiento, contacto físico, límites, poder y qué hacer cuando algo va mal. Si no aparece en el temario, pregunta.</p></li>
-<li><h3>¿Quién enseña?</h3><p>Busca profesorado con nombre y trayectoria clínica, investigadora o comunitaria. Cuando se enseñan usos tradicionales, fíjate en si participan las propias comunidades y con qué reciprocidad.</p></li>
-<li><h3>¿Es transparente?</h3><p>Precio completo con todos los extras, duración real, becas, qué pasa si lo dejas a mitad y a quién preguntar. Lo que cuesta encontrar en la web suele costar también después.</p></li>
-</ol>
+<section class="ancho fm-bloque fm-elegir" aria-labelledby="t-elegir">
+  <div class="fm-elegir-txt">
+    <p class="fm-antetitulo">Antes de decidir</p>
+    <h2 id="t-elegir">Cómo elegir una formación</h2>
+    <p>Hay programas muy distintos bajo el mismo nombre. Seis preguntas ayudan a separar lo sólido de lo que solo lo parece.</p>
+    <svg class="fm-brujula" viewBox="0 0 300 250" aria-hidden="true" focusable="false">
+      <path fill="#e3ebe1" d="M40 96C62 36 150 6 214 34c64 28 84 104 54 160s-110 68-168 44S18 156 40 96z"/>
+      <circle cx="252" cy="58" r="9" fill="#c2643c"/>
+      <circle cx="50" cy="206" r="13" fill="#7d9a7a"/>
+      <circle cx="272" cy="152" r="5" fill="#2f3e33"/>
+      <circle cx="150" cy="37" r="10" fill="none" stroke="#2f3e33" stroke-width="5"/>
+      <circle cx="150" cy="134" r="84" fill="#f7f1e6" stroke="#2f3e33" stroke-width="6"/>
+      <circle cx="150" cy="134" r="66" fill="none" stroke="#dccfb8" stroke-width="2"/>
+      <path d="M150 60v10M150 198v10M76 134h10M214 134h10" stroke="#2f3e33" stroke-width="3" stroke-linecap="round"/>
+      <path d="M98 82l6 6M196 180l6 6M202 82l-6 6M104 180l-6 6" stroke="#9c8f7c" stroke-width="2" stroke-linecap="round"/>
+      <g transform="rotate(38 150 134)"><path fill="#9c4a26" d="M150 82l13 52h-26z"/><path fill="#2f3e33" d="M150 186l13-52h-26z"/></g>
+      <circle cx="150" cy="134" r="7" fill="#f7f1e6" stroke="#2f3e33" stroke-width="3"/>
+    </svg>
+  </div>
+  <ol class="fm-preguntas">
+    <li><div><h3>¿Para quién es?</h3><p>Mira los requisitos de acceso. Algunas piden ser profesional sanitario o de la salud mental; otras están abiertas a quien acompaña desde otros oficios. Elige la que encaje con lo que ya haces.</p></div></li>
+    <li><div><h3>¿Qué te llevas al acabar?</h3><p>Un título universitario, créditos de formación continuada o un certificado propio de la entidad no son lo mismo. Un certificado complementa una profesión; no la sustituye.</p></div></li>
+    <li><div><h3>¿Cuánta práctica real hay?</h3><p>Las horas de teoría no bastan. Pregunta por la práctica supervisada, quién la supervisa, cuántas horas son y si hay mentoría al terminar.</p></div></li>
+    <li><div><h3>¿Cómo cuidan la ética?</h3><p>Una buena formación habla claro de consentimiento, contacto físico, límites, poder y qué hacer cuando algo va mal. Si no aparece en el temario, pregunta.</p></div></li>
+    <li><div><h3>¿Quién enseña?</h3><p>Busca profesorado con nombre y trayectoria clínica, investigadora o comunitaria. Cuando se enseñan usos tradicionales, fíjate en si participan las propias comunidades y con qué reciprocidad.</p></div></li>
+    <li><div><h3>¿Es transparente?</h3><p>Precio completo con todos los extras, duración real, becas, qué pasa si lo dejas a mitad y a quién preguntar. Lo que cuesta encontrar en la web suele costar también después.</p></div></li>
+  </ol>
 </section>
 
-<section class="fm-faq s-faq" aria-labelledby="fm-faq-t">
-<h2 id="fm-faq-t">Preguntas frecuentes</h2>
-<details><summary>¿Necesito ser psicólogo o médico para formarme?</summary><p>Depende del tipo de formación. Las de terapia asistida suelen pedir una titulación sanitaria o de salud mental. Las de facilitación, integración o reducción de riesgos a menudo admiten a personas de otros ámbitos, y las introductorias están abiertas a cualquiera. El filtro «Para quién» lo separa.</p></details>
-<details><summary>¿Hay formaciones en español?</summary><p>Sí. Usa el filtro de idioma o el atajo «Formaciones en español»: verás las que se imparten en castellano, tanto presenciales como en línea.</p></details>
-<details><summary>¿Qué diferencia hay entre terapia asistida, facilitación e integración?</summary><p>La terapia asistida es un tratamiento de salud mental que dirigen profesionales sanitarios. La facilitación prepara para acompañar a alguien antes, durante y después de una experiencia. La integración ayuda a entender lo vivido e incorporarlo a la vida cotidiana. Muchas formaciones combinan varias.</p></details>
-<details><summary>¿Un certificado me capacita para tratar a otras personas?</summary><p>Tratar problemas de salud mental corresponde a profesionales sanitarios con su titulación. Un certificado de una formación especializada añade conocimientos y práctica a esa base, pero no la reemplaza.</p></details>
-<details><summary>¿Por qué no aparece una formación que conozco?</summary><p>Puede que aún no la hayamos encontrado o que no publique datos suficientes para comprobarla. Escríbenos y la revisamos.</p></details>
+<section class="ancho fm-bloque fm-faq" aria-labelledby="t-faq">
+  <div class="fm-faq-txt">
+    <p class="fm-antetitulo">Dudas</p>
+    <h2 id="t-faq">Preguntas frecuentes</h2>
+    <p>¿No encuentras lo que buscas? Escríbenos a <a href="mailto:info@apder.org">info@apder.org</a>.</p>
+  </div>
+  <div class="fm-faq-lista">
+    <details><summary>¿Necesito ser psicólogo o médico para formarme?</summary><p>Depende del tipo de formación. Las de terapia asistida suelen pedir una titulación sanitaria o de salud mental. Las de facilitación, integración o reducción de riesgos a menudo admiten a personas de otros ámbitos, y las introductorias están abiertas a cualquiera. El filtro «Para quién» lo separa.</p></details>
+    <details><summary>¿Hay formaciones en español?</summary><p>Sí. Usa el filtro de idioma o el atajo «En español»: verás las que se imparten en castellano, tanto presenciales como en línea.</p></details>
+    <details><summary>¿Qué diferencia hay entre terapia asistida, facilitación e integración?</summary><p>La terapia asistida es un tratamiento de salud mental que dirigen profesionales sanitarios. La facilitación prepara para acompañar a alguien antes, durante y después de una experiencia. La integración ayuda a entender lo vivido e incorporarlo a la vida cotidiana. Muchas formaciones combinan varias.</p></details>
+    <details><summary>¿Un certificado me capacita para tratar a otras personas?</summary><p>Tratar problemas de salud mental corresponde a profesionales sanitarios con su titulación. Un certificado de una formación especializada añade conocimientos y práctica a esa base, pero no la reemplaza.</p></details>
+    <details><summary>¿Por qué no aparece una formación que conozco?</summary><p>Puede que aún no la hayamos encontrado o que no publique datos suficientes para comprobarla. Escríbenos y la revisamos.</p></details>
+  </div>
 </section>
 
-<section class="fm-metodo" aria-labelledby="fm-metodo-t">
-<div>
-<h2 id="fm-metodo-t">Cómo hacemos este directorio</h2>
-<p>Partimos de registros oficiales, universidades, hospitales y directorios públicos, y comprobamos cada formación en su propia web. Las descripciones son nuestras. Nadie paga por aparecer ni por salir antes: el orden lo decides tú con los filtros.</p>
-<p>Los precios son orientativos y se convierten a euros solo para poder filtrarlos. Fechas, precios y requisitos cambian a menudo: la web de cada entidad manda.</p>
-<p><strong>¿Falta alguna o ha cambiado un dato?</strong> Escríbenos a <a href="mailto:info@apder.org">info@apder.org</a> o por <a href="https://wa.me/447916618725">WhatsApp</a>.</p>
-</div>
-<div>
-<h3>Fuentes consultadas</h3>
-<ul class="fm-fuentes">
-<li><a href="https://psilocybin.oregon.gov/training-approved" rel="noopener">Oregon Psilocybin Services</a><span>Lista oficial de programas con temario aprobado en Oregón.</span></li>
-<li><a href="https://dpo.colorado.gov/NaturalMedicine" rel="noopener">Colorado Natural Medicine Program</a><span>Programas de formación aprobados en Colorado.</span></li>
-<li><a href="https://www.psychedelicscourses.com/" rel="noopener">Psychedelics Courses (Blossom)</a><span>Directorio de cursos en inglés.</span></li>
-<li><a href="https://is-sp.org/en/trainings/comparison/" rel="noopener">ISSP</a><span>Comparativa de programas de terapia asistida.</span></li>
-<li><a href="https://psychedelic.support/resources/psychedelic-education-training-programs-continuing-education/" rel="noopener">Psychedelic Support</a><span>Listado de programas y formación continuada.</span></li>
-<li>Webs de universidades, hospitales, sociedades científicas y asociaciones de cada país.</li>
-</ul>
-</div>
+<section class="ancho fm-bloque fm-metodo" aria-labelledby="t-metodo">
+  <div class="fm-metodo-caja">
+    <div class="fm-metodo-txt">
+      <p class="fm-antetitulo">Método</p>
+      <h2 id="t-metodo">Cómo hacemos este directorio</h2>
+      <p>Partimos de registros oficiales, universidades, hospitales y directorios públicos, y comprobamos cada formación en su propia web. Las descripciones son nuestras. Nadie paga por aparecer ni por salir antes: el orden lo decides tú con los filtros.</p>
+      <p>Los precios son orientativos y se convierten a euros solo para poder filtrarlos. Fechas, precios y requisitos cambian a menudo: la web de cada entidad manda.</p>
+      <p class="contacto">¿Falta alguna o ha cambiado un dato? Escríbenos a <a href="mailto:info@apder.org">info@apder.org</a> o por <a href="https://wa.me/447916618725">WhatsApp</a>.</p>
+    </div>
+    <div class="fm-fuentes">
+      <h3>Fuentes consultadas</h3>
+      <ul>
+        <li><a href="https://psilocybin.oregon.gov/training-approved" target="_blank" rel="noopener">Oregon Psilocybin Services</a>Lista oficial de programas con temario aprobado en Oregón.</li>
+        <li><a href="https://dpo.colorado.gov/NaturalMedicine" target="_blank" rel="noopener">Colorado Natural Medicine Program</a>Programas de formación aprobados en Colorado.</li>
+        <li><a href="https://www.psychedelicscourses.com/" target="_blank" rel="noopener">Psychedelics Courses (Blossom)</a>Directorio de cursos en inglés.</li>
+        <li><a href="https://is-sp.org/en/trainings/comparison/" target="_blank" rel="noopener">ISSP</a>Comparativa de programas de terapia asistida.</li>
+        <li><a href="https://psychedelic.support/resources/psychedelic-education-training-programs-continuing-education/" target="_blank" rel="noopener">Psychedelic Support</a>Listado de programas y formación continuada.</li>
+        <li>Webs de universidades, hospitales, sociedades científicas y asociaciones de cada país.</li>
+      </ul>
+    </div>
+  </div>
 </section>
-</div>
+
+<section class="ancho fm-bloque fm-sigue" aria-labelledby="t-sigue">
+  <h2 id="t-sigue">Sigue por aquí</h2>
+  <ul>
+    <li><a href="../terapia/"><b>Guías de terapia</b><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Las ocho medicinas, comparadas de un vistazo.</span></a></li>
+    <li><a href="../investigacion-terapeutica/"><b>Investigación terapéutica</b><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Qué se está estudiando con cada medicina.</span></a></li>
+    <li><a href="../quien-es-quien/"><b>Quién es quién</b><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Las personas que abrieron el camino.</span></a></li>
+    <li><a href="../biblioteca/"><b>Biblioteca</b><svg class="fm-flecha" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Más de 800 libros para leer a fondo.</span></a></li>
+  </ul>
+</section>
+
 </main>
-<script>
-/* APDER · Formaciones en el mundo: directorio con mapa, filtros, búsqueda y enlace compartible. */
-(function(){
-'use strict';
-var raiz=document.getElementById('directorio');if(!raiz)return;
-function $(id){return document.getElementById(id)}
-var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-var HOY=new Date();HOY.setHours(0,0,0,0);
-
-var T={
-  tipo:{terapia:'Terapia asistida',facilitacion:'Facilitación y acompañamiento',integracion:'Integración',riesgos:'Reducción de riesgos',investigacion:'Investigación',introduccion:'Introducción y fundamentos',tradiciones:'Saberes tradicionales'},
-  dest:{todos:'Abierta a todo el mundo',ayuda:'Quienes acompañan',clinicos:'Profesionales sanitarios'},
-  destCorto:{todos:'Abierta a todo el mundo',ayuda:'Para quienes acompañan',clinicos:'Requiere titulación sanitaria'},
-  modo:{presencial:'Presencial',mixta:'Mixta (en línea y presencial)',en_linea:'Solo en línea'},
-  modoCorto:{presencial:'Presencial',mixta:'Mixta',en_linea:'En línea'},
-  sust:{psilocibina:'Psilocibina',mdma:'MDMA',ketamina:'Ketamina',ayahuasca:'Ayahuasca',ibogaina:'Ibogaína','5-meo-dmt':'5-MeO-DMT',lsd:'LSD',mescalina:'Mescalina',cannabis:'Cannabis',varias:'Varias sustancias',sin_sustancias:'Sin sustancias'},
-  recon:{universidad:'Universitaria',oregon:'Aprobada en Oregón',colorado:'Aprobada en Colorado',nuevo_mexico:'Aprobada en Nuevo México',ce:'Créditos de formación continuada',certificado:'Certificado propio'},
-  dur:{breve:'Hasta 20 horas',media:'De 20 a 100 horas',larga:'De 100 a 300 horas',muylarga:'Más de 300 horas',sd:'Sin dato de horas'},
-  precio:{gratis:'Gratuita',p1:'Menos de 500 €',p2:'De 500 a 2.000 €',p3:'De 2.000 a 5.000 €',p4:'De 5.000 a 10.000 €',p5:'Más de 10.000 €',sp:'Sin precio publicado'},
-  region:{europa:'Europa',norteamerica:'Norteamérica',latam:'América Latina y el Caribe',oceania:'Oceanía',asia:'Asia y Oriente Próximo',africa:'África',otras:'Otras regiones'},
-  incluye:{practica_supervisada:'Práctica supervisada',supervision:'Supervisión',experiencial:'Trabajo vivencial',mentoria:'Mentoría',examen:'Examen final',retiro:'Retiro presencial'}
-};
-var REG={};
-[['europa','AD AL AT BA BE BG BY CH CY CZ DE DK EE ES FI FO FR GB GI GR HR HU IE IS IT LI LT LU LV MC MD ME MK MT NL NO PL PT RO RS RU SE SI SK SM UA VA XK'],
- ['norteamerica','US CA'],
- ['latam','MX GT BZ HN SV NI CR PA CU DO HT JM PR TT BS BB AR BO BR CL CO EC GY PE PY SR UY VE'],
- ['oceania','AU NZ FJ PG'],
- ['asia','IL PS TR AE SA QA JO LB IN NP LK TH VN KH LA MY SG ID PH CN HK TW JP KR MN KZ GE AM AZ IR'],
- ['africa','ZA GA CM NG KE GH MA EG TN SN ET UG TZ RW MZ ZW NA BW CI']
-].forEach(function(r){r[1].split(' ').forEach(function(c){REG[c]=r[0]})});
-
-var nomPais=(function(){var dn=null,fijo={US:'Estados Unidos',GB:'Reino Unido',NL:'Países Bajos',CZ:'Chequia'};try{dn=new Intl.DisplayNames(['es'],{type:'region'})}catch(e){}
-  return function(c){return fijo[c]||(dn?dn.of(c):c)}})();
-var nomIdioma=(function(){var dn=null,fijo={es:'Español',en:'Inglés',pt:'Portugués',fr:'Francés',de:'Alemán',it:'Italiano',nl:'Neerlandés',ca:'Catalán'};try{dn=new Intl.DisplayNames(['es'],{type:'language'})}catch(e){}
-  return function(c){if(fijo[c])return fijo[c];var n=dn?dn.of(c):c;return n.charAt(0).toUpperCase()+n.slice(1)}})();
-function fecha(iso,o){try{return new Intl.DateTimeFormat('es-ES',o).format(new Date(iso+'T12:00:00'))}catch(e){return iso}}
-function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-function norm(s){return String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()}
-function banda(h){return h==null?'sd':h<=20?'breve':h<=100?'media':h<=300?'larga':'muylarga'}
-function bandaPrecio(e){return e==null?'sp':e===0?'gratis':e<500?'p1':e<2000?'p2':e<5000?'p3':e<=10000?'p4':'p5'}
-function plural(n,uno,varios){return n+' '+(n===1?uno:varios)}
-
-var FACETAS=[
-  {k:'tipo',t:'Tipo de formación',v:function(f){return f.tipo||[]},abierta:1,orden:Object.keys(T.tipo)},
-  {k:'dest',t:'Para quién',v:function(f){return[f.destinatarios]},abierta:1,orden:Object.keys(T.dest)},
-  {k:'modo',t:'Modalidad',v:function(f){return[f.modalidad]},abierta:1,orden:['presencial','mixta','en_linea']},
-  {k:'idioma',t:'Idioma',v:function(f){return f.idiomas||[]},abierta:1,max:6,et:nomIdioma,primero:'es'},
-  {k:'region',t:'Región',v:function(f){return[f._region]},orden:Object.keys(T.region)},
-  {k:'pais',t:'País',v:function(f){return[f.pais]},max:8,et:nomPais},
-  {k:'sust',t:'Sustancia o enfoque',v:function(f){return f.sustancias||[]}},
-  {k:'dur',t:'Duración',v:function(f){return[f._dur]},orden:Object.keys(T.dur)},
-  {k:'precio',t:'Precio orientativo',v:function(f){return[f._precio]},orden:Object.keys(T.precio)},
-  {k:'recon',t:'Reconocimiento',v:function(f){return f.reconocimiento||[]}}
-];
-FACETAS.forEach(function(F){if(!F.et){var m=T[F.k];F.et=function(x){return(m&&m[x])||x}}});
-
-var datos=[],ultima=[],POR=20,visibles=POR,abiertas={},verTodos={},ciudades={};
-var estado={q:'',qn:[],sel:{},prox:false,ciudad:'',orden:'fecha'};
-FACETAS.forEach(function(F){estado.sel[F.k]=[]});
-
-function prepara(f){
-  f._region=REG[f.pais]||'otras';
-  f._dur=banda(f.duracion_horas);
-  f._precio=bandaPrecio(f.precio_eur);
-  var d=f.proxima?new Date(f.proxima+'T12:00:00'):null;f._prox=d&&d>=HOY?d:null;
-  f._ck=f.modalidad!=='en_linea'&&f.lat!=null?f.lat.toFixed(2)+','+f.lon.toFixed(2):'';
-  if(f._ck&&!ciudades[f._ck])ciudades[f._ck]={ciudad:f.ciudad,pais:f.pais};
-  f._txt=norm([f.nombre,f.nombre_es,f.entidad,f.ciudad,f.otros_lugares,nomPais(f.pais),f.descripcion,
-    (f.tipo||[]).map(function(x){return T.tipo[x]}).join(' '),(f.sustancias||[]).map(function(x){return T.sust[x]}).join(' '),
-    (f.idiomas||[]).map(nomIdioma).join(' '),T.modoCorto[f.modalidad]].join(' '));
-}
-
-function pasa(f,salvo){
-  for(var i=0;i<estado.qn.length;i++)if(f._txt.indexOf(estado.qn[i])<0)return false;
-  if(estado.prox&&!f._prox)return false;
-  if(estado.ciudad&&f._ck!==estado.ciudad)return false;
-  for(var j=0;j<FACETAS.length;j++){
-    var F=FACETAS[j];if(F.k===salvo)continue;
-    var s=estado.sel[F.k];if(!s.length)continue;
-    var vs=F.v(f),ok=false;
-    for(var m=0;m<vs.length;m++)if(s.indexOf(vs[m])>=0){ok=true;break}
-    if(!ok)return false;
-  }
-  return true;
-}
-
-function ordena(a){
-  var o=estado.orden;
-  function c(x,y){return x.nombre.localeCompare(y.nombre,'es',{sensitivity:'base'})}
-  function nulos(x,y){return(x==null)-(y==null)}
-  if(o==='nombre')a.sort(c);
-  else if(o==='pais')a.sort(function(x,y){return nomPais(x.pais).localeCompare(nomPais(y.pais),'es')||(x.ciudad||'').localeCompare(y.ciudad||'','es')||c(x,y)});
-  else if(o==='duracion')a.sort(function(x,y){return nulos(x.duracion_horas,y.duracion_horas)||(x.duracion_horas||0)-(y.duracion_horas||0)||c(x,y)});
-  else if(o==='precio')a.sort(function(x,y){return nulos(x.precio_eur,y.precio_eur)||(x.precio_eur||0)-(y.precio_eur||0)||c(x,y)});
-  else a.sort(function(x,y){var p=x._prox,q=y._prox;if(p&&q)return p-q||c(x,y);if(p)return -1;if(q)return 1;return c(x,y)});
-}
-
-/* ---------- facetas ---------- */
-function pintaFacetas(foco){
-  var h='';
-  FACETAS.forEach(function(F){
-    var cuenta={},todos={};
-    datos.forEach(function(f){var vs=F.v(f),p=pasa(f,F.k);vs.forEach(function(x){todos[x]=1;if(p)cuenta[x]=(cuenta[x]||0)+1})});
-    var vals=Object.keys(todos);
-    if(F.orden)vals.sort(function(a,b){return F.orden.indexOf(a)-F.orden.indexOf(b)});
-    else vals.sort(function(a,b){return(cuenta[b]||0)-(cuenta[a]||0)||F.et(a).localeCompare(F.et(b),'es')});
-    if(F.primero&&vals.indexOf(F.primero)>0){vals.splice(vals.indexOf(F.primero),1);vals.unshift(F.primero)}
-    var sel=estado.sel[F.k],abierta=abiertas[F.k]!=null?abiertas[F.k]:(F.abierta||sel.length>0);
-    var limite=F.max&&!verTodos[F.k]?F.max:1e9;
-    h+='<details class="fm-sec" data-k="'+F.k+'"'+(abierta?' open':'')+'><summary>'+esc(F.t)+' <span class="fm-insignia"'+(sel.length?'':' hidden')+'>'+sel.length+'</span></summary><ul class="fm-opciones">';
-    vals.forEach(function(x,i){
-      var n=cuenta[x]||0,m=sel.indexOf(x)>=0;
-      h+='<li class="'+(n?'':'cero')+(i>=limite&&!m?' fm-oculta':'')+'"><label><input type="checkbox" data-k="'+F.k+'" value="'+esc(x)+'"'+(m?' checked':'')+'><span class="fm-et">'+esc(F.et(x))+'</span><span class="fm-n">'+n+'</span></label></li>';
-    });
-    h+='</ul>';
-    if(F.max&&vals.length>F.max)h+='<button type="button" class="fm-mas-op" data-k="'+F.k+'" aria-expanded="'+(verTodos[F.k]?'true':'false')+'">'+(verTodos[F.k]?'Ver menos':'Ver los '+vals.length)+'</button>';
-    h+='</details>';
-  });
-  $('fm-facetas').innerHTML=h;
-  if(foco){var el=$('fm-facetas').querySelector(foco);if(el)el.focus({preventScroll:true})}
-}
-
-/* ---------- lista ---------- */
-function dato(t,v){return v?'<dt>'+esc(t)+'</dt><dd>'+esc(v)+'</dd>':''}
-function durTxt(f){
-  var h=f.duracion_horas,t=f.duracion||'';
-  if(h!=null&&!/\d\s*h\b|horas/.test(t))return(t?t+' · ':'')+h+' h';
-  return t||(h!=null?h+' h':'');
-}
-function ficha(f){
-  var tipos=(f.tipo||[]).map(function(x){return T.tipo[x]}).join(' · ');
-  var lugar=f.modalidad==='en_linea'?'En línea, desde '+nomPais(f.pais):(f.ciudad?f.ciudad+', ':'')+nomPais(f.pais);
-  if(f.otros_lugares&&f.modalidad!=='en_linea')lugar+=' · '+f.otros_lugares;
-  var lang=f.nombre_es&&f.idiomas&&f.idiomas[0]&&f.idiomas[0]!=='es'?' lang="'+esc(f.idiomas[0])+'"':'';
-  var et='<span class="fm-req">'+esc(T.destCorto[f.destinatarios])+'</span>';
-  (f.reconocimiento||[]).forEach(function(r){if(T.recon[r])et+='<span class="fm-sello">'+esc(T.recon[r])+'</span>'});
-  (f.sustancias||[]).forEach(function(s){if(T.sust[s])et+='<span>'+esc(T.sust[s])+'</span>'});
-  (f.incluye||[]).forEach(function(i){if(T.incluye[i])et+='<span>'+esc(T.incluye[i])+'</span>'});
-  var d=dato('Modalidad',T.modoCorto[f.modalidad])+dato('Duración',durTxt(f)||'Consultar')
-    +dato((f.idiomas||[]).length>1?'Idiomas':'Idioma',(f.idiomas||[]).map(nomIdioma).join(', '))
-    +dato('Precio',f.precio||'Consultar');
-  if(f._prox)d+='<dt>Empieza</dt><dd class="fm-pronto">'+esc(fecha(f.proxima,{day:'numeric',month:'short',year:'numeric'}))+'</dd>';
-  return '<li><article class="fm-ficha">'
-    +'<p class="fm-f-tipo">'+esc(tipos)+(f.estado==='pausada'?'<span class="fm-pausa">En pausa</span>':f.estado==='por_confirmar'?'<span class="fm-pausa fm-conf">Edición por confirmar</span>':'')+'</p>'
-    +'<div class="fm-f-princ"><h3 class="fm-f-nombre"'+lang+'><a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.nombre)+'</a></h3>'
-    +(f.nombre_es?'<p class="fm-f-trad">'+esc(f.nombre_es)+'</p>':'')
-    +'<p class="fm-f-entidad">'+esc(f.entidad)+' <span>· '+esc(lugar)+'</span></p>'
-    +'<p class="fm-f-desc">'+esc(f.descripcion)+'</p>'
-    +'<p class="fm-f-etiquetas">'+et+'</p></div>'
-    +'<div class="fm-f-lado"><dl class="fm-f-datos">'+d+'</dl>'
-    +'<a class="fm-f-web" href="'+esc(f.url)+'" target="_blank" rel="noopener">Web oficial <span aria-hidden="true">↗</span><span class="fm-oculto"> (se abre en otra pestaña)</span></a>'
-    +(f.revisado?'<span class="fm-f-rev">Revisado en '+esc(fecha(f.revisado,{month:'long',year:'numeric'}))+'</span>':'')
-    +'</div></article></li>';
-}
-function pintaLista(enfocarDesde){
-  var lista=$('fm-lista');
-  if(!ultima.length){
-    lista.innerHTML='<li class="fm-vacio"><b>No hay formaciones con estos filtros</b><p>Prueba a quitar alguno o a buscar con otras palabras.</p><p><button type="button" class="fm-limpiar" data-limpiar>Quitar todos los filtros</button></p></li>';
-  }else lista.innerHTML=ultima.slice(0,visibles).map(ficha).join('');
-  var mas=$('fm-mas'),resto=ultima.length-visibles;
-  mas.hidden=resto<=0;
-  if(resto>0)mas.querySelector('button').textContent='Ver '+plural(Math.min(POR,resto),'formación más','formaciones más');
-  if(enfocarDesde!=null){var a=lista.querySelectorAll('.fm-f-nombre a')[enfocarDesde];if(a)a.focus()}
-}
-
-/* ---------- chips y recuento ---------- */
-function activos(){var n=(estado.q?1:0)+(estado.prox?1:0)+(estado.ciudad?1:0);FACETAS.forEach(function(F){n+=estado.sel[F.k].length});return n}
-function chip(k,v,t){return '<button type="button" data-quita="'+k+'" data-v="'+esc(v)+'" aria-label="Quitar filtro: '+esc(t)+'">'+esc(t)+'</button>'}
-function pintaChips(){
-  var h='';
-  if(estado.q)h+=chip('q','','«'+estado.q+'»');
-  if(estado.ciudad){var c=ciudades[estado.ciudad];h+=chip('ciudad','',c?c.ciudad+' ('+nomPais(c.pais)+')':'Ciudad')}
-  if(estado.prox)h+=chip('prox','','Con fecha anunciada');
-  FACETAS.forEach(function(F){estado.sel[F.k].forEach(function(x){h+=chip(F.k,x,F.et(x))})});
-  $('fm-chips').innerHTML=h;
-  var n=activos();
-  $('fm-limpiar').hidden=!n;
-  $('fm-n-filtros').textContent=n?'('+n+')':'';
-  $('fm-n-res').innerHTML=n?'<strong>'+plural(ultima.length,'formación','formaciones')+'</strong> de '+datos.length:'<strong>'+plural(datos.length,'formación','formaciones')+'</strong> en '+plural(contar(datos,'pais'),'país','países');
-}
-function contar(lista,campo){var o={};lista.forEach(function(f){o[f[campo]]=1});return Object.keys(o).length}
-
-/* ---------- mapa ---------- */
-var svg=$('fm-svg'),K=+svg.getAttribute('data-k'),TX=+svg.getAttribute('data-tx'),TY=+svg.getAttribute('data-ty'),VB=svg.viewBox.baseVal;
-var A1=1.340264,A2=-0.081106,A3=0.000893,A4=0.003796,M=Math.sqrt(3)/2;
-function proy(lon,lat){
-  var l=lon*Math.PI/180,t=Math.asin(M*Math.sin(lat*Math.PI/180)),t2=t*t,t6=t2*t2*t2;
-  return[TX+K*l*Math.cos(t)/(M*(A1+3*A2*t2+t6*(7*A3+9*A4*t2))),TY-K*t*(A1+A2*t2+t6*(A3+A4*t2))];
-}
-function escala(){var w=svg.getBoundingClientRect().width;return w?w/VB.width:1}
-var grupos=[];
-function pintaMapa(){
-  var g={};
-  ultima.forEach(function(f){if(!f._ck)return;var x=g[f._ck]||(g[f._ck]={k:f._ck,lat:f.lat,lon:f.lon,ciudad:f.ciudad,pais:f.pais,n:0});x.n++});
-  grupos=Object.keys(g).map(function(k){return g[k]}).sort(function(a,b){return b.n-a.n});
-  var e=escala(),min=7/e,h='';
-  grupos.forEach(function(x,i){
-    var p=proy(x.lon,x.lat),r=Math.max(5+3.4*Math.sqrt(x.n-1),min);x.p=p;x.r=r;
-    var nombre=x.ciudad+', '+nomPais(x.pais)+': '+plural(x.n,'formación','formaciones');
-    h+='<g class="fm-punto'+(estado.ciudad===x.k?' activo':'')+'" tabindex="'+(i===0?0:-1)+'" role="button" data-i="'+i+'" aria-label="'+esc(nombre)+'" transform="translate('+p[0].toFixed(1)+' '+p[1].toFixed(1)+')">'
-      +(i<5&&!reduce?'<circle class="fm-halo" r="'+r.toFixed(1)+'" style="animation-delay:'+(i*.6).toFixed(1)+'s"/>':'')
-      +'<circle class="fm-p" r="'+r.toFixed(1)+'"/>'
-      +(x.n>1&&r*e>=9?'<text style="font-size:'+(r*(x.n>9?.85:1)).toFixed(1)+'px">'+x.n+'</text>':'')+'</g>';
-  });
-  $('fm-puntos').innerHTML=h; // de mayor a menor: los pequeños quedan encima
-}
-var tip=$('fm-tip');
-function enseña(i){
-  var x=grupos[i];if(!x)return;var e=escala();
-  tip.innerHTML='<b>'+esc(x.ciudad)+'</b><span>'+esc(nomPais(x.pais))+' · '+plural(x.n,'formación','formaciones')+'</span><em>Ver en el directorio →</em>';
-  tip.style.left=(x.p[0]*e)+'px';tip.style.top=(x.p[1]*e-x.r*e)+'px';tip.hidden=false;
-}
-function oculta(){tip.hidden=true}
-function eligeCiudad(i){
-  var x=grupos[i];if(!x)return;
-  estado.ciudad=estado.ciudad===x.k?'':x.k;visibles=POR;oculta();actualiza();ir();
-}
-var pts=$('fm-puntos');
-pts.addEventListener('mouseover',function(e){var g=e.target.closest('.fm-punto');if(g)enseña(+g.getAttribute('data-i'))});
-pts.addEventListener('mouseout',function(e){var g=e.target.closest('.fm-punto');if(g&&!g.contains(e.relatedTarget))oculta()});
-pts.addEventListener('focusin',function(e){var g=e.target.closest('.fm-punto');if(g)enseña(+g.getAttribute('data-i'))});
-pts.addEventListener('focusout',oculta);
-pts.addEventListener('click',function(e){var g=e.target.closest('.fm-punto');if(g)eligeCiudad(+g.getAttribute('data-i'))});
-pts.addEventListener('keydown',function(e){
-  var g=e.target.closest('.fm-punto');if(!g)return;
-  if(e.key==='Enter'||e.key===' '){e.preventDefault();eligeCiudad(+g.getAttribute('data-i'));return}
-  var paso={ArrowRight:1,ArrowDown:1,ArrowLeft:-1,ArrowUp:-1}[e.key];if(!paso)return;
-  e.preventDefault();
-  var lista=[].slice.call(pts.querySelectorAll('.fm-punto')),i=lista.indexOf(g),sig=lista[(i+paso+lista.length)%lista.length];
-  g.setAttribute('tabindex','-1');sig.setAttribute('tabindex','0');sig.focus();
-});
-var rt;window.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(function(){if(datos.length)pintaMapa()},200)});
-
-/* ---------- URL ---------- */
-function aURL(){
-  var p=new URLSearchParams();
-  if(estado.q)p.set('q',estado.q);
-  FACETAS.forEach(function(F){if(estado.sel[F.k].length)p.set(F.k,estado.sel[F.k].join(','))});
-  if(estado.prox)p.set('fecha','1');
-  if(estado.ciudad)p.set('ciudad',estado.ciudad);
-  if(estado.orden!=='fecha')p.set('orden',estado.orden);
-  var s=p.toString();
-  try{history.replaceState(null,'',location.pathname+(s?'?'+s:'')+location.hash)}catch(e){}
-}
-function deURL(){
-  var p=new URLSearchParams(location.search);
-  estado.q=p.get('q')||'';
-  FACETAS.forEach(function(F){var v=p.get(F.k);estado.sel[F.k]=v?v.split(',').filter(Boolean):[]});
-  estado.prox=p.get('fecha')==='1';
-  estado.ciudad=p.get('ciudad')||'';
-  estado.orden=p.get('orden')||'fecha';
-  $('fm-q').value=estado.q;$('fm-q-portada').value=estado.q;$('fm-proxima').checked=estado.prox;$('fm-orden').value=estado.orden;
-}
-
-/* ---------- ciclo ---------- */
-function actualiza(foco){
-  estado.qn=norm(estado.q).split(/\s+/).filter(Boolean);
-  ultima=datos.filter(function(f){return pasa(f,null)});
-  ordena(ultima);
-  pintaFacetas(foco);pintaChips();pintaLista();pintaMapa();aURL();
-}
-function ir(){var d=$('directorio');if(d)d.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'})}
-function limpia(){estado.q='';estado.prox=false;estado.ciudad='';FACETAS.forEach(function(F){estado.sel[F.k]=[]});$('fm-q').value='';$('fm-q-portada').value='';$('fm-proxima').checked=false;visibles=POR}
-
-$('fm-facetas').addEventListener('change',function(e){
-  var c=e.target;if(c.type!=='checkbox')return;
-  var k=c.getAttribute('data-k'),s=estado.sel[k],i=s.indexOf(c.value);
-  if(c.checked&&i<0)s.push(c.value);else if(!c.checked&&i>=0)s.splice(i,1);
-  visibles=POR;actualiza('input[data-k="'+k+'"][value="'+(window.CSS&&CSS.escape?CSS.escape(c.value):c.value)+'"]');
-});
-$('fm-facetas').addEventListener('click',function(e){
-  var b=e.target.closest('.fm-mas-op');if(!b)return;
-  var k=b.getAttribute('data-k');verTodos[k]=!verTodos[k];pintaFacetas('.fm-mas-op[data-k="'+k+'"]');
-});
-$('fm-facetas').addEventListener('toggle',function(e){var d=e.target;if(d.matches&&d.matches('.fm-sec'))abiertas[d.getAttribute('data-k')]=d.open},true);
-$('fm-chips').addEventListener('click',function(e){
-  var b=e.target.closest('button');if(!b)return;
-  var k=b.getAttribute('data-quita'),v=b.getAttribute('data-v');
-  if(k==='q'){estado.q='';$('fm-q').value='';$('fm-q-portada').value=''}
-  else if(k==='prox'){estado.prox=false;$('fm-proxima').checked=false}
-  else if(k==='ciudad')estado.ciudad='';
-  else{var s=estado.sel[k],i=s.indexOf(v);if(i>=0)s.splice(i,1)}
-  visibles=POR;actualiza();
-  var resto=$('fm-chips').querySelector('button');(resto||$('fm-q')).focus({preventScroll:true});
-});
-$('fm-lista').addEventListener('click',function(e){if(e.target.closest('[data-limpiar]')){limpia();actualiza();$('fm-q').focus({preventScroll:true})}});
-$('fm-limpiar').addEventListener('click',function(){limpia();actualiza();$('fm-q').focus({preventScroll:true})});
-$('fm-proxima').addEventListener('change',function(){estado.prox=this.checked;visibles=POR;actualiza()});
-$('fm-orden').addEventListener('change',function(){estado.orden=this.value;visibles=POR;ordena(ultima);pintaLista();aURL()});
-var qt;$('fm-q').addEventListener('input',function(){var v=this.value;clearTimeout(qt);qt=setTimeout(function(){estado.q=v.trim();visibles=POR;actualiza()},160)});
-$('fm-busca-portada').addEventListener('submit',function(e){
-  e.preventDefault();var v=$('fm-q-portada').value.trim();estado.q=v;$('fm-q').value=v;visibles=POR;actualiza();ir();
-});
-$('fm-mas').querySelector('button').addEventListener('click',function(){var desde=visibles;visibles+=POR;pintaLista(desde)});
-$('fm-abre-filtros').addEventListener('click',function(){var a=this.getAttribute('aria-expanded')!=='true';this.setAttribute('aria-expanded',a?'true':'false');$('fm-lado').classList.toggle('abierto',a)});
-$('fm-copiar').addEventListener('click',function(){
-  var b=this,t=b.textContent;
-  function hecho(){b.textContent='Enlace copiado';setTimeout(function(){b.textContent=t},2200)}
-  if(navigator.clipboard)navigator.clipboard.writeText(location.href).then(hecho,function(){window.prompt('Copia este enlace:',location.href)});
-  else window.prompt('Copia este enlace:',location.href);
-});
-$('fm-enlinea').addEventListener('click',function(){limpia();estado.sel.modo=['en_linea'];actualiza();ir()});
-document.querySelectorAll('[data-camino]').forEach(function(b){
-  b.addEventListener('click',function(){
-    var p=b.getAttribute('data-camino').split(':');limpia();estado.sel[p[0]]=[p[1]];actualiza();ir();
-  });
-});
-
-function cifras(){
-  var c={total:datos.length,paises:contar(datos,'pais'),es:datos.filter(function(f){return(f.idiomas||[]).indexOf('es')>=0}).length,linea:datos.filter(function(f){return f.modalidad==='en_linea'}).length};
-  document.querySelectorAll('[data-cifra]').forEach(function(el){el.textContent=c[el.getAttribute('data-cifra')]});
-  document.querySelectorAll('[data-n]').forEach(function(el){
-    var p=el.getAttribute('data-n').split(':'),F=FACETAS.filter(function(x){return x.k===p[0]})[0];
-    var n=datos.filter(function(f){return F.v(f).indexOf(p[1])>=0}).length;
-    el.textContent=plural(n,'formación','formaciones');
-    var b=el.closest('.fm-camino');if(b)b.hidden=!n;
-  });
-  document.querySelectorAll('.fm-cifras [data-cifra]').forEach(function(el){if(el.textContent==='0')el.parentNode.hidden=true});
-}
-
-fetch('formaciones.json').then(function(r){if(!r.ok)throw new Error(r.status);return r.json()}).then(function(j){
-  datos=(j.formaciones||[]).filter(function(f){return f.estado!=='retirada'});
-  datos.forEach(prepara);
-  if(j.actualizado){$('fm-actualizado').textContent='Última revisión: '+fecha(j.actualizado,{day:'numeric',month:'long',year:'numeric'});document.querySelectorAll('[data-actualizado]').forEach(function(el){el.textContent=fecha(j.actualizado,{month:'long',year:'numeric'})})}
-  deURL();cifras();actualiza();
-}).catch(function(){
-  $('fm-n-res').textContent='No se ha podido cargar el directorio. Recarga la página en unos segundos.';
-});
-})();
-</script>
 <script src="../menu.js?v=20261123a" defer></script>
+<script src="geo.min.js?v=20261126a" defer></script>
+<script src="formaciones.js?v=20261126a" defer></script>
 <footer class="pie pie-nav pie-2">
 <div class="ancho">
 <span class="ancla" id="contact"></span>
