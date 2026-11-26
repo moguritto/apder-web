@@ -30,7 +30,7 @@ from urllib.parse import unquote
 AQUI = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.normpath(os.path.join(AQUI, "..", "..", "docs"))
 SALIDA = os.path.join(DOCS, "psiconautica")
-VERSION = "20261126b"          # cambia al tocar psiconautica.css, wiki.css o psiconautica.js
+VERSION = "20261126c"          # cambia al tocar psiconautica.css, wiki.css o psiconautica.js
 ASPECTO = "wiki"               # «wiki»: el aspecto de PsychonautWiki (decisión de Mannu, 26-11-2026); «apder»: el rediseño propio
 sys.path.insert(0, AQUI)
 import wiki as WK              # conversor del wikitexto (despliega las piezas compartidas de la wiki)
@@ -68,6 +68,11 @@ ELABORA_SIEMPRE = re.compile(r"cultiv|extracci[oó]n|s[ií]ntesis|elaboraci[oó]
 CANTIDAD = re.compile(r"\d(?:\s|&nbsp;|\u00a0)*(?:mg|µg|μg|mcg|ug|ml|miligramos?|microgramos?|mililitros?|gramos?|g)\b", re.I)
 CON_LEGALIDAD = True    # Mannu (25-11-2026) quiere la situación legal; solo se quitaría la referida a terapia. --sin-legalidad la quita
 LEGAL = re.compile(r"\b(legal|legalidad|ilegal|leyes|fiscalizaci[oó]n)\b|\blegal status\b", re.I)
+# Cifras de muertes (regla de Mannu: nada que asuste; basta con dejar clara la importancia de un riesgo, y el original
+# en inglés sigue enlazado para quien quiera profundizar): se quita la frase entera, y los apartados de «muertes notables».
+MUERTES = re.compile(r"\b\d[\d.,\u00a0 ]*\s*(?:muertes|muertos|fallecimientos|fallecidos|casos mortales|v[ií]ctimas mortales)\b|"
+                     r"\b(?:murieron|fallecieron)\s+(?:al menos\s+)?\d|\bmuertes\s*\(\s*\d", re.I)
+AP_MUERTES = re.compile(r"^(muertes|fallecimientos)\b|\b(muertes|fallecimientos)\s+notables\b|\bnotable deaths\b", re.I)
 
 
 def leer(ruta):
@@ -218,14 +223,15 @@ def quitar_apartados(c, prueba, hijos=True):
             return c
 
 
-def sin_cantidades(c, cuenta):
-    """Quita las frases con cantidades de sustancia de párrafos y elementos de lista. Suma en cuenta[0] las quitadas."""
+def sin_cantidades(c, cuenta, patron=CANTIDAD, celdas=False):
+    """Quita las frases que cumplen `patron` (por defecto, cantidades de sustancia) de párrafos y elementos de lista.
+    Suma en cuenta[0] las quitadas."""
     def bloque(m):
         abre, dentro, cierra = m.group(1), m.group(2), m.group(3)
-        if not CANTIDAD.search(dentro) or re.search(r"<(ul|ol|p|table)\b", dentro):
+        if not patron.search(dentro) or re.search(r"<(ul|ol|p|table)\b", dentro):
             return m.group(0)
         frases = re.split(r"(?<=[.!?…»])\s+(?=(?:<[a-z][^>]*>)*[A-ZÁÉÍÓÚÑ¿¡«])", dentro.strip())
-        quedan = [f for f in frases if not CANTIDAD.search(f)]
+        quedan = [f for f in frases if not patron.search(f)]
         cuenta[0] += len(frases) - len(quedan)
         resto = " ".join(quedan)
         cojo = any(len(re.findall(r"<%s\b" % t, resto)) != len(re.findall(r"</%s>" % t, resto)) for t in ("a", "strong", "em", "b", "i", "sup", "span"))
@@ -233,13 +239,42 @@ def sin_cantidades(c, cuenta):
             return ""
         return abre + resto + cierra
     c = re.sub(r"(<p>)((?:(?!</p>).)*)(</p>)", bloque, c, flags=re.S)
-    return re.sub(r"(<li>)((?:(?!</?li>).)*)(</li>)", bloque, c, flags=re.S)
+    c = re.sub(r"(<li>)((?:(?!</?li>).)*)(</li>)", bloque, c, flags=re.S)
+    if celdas:                         # en las tablas se quita la frase, pero la celda se queda (vacía si hace falta)
+        def celda(m):
+            r = bloque(m)
+            if r:
+                return r
+            resto = " ".join(f for f in re.split(r"(?<=[.!?…»])\s+(?=(?:<[a-z][^>]*>)*[A-ZÁÉÍÓÚÑ¿¡«])", m.group(2).strip()) if not patron.search(f))
+            cojo = any(len(re.findall(r"<%s\b" % t, resto)) != len(re.findall(r"</%s>" % t, resto)) for t in ("a", "strong", "em", "b", "i", "sup", "span"))
+            return m.group(0) if cojo else m.group(1) + resto + m.group(3)
+        c = re.sub(r"(<td\b[^>]*>)((?:(?!</?td\b).)*)(</td>)", celda, c, flags=re.S)
+    return c
+
+
+def sin_restos_wiki(c):
+    """Quita lo que el conversor deja del marcado de la wiki: {{citation needed}} y otras plantillas, [[Original|Traducción]]
+    partidos, propiedades [[Toxicity::…]] y corchetes o llaves sueltos. Solo toca el texto, nunca los atributos."""
+    c = re.sub(r"(<a\b[^>]*>)[^<]*</a>\|([^<\]|]{1,80})\]\]", r"\1\2</a>", c)
+
+    def limpia(t):
+        t = t.replace("{{!}}", "|")
+        t = re.sub(r"\s*\{\{[^{}]{0,120}\}\}?", "", t)
+        t = re.sub(r"\[\[[A-Za-z][A-Za-z -]*::", "", t)
+        t = re.sub(r"\b[A-Z][a-z]+(?:[- ][a-z]+)*::(?=\S)", "", t)     # propiedad sin sus corchetes (Cross-tolerance::…)
+        t = re.sub(r"(?<![\w&;:]):{3,}", "", t)                          # sangrías de lista de la wiki (:::)
+        return t.replace("[[", "").replace("]]", "").replace("}}", "")
+    return re.sub(r">([^<>]*)<", lambda m: ">" + limpia(m.group(1)) + "<", c)
+
+
+MUERTES_QUITADAS = [0]
 
 
 def preparar_cuerpo(c, mapa, slug, tipo="", cuenta=None):
     """Devuelve (cuerpo limpio, [(id, título)] de los h2)."""
     cuenta = cuenta if cuenta is not None else [0]
     c = re.sub(r'<p class="e-atrib">.*?</p>', "", c, flags=re.S)
+    c = sin_restos_wiki(c)
     # la nota de dosis puede compartir párrafo con la entrada: se quita solo la nota, nunca más allá de su </em>
     c = re.sub(r"<em>La información de dosis no se traduce(?:(?!</em>).)*</em>\s*", "", c, flags=re.S)
     c = re.sub(r"<p>\s*</p>", "", c)
@@ -249,6 +284,8 @@ def preparar_cuerpo(c, mapa, slug, tipo="", cuenta=None):
         c = quitar_apartados(c, lambda t: bool(AP_ELABORA.search(t)), hijos=False)
     c = quitar_apartados(c, lambda t: bool(ELABORA_SIEMPRE.search(t)))
     c = sin_cantidades(c, cuenta)
+    c = quitar_apartados(c, lambda t: bool(AP_MUERTES.search(t)))
+    c = sin_cantidades(c, MUERTES_QUITADAS, MUERTES, celdas=True)
     if not CON_LEGALIDAD:
         c = re.sub(r"<li>(?:(?!</li>).)*?(?:Legal status|[Ee]statu[st] legal|[Ss]ituación legal|[Ll]egalidad)(?:(?!</li>).)*?</li>\s*", "", c, flags=re.S)
     c = re.sub(r"</ul>\s*<ul>", "\n", c)
@@ -531,7 +568,7 @@ def portada(pags):
 </div>
 <section class="p-sec p-origen"><div class="ancho"><h2>De dónde viene</h2>
 <p>Los textos son traducciones de <a class="ext" href="https://psychonautwiki.org/" rel="noopener">PsychonautWiki</a>, una enciclopedia colaborativa sobre sustancias psicoactivas. Se publican con su misma licencia, <a class="ext" href="{LICENCIA}" rel="license noopener">CC BY-SA 4.0</a>. PsychonautWiki no ha participado en esta traducción ni la respalda.</p>
-<p>Hemos dejado fuera las cifras de dosis y las guías de elaboración. Cada página enlaza a su original en inglés.</p></div></section>
+<p>Hemos dejado fuera las cifras de dosis y de muertes, y las guías de elaboración. Cada página enlaza a su original en inglés.</p></div></section>
 </main>'''
     return documento("psiconautica/", "Psiconáutica", desc, cuerpo, "../", "sustancias/index.html", "website")
 
@@ -706,7 +743,7 @@ def portada_wiki(pags):
         '<p>Los textos son traducciones de <a class="ext" href="https://psychonautwiki.org/" rel="noopener">PsychonautWiki</a>, una enciclopedia '
         'colaborativa sobre sustancias psicoactivas, y se publican con su misma licencia, <a class="ext" href="%s" rel="license noopener">CC BY-SA 4.0</a>. '
         "PsychonautWiki no ha participado en esta traducción ni la respalda.</p>"
-        "<p>Hemos dejado fuera las cifras de dosis y las guías de elaboración. Cada página enlaza a su original en inglés.</p></section>" % LICENCIA,
+        "<p>Hemos dejado fuera las cifras de dosis y de muertes, y las guías de elaboración. Cada página enlaza a su original en inglés.</p></section>" % LICENCIA,
         "</div>",
         '<section class="wk-caja wk-todas" id="todas" aria-labelledby="az-t"><h2 id="az-t">Todas las páginas</h2>',
         '<nav class="p-barra" aria-label="Ir a la letra">%s</nav>' % barra,
@@ -771,6 +808,8 @@ def main():
     lista, peso, quitadas, con_cantidades = [], 0, [0], []
     for slug in sorted(pags):
         d = pags[slug]
+        if d.get("original") in titulos_es.TITULOS or d.get("original") in titulos_es.FIJOS:
+            d["titulo"] = titulos_es.titulo(d["original"], d["titulo"])     # el diccionario manda también en lo publicado
         d["tipo"] = deducir_tipo(d, d["cuerpo"])
         antes_n = quitadas[0]
         d["cuerpo"], d["indice"] = preparar_cuerpo(d["cuerpo"], mapa, slug, d["tipo"], quitadas)
@@ -791,6 +830,8 @@ def main():
     mapa_sitio(lista, a.hoy)
     por_tipo = ", ".join("%d %s" % (sum(1 for d in lista if d["tipo"] == k), v[1].lower()) for k, v in TIPOS.items())
     print("%d páginas (%s) · %d KB · %d sin publicar por regla o por lista" % (len(lista), por_tipo, peso // 1024, len(saltadas)))
+    if MUERTES_QUITADAS[0]:
+        print("  %d frases con cifras de muertes retiradas" % MUERTES_QUITADAS[0])
     if quitadas[0]:
         print("  %d frases con cantidades retiradas: %s" % (quitadas[0], ", ".join(con_cantidades[:60]) + (" …" if len(con_cantidades) > 60 else "")))
     if saltadas:

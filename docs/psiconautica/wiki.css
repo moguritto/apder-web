@@ -1,9 +1,9 @@
 /* Psiconáutica con el aspecto de PsychonautWiki (MediaWiki «Vector»), sin su logo ni su nombre.
    Todo va bajo .wk, que es el <main>. Las páginas las escribe scripts/psiconautica/generar.py (ASPECTO = "wiki").
    Medidas y colores de la original: fondo #f6f6f6, hoja blanca con borde #a7d7f9, panel de 176 px,
-   enlaces #158cba, títulos con serifa y filete gris. */
+   enlaces #0f72a0 (más oscuro que el de la wiki, para leerse bien), títulos con serifa y filete gris. */
 .wk{--fondo:#f6f6f6;--hoja:#fff;--borde:#a7d7f9;--gris:#a2a9b1;--gris-2:#c8ccd1;--claro:#f8f9fa;--texto:#202122;--suave:#54595d;
-  --enlace:#158cba;--enlace-v:#0b6c91;--ext:#3366bb;--peligro:#b32424;--peligro-f:#fee7e6;--nota:#eaf3ff;
+  --enlace:#0f72a0;--enlace-v:#0b6c91;--ext:#3366bb;--peligro:#b32424;--peligro-f:#fee7e6;--nota:#eaf3ff;
   --serif:"Linux Libertine","Georgia","Times New Roman",Times,serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
   display:block;background:var(--fondo);color:var(--texto);font:15px/1.6 var(--sans);overflow-x:clip}
 .wk *{box-sizing:border-box}

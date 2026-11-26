@@ -82,6 +82,9 @@ FIJOS = {"Psilocybin mushrooms": "Setas de psilocibina", "Set and setting": "Set
          "Unity and interconnectedness": "Unidad e interconexión", "Ayahuasca": "Ayahuasca"}
 
 
+# Títulos que salían repetidos (26-11-2026): cada página con el suyo.
+TITULOS.update({"Delusion": "Idea delirante", "LSA adducts": "Aductos de LSA", "DXM & DPH": "DXM y DPH"})
+
 def es_codigo(original):
     """Siglas y nombres con cifras: se dejan como en la wiki (LSD, MDMA, 2C-B, 4-AcO-DMT, 25x-NBOMe…)."""
     return bool(re.search(r"\d", original)) or bool(re.fullmatch(r"[A-Z][A-Za-z]?[A-Z][A-Za-z\-]{0,8}", original)) and sum(c.isupper() for c in original) >= 2
