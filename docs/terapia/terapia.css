@@ -9,7 +9,7 @@
 .tg sup{line-height:0;font-size:.72em}
 .tg sup a{padding:0 1px}
 .tg em{font-style:italic}
-.tg-sec a,.tg-nota a,.tg-refs a,.tg-faq a,.tg-cinco a,.tg-resumen a{color:var(--tierra-osc);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.tg-sec a,.tg-nota a,.tg-refs a,.tg-faq a,.tg-resumen a{color:var(--tierra-osc);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .tg-sec a:hover,.tg-refs a:hover,.tg-faq a:hover{color:var(--texto)}
 .tg :focus-visible{outline:3px solid var(--tierra-osc);outline-offset:3px;border-radius:6px}
 
@@ -120,6 +120,7 @@
 .tg-ideas .n{display:block;font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--tierra-osc);margin-bottom:2px}
 .tg-ideas b{display:block;font-family:var(--serif);font-weight:400;font-size:1.25rem;line-height:1.2;margin-bottom:6px}
 .tg-ideas p{font-size:.96rem;color:#554b41;margin:0;line-height:1.6}
+.tg-ideas.dos{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 34px}
 
 /* comparación */
 .tg-compara{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0 6px}
@@ -239,14 +240,6 @@
 .tg-medios li:target{background:linear-gradient(90deg,rgba(194,100,60,.12),rgba(194,100,60,0))}
 .tg-medios.uno{margin-top:0!important}
 
-/* cinco preguntas */
-.tg-cinco{background:var(--tg-tierra-clara);border-radius:26px;padding:26px 30px 20px;margin:26px 0 0}
-.tg-cinco h3{margin:0 0 6px;font-size:1.45rem}
-.tg-cinco>p{font-size:.95rem;color:#5d3a26;margin:0 0 12px}
-.tg-cinco ol{margin:0;padding:0;list-style:none;counter-reset:cinco}
-.tg-cinco li{counter-increment:cinco;position:relative;padding:9px 0 9px 40px;border-top:1px solid rgba(122,53,25,.16)}
-.tg-cinco li::before{content:counter(cinco);position:absolute;left:0;top:7px;width:27px;height:27px;border-radius:50%;background:var(--tierra-osc);color:#fff;font-weight:700;font-size:.85rem;display:grid;place-items:center}
-
 /* preguntas frecuentes */
 .tg-faq{border-bottom:1px solid var(--tg-linea)}
 .tg-faq details{border-top:1px solid var(--tg-linea)}
@@ -308,7 +301,7 @@
 }
 @media (max-width:760px){
   .tg-claves dl{grid-template-columns:1fr}
-  .tg-ideas{grid-template-columns:1fr;gap:16px}
+  .tg-ideas,.tg-ideas.dos{grid-template-columns:1fr;gap:16px}
   .tg-compara{grid-template-columns:1fr}
   .tg-parte{grid-template-columns:minmax(0,1fr) 128px;gap:8px;padding:20px 14px 20px 22px}
   .tg-parte .tit{font-size:1.9rem}
@@ -363,7 +356,6 @@
   .tg-cita blockquote::before{top:0}
   .tg-cita figcaption{margin-left:0}
   .tg-cuidado{padding:26px 22px 20px;border-radius:24px}
-  .tg-cinco{padding:22px 20px 16px;border-radius:22px}
   .tg-video button{padding:16px 16px}
   .tg-video .play{width:56px;height:56px}
   .tg-video .titulo,.tg-video.v0 .titulo{font-size:1.08rem}
