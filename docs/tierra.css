@@ -388,6 +388,12 @@ footer.pie .pie-abajo a{display:inline-flex;align-items:center;min-height:44px;p
 .legal-texto{background:#fff;border-radius:28px;padding:34px 42px 24px;box-shadow:0 2px 14px rgba(60,40,20,.05)}
 .legal-texto p{max-width:72ch;overflow-wrap:anywhere}
 .legal-texto p>strong:first-child{color:var(--tierra-hondo)}
+.legal-texto h2{font-family:var(--sans);font-size:1.18rem;font-weight:800;color:var(--tierra-hondo);margin:1.7em 0 .45em}
+.legal-texto h2:first-of-type{margin-top:.9em}
+.legal-texto ul{max-width:72ch;padding-left:1.2em}
+.legal-texto li{margin:0 0 .45em}
+.legal-fecha{font-size:.88rem;color:var(--suave)}
+.legal-texto a{color:var(--tierra-osc);text-decoration:underline;text-underline-offset:2px}
 @media (max-width:560px){.legal-texto{border-radius:22px;padding:24px 20px 14px}}
 
 /* marca de página activa en el pie (Aviso legal, Política de privacidad) */
