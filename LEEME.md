@@ -123,18 +123,18 @@ Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
 - Cómo escribir una ficha nueva, reglas y lista de pendientes: `enciclopedia/LEEME.md`.
 - En el menú desde el 23/11/2026: desplegable «Aprender» y atajo en el desplegable «Medicinas». `generar.py` copia la cabecera de `docs/sustancias/` y marca «Aprender» como sección actual.
 
-## Psiconáutica (rediseño del 25-11-2026)
+## Psiconáutica (aspecto wiki desde el 26-11-2026)
 
-- `docs/psiconautica/`: PsychonautWiki en español. Portada con buscador, filtros por tipo e índice A–Z, y una página por artículo (`docs/psiconautica/<slug>/`). Va **aparte** de la Enciclopedia de medicinas (decisión de Mannu, 25-11-2026) y está en el menú, dentro de «La experiencia».
-- No se edita el HTML a mano. Todo sale de `python3 scripts/psiconautica/generar.py`, que copia la cabecera y el pie de `docs/sustancias/` y marca «La experiencia» como sección actual. Solo usa la biblioteca estándar.
-  - Sin argumentos rehace todo a partir de lo ya publicado (sirve para cambiar la plantilla sin tener las traducciones).
-  - `--json CARPETA` añade o sustituye páginas desde archivos `.json` (`slug`, `titulo`, `original`, `cuerpo` y, opcionales, `tipo`, `nota`, `alias`); `--excluidas ARCHIVO` deja fuera los títulos de esa lista. Las traducciones viven en el Mac de Mannu (`Documentos/psychonautwiki-es`), no en el repositorio.
-- Tres plantillas con el mismo esqueleto: **sustancia**, **efecto** (los niveles numerados salen como escalera) y **portada**. Además hay dos tipos menores, cuidado y concepto. Si la página no trae tipo, se deduce de sus apartados.
-- Reglas que aplica el generador a cada cuerpo: fuera los apartados y enlaces de legalidad; fuera los apartados de dosis y administración, y en las sustancias también los de elaboración, extracción, síntesis y cultivo; fuera las frases con cantidades sueltas («50 mg»); fuera los apartados vacíos; los enlaces a PsychonautWiki pasan a ser internos cuando la página ya está traducida. Tampoco publica páginas de discusión ni guías de elaboración o dosificación (por título).
-- Estilos en `docs/psiconautica/psiconautica.css` (todo bajo `.psi`) y código en `psiconautica.js` (buscador, filtros e índice lateral). Si se tocan, hay que subir `VERSION` en `generar.py` y regenerar. El fondo de curvas de nivel es `carta.svg` (lo dibuja `scripts/psiconautica/carta.py`, que necesita numpy y matplotlib; no hace falta volver a lanzarlo).
-- El buscador de la portada lee `docs/psiconautica/indice.json`. En el buscador general (`docs/buscar/`) cada página entra con una entrada corta. El generador también pone sus direcciones en `sitemap.xml`.
-- Después de generar: `python3 scripts/construir_indice.py` y `python3 scripts/comprobar_web.py`.
-- Los textos son traducciones con licencia CC BY-SA 4.0: cada página enlaza a su original y lo dice en la ficha lateral.
+- `docs/psiconautica/`: PsychonautWiki en español, aparte de la Enciclopedia de medicinas y enlazada en el menú. **Aspecto de la wiki original** (decisión de Mannu, 26-11-2026): panel lateral, pestañas, ficha a la derecha, índice «Contenido» y avisos arriba, sin el logo ni el nombre de PsychonautWiki. El rediseño propio sigue en `psiconautica.css` y sale con `--aspecto apder`.
+- No se edita el HTML a mano. Todo sale de `scripts/psiconautica/generar.py` (solo biblioteca estándar):
+  - `--wiki CARPETA`: lee el wikitexto traducido (la carpeta del Mac `Documentos/psychonautwiki-es`, con `traducido/` y `original/indice.json`) y lo convierte con `wiki.py`, que despliega las piezas compartidas de la wiki (listas de efectos, interacciones peligrosas, avisos; las 64 traducidas están en `plantillas_es.py`). Las direcciones salen de `generar_web_psiconautica.py` de esa carpeta, para no cambiar ninguna URL.
+  - Sin argumentos rehace todo desde lo publicado (para cambiar la plantilla sin las traducciones). Regenerar dos veces da lo mismo.
+  - `--excluidas ARCHIVO`: títulos que no se publican. `--sin-legalidad`: quita la situación legal (por defecto se publica: decisión de Mannu, 25-11-2026).
+  - Títulos en español: `titulos_es.py`.
+- Reglas que aplica siempre: fuera los apartados de dosis y administración; fuera cultivo, extracción, síntesis, recetas y calendarios de reducción; fuera las frases con cantidades («50 mg»); fuera los apartados vacíos; enlaces internos cuando la página existe. Informa de las piezas de la wiki que aún no sabe convertir.
+- Orden completo: `python3 scripts/psiconautica/generar.py --wiki CARPETA --excluidas CARPETA/excluidas_web.txt`, después `python3 scripts/construir_indice.py` y `python3 scripts/comprobar_web.py`.
+- Estilos: `wiki.css` (todo bajo `.wk`); código: `psiconautica.js` (buscador, filtros, índice lateral y «Página al azar»). Si se tocan, subir `VERSION` en `generar.py`.
+- Licencia: CC BY-SA 4.0; cada página enlaza a su original y lo dice en la ficha y al pie.
 
 ## Otras secciones
 
