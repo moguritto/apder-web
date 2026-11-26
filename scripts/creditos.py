@@ -45,7 +45,9 @@ def main():
     if "rel=\"canonical\"" not in cabeza:
         cabeza += '<link rel="canonical" href="https://apder.org/creditos/">\n'
     cab = re.search(r'<header class="cabecera".*?</header>', s, re.S).group(0)
-    pie = s[s.index("<footer"):]
+    # El menú necesita menu.js; en el aviso legal va entre </main> y el pie, así que se copia aparte.
+    menu = re.search(r'<script src="[^"]*menu\.js[^"]*" defer></script>', s).group(0)
+    pie = menu + "\n" + s[s.index("<footer"):]
     pagina = f"""{cabeza}</head>
 <body class="guia">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
