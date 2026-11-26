@@ -175,6 +175,16 @@ Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
 - Se generaron con un guion que vive fuera del repo: los cambios futuros se hacen sobre el HTML publicado. Las cifras de ensayos recientes (psilocibina, LSD, 5-MeO-DMT) vienen de notas de las empresas y de prensa médica especializada; hay que revisarlas cuando se publiquen los artículos.
 - Excepciones del comprobador (`revision/excepciones-comprobador.txt`): `h-wp` en ayahuasca e ibogaína, por dos PDF de ICEERS alojados en `wp-content`.
 
+## Terapia asistida con MDMA: diseño editorial (26-11-2026)
+
+- `docs/terapia-asistida-mdma/index.html` se rehízo a mano (diseño y texto). Orden: portada con una escena dibujada (la sala, el antifaz y la música, quien acompaña) y tres datos; aviso; tira «Lo han contado»; «En pocas palabras» y «Lo que da seguridad» en un solo bloque; y las cuatro partes de siempre (Conocer, El proceso, Lo que se sabe, Si te interesa).
+- Piezas nuevas: «Por qué puede ayudar» (tres ideas), «En qué se diferencia de otras medicinas», «El arco de una sesión», «El papel de quien acompaña», gráfico de los dos ensayos de fase 3, «Qué más se estudia» con los trazos de nivel de evidencia de Investigación, hemeroteca por grupos (España, ciencia y profesión, mundo), vídeos con carteles propios, «Cinco preguntas antes de dar un paso», libros enlazados a su ficha de la Biblioteca y «Sigue por aquí».
+- Estilos y guion propios, pensados para llevarlos después a las otras siete guías: `docs/terapia/terapia.css` (todo bajo `.tg`, con prefijo `tg-`) y `docs/terapia/terapia.js` (barra de lectura, índice que acompaña, gráfico que se dibuja al llegar y vídeos que solo conectan con YouTube al pulsar). Esta página ya no usa las clases `art-*`; las otras siete guías sí, y no se han tocado.
+- La cabecera y el pie siguen saliendo de `scripts/cabecera.py` (comprobado: el guion no cambia la página). El índice del móvil lleva también la clase `s-toc-movil` para que `tierra.js` ponga el botón «Contenido».
+- Reglas que respeta el texto: sin número de sesiones, horas ni dosis; sin legalidad (solo investigación y uso clínico, en lenguaje clínico); sin tono alarmista; APDER no ofrece terapias; y los cuatro registros separados (investigación, experiencia, interpretación humanista y transpersonal, acceso clínico).
+- Los datos estructurados (artículo, migas y preguntas frecuentes) van en el `<head>`. Si cambian las preguntas frecuentes, hay que rehacer ese bloque para que digan lo mismo.
+- De la página antigua (`_old/`) vuelven cinco enlaces de prensa: El País, El Mundo, El Confidencial, laSexta y The New York Times en español. La selección de medios se revisa con la página, cada tres meses.
+
 ## Ayudas de lectura (tierra.js)
 
 - `docs/tierra.js` (se carga en guías, medicinas, investigación, biblioteca y terapia asistida): cabecera fija que se encoge al bajar, botón «Contenido» en móvil y botón «Volver arriba».
