@@ -30,7 +30,11 @@ from urllib.parse import unquote
 AQUI = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.normpath(os.path.join(AQUI, "..", "..", "docs"))
 SALIDA = os.path.join(DOCS, "psiconautica")
-VERSION = "20261125c"          # cambia al tocar psiconautica.css o psiconautica.js
+VERSION = "20261126b"          # cambia al tocar psiconautica.css, wiki.css o psiconautica.js
+ASPECTO = "wiki"               # «wiki»: el aspecto de PsychonautWiki (decisión de Mannu, 26-11-2026); «apder»: el rediseño propio
+sys.path.insert(0, AQUI)
+import wiki as WK              # conversor del wikitexto (despliega las piezas compartidas de la wiki)
+import titulos_es              # títulos en español parecidos a los de la wiki
 WIKI = "https://psychonautwiki.org/wiki/"
 LICENCIA = "https://creativecommons.org/licenses/by-sa/4.0/deed.es"
 
@@ -57,9 +61,12 @@ ANTES = ["Responsible use", "Set and setting", "Trip sitter", "Bad trip", "Harm 
 # donde «Preparación» es cómo se hace; en las de cuidado es prepararse para la experiencia y sí se publica).
 AP_DOSIS = re.compile(r"\b(dosis|dosificaci[oó]n|posolog[ií]a|v[ií]as? de administraci[oó]n|pharmahuasca|redosificaci[oó]n)\b", re.I)
 AP_ELABORA = re.compile(r"\b(preparaci[oó]n|elaboraci[oó]n|extracci[oó]n|s[ií]ntesis|cultivo|recetas?)\b", re.I)
+# En cualquier página (mismo criterio que el traductor, SECCIONES_FUERA): cultivo, extracción, síntesis, recetas, reducción de dosis.
+ELABORA_SIEMPRE = re.compile(r"cultiv|extracci[oó]n|s[ií]ntesis|elaboraci[oó]n|recetas?\b|preparaci[oó]n del (?:brebaje|t[eé])|"
+                             r"calendarios? de reducci|reducci[oó]n de emergencia", re.I)
 # Cantidades sueltas («50 mg», «3,5 g», «100 µg»): se quita la frase entera.
 CANTIDAD = re.compile(r"\d(?:\s|&nbsp;|\u00a0)*(?:mg|µg|μg|mcg|ug|ml|miligramos?|microgramos?|mililitros?|gramos?|g)\b", re.I)
-CON_LEGALIDAD = False   # --con-legalidad: Mannu (25-11-2026) quiere la situación legal; solo se quitaría la legalidad referida a terapia
+CON_LEGALIDAD = True    # Mannu (25-11-2026) quiere la situación legal; solo se quitaría la referida a terapia. --sin-legalidad la quita
 LEGAL = re.compile(r"\b(legal|legalidad|ilegal|leyes|fiscalizaci[oó]n)\b|\blegal status\b", re.I)
 
 
@@ -106,11 +113,16 @@ def de_html(ruta):
     """Lee una página ya publicada: la de esta plantilla (data-*) o la provisional del 23-11-2026."""
     s = leer(ruta)
     slug = os.path.basename(os.path.dirname(ruta))
-    m = re.search(r'<main id="contenido" class="psi"([^>]*)>', s)
+    m = re.search(r'<main id="contenido" class="psi(?: wk)?"([^>]*)>', s)
     if m:                                                    # plantilla nueva
         a = dict(re.findall(r'data-([a-z-]+)="([^"]*)"', m.group(1)))
         cuerpo = s[s.find("<!--cuerpo-->") + 13:s.find("<!--/cuerpo-->")]
-        return {"slug": slug, "titulo": html.unescape(re.search(r"<h1>(.*?)</h1>", s, re.S).group(1)),
+        cuerpo = re.sub(r"<!--toc-->.*?<!--/toc-->", "", cuerpo, flags=re.S)
+        av = re.search(r"<!--avisos-->(.*?)<!--/avisos-->", s, re.S)
+        if av:
+            cuerpo = av.group(1) + "\n" + cuerpo
+        clases = dict(x.split("=", 1) for x in html.unescape(a.get("clases", "")).split("|") if "=" in x)
+        return {"clases": clases,"slug": slug, "titulo": html.unescape(re.search(r"<h1>(.*?)</h1>", s, re.S).group(1)),
                 "original": html.unescape(a.get("original", "")), "tipo": a.get("tipo", ""),
                 "nota": html.unescape(a.get("nota", "")), "alias": [x for x in html.unescape(a.get("alias", "")).split("|") if x],
                 "cuerpo": cuerpo}
@@ -123,6 +135,64 @@ def de_html(ruta):
     return {"slug": slug, "titulo": texto(re.search(r"<h1>(.*?)</h1>", s, re.S).group(1)),
             "original": texto(orig.group(2)) if orig else "", "tipo": TIPO_ANTIGUO.get(ante, ""),
             "nota": texto(nota.group(1)) if nota else "", "alias": [], "cuerpo": art}
+
+
+def de_wiki(datos, excluidas):
+    """Páginas desde las traducciones del Mac (carpeta de datos con traducido/ y original/indice.json).
+    El wikitexto pasa por wiki.Conversor, que despliega las piezas compartidas (efectos, interacciones, avisos).
+    Direcciones y filtros: los de generar_web_psiconautica.py de esa carpeta, para no cambiar ninguna URL."""
+    import importlib.util
+    argv, sys.argv = sys.argv, [sys.argv[0], datos, DOCS]
+    try:
+        spec = importlib.util.spec_from_file_location("gwp", os.path.join(datos, "generar_web_psiconautica.py"))
+        g = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(g)
+    finally:
+        sys.argv = argv
+    indice = json.loads(leer(os.path.join(datos, "original", "indice.json")))
+    actuales = {}
+    try:
+        actuales = {p[3]: p[1] for p in json.loads(leer(os.path.join(SALIDA, "indice.json")))}
+    except (OSError, ValueError):
+        pass
+    textos = {}
+    for ruta in sorted(glob.glob(os.path.join(datos, "traducido", "*.wiki"))):
+        t = indice.get(os.path.basename(ruta), os.path.splitext(os.path.basename(ruta))[0])
+        bruto = leer(ruta)
+        textos[t] = bruto.split("\n\n", 1)[1] if bruto.startswith("<!--") and "\n\n" in bruto else bruto
+    validas = [t for t in textos if not (clave_wiki(t) in excluidas or t in g.META or g.TITULOS_FUERA.search(t)
+                                          or t.startswith(("Talk:", "Category:")))]
+    nombres = {}
+    for t in validas:
+        fija = g.FIJAS.get(t)
+        actual = fija[1] if fija else actuales.get(t)
+        if not actual:
+            m = re.search(r"'''(.+?)'''", textos[t][:800])
+            actual = m.group(1) if m and "[" not in m.group(1) and 2 <= len(m.group(1)) <= 60 else t
+        nombres[t] = titulos_es.titulo(t, actual)
+    conv = WK.Conversor(textos, nombres)
+    out = {}
+    for t in validas:
+        cats = [x.strip() for x in re.findall(r"\[\[(?:Category|Categoría):([^\]|]+)", textos[t])]
+        cuerpo, datos_p = conv.html(t, textos[t], nombres[t])
+        if len(texto(cuerpo)) < 80:
+            continue
+        parrafos = [texto(x) for x in re.findall(r"<p>(.*?)</p>", cuerpo, re.S)]
+        parrafos = [x for x in parrafos if x and not x.startswith("La información de dosis")]
+        nota = parrafos[0] if parrafos else ""
+        nota = nota if len(nota) <= 220 else nota[:217].rsplit(" ", 1)[0] + "…"
+        slug = (g.FIJAS.get(t) or (g.slugificar(t),))[0]
+        d = {"slug": slug, "titulo": nombres[t], "original": t, "cuerpo": cuerpo, "nota": nota, "alias": [],
+             "clases": datos_p.get("clases") or {}}
+        if "Effect" in cats:
+            d["tipo"] = "efecto"
+        elif {"Psychoactive substance", "Substance"} & set(cats):
+            d["tipo"] = "sustancia"
+        out[slug] = d
+    sin = sorted(conv.sin_plantilla.items(), key=lambda x: -x[1])[:12]
+    if sin:
+        print("  piezas de la wiki sin tratar (veces): " + ", ".join("%s (%d)" % x for x in sin))
+    return out
 
 
 # ------------------------------------------------------------------ CUERPO
@@ -170,11 +240,14 @@ def preparar_cuerpo(c, mapa, slug, tipo="", cuenta=None):
     """Devuelve (cuerpo limpio, [(id, título)] de los h2)."""
     cuenta = cuenta if cuenta is not None else [0]
     c = re.sub(r'<p class="e-atrib">.*?</p>', "", c, flags=re.S)
-    c = re.sub(r"<p><em>La información de dosis no se traduce.*?</em></p>", "", c, flags=re.S)
+    # la nota de dosis puede compartir párrafo con la entrada: se quita solo la nota, nunca más allá de su </em>
+    c = re.sub(r"<em>La información de dosis no se traduce(?:(?!</em>).)*</em>\s*", "", c, flags=re.S)
+    c = re.sub(r"<p>\s*</p>", "", c)
     c = re.sub(r'<div class="p-tabla">(.*?)</div>', r"\1", c, flags=re.S)              # se vuelve a poner abajo
     c = quitar_apartados(c, lambda t: bool((LEGAL.search(t) and not CON_LEGALIDAD) or AP_DOSIS.search(t)))
     if tipo == "sustancia":
         c = quitar_apartados(c, lambda t: bool(AP_ELABORA.search(t)), hijos=False)
+    c = quitar_apartados(c, lambda t: bool(ELABORA_SIEMPRE.search(t)))
     c = sin_cantidades(c, cuenta)
     if not CON_LEGALIDAD:
         c = re.sub(r"<li>(?:(?!</li>).)*?(?:Legal status|[Ee]statu[st] legal|[Ss]ituación legal|[Ll]egalidad)(?:(?!</li>).)*?</li>\s*", "", c, flags=re.S)
@@ -334,7 +407,7 @@ def documento(ruta_rel, titulo, desc, cuerpo, pre, origen, tipo_og="article"):
 <link rel="preload" href="{pre}fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{pre}fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{pre}{css}">
-<link rel="stylesheet" href="{pre}psiconautica/psiconautica.css?v={VERSION}">
+<link rel="stylesheet" href="{pre}psiconautica/{"wiki.css" if ASPECTO == "wiki" else "psiconautica.css"}?v={VERSION}">
 </head>
 <body class="psiconautica">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -463,6 +536,185 @@ def portada(pags):
     return documento("psiconautica/", "Psiconáutica", desc, cuerpo, "../", "sustancias/index.html", "website")
 
 
+# ------------------------------------------------------------------ ASPECTO «WIKI» (el de PsychonautWiki, sin su logo ni su nombre)
+SLUG_DE = {}          # clave_wiki(título original) -> slug; lo rellena main()
+
+
+def enlace_a(original, texto_enlace, pre="../"):
+    slug = SLUG_DE.get(clave_wiki(original))
+    return '<a href="%s%s/">%s</a>' % (pre, slug, texto_enlace) if slug else ""
+
+
+def lado_wiki(pre, original=None):
+    nav = ['<a href="%s">Portada</a>' % (pre or "./"), '<a href="%s?tipo=sustancia">Sustancias</a>' % pre,
+           '<a href="%s?tipo=efecto">Efectos subjetivos</a>' % pre,
+           enlace_a("Responsible use", "Uso responsable", pre), enlace_a("Trip sitter", "Acompañamiento", pre),
+           enlace_a("Set and setting", "Set y setting", pre), enlace_a("Bad trip", "Mal viaje", pre),
+           '<a href="%s#todas">Todas las páginas</a>' % pre, '<a href="%s?azar=1">Página al azar</a>' % pre]
+    herr = []
+    if original:
+        herr.append('<a class="ext" href="%s%s" rel="noopener" lang="en">Página original</a>' % (WIKI, esc(original.replace(" ", "_"))))
+    herr.append('<a class="ext" href="https://psychonautwiki.org/" rel="noopener">PsychonautWiki</a>')
+    herr.append('<a class="ext" href="%s" rel="license noopener">Licencia CC BY-SA 4.0</a>' % LICENCIA)
+    return "\n".join([
+        '<aside class="wk-lado" aria-label="Psiconáutica">',
+        '<a class="wk-marca" href="%s"><b>Psiconáutica</b><span>PsychonautWiki en español</span></a>' % (pre or "./"),
+        '<nav aria-label="Navegación de Psiconáutica"><h2>Navegación</h2><ul>%s</ul></nav>' % "".join("<li>%s</li>" % x for x in nav if x),
+        '<nav aria-label="Herramientas"><h2>Herramientas</h2><ul>%s</ul></nav>' % "".join("<li>%s</li>" % x for x in herr),
+        "</aside>"])
+
+
+def pestanas_wiki(pre, original=None, portada=False):
+    pes = '<li class="on"><a href="./" aria-current="page">%s</a></li>' % ("Portada" if portada else "Artículo")
+    if original:
+        pes += '<li><a class="ext" href="%s%s" rel="noopener" lang="en">Original en inglés</a></li>' % (WIKI, esc(original.replace(" ", "_")))
+    busca = ""
+    if not portada:
+        busca = ('<form class="wk-busca" action="%s" method="get" role="search"><label class="p-oculto" for="wk-q">Buscar en Psiconáutica</label>'
+                 '<input id="wk-q" name="q" type="search" placeholder="Buscar en Psiconáutica" autocomplete="off"><button type="submit">Ir</button></form>' % pre)
+    return '<div class="wk-pestanas"><ul>%s</ul>%s</div>' % (pes, busca)
+
+
+def indice_wiki(cuerpo):
+    """Índice numerado «Contenido», como el de MediaWiki (apartados y subapartados)."""
+    cabs = re.findall(r'<h([23]) id="([^"]+)">(.*?)</h\1>', cuerpo, re.S)
+    if sum(1 for n, _, _ in cabs if n == "2") < 3:
+        return ""
+    out, n2, n3, sub_abierta = [], 0, 0, False
+    for nivel, ident, t in cabs:
+        if nivel == "2":
+            if sub_abierta:
+                out.append("</ol>")
+                sub_abierta = False
+            if n2:
+                out.append("</li>")
+            n2 += 1
+            n3 = 0
+            out.append('<li><a href="#%s"><span class="wk-num">%d</span> %s</a>' % (ident, n2, esc(texto(t))))
+        elif n2:
+            if not sub_abierta:
+                out.append("<ol>")
+                sub_abierta = True
+            n3 += 1
+            out.append('<li><a href="#%s"><span class="wk-num">%d.%d</span> %s</a></li>' % (ident, n2, n3, esc(texto(t))))
+    if sub_abierta:
+        out.append("</ol>")
+    out.append("</li>")
+    return '<details class="wk-indice" open><summary>Contenido</summary><ol>%s</ol></details>' % "".join(out)
+
+
+def ficha_wiki(d):
+    filas = []
+    cl = d.get("clases") or {}
+    for clave, nombre in (("psicoactiva", "Clase psicoactiva"), ("quimica", "Clase química")):
+        if cl.get(clave):
+            filas.append((nombre, esc(cl[clave][:1].upper() + cl[clave][1:])))
+    filas.append(("Tipo de página", '<a href="../?tipo=%s">%s</a>' % (d["tipo"], TIPOS[d["tipo"]][0])))
+    orig = WIKI + esc(d["original"].replace(" ", "_"))
+    if d["tipo"] == "sustancia":
+        filas.append(("Dosis", 'No se incluyen. Están en la <a class="ext" href="%s" rel="noopener" lang="en">página original</a>.' % orig))
+    filas.append(("Original", '<a class="ext" href="%s" rel="noopener" lang="en">%s</a>, en PsychonautWiki' % (orig, esc(d["original"]))))
+    filas.append(("Licencia", '<a class="ext" href="%s" rel="license noopener">CC BY-SA 4.0</a>' % LICENCIA))
+    return '<table class="wk-ficha"><caption>%s</caption>%s</table>' % (
+        esc(d["titulo"]), "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % fila for fila in filas))
+
+
+def articulo_wiki(d):
+    cuerpo = d["cuerpo"]
+    # los avisos que abren la página van encima de la ficha, a todo lo ancho (como en la wiki)
+    m = re.match(r'\s*(?:<div class="w-aviso[^"]*">(?:(?!<div\b).)*?</div>\s*)+', cuerpo, re.S)
+    avisos = ""
+    if m:
+        avisos = '<div class="wk-avisos"><!--avisos-->%s<!--/avisos--></div>' % m.group(0).strip()
+        cuerpo = cuerpo[m.end():]
+    toc = indice_wiki(cuerpo)
+    i = cuerpo.find("<h2 ")
+    if toc and i >= 0:
+        cuerpo = cuerpo[:i] + "<!--toc-->" + toc + "<!--/toc-->" + cuerpo[i:]
+    atr = ' data-tipo="%s" data-original="%s"' % (d["tipo"], esc(d["original"]))
+    if d.get("nota"):
+        atr += ' data-nota="%s"' % esc(d["nota"])
+    if d.get("alias"):
+        atr += ' data-alias="%s"' % esc("|".join(d["alias"]))
+    if d.get("clases"):
+        atr += ' data-clases="%s"' % esc("|".join("%s=%s" % kv for kv in sorted(d["clases"].items())))
+    orig = WIKI + esc(d["original"].replace(" ", "_"))
+    partes = [
+        '<main id="contenido" class="psi wk"%s>' % atr,
+        '<div class="wk-marco">',
+        lado_wiki("../", d["original"]),
+        '<div class="wk-columna">',
+        pestanas_wiki("../", d["original"]),
+        '<article class="wk-hoja">',
+        "<h1>%s</h1>" % esc(d["titulo"]),
+        '<p class="wk-de">De Psiconáutica, traducción al español de PsychonautWiki</p>',
+        avisos,
+        ficha_wiki(d),
+        '<div class="wk-texto">',
+        "<!--cuerpo-->%s<!--/cuerpo-->" % cuerpo,
+        "</div>",
+        '<p class="wk-licencia">Traducción de «<a class="ext" href="%s" rel="noopener" lang="en">%s</a>», de PsychonautWiki, con licencia '
+        '<a class="ext" href="%s" rel="license noopener">CC BY-SA 4.0</a>. PsychonautWiki no ha participado en esta traducción ni la respalda. '
+        "Se ha retirado la información de dosis.</p>" % (orig, esc(d["original"]), LICENCIA),
+        "</article>", "</div>", "</div>", "</main>"]
+    return documento("psiconautica/%s/" % d["slug"], d["titulo"] + " · Psiconáutica", d["desc"], "\n".join(partes), "../../",
+                     "sustancias/2c-b/index.html")
+
+
+def portada_wiki(pags):
+    n = len(pags)
+    cuenta = {k: sum(1 for p in pags if p["tipo"] == k) for k in TIPOS}
+    filtros = '<button type="button" class="on" data-tipo="" aria-pressed="true">Todo <b>%d</b></button>' % n
+    for k, (_, plur, _) in TIPOS.items():
+        if cuenta[k]:
+            filtros += '<button type="button" data-tipo="%s" aria-pressed="false">%s <b>%d</b></button>' % (k, plur, cuenta[k])
+    por_orig = {clave_wiki(p["original"]): p for p in pags}
+    cuid = [por_orig[clave_wiki(t)] for t in ANTES if clave_wiki(t) in por_orig]
+    cuid = (cuid + [p for p in pags if p["tipo"] == "cuidado" and p not in cuid])[:6]
+    antes = "".join('<li><a href="%s/">%s</a>: %s</li>' % (p["slug"], esc(p["titulo"]), esc(p["nota"] or p["frase"])) for p in cuid)
+    pref = [por_orig[clave_wiki(t)] for t in PREFERIDAS if clave_wiki(t) in por_orig]
+    atajos = ", ".join('<a href="%s/">%s</a>' % (p["slug"], esc(p["titulo"])) for p in pref[:8])
+    letras = {}
+    for p in sorted(pags, key=lambda p: orden(p["titulo"])):
+        l = orden(p["titulo"])[:1].upper()
+        letras.setdefault(l if l.isalpha() else "#", []).append(p)
+    barra = "".join('<a href="#l-%s">%s</a>' % ("num" if l == "#" else l.lower(), l) for l in letras)
+    az = ""
+    for l, ps in letras.items():
+        ident = "num" if l == "#" else l.lower()
+        az += '<section class="p-letra" id="l-%s" aria-labelledby="lt-%s"><h3 id="lt-%s">%s</h3><ul>%s</ul></section>\n' % (
+            ident, ident, ident, l, "".join('<li data-t="%s"><a href="%s/">%s</a></li>' % (p["tipo"], p["slug"], esc(p["titulo"])) for p in ps))
+    desc = "Psiconáutica: sustancias, efectos subjetivos y cuidado de la experiencia, en español. Traducción de PsychonautWiki, sin dosis."
+    partes = [
+        '<main id="contenido" class="psi wk" data-portada="1">', '<div class="wk-marco">', lado_wiki(""), '<div class="wk-columna">',
+        pestanas_wiki("", portada=True), '<article class="wk-hoja wk-portada">', '<h1 class="p-oculto">Psiconáutica</h1>',
+        '<div class="wk-bienvenida">',
+        '<p class="wk-bienvenida-t">Bienvenida a <b>Psiconáutica</b></p>',
+        "<p>PsychonautWiki en español: <b>%d</b> páginas sobre sustancias psicoactivas, efectos subjetivos y cuidado de la experiencia.</p>" % n,
+        '<form class="p-busca wk-gran-busca" id="p-form" action="../buscar/" method="get" role="search"><label class="p-oculto" for="p-q">Buscar en Psiconáutica</label>'
+        '<input id="p-q" name="q" type="search" placeholder="Busca una sustancia, un efecto o una idea" autocomplete="off" autocapitalize="off" spellcheck="false">'
+        '<button type="submit">Buscar</button></form>',
+        '<p class="wk-atajos">Por ejemplo: %s</p>' % atajos if atajos else "",
+        "</div>",
+        '<div class="p-filtros" id="p-filtros" role="group" aria-label="Ver solo">%s</div>' % filtros,
+        '<p class="p-oculto" id="p-n" role="status" aria-live="polite"></p>',
+        '<ol class="p-res" id="p-res" hidden></ol>',
+        '<div id="p-resto">',
+        '<div class="wk-cajas">',
+        '<section class="wk-caja" id="antes" aria-labelledby="antes-t"><h2 id="antes-t">Antes de una experiencia</h2><ul>%s</ul></section>' % antes,
+        '<section class="wk-caja" aria-labelledby="origen-t"><h2 id="origen-t">De dónde viene</h2>'
+        '<p>Los textos son traducciones de <a class="ext" href="https://psychonautwiki.org/" rel="noopener">PsychonautWiki</a>, una enciclopedia '
+        'colaborativa sobre sustancias psicoactivas, y se publican con su misma licencia, <a class="ext" href="%s" rel="license noopener">CC BY-SA 4.0</a>. '
+        "PsychonautWiki no ha participado en esta traducción ni la respalda.</p>"
+        "<p>Hemos dejado fuera las cifras de dosis y las guías de elaboración. Cada página enlaza a su original en inglés.</p></section>" % LICENCIA,
+        "</div>",
+        '<section class="wk-caja wk-todas" id="todas" aria-labelledby="az-t"><h2 id="az-t">Todas las páginas</h2>',
+        '<nav class="p-barra" aria-label="Ir a la letra">%s</nav>' % barra,
+        az + "</section>",
+        "</div>", "</article>", "</div>", "</div>", "</main>"]
+    return documento("psiconautica/", "Psiconáutica", desc, "\n".join(x for x in partes if x), "../", "sustancias/index.html", "website")
+
+
 # ------------------------------------------------------------------ MAPA DEL SITIO
 def mapa_sitio(pags, hoy):
     ruta = os.path.join(DOCS, "sitemap.xml")
@@ -479,11 +731,15 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--json", help="carpeta con los .json de las páginas traducidas")
     ap.add_argument("--excluidas", help="archivo con títulos originales o slugs que no se publican (uno por línea)")
-    ap.add_argument("--con-legalidad", action="store_true", help="publica los apartados de situación legal")
-    ap.add_argument("--hoy", default="2026-11-25", help="fecha para el mapa del sitio (AAAA-MM-DD)")
+    ap.add_argument("--con-legalidad", action="store_true", help="(por defecto) publica los apartados de situación legal")
+    ap.add_argument("--sin-legalidad", action="store_true", help="quita los apartados de situación legal")
+    ap.add_argument("--wiki", help="carpeta de datos del Mac (traducido/ y original/indice.json): convierte el wikitexto entero")
+    ap.add_argument("--aspecto", choices=["wiki", "apder"], default="wiki", help="aspecto de las páginas (por defecto, %(default)s)")
+    ap.add_argument("--hoy", default="2026-11-26", help="fecha para el mapa del sitio (AAAA-MM-DD)")
     a = ap.parse_args()
-    global CON_LEGALIDAD
-    CON_LEGALIDAD = a.con_legalidad
+    global CON_LEGALIDAD, ASPECTO
+    CON_LEGALIDAD = not a.sin_legalidad
+    ASPECTO = a.aspecto
 
     pags = {}
     for ruta in sorted(glob.glob(os.path.join(SALIDA, "*", "index.html"))):
@@ -497,6 +753,8 @@ def main():
     fuera = set()
     if a.excluidas:
         fuera = {clave_wiki(l) for l in leer(a.excluidas).splitlines() if l.strip() and not l.startswith("#")}
+    if a.wiki:
+        pags.update(de_wiki(a.wiki, fuera))
     saltadas = []
     for slug in list(pags):
         d = pags[slug]
@@ -504,6 +762,8 @@ def main():
             saltadas.append(slug)
             del pags[slug]
     mapa = {clave_wiki(d["original"]): s for s, d in pags.items() if d.get("original")}
+    SLUG_DE.clear()
+    SLUG_DE.update(mapa)
     for d in pags.values():                                   # también por alias en inglés, si los hay
         for al in d.get("alias_wiki", []):
             mapa.setdefault(clave_wiki(al), d["slug"])
@@ -520,9 +780,9 @@ def main():
         d.setdefault("alias", [])
         d["frase"] = primera_frase(d["cuerpo"])
         d["desc"] = descripcion(d, d["cuerpo"])
-        peso += articulo(d)
+        peso += articulo_wiki(d) if ASPECTO == "wiki" else articulo(d)
         lista.append(d)
-    portada(lista)
+    portada_wiki(lista) if ASPECTO == "wiki" else portada(lista)
     indice = [[d["slug"], d["titulo"], TIPOS[d["tipo"]][2], d["original"], d["nota"] or d["frase"]] + ([d["alias"]] if d["alias"] else [])
               for d in sorted(lista, key=lambda d: orden(d["titulo"]))]
     with open(os.path.join(SALIDA, "indice.json"), "w", encoding="utf-8") as f:

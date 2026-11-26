@@ -33,6 +33,13 @@
 
   /* ---- portada ---- */
   if (!main.hasAttribute('data-portada')) return;
+  /* «Página al azar» (?azar=1): salta a una página cualquiera del índice */
+  if (/[?&]azar=1/.test(location.search)) {
+    fetch('indice.json').then(function (r) { return r.json(); }).then(function (d) {
+      if (d.length) location.replace(d[Math.floor(Math.random() * d.length)][0] + '/');
+    }).catch(function () {});
+    return;
+  }
   var campo = document.getElementById('p-q');
   var form = document.getElementById('p-form');
   var filtros = document.getElementById('p-filtros');

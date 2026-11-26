@@ -5,3 +5,24 @@ h-wp|sustancias/datura/index.html
 h-wp|sustancias/psilocibina/index.html
 h-wp|terapia/ayahuasca/index.html
 h-wp|terapia/ibogaina/index.html
+# Psiconáutica (26-11-2026): referencias externas a PDF en webs ajenas (bibliografía traducida de PsychonautWiki)
+h-wp|psiconautica/2c-c/index.html
+h-wp|psiconautica/2c-d/index.html
+h-wp|psiconautica/2c-i/index.html
+h-wp|psiconautica/5-meo-dmt/index.html
+h-wp|psiconautica/5-meo-mipt/index.html
+h-wp|psiconautica/bromazepam/index.html
+h-wp|psiconautica/cognitive-effects/index.html
+h-wp|psiconautica/cognitive-enhancements/index.html
+h-wp|psiconautica/color-enhancement/index.html
+h-wp|psiconautica/coluracetam/index.html
+h-wp|psiconautica/diazepam/index.html
+h-wp|psiconautica/external-hallucination/index.html
+h-wp|psiconautica/hallucinatory-states/index.html
+h-wp|psiconautica/maoi/index.html
+h-wp|psiconautica/object-alteration/index.html
+h-wp|psiconautica/pentedrone/index.html
+h-wp|psiconautica/perspective-hallucination/index.html
+h-wp|psiconautica/shadow-people/index.html
+h-wp|psiconautica/visual-effects/index.html
+h-wp|psiconautica/visual-effects-psychedelics/index.html
