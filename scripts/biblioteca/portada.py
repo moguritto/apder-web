@@ -129,7 +129,7 @@ def construir():
 <section class="e-portada"><div class="ancho e-portada-in">
 <div><p class="etq oro">Biblioteca</p><h1>Libros para <em>leer a fondo</em></h1>
 <p class="e-intro">{n} fichas de libros sobre medicinas psicodélicas: ciencia, terapia, historia, antropología y testimonios. Cada una con sus datos de edición y enlaces para encontrar el libro.</p>
-<form class="e-busca" id="bh-form" role="search" action="./">{LUPA}<input type="search" id="bh-q" name="q" aria-label="Buscar en la biblioteca" placeholder="Título, autor o tema" autocomplete="off"><button class="btn o" type="submit">Buscar</button></form>
+<form class="e-busca" id="bh-form" role="search" aria-label="Buscar en la Biblioteca" action="./">{LUPA}<input type="search" id="bh-q" name="q" aria-label="Buscar en la biblioteca" placeholder="Título, autor o tema" autocomplete="off"><button class="btn o" type="submit">Buscar</button></form>
 <p class="e-atajos">Entrar por {enlace_filtro("idioma", "español", "En español")}{enlace_filtro("cat", "Terapia y clínica", "Terapia y clínica")}{enlace_filtro("sust", "ayahuasca", "Ayahuasca")}{enlace_filtro("sust", "psilocibina", "Psilocibina")}<a href="?orden=new#catalogo-libros" data-orden="new"><span>Los más recientes</span></a></p></div>
 <div class="bh-abanico">{abanico}</div>
 </div></section>
@@ -159,7 +159,7 @@ def construir():
 <div class="s-ancho bx" id="catalogo-libros"><button type="button" id="b-filtros-toggle" class="bx-filtro-toggle" aria-controls="b-filtros" aria-expanded="false">Mostrar filtros</button>
 {filtros}
 <div class="bx-main">
-<div class="bx-barra" role="search">
+<div class="bx-barra" role="search" aria-label="Filtrar el catálogo">
 <label class="bx-oculto" for="b-q">Buscar por título, autor o tema</label>
 <input type="search" id="b-q" placeholder="Busca por título, autor o tema…">
 <div class="bx-orden"><label for="b-orden">Ordenar por</label>

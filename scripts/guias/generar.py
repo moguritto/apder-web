@@ -214,8 +214,10 @@ def construir():
             sim = SIMBOLOS[slug]
             corto = NOMBRES_CORTOS.get(slug, nombre)
             nueva = " g-fila" if j == 0 else ""
-            celdas.append(f'<a class="f{i + 1} l{min(len(sim), 4)}{nueva}" href="{slug}/" aria-label="{html.escape(nombre)}">'
-                          f'<small>{html.escape(g["dur_corta"])}</small><b>{sim}</b><span>{html.escape(corto)}</span></a>')
+            # el nombre accesible empieza por lo que se lee en la celda (criterio 2.5.3); el nombre completo, solo para lectores
+            extra = f'<span class="solo-lectores"> ({html.escape(nombre)})</span>' if nombre.lower() != corto.lower() else ""
+            celdas.append(f'<a class="f{i + 1} l{min(len(sim), 4)}{nueva}" href="{slug}/">'
+                          f'<small aria-hidden="true">{html.escape(g["dur_corta"])}</small><b aria-hidden="true">{sim}</b><span>{html.escape(corto)}</span>{extra}</a>')
     tabla = "".join(celdas)
 
     franja = "".join(f'<a href="../enciclopedia/{slug}/"><img src="img/franja-{slug}.webp" alt="" width="400" height="500" loading="lazy" decoding="async"><b>{nombre}</b></a>'
