@@ -775,6 +775,8 @@ nav.s-toc{top:84px}
 .cabecera{position:sticky;top:0;z-index:50;background:var(--crema);border-bottom:1px solid transparent;transition:background .3s,box-shadow .3s,border-color .3s}
 .cabecera.compacta{background:rgba(247,241,230,.97);border-bottom-color:rgba(217,204,180,.8);box-shadow:0 14px 30px -24px rgba(60,40,20,.5)}
 @supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){.cabecera.compacta{background:rgba(247,241,230,.78);-webkit-backdrop-filter:saturate(1.6) blur(16px);backdrop-filter:saturate(1.6) blur(16px)}}
+/* Móvil y tableta: sin desenfoque. backdrop-filter convierte la cabecera en el marco del menú fijo y, con la página bajada, el menú se cortaba a la altura de la cabecera. */
+@media (max-width:1000px){.cabecera.compacta{background:rgba(247,241,230,.97);-webkit-backdrop-filter:none;backdrop-filter:none}}
 .cabecera.menu-abierto,.cabecera:has(.menu-desp.abierto){background:var(--crema)}
 .cabecera.compacta .menu-enlace{min-height:40px}
 .cabecera.compacta .cab-buscar,.cabecera.compacta .cab-escribe,.cabecera.compacta .menu-toggle{min-height:40px}
