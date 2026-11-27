@@ -244,3 +244,28 @@
 .wk-puentes b{display:block;margin:1px 0 3px;font:400 1.12rem/1.25 var(--serif);color:var(--enlace)}
 .wk-puentes small{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font-size:.8rem;line-height:1.4}
 @media (max-width:980px){.wk-fs{float:none;width:auto;max-width:none;margin:0 0 1.1em}}
+
+/* ---- portada con la estructura de la «Main Page» de la wiki ---- */
+.wk-lema{font:italic 400 1.05rem/1.4 var(--serif);color:var(--suave)}
+.wk-cifra{font-size:.85rem;color:var(--suave)}
+.wk-indices{margin:0 0 14px;padding:8px 12px;border:1px solid var(--gris);background:var(--claro);font-size:.9rem;line-height:1.8}
+.wk-pbloque{margin:20px 0 0}
+.wk-pbloque>h2{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 10px;padding-bottom:3px;border-bottom:1px solid var(--gris);font:400 1.45rem/1.3 var(--serif);color:#000}
+.wk-pbloque>p{margin:.4em 0;font-size:.92rem}
+.wk-otros{margin-left:auto;padding:3px 10px;border:1px solid var(--gris);border-radius:2px;background:var(--claro);font:inherit;font-size:.8rem;color:var(--enlace);cursor:pointer}
+.wk-otros:hover{background:var(--nota)}
+.wk-pgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
+.wk-pgrid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.wk-pc{border:1px solid var(--gris);background:#fff}
+.wk-pc>h3{margin:0;padding:5px 10px;background:#cedff2;border-bottom:1px solid var(--gris);font:700 .98rem/1.4 var(--sans);color:#000}
+.wk-pc-ancha{margin:0 0 12px}
+.wk-pc-cuidado>h3{background:#fde8c8}
+.wk-sub{margin:.55em 10px 0;font-size:.8rem;font-weight:700;color:var(--suave)}
+.wk-linea{margin:.25em 10px .6em;padding:0;list-style:none;font-size:.88rem;line-height:1.7}
+.wk-linea li{display:inline}
+.wk-linea li:not(:last-child)::after{content:"\00a0· ";color:var(--gris)}
+.wk-azar li:nth-child(n+11){display:none}
+.wk-ver{text-align:right;font-size:.85rem}
+.wk-todas .p-filtros{margin:0 0 8px}
+@media (max-width:980px){.wk-pgrid-3{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:700px){.wk-pgrid{grid-template-columns:minmax(0,1fr)}}

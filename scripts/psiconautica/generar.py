@@ -30,7 +30,7 @@ from urllib.parse import unquote
 AQUI = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.normpath(os.path.join(AQUI, "..", "..", "docs"))
 SALIDA = os.path.join(DOCS, "psiconautica")
-VERSION = "20261126c"          # cambia al tocar psiconautica.css, wiki.css o psiconautica.js
+VERSION = "20261127a"          # cambia al tocar psiconautica.css, wiki.css o psiconautica.js
 ASPECTO = "wiki"               # «wiki»: el aspecto de PsychonautWiki (decisión de Mannu, 26-11-2026); «apder»: el rediseño propio
 sys.path.insert(0, AQUI)
 import wiki as WK              # conversor del wikitexto (despliega las piezas compartidas de la wiki)
@@ -698,21 +698,120 @@ def articulo_wiki(d):
                      "sustancias/2c-b/index.html")
 
 
+# Portada con la estructura de la «Main Page» de PsychonautWiki. Las cajas se llenan con las categorías
+# de la wiki (categorias.json, sacado del wikitexto; se rehace con --wiki) y solo enlazan páginas publicadas.
+CATS_RUTA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "categorias.json")
+INDICES = ["Experience index", "Psychoactive substance index", "Psychonaut media index", "Replication index", "Ritual index",
+           "Subjective effect index", "Tripsitting index", "Tutorial index", "Responsible drug use"]
+PRACTICAS = ["Breathing techniques", "Fasting", "Meditation", "Sensory deprivation", "Sleep deprivation", "Tulpa"]
+HERRAMIENTAS = ["Meditation frequency", "Psychedelic art", "Shulgin Rating Scale", "Good vibes", "Trippy vibes", "Bad vibes"]
+CLASICOS = ["LSD", "Psilocybin mushrooms", "DMT", "Ayahuasca", "Changa", "Mescaline", "2C-B", "2C-E", "2C-T-2", "2C-T-7", "DOM"]
+ADVERSOS = ["Bad trip", "Cold turkey", "Drug overdose", "Seizure", "Serotonin syndrome", "Hallucinogen persisting perception disorder",
+            "Addiction suppression", "Psychosis"]
+# (título de la caja, categorías que la llenan, subgrupos [(nombre, categorías)]; lo que no cae en un subgrupo va en «Otros»)
+CAJAS_SUST = [
+    ("Otros psicodélicos", ["Psychedelic"], [("Lisergamidas", ["Lysergamide"]), ("Triptaminas", ["Tryptamine"]),
+        ("2C-x", ["2C-x", "2C-T-x"]), ("DOx", ["DOx"]), ("NBx", ["25x-NBOMe", "25x-NBOH"]), ("MDxx", ["MDxx"]),
+        ("Otras fenetilaminas", ["Phenethylamine", "Amphetamine"])]),
+    ("Entactógenos", ["Entactogen"], [("Benzofuranos", ["Benzofuran"]), ("MDxx", ["MDxx"]), ("Catinonas", ["Cathinone"])]),
+    ("Disociativos", ["Dissociative"], [("Arilciclohexilaminas", ["Arylcyclohexylamine"]), ("Diariletilaminas", ["Diarylethylamine"])]),
+    ("Delirantes", ["Deliriant"], []),
+    ("Cannabinoides", ["Cannabinoid"], []),
+    ("Depresores", ["Depressant"], [("Benzodiacepinas", ["Benzodiazepine", "Triazolobenzodiazepine", "Thienodiazepine"]),
+        ("Opioides", ["Opioid"]), ("Barbitúricos", ["Barbiturate"]), ("Gabapentinoides", ["Gabapentinoid", "Gamma-Amino acid"]),
+        ("Alcoholes", ["Alcohol"])]),
+    ("Estimulantes", ["Stimulant"], [("Anfetaminas", ["Amphetamine"]), ("Catinonas", ["Cathinone"]), ("Fenidatos", ["Phenidate"]),
+        ("Pirrolidinas", ["Pyrrolidine", "Pyrrolidinophenone"]), ("Xantinas", ["Xanthine"])]),
+    ("Nootrópicos", ["Nootropic"], [("Racetams", ["Racetam"])]),
+    ("Botánica y micología", ["Plant", "Mycology", "Mushroom", "mushrooms", "Psilocybin containing mushroom", "Deliriant plant"], []),
+    ("Farmacología", ["Pharmacology"], []),
+    ("Neurociencia", ["Neuroscience", "Neurotransmitter"], []),
+    ("Listas", ["Substance-related lists"], []),
+]
+EFECTOS = [("Efectos visuales", ["Visual"]), ("Efectos cognitivos", ["Cognitive"]),
+           ("Efectos físicos y otros", ["Physical", "Bodily", "Auditory", "Tactile", "Multisensory", "Transpersonal", "Cardiovascular"])]
+
+
 def portada_wiki(pags):
     n = len(pags)
-    cuenta = {k: sum(1 for p in pags if p["tipo"] == k) for k in TIPOS}
+    try:
+        crudo = json.loads(leer(CATS_RUTA))
+    except (OSError, ValueError):
+        crudo = {}
+    cats = {clave_wiki(k): set(v) for k, v in crudo.items()}
+    pags = [p for p in pags if clave_wiki(p["original"]) != clave_wiki("Main Page")]     # la portada traducida no va en las cajas
+    por_orig = {clave_wiki(p["original"]): p for p in pags}
+    de = lambda p: cats.get(clave_wiki(p["original"]), set())
+    orden_p = lambda ps: sorted(ps, key=lambda p: orden(p["titulo"]))
+    usadas = set()
+
+    def li(p):
+        return '<li><a href="%s/">%s</a></li>' % (p["slug"], esc(p["titulo"]))
+
+    def de_titulos(ts):
+        return [por_orig[clave_wiki(t)] for t in ts if clave_wiki(t) in por_orig]
+
+    def linea(ps, clase="wk-linea"):
+        return '<ul class="%s">%s</ul>' % (clase, "".join(li(p) for p in ps)) if ps else ""
+
+    def caja(titulo, cuerpo, clase=""):
+        if not cuerpo:
+            return ""
+        ident = "c-" + re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFD", titulo).encode("ascii", "ignore").decode().lower()).strip("-")
+        return '<section class="wk-pc%s" aria-labelledby="%s"><h3 id="%s">%s</h3>%s</section>' % (
+            " " + clase if clase else "", ident, ident, esc(titulo), cuerpo)
+
+    def grupos(ps, subs):
+        gen = orden_p(p for p in ps if p["tipo"] != "sustancia")
+        quedan = [p for p in ps if p["tipo"] == "sustancia"]
+        if not quedan:
+            return linea(gen)
+        html_ = '<p class="wk-sub">Sobre la clase</p>' + linea(gen) if gen and subs else ""
+        for nombre, cs in subs:
+            g = [p for p in quedan if de(p) & set(cs)]
+            if g:
+                html_ += '<p class="wk-sub">%s</p>%s' % (esc(nombre), linea(orden_p(g)))
+                quedan = [p for p in quedan if p not in g]
+        if quedan:
+            html_ += ('<p class="wk-sub">Otros</p>' if html_ else "") + linea(orden_p(quedan))
+        if gen and not subs:
+            html_ = linea(orden_p(quedan + gen))
+        return html_
+
+    sust = [p for p in pags if p["tipo"] == "sustancia" or de(p) & {"Psychoactive substance", "Substance", "Plant", "Mycology"}]
+    # Psiconáutica y onironáutica
+    prac, herr = de_titulos(PRACTICAS), de_titulos(HERRAMIENTAS)
+    psi_mas = orden_p(p for p in pags if "Psychonautics" in de(p) and "Oneironautics" not in de(p) and p not in prac + herr)
+    psi = (('<p class="wk-sub">Prácticas</p>' + linea(prac) if prac else "") + ('<p class="wk-sub">Herramientas</p>' + linea(herr) if herr else "")
+           + ('<p class="wk-sub">Más</p>' + linea(psi_mas) if psi_mas else ""))
+    oni = linea(orden_p(p for p in pags if "Oneironautics" in de(p)))
+    # efectos al azar (el guion baraja y enseña diez; sin guion salen los diez primeros)
+    efectos, vistos = "", set()
+    for titulo, cs in EFECTOS:
+        ps = [p for p in pags if p["tipo"] == "efecto" and de(p) & set(cs) and p["slug"] not in vistos]
+        vistos.update(p["slug"] for p in ps)
+        efectos += caja("%s (%d)" % (titulo, len(ps)), linea(orden_p(ps), "wk-linea wk-azar"))
+    # uso responsable
+    resp = orden_p(p for p in pags if "Responsible drug use" in de(p) and clave_wiki(p["original"]) not in {clave_wiki(t) for t in ADVERSOS})
+    adv = de_titulos(ADVERSOS)
+    uso = linea(resp) + ('<p class="wk-sub">Efectos adversos</p>' + linea(adv) if adv else "")
+    # sustancias
+    clas = de_titulos(CLASICOS)
+    cajas = [caja("Psicodélicos clásicos", linea(clas))]
+    for titulo, cs, subs in CAJAS_SUST:
+        ps = [p for p in pags if de(p) & set(cs)]
+        if titulo == "Otros psicodélicos":
+            ps = [p for p in ps if p not in clas]
+        cajas.append(caja("%s (%d)" % (titulo, len(ps)), grupos(ps, subs)))
+    indices = de_titulos(INDICES)
+
     filtros = '<button type="button" class="on" data-tipo="" aria-pressed="true">Todo <b>%d</b></button>' % n
+    cuenta = {k: sum(1 for p in pags if p["tipo"] == k) for k in TIPOS}
     for k, (_, plur, _) in TIPOS.items():
         if cuenta[k]:
             filtros += '<button type="button" data-tipo="%s" aria-pressed="false">%s <b>%d</b></button>' % (k, plur, cuenta[k])
-    por_orig = {clave_wiki(p["original"]): p for p in pags}
-    cuid = [por_orig[clave_wiki(t)] for t in ANTES if clave_wiki(t) in por_orig]
-    cuid = (cuid + [p for p in pags if p["tipo"] == "cuidado" and p not in cuid])[:6]
-    antes = "".join('<li><a href="%s/">%s</a>: %s</li>' % (p["slug"], esc(p["titulo"]), esc(p["nota"] or p["frase"])) for p in cuid)
-    pref = [por_orig[clave_wiki(t)] for t in PREFERIDAS if clave_wiki(t) in por_orig]
-    atajos = ", ".join('<a href="%s/">%s</a>' % (p["slug"], esc(p["titulo"])) for p in pref[:8])
     letras = {}
-    for p in sorted(pags, key=lambda p: orden(p["titulo"])):
+    for p in orden_p(pags):
         l = orden(p["titulo"])[:1].upper()
         letras.setdefault(l if l.isalpha() else "#", []).append(p)
     barra = "".join('<a href="#l-%s">%s</a>' % ("num" if l == "#" else l.lower(), l) for l in letras)
@@ -721,31 +820,38 @@ def portada_wiki(pags):
         ident = "num" if l == "#" else l.lower()
         az += '<section class="p-letra" id="l-%s" aria-labelledby="lt-%s"><h3 id="lt-%s">%s</h3><ul>%s</ul></section>\n' % (
             ident, ident, ident, l, "".join('<li data-t="%s"><a href="%s/">%s</a></li>' % (p["tipo"], p["slug"], esc(p["titulo"])) for p in ps))
-    desc = "Psiconáutica: sustancias, efectos subjetivos y cuidado de la experiencia, en español. Traducción de PsychonautWiki, sin dosis."
+    desc = "Psiconáutica: la enciclopedia abierta de la psiconáutica en español. Sustancias, efectos subjetivos y uso responsable, traducidos de PsychonautWiki."
     partes = [
         '<main id="contenido" class="psi wk" data-portada="1">', '<div class="wk-marco">', lado_wiki(""), '<div class="wk-columna">',
         pestanas_wiki("", portada=True), '<article class="wk-hoja wk-portada">', '<h1 class="p-oculto">Psiconáutica</h1>',
         '<div class="wk-bienvenida">',
         '<p class="wk-bienvenida-t">Bienvenida a <b>Psiconáutica</b></p>',
-        "<p>PsychonautWiki en español: <b>%d</b> páginas sobre sustancias psicoactivas, efectos subjetivos y cuidado de la experiencia.</p>" % n,
+        '<p class="wk-lema">La enciclopedia abierta de la psiconáutica, en español</p>',
         '<form class="p-busca wk-gran-busca" id="p-form" action="../buscar/" method="get" role="search"><label class="p-oculto" for="p-q">Buscar en Psiconáutica</label>'
         '<input id="p-q" name="q" type="search" placeholder="Busca una sustancia, un efecto o una idea" autocomplete="off" autocapitalize="off" spellcheck="false">'
         '<button type="submit">Buscar</button></form>',
-        '<p class="wk-atajos">Por ejemplo: %s</p>' % atajos if atajos else "",
+        '<p class="wk-cifra"><b>%d</b> páginas traducidas de PsychonautWiki · <a href="?azar=1">Página al azar</a> · <a href="#todas">Todas las páginas</a></p>' % n,
         "</div>",
-        '<div class="p-filtros" id="p-filtros" role="group" aria-label="Ver solo">%s</div>' % filtros,
         '<p class="p-oculto" id="p-n" role="status" aria-live="polite"></p>',
         '<ol class="p-res" id="p-res" hidden></ol>',
         '<div id="p-resto">',
-        '<div class="wk-cajas">',
-        '<section class="wk-caja" id="antes" aria-labelledby="antes-t"><h2 id="antes-t">Antes de una experiencia</h2><ul>%s</ul></section>' % antes,
-        '<section class="wk-caja" aria-labelledby="origen-t"><h2 id="origen-t">De dónde viene</h2>'
+        '<nav class="wk-indices" aria-label="Índices"><b>Índices:</b> %s</nav>' % " · ".join('<a href="%s/">%s</a>' % (p["slug"], esc(p["titulo"])) for p in indices) if indices else "",
+        '<div class="wk-pgrid">%s%s</div>' % (caja("Psiconáutica", psi), caja("Onironáutica", oni)),
+        '<section class="wk-pbloque" aria-labelledby="b-efectos"><h2 id="b-efectos">Efectos subjetivos al azar'
+        ' <button type="button" class="wk-otros" id="p-otros" hidden>Otros al azar</button></h2>',
+        '<div class="wk-pgrid wk-pgrid-3">%s</div>' % efectos,
+        '<p class="wk-ver"><a href="?tipo=efecto#todas">Ver los %d efectos subjetivos</a></p></section>' % cuenta.get("efecto", 0),
+        '<section class="wk-pbloque" aria-labelledby="b-sust"><h2 id="b-sust">Sustancias</h2>',
+        caja("Uso responsable", uso, "wk-pc-ancha wk-pc-cuidado"),
+        '<div class="wk-pgrid">%s</div></section>' % "".join(c for c in cajas if c),
+        '<section class="wk-pbloque" aria-labelledby="b-origen"><h2 id="b-origen">De dónde viene</h2>'
         '<p>Los textos son traducciones de <a class="ext" href="https://psychonautwiki.org/" rel="noopener">PsychonautWiki</a>, una enciclopedia '
-        'colaborativa sobre sustancias psicoactivas, y se publican con su misma licencia, <a class="ext" href="%s" rel="license noopener">CC BY-SA 4.0</a>. '
-        "PsychonautWiki no ha participado en esta traducción ni la respalda.</p>"
-        "<p>Hemos dejado fuera las cifras de dosis y de muertes, y las guías de elaboración. Cada página enlaza a su original en inglés.</p></section>" % LICENCIA,
-        "</div>",
-        '<section class="wk-caja wk-todas" id="todas" aria-labelledby="az-t"><h2 id="az-t">Todas las páginas</h2>',
+        'colaborativa que quiere documentar la psiconáutica con rigor, educar en la reducción de riesgos y ayudar a romper los tabúes sobre la '
+        'exploración de la consciencia. Se publican con su misma licencia, <a class="ext" href="%s" rel="license noopener">CC BY-SA 4.0</a>. '
+        "PsychonautWiki no ha participado en esta traducción ni la respalda. Cada página enlaza a su original en inglés. "
+        "Hemos dejado fuera las guías de cultivo, extracción y síntesis.</p></section>" % LICENCIA,
+        '<section class="wk-pbloque wk-todas" id="todas" aria-labelledby="az-t"><h2 id="az-t">Todas las páginas</h2>',
+        '<div class="p-filtros" id="p-filtros" role="group" aria-label="Ver solo">%s</div>' % filtros,
         '<nav class="p-barra" aria-label="Ir a la letra">%s</nav>' % barra,
         az + "</section>",
         "</div>", "</article>", "</div>", "</div>", "</main>"]

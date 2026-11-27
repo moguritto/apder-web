@@ -1,0 +1,4804 @@
+{
+"1,4-Butanediol": [
+"1,4-Butanediol",
+":Psychoactive substance",
+"Alcohol",
+"Alkanediol",
+"Depressant",
+"Experience",
+"Prodrug"
+],
+"1B-LSD": [
+"1B-LSD",
+"Experience",
+"Hallucinogen",
+"Lysergamide",
+"Prodrug",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"1P-ETH-LAD": [
+"1P-ETH-LAD",
+"Experience",
+"Hallucinogen",
+"Lysergamide",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"1P-LSD": [
+"1P-LSD",
+"Entheogen",
+"Experience",
+"Hallucinogen",
+"Lysergamide",
+"Prodrug",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"1V-LSD": [
+"1V-LSD",
+"Experience",
+"Hallucinogen",
+"Lysergamide",
+"Prodrug",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"1cP-LSD": [
+"1cP-LSD",
+"Approval",
+"Experience",
+"Proofread",
+"Psychoactive substance",
+"SUBSTANCE"
+],
+"2,5-DMA": [
+"DOx",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"2-Aminoindane": [
+"Aminoindane",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant",
+"Substance"
+],
+"2-FA": [
+"2-FA",
+"Amphetamine",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"2-FEA": [
+"Amphetamine",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"2-FMA": [
+"2-FMA",
+"Amphetamine",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"2-Fluorodeschloroketamine": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Psychoactive substance",
+"Research chemical"
+],
+"25B-NBOH": [
+"25B-NBOH",
+"25x-NBOH",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"25B-NBOMe": [
+"25x-NBOMe",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"25C-NBOH": [
+"25C-NBOH",
+"25x-NBOH",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"25C-NBOMe": [
+"25C-NBOMe",
+"25x-NBOMe",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"25D-NBOMe": [
+"25x-NBOMe",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"25E-NBOH": [
+"Approval",
+"Experience",
+"Proofread",
+"Psychoactive substance",
+"SUBSTANCE"
+],
+"25I-NBOH": [
+"25I-NBOH",
+"25x-NBOH",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"25I-NBOMe": [
+"25I-NBOMe",
+"25x-NBOMe",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"25N-NBOMe": [
+"25x-NBOMe",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"25x-NBOH": [
+"25x-NBOH",
+"Chemical class"
+],
+"25x-NBOMe": [
+"25x-NBOMe",
+"Chemical class"
+],
+"2C-B": [
+"2C-B",
+"2C-x",
+"Aphrodisiac",
+"Experience",
+"Psychedelic",
+"Psychoactive substance"
+],
+"2C-B-FLY": [
+"2C-x",
+"Benzodihydrofuran",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-C": [
+"2C-C",
+"2C-x",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-D": [
+"2C-x",
+"Psychedelic",
+"Psychoactive substance"
+],
+"2C-E": [
+"2C-E",
+"2C-x",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-H": [
+"2C-x",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"2C-I": [
+"2C-I",
+"2C-x",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-P": [
+"2C-P",
+"2C-x",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-T": [
+"2C-T-x",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-T-2": [
+"2C-T-x",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-T-21": [
+"2C-T-x",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-T-7": [
+"2C-T-x",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"2C-T-x": [
+"2C-T-x",
+"Chemical class"
+],
+"2C-x": [
+"2C-x",
+"Chemical class"
+],
+"2M2B": [
+"Alcohol",
+"Depressant",
+"Psychoactive substance",
+"Substance"
+],
+"3,4-CTMP": [
+"Phenidate",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"3-CMC": [
+"3-CMC (experience)",
+"Experience"
+],
+"3-FA": [
+"3-FA",
+"Amphetamine",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"3-FEA": [
+"3-FEA",
+"Amphetamine",
+"Entactogen",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"3-FMA": [
+"3-FMA",
+"Amphetamine",
+"Entactogen",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"3-FPM": [
+"3-FPM",
+"Amphetamine",
+"Experience",
+"Phenylmorpholine",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"3-HO-PCE": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Piperidine",
+"Psychoactive substance",
+"Research chemical"
+],
+"3-HO-PCP": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Piperidine",
+"Psychoactive substance",
+"Research chemical"
+],
+"3-MMC": [
+"Cathinone",
+"Entactogen",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"3-MeO-PCE": [
+"3-MeO-PCE",
+"Arylcyclohexylamine",
+"Dissociative",
+"Experience",
+"Psychoactive substance",
+"Research chemical"
+],
+"3-MeO-PCMo": [
+"3-MeO-PCMo",
+"Arylcyclohexylamine",
+"Dissociative",
+"Experience",
+"Psychoactive substance",
+"Research chemical"
+],
+"3-MeO-PCP": [
+"3-MeO-PCP",
+"Arylcyclohexylamine",
+"Dissociative",
+"Experience",
+"Piperidine",
+"Psychoactive substance",
+"Research chemical"
+],
+"3C-E": [
+"Amphetamine",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"3C-P": [
+"Amphetamine",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"4-AcO-DET": [
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Tryptamine"
+],
+"4-AcO-DMT": [
+"4-AcO-DMT",
+"Entheogen",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-AcO-DiPT": [
+"4-AcO-DiPT",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-AcO-MET": [
+"4-AcO-MET",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Tryptamine"
+],
+"4-AcO-MiPT": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-FA": [
+"4-FA",
+"Amphetamine",
+"Entactogen",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"4-FMA": [
+"Amphetamine",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"4-HO-DET": [
+"4-HO-DET",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-HO-DPT": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-HO-DiPT": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Tryptamine"
+],
+"4-HO-EPT": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-HO-MET": [
+"4-HO-MET",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-HO-MPT": [
+"4-HO-MPT",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-HO-MiPT": [
+"4-HO-MiPT",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"4-MeO-PCP": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Piperidine",
+"Psychoactive substance",
+"Research chemical"
+],
+"4F-EPH": [
+"4F-EPH",
+"Experience",
+"Phenidate",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"4F-MPH": [
+"Phenidate",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"5-APB": [
+"5-APB",
+"Amphetamine",
+"Benzofuran",
+"Entactogen",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"5-Hydroxytryptophan": [
+"5-HTP",
+"Amino acid",
+"Antidepressant",
+"Experience",
+"Precursor",
+"Psychoactive substance",
+"Tryptamine"
+],
+"5-MAPB": [
+"5-MAPB",
+"Amphetamine",
+"Benzofuran",
+"Entactogen",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"5-MeO-DALT": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"5-MeO-DMT": [
+"5-MeO-DMT",
+"Alkaloid",
+"Entheogen",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Tryptamine"
+],
+"5-MeO-DiBF": [
+"Benzofuran",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"5-MeO-DiPT": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"5-MeO-MiPT": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"5F-AKB48": [
+"Adamantane",
+"Cannabinoid",
+"Cycloalkylamine",
+"Indazolecarboxamide",
+"Research chemical"
+],
+"5F-PB-22": [
+"Cannabinoid",
+"Indolecarboxylate",
+"Research chemical"
+],
+"6-APB": [
+"6-APB",
+"Amphetamine",
+"Benzofuran",
+"Entactogen",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"6-APDB": [
+"Amphetamine",
+"Benzofuran",
+"Entactogen",
+"Psychoactive substance",
+"Stimulant",
+"Substance"
+],
+"7-OH": [
+"7-Hydroxymitragynine",
+"Alkaloid",
+"Experience",
+"Opioid",
+"Psychoactive substance"
+],
+"8-Chlorotheophylline": [
+"Psychoactive substance",
+"Stimulant",
+"Substance",
+"Xanthine"
+],
+"8A Geometry - Perceived exposure to semantic concept network": [
+"Effect",
+"Experience",
+"Geometric",
+"Psychoactive substance",
+"Visual"
+],
+"8B Geometry - Perceived exposure to inner mechanics of consciousness": [
+"Effect",
+"Experience",
+"Geometric",
+"Psychoactive substance",
+"Visual"
+],
+"A-PHP": [
+"Psychoactive substance",
+"Pyrrolidinophenone",
+"Research chemical",
+"Stimulant"
+],
+"A-PVP": [
+"Psychoactive substance",
+"Pyrrolidinophenone",
+"Research chemical",
+"Stimulant"
+],
+"AB-FUBINACA": [
+"Cannabinoid",
+"Indazolecarboxamide",
+"Research chemical"
+],
+"AET": [
+"Psychoactive substance"
+],
+"AL-LAD": [
+"AL-LAD",
+"Experience",
+"Hallucinogen",
+"Lysergamide",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"ALD-52": [
+"ALD-52",
+"Entheogen",
+"Experience",
+"Hallucinogen",
+"Lysergamide",
+"Prodrug",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"APICA": [
+"APICA",
+"Adamantane",
+"Cannabinoid",
+"Cycloalkylamine",
+"Experience",
+"Indolecarboxamide",
+"Research chemical"
+],
+"Abnormal heartbeat": [
+"Cardiovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Acetylcholine": [
+"Neurotransmitter"
+],
+"Acetylfentanyl": [
+"Anilidopiperidine",
+"Opioid",
+"Phenethylamine",
+"Psychoactive substance"
+],
+"Adamantanes": [
+"Adamantane",
+"Chemical class"
+],
+"Addiction suppression": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Adrafinil": [
+"Adrafinil",
+"Benzhydryl",
+"Experience",
+"Nootropic",
+"Prodrug",
+"Psychoactive substance",
+"Stimulant"
+],
+"Adrenaline": [
+"Hormone",
+"Neurotransmitter"
+],
+"After images": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Agonist": [
+"Pharmacology"
+],
+"Alcohol": [
+"Alcohol",
+"Anaphrodisiac",
+"Anxiolytics",
+"Depressant",
+"Naturally-occurring substance"
+],
+"Alcohols": [
+"Alcohol"
+],
+"Alexander Shulgin": [
+"Person",
+"Psychonaut"
+],
+"Alkaloid": [
+"Alkaloid"
+],
+"Allylescaline": [
+"Phenethylamine",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"Alpha-GPC": [
+"Cholinergic",
+"Nootropic",
+"Psychoactive substance",
+"Stimulant",
+"Substance"
+],
+"Alprazolam": [
+"Alprazolam",
+"Anxiolytics",
+"Depressant",
+"Experience",
+"Psychoactive substance",
+"Triazolobenzodiazepine"
+],
+"Alternative use of alcohols": [
+"Alcohol",
+"Preparation"
+],
+"Amanita muscaria": [
+"Amanita (genus)",
+"Amanita muscaria",
+"Deliriant",
+"Depressant",
+"Dissociative",
+"Entheogen",
+"Experience",
+"GABAergic hallucinogens"
+],
+"Amanita pantherina": [
+"Amanita (genus)"
+],
+"Amnesia": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Amphetamine": [
+"Amphetamine",
+"Experience",
+"Psychoactive substance",
+"Stimulant"
+],
+"Anadenanthera peregrina": [
+"DMT-containing plants",
+"Entheogen",
+"Fabaceae (family)",
+"Psychedelic"
+],
+"Analysis depression": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Analysis enhancement": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Anethum graveolens": [
+"Apiaceae (family)"
+],
+"Aniracetam": [
+"Nootropic",
+"Psychoactive substance",
+"Racetam",
+"Stimulant"
+],
+"Annual plant (botany)": [
+"Botany"
+],
+"Antagonist": [
+"Pharmacology"
+],
+"Antidepressants": [
+"Anaphrodisiac",
+"Antidepressant"
+],
+"Antihistamine": [
+"Antihistamine",
+"Pharmacology"
+],
+"Antipsychotic": [
+"Antipsychotic",
+"Pharmacology"
+],
+"Anxiety": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Anxiety suppression": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Apium graveolens (botany)": [
+"Apiaceae (family)"
+],
+"Appetite intensification": [
+"Effect",
+"Experience",
+"Intensification",
+"Physical",
+"Psychoactive substance"
+],
+"Appetite suppression": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Argyreia nervosa": [
+"Convolvulaceae (family)"
+],
+"Armodafinil": [
+"Benzhydryl",
+"Eugeroic",
+"Nootropic",
+"Psychoactive substance",
+"Stimulant"
+],
+"Arundo donax (botany)": [
+"Poaceae (family)"
+],
+"Arylcyclohexylamines": [
+"Arylcyclohexylamine",
+"Chemical class"
+],
+"Atropa belladonna": [
+"Atropa (genus)",
+"Deliriant plant"
+],
+"Auditory acuity enhancement": [
+"Auditory",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance",
+"Sensory"
+],
+"Auditory acuity suppression": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Auditory distortion": [
+"Auditory",
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory"
+],
+"Auditory hallucination": [
+"Auditory",
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Sensory"
+],
+"Autonomous entity": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Autonomous voice communication": [
+"Cognitive",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Ayahuasca": [
+"Ayahuasca",
+"Entheogen",
+"Experience",
+"Hallucinogen",
+"MAOI",
+"Preparation",
+"Psychedelic"
+],
+"Ayahuasca brew": [
+"Ayahuasca recipes"
+],
+"Baclofen": [
+"Depressant",
+"Gamma-Amino acid",
+"Phenethylamine",
+"Proofread",
+"Psychoactive substance"
+],
+"Bad vibes": [
+"Bad vibes",
+"External resources",
+"Unspeakable horrors"
+],
+"Banisteriopsis caapi": [
+"Acetylcholinesterase inhibitor",
+"Entheogen",
+"MAOI",
+"Psychoactive substance",
+"beta-Carboline"
+],
+"Barbiturates": [
+"Barbiturate",
+"Chemical class",
+"Depressant"
+],
+"Benzodiazepines": [
+"Benzodiazepine",
+"Chemical class",
+"Depressant"
+],
+"Benzydamine": [
+"Benzydamine",
+"Deliriant",
+"Experience",
+"Indazole",
+"Research chemical",
+"Stimulant"
+],
+"Beta-Carboline": [
+"Anxiolytics",
+"Chemical class",
+"Psychedelic",
+"beta-Carboline"
+],
+"Bibliography of Alexander Shulgin": [
+"Book"
+],
+"Blood–brain barrier": [
+"Neuroscience"
+],
+"Blue lotus": [
+"Psychoactive substance"
+],
+"Bodily control enhancement": [
+"Effect",
+"Enhancement",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Bodily pressures": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Brain zaps": [
+"Cerebrovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Brightness alteration": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Bromantane": [
+"Actoprotector",
+"Adamantane",
+"Cycloalkylamine",
+"Nootropic",
+"Psychoactive substance",
+"Stimulant"
+],
+"Bromazepam": [
+"Approval",
+"Proofread",
+"Psychoactive substance"
+],
+"Bromo-DragonFLY": [
+"Benzodifuran",
+"Bromo-DragonFLY",
+"DOx",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"Bronchodilation": [
+"Alterations",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Brown rice flour psilocybin mushroom tek": [
+"Mushroom cultivation",
+"Mycology"
+],
+"Bufotenin": [
+"Alkaloid",
+"Entheogen",
+"Psychedelic",
+"Tryptamine"
+],
+"Buprenorphine": [
+"Benzofuran",
+"Morphinan",
+"Opioid",
+"Psychoactive substance"
+],
+"Buspirone": [
+"Approval",
+"Proofread",
+"Psychoactive substance"
+],
+"Butylone": [
+"Cathinone",
+"Entactogen",
+"MDxx",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Caffeine": [
+"Acetylcholinesterase inhibitor",
+"Alkaloid",
+"Anxiogenic",
+"Caffeine",
+"Experience",
+"Stimulant",
+"Xanthine"
+],
+"Calea ternifolia": [
+"Oneirogen"
+],
+"Camellia sinensis (botany)": [
+"Plant"
+],
+"Cannabidiol": [
+"Cannabinoid",
+"Entheogen",
+"Substance"
+],
+"Cannabinoid": [
+"Cannabinoid"
+],
+"Cannabis": [
+"Cannabinoid",
+"Cannabis",
+"Cannabis (genus)",
+"Depressant",
+"Entheogen",
+"Experience",
+"Psychoactive substance",
+"Stimulant"
+],
+"Cannabis (botany)": [
+"Cannabis (genus)",
+"Proofread"
+],
+"Cannabis butter": [
+"Cannabis recipes‎",
+"Chemical conversion"
+],
+"Cannabis cookies": [
+"Cannabis recipes‎",
+"Chemical conversion"
+],
+"Cannabis growing techniques": [
+"Articles in talk page",
+"Cultivation"
+],
+"Cardiovascular effects": [
+"Cardiovascular",
+"Effect group"
+],
+"Carisoprodol": [
+"1,3-Propanediol dicarbamate",
+"Depressant",
+"Prodrug",
+"Psychoactive substance"
+],
+"Carum carvi (botany)": [
+"Apiaceae (family)"
+],
+"Catecholaminergic": [
+"Pharmacology"
+],
+"Category_Mushroom": [
+"Mycology"
+],
+"Catharsis": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Cathinone": [
+"Cathinone",
+"Proofread",
+"Psychoactive substance",
+"Stimulant"
+],
+"Chamomile (botany)": [
+"Plant"
+],
+"Changa": [
+"Entheogen",
+"Hallucinogen",
+"MAOI",
+"Preparation",
+"Psychedelic"
+],
+"Changa preparation guide": [
+"Preparation"
+],
+"Changes in felt bodily form": [
+"Alterations",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Changes in felt gravity": [
+"Experience",
+"Psychoactive substance"
+],
+"Choline bitartrate": [
+"Cholinergic",
+"Nootropic",
+"Psychoactive substance",
+"Substance"
+],
+"Citation depository": [
+"Community Page",
+"Content Development"
+],
+"Citation formatting guide": [
+"Content development",
+"PsychonautWiki"
+],
+"Citation needed": [
+"All articles with unsourced statements",
+"PsychonautWiki"
+],
+"Citicoline": [
+"Cholinergic",
+"Nootropic",
+"Psychoactive substance",
+"Stimulant",
+"Substance"
+],
+"Classical psychedelics": [
+"Psychedelic"
+],
+"Clonazepam": [
+"Anxiolytics",
+"Benzodiazepine",
+"Clonazepam",
+"Depressant",
+"Experience",
+"Psychoactive substance",
+"Substance"
+],
+"Clonazolam": [
+"Anxiolytics",
+"Clonazolam",
+"Depressant",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Triazolobenzodiazepine"
+],
+"Clonidine": [
+"Arylaminoimidazoline",
+"Clonidine",
+"Depressant",
+"Experience",
+"Psychoactive substance"
+],
+"Coca": [
+"Erythroxylum (family)",
+"Stimulant"
+],
+"Cocaine": [
+"Alkaloid",
+"Stimulant",
+"Tropane"
+],
+"Cocoa": [
+"Proofread",
+"Psychoactive substance",
+"Substance"
+],
+"Codeine": [
+"Alkaloid",
+"Benzofuran",
+"Morphinan",
+"Opioid",
+"Prodrug"
+],
+"Coffea (botany)": [
+"Rubiaceae (family)"
+],
+"Cognitive disconnection": [
+"Cognitive",
+"Disconnective",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Cognitive dysphoria": [
+"Cognitive",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Cognitive euphoria": [
+"Cognitive",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Cognitive fatigue": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Cold turkey": [
+"Responsible drug use"
+],
+"Cold water extraction": [
+"General extraction"
+],
+"Color enhancement": [
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Color replacement": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Color shifting": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Color tinting": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Coluracetam": [
+"Nootropic",
+"Psychoactive substance",
+"Racetam",
+"Stimulant"
+],
+"Comedowns": [
+"Psychonautics"
+],
+"Comparison of psychoactive alcohols in alcoholic drinks": [
+"Alcohol",
+"Substance-related lists"
+],
+"Compulsive redosing": [
+"Cognitive",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Conceptual thinking": [
+"Cognitive",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Confusion": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Constipation": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Content Style Guide - Substance": [
+"Content development"
+],
+"Cortisol": [
+"Hormone"
+],
+"Cotton fever": [
+"Harm reduction",
+"Responsible drug use"
+],
+"Cough suppression": [
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Suppression"
+],
+"Creatine": [
+"Nootropic",
+"Psychoactive substance",
+"Stimulant",
+"Substance"
+],
+"Creativity depression": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Creativity enhancement": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Cyclazodone": [
+"Aminorex",
+"Cyclazodone",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant",
+"Substance"
+],
+"Cycloalkylamines": [
+"Chemical class",
+"Cycloalkylamine"
+],
+"Cytochrome P450": [
+"Pharmacology"
+],
+"D. M. Turner": [
+"Person",
+"Psychonaut"
+],
+"DET": [
+"DET",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"DMT": [
+"Alkaloid",
+"DMT",
+"Entheogen",
+"Experience",
+"Psychedelic",
+"Tryptamine"
+],
+"DMT ingestion methods": [
+"Preparation"
+],
+"DOB": [
+"DOB",
+"DOx",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"DOC": [
+"DOC",
+"DOx",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"DOI": [
+"DOI",
+"DOx",
+"Experience",
+"Psychedelic",
+"Psychoactive substance"
+],
+"DOM": [
+"DOM",
+"DOx",
+"Experience",
+"Psychedelic",
+"Psychoactive substance"
+],
+"DOx": [
+"Chemical class",
+"DOx",
+"Psychedelic"
+],
+"DPT": [
+"DPT",
+"Entheogen",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"Dangerous combinations": [
+"Responsible drug use"
+],
+"Datura": [
+"Datura",
+"Datura (genus)",
+"Deliriant",
+"Entheogen",
+"Experience",
+"Tropane"
+],
+"Datura (botany)": [
+"Datura (genus)",
+"Deliriant",
+"Solanaceae (family)"
+],
+"Daucus carota (botany)": [
+"Apiaceae (family)"
+],
+"David E. Nichols": [
+"Person"
+],
+"Decreased blood pressure": [
+"Cardiovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Decreased bodily temperature": [
+"Cerebrovascular",
+"Effect",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Decreased heart rate": [
+"Cardiovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Decreased libido": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Dehydration": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Responsible drug use",
+"Uncomfortable"
+],
+"Deliriant": [
+"Deliriant",
+"Psychoactive class"
+],
+"Delirium": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Delirium tremens": [
+"Effect",
+"Responsible drug use",
+"Withdrawal effect"
+],
+"Delosperma (botany)": [
+"Plant"
+],
+"Delusion": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Depersonalization": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Depressant": [
+"Depressant",
+"Psychoactive class"
+],
+"Depression": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Depression reduction": [
+"Cognitive",
+"Effect",
+"Psychoactive substance"
+],
+"Depth perception distortions": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Derealization": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Deschloroetizolam": [
+"Anxiolytics",
+"Depressant",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Thienodiazepine"
+],
+"Deschloroketamine": [
+"Arylcyclohexylamine",
+"Deschloroketamine",
+"Dissociative",
+"Experience",
+"Hallucinogen",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"Desmanthus illinoensis (botany)": [
+"Fabaceae (family)"
+],
+"Desomorphine": [
+"Benzofuran",
+"Morphinan",
+"Opioid",
+"Psychoactive substance"
+],
+"Desoxypipradrol": [
+"2-Benzylpiperidine",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Detachment plateaus": [
+"Disconnective",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Dextroamphetamine": [
+"Amphetamine",
+"Psychoactive substance",
+"Stimulant"
+],
+"Dextromethorphan": [
+"DXM",
+"Dissociative",
+"Experience",
+"Morphinan",
+"Psychoactive substance"
+],
+"Dextropropoxyphene": [
+"Opioid",
+"Phenylpropylamine"
+],
+"DiPT": [
+"DiPT",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"Diarrhea": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Diarylethylamines": [
+"Chemical class",
+"Diarylethylamine"
+],
+"Diazepam": [
+"Alkaloid",
+"Anxiolytics",
+"Benzodiazepine",
+"Depressant",
+"Diazepam",
+"Experience"
+],
+"Dichloropane": [
+"Experience",
+"Phenyltropane",
+"Psychoactive substance",
+"RTI-111",
+"Stimulant",
+"Substance"
+],
+"Diclazepam": [
+"Anxiolytics",
+"Benzodiazepine",
+"Depressant",
+"Diclazepam",
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"Difficulty urinating": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Diffraction": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Dihydrocodeine": [
+"Benzofuran",
+"Morphinan",
+"Naturally-occurring substance",
+"Opioid"
+],
+"Diphenhydramine": [
+"Antihistamine",
+"Deliriant",
+"Depressant",
+"Ethanolamine",
+"Hallucinogen",
+"Proofread",
+"Psychoactive substance",
+"Substance"
+],
+"Diphenidine": [
+"Diarylethylamine",
+"Diphenidine",
+"Dissociative",
+"Experience",
+"Research chemical"
+],
+"Disconnective effects": [
+"Disconnective",
+"Effect group"
+],
+"Disinhibition": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Dissociatives": [
+"Dissociative",
+"Psychoactive class"
+],
+"Dizziness": [
+"Cerebrovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Dopamine": [
+"Hormone",
+"Neurotransmitter"
+],
+"Dosage": [
+"Responsible drug use"
+],
+"Dosage classification": [
+"Responsible drug use"
+],
+"Dosage independent intensity": [
+"Experience",
+"Psychoactive substance"
+],
+"Dosage measurement": [
+"Responsible drug use"
+],
+"Double vision": [
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory"
+],
+"Dream characters": [
+"Oneironautics",
+"Proofread"
+],
+"Dream initiated lucid dream": [
+"Oneironautics"
+],
+"Dream potentiation": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Dream signs": [
+"Oneironautics",
+"Proofread"
+],
+"Dream suppression": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Dreams": [
+"Oneironautics",
+"Proofread"
+],
+"Drifting": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Dry mouth": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Drying and humidity standardization of substances": [
+"General extraction",
+"Preparation"
+],
+"Déjà vu": [
+"Cognitive",
+"Disconnective",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"EPT": [
+"EPT",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"ETH-CAT": [
+"Cathinone",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"ETH-LAD": [
+"ETH-LAD",
+"Experience",
+"Hallucinogen",
+"Lysergamide",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"Echinacea (botany)": [
+"Plant"
+],
+"Echinopsis lageniformis": [
+"Echinopsis (genus)"
+],
+"Echinopsis pachanoi": [
+"Echinopsis (genus)"
+],
+"Echinopsis peruviana": [
+"Echinopsis (genus)"
+],
+"Efavirenz": [
+"Benzoxazine",
+"Carbamate",
+"Psychedelic"
+],
+"Ego inflation": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Ego replacement": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Emotion intensification": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Emotion suppression": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Empathy, affection and sociability enhancement": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Enhancement and suppression cycles": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Psychological"
+],
+"Entactogen": [
+"Entactogen",
+"Psychoactive class"
+],
+"Entada rheedii": [
+"Oneirogen"
+],
+"Entheogen": [
+"Entheogen"
+],
+"Environmental cubism": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Environmental orbism": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Environmental patterning": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Ephedra sinica (botany)": [
+"Plant"
+],
+"Ephedrine": [
+"Approval",
+"Proofread",
+"Psychoactive substance"
+],
+"Ephenidine": [
+"Diarylethylamine",
+"Dissociative",
+"Ephenidine",
+"Experience",
+"Research chemical"
+],
+"Ephylone": [
+"Cathinone",
+"Entactogen",
+"Ephylone",
+"Experience",
+"MDxx",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Epipactis helleborine (botany)": [
+"Plant"
+],
+"Escaline": [
+"Phenethylamine",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"Eszopiclone": [
+"Approval",
+"Cyclopyrrolone",
+"Depressant",
+"GABAergic hallucinogens",
+"Psychoactive substance"
+],
+"Ethylmorphine": [
+"Benzofuran",
+"Morphinan",
+"Opioid",
+"Psychoactive substance"
+],
+"Ethylone": [
+"Cathinone",
+"Entactogen",
+"MDxx",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Ethylphenidate": [
+"Ethylphenidate",
+"Experience",
+"Phenidate",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Etizolam": [
+"Anxiolytics",
+"Depressant",
+"Etizolam",
+"Experience",
+"Psychoactive substance",
+"Substance",
+"Thienodiazepine"
+],
+"Eugeroics": [
+"Stimulant"
+],
+"Excessive yawning": [
+"Experience",
+"Psychoactive substance"
+],
+"Existential self-realization": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Experience index": [
+"PsychonautWiki"
+],
+"External hallucination": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"F-Phenibut": [
+"Anxiolytics",
+"Depressant",
+"Experience",
+"F-Phenibut",
+"Gabapentinoid",
+"Gamma-Amino acid",
+"Nootropic",
+"Phenethylamine",
+"Psychoactive substance",
+"Research chemical"
+],
+"Feelings of impending doom": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Fenethylline": [
+"Amphetamine",
+"Psychoactive substance",
+"Stimulant"
+],
+"Fentanyl": [
+"Anilidopiperidine",
+"Opioid",
+"Phenethylamine",
+"Psychoactive substance"
+],
+"Fermented water": [
+"Fermentation"
+],
+"Flualprazolam": [
+"Experience",
+"Psychoactive substance",
+"Research chemical",
+"SUBSTANCE"
+],
+"Flubromazepam": [
+"Anxiolytics",
+"Benzodiazepine",
+"Depressant",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"Flubromazolam": [
+"Anxiolytics",
+"Depressant",
+"Psychoactive substance",
+"Research chemical",
+"Triazolobenzodiazepine"
+],
+"Flunitrazepam": [
+"Approval",
+"Proofread",
+"Psychoactive substance"
+],
+"Flunitrazolam": [
+"Benzodiazepine",
+"Depressant",
+"Psychoactive substance",
+"Research chemical"
+],
+"Focus intensification": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Focus suppression": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Foeniculum vulgare (botany)": [
+"Apiaceae (family)"
+],
+"Food Of The Gods (book)": [
+"Book"
+],
+"Fractal": [
+"Fractals"
+],
+"Frequent urination": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"GABA": [
+"Gamma-Amino acid",
+"Neurotransmitter"
+],
+"GBL": [
+"Depressant",
+"Prodrug",
+"Psychoactive substance"
+],
+"GHB": [
+"Depressant",
+"Gamma-Hydroxy acid",
+"Neurotransmitter"
+],
+"Gabapentin": [
+"Anxiolytics",
+"Cycloalkylamine",
+"Depressant",
+"Experience",
+"Gabapentin",
+"Gabapentinoid",
+"Gamma-Amino acid",
+"Psychoactive substance"
+],
+"Gabapentinoids": [
+"Chemical class",
+"Pharmacology"
+],
+"Gait alteration": [
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Suppression"
+],
+"Galantamine": [
+"Acetylcholinesterase inhibitor",
+"Alkaloid",
+"Benzazepine",
+"Benzofuran"
+],
+"Geometry": [
+"Artwork",
+"Effect",
+"Experience",
+"Fractals",
+"Geometry",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Textile",
+"Visual"
+],
+"Glutamate": [
+"Gamma-Amino acid",
+"Neurotransmitter"
+],
+"Good vibes": [
+"External resources",
+"Good vibes"
+],
+"Grayanotoxin": [
+"Approval",
+"Experience",
+"Proofread",
+"Psychoactive substance",
+"SUBSTANCE"
+],
+"Gustatory hallucination": [
+"Experience",
+"Psychoactive substance",
+"Sensory"
+],
+"HXE": [
+"Approval",
+"Experience",
+"HXE",
+"Proofread",
+"Psychoactive substance"
+],
+"Hallucinatory states": [
+"Effect group",
+"Hallucinatory"
+],
+"Hallucinogens": [
+"Hallucinogen",
+"Psychoactive class",
+"Psychonautics"
+],
+"Haloperidol": [
+"Antihistamine",
+"Antipsychotic",
+"Butyrophenone",
+"Phenylpiperidine",
+"Psychoactive substance"
+],
+"Harmala alkaloid": [
+"Acetylcholinesterase inhibitor",
+"Alkaloid",
+"Entheogen",
+"Experience",
+"Hallucinogen",
+"MAOI",
+"Syrian rue",
+"beta-Carboline"
+],
+"Headache": [
+"Cerebrovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Heroin": [
+"Experience",
+"Heroin",
+"Morphinan",
+"Opioid",
+"Psychoactive substance"
+],
+"Hexedrone": [
+"Cathinone",
+"Proofread",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Histamine": [
+"Arylethylamine",
+"Neurotransmitter"
+],
+"Hormone": [
+"Hormone"
+],
+"Hot water extraction from dried Salvia Divinorum leaves": [
+"Extraction",
+"Salvia extraction"
+],
+"Humulus lupulus (botany)": [
+"Cannabaceae (family)"
+],
+"Hydrocodone": [
+"Benzofuran",
+"Morphinan",
+"Opioid",
+"Psychoactive substance"
+],
+"Hydromorphone": [
+"Benzofuran",
+"Morphinan",
+"Opioid",
+"Psychoactive substance"
+],
+"Hyoscyamus niger (botany)": [
+"Deliriant plant",
+"Solanaceae (family)"
+],
+"Hypnotic": [
+"Depressant"
+],
+"Ibogaine": [
+"Alkaloid",
+"Cycloalkylamine",
+"Dissociative",
+"Entheogen",
+"Psychedelic",
+"Tryptamine"
+],
+"Ibotenic acid": [
+"3-Hydroxyisoxazole",
+"Amino acid",
+"Hallucinogen"
+],
+"Identity alteration": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Immersion intensification": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Increased blood pressure": [
+"Cardiovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Increased bodily temperature": [
+"Cerebrovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Increased heart rate": [
+"Cardiovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Increased introspection": [
+"Cognitive",
+"Effect",
+"Experience",
+"Meta-consciousness",
+"Psychoactive substance",
+"Psychological"
+],
+"Increased libido": [
+"Aphrodisiac",
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Increased music appreciation": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Increased perspiration": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Increased phlegm production": [
+"Bodily",
+"Effect",
+"Physical",
+"Uncomfortable"
+],
+"Increased salivation": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Increased sense of humor": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Indoor cultivation of coca plants": [
+"Cultivation"
+],
+"Induction technique": [
+"Oneironautics",
+"Proofread"
+],
+"Inhalants": [
+"Inhalant",
+"Proofread",
+"Psychoactive substance",
+"Substance"
+],
+"Inoculation (mycology)": [
+"Mycology"
+],
+"Internal hallucination": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Intuitive awareness": [
+"Oneironautics",
+"Proofread"
+],
+"Ipomoea tricolor": [
+"Convolvulaceae (family)"
+],
+"Irritability": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Isomer": [
+"Chemistry"
+],
+"Isopropylphenidate": [
+"Experience",
+"Isopropylphenidate",
+"Phenidate",
+"Research chemical",
+"Stimulant"
+],
+"Itchiness": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"JWH-018": [
+"Cannabinoid",
+"Naphthoylindole",
+"Research chemical"
+],
+"JWH-073": [
+"Cannabinoid",
+"Naphthoylindole",
+"Research chemical"
+],
+"K-Opioid receptor agonist": [
+"Pharmacology"
+],
+"Kava": [
+"Anxiolytics",
+"Articles in talk page",
+"GABAergics",
+"Psychoactive substance"
+],
+"Ketamine": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Experience",
+"Hallucinogen",
+"Ketamine",
+"Psychoactive substance",
+"Substance"
+],
+"Ketobemidone": [
+"Experience",
+"Ketobemidone"
+],
+"Kratom": [
+"Depressant",
+"Experience",
+"Kratom",
+"Opioid",
+"Rubiaceae (family)",
+"Stimulant"
+],
+"Kratom resin_extraction tek": [
+"Extraction",
+"Kratom extraction"
+],
+"Kratom tea": [
+"Preparation"
+],
+"LAE-32": [
+"Approval",
+"Entheogen",
+"Hallucinogen",
+"Lysergamide",
+"Proofread",
+"Psychedelic",
+"Psychoactive substance"
+],
+"LD50": [
+"Pharmacology"
+],
+"LSA": [
+"Alkaloid",
+"Entheogen",
+"Experience",
+"LSA",
+"Lysergamide",
+"Psychedelic"
+],
+"LSA extract tincture": [
+"Extraction",
+"Extraction‎",
+"LSA extraction"
+],
+"LSD": [
+"Entheogen",
+"Hallucinogen",
+"Lysergamide",
+"Psychedelic",
+"Psychoactive substance"
+],
+"LSM-775": [
+"Hallucinogen",
+"Lysergamide",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"LSZ": [
+"Experience",
+"Hallucinogen",
+"LSZ",
+"Lysergamide",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"Language depression": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Laughter fits": [
+"Alterations",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Learning techniques": [
+"Psychonautics"
+],
+"Liquid culture": [
+"Mycology"
+],
+"Lisdexamfetamine": [
+"Amphetamine",
+"Experience",
+"Lisdexamfetamine",
+"Prodrug",
+"Psychoactive substance",
+"Stimulant"
+],
+"List of adjustable spectrum LED lights": [
+"Product-related lists"
+],
+"List of articles": [
+"PsychonautWiki"
+],
+"List of bufotoxins": [
+"Substance-related lists"
+],
+"List of common legal psychoactive substances": [
+"Substance-related lists"
+],
+"List of entheogens": [
+"Substance-related lists"
+],
+"List of non-hallucinogenic substances used in rituals": [
+"Substance-related lists"
+],
+"List of pharmaceuticals": [
+"Substance-related lists"
+],
+"List of polysubstance combinations": [
+"Substance-related lists"
+],
+"List of precursors": [
+"Precursor",
+"Substance-related lists"
+],
+"List of prodrugs": [
+"Pharmacology",
+"Substance-related lists"
+],
+"List of psychoactive club substances": [
+"Substance-related lists"
+],
+"List of psychoactive substances derived from artificial fungi biotransformation": [
+"Substance-related lists"
+],
+"List of psychoactive substances, and precursor chemicals, produced by GMOs derived from genetically modified organisms": [
+"Substance-related lists"
+],
+"List_substances-drafts": [
+"Approval",
+"Psychoactive substance",
+"Substance-related lists"
+],
+"Lophophora diffusa": [
+"Lophophora (genus)"
+],
+"Lophophora fricii": [
+"Lophophora (genus)"
+],
+"Lophophora williamsii": [
+"Lophophora (genus)"
+],
+"Lorazepam": [
+"Anxiolytics",
+"Benzodiazepine",
+"Depressant",
+"Psychoactive substance",
+"Substance"
+],
+"Low dose LSA Cold Water Extraction (CWE)": [
+"Extraction",
+"LSA extraction"
+],
+"Lucid dreaming": [
+"Oneironautics",
+"Psychonautics"
+],
+"Lysergamides": [
+"Chemical class",
+"Lysergamide"
+],
+"MAOI": [
+"Antidepressant",
+"Anxiolytics",
+"Cytochrome P450 inhibitor",
+"MAOI",
+"Pharmacology"
+],
+"MCPP": [
+"Phenylpiperazine",
+"Psychoactive substance",
+"Stimulant"
+],
+"MDA": [
+"Amphetamine",
+"Entactogen",
+"Experience",
+"MDA",
+"Psychedelic",
+"Psychoactive substance",
+"Stimulant"
+],
+"MDAI": [
+"Aminoindane",
+"Entactogen",
+"Psychoactive substance",
+"Research chemical"
+],
+"MDEA": [
+"Amphetamine",
+"Entactogen",
+"Psychoactive substance"
+],
+"MDMA": [
+"Amphetamine",
+"Entactogen",
+"Experience",
+"MDMA",
+"Psychoactive substance",
+"Stimulant"
+],
+"MDPV": [
+"Entactogen",
+"MDxx",
+"Proofread",
+"Psychoactive substance",
+"Pyrrolidinophenone",
+"Research chemical",
+"Stimulant"
+],
+"MDxx": [
+"Chemical class"
+],
+"MET": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"MPT": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"MXiPr": [
+"Approval",
+"Experience",
+"MXiPr",
+"Proofread",
+"Psychoactive substance"
+],
+"Machinescapes": [
+"Experience",
+"Hallucinatory",
+"Psychoactive substance"
+],
+"Magnification": [
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Main Page": [
+"Cognitive",
+"Effect",
+"Experience",
+"Visual"
+],
+"Mandragora": [
+"Deliriant",
+"Deliriant plant",
+"Entheogen",
+"Mandragora (genus)",
+"Solanaceae (family)"
+],
+"Mandragora officinarum (botany)": [
+"Deliriant",
+"Deliriant plant",
+"Mandragora (genus)"
+],
+"Mania": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Meclofenoxate": [
+"Approval",
+"Cholinergic",
+"Nootropic",
+"Proofread",
+"Psychoactive substance",
+"Stimulant",
+"Substance"
+],
+"Meditation": [
+"Experience",
+"Meditation",
+"Psychonautics"
+],
+"Meditation frequency": [
+"Approval",
+"Proofread"
+],
+"Melatonin": [
+"Dietary supplement",
+"Hormone",
+"Oneirogen",
+"Tryptamine"
+],
+"Memantine": [
+"Actoprotector",
+"Adamantane",
+"Cycloalkylamine",
+"Dissociative",
+"Experience",
+"Memantine",
+"Neuroprotective"
+],
+"Memory enhancement": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Memory replays": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Multisensory",
+"Psychoactive substance",
+"Sensory"
+],
+"Memory suppression": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Mephedrone": [
+"Cathinone",
+"Entactogen",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Mescaline": [
+"Alkaloid",
+"Entheogen",
+"Experience",
+"Mescaline",
+"Phenethylamine",
+"Psychedelic"
+],
+"Methadone": [
+"Depressant",
+"Diphenylpropylamine",
+"Opioid",
+"Psychoactive substance",
+"Substance"
+],
+"Methallylescaline": [
+"Phenethylamine",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"Methamphetamine": [
+"Amphetamine",
+"Psychoactive substance",
+"Stimulant"
+],
+"Methaqualone": [
+"Depressant",
+"Psychoactive substance",
+"Substance",
+"quinazolinone"
+],
+"Methcathinone": [
+"Cathinone",
+"Proofread",
+"Psychoactive substance",
+"Stimulant"
+],
+"Methiopropamine": [
+"Experience",
+"Methiopropamine",
+"Psychoactive substance",
+"Stimulant",
+"Thiopropamine"
+],
+"Methoxetamine": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Experience",
+"MXE",
+"Psychoactive substance",
+"Research chemical"
+],
+"Methoxphenidine": [
+"Diarylethylamine",
+"Dissociative",
+"Experience",
+"Methoxphenidine",
+"Research chemical"
+],
+"Methylnaphthidate": [
+"Phenidate",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Methylone": [
+"Cathinone",
+"Entactogen",
+"MDxx",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Methylphenidate": [
+"Experience",
+"Methylphenidate",
+"Phenidate",
+"Stimulant"
+],
+"Metizolam": [
+"Anxiolytics",
+"Depressant",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Thienodiazepine"
+],
+"Mexedrone": [
+"Cathinone",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant",
+"Substance"
+],
+"MiPLA": [
+"Experience",
+"Hallucinogen",
+"Lysergamide",
+"MiPLA",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"MiPT": [
+"Experience",
+"Hallucinogen",
+"MiPT",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance",
+"Tryptamine"
+],
+"Midazolam": [
+"Anxiolytics",
+"Approval",
+"Benzodiazepine",
+"Depressant",
+"Psychoactive substance",
+"Substance"
+],
+"Mimosa tenuiflora": [
+"Mimosa (genus)"
+],
+"Mindfulness": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Mirtazapine": [
+"Antidepressant",
+"Antihistamine",
+"Benzazepine",
+"Deliriant",
+"Depressant",
+"Experience",
+"Mirtazapine",
+"Phenethylamine",
+"Piperazinoazepine"
+],
+"Modafinil": [
+"Benzhydryl",
+"Nootropic",
+"Psychoactive substance",
+"Stimulant"
+],
+"Monoamine": [
+"Neurotransmitter"
+],
+"Morning glory": [
+"Convolvulaceae (family)",
+"Entheogen",
+"Hallucinogen"
+],
+"Morphine": [
+"Alkaloid",
+"Benzofuran",
+"Morphinan",
+"Opioid"
+],
+"Motivation depression": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Motivation enhancement": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Motor control loss": [
+"Depression",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Mouth numbing": [
+"Alterations",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Multidisciplinary Association for Psychedelic Studies": [
+"Organization"
+],
+"Multiple thought streams": [
+"Cognitive",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Multisensory effects": [
+"Effect group",
+"Multisensory"
+],
+"Multisolvent heatless extraction of Kratom": [
+"Extraction",
+"Kratom extraction"
+],
+"Muscle contractions": [
+"Experience",
+"Psychoactive substance"
+],
+"Muscle cramp": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Muscle relaxation": [
+"Alterations",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Muscle tension": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Muscle twitching": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Mushroom tea": [
+"Extraction",
+"Mycology",
+"Preparation"
+],
+"Myristica fragrans (botany)": [
+"Plant"
+],
+"Myristicin": [
+"Deliriant",
+"Entheogen",
+"Experience",
+"MAOI",
+"Myristicin",
+"Naturally-occurring substance",
+"Phenylpropene"
+],
+"N-(2C)-fentanyl": [
+"2C-x",
+"Chemical class",
+"Psychedelic"
+],
+"N-Acetylcysteine": [
+"Antioxidant",
+"Nootropic",
+"Psychoactive substance",
+"Supplement"
+],
+"N-Ethylhexedrone": [
+"Cathinone",
+"Experience",
+"N-Ethylhexedrone",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"N-Methylbisfluoromodafinil": [
+"Nootropic",
+"Psychoactive substance",
+"Stimulant",
+"Substance"
+],
+"NBx": [
+"Chemical class"
+],
+"NEP": [
+"Cathinone",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"NM-2-AI": [
+"Aminoindane",
+"Experience",
+"NM-2-AI",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant",
+"Substance"
+],
+"NMDA receptor": [
+"Pharmacology"
+],
+"NMDA receptor antagonist": [
+"Pharmacology"
+],
+"Naloxone": [
+"Morphinan",
+"Opioid",
+"Psychoactive substance",
+"Substance"
+],
+"Nasal spray guide": [
+"Preparation"
+],
+"Naturally occurring sources": [
+"Naturally-occurring substance",
+"Substance-related lists"
+],
+"Nausea": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Nausea suppression": [
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Suppression"
+],
+"Near-death experience": [
+"Psychoactive substance"
+],
+"Network": [
+"External resources",
+"Psychedelic society",
+"PsychonautWiki"
+],
+"Neuron": [
+"Neuroscience"
+],
+"Neurotoxicity": [
+"Effect",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Neurotransmitter": [
+"Neurotransmitter"
+],
+"Nicotiana (botany)": [
+"Proofread",
+"Solanaceae (family)"
+],
+"Nicotine": [
+"Alkaloid",
+"Depressant",
+"Experience",
+"Nicotine",
+"Pyrrolidine",
+"Stimulant"
+],
+"Nifoxipam": [
+"Anxiolytics",
+"Benzodiazepine",
+"Depressant",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"Nitrous": [
+"Dissociative",
+"Experience",
+"Hallucinogen",
+"Inhalant",
+"Nitrous oxide",
+"Psychoactive substance"
+],
+"Nootropic": [
+"Nootropic"
+],
+"Noradrenaline": [
+"Hormone",
+"Neurotransmitter"
+],
+"Novel cognitive states": [
+"Effect group"
+],
+"Novelty enhancement": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Nymphaea caerulea": [
+"Blue Lotus",
+"Experience"
+],
+"O-Desmethyltramadol": [
+"Cycloalkylamine",
+"Opioid",
+"Phenylpropylamine"
+],
+"O-PCE": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Hallucinogen",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"Object activation": [
+"Distortion",
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Object alteration": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Olfactory hallucination": [
+"Experience",
+"Psychoactive substance"
+],
+"Omberacetam": [
+"Neuroprotective",
+"Nootropic",
+"Phenethylamine",
+"Pyrrolidine"
+],
+"Oneirogen": [
+"Oneironautics"
+],
+"Oneironautics": [
+"Oneironautics"
+],
+"Opioids": [
+"Anaphrodisiac",
+"Opioid",
+"Pharmacology",
+"Psychoactive class"
+],
+"Optical sliding": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Orgasm depression": [
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Outdoor mushroom cultivation": [
+"Mushroom cultivation",
+"Mycology"
+],
+"Oxiracetam": [
+"Nootropic",
+"Psychoactive substance",
+"Racetam",
+"Stimulant"
+],
+"Oxycodone": [
+"Depressant",
+"Experience",
+"Morphinan",
+"Opioid",
+"Oxycodone",
+"Psychoactive substance",
+"Substance"
+],
+"Oxymorphone": [
+"Benzofuran",
+"Morphinan",
+"Opioid",
+"Psychoactive substance"
+],
+"PARGY-LAD": [
+"Hallucinogen",
+"Lysergamide",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"PCE": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Research chemical"
+],
+"PCP": [
+"Arylcyclohexylamine",
+"Dissociative",
+"Experience",
+"PCP",
+"Piperidine"
+],
+"PMA": [
+"Amphetamine",
+"Entactogen",
+"Proofread",
+"Psychoactive substance"
+],
+"PMMA": [
+"Amphetamine",
+"Entactogen",
+"Proofread",
+"Psychoactive substance",
+"Research chemical"
+],
+"PRO-LAD": [
+"Lysergamide",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"Pain relief": [
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Suppression"
+],
+"Panaeolus cyanescens": [
+"Panaeolus (genus)",
+"Psilocybin containing mushroom"
+],
+"Panic attack": [
+"Cognitive",
+"Effect",
+"Experience"
+],
+"Papaver somniferum": [
+"Plant"
+],
+"Paranoia": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Pastinaca sativa (botany)": [
+"Apiaceae (family)"
+],
+"Pattern recognition enhancement": [
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Pattern recognition suppression": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Suppression"
+],
+"Peganum harmala": [
+"Acetylcholinesterase inhibitor",
+"Cytochrome P450 inhibitor",
+"Entheogen",
+"MAOI",
+"Plant"
+],
+"Pentedrone": [
+"Cathinone",
+"Experience",
+"Pentedrone",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant"
+],
+"Pentobarbital": [
+"Anxiolytics",
+"Barbiturate",
+"Depressant",
+"Psychoactive substance",
+"Substance"
+],
+"Perceived exposure to inner mechanics of consciousness": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Perception of bodily heaviness": [
+"Alterations",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Perception of bodily lightness": [
+"Effect",
+"Experience",
+"Novel",
+"Physical",
+"Psychoactive substance"
+],
+"Perception of eternalism": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Perception of interdependent opposites": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Perception of predeterminism": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Perception of self-design": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Perennial plant (botany)": [
+"Botany"
+],
+"Perilla frutescens (botany)": [
+"Lamiaceae (family)"
+],
+"Peripheral information misinterpretation": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Suppression",
+"Visual"
+],
+"Personal bias suppression": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Personal meaning intensification": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Personality regression": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Perspective distortion": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Perspective hallucination": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Visual"
+],
+"Pethidine": [
+"Depressant",
+"Opioid",
+"Phenylpiperidine",
+"Psychoactive substance",
+"Substance"
+],
+"Petroselinum crispum (botany)": [
+"Apiaceae (family)"
+],
+"Phalaris (botany)": [
+"Phalaris (genus)"
+],
+"Phalaris aquatica (botany)": [
+"Phalaris (genus)"
+],
+"Phencyclidines": [
+"Chemical class"
+],
+"Phenethylamine (compound)": [
+"Alkaloid",
+"Entactogen",
+"Experience",
+"Neurotransmitter",
+"Phenethylamine"
+],
+"Phenibut": [
+"Anxiolytics",
+"Depressant",
+"Experience",
+"Gabapentinoid",
+"Nootropic",
+"Phenibut",
+"Psychoactive substance",
+"SUBSTANCE",
+"Substance"
+],
+"Phenobarbital": [
+"Anxiolytics",
+"Barbiturate",
+"Depressant",
+"Phenethylamine",
+"Psychoactive substance"
+],
+"Phentermine": [
+"Amphetamine",
+"Phentermine",
+"Stimulants"
+],
+"Phenylpiracetam": [
+"Experience",
+"Nootropic",
+"Phenethylamine",
+"Phenylpiracetam",
+"Psychoactive substance",
+"Racetam",
+"Stimulant"
+],
+"Phosphene": [
+"Entoptic Phenomena"
+],
+"Photophobia": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Phragmites australis (botany)": [
+"Poaceae (family)"
+],
+"Physical amplifications": [
+"Effect group"
+],
+"Physical autonomy": [
+"Experience",
+"Psychoactive substance"
+],
+"Physical disconnection": [
+"Disconnective",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Physical euphoria": [
+"Experience",
+"Psychoactive substance"
+],
+"Physical fatigue": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"PiHKAL": [
+"Book",
+"Substance-related lists"
+],
+"Piper nigrum (botany)": [
+"Acetylcholinesterase inhibitor",
+"Piper (genus)"
+],
+"Piracetam": [
+"Nootropic",
+"Psychoactive substance",
+"Racetam",
+"Stimulant"
+],
+"Poppers": [
+"Depressant",
+"Inhalant"
+],
+"Pramiracetam": [
+"Nootropic",
+"Psychoactive substance",
+"Racetam",
+"Stimulant"
+],
+"Pregabalin": [
+"Anxiolytics",
+"Depressant",
+"Experience",
+"Gabapentinoid",
+"Pregabalin",
+"Psychoactive substance",
+"Substance"
+],
+"Prochlorperazine": [
+"Antihistamine",
+"Antipsychotic",
+"Depressant",
+"Phenothiazine",
+"Piperazine",
+"Psychoactive substance",
+"Substance"
+],
+"Progesterone": [
+"Experience",
+"Hormone",
+"Progesterone",
+"Psychoactive substance"
+],
+"Prolintane": [
+"Amphetamine",
+"Approval",
+"Experience",
+"Nootropic",
+"Prolintane",
+"Proofread",
+"Psychoactive substance",
+"Pyrrolidine",
+"Research chemical",
+"Stimulant"
+],
+"Promethazine": [
+"Approval",
+"Deliriant",
+"Experience",
+"Promethazine",
+"Proofread",
+"Psychoactive substance"
+],
+"Propylhexedrine": [
+"Cycloalkylamine",
+"Experience",
+"Propyhexedrine",
+"Psychoactive substance",
+"Stimulant"
+],
+"Proscaline": [
+"Phenethylamine",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical"
+],
+"Pruno": [
+"Fermentation"
+],
+"Psilocin": [
+"Alkaloid",
+"Entheogen",
+"Experience",
+"Psilocin",
+"Psychedelic",
+"Tryptamine"
+],
+"Psilocybe cubensis": [
+"Mushroom",
+"Psilocybe (genus)",
+"Psilocybin containing mushroom",
+"Psychedelic"
+],
+"Psilocybe cyanescens": [
+"Proofread",
+"Psilocybe (genus)",
+"Psilocybin containing mushroom"
+],
+"Psilocybe mexicana": [
+"Psilocybe (genus)",
+"Psilocybin containing mushroom"
+],
+"Psilocybe subaeruginosa": [
+"Proofread",
+"Psilocybe (genus)",
+"Psilocybin containing mushroom"
+],
+"Psilocybin mushroom lemon tek": [
+"Preparation"
+],
+"Psilocybin mushrooms": [
+"Entheogen",
+"Experience",
+"Mushroom",
+"Psychedelic",
+"Psychoactive substance",
+"mushrooms"
+],
+"Psychedelic": [
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive class"
+],
+"Psychedelic art": [
+"Psychonautics"
+],
+"Psychedelic cacti": [
+"Cactaceae (family)",
+"Plant"
+],
+"Psychedelic therapy": [
+"Psychology"
+],
+"Psychoactive acacias": [
+"Fabaceae (family)"
+],
+"Psychonaut media index": [
+"Book",
+"External resources",
+"PsychonautWiki"
+],
+"PsychonautWiki": [
+"Logo",
+"Logo variations",
+"New logo",
+"PsychonautWiki"
+],
+"Psychonautics": [
+"PsychonautWiki"
+],
+"Psychosis": [
+"Cognitive",
+"Effect",
+"Experience",
+"Multisensory",
+"Psychoactive substance"
+],
+"Psychotria viridis": [
+"Psychotria (genus)"
+],
+"Pupil constriction": [
+"Experience",
+"Psychoactive substance"
+],
+"Pupil dilation": [
+"Experience",
+"Psychoactive substance"
+],
+"Pyrazolam": [
+"Depressant",
+"Psychoactive substance",
+"Research chemical",
+"Triazolobenzodiazepine"
+],
+"Quetiapine": [
+"Antihistamine",
+"Antipsychotic",
+"Depressant",
+"Experience",
+"Piperidine",
+"Psychoactive substance",
+"Quetiapine"
+],
+"RIMA": [
+"Antidepressant",
+"Anxiolytics",
+"MAOI",
+"Pharmacology"
+],
+"Racetams": [
+"Chemical class",
+"Racetam"
+],
+"Reagent testing kits": [
+"Responsible drug use"
+],
+"Reality checks": [
+"Oneironautics",
+"Proofread"
+],
+"Receptor": [
+"Neuroscience"
+],
+"Recovery position": [
+"Responsible drug use"
+],
+"Recreational drug use": [
+"Psychonautics"
+],
+"Recursion": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Rejuvenation": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Releasing agent": [
+"Pharmacology"
+],
+"Research chemicals": [
+"Research chemical",
+"Responsible drug use"
+],
+"Respiratory depression": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Responsible drug use",
+"Suppression",
+"Uncomfortable"
+],
+"Responsible drug use": [
+"Responsible drug use"
+],
+"Restless legs": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Reuptake inhibitor": [
+"Pharmacology"
+],
+"Risperidone": [
+"Antihistamine",
+"Antipsychotic",
+"Benzisoxazole",
+"Piperidine",
+"Psychoactive substance"
+],
+"Routes of administration": [
+"Pharmacology"
+],
+"Runny nose": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"SAM-e": [
+"Nootropic",
+"Psychoactive substance"
+],
+"STS-135": [
+"Adamantane",
+"Cannabinoid",
+"Cycloalkylamine",
+"Indolecarboxamide",
+"Research chemical"
+],
+"Safer injection guide": [
+"Responsible drug use"
+],
+"Salvia divinorum": [
+"Entheogen",
+"Salvia (genus)"
+],
+"Salvinorin A": [
+"Dissociative",
+"Entheogen",
+"Experience",
+"Naturally-occurring substance",
+"Psychedelic",
+"Salvia",
+"Salvinorin",
+"Salvinorin A",
+"Terpenoid"
+],
+"Salvinorin B methoxymethyl ether": [
+"Dissociative",
+"Hallucinogen",
+"Psychoactive substance",
+"Salvinorin",
+"Terpenoid"
+],
+"Scenarios and plots": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Multisensory",
+"Psychoactive substance",
+"Sensory"
+],
+"Scenery slicing": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Schmidt sting pain index": [
+"Substance-related lists"
+],
+"Scientific information": [
+"Scientific information"
+],
+"Secobarbital": [
+"Anxiolytics",
+"Barbiturate",
+"Depressant",
+"Psychoactive substance",
+"Substance"
+],
+"Sedation": [
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Suppression"
+],
+"Sedative": [
+"Depressant"
+],
+"Seizure": [
+"Cerebrovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Seizure suppression": [
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Suppression"
+],
+"Selective serotonin reuptake inhibitor": [
+"Antidepressant",
+"Anxiolytics",
+"Pharmacology"
+],
+"Sensory deprivation": [
+"Psychonautics"
+],
+"Serotonergic psychedelic": [
+"Psychedelic"
+],
+"Serotonin": [
+"Neurotransmitter",
+"Tryptamine"
+],
+"Serotonin-norepinephrine reuptake inhibitor": [
+"Antidepressant",
+"Anxiolytics",
+"Pharmacology"
+],
+"Set and setting": [
+"Responsible drug use"
+],
+"Settings, sceneries, and landscapes": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Shadow people": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Sharing injection materials": [
+"Responsible drug use"
+],
+"Shulgin Rating Scale": [
+"Substance-related lists"
+],
+"Simple ayahuasca recipes": [
+"Ayahuasca recipes",
+"Preparation"
+],
+"Simple mescaline brewing technique": [
+"Preparation"
+],
+"Simultaneous emotions": [
+"Cognitive",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Skin flushing": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Uncomfortable"
+],
+"Sleep deprivation": [
+"Psychonautics"
+],
+"Sleep paralysis": [
+"Experience",
+"Oneironautics",
+"Psychoactive substance",
+"Psychonautics"
+],
+"Sleepiness": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Soma": [
+"Drug culture",
+"Stub"
+],
+"Spatial disorientation": [
+"Effect",
+"Experience",
+"Novel",
+"Physical",
+"Psychoactive substance"
+],
+"Spirituality intensification": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Spokespeople": [
+"External resources",
+"Person"
+],
+"Spontaneous bodily sensations": [
+"Experience",
+"Psychoactive substance",
+"Sensory"
+],
+"Spore print": [
+"Mushroom cultivation",
+"Mycology"
+],
+"Spore syringe": [
+"Mycology"
+],
+"Stamina intensification": [
+"Effect",
+"Experience",
+"Intensification",
+"Physical",
+"Psychoactive substance"
+],
+"Stimulants": [
+"Psychoactive class",
+"Stimulant"
+],
+"Stimulation": [
+"Effect",
+"Enhancement",
+"Experience",
+"Physical",
+"Psychoactive substance"
+],
+"Stomach bloating": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Stomach cramp": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Subjective effect index": [
+"PsychonautWiki"
+],
+"Substance P": [
+"Neurotransmitter"
+],
+"Substance overdose": [
+"Responsible drug use"
+],
+"Substance withdrawal": [
+"Responsible drug use"
+],
+"Substituted amphetamines": [
+"Amphetamine",
+"Chemical class"
+],
+"Substituted benzofurans": [
+"Benzofuran",
+"Chemical class"
+],
+"Substituted cathinones": [
+"Cathinone",
+"Chemical class",
+"Stimulant"
+],
+"Substituted morphinans": [
+"Chemical class",
+"Morphinan"
+],
+"Substituted phenethylamines": [
+"Chemical class",
+"Phenethylamine"
+],
+"Substituted phenidates": [
+"Chemical class",
+"Phenidate"
+],
+"Substituted piperazines": [
+"Chemical class",
+"Piperazine"
+],
+"Substituted piperidines": [
+"Chemical class",
+"Piperidine"
+],
+"Substituted pyrrolidines": [
+"Pyrrolidine"
+],
+"Substituted tropanes": [
+"Chemical class",
+"Tropane"
+],
+"Substituted tryptamines": [
+"Chemical class",
+"Tryptamine"
+],
+"Sufentanil": [
+"Anilidopiperidine",
+"Opioid",
+"Psychoactive substance"
+],
+"Suggestibility intensification": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Suicidal ideation": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Symmetrical texture repetition": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Synaesthesia": [
+"Experience",
+"Psychoactive substance"
+],
+"Synapse": [
+"Neuroscience"
+],
+"Synthetic cannabinoid": [
+"Cannabinoid"
+],
+"Syzygium aromaticum (botany)": [
+"Plant"
+],
+"THJ-018": [
+"Cannabinoid",
+"Naphthoylindazole",
+"Research chemical"
+],
+"THJ-2201": [
+"Cannabinoid",
+"Naphthoylindazole",
+"Research chemical"
+],
+"TMA-2": [
+"DOx",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant",
+"TMA-2"
+],
+"TMA-6": [
+"Amphetamine",
+"Experience",
+"Psychedelic",
+"Psychoactive substance",
+"Research chemical",
+"Stimulant",
+"TMA-6"
+],
+"Tabernanthe iboga (botany)": [
+"Apocynaceae (family)",
+"Entheogen"
+],
+"Tactile hallucination": [
+"Experience",
+"Psychoactive substance"
+],
+"Tactile intensification": [
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance",
+"Sensory",
+"Tactile"
+],
+"Tactile suppression": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Suppression",
+"Tactile"
+],
+"Talk_Anhedonia": [
+"Talk"
+],
+"Talk_Cariprazine": [
+"Approval",
+"Cariprazine",
+"Experience",
+"Proofread",
+"Psychoactive substance"
+],
+"Talk_Hydroxyzine": [
+"Approval",
+"Proofread",
+"Psychoactive substance"
+],
+"Talk_List of human endogenous compounds": [
+"Precursor",
+"Substance-related lists"
+],
+"Talk_Nitazene": [
+"Benzimidazole",
+"Opioid",
+"Psychoactive substance"
+],
+"Talk_Oroxylin A": [
+"Anxiogenic",
+"Stimulant"
+],
+"Talk_Salbutamol": [
+"Approval",
+"Experience",
+"Proofread",
+"Psychoactive substance",
+"Salbutamol",
+"Stimulant"
+],
+"Tapentadol": [
+"Experience",
+"Opioid",
+"Phenylpropylamine",
+"Tapentadol"
+],
+"Tapering": [
+"Responsible drug use"
+],
+"Teeth grinding": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Temazepam": [
+"Anxiolytics",
+"Benzodiazepine",
+"Depressant",
+"Psychoactive substance",
+"Research chemical",
+"Substance"
+],
+"Temperature regulation suppression": [
+"Cerebrovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Temporary erectile dysfunction": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Terence McKenna": [
+"Person"
+],
+"Tetrahydrocannabihexol": [
+"Cannabinoid",
+"Cannabis (genus)",
+"Depressant",
+"Entheogen",
+"Stimulant"
+],
+"Tetrahydrocannabinol": [
+"Cannabinoid",
+"Cannabis (genus)",
+"Depressant",
+"Entheogen",
+"Stimulant"
+],
+"Tetrahydrocannabiphorol": [
+"Cannabinoid",
+"Cannabis (genus)",
+"Depressant",
+"Entheogen",
+"Stimulant"
+],
+"Tetrahydrocannabutol": [
+"Cannabinoid",
+"Cannabis (genus)",
+"Depressant",
+"Entheogen",
+"Stimulant"
+],
+"Theacrine": [
+"Alkaloid",
+"Stimulant",
+"Xanthine"
+],
+"Theanine": [
+"Nootropic",
+"Psychoactive substance"
+],
+"Thienodiazepines": [
+"Chemical class",
+"Thienodiazepine"
+],
+"Thought acceleration": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Thought connectivity": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"Thought deceleration": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Suppression"
+],
+"Thought disorganization": [
+"Cognitive",
+"Depression",
+"Effect",
+"Experience",
+"Psychoactive substance"
+],
+"Thought loop": [
+"Cognitive",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Thought organization": [
+"Cognitive",
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance"
+],
+"TiHKAL": [
+"Book",
+"Substance-related lists"
+],
+"Tianeptine": [
+"Dibenzothiazepine",
+"Experience",
+"Nootropic",
+"Opioid",
+"Psychoactive substance",
+"Tianeptine"
+],
+"Time distortion": [
+"Cognitive",
+"Distortion",
+"Effect",
+"Experience",
+"Novel",
+"Psychoactive substance"
+],
+"Tizanidine": [
+"Arylaminoimidazoline",
+"Depressant",
+"Experience",
+"Psychoactive substance",
+"SUBSTANCE"
+],
+"Tracers": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Tramadol": [
+"Cycloalkylamine",
+"Experience",
+"Opioid",
+"Phenylpropylamine",
+"Psychoactive substance",
+"Tramadol"
+],
+"Transformations": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Transpersonal effects": [
+"Effect group",
+"Transpersonal"
+],
+"Trihexyphenidyl": [
+"Approval",
+"Proofread",
+"Psychoactive substance"
+],
+"Trip sitter": [
+"Psychonautics"
+],
+"Trippy vibes": [
+"External resources",
+"Trippy vibes"
+],
+"Tripsitting index": [
+"PsychonautWiki",
+"Substance-related lists"
+],
+"Tryptamine (compound)": [
+"Alkaloid",
+"Neurotransmitter",
+"Tryptamine"
+],
+"Tulpa": [
+"Psychonautics"
+],
+"Turbina corymbosa (botany)": [
+"Convolvulaceae (family)"
+],
+"Tutorial index": [
+"PsychonautWiki"
+],
+"Tutorial index guidelines": [
+"PsychonautWiki"
+],
+"Tyrosine": [
+"Amino acid",
+"Nootropic",
+"Phenethylamine",
+"Stimulant"
+],
+"U-47700": [
+"Benzamide",
+"Cycloalkylamine",
+"Experience",
+"Opioid",
+"Psychoactive substance",
+"Research chemical",
+"U-47700"
+],
+"Uncomfortable physical effects": [
+"Effect group",
+"Uncomfortable"
+],
+"Unity and interconnectedness": [
+"Cognitive",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Transpersonal"
+],
+"Unspeakable horrors": [
+"Effect",
+"Experience",
+"Hallucinatory",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Vasoconstriction": [
+"Cardiovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Vasodilation": [
+"Cardiovascular",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Vibrating vision": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Visual acuity enhancement": [
+"Effect",
+"Enhancement",
+"Experience",
+"Psychoactive substance",
+"Replication",
+"Sensory",
+"Visual"
+],
+"Visual acuity suppression": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Suppression"
+],
+"Visual disconnection": [
+"Disconnective",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Visual haze": [
+"Distortion",
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Visual"
+],
+"Visual processing deceleration": [
+"Effect",
+"Experience",
+"Psychoactive substance",
+"Sensory",
+"Suppression",
+"Visual"
+],
+"Visual suppressions": [
+"Effect group"
+],
+"Voacanga africana (botany)": [
+"Apocynaceae (family)"
+],
+"Volumetric liquid dosing": [
+"Responsible drug use"
+],
+"Wake initiated lucid dream": [
+"Oneironautics"
+],
+"Wakefulness": [
+"Cognitive",
+"Effect",
+"Experience",
+"Intensification",
+"Psychoactive substance"
+],
+"Watery eyes": [
+"Bodily",
+"Effect",
+"Experience",
+"Physical",
+"Psychoactive substance",
+"Uncomfortable"
+],
+"Xanthines": [
+"Chemical class",
+"Xanthine"
+],
+"Zolpidem": [
+"Depressant",
+"Experience",
+"GABAergic hallucinogens",
+"Hallucinogen",
+"Imidazopyridine",
+"Zolpidem"
+],
+"Zopiclone": [
+"Carbamate",
+"Cyclopyrrolone",
+"Depressant",
+"Experience",
+"GABAergic hallucinogens",
+"Piperazine",
+"Zopiclone"
+],
+"ΑMT": [
+"AMT",
+"Entactogen",
+"Experience",
+"Hallucinogen",
+"Psychedelic",
+"Psychoactive substance",
+"Substance",
+"Tryptamine"
+],
+"Βk-2C-B": [
+"Bk-2C-B",
+"Experience",
+"Phenethylamine",
+"Psychedelic",
+"Research chemical"
+],
+"Δ-10-Tetrahydrocannabinol": [
+"Cannabinoid",
+"Cannabis (genus)",
+"Depressant",
+"Entheogen",
+"Stimulant"
+],
+"Δ-11-Tetrahydrocannabinol": [
+"Cannabinoid",
+"Cannabis (genus)",
+"Depressant",
+"Entheogen",
+"Stimulant"
+],
+"Δ-8-Tetrahydrocannabinol": [
+"Cannabinoid",
+"Cannabis (genus)",
+"Depressant",
+"Entheogen",
+"Stimulant"
+]
+}

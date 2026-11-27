@@ -84,6 +84,8 @@ FIJOS = {"Psilocybin mushrooms": "Setas de psilocibina", "Set and setting": "Set
 
 # Títulos que salían repetidos (26-11-2026): cada página con el suyo.
 TITULOS.update({"Delusion": "Idea delirante", "LSA adducts": "Aductos de LSA", "DXM & DPH": "DXM y DPH"})
+TITULOS.update({"Papaver somniferum": "Papaver somniferum (adormidera)", "Shulgin Rating Scale": "Escala de Shulgin",
+                "Shadow people": "Figuras de sombra", "8A Geometry - Perceived exposure to semantic concept network": "Geometría 8A"})
 
 def es_codigo(original):
     """Siglas y nombres con cifras: se dejan como en la wiki (LSD, MDMA, 2C-B, 4-AcO-DMT, 25x-NBOMe…)."""

@@ -33,6 +33,17 @@
 
   /* ---- portada ---- */
   if (!main.hasAttribute('data-portada')) return;
+  /* Portada: diez efectos al azar en cada caja, como en la wiki; «Otros al azar» vuelve a barajar */
+  var azar = document.querySelectorAll('.wk-azar'), otros = document.getElementById('p-otros');
+  function barajar() {
+    azar.forEach(function (ul) {
+      var lis = Array.prototype.slice.call(ul.children);
+      for (var i = lis.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = lis[i]; lis[i] = lis[j]; lis[j] = t; }
+      lis.forEach(function (li) { ul.appendChild(li); });
+    });
+  }
+  if (azar.length) { barajar(); if (otros) { otros.hidden = false; otros.addEventListener('click', barajar); } }
+
   /* «Página al azar» (?azar=1): salta a una página cualquiera del índice */
   if (/[?&]azar=1/.test(location.search)) {
     fetch('indice.json').then(function (r) { return r.json(); }).then(function (d) {
