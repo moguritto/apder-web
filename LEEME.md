@@ -40,8 +40,8 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 ## Cabecera, menú y pie (25-11-2026)
 
 - **La copia buena está en `scripts/cabecera.py`.** La cabecera y el pie siguen copiados dentro de cada página, pero ya no se tocan a mano: se cambia el guion y se lanza `python3 scripts/cabecera.py` (con `--mira` solo dice cuántas páginas cambiaría). Escribe las direcciones relativas a cada carpeta, marca la sección (`actual`) y pone `aria-current="page"` en el enlace de la propia página. También pone la misma versión de `tierra.css` en todas (`VERSION_CSS`).
-- Menú por intención, cuatro puertas y «Quiénes somos»: **Medicinas** (las 19 guías, Todas las guías, Medicinas por familias y la Enciclopedia destacada) · **La experiencia** (set y setting, reducción de riesgos, el acompañante, experiencias difíciles, unidad, microdosis y Psiconáutica) · **Terapia** (guías de terapia, investigación, participar en un ensayo y dónde formarse; el desplegable dice que APDER no ofrece sesiones) · **Biblioteca** (libros, entradas por tema e idioma y Quién es quién). «Aprender» ya no existe. «Terapia asistida con MDMA» sigue fuera del menú.
-- Qué sección se marca: `seccion()` en el guion (Enciclopedia → Medicinas; Microdosis y Psiconáutica → La experiencia; Formaciones e Investigación → Terapia; Quién es quién → Biblioteca).
+- Menú por intención, cuatro puertas y «Quiénes somos»: **Medicinas** (las 19 guías, Todas las guías, Medicinas por familias y la Enciclopedia destacada) · **La experiencia** (desde el 27-11-2026, los seis apartados de la página propia `/experiencia/`, más Psiconáutica como atajo; Microdosis pasó al panel de Medicinas) · **Terapia** (guías de terapia, investigación, participar en un ensayo y dónde formarse; el desplegable dice que APDER no ofrece sesiones) · **Biblioteca** (libros, entradas por tema e idioma y Quién es quién). «Aprender» ya no existe. «Terapia asistida con MDMA» sigue fuera del menú.
+- Qué sección se marca: `seccion()` en el guion (Enciclopedia y Microdosis → Medicinas; `/experiencia/` y Psiconáutica → La experiencia; Formaciones e Investigación → Terapia; Quién es quién → Biblioteca).
 - El logo lleva las letras originales (`docs/img/apder-letras.webp`), no texto. El lema en inglés ya no va bajo el logo: sigue en el pie, en la portada y en el aviso legal.
 - Pie: marca, texto y contacto una sola vez, y cinco columnas de navegación (`PIE_COLUMNAS`). Conserva el ancla `#contact`.
 - Estilos: bloque «Menú por intención y pie con navegación», al final de `docs/tierra.css`. El desplegable nunca es más alto que la pantalla; entre 1001 y 1079 px se oculta «Quiénes somos» (está en el pie).
@@ -56,7 +56,8 @@ Mannu pidió que las secciones no se parezcan tanto entre sí. La cabecera, el p
 - **Enciclopedia**: verde pino y fotos. Las fotos son cosa suya.
 - **Biblioteca y Quién es quién**: lacre oscuro; cubiertas en una, monogramas en la otra.
 - **Terapia** (guías de terapia e Investigación terapéutica): fondo claro con manchas e ilustración.
-- **Psiconáutica**: curvas de nivel (la lleva otro chat).
+- **La experiencia** (`/experiencia/`): la noche y el alba; el arco del viaje, con la luna en lo alto, como portada e índice.
+- **Psiconáutica**: aspecto de la wiki original (la lleva otro chat).
 
 Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
 
@@ -217,6 +218,16 @@ Si se rehace una página, que siga la seña de su puerta y no la de la vecina.
 - La cabecera y el pie siguen saliendo de `scripts/cabecera.py`. El índice del móvil lleva también la clase `s-toc-movil` para que `tierra.js` ponga el botón «Contenido».
 - Los datos estructurados (artículo, migas y preguntas frecuentes) van en el `<head>`. Si cambian las preguntas frecuentes, hay que rehacer ese bloque para que digan lo mismo.
 - La selección de medios, voces y vídeos se revisa con la página, cada tres meses: los enlaces externos caducan.
+
+## La experiencia (página propia, 27-11-2026)
+
+- Por qué: el desplegable «La experiencia» llevaba a tres sitios con aspectos distintos (cuatro páginas de Psiconáutica, un apartado de Medicinas por familias y la guía de Microdosis). Mannu eligió una página propia: ahora los seis enlaces del menú van a los apartados de `/experiencia/` y desde ahí a Psiconáutica, la Biblioteca, Terapia y las guías.
+- `docs/experiencia/index.html` está hecha a mano (diseño y texto); estilos en `docs/experiencia/experiencia.css` (todo bajo `.ex`, prefijo `ex-`). Sin JavaScript propio. Si cambia la hoja, sube su `?v=`.
+- Seña de la puerta: la noche y el alba. La portada es un arco punteado (de la noche al alba, con la luna en lo alto y el arco de «quien acompaña» debajo) y sus seis paradas son el índice de la página; en el móvil pasan a una lista vertical. Cada apartado repite el arco pequeño con su punto marcado.
+- Apartados y anclas (las que usa el menú): Preparar `#preparar`, Cuidarse `#cuidarse`, Acompañar `#acompanar`, Experiencias difíciles `#atravesar` (banda de noche), Integrar `#integrar` y Profundizar `#profundizar`. Después: Para leer despacio (estante de diez libros de la Biblioteca; en el móvil, una pila), Preguntas frecuentes, Sigue por aquí y Referencias.
+- Enfoque: desde la experiencia y las tradiciones, con notas al margen que dicen desde dónde hablan (psicología humanista, Gestalt, psicología transpersonal, la tradición, la investigación). Sin dosis, sin legalidad y sin tono alarmista; lo que protege va con calma («Cuidarse», «Cuándo pedir ayuda», «Si cuesta volver», con el 112 y el 024). Dice que APDER no ofrece sesiones.
+- Foto: `docs/experiencia/img/peregrinacion.webp` (recorte de la peregrinación wixárika de la Enciclopedia), con su fila en `CREDITOS.md`. Tarjeta para compartir: `docs/img/og/experiencia.png`, dibujo `docs/img/experiencia.svg`.
+- Las preguntas frecuentes están también en los datos estructurados del `<head>`: si cambian, hay que cambiar los dos.
 
 ## Ayudas de lectura (tierra.js)
 

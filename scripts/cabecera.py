@@ -54,17 +54,17 @@ MEDICINAS = [
 
 # --- Paneles de texto: (título del grupo, [(dirección, nombre, aclaración)]) ---
 EXPERIENCIA = [
-    ("Preparar", [
-        ("psiconautica/set-y-setting/", "Set y setting", "La disposición y el entorno: lo que más influye"),
-        ("medicinas/#reduccion-de-riesgos", "Reducción de riesgos", "Mezclas, análisis y compañía"),
+    ("Antes", [
+        ("experiencia/#preparar", "Preparar", "La intención, la disposición y el entorno"),
+        ("experiencia/#cuidarse", "Cuidarse", "Mezclas, análisis y compañía"),
     ]),
-    ("Acompañar", [
-        ("psiconautica/acompanante/", "El acompañante", "Quién acompaña y cómo hacerlo bien"),
-        ("psiconautica/mal-viaje/", "Experiencias difíciles", "Qué son y cómo atravesarlas"),
+    ("Durante", [
+        ("experiencia/#acompanar", "Acompañar", "Quién acompaña y cómo hacerlo bien"),
+        ("experiencia/#atravesar", "Experiencias difíciles", "Qué son y cómo atravesarlas"),
     ]),
-    ("Profundizar", [
-        ("psiconautica/unidad-e-interconexion/", "Unidad e interconexión", "La vivencia de que todo está unido"),
-        ("sustancias/microdosis/", "Microdosis", "Qué es y qué dice la investigación"),
+    ("Después", [
+        ("experiencia/#integrar", "Integrar", "Traer lo vivido a la vida"),
+        ("experiencia/#profundizar", "Profundizar", "Lo transpersonal: unidad, muerte y renacimiento"),
     ]),
 ]
 TERAPIA = [
@@ -101,12 +101,13 @@ PIE_COLUMNAS = [
         ("sustancias/", "Todas las guías"),
         ("medicinas/", "Por familias"),
         ("enciclopedia/", "Enciclopedia"),
+        ("sustancias/microdosis/", "Microdosis"),
     ]),
     ("La experiencia", [
+        ("experiencia/", "Antes, durante y después"),
+        ("experiencia/#atravesar", "Experiencias difíciles"),
+        ("experiencia/#integrar", "Integrar"),
         ("psiconautica/", "Psiconáutica"),
-        ("psiconautica/set-y-setting/", "Set y setting"),
-        ("psiconautica/mal-viaje/", "Experiencias difíciles"),
-        ("sustancias/microdosis/", "Microdosis"),
     ]),
     ("Terapia", [
         ("terapia/", "Guías de terapia"),
@@ -128,7 +129,7 @@ PIE_COLUMNAS = [
 def seccion(ruta):
     """Qué entrada del menú se marca como actual para una página (ruta relativa a docs/)."""
     r = ruta.replace("index.html", "")
-    if r.startswith("sustancias/microdosis/") or r.startswith("psiconautica/"):
+    if r.startswith(("experiencia/", "psiconautica/")):
         return "experiencia"
     if r.startswith(("sustancias/", "medicinas/", "enciclopedia/")):
         return "medicinas"
@@ -201,7 +202,8 @@ class Pagina:
         inicio = "./" if r == "" else r
         atajos_exp = f"""
                 <ul class="panel-atajos">
-                  <li><a {self.h("psiconautica/")}>Todo Psiconáutica</a></li>
+                  <li><a {self.h("experiencia/")}>La experiencia, de principio a fin</a></li>
+                  <li><a {self.h("psiconautica/")}>Psiconáutica: efectos y sustancias</a></li>
                 </ul>"""
         return f"""<header class="cabecera">
   <div class="ancho cab-fila">
@@ -218,6 +220,7 @@ class Pagina:
                 <ul class="panel-atajos">
                   <li><a {self.h("sustancias/")}>Todas las guías</a></li>
                   <li><a {self.h("medicinas/")}>Medicinas por familias</a></li>
+                  <li><a {self.h("sustancias/microdosis/")}>Microdosis</a></li>
                 </ul>
                 <a class="panel-destacado" {self.h("enciclopedia/")}><img src="{r}img/inicio/matamoscas.webp" alt="" width="560" height="700" loading="lazy" decoding="async"><span><b>Enciclopedia de medicinas</b><small>Plantas, hongos y preparados: origen, territorio y cultura</small></span></a>
               </div>

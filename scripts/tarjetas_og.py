@@ -44,6 +44,7 @@ TARJETAS = [
     ("investigacion", "Investigación", "mol:5-meo-dmt"),
     ("biblioteca", "Biblioteca", "logo"),
     ("formaciones", "Formaciones en el mundo", "svg:formaciones"),
+    ("experiencia", "La experiencia", "svg:experiencia"),
     ("quien-es-quien", "Quién es quién", "logo"),
     ("persona-albert-hofmann", "Albert Hofmann", "mol:lsd"),
     ("persona-stanislav-grof", "Stanislav Grof", "logo"),

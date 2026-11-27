@@ -33,6 +33,7 @@ SECCIONES = {
     'medicinas': 'Medicinas',
     'enciclopedia': 'Enciclopedia',
     'psiconautica': 'Psiconáutica',
+    'experiencia': 'La experiencia',
     'investigacion-terapeutica': 'Investigación',
     'biblioteca': 'Biblioteca',
     'quien-es-quien': 'Quién es quién',

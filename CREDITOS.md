@@ -111,6 +111,7 @@ Qué consta en este repositorio sobre el origen y la licencia de cada imagen de 
 | `docs/medicinas/img/nenufar.webp` | Recorte de `docs/enciclopedia/img/idx-loto.jpg` para la página Medicinas por familias | Ermell · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nymphaea_caerulea-20091014-RM-115245.jpg) | CC BY-SA 4.0 | Recortada el 26/11/2026 con `scripts/medicinas/generar.py --fotos`; misma licencia que el original |
 | `docs/medicinas/img/datura.webp` | Recorte de `docs/enciclopedia/img/idx-datura.jpg` para la página Medicinas por familias | The Cosmonaut · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Datura_inoxia_-_Rouge_National_Urban_Park.jpg) | CC BY-SA 4.0 | Recortada el 26/11/2026 con `scripts/medicinas/generar.py --fotos`; misma licencia que el original |
 | `docs/medicinas/img/mandragora.webp` | Recorte de `docs/enciclopedia/img/idx-mandragora.jpg` para la página Medicinas por familias | Autor desconocido · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mandragora_Bock.jpg) | Public domain | Recortada el 26/11/2026 con `scripts/medicinas/generar.py --fotos`; misma licencia que el original |
+| `docs/experiencia/img/peregrinacion.webp` | Recorte de `docs/enciclopedia/img/pey-peregrinacion.jpg` para la página «La experiencia» | Kauyumarie · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:La_peregrinaci%C3%B3n_a_Wirikuta_de_los_wixaritari.jpg) | CC BY-SA 4.0 | Recortada el 27/11/2026; misma licencia que el original |
 
 ## Fuera de esta tabla
 
