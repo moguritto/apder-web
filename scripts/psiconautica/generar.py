@@ -762,8 +762,9 @@ def portada_wiki(pags):
             " " + clase if clase else "", ident, ident, esc(titulo), cuerpo)
 
     def grupos(ps, subs):
-        gen = orden_p(p for p in ps if p["tipo"] != "sustancia")
-        quedan = [p for p in ps if p["tipo"] == "sustancia"]
+        es_clase = lambda p: bool(de(p) & {"Psychoactive class", "Chemical class"})       # artículos sobre la clase, no sustancias
+        gen = orden_p(p for p in ps if es_clase(p))
+        quedan = [p for p in ps if not es_clase(p)]
         if not quedan:
             return linea(gen)
         html_ = '<p class="wk-sub">Sobre la clase</p>' + linea(gen) if gen and subs else ""
