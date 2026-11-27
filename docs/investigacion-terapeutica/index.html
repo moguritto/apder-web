@@ -26,8 +26,9 @@
 <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
 <link rel="preload" href="../fuentes/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../tierra.css?v=20261125b">
-<link rel="stylesheet" href="investigacion.css?v=20261125a">
+<link rel="stylesheet" href="investigacion.css?v=20261127a">
 </head>
 <body class="guia">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -120,261 +121,344 @@
     </div>
   </div>
 </header>
-<main id="contenido" class="guia-cuerpo">
-<!-- apertura:inicio (la escribe scripts/investigacion/apertura.py) -->
-<section class="art-portada iv-portada">
-  <div class="ancho">
-    <div>
-      <span class="mini"><a href="../terapia/">Terapia</a> · Investigación</span>
+<main id="contenido" class="iv">
+<div class="iv-progreso" aria-hidden="true"><span></span></div>
+
+<section class="iv-hero">
+  <div class="ancho iv-hero-in">
+    <div class="iv-hero-txt">
+      <p class="mini iv-miga"><a href="../terapia/">Terapia</a> · Investigación</p>
       <h1>Investigación <i>terapéutica</i></h1>
-      <p class="entrada">Qué se sabe, qué falta por saber y cómo participar en un ensayo clínico con garantías.</p>
-      <p class="iv-atajos"><a href="#estado-evidencia">La tabla completa</a><a href="#participar">Participar en un ensayo</a><a href="#senales-alarma">Señales de alarma</a><a href="#profesionales">Para profesionales</a></p>
+      <p class="iv-entrada">Qué se sabe, qué falta por saber y cómo participar en un ensayo clínico con garantías.</p>
+      <dl class="iv-datos">
+        <div><dt>Qué recoge</dt><dd>13 líneas de investigación, una a una</dd></div>
+        <div><dt>Cómo se mide</dt><dd>Tres niveles de evidencia</dd></div>
+        <div><dt>De dónde sale</dt><dd>24 estudios y documentos citados</dd></div>
+      </dl>
+      <p class="iv-fecha">Última revisión: noviembre de 2026 · Unos 22 minutos de lectura</p>
     </div>
-    <div class="art-dibujo" aria-hidden="true">
-      <div class="mancha"></div><div class="mancha2"></div>
-      <svg viewBox="0 0 100 100" focusable="false">
-        <circle cx="50" cy="50" r="37" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="2.2"/>
-        <path d="M32 66V54M44 66V46M56 66V38M68 66V30" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
-        <path d="M28 72h44" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+    <div class="iv-hero-ilu" aria-hidden="true">
+      <svg viewBox="0 0 640 520" focusable="false">
+        <path fill="#7d9a7a" d="M82 118C132 38 270 2 384 30c114 28 214 122 210 236s-116 206-240 220S96 446 54 340 38 188 82 118z"/>
+        <path fill="#c2643c" d="M262 164c84-44 212-22 268 58s40 200-40 256-208 50-274-18-56-174-20-236c18-30 38-46 66-60z"/>
+        <ellipse cx="334" cy="456" rx="272" ry="34" fill="#efe4d0"/>
+        <path fill="#f7f1e6" d="M92 456v-74a16 16 0 0 1 16-16h152v90z"/>
+        <path fill="#fbf7ef" d="M260 456V298a16 16 0 0 1 16-16h152v174z"/>
+        <path fill="#f7f1e6" d="M428 456V226a16 16 0 0 1 16-16h118a16 16 0 0 1 16 16v230z"/>
+        <path d="M260 372v84M428 290v166" stroke="#e5d6bb" stroke-width="3" stroke-linecap="round"/>
+        <g fill="#ddd0b8"><rect x="139" y="408" width="22" height="8" rx="4" fill="#2f3e33"/><rect x="166" y="408" width="22" height="8" rx="4"/><rect x="193" y="408" width="22" height="8" rx="4"/>
+        <rect x="305" y="364" width="22" height="8" rx="4" fill="#2f3e33"/><rect x="332" y="364" width="22" height="8" rx="4" fill="#2f3e33"/><rect x="359" y="364" width="22" height="8" rx="4"/>
+        <rect x="464" y="322" width="22" height="8" rx="4" fill="#2f3e33"/><rect x="491" y="322" width="22" height="8" rx="4" fill="#2f3e33"/><rect x="518" y="322" width="22" height="8" rx="4" fill="#2f3e33"/></g>
+        <path fill="#7a3519" d="M148 366a29 15 0 0 1 58 0z"/>
+        <path d="M177 354v-20" stroke="#2f3e33" stroke-width="5" stroke-linecap="round"/>
+        <path fill="#2f3e33" d="M177 340c-15 2-24-7-24-18 14-2 24 5 24 18z"/><path fill="#48614b" d="M177 334c2-13 12-20 23-18 0 12-9 20-23 18z"/>
+        <path fill="#7a3519" d="M311 282a33 16 0 0 1 66 0z"/>
+        <path d="M344 270v-70" stroke="#2f3e33" stroke-width="5" stroke-linecap="round"/>
+        <path fill="#2f3e33" d="M344 252c-21 2-34-10-34-26 19-2 34 9 34 26zM344 218c-15 2-25-7-25-19 14-2 25 6 25 19z"/>
+        <path fill="#48614b" d="M344 242c2-19 17-30 34-28 0 17-13 30-34 28zM344 208c2-13 12-21 25-19 0 12-10 21-25 19z"/>
+        <path fill="#7a3519" d="M467 210a36 17 0 0 1 72 0z"/>
+        <path d="M503 198V96" stroke="#2f3e33" stroke-width="5" stroke-linecap="round"/>
+        <path fill="#2f3e33" d="M503 180c-22 2-36-11-36-28 20-2 36 10 36 28zM503 142c-17 2-28-8-28-22 16-2 28 8 28 22z"/>
+        <path fill="#48614b" d="M503 168c2-20 18-32 36-30 0 18-14 32-36 30zM503 132c2-15 14-24 28-22 0 14-11 24-28 22z"/>
+        <g fill="#f7f1e6"><circle cx="503" cy="72" r="12"/><circle cx="523" cy="84" r="12"/><circle cx="523" cy="106" r="12"/><circle cx="503" cy="118" r="12"/><circle cx="483" cy="106" r="12"/><circle cx="483" cy="84" r="12"/></g>
+        <circle cx="503" cy="95" r="11" fill="#e9b98f"/>
       </svg>
-      <div class="chip" style="left:-2%;top:10%">13 líneas<small>de investigación, una a una</small></div>
-      <div class="chip" style="right:-2%;bottom:8%">Tres niveles<small>preliminar, prometedora y sólida</small></div>
+      <span class="iv-rotulo r1">Preliminar</span>
+      <span class="iv-rotulo r2">Prometedora</span>
+      <span class="iv-rotulo r3">Sólida</span>
     </div>
   </div>
 </section>
-<section class="s-ancho iv-vistazo" aria-labelledby="iv-t">
-  <div class="iv-cab"><h2 id="iv-t">De un vistazo</h2><p>En qué punto está cada línea. <b>Preliminar:</b> estudios pequeños. <b>Prometedora:</b> al menos un ensayo aleatorizado favorable. <b>Sólida:</b> varios ensayos de fase 3 y aprobación como medicamento. Los criterios y los matices, <a href="#estado-evidencia">más abajo</a>.</p></div>
-  <ul class="iv-mapa">
-<li class="n3"><h3><a href="#depresion-resistente">Depresión resistente</a></h3><p class="iv-sust">Esketamina, ketamina, psilocibina, ayahuasca, 5-MeO-DMT</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Sólida (esketamina); prometedora (psilocibina)</p><p class="iv-fase">Aprobada (esketamina); fase 3 (psilocibina)</p></li>
-<li class="n2"><h3><a href="#depresion-mayor">Depresión mayor</a></h3><p class="iv-sust">Psilocibina, ketamina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</p><p class="iv-fase">Fase 2 (con ensayos de fase 3 en marcha)</p></li>
-<li class="n2"><h3><a href="#tept">Trastorno de estrés postraumático (TEPT)</a></h3><p class="iv-sust">MDMA</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora, con dudas metodológicas</p><p class="iv-fase">Fase 3</p></li>
-<li class="n2"><h3><a href="#alcohol">Trastorno por consumo de alcohol</a></h3><p class="iv-sust">Psilocibina, LSD, ketamina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</p><p class="iv-fase">Fase 2</p></li>
-<li class="n1"><h3><a href="#tabaco">Tabaco</a></h3><p class="iv-sust">Psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 2</p></li>
-<li class="n1"><h3><a href="#opioides">Opioides</a></h3><p class="iv-sust">Ibogaína, ketamina, psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 1–2 y estudios observacionales</p></li>
-<li class="n2"><h3><a href="#final-de-vida">Ansiedad y angustia en enfermedad grave o al final de la vida</a></h3><p class="iv-sust">Psilocibina, LSD</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</p><p class="iv-fase">Fase 2</p></li>
-<li class="n1"><h3><a href="#toc">Trastorno obsesivo-compulsivo (TOC)</a></h3><p class="iv-sust">Psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 1–2</p></li>
-<li class="n1"><h3><a href="#anorexia">Anorexia nerviosa</a></h3><p class="iv-sust">Psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 1–2</p></li>
-<li class="n1"><h3><a href="#cefalea-racimos">Cefalea en racimos</a></h3><p class="iv-sust">Psilocibina, LSD y derivados</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 1–2</p></li>
-<li class="n1"><h3><a href="#bipolar">Trastorno bipolar</a></h3><p class="iv-sust">Psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar; precaución, suele ser criterio de exclusión</p><p class="iv-fase">Estudio piloto abierto</p></li>
-<li class="n1"><h3><a href="#dolor-cronico">Dolor crónico</a></h3><p class="iv-sust">Ketamina, psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Fase 2 (ketamina)</p></li>
-<li class="n1"><h3><a href="#otras">Otras</a></h3><p class="iv-sust">LSD, ibogaína, MDMA, psilocibina</p><p class="iv-nivel"><span class="iv-medidor" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</p><p class="iv-fase">Variable</p></li>
-  </ul>
-</section>
-<!-- apertura:fin -->
 
-<div class="s-ancho s-guia">
-<nav class="s-toc" aria-label="Índice">
+<div class="ancho">
+  <aside class="iv-aviso" aria-label="Aviso">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.6v.2"/></svg>
+    <p><strong>Esta página no es un consejo médico.</strong> Resume la investigación publicada para ayudarte a entenderla. Si tienes un problema de salud, habla con tu médico o tu psiquiatra antes de tomar cualquier decisión. Fuera de los ensayos clínicos y de los medicamentos aprobados, en España la sanidad no ofrece tratamientos con psicodélicos.</p>
+  </aside>
+
+<section class="iv-vistazo">
+  <div class="iv-vistazo-cab">
+    <h2 id="de-un-vistazo">De un vistazo</h2>
+    <p>En qué punto está cada línea de investigación. La mayoría sigue en la base de la pirámide. Los criterios y los matices, <a href="#estado-evidencia">más abajo</a>.</p>
+  </div>
+  <div class="iv-piramide">
+<div class="iv-piso n3"><div class="iv-piso-t"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 40V21"/><path d="M24 33c0-5-4-8-9-8 0 5 4 8 9 8z"/><path d="M24 30c0-4 3-7 8-7 0 4-3 7-8 7z"/><circle cx="24" cy="13" r="3.2"/><path d="M24 5.5v2M24 18.500v2M16.500 13h2M29.500 13h2M18.700 7.700l1.400 1.400M27.900 16.900l1.400 1.400M29.300 7.700l-1.400 1.400M20.100 16.900l-1.400 1.400"/><path d="M14 40h20"/></svg><p><b>Sólida</b><span class="iv-medidor n3" aria-hidden="true"><i></i><i></i><i></i></span><span>Varios ensayos de fase 3 y aprobación como medicamento</span></p></div>
+<ul><li><a href="#depresion-resistente">Depresión resistente<small>esketamina</small></a></li></ul></div>
+<div class="iv-piso n2"><div class="iv-piso-t"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 40V19"/><path d="M24 30c0-6-4-9-10-9 0 6 4 9 10 9z"/><path d="M24 23c0-5 4-8 9-8 0 5-4 8-9 8z"/><path d="M14 40h20"/></svg><p><b>Prometedora</b><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span><span>Al menos un ensayo aleatorizado favorable</span></p></div>
+<ul><li><a href="#depresion-resistente">Depresión resistente<small>psilocibina</small></a></li><li><a href="#depresion-mayor">Depresión mayor</a></li><li><a href="#tept">Trastorno de estrés postraumático (TEPT)<small>con dudas metodológicas</small></a></li><li><a href="#alcohol">Trastorno por consumo de alcohol</a></li><li><a href="#final-de-vida">Ansiedad y angustia en enfermedad grave o al final de la vida</a></li></ul></div>
+<div class="iv-piso n1"><div class="iv-piso-t"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 40V29"/><path d="M24 31c0-6-4-9-10-9 0 6 4 9 10 9z"/><path d="M14 40h20"/></svg><p><b>Preliminar</b><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span><span>Estudios pequeños</span></p></div>
+<ul><li><a href="#tabaco">Tabaco</a></li><li><a href="#opioides">Opioides</a></li><li><a href="#toc">Trastorno obsesivo-compulsivo (TOC)</a></li><li><a href="#anorexia">Anorexia nerviosa</a></li><li><a href="#cefalea-racimos">Cefalea en racimos</a></li><li><a href="#bipolar">Trastorno bipolar<small>precaución, suele ser criterio de exclusión</small></a></li><li><a href="#dolor-cronico">Dolor crónico</a></li><li><a href="#otras">Otras</a></li></ul></div>
+  </div>
+</section>
+</div>
+
+<div class="ancho iv-guia">
+<nav class="iv-indice" aria-label="Contenido de la página">
 <strong>Contenido</strong>
 <ol>
-<li><a href="#introduccion">Qué se está investigando y por qué</a></li>
-<li><a href="#estado-evidencia">Cómo va la investigación en cada problema de salud</a></li>
-<li><a href="#depresion-resistente">Depresión resistente al tratamiento</a></li>
-<li><a href="#depresion-mayor">Depresión mayor</a></li>
-<li><a href="#tept">Trastorno de estrés postraumático (TEPT)</a></li>
-<li><a href="#adicciones">Adicciones</a></li>
-<li><a href="#final-de-vida">Ansiedad y angustia en enfermedad grave o al final de la vida</a></li>
-<li><a href="#toc">Trastorno obsesivo-compulsivo (TOC)</a></li>
-<li><a href="#anorexia">Anorexia nerviosa</a></li>
-<li><a href="#cefalea-racimos">Cefalea en racimos</a></li>
-<li><a href="#bipolar">Trastorno bipolar</a></li>
-<li><a href="#dolor-cronico">Dolor crónico</a></li>
-<li><a href="#otras">Otras líneas de investigación</a></li>
-<li><a href="#participar">Cómo participar en un ensayo clínico</a></li>
-<li><a href="#senales-alarma">Señales de alarma</a></li>
-<li><a href="#profesionales">Para profesionales</a></li>
-<li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
-<li><a href="#referencias">Referencias</a></li>
+<li><a href="#de-un-vistazo">De un vistazo</a></li>
+<li class="grupo"><span class="num">1</span><a href="#parte-entender">Entender</a>
+<ol><li><a href="#introduccion">Qué se investiga y por qué</a></li></ol></li>
+<li class="grupo"><span class="num">2</span><a href="#parte-problemas">Problema a problema</a>
+<ol><li><a href="#estado-evidencia">La tabla completa</a></li><li><a href="#depresion-resistente">Depresión resistente</a></li><li><a href="#depresion-mayor">Depresión mayor</a></li><li><a href="#tept">Estrés postraumático (TEPT)</a></li><li><a href="#adicciones">Adicciones</a></li><li><a href="#final-de-vida">Enfermedad grave y final de la vida</a></li><li><a href="#toc">Obsesivo-compulsivo (TOC)</a></li><li><a href="#anorexia">Anorexia nerviosa</a></li><li><a href="#cefalea-racimos">Cefalea en racimos</a></li><li><a href="#bipolar">Trastorno bipolar</a></li><li><a href="#dolor-cronico">Dolor crónico</a></li><li><a href="#otras">Otras líneas</a></li></ol></li>
+<li class="grupo"><span class="num">3</span><a href="#parte-participar">Participar</a>
+<ol><li><a href="#participar">Participar en un ensayo</a></li><li><a href="#senales-alarma">Señales de alarma</a></li><li><a href="#profesionales">Para profesionales</a></li></ol></li>
+<li class="grupo"><span class="num">4</span><a href="#parte-dudas">Dudas y fuentes</a>
+<ol><li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li><li><a href="#referencias">Referencias</a></li></ol></li>
 </ol>
 </nav>
-
-<article class="s-cuerpo">
-<details class="s-toc-movil">
+<div class="iv-cuerpo">
+<details class="iv-indice-movil s-toc-movil">
 <summary>Contenido</summary>
 <ol>
-<li><a href="#introduccion">Qué se está investigando y por qué</a></li>
-<li><a href="#estado-evidencia">Cómo va la investigación en cada problema de salud</a></li>
-<li><a href="#depresion-resistente">Depresión resistente al tratamiento</a></li>
-<li><a href="#depresion-mayor">Depresión mayor</a></li>
-<li><a href="#tept">Trastorno de estrés postraumático (TEPT)</a></li>
-<li><a href="#adicciones">Adicciones</a></li>
-<li><a href="#final-de-vida">Ansiedad y angustia en enfermedad grave o al final de la vida</a></li>
-<li><a href="#toc">Trastorno obsesivo-compulsivo (TOC)</a></li>
-<li><a href="#anorexia">Anorexia nerviosa</a></li>
-<li><a href="#cefalea-racimos">Cefalea en racimos</a></li>
-<li><a href="#bipolar">Trastorno bipolar</a></li>
-<li><a href="#dolor-cronico">Dolor crónico</a></li>
-<li><a href="#otras">Otras líneas de investigación</a></li>
-<li><a href="#participar">Cómo participar en un ensayo clínico</a></li>
-<li><a href="#senales-alarma">Señales de alarma</a></li>
-<li><a href="#profesionales">Para profesionales</a></li>
-<li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
-<li><a href="#referencias">Referencias</a></li>
+<li><a href="#de-un-vistazo">De un vistazo</a></li>
+<li class="grupo"><span class="num">1</span><a href="#parte-entender">Entender</a>
+<ol><li><a href="#introduccion">Qué se investiga y por qué</a></li></ol></li>
+<li class="grupo"><span class="num">2</span><a href="#parte-problemas">Problema a problema</a>
+<ol><li><a href="#estado-evidencia">La tabla completa</a></li><li><a href="#depresion-resistente">Depresión resistente</a></li><li><a href="#depresion-mayor">Depresión mayor</a></li><li><a href="#tept">Estrés postraumático (TEPT)</a></li><li><a href="#adicciones">Adicciones</a></li><li><a href="#final-de-vida">Enfermedad grave y final de la vida</a></li><li><a href="#toc">Obsesivo-compulsivo (TOC)</a></li><li><a href="#anorexia">Anorexia nerviosa</a></li><li><a href="#cefalea-racimos">Cefalea en racimos</a></li><li><a href="#bipolar">Trastorno bipolar</a></li><li><a href="#dolor-cronico">Dolor crónico</a></li><li><a href="#otras">Otras líneas</a></li></ol></li>
+<li class="grupo"><span class="num">3</span><a href="#parte-participar">Participar</a>
+<ol><li><a href="#participar">Participar en un ensayo</a></li><li><a href="#senales-alarma">Señales de alarma</a></li><li><a href="#profesionales">Para profesionales</a></li></ol></li>
+<li class="grupo"><span class="num">4</span><a href="#parte-dudas">Dudas y fuentes</a>
+<ol><li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li><li><a href="#referencias">Referencias</a></li></ol></li>
 </ol>
 </details>
 
-<div class="s-destacado"><p><strong>Esta página no es un consejo médico.</strong> Resume la investigación publicada para ayudarte a entenderla. Si tienes un problema de salud, habla con tu médico o tu psiquiatra antes de tomar cualquier decisión. Fuera de los ensayos clínicos y de los medicamentos aprobados, en España la sanidad no ofrece tratamientos con psicodélicos.</p></div>
+<div class="iv-parte p1" id="parte-entender">
+<div class="txt"><span class="num">Parte 1</span><p class="tit">Entender</p><p>Qué se investiga, cómo es un ensayo y por qué conviene leer los resultados con calma.</p></div>
+<div class="ilu"><svg viewBox="0 0 320 180" aria-hidden="true" focusable="false"><circle class="m-salvia" cx="206" cy="92" r="76"/><rect class="m-crema" x="158" y="40" width="96" height="116" rx="12"/><path class="t-salvia" d="M176 70h60M176 90h60M176 110h30"/><circle class="m-blanco" cx="232" cy="120" r="27"/><circle class="t-tierra" cx="232" cy="120" r="27"/><path class="t-tierra" d="M252 140l22 22"/><circle class="m-tierra" cx="92" cy="50" r="20"/><circle class="m-arena" cx="72" cy="130" r="28"/></svg></div>
+</div>
 
+<section class="iv-sec">
 <h2 id="introduccion">Qué se está investigando y por qué</h2>
 <p>En los últimos veinte años ha vuelto la investigación médica con psicodélicos. Universidades y hospitales de varios países estudian si sustancias como la <a href="../sustancias/psilocibina/">psilocibina</a>, la <a href="../sustancias/mdma/">MDMA</a> o la <a href="../sustancias/ketamina/">ketamina</a> pueden ayudar en problemas de salud mental que responden mal a los tratamientos actuales.</p>
 <p>Los primeros resultados han despertado mucho interés. También mucha expectativa en los medios. Esta guía intenta separar lo que está demostrado de lo que todavía es una hipótesis.</p>
 
-<h3>Qué es la terapia asistida con psicodélicos</h3>
+<h3 id="que-es-la-terapia-asistida-con-psicodelicos">Qué es la terapia asistida con psicodélicos</h3>
 <p>En los ensayos, la sustancia casi nunca se da sola. Forma parte de un proceso con un equipo sanitario formado. Suele tener tres partes<sup><sup><a href="#ref-1">1</a></sup></sup>:</p>
-<ul>
-<li><strong>Preparación.</strong> Varias entrevistas antes de la sesión. Se revisa la salud física y mental, la medicación y los antecedentes familiares. Se explica qué puede pasar y se crea confianza con el equipo.</li>
-<li><strong>Sesión.</strong> La persona toma la sustancia en una sala tranquila, con al menos un profesional presente durante todo el efecto, que puede durar varias horas. El equipo no dirige la experiencia: acompaña y vigila la seguridad.</li>
-<li><strong>Integración.</strong> En los días y semanas siguientes se habla de lo vivido y de cómo aplicarlo a la vida diaria. Muchos investigadores creen que esta parte es tan importante como la sesión.</li>
-</ul>
+<ol class="iv-pasos">
+<li><span class="num">1</span><b>Preparación</b><p>Varias entrevistas antes de la sesión. Se revisa la salud física y mental, la medicación y los antecedentes familiares. Se explica qué puede pasar y se crea confianza con el equipo.</p></li>
+<li><span class="num">2</span><b>Sesión</b><p>La persona toma la sustancia en una sala tranquila, con al menos un profesional presente durante todo el efecto, que puede durar varias horas. El equipo no dirige la experiencia: acompaña y vigila la seguridad.</p></li>
+<li><span class="num">3</span><b>Integración</b><p>En los días y semanas siguientes se habla de lo vivido y de cómo aplicarlo a la vida diaria. Muchos investigadores creen que esta parte es tan importante como la sesión.</p></li>
+</ol>
 <p>La ketamina y la esketamina son una excepción parcial: a menudo se usan como medicamento, con supervisión, pero sin un acompañamiento psicológico tan estructurado.</p>
 
-<h3>Las fases de un ensayo clínico</h3>
+<h3 id="las-fases-de-un-ensayo-clinico">Las fases de un ensayo clínico</h3>
 <p>Antes de que un medicamento llegue a las farmacias tiene que superar varias etapas. Cada una responde a una pregunta distinta:</p>
-<div class="s-tabla s-ancha" role="region" tabindex="0" aria-label="Tabla: Las fases de un ensayo clínico"><table>
-<thead><tr><th>Fase</th><th>Pregunta principal</th><th>Participantes</th></tr></thead>
-<tbody>
-<tr><td data-label="Fase">Fase 1</td><td data-label="Pregunta principal">¿Es seguro? ¿Cómo lo tolera el cuerpo?</td><td data-label="Participantes">Pocas decenas, a veces personas sanas</td></tr>
-<tr><td data-label="Fase">Fase 2</td><td data-label="Pregunta principal">¿Parece funcionar? ¿Con qué pauta?</td><td data-label="Participantes">Decenas o pocos centenares de pacientes</td></tr>
-<tr><td data-label="Fase">Fase 3</td><td data-label="Pregunta principal">¿Funciona de verdad, comparado con placebo o con el tratamiento habitual, en muchos pacientes y varios centros?</td><td data-label="Participantes">Centenares o miles</td></tr>
-<tr><td data-label="Fase">Aprobación</td><td data-label="Pregunta principal">Una agencia (la EMA en Europa, la FDA en Estados Unidos) revisa todos los datos y decide si los beneficios superan a los riesgos</td><td data-label="Participantes">—</td></tr>
-<tr><td data-label="Fase">Fase 4</td><td data-label="Pregunta principal">¿Qué pasa en la práctica real, a largo plazo y en más personas?</td><td data-label="Participantes">Población general tratada</td></tr>
-</tbody>
-</table></div>
+<ol class="iv-fases">
+<li><span class="num">1</span><b>Fase 1</b><p><span class="solo-lectores">Pregunta principal: </span>¿Es seguro? ¿Cómo lo tolera el cuerpo?</p><p class="iv-gente"><span class="iv-puntitos" aria-hidden="true"><i></i><i></i><i></i></span><span class="solo-lectores">Participantes: </span>Pocas decenas, a veces personas sanas</p></li>
+<li><span class="num">2</span><b>Fase 2</b><p><span class="solo-lectores">Pregunta principal: </span>¿Parece funcionar? ¿Con qué pauta?</p><p class="iv-gente"><span class="iv-puntitos" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="solo-lectores">Participantes: </span>Decenas o pocos centenares de pacientes</p></li>
+<li><span class="num">3</span><b>Fase 3</b><p><span class="solo-lectores">Pregunta principal: </span>¿Funciona de verdad, comparado con placebo o con el tratamiento habitual, en muchos pacientes y varios centros?</p><p class="iv-gente"><span class="iv-puntitos" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="solo-lectores">Participantes: </span>Centenares o miles</p></li>
+<li class="ap"><span class="num"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.500l3.200 3.200L15 6.800"/></svg></span><b>Aprobación</b><p><span class="solo-lectores">Pregunta principal: </span>Una agencia (la EMA en Europa, la FDA en Estados Unidos) revisa todos los datos y decide si los beneficios superan a los riesgos</p></li>
+<li><span class="num">4</span><b>Fase 4</b><p><span class="solo-lectores">Pregunta principal: </span>¿Qué pasa en la práctica real, a largo plazo y en más personas?</p><p class="iv-gente"><span class="iv-puntitos" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="solo-lectores">Participantes: </span>Población general tratada</p></li>
+</ol>
 <p>Hoy, la mayoría de los usos de psicodélicos están en fase 1 o 2. Solo unos pocos han llegado a la fase 3.</p>
 
-<h3>Por qué la evidencia todavía es limitada</h3>
-<ul>
-<li><strong>Muestras pequeñas.</strong> Muchos estudios tienen entre 10 y 60 participantes. Con tan pocas personas, un resultado puede deberse al azar.</li>
-<li><strong>El doble ciego es difícil.</strong> En un buen ensayo, ni el paciente ni el evaluador saben quién recibe la sustancia y quién el placebo. Con un psicodélico, casi todo el mundo adivina qué ha tomado. Eso puede inflar el efecto aparente<sup><sup><a href="#ref-2">2</a></sup></sup>.</li>
-<li><strong>Expectativas altas.</strong> Quienes se apuntan a estos ensayos suelen tener mucha esperanza puesta en ellos. Esa esperanza mejora los síntomas por sí misma, y la decepción de recibir placebo puede empeorarlos.</li>
-<li><strong>Participantes muy seleccionados.</strong> Se excluye a personas con muchas enfermedades o medicaciones. Los resultados no siempre se pueden aplicar a todo el mundo.</li>
-<li><strong>Seguimiento corto.</strong> Muchos estudios miden el efecto durante semanas o pocos meses. Sabemos poco de lo que pasa a varios años.</li>
-<li><strong>Terapia y sustancia van juntas.</strong> Es difícil saber qué parte del beneficio se debe a la sustancia y qué parte al acompañamiento.</li>
-</ul>
+<h3 id="por-que-la-evidencia-todavia-es-limitada">Por qué la evidencia todavía es limitada</h3>
+<ol class="iv-ideas dos">
+<li><span class="n">1</span><b>Muestras pequeñas</b><p>Muchos estudios tienen entre 10 y 60 participantes. Con tan pocas personas, un resultado puede deberse al azar.</p></li>
+<li><span class="n">2</span><b>El doble ciego es difícil</b><p>En un buen ensayo, ni el paciente ni el evaluador saben quién recibe la sustancia y quién el placebo. Con un psicodélico, casi todo el mundo adivina qué ha tomado. Eso puede inflar el efecto aparente<sup><sup><a href="#ref-2">2</a></sup></sup>.</p></li>
+<li><span class="n">3</span><b>Expectativas altas</b><p>Quienes se apuntan a estos ensayos suelen tener mucha esperanza puesta en ellos. Esa esperanza mejora los síntomas por sí misma, y la decepción de recibir placebo puede empeorarlos.</p></li>
+<li><span class="n">4</span><b>Participantes muy seleccionados</b><p>Se excluye a personas con muchas enfermedades o medicaciones. Los resultados no siempre se pueden aplicar a todo el mundo.</p></li>
+<li><span class="n">5</span><b>Seguimiento corto</b><p>Muchos estudios miden el efecto durante semanas o pocos meses. Sabemos poco de lo que pasa a varios años.</p></li>
+<li><span class="n">6</span><b>Terapia y sustancia van juntas</b><p>Es difícil saber qué parte del beneficio se debe a la sustancia y qué parte al acompañamiento.</p></li>
+</ol>
+<figure class="iv-grafico iv-muestras">
+<figcaption>Cuántas personas participaron en 13 de los estudios que cita esta página</figcaption>
+<div class="fila"><a class="et" href="#depresion-resistente">Depresión resistente · psilocibina</a><span class="barra"><i class="a" style="--v:100.0%"></i></span><span class="val">233</span></div>
+<div class="fila"><a class="et" href="#depresion-mayor">Depresión mayor · psilocibina</a><span class="barra"><i class="a" style="--v:44.6%"></i></span><span class="val">104</span></div>
+<div class="fila"><a class="et" href="#alcohol">Alcohol · psilocibina</a><span class="barra"><i class="a" style="--v:40.8%"></i></span><span class="val">95</span></div>
+<div class="fila"><a class="et" href="#depresion-mayor">Depresión mayor · psilocibina</a><span class="barra"><i class="a" style="--v:25.3%"></i></span><span class="val">59</span></div>
+<div class="fila"><a class="et" href="#depresion-mayor">Depresión mayor · psilocibina</a><span class="barra"><i class="a" style="--v:22.3%"></i></span><span class="val">52</span></div>
+<div class="fila"><a class="et" href="#final-de-vida">Ansiedad · LSD</a><span class="barra"><i class="a" style="--v:18.0%"></i></span><span class="val">42</span></div>
+<div class="fila"><a class="et" href="#otras">Lesión cerebral · ibogaína</a><span class="barra"><i class="a" style="--v:12.9%"></i></span><span class="val">30</span></div>
+<div class="fila"><a class="et" href="#depresion-resistente">Depresión resistente · ayahuasca</a><span class="barra"><i class="a" style="--v:12.4%"></i></span><span class="val">29</span></div>
+<div class="fila"><a class="et" href="#depresion-mayor">Depresión mayor · psilocibina</a><span class="barra"><i class="a" style="--v:10.3%"></i></span><span class="val">24</span></div>
+<div class="fila"><a class="et" href="#tabaco">Tabaco · psilocibina</a><span class="barra"><i class="a" style="--v:6.4%"></i></span><span class="val">15</span></div>
+<div class="fila"><a class="et" href="#bipolar">Trastorno bipolar · psilocibina</a><span class="barra"><i class="a" style="--v:6.4%"></i></span><span class="val">15</span></div>
+<div class="fila"><a class="et" href="#anorexia">Anorexia · psilocibina</a><span class="barra"><i class="a" style="--v:4.3%"></i></span><span class="val">10</span></div>
+<div class="fila"><a class="et" href="#toc">TOC · psilocibina</a><span class="barra"><i class="a" style="--v:3.9%"></i></span><span class="val">9</span></div>
+<p class="pie">Cada barra es un estudio. 10 de los 13 tienen menos de 60 participantes.</p>
+</figure>
 
+</section>
+
+<div class="iv-parte p2" id="parte-problemas">
+<div class="txt"><span class="num">Parte 2</span><p class="tit">Problema a problema</p><p>En qué punto está la investigación en cada problema de salud, con sus resultados y sus límites.</p></div>
+<div class="ilu"><svg viewBox="0 0 320 180" aria-hidden="true" focusable="false"><circle class="m-tierra" cx="212" cy="92" r="76"/><rect class="m-crema" x="144" y="44" width="136" height="26" rx="13"/><rect class="m-crema" x="144" y="78" width="136" height="26" rx="13"/><rect class="m-crema" x="144" y="112" width="136" height="26" rx="13"/><path class="t-bosque" d="M160 57h76M160 91h48M160 125h22"/><circle class="m-salvia" cx="88" cy="56" r="22"/><circle class="m-crema" cx="70" cy="132" r="26"/></svg></div>
+</div>
+
+<section class="iv-sec">
 <h2 id="estado-evidencia">Cómo va la investigación en cada problema de salud</h2>
 <p>La tabla resume, de forma simplificada, en qué punto está cada línea de investigación. Usamos tres niveles:</p>
-<ul>
-<li><strong>Preliminar:</strong> estudios pequeños, a menudo sin grupo de comparación. Sirven para generar hipótesis.</li>
-<li><strong>Prometedora:</strong> al menos un ensayo aleatorizado con resultados favorables, pero faltan estudios grandes o hay dudas metodológicas.</li>
-<li><strong>Sólida:</strong> varios ensayos de fase 3 y aprobación como medicamento.</li>
+<ul class="iv-niveles">
+<li class="n1"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 40V29"/><path d="M24 31c0-6-4-9-10-9 0 6 4 9 10 9z"/><path d="M14 40h20"/></svg><b>Preliminar</b><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span><p>estudios pequeños, a menudo sin grupo de comparación. Sirven para generar hipótesis.</p></li>
+<li class="n2"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 40V19"/><path d="M24 30c0-6-4-9-10-9 0 6 4 9 10 9z"/><path d="M24 23c0-5 4-8 9-8 0 5-4 8-9 8z"/><path d="M14 40h20"/></svg><b>Prometedora</b><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span><p>al menos un ensayo aleatorizado con resultados favorables, pero faltan estudios grandes o hay dudas metodológicas.</p></li>
+<li class="n3"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 40V21"/><path d="M24 33c0-5-4-8-9-8 0 5 4 8 9 8z"/><path d="M24 30c0-4 3-7 8-7 0 4-3 7-8 7z"/><circle cx="24" cy="13" r="3.2"/><path d="M24 5.5v2M24 18.500v2M16.500 13h2M29.500 13h2M18.700 7.700l1.400 1.400M27.900 16.900l1.400 1.400M29.300 7.700l-1.400 1.400M20.100 16.900l-1.400 1.400"/><path d="M14 40h20"/></svg><b>Sólida</b><span class="iv-medidor n3" aria-hidden="true"><i></i><i></i><i></i></span><p>varios ensayos de fase 3 y aprobación como medicamento.</p></li>
 </ul>
-<div class="s-tabla s-ancha" role="region" tabindex="0" aria-label="Tabla: Estado de la evidencia por indicación"><table>
-<thead><tr><th>Indicación</th><th>Sustancias estudiadas</th><th>Fase más avanzada</th><th>Nivel de evidencia</th></tr></thead>
+<p class="iv-leyenda"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>El trazo de cada fila tiene cuatro tramos: fase 1, fase 2, fase 3 y aprobación.</p>
+<table class="iv-tabla">
+<thead><tr><th scope="col">Indicación</th><th scope="col">Sustancias estudiadas</th><th scope="col">Fase más avanzada</th><th scope="col">Nivel de evidencia</th></tr></thead>
 <tbody>
-<tr><td data-label="Indicación"><a href="#depresion-resistente">Depresión resistente</a></td><td data-label="Sustancias estudiadas">Esketamina, ketamina, psilocibina, ayahuasca, 5-MeO-DMT</td><td data-label="Fase más avanzada">Aprobada (esketamina); fase 3 (psilocibina)</td><td data-label="Nivel de evidencia">Sólida (esketamina); prometedora (psilocibina)</td></tr>
-<tr><td data-label="Indicación"><a href="#depresion-mayor">Depresión mayor</a></td><td data-label="Sustancias estudiadas">Psilocibina, ketamina</td><td data-label="Fase más avanzada">Fase 2 (con ensayos de fase 3 en marcha)</td><td data-label="Nivel de evidencia">Prometedora</td></tr>
-<tr><td data-label="Indicación"><a href="#tept">Trastorno de estrés postraumático (TEPT)</a></td><td data-label="Sustancias estudiadas">MDMA</td><td data-label="Fase más avanzada">Fase 3</td><td data-label="Nivel de evidencia">Prometedora, con dudas metodológicas</td></tr>
-<tr><td data-label="Indicación"><a href="#alcohol">Trastorno por consumo de alcohol</a></td><td data-label="Sustancias estudiadas">Psilocibina, LSD, ketamina</td><td data-label="Fase más avanzada">Fase 2</td><td data-label="Nivel de evidencia">Prometedora</td></tr>
-<tr><td data-label="Indicación"><a href="#tabaco">Tabaco</a></td><td data-label="Sustancias estudiadas">Psilocibina</td><td data-label="Fase más avanzada">Fase 2</td><td data-label="Nivel de evidencia">Preliminar</td></tr>
-<tr><td data-label="Indicación"><a href="#opioides">Opioides</a></td><td data-label="Sustancias estudiadas">Ibogaína, ketamina, psilocibina</td><td data-label="Fase más avanzada">Fase 1–2 y estudios observacionales</td><td data-label="Nivel de evidencia">Preliminar</td></tr>
-<tr><td data-label="Indicación"><a href="#final-de-vida">Ansiedad y angustia en enfermedad grave o al final de la vida</a></td><td data-label="Sustancias estudiadas">Psilocibina, LSD</td><td data-label="Fase más avanzada">Fase 2</td><td data-label="Nivel de evidencia">Prometedora</td></tr>
-<tr><td data-label="Indicación"><a href="#toc">Trastorno obsesivo-compulsivo (TOC)</a></td><td data-label="Sustancias estudiadas">Psilocibina</td><td data-label="Fase más avanzada">Fase 1–2</td><td data-label="Nivel de evidencia">Preliminar</td></tr>
-<tr><td data-label="Indicación"><a href="#anorexia">Anorexia nerviosa</a></td><td data-label="Sustancias estudiadas">Psilocibina</td><td data-label="Fase más avanzada">Fase 1–2</td><td data-label="Nivel de evidencia">Preliminar</td></tr>
-<tr><td data-label="Indicación"><a href="#cefalea-racimos">Cefalea en racimos</a></td><td data-label="Sustancias estudiadas">Psilocibina, LSD y derivados</td><td data-label="Fase más avanzada">Fase 1–2</td><td data-label="Nivel de evidencia">Preliminar</td></tr>
-<tr><td data-label="Indicación"><a href="#bipolar">Trastorno bipolar</a></td><td data-label="Sustancias estudiadas">Psilocibina</td><td data-label="Fase más avanzada">Estudio piloto abierto</td><td data-label="Nivel de evidencia">Preliminar; precaución, suele ser criterio de exclusión</td></tr>
-<tr><td data-label="Indicación"><a href="#dolor-cronico">Dolor crónico</a></td><td data-label="Sustancias estudiadas">Ketamina, psilocibina</td><td data-label="Fase más avanzada">Fase 2 (ketamina)</td><td data-label="Nivel de evidencia">Preliminar</td></tr>
-<tr><td data-label="Indicación"><a href="#otras">Otras</a></td><td data-label="Sustancias estudiadas">LSD, ibogaína, MDMA, psilocibina</td><td data-label="Fase más avanzada">Variable</td><td data-label="Nivel de evidencia">Preliminar</td></tr>
+<tr><th scope="row"><a href="#depresion-resistente">Depresión resistente</a></th><td data-label="Sustancias estudiadas">Esketamina, ketamina, psilocibina, ayahuasca, 5-MeO-DMT</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:1"></i><i class="ap" style="--l:1"></i></span>Aprobada (esketamina); fase 3 (psilocibina)</td><td data-label="Nivel de evidencia"><span class="iv-medidor n3" aria-hidden="true"><i></i><i></i><i></i></span>Sólida (esketamina); prometedora (psilocibina)</td></tr>
+<tr><th scope="row"><a href="#depresion-mayor">Depresión mayor</a></th><td data-label="Sustancias estudiadas">Psilocibina, ketamina</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i class="m" style="--l:0"></i><i style="--l:0"></i></span>Fase 2 (con ensayos de fase 3 en marcha)</td><td data-label="Nivel de evidencia"><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</td></tr>
+<tr><th scope="row"><a href="#tept">Trastorno de estrés postraumático (TEPT)</a></th><td data-label="Sustancias estudiadas">MDMA</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i></span>Fase 3</td><td data-label="Nivel de evidencia"><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora, con dudas metodológicas</td></tr>
+<tr><th scope="row"><a href="#alcohol">Trastorno por consumo de alcohol</a></th><td data-label="Sustancias estudiadas">Psilocibina, LSD, ketamina</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 2</td><td data-label="Nivel de evidencia"><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</td></tr>
+<tr><th scope="row"><a href="#tabaco">Tabaco</a></th><td data-label="Sustancias estudiadas">Psilocibina</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 2</td><td data-label="Nivel de evidencia"><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</td></tr>
+<tr><th scope="row"><a href="#opioides">Opioides</a></th><td data-label="Sustancias estudiadas">Ibogaína, ketamina, psilocibina</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 1–2 y estudios observacionales</td><td data-label="Nivel de evidencia"><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</td></tr>
+<tr><th scope="row"><a href="#final-de-vida">Ansiedad y angustia en enfermedad grave o al final de la vida</a></th><td data-label="Sustancias estudiadas">Psilocibina, LSD</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 2</td><td data-label="Nivel de evidencia"><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</td></tr>
+<tr><th scope="row"><a href="#toc">Trastorno obsesivo-compulsivo (TOC)</a></th><td data-label="Sustancias estudiadas">Psilocibina</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 1–2</td><td data-label="Nivel de evidencia"><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</td></tr>
+<tr><th scope="row"><a href="#anorexia">Anorexia nerviosa</a></th><td data-label="Sustancias estudiadas">Psilocibina</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 1–2</td><td data-label="Nivel de evidencia"><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</td></tr>
+<tr><th scope="row"><a href="#cefalea-racimos">Cefalea en racimos</a></th><td data-label="Sustancias estudiadas">Psilocibina, LSD y derivados</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 1–2</td><td data-label="Nivel de evidencia"><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</td></tr>
+<tr><th scope="row"><a href="#bipolar">Trastorno bipolar</a></th><td data-label="Sustancias estudiadas">Psilocibina</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:0"></i></span>Estudio piloto abierto</td><td data-label="Nivel de evidencia"><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar; precaución, suele ser criterio de exclusión</td></tr>
+<tr><th scope="row"><a href="#dolor-cronico">Dolor crónico</a></th><td data-label="Sustancias estudiadas">Ketamina, psilocibina</td><td data-label="Fase más avanzada"><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 2 (ketamina)</td><td data-label="Nivel de evidencia"><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</td></tr>
+<tr><th scope="row"><a href="#otras">Otras</a></th><td data-label="Sustancias estudiadas">LSD, ibogaína, MDMA, psilocibina</td><td data-label="Fase más avanzada"><span class="iv-pista sin" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Variable</td><td data-label="Nivel de evidencia"><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</td></tr>
 </tbody>
-</table></div>
-<p>Esta clasificación es orientativa y la ha hecho APDER a partir de la literatura publicada. La investigación avanza deprisa: un estudio nuevo puede cambiar el panorama.</p>
+</table>
+<p class="iv-nota">Esta clasificación es orientativa y la ha hecho APDER a partir de la literatura publicada. La investigación avanza deprisa: un estudio nuevo puede cambiar el panorama.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="depresion-resistente">Depresión resistente al tratamiento</h2>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Esketamina, ketamina, psilocibina, ayahuasca, 5-MeO-DMT</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:1"></i><i class="ap" style="--l:1"></i></span>Aprobada (esketamina); fase 3 (psilocibina)</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n3" aria-hidden="true"><i></i><i></i><i></i></span>Sólida (esketamina); prometedora (psilocibina)</dd></div></dl>
 <p>Se habla de depresión resistente cuando la persona no ha mejorado lo suficiente con, al menos, dos antidepresivos bien pautados. Es el campo donde la investigación está más avanzada.</p>
 
-<h3>Esketamina y ketamina</h3>
+<h3 id="esketamina-y-ketamina">Esketamina y ketamina</h3>
 <p>La <a href="../sustancias/ketamina/">ketamina</a> es un anestésico. A dosis menores puede reducir los síntomas depresivos en horas o días. La esketamina es una de sus dos formas químicas. En espray nasal y junto a un antidepresivo oral, mejoró los síntomas más que el placebo en ensayos de fase 3<sup><sup><a href="#ref-3">3</a></sup></sup>. Otro ensayo mostró que mantenerla reducía el riesgo de recaída<sup><sup><a href="#ref-4">4</a></sup></sup>.</p>
-<p><strong>Estado:</strong> aprobada como medicamento para la depresión resistente desde 2019. Se administra en un centro sanitario, con vigilancia durante unas horas tras cada toma. La ketamina intravenosa para la depresión se usa en algunos hospitales fuera de su indicación aprobada.</p>
-<p><strong>Límites:</strong> el efecto puede desaparecer si se interrumpe el tratamiento. Puede subir la tensión arterial y causar disociación, mareo y sedación. Tiene potencial de abuso. Su uso repetido sin control se asocia a daño en la vejiga.</p>
+<p class="iv-estado"><strong>Estado:</strong> aprobada como medicamento para la depresión resistente desde 2019. Se administra en un centro sanitario, con vigilancia durante unas horas tras cada toma. La ketamina intravenosa para la depresión se usa en algunos hospitales fuera de su indicación aprobada.</p>
+<p class="iv-limites"><strong>Límites:</strong> el efecto puede desaparecer si se interrumpe el tratamiento. Puede subir la tensión arterial y causar disociación, mareo y sedación. Tiene potencial de abuso. Su uso repetido sin control se asocia a daño en la vejiga.</p>
 
-<h3>Psilocibina</h3>
+<h3 id="psilocibina">Psilocibina</h3>
 <p>El ensayo más grande publicado hasta ahora incluyó a 233 personas con depresión resistente. Comparó una dosis alta de psilocibina sintética (COMP360) con una dosis media y otra muy baja, junto con apoyo psicológico. A las tres semanas, la dosis alta redujo más los síntomas. A las doce semanas la diferencia ya no era clara. Hubo ideación y conductas suicidas en todos los grupos<sup><sup><a href="#ref-5">5</a></sup></sup>.</p>
-<p><strong>Estado:</strong> hay ensayos de fase 3 en marcha en varios países. Hasta que se publiquen sus resultados completos, la psilocibina no es un tratamiento aprobado.</p>
-<h3>Ayahuasca y otras sustancias</h3>
-<p>Un pequeño ensayo en Brasil con 29 pacientes comparó una sola toma de <a href="../sustancias/ayahuasca/">ayahuasca</a> con un placebo. A la semana, la mejoría fue mayor con ayahuasca<sup><sup><a href="#ref-6">6</a></sup></sup>. Es un estudio interesante pero pequeño y no se ha repetido a gran escala. También se investiga una forma inhalada de <a href="../sustancias/5-meo-dmt/">5-MeO-DMT</a>, por ahora en fases iniciales.</p>
+<p class="iv-estado"><strong>Estado:</strong> hay ensayos de fase 3 en marcha en varios países. Hasta que se publiquen sus resultados completos, la psilocibina no es un tratamiento aprobado.</p>
 
+<h3 id="ayahuasca-y-otras-sustancias">Ayahuasca y otras sustancias</h3>
+<p>Un pequeño ensayo en Brasil con 29 pacientes comparó una sola toma de <a href="../sustancias/ayahuasca/">ayahuasca</a> con un placebo. A la semana, la mejoría fue mayor con ayahuasca<sup><sup><a href="#ref-6">6</a></sup></sup>. Es un estudio interesante pero pequeño y no se ha repetido a gran escala. También se investiga una forma inhalada de <a href="../sustancias/5-meo-dmt/">5-MeO-DMT</a>, por ahora en fases iniciales.</p>
+</section>
+
+<section class="iv-sec">
 <h2 id="depresion-mayor">Depresión mayor</h2>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Psilocibina, ketamina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i class="m" style="--l:0"></i><i style="--l:0"></i></span>Fase 2 (con ensayos de fase 3 en marcha)</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</dd></div></dl>
 <p>Aquí se estudian personas con depresión que no necesariamente han probado varios tratamientos.</p>
-<ul>
+<ul class="iv-puntos">
 <li>Un ensayo en Londres con 59 personas comparó psilocibina con escitalopram, un antidepresivo habitual. En la medida principal, a las seis semanas, <strong>no hubo diferencia significativa</strong> entre ambos. Algunas medidas secundarias favorecían a la psilocibina, pero no se pueden tomar como prueba<sup><sup><a href="#ref-7">7</a></sup></sup>.</li>
 <li>En Estados Unidos, 24 personas que recibieron psilocibina mejoraron más que las que estaban en lista de espera<sup><sup><a href="#ref-8">8</a></sup></sup>. La lista de espera es una comparación débil: no controla las expectativas.</li>
 <li>Un ensayo con 104 personas en varios centros comparó psilocibina con niacina, una vitamina que produce sensaciones físicas para dificultar que se adivine el grupo. La psilocibina redujo más los síntomas a las seis semanas<sup><sup><a href="#ref-9">9</a></sup></sup>.</li>
 <li>Un ensayo suizo con 52 personas, con placebo, también encontró una mejoría mayor tras una sola sesión<sup><sup><a href="#ref-10">10</a></sup></sup>.</li>
 </ul>
-<p><strong>Límites:</strong> muestras modestas, cegamiento difícil y seguimientos cortos. No sabemos aún cuánto dura el efecto ni si hay que repetir las sesiones. Hay ensayos de fase 3 en marcha en depresión mayor, pero ningún psicodélico clásico está aprobado para esta indicación.</p>
+<p class="iv-limites"><strong>Límites:</strong> muestras modestas, cegamiento difícil y seguimientos cortos. No sabemos aún cuánto dura el efecto ni si hay que repetir las sesiones. Hay ensayos de fase 3 en marcha en depresión mayor, pero ningún psicodélico clásico está aprobado para esta indicación.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="tept">Trastorno de estrés postraumático (TEPT)</h2>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>MDMA</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i></span>Fase 3</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora, con dudas metodológicas</dd></div></dl>
 <p>La terapia asistida con <a href="../sustancias/mdma/">MDMA</a> es la que más cerca ha estado de una aprobación. Combina varias sesiones de psicoterapia con unas pocas sesiones en las que se toma MDMA. Puedes leer más en nuestra guía sobre <a href="../terapia-asistida-mdma/">terapia asistida con MDMA</a>.</p>
-<h3>Qué se ha visto</h3>
+
+<h3 id="que-se-ha-visto">Qué se ha visto</h3>
 <p>Dos ensayos de fase 3 compararon la terapia con MDMA con la misma terapia con placebo. En ambos, el grupo con MDMA redujo más los síntomas de TEPT, y una mayor proporción de personas dejó de cumplir los criterios diagnósticos<sup><sup><a href="#ref-11">11</a></sup><sup><a href="#ref-12">12</a></sup></sup>. El segundo ensayo incluyó también a personas con TEPT moderado.</p>
-<h3>Límites y polémica</h3>
-<ul>
+
+<h3 id="limites-y-polemica">Límites y polémica</h3>
+<ul class="iv-puntos">
 <li>Casi todos los participantes adivinaron si habían tomado MDMA o placebo.</li>
 <li>Se cuestionó cómo se registraron los efectos adversos, incluidos los efectos «agradables» que podrían indicar riesgo de abuso.</li>
 <li>Hubo denuncias de una falta grave de ética de terapeutas con una participante en un ensayo de fase 2. En 2024 se retiraron varios artículos científicos de esa fase porque no se había informado de ello.</li>
 <li>La MDMA puede subir la tensión arterial y la frecuencia cardiaca.</li>
 </ul>
-<h3>Estado regulatorio</h3>
-<p>Por ahora no está aprobada como medicamento: hace falta al menos otro ensayo de fase 3.</p>
 
+<h3 id="estado-regulatorio">Estado regulatorio</h3>
+<p>Por ahora no está aprobada como medicamento: hace falta al menos otro ensayo de fase 3.</p>
+</section>
+
+<section class="iv-sec">
 <h2 id="adicciones">Adicciones</h2>
 <p>La idea de usar psicodélicos para las adicciones no es nueva: ya se estudió con <a href="../sustancias/lsd/">LSD</a> en los años cincuenta y sesenta.</p>
 
 <h3 id="alcohol">Trastorno por consumo de alcohol</h3>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Psilocibina, LSD, ketamina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 2</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</dd></div></dl>
 <p>Un análisis conjunto de seis ensayos antiguos con LSD encontró menos consumo problemático de alcohol tras una sola toma<sup><sup><a href="#ref-13">13</a></sup></sup>. Esos ensayos no cumplen los estándares actuales.</p>
 <p>Un ensayo moderno con 95 personas comparó la psicoterapia con dos sesiones de psilocibina frente a la misma psicoterapia con un placebo activo (difenhidramina). El grupo con psilocibina tuvo menos días de consumo intenso durante los ocho meses siguientes<sup><sup><a href="#ref-14">14</a></sup></sup>. Es el resultado más sólido hasta la fecha, pero procede de un solo ensayo. También se estudia la ketamina junto con terapia para prevenir recaídas.</p>
-<p><strong>Estado:</strong> fase 2. Ninguna de estas sustancias está aprobada para el alcoholismo.</p>
+<p class="iv-estado"><strong>Estado:</strong> fase 2. Ninguna de estas sustancias está aprobada para el alcoholismo.</p>
 
 <h3 id="tabaco">Tabaco</h3>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Psilocibina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 2</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</dd></div></dl>
 <p>En un estudio piloto, 15 fumadores recibieron psilocibina junto con terapia cognitivo-conductual para dejar de fumar. A los seis meses, la mayoría seguía sin fumar, comprobado con análisis<sup><sup><a href="#ref-15">15</a></sup></sup>. No había grupo de comparación y los participantes estaban muy motivados. Hay ensayos aleatorizados en curso que comparan la psilocibina con el parche de nicotina.</p>
 
 <h3 id="opioides">Opioides</h3>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Ibogaína, ketamina, psilocibina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 1–2 y estudios observacionales</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</dd></div></dl>
 <p>La evidencia aquí es la más débil y la más delicada.</p>
-<ul>
-<li><strong>Ibogaína.</strong> Muchas personas cuentan que la <a href="../sustancias/ibogaina/">ibogaína</a> les quitó el síndrome de abstinencia. Pero los datos proceden sobre todo de estudios observacionales sin grupo de control. La ibogaína puede alterar el ritmo cardiaco y se han documentado muertes. Es especialmente peligrosa en personas que consumen opioides o metadona.</li>
-<li><strong>Ketamina.</strong> Un ensayo en Rusia con personas dependientes de la heroína encontró más abstinencia con una dosis mayor de ketamina junto con psicoterapia que con una dosis menor<sup><sup><a href="#ref-16">16</a></sup></sup>.</li>
-<li><strong>Psilocibina.</strong> Hay estudios pequeños en marcha, sin resultados concluyentes.</li>
+<ul class="iv-filas">
+<li><b>Ibogaína</b><p>Muchas personas cuentan que la <a href="../sustancias/ibogaina/">ibogaína</a> les quitó el síndrome de abstinencia. Pero los datos proceden sobre todo de estudios observacionales sin grupo de control. La ibogaína puede alterar el ritmo cardiaco y se han documentado muertes. Es especialmente peligrosa en personas que consumen opioides o metadona.</p></li>
+<li><b>Ketamina</b><p>Un ensayo en Rusia con personas dependientes de la heroína encontró más abstinencia con una dosis mayor de ketamina junto con psicoterapia que con una dosis menor<sup><sup><a href="#ref-16">16</a></sup></sup>.</p></li>
+<li><b>Psilocibina</b><p>Hay estudios pequeños en marcha, sin resultados concluyentes.</p></li>
 </ul>
-<div class="s-destacado"><p>Si tienes una dependencia de opioides, existen tratamientos aprobados y eficaces (como la metadona o la buprenorfina). No los abandones para probar una sustancia experimental. Habla con tu centro de atención a las adicciones.</p></div>
+<aside class="iv-apunte" role="note"><p>Si tienes una dependencia de opioides, existen tratamientos aprobados y eficaces (como la metadona o la buprenorfina). No los abandones para probar una sustancia experimental. Habla con tu centro de atención a las adicciones.</p></aside>
+</section>
 
+<section class="iv-sec">
 <h2 id="final-de-vida">Ansiedad y angustia en enfermedad grave o al final de la vida</h2>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Psilocibina, LSD</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 2</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n2" aria-hidden="true"><i></i><i></i><i></i></span>Prometedora</dd></div></dl>
 <p>Una enfermedad grave puede traer miedo, desesperanza y angustia ante la muerte. Dos ensayos publicados en 2016 en personas con cáncer encontraron que una sesión con psilocibina reducía la ansiedad y la depresión más que el control. El efecto se mantenía en los meses siguientes en muchos participantes<sup><sup><a href="#ref-17">17</a></sup><sup><a href="#ref-18">18</a></sup></sup>.</p>
 <p>Un ensayo suizo con LSD en 42 personas con ansiedad, con y sin una enfermedad grave, también mostró una reducción de la ansiedad frente al placebo<sup><sup><a href="#ref-19">19</a></sup></sup>.</p>
-<p><strong>Límites:</strong> muestras pequeñas, diseños cruzados (todos acaban recibiendo la sustancia) y participantes muy seleccionados. Faltan ensayos más grandes. No hay ninguna aprobación para esta indicación.</p>
+<p class="iv-limites"><strong>Límites:</strong> muestras pequeñas, diseños cruzados (todos acaban recibiendo la sustancia) y participantes muy seleccionados. Faltan ensayos más grandes. No hay ninguna aprobación para esta indicación.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="toc">Trastorno obsesivo-compulsivo (TOC)</h2>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Psilocibina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 1–2</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</dd></div></dl>
 <p>El primer estudio moderno con psilocibina en TOC incluyó solo a 9 personas. Fue sobre todo un estudio de seguridad, sin grupo placebo. Se observó una reducción temporal de los síntomas<sup><sup><a href="#ref-20">20</a></sup></sup>. Desde entonces se han iniciado ensayos con placebo, todavía pequeños.</p>
-<p><strong>Estado:</strong> preliminar. No hay datos para recomendar este uso.</p>
+<p class="iv-estado"><strong>Estado:</strong> preliminar. No hay datos para recomendar este uso.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="anorexia">Anorexia nerviosa</h2>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Psilocibina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 1–2</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</dd></div></dl>
 <p>La anorexia tiene pocos tratamientos eficaces y una mortalidad alta. Un estudio de fase 1 dio una sesión de psilocibina a 10 mujeres con anorexia. El objetivo era comprobar la seguridad y la viabilidad. No hubo problemas graves de seguridad y algunas participantes mejoraron<sup><sup><a href="#ref-21">21</a></sup></sup>. Sin grupo de control, estos datos no permiten saber si la psilocibina es eficaz.</p>
 <p>Las personas con anorexia grave pueden tener alteraciones del corazón y de los electrolitos. Cualquier estudio en esta población necesita un control médico estricto.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="cefalea-racimos">Cefalea en racimos</h2>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Psilocibina, LSD y derivados</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 1–2</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</dd></div></dl>
 <p>La cefalea en racimos es uno de los dolores más intensos que se conocen. Desde hace años, asociaciones de pacientes describen alivio con psilocibina o LSD tomadas en cantidades pequeñas. Un ensayo pequeño con placebo probó una pauta de tres tomas de psilocibina a dosis bajas. Los resultados fueron sugerentes, pero no concluyentes<sup><sup><a href="#ref-22">22</a></sup></sup>. También se investigan derivados del LSD sin efectos psicodélicos.</p>
-<p><strong>Estado:</strong> preliminar. Hay tratamientos aprobados para esta cefalea: consulta con tu neurólogo.</p>
+<p class="iv-estado"><strong>Estado:</strong> preliminar. Hay tratamientos aprobados para esta cefalea: consulta con tu neurólogo.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="bipolar">Trastorno bipolar</h2>
-<div class="s-destacado"><p>Las personas con trastorno bipolar, o con familiares directos que lo padecen, suelen quedar <strong>excluidas</strong> de los ensayos con psicodélicos. El motivo es el riesgo de desencadenar un episodio de manía o de psicosis.</p></div>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Psilocibina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:0.5"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:0"></i></span>Estudio piloto abierto</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar; precaución, suele ser criterio de exclusión</dd></div></dl>
+<aside class="iv-apunte" role="note"><p>Las personas con trastorno bipolar, o con familiares directos que lo padecen, suelen quedar <strong>excluidas</strong> de los ensayos con psicodélicos. El motivo es el riesgo de desencadenar un episodio de manía o de psicosis.</p></aside>
 <p>Hay muy pocos datos. Un estudio abierto, sin placebo, dio psilocibina a 15 personas con trastorno bipolar tipo II en fase depresiva. No se observaron episodios de manía en el seguimiento y la depresión mejoró<sup><sup><a href="#ref-23">23</a></sup></sup>. Es un estudio muy pequeño, con personas muy seleccionadas. No permite concluir que sea seguro.</p>
 <p>La ketamina y la esketamina se han estudiado algo más en la depresión bipolar, siempre con control psiquiátrico.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="dolor-cronico">Dolor crónico</h2>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>Ketamina, psilocibina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista" aria-hidden="true"><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i></span>Fase 2 (ketamina)</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</dd></div></dl>
 <p>La ketamina en perfusión se usa en algunas unidades del dolor, sobre todo en el síndrome de dolor regional complejo y en dolor neuropático. Los resultados varían mucho entre estudios y el efecto suele ser temporal.</p>
 <p>Con psilocibina y otros psicodélicos clásicos solo hay estudios piloto, por ejemplo en fibromialgia o en dolor de miembro fantasma. Es una línea de investigación muy temprana.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="otras">Otras líneas de investigación</h2>
-<ul>
-<li><strong>Trastorno de ansiedad generalizada.</strong> Una empresa farmacéutica investiga una formulación de LSD y ha pasado a ensayos de fase 3.</li>
-<li><strong>Lesión cerebral traumática.</strong> Un estudio abierto con 30 veteranos de fuerzas especiales en Estados Unidos, tratados con ibogaína junto con magnesio (para proteger el corazón) en México, mostró mejoras en discapacidad, síntomas de TEPT, depresión y ansiedad<sup><sup><a href="#ref-24">24</a></sup></sup>. No tenía grupo de control.</li>
-<li><strong>Otros.</strong> Se estudian también la ansiedad social en personas autistas (MDMA), la depresión asociada al párkinson o a otras enfermedades neurológicas, los trastornos por consumo de cocaína o metanfetamina y el desgaste profesional en sanitarios. Casi todos son estudios pequeños. También se investiga la <a href="../sustancias/dmt/">DMT</a> en depresión, en fases iniciales.</li>
-<li><strong>Microdosis.</strong> Los ensayos controlados con dosis muy pequeñas no han mostrado, por ahora, beneficios claros frente al placebo.</li>
+<dl class="iv-ficha"><div><dt>Sustancias estudiadas</dt><dd>LSD, ibogaína, MDMA, psilocibina</dd></div><div><dt>Fase más avanzada</dt><dd><span class="iv-pista sin" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Variable</dd></div><div><dt>Nivel de evidencia</dt><dd><span class="iv-medidor n1" aria-hidden="true"><i></i><i></i><i></i></span>Preliminar</dd></div></dl>
+<ul class="iv-filas">
+<li><b>Trastorno de ansiedad generalizada</b><p>Una empresa farmacéutica investiga una formulación de LSD y ha pasado a ensayos de fase 3.</p></li>
+<li><b>Lesión cerebral traumática</b><p>Un estudio abierto con 30 veteranos de fuerzas especiales en Estados Unidos, tratados con ibogaína junto con magnesio (para proteger el corazón) en México, mostró mejoras en discapacidad, síntomas de TEPT, depresión y ansiedad<sup><sup><a href="#ref-24">24</a></sup></sup>. No tenía grupo de control.</p></li>
+<li><b>Otros</b><p>Se estudian también la ansiedad social en personas autistas (MDMA), la depresión asociada al párkinson o a otras enfermedades neurológicas, los trastornos por consumo de cocaína o metanfetamina y el desgaste profesional en sanitarios. Casi todos son estudios pequeños. También se investiga la <a href="../sustancias/dmt/">DMT</a> en depresión, en fases iniciales.</p></li>
+<li><b>Microdosis</b><p>Los ensayos controlados con dosis muy pequeñas no han mostrado, por ahora, beneficios claros frente al placebo.</p></li>
 </ul>
+</section>
 
+<div class="iv-parte p3" id="parte-participar">
+<div class="txt"><span class="num">Parte 3</span><p class="tit">Participar</p><p>Dónde buscar un ensayo, qué preguntar, qué derechos tienes y qué señales invitan a desconfiar.</p></div>
+<div class="ilu"><svg viewBox="0 0 320 180" aria-hidden="true" focusable="false"><circle class="m-arena2" cx="208" cy="92" r="78"/><rect class="m-blanco" x="164" y="40" width="88" height="112" rx="12"/><rect class="m-bosque" x="189" y="31" width="38" height="18" rx="8"/><path class="t-salvia" d="M180 80l8 8 14-16M180 116l8 8 14-16"/><path class="t-tierra" d="M214 82h22M214 118h22"/><circle class="m-tierra" cx="92" cy="52" r="20"/><circle class="m-salvia" cx="76" cy="130" r="26"/></svg></div>
+</div>
+
+<section class="iv-sec">
 <h2 id="participar">Cómo participar en un ensayo clínico</h2>
 <p>Participar en un ensayo es la forma de recibir un psicodélico en investigación con garantías sanitarias. También contribuye a que la ciencia avance. Pero no es un tratamiento garantizado.</p>
 
-<h3>Dónde buscar ensayos</h3>
-<ul>
+<h3 id="donde-buscar-ensayos">Dónde buscar ensayos</h3>
+<ul class="iv-registros">
 <li><strong>Registro Español de Estudios Clínicos (REEC)</strong>, de la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS): <a href="https://reec.aemps.es/" rel="noopener">reec.aemps.es</a>. Recoge los ensayos clínicos con medicamentos que se hacen en España.</li>
 <li><strong>Sistema de Información sobre Ensayos Clínicos de la UE (CTIS)</strong>: <a href="https://euclinicaltrials.eu/" rel="noopener">euclinicaltrials.eu</a>. Incluye los ensayos clínicos de los países de la Unión Europea.</li>
 <li><strong>ClinicalTrials.gov</strong>: <a href="https://clinicaltrials.gov/" rel="noopener">clinicaltrials.gov</a>. Registro de Estados Unidos con ensayos de todo el mundo.</li>
@@ -382,15 +466,13 @@
 <p>Busca por el nombre de la sustancia (por ejemplo, «psilocybin» o «psilocibina») y por tu diagnóstico. Fíjate en que el estado sea «reclutando» y en que haya un centro en tu país. Comenta siempre la opción con tu médico: puede ayudarte a valorar si encaja contigo y, a veces, derivarte.</p>
 <p>En España, todo ensayo con medicamentos pasa por la revisión de la AEMPS y de un Comité de Ética de la Investigación con medicamentos (CEIm). Si alguien te ofrece participar en un «estudio» que no aparece en ningún registro, desconfía.</p>
 
-<h3>Criterios de inclusión y exclusión habituales</h3>
+<h3 id="criterios-de-inclusion-y-exclusion-habituales">Criterios de inclusión y exclusión habituales</h3>
 <p>Cada ensayo tiene sus propios criterios. Estos son frecuentes:</p>
-<ul>
-<li><strong>Para entrar:</strong> edad adulta, un diagnóstico confirmado por un profesional, haber probado otros tratamientos (en depresión resistente) y poder acudir a todas las visitas.</li>
-<li><strong>Motivos frecuentes de exclusión:</strong> antecedentes personales o familiares cercanos de psicosis o trastorno bipolar; riesgo de suicidio alto en ese momento; enfermedad cardiaca o tensión arterial mal controlada; embarazo o lactancia; consumo problemático reciente de otras sustancias; y ciertos medicamentos, como algunos antidepresivos, el litio o los antipsicóticos.</li>
-</ul>
+<div class="iv-compara iv-criterios"><div class="si"><b>Para entrar</b><p>edad adulta, un diagnóstico confirmado por un profesional, haber probado otros tratamientos (en depresión resistente) y poder acudir a todas las visitas.</p></div><div class="no"><b>Motivos frecuentes de exclusión</b><p>antecedentes personales o familiares cercanos de psicosis o trastorno bipolar; riesgo de suicidio alto en ese momento; enfermedad cardiaca o tensión arterial mal controlada; embarazo o lactancia; consumo problemático reciente de otras sustancias; y ciertos medicamentos, como algunos antidepresivos, el litio o los antipsicóticos.</p></div></div>
 <p>A veces el ensayo pide retirar algún medicamento antes de empezar. <strong>Nunca lo hagas por tu cuenta.</strong> Debe hacerse bajo control médico y de forma gradual.</p>
 
-<h3>Qué preguntar al equipo investigador</h3>
+<div class="iv-cuidado iv-preguntas">
+<h3 id="que-preguntar-al-equipo-investigador">Qué preguntar al equipo investigador</h3>
 <ul>
 <li>¿Quién promueve y financia el estudio? ¿Lo han revisado la AEMPS y un CEIm?</li>
 <li>¿En qué fase está? ¿Hay grupo placebo? ¿Qué probabilidad tengo de recibirlo?</li>
@@ -401,20 +483,23 @@
 <li>¿Qué seguimiento habrá al terminar? ¿Podré seguir recibiendo el tratamiento si me funciona?</li>
 <li>¿Cubre el estudio los gastos de desplazamiento? ¿Tiene un seguro para los participantes?</li>
 </ul>
+</div>
 
-<h3>Tus derechos como participante</h3>
-<ul>
-<li><strong>Consentimiento informado.</strong> Antes de empezar deben explicarte por escrito y de palabra todo el estudio. Tienes derecho a hacer preguntas, a llevarte el documento a casa y a consultarlo con quien quieras antes de firmar.</li>
-<li><strong>Retirarte cuando quieras.</strong> Puedes abandonar el estudio en cualquier momento, sin dar explicaciones y sin que eso afecte a tu atención sanitaria habitual.</li>
-<li><strong>Confidencialidad.</strong> Tus datos de salud están protegidos por la ley.</li>
-<li><strong>Seguro.</strong> En España, los ensayos con medicamentos deben tener un seguro que cubra los posibles daños a los participantes.</li>
-<li><strong>Gratuidad.</strong> No deben cobrarte por participar en un ensayo clínico.</li>
+<h3 id="tus-derechos-como-participante">Tus derechos como participante</h3>
+<ul class="iv-filas">
+<li><b>Consentimiento informado</b><p>Antes de empezar deben explicarte por escrito y de palabra todo el estudio. Tienes derecho a hacer preguntas, a llevarte el documento a casa y a consultarlo con quien quieras antes de firmar.</p></li>
+<li><b>Retirarte cuando quieras</b><p>Puedes abandonar el estudio en cualquier momento, sin dar explicaciones y sin que eso afecte a tu atención sanitaria habitual.</p></li>
+<li><b>Confidencialidad</b><p>Tus datos de salud están protegidos por la ley.</p></li>
+<li><b>Seguro</b><p>En España, los ensayos con medicamentos deben tener un seguro que cubra los posibles daños a los participantes.</p></li>
+<li><b>Gratuidad</b><p>No deben cobrarte por participar en un ensayo clínico.</p></li>
 </ul>
-<div class="s-destacado"><p><strong>Participar no garantiza recibir la sustancia.</strong> En muchos ensayos una parte de las personas recibe un placebo o una dosis muy baja, y ni tú ni el evaluador lo sabréis hasta el final. Algunos estudios ofrecen después la sustancia activa a quienes recibieron placebo, pero no todos. Pregúntalo antes de entrar.</p></div>
+<aside class="iv-apunte" role="note"><p><strong>Participar no garantiza recibir la sustancia.</strong> En muchos ensayos una parte de las personas recibe un placebo o una dosis muy baja, y ni tú ni el evaluador lo sabréis hasta el final. Algunos estudios ofrecen después la sustancia activa a quienes recibieron placebo, pero no todos. Pregúntalo antes de entrar.</p></aside>
+</section>
 
+<section class="iv-sec">
 <h2 id="senales-alarma">Señales de alarma</h2>
 <p>El interés por estas terapias ha hecho aparecer ofertas que no son seguras. Desconfía si ves alguna de estas señales:</p>
-<ul>
+<ul class="iv-senales">
 <li><strong>Se ofrece «terapia psicodélica» fuera de un ensayo clínico o de un programa sanitario.</strong> En España, fuera de los ensayos clínicos y de los medicamentos aprobados, la sanidad no ofrece terapias con psicodélicos.</li>
 <li><strong>Prometen curación.</strong> Ningún estudio serio habla de curas. Frases como «una sesión equivale a años de terapia» o «cura la depresión» son una señal de alarma.</li>
 <li><strong>No hay cribado médico.</strong> No te preguntan por tu salud física, tus antecedentes psiquiátricos o los de tu familia.</li>
@@ -426,21 +511,30 @@
 <li><strong>Contacto físico, aislamiento o secretismo.</strong> Bajo los efectos de estas sustancias una persona es muy vulnerable. Se han denunciado abusos sexuales, psicológicos y económicos en retiros y ceremonias. Nadie debería tocarte sin un acuerdo previo y claro, ni pedirte que guardes secretos.</li>
 <li><strong>No hay plan de emergencia</strong> ni acceso rápido a un servicio médico.</li>
 </ul>
-<p>Si has vivido una situación de abuso, puedes denunciarlo. Si has tenido una experiencia difícil y sigues mal, busca ayuda profesional. En caso de urgencia, llama al 112. Si tienes pensamientos de suicidio, puedes llamar al 024, la línea de atención a la conducta suicida.</p>
+<p class="iv-ayuda">Si has vivido una situación de abuso, puedes denunciarlo. Si has tenido una experiencia difícil y sigues mal, busca ayuda profesional. En caso de urgencia, llama al <a href="tel:112">112</a>. Si tienes pensamientos de suicidio, puedes llamar al <a href="tel:024">024</a>, la línea de atención a la conducta suicida.</p>
+</section>
 
+<section class="iv-sec">
 <h2 id="profesionales">Para profesionales</h2>
 <p>Médicos, psicólogos, personal de enfermería y otros profesionales reciben cada vez más preguntas de sus pacientes sobre estas terapias. Algunas ideas para orientarse:</p>
-<ul>
-<li><strong>Formación.</strong> La terapia asistida con psicodélicos exige competencias específicas: preparación, acompañamiento de estados alterados de conciencia, manejo de crisis e integración. Busca programas vinculados a universidades, hospitales o grupos con investigación publicada. Desconfía de formaciones que prometan habilitarte para ofrecer tratamientos que la sanidad no reconoce.</li>
-<li><strong>Conocer la evidencia y sus límites.</strong> Lee los ensayos originales, no solo las noticias. Ten en cuenta los problemas de cegamiento, las expectativas y el tamaño de las muestras.</li>
-<li><strong>Ética.</strong> Respeta los límites terapéuticos y el consentimiento, sobre todo en lo relativo al contacto físico. Atiende a la vulnerabilidad del paciente durante y después de la sesión. Declara los conflictos de interés.</li>
-<li><strong>Ante pacientes que ya consumen.</strong> Una actitud sin juicios facilita que cuenten lo que hacen. Puedes informar de riesgos, de interacciones con su medicación y de dónde pedir ayuda si la experiencia ha sido difícil.</li>
-<li><strong>Derivar a ensayos.</strong> Puedes ayudar a tus pacientes a buscar ensayos en los registros oficiales y a valorar si cumplen los criterios.</li>
+<ul class="iv-filas">
+<li><b>Formación</b><p>La terapia asistida con psicodélicos exige competencias específicas: preparación, acompañamiento de estados alterados de conciencia, manejo de crisis e integración. Busca programas vinculados a universidades, hospitales o grupos con investigación publicada. Desconfía de formaciones que prometan habilitarte para ofrecer tratamientos que la sanidad no reconoce.</p></li>
+<li><b>Conocer la evidencia y sus límites</b><p>Lee los ensayos originales, no solo las noticias. Ten en cuenta los problemas de cegamiento, las expectativas y el tamaño de las muestras.</p></li>
+<li><b>Ética</b><p>Respeta los límites terapéuticos y el consentimiento, sobre todo en lo relativo al contacto físico. Atiende a la vulnerabilidad del paciente durante y después de la sesión. Declara los conflictos de interés.</p></li>
+<li><b>Ante pacientes que ya consumen</b><p>Una actitud sin juicios facilita que cuenten lo que hacen. Puedes informar de riesgos, de interacciones con su medicación y de dónde pedir ayuda si la experiencia ha sido difícil.</p></li>
+<li><b>Derivar a ensayos</b><p>Puedes ayudar a tus pacientes a buscar ensayos en los registros oficiales y a valorar si cumplen los criterios.</p></li>
 </ul>
 <p>Si tu equipo o tu centro quiere organizar formación o una sesión informativa, puedes escribir a APDER a <a href="mailto:info@apder.org">info@apder.org</a>.</p>
+</section>
 
+<div class="iv-parte p4" id="parte-dudas">
+<div class="txt"><span class="num">Parte 4</span><p class="tit">Dudas y fuentes</p><p>Las preguntas más frecuentes y los estudios en los que se apoya esta página.</p></div>
+<div class="ilu"><svg viewBox="0 0 320 180" aria-hidden="true" focusable="false"><circle class="m-salvia" cx="208" cy="94" r="76"/><path class="m-crema" d="M148 60c20-8 42-8 60 2v84c-18-10-40-10-60-2z"/><path class="m-blanco" d="M268 60c-20-8-42-8-60 2v84c18-10 40-10 60-2z"/><path class="t-bosque" d="M164 84c10-3 20-3 30 0M164 106c10-3 20-3 30 0M222 84c10-3 20-3 30 0M222 106c10-3 20-3 30 0"/><circle class="m-tierra" cx="94" cy="54" r="22"/><circle class="m-arena" cx="74" cy="132" r="26"/></svg></div>
+</div>
+
+<section class="iv-sec">
 <h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
-<div class="s-faq">
+<div class="iv-faq">
 <details><summary>¿Son peligrosos los psicodélicos?</summary><p>En los ensayos, con cribado y supervisión, los efectos graves han sido poco frecuentes. Aun así, pueden causar ansiedad intensa, confusión, subidas de tensión y, en personas predispuestas, episodios de psicosis o manía. Fuera de un entorno controlado, los riesgos aumentan. Cada sustancia tiene riesgos propios: consulta nuestras guías por sustancia.</p></details>
 <details><summary>¿Una sola sesión basta para curar la depresión?</summary><p>No hay pruebas de que «curen». En algunos ensayos, una o dos sesiones redujeron los síntomas durante semanas o meses. En otros, el efecto se fue perdiendo. Algunas personas no mejoran. Todavía no sabemos cuántas sesiones hacen falta ni cuánto dura el efecto.</p></details>
 <details><summary>¿Es lo mismo un retiro de ayahuasca que un ensayo clínico?</summary><p>No. Un ensayo clínico está revisado por un comité de ética, tiene cribado médico, un protocolo, un equipo sanitario, un seguro y un seguimiento. La mayoría de retiros no tienen nada de eso. La experiencia y los riesgos pueden ser muy distintos.</p></details>
@@ -451,9 +545,21 @@
 <details><summary>¿Las microdosis funcionan?</summary><p>Los estudios controlados no han demostrado, por ahora, beneficios claros frente al placebo. Muchos de los efectos que se cuentan podrían deberse a las expectativas.</p></details>
 <details><summary>Soy familiar de alguien que quiere probar una «terapia» por su cuenta. ¿Qué hago?</summary><p>Escucha sin juzgar y comparte información fiable, como esta guía. Anímale a hablar con su médico y a buscar ensayos en los registros oficiales. Si decide seguir adelante, revisad juntos las señales de alarma y comprobad que no toma medicamentos que puedan interaccionar.</p></details>
 </div>
+</section>
 
+<section class="iv-sec">
+<h2 id="sigue-por-aqui">Sigue por aquí</h2>
+<ul class="iv-sigue">
+<li><a href="../terapia/"><b>Guías de terapia</b><span>Cómo se trabaja con cada medicina en un proceso terapéutico.</span></a></li>
+<li><a href="../formaciones/"><b>Dónde formarse</b><span>Formaciones en terapia con psicodélicos de todo el mundo.</span></a></li>
+<li><a href="../medicinas/"><b>Medicinas por familias</b><span>Un mapa de las plantas, hongos y moléculas, por su química y por cómo actúan.</span></a></li>
+<li><a href="../biblioteca/"><b>Biblioteca</b><span>Más de 800 libros para leer a fondo.</span></a></li>
+</ul>
+</section>
+
+<section class="iv-sec iv-cierre">
 <h2 id="referencias">Referencias</h2>
-<ol class="s-refs">
+<ol class="iv-refs">
 <li id="ref-1">Johnson M, Richards W, Griffiths R. Human hallucinogen research: guidelines for safety. J Psychopharmacol. 2008;22(6):603-20.</li>
 <li id="ref-2">Muthukumaraswamy SD, Forsyth A, Lumley T. Blinding and expectancy confounds in psychedelic randomized controlled trials. Expert Rev Clin Pharmacol. 2021;14(9):1133-52.</li>
 <li id="ref-3">Popova V, Daly EJ, Trivedi M, Cooper K, Lane R, Lim P, et al. Efficacy and safety of flexibly dosed esketamine nasal spray combined with a newly initiated oral antidepressant in treatment-resistant depression: a randomized double-blind active-controlled study. Am J Psychiatry. 2019;176(6):428-38.</li>
@@ -479,19 +585,14 @@
 <li id="ref-23">Aaronson ST, van der Vaart A, Miller T, LaPratt J, Swartz K, Shoultz A, et al. Single-dose synthetic psilocybin with psychotherapy for treatment-resistant bipolar type II major depressive episodes: a nonrandomized open-label trial. JAMA Psychiatry. 2024;81(6):555-62.</li>
 <li id="ref-24">Cherian KN, Keynan JN, Anker L, Faerman A, Brown RE, Shamma A, et al. Magnesium-ibogaine therapy in veterans with traumatic brain injuries. Nat Med. 2024;30(2):373-81.</li>
 </ol>
-<p class="s-revisado">Última revisión: noviembre de 2026.</p>
-<div class="s-nota s-descargo" role="note"><p><strong>Antes de seguir.</strong> Esta información es divulgativa. La preparamos con cuidado a partir de fuentes científicas y de reducción de riesgos, pero puede tener errores o quedarse antigua. No es consejo médico ni sustituye a un profesional sanitario, sobre todo si tomas medicación o tienes algún problema de salud. APDER no anima al consumo de ninguna sustancia y no se hace responsable del uso que se haga de esta información. Si ves un error, escríbenos a <a href="mailto:info@apder.org">info@apder.org</a>.</p></div>
-</article>
+<p class="iv-nota">Última revisión: noviembre de 2026.</p>
+<div class="iv-descargo" role="note"><p><strong>Antes de seguir.</strong> Esta información es divulgativa. La preparamos con cuidado a partir de fuentes científicas y de reducción de riesgos, pero puede tener errores o quedarse antigua. No es consejo médico ni sustituye a un profesional sanitario, sobre todo si tomas medicación o tienes algún problema de salud. APDER no anima al consumo de ninguna sustancia y no se hace responsable del uso que se haga de esta información. Si ves un error, escríbenos a <a href="mailto:info@apder.org">info@apder.org</a>.</p></div>
+</section>
 </div>
-
+</div>
 </main>
-<script>
-(function(){var l=document.querySelectorAll('.s-toc a');if(!l.length||!('IntersectionObserver' in window))return;
-var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
-var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('activo')});var a=m[e.target.id];if(a)a.classList.add('activo')}})},{rootMargin:'-140px 0px -70% 0px'});
-Object.keys(m).forEach(function(id){var h=document.getElementById(id);if(h)o.observe(h)});})();
-</script>
 <script src="../menu.js?v=20261123a" defer></script>
+<script src="investigacion.js?v=20261127a" defer></script>
 <footer class="pie pie-nav pie-2">
 <div class="ancho">
 <span class="ancla" id="contact"></span>

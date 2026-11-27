@@ -28,7 +28,7 @@
 <link rel="preload" href="../fuentes/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fuentes/dm-serif-display-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../tierra.css?v=20261125b">
-<link rel="stylesheet" href="medicinas.css?v=20261125a">
+<link rel="stylesheet" href="medicinas.css?v=20261127a">
 </head>
 <body class="guia">
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -121,275 +121,637 @@
     </div>
   </div>
 </header>
-<main id="contenido" class="guia-cuerpo">
-<!-- apertura:inicio (la escribe scripts/medicinas/apertura.py) -->
+<main id="contenido" class="mf">
 <section class="mf-portada">
-<div class="s-ancho">
-<div class="mf-texto">
-<p class="s-antetitulo"><a href="../sustancias/">Medicinas</a> · Por familias</p>
+<div class="ancho mf-portada-in">
+<div class="mf-portada-txt">
+<p class="mini mf-miga"><a href="../sustancias/">Medicinas</a> · Por familias</p>
 <h1>Medicinas <em>por familias</em></h1>
-<p class="mf-entrada">Un mapa de las plantas, hongos y moléculas que cambian la conciencia, agrupados por su química y por cómo actúan. Para ver de un vistazo qué comparten, en qué se diferencian y qué riesgos tiene cada familia.</p>
-<p class="mf-atajos"><a href="#introduccion">Qué entendemos por medicina</a><a href="#reduccion-de-riesgos">Reducción de riesgos</a><a href="../sustancias/">Las 19 guías, una a una</a></p>
+<p class="mf-entradilla">Un mapa de las plantas, hongos y moléculas que cambian la conciencia, agrupados por su química y por cómo actúan. Para ver de un vistazo qué comparten, en qué se diferencian y qué riesgos tiene cada familia.</p>
+<p class="mf-atajos"><a href="#resumen">Las familias de un vistazo</a><a href="#reduccion-de-riesgos">Reducción de riesgos</a><a href="../sustancias/">Las 19 guías, una a una</a></p>
 </div>
-<ol class="mf-familias" aria-label="Las 9 familias">
-<li><a href="#triptaminas"><b>1</b><span class="mf-nombre">Triptaminas</span><span class="mf-ej">Psilocibina, DMT, ayahuasca, 5-MeO-DMT, 4-AcO-DMT, bufotenina</span><span class="mf-accion">Activan el receptor de serotonina 5-HT2A</span></a></li>
-<li><a href="#ergolinas"><b>2</b><span class="mf-nombre">Ergolinas</span><span class="mf-ej">LSD, LSA (semillas de <em>Ipomoea</em> y <em>Argyreia</em>), cornezuelo</span><span class="mf-accion">Receptores de serotonina (5-HT2A) y de dopamina</span></a></li>
-<li><a href="#fenetilaminas"><b>3</b><span class="mf-nombre">Fenetilaminas</span><span class="mf-ej">Mescalina (peyote, San Pedro), 2C-B, familia 2C, DOx</span><span class="mf-accion">Activan el receptor 5-HT2A</span></a></li>
-<li><a href="#empatogenos"><b>4</b><span class="mf-nombre">Empatógenos</span><span class="mf-ej">MDMA, MDA</span><span class="mf-accion">Liberan serotonina, noradrenalina y dopamina</span></a></li>
-<li><a href="#disociativos"><b>5</b><span class="mf-nombre">Disociativos</span><span class="mf-ej">Ketamina, esketamina, óxido nitroso, DXM</span><span class="mf-accion">Bloquean el receptor de glutamato NMDA</span></a></li>
-<li><a href="#oneirogenos"><b>6</b><span class="mf-nombre">Oneirógenos y otros alcaloides</span><span class="mf-ej">Ibogaína, <em>Calea zacatechichi</em>, <em>Silene capensis</em></span><span class="mf-accion">Variada; en parte desconocida</span></a></li>
-<li><a href="#plantas-diversas"><b>7</b><span class="mf-nombre">Plantas y hongos de acción diversa</span><span class="mf-ej"><em>Salvia divinorum</em>, <em>Amanita muscaria</em>, cannabis, kanna, kratom, kava, cacao, tabaco, ruda siria…</span><span class="mf-accion">Muy distinta según la planta (opioide kappa, GABA, cannabinoides, IMAO…)</span></a></li>
-<li><a href="#delirantes"><b>8</b><span class="mf-nombre">Delirantes</span><span class="mf-ej">Datura, <em>Brugmansia</em>, belladona, mandrágora</span><span class="mf-accion">Bloquean los receptores muscarínicos de acetilcolina</span></a></li>
-<li><a href="#nuevas-moleculas"><b>9</b><span class="mf-nombre">Nuevas moléculas y fármacos en desarrollo</span><span class="mf-ej">Análogos no alucinógenos, psicoplastógenos, formulaciones de acción corta</span><span class="mf-accion">En investigación; buscan los beneficios con menos efectos</span></a></li>
-</ol>
+<div class="mf-tabla-caja">
+<nav class="mf-tabla" aria-label="Las 9 familias"><a class="f1" href="#triptaminas"><b>1</b><span>Triptaminas</span></a><a class="f1" href="#ergolinas"><b>2</b><span>Ergolinas</span></a><a class="f1" href="#fenetilaminas"><b>3</b><span>Fenetilaminas</span></a><a class="f2" href="#empatogenos"><b>4</b><span>Empatógenos</span></a><a class="f2" href="#disociativos"><b>5</b><span>Disociativos</span></a><a class="f2" href="#oneirogenos"><b>6</b><span>Oneirógenos</span></a><a class="f3" href="#plantas-diversas"><b>7</b><span>Plantas y hongos</span></a><a class="f3" href="#delirantes"><b>8</b><span>Delirantes</span></a><a class="f2" href="#nuevas-moleculas"><b>9</b><span>Nuevas moléculas</span></a></nav>
+<p class="mf-leyenda"><span class="f1">Activan el receptor 5-HT2A</span><span class="f2">Otros mecanismos</span><span class="f3">Plantas y hongos</span></p>
+</div>
 </div>
 </section>
-<!-- apertura:fin -->
 
-<div class="s-ancho s-guia">
-<nav class="s-toc" aria-label="Índice">
+<div class="ancho mf-guia">
+<nav class="mf-indice" aria-label="Contenido de la página">
 <strong>Contenido</strong>
 <ol>
-<li><a href="#introduccion">Qué entendemos por medicina psicodélica</a></li>
-<li><a href="#resumen">Las familias de un vistazo</a></li>
-<li><a href="#triptaminas">1. Triptaminas</a></li>
-<li><a href="#ergolinas">2. Ergolinas</a></li>
-<li><a href="#fenetilaminas">3. Fenetilaminas</a></li>
-<li><a href="#empatogenos">4. Empatógenos</a></li>
-<li><a href="#disociativos">5. Disociativos</a></li>
-<li><a href="#oneirogenos">6. Oneirógenos y otros alcaloides</a></li>
-<li><a href="#plantas-diversas">7. Plantas y hongos de acción diversa</a></li>
-<li><a href="#delirantes">8. Delirantes</a></li>
-<li><a href="#nuevas-moleculas">9. Nuevas moléculas y fármacos en desarrollo</a></li>
-<li><a href="#reduccion-de-riesgos">Reducción de riesgos</a></li>
+<li><a href="#introduccion">Qué entendemos por medicina</a></li>
+<li><a href="#resumen">De un vistazo</a></li>
+<li class="f1 sep"><a href="#triptaminas"><b>1</b>Triptaminas</a></li>
+<li class="f1"><a href="#ergolinas"><b>2</b>Ergolinas</a></li>
+<li class="f1"><a href="#fenetilaminas"><b>3</b>Fenetilaminas</a></li>
+<li class="f2"><a href="#empatogenos"><b>4</b>Empatógenos</a></li>
+<li class="f2"><a href="#disociativos"><b>5</b>Disociativos</a></li>
+<li class="f2"><a href="#oneirogenos"><b>6</b>Oneirógenos</a></li>
+<li class="f3"><a href="#plantas-diversas"><b>7</b>Plantas y hongos</a></li>
+<li class="f3"><a href="#delirantes"><b>8</b>Delirantes</a></li>
+<li class="f2"><a href="#nuevas-moleculas"><b>9</b>Nuevas moléculas</a></li>
+<li class="sep"><a href="#reduccion-de-riesgos">Reducción de riesgos</a></li>
 <li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
 <li><a href="#referencias">Referencias</a></li>
 </ol>
 </nav>
-
-<article class="s-cuerpo">
-<details class="s-toc-movil">
+<div class="mf-cuerpo">
+<details class="mf-indice-movil s-toc-movil">
 <summary>Contenido</summary>
 <ol>
-<li><a href="#introduccion">Qué entendemos por medicina psicodélica</a></li>
-<li><a href="#resumen">Las familias de un vistazo</a></li>
-<li><a href="#triptaminas">1. Triptaminas</a></li>
-<li><a href="#ergolinas">2. Ergolinas</a></li>
-<li><a href="#fenetilaminas">3. Fenetilaminas</a></li>
-<li><a href="#empatogenos">4. Empatógenos</a></li>
-<li><a href="#disociativos">5. Disociativos</a></li>
-<li><a href="#oneirogenos">6. Oneirógenos y otros alcaloides</a></li>
-<li><a href="#plantas-diversas">7. Plantas y hongos de acción diversa</a></li>
-<li><a href="#delirantes">8. Delirantes</a></li>
-<li><a href="#nuevas-moleculas">9. Nuevas moléculas y fármacos en desarrollo</a></li>
-<li><a href="#reduccion-de-riesgos">Reducción de riesgos</a></li>
+<li><a href="#introduccion">Qué entendemos por medicina</a></li>
+<li><a href="#resumen">De un vistazo</a></li>
+<li class="f1 sep"><a href="#triptaminas"><b>1</b>Triptaminas</a></li>
+<li class="f1"><a href="#ergolinas"><b>2</b>Ergolinas</a></li>
+<li class="f1"><a href="#fenetilaminas"><b>3</b>Fenetilaminas</a></li>
+<li class="f2"><a href="#empatogenos"><b>4</b>Empatógenos</a></li>
+<li class="f2"><a href="#disociativos"><b>5</b>Disociativos</a></li>
+<li class="f2"><a href="#oneirogenos"><b>6</b>Oneirógenos</a></li>
+<li class="f3"><a href="#plantas-diversas"><b>7</b>Plantas y hongos</a></li>
+<li class="f3"><a href="#delirantes"><b>8</b>Delirantes</a></li>
+<li class="f2"><a href="#nuevas-moleculas"><b>9</b>Nuevas moléculas</a></li>
+<li class="sep"><a href="#reduccion-de-riesgos">Reducción de riesgos</a></li>
 <li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
 <li><a href="#referencias">Referencias</a></li>
 </ol>
 </details>
-
+<section class="mf-sec mf-intro">
 <h2 id="introduccion">Qué entendemos por medicina psicodélica</h2>
-<p>Llamamos <strong>psicodélicas</strong> a las sustancias que cambian de forma profunda la percepción, el pensamiento y las emociones, sin anular la conciencia. La palabra viene del griego y significa, más o menos, «que manifiesta la mente».</p>
-<p>El término <strong>enteógeno</strong> se propuso en 1979 para nombrar las plantas y hongos que se usan en un contexto religioso, ritual o de sanación<sup><a href="#ref-1">1</a></sup>. Muchas culturas los consideran medicinas, maestros o sacramentos, y los usan desde hace siglos o milenios<sup><a href="#ref-2">2</a></sup>.</p>
+<div class="mf-voces"><div class="mf-voz"><span class="mf-voz-t" aria-hidden="true">psicodélicas</span><p>Llamamos <strong>psicodélicas</strong> a las sustancias que cambian de forma profunda la percepción, el pensamiento y las emociones, sin anular la conciencia. La palabra viene del griego y significa, más o menos, «que manifiesta la mente».</p></div><div class="mf-voz"><span class="mf-voz-t" aria-hidden="true">enteógeno</span><p>El término <strong>enteógeno</strong> se propuso en 1979 para nombrar las plantas y hongos que se usan en un contexto religioso, ritual o de sanación<sup><a href="#ref-1">1</a></sup>. Muchas culturas los consideran medicinas, maestros o sacramentos, y los usan desde hace siglos o milenios<sup><a href="#ref-2">2</a></sup>.</p></div></div>
 <p>En este artículo usamos «medicina» en un sentido amplio: incluye usos tradicionales, usos rituales y la investigación clínica actual. No significa que estas sustancias sean seguras ni que curen nada por sí solas. Algunas tienen ensayos clínicos prometedores; otras apenas se han estudiado; y algunas son claramente tóxicas.</p>
 <p>Las agrupamos por <strong>familias químicas</strong> y por su <strong>forma de actuar</strong> en el cerebro. Las categorías no son perfectas: hay plantas que contienen varias sustancias y moléculas que encajan en más de un grupo.</p>
+</section>
 
+<section class="mf-sec">
 <h2 id="resumen">Las familias de un vistazo</h2>
-<div class="s-tabla s-ancha" role="region" tabindex="0" aria-label="Tabla: Resumen de las categorías">
-<table>
-<thead><tr><th>Categoría</th><th>Ejemplos</th><th>Acción principal</th></tr></thead>
-<tbody>
-<tr><td data-label="Categoría">Triptaminas</td><td data-label="Ejemplos">Psilocibina, DMT, ayahuasca, 5-MeO-DMT, 4-AcO-DMT, bufotenina</td><td data-label="Acción principal">Activan el receptor de serotonina 5-HT2A</td></tr>
-<tr><td data-label="Categoría">Ergolinas</td><td data-label="Ejemplos">LSD, LSA (semillas de <em>Ipomoea</em> y <em>Argyreia</em>), cornezuelo</td><td data-label="Acción principal">Receptores de serotonina (5-HT2A) y de dopamina</td></tr>
-<tr><td data-label="Categoría">Fenetilaminas</td><td data-label="Ejemplos">Mescalina (peyote, San Pedro), 2C-B, familia 2C, DOx</td><td data-label="Acción principal">Activan el receptor 5-HT2A</td></tr>
-<tr><td data-label="Categoría">Empatógenos</td><td data-label="Ejemplos">MDMA, MDA</td><td data-label="Acción principal">Liberan serotonina, noradrenalina y dopamina</td></tr>
-<tr><td data-label="Categoría">Disociativos</td><td data-label="Ejemplos">Ketamina, esketamina, óxido nitroso, DXM</td><td data-label="Acción principal">Bloquean el receptor de glutamato NMDA</td></tr>
-<tr><td data-label="Categoría">Oneirógenos y otros alcaloides</td><td data-label="Ejemplos">Ibogaína, <em>Calea zacatechichi</em>, <em>Silene capensis</em></td><td data-label="Acción principal">Variada; en parte desconocida</td></tr>
-<tr><td data-label="Categoría">Plantas y hongos de acción diversa</td><td data-label="Ejemplos"><em>Salvia divinorum</em>, <em>Amanita muscaria</em>, cannabis, kanna, kratom, kava, cacao, tabaco, ruda siria…</td><td data-label="Acción principal">Muy distinta según la planta (opioide kappa, GABA, cannabinoides, IMAO…)</td></tr>
-<tr><td data-label="Categoría">Delirantes</td><td data-label="Ejemplos">Datura, <em>Brugmansia</em>, belladona, mandrágora</td><td data-label="Acción principal">Bloquean los receptores muscarínicos de acetilcolina</td></tr>
-<tr><td data-label="Categoría">Nuevas moléculas</td><td data-label="Ejemplos">Análogos no alucinógenos, psicoplastógenos, formulaciones de acción corta</td><td data-label="Acción principal">En investigación; buscan los beneficios con menos efectos</td></tr>
-</tbody>
-</table>
+<div class="mf-vistazo">
+<p class="mf-v-cab" aria-hidden="true"><span>Categoría</span><span>Ejemplos</span><span>Acción principal</span></p>
+<ol>
+<li class="f1"><a href="#triptaminas"><b>1</b><span class="mf-v-nom">Triptaminas</span><span class="mf-v-ej"><small>Ejemplos</small>Psilocibina, DMT, ayahuasca, 5-MeO-DMT, 4-AcO-DMT, bufotenina</span><span class="mf-v-acc"><small>Acción principal</small>Activan el receptor de serotonina 5-HT2A</span></a></li>
+<li class="f1"><a href="#ergolinas"><b>2</b><span class="mf-v-nom">Ergolinas</span><span class="mf-v-ej"><small>Ejemplos</small>LSD, LSA (semillas de <em>Ipomoea</em> y <em>Argyreia</em>), cornezuelo</span><span class="mf-v-acc"><small>Acción principal</small>Receptores de serotonina (5-HT2A) y de dopamina</span></a></li>
+<li class="f1"><a href="#fenetilaminas"><b>3</b><span class="mf-v-nom">Fenetilaminas</span><span class="mf-v-ej"><small>Ejemplos</small>Mescalina (peyote, San Pedro), 2C-B, familia 2C, DOx</span><span class="mf-v-acc"><small>Acción principal</small>Activan el receptor 5-HT2A</span></a></li>
+<li class="f2"><a href="#empatogenos"><b>4</b><span class="mf-v-nom">Empatógenos</span><span class="mf-v-ej"><small>Ejemplos</small>MDMA, MDA</span><span class="mf-v-acc"><small>Acción principal</small>Liberan serotonina, noradrenalina y dopamina</span></a></li>
+<li class="f2"><a href="#disociativos"><b>5</b><span class="mf-v-nom">Disociativos</span><span class="mf-v-ej"><small>Ejemplos</small>Ketamina, esketamina, óxido nitroso, DXM</span><span class="mf-v-acc"><small>Acción principal</small>Bloquean el receptor de glutamato NMDA</span></a></li>
+<li class="f2"><a href="#oneirogenos"><b>6</b><span class="mf-v-nom">Oneirógenos y otros alcaloides</span><span class="mf-v-ej"><small>Ejemplos</small>Ibogaína, <em>Calea zacatechichi</em>, <em>Silene capensis</em></span><span class="mf-v-acc"><small>Acción principal</small>Variada; en parte desconocida</span></a></li>
+<li class="f3"><a href="#plantas-diversas"><b>7</b><span class="mf-v-nom">Plantas y hongos de acción diversa</span><span class="mf-v-ej"><small>Ejemplos</small><em>Salvia divinorum</em>, <em>Amanita muscaria</em>, cannabis, kanna, kratom, kava, cacao, tabaco, ruda siria…</span><span class="mf-v-acc"><small>Acción principal</small>Muy distinta según la planta (opioide kappa, GABA, cannabinoides, IMAO…)</span></a></li>
+<li class="f3"><a href="#delirantes"><b>8</b><span class="mf-v-nom">Delirantes</span><span class="mf-v-ej"><small>Ejemplos</small>Datura, <em>Brugmansia</em>, belladona, mandrágora</span><span class="mf-v-acc"><small>Acción principal</small>Bloquean los receptores muscarínicos de acetilcolina</span></a></li>
+<li class="f2"><a href="#nuevas-moleculas"><b>9</b><span class="mf-v-nom">Nuevas moléculas</span><span class="mf-v-ej"><small>Ejemplos</small>Análogos no alucinógenos, psicoplastógenos, formulaciones de acción corta</span><span class="mf-v-acc"><small>Acción principal</small>En investigación; buscan los beneficios con menos efectos</span></a></li>
+</ol>
 </div>
+<p class="mf-leyenda"><span class="f1">Activan el receptor 5-HT2A</span><span class="f2">Otros mecanismos</span><span class="f3">Plantas y hongos</span></p>
+</section>
 
-<h2 id="triptaminas">1. Triptaminas</h2>
+<section class="mf-familia f1">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 1 de 9</p>
+<h2 id="triptaminas"><span class="mf-h-num">1<span class="mf-oculto">.</span></span> Triptaminas</h2>
+<p class="mf-accion"><span>Acción principal</span>Activan el receptor de serotonina 5-HT2A</p>
+</div>
+<a class="mf-lamina-mol" href="../sustancias/psilocibina/"><img src="../sustancias/moleculas/psilocibina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><span><span class="mf-oculto">Guía de </span>Setas de psilocibina</span></a>
+</header>
+<div class="mf-fam-intro">
 <p>Las triptaminas son moléculas emparentadas con la <strong>serotonina</strong>, un neurotransmisor del propio cuerpo. Los psicodélicos de esta familia actúan sobre todo activando el receptor de serotonina 5-HT2A, igual que los psicodélicos clásicos de otras familias<sup><a href="#ref-3">3</a></sup>. Es la familia con más presencia en la naturaleza: aparece en hongos, plantas e incluso animales.</p>
-
-<h3>Psilocibina y setas psilocibes</h3>
+</div>
+<figure class="mf-fig tres">
+<div class="mf-fig-fotos"><a href="../enciclopedia/mongui/"><img src="img/mongui.webp" alt="Tres monguis de sombrero puntiagudo entre la hierba" width="720" height="540" loading="lazy" decoding="async"><b>Mongui</b></a><a href="../enciclopedia/chacruna/"><img src="img/chacruna.webp" alt="Hojas verdes y brillantes de chacruna" width="720" height="540" loading="lazy" decoding="async"><b>Chacruna</b></a><a href="../enciclopedia/sapo-de-sonora/"><img src="img/sapo.webp" alt="Un sapo de Sonora visto de frente" width="720" height="540" loading="lazy" decoding="async"><b>Sapo de Sonora</b></a></div>
+<figcaption><b>Fig. 1</b>Un hongo, una planta y un animal: las triptaminas están repartidas por toda la naturaleza. <a href="../creditos/">Créditos de las fotos</a></figcaption>
+</figure>
+<div class="mf-entradas">
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Ps</span>
+<div class="mf-e-txt">
+<h3 id="psilocibina-y-setas-psilocibes">Psilocibina y setas psilocibes</h3>
 <p>La <a href="../sustancias/psilocibina/">psilocibina</a> está en más de un centenar de especies de hongos, sobre todo del género <em>Psilocybe</em>. En el cuerpo se transforma en psilocina, que es la molécula activa. Los mazatecos de Oaxaca (México) las usan en ceremonias de sanación, y en Europa crecen especies silvestres como <em>Psilocybe semilanceata</em>. Hoy es la sustancia psicodélica más estudiada en ensayos clínicos, sobre todo para la depresión<sup><a href="#ref-4">4</a></sup><sup><a href="#ref-5">5</a></sup>. Su principal riesgo es psicológico (ansiedad intensa, conducta peligrosa durante el efecto) y, si se recolecta, confundirla con setas tóxicas como <em>Galerina marginata</em>, que puede ser mortal.</p>
 <p>Las llamadas «trufas» son esclerocios: masas compactas que forman algunas especies bajo tierra. Contienen las mismas sustancias que las setas.</p>
-
-<h3>DMT</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/psilocibina/">Psilocibina</a><a href="../enciclopedia/mongui/">Mongui</a><a href="../enciclopedia/san-isidro/">San Isidro</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/psilocibina/"><span class="mf-e-fig"><img src="../sustancias/moleculas/psilocibina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Setas de psilocibina</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim l3" aria-hidden="true">DMT</span>
+<div class="mf-e-txt">
+<h3 id="dmt">DMT</h3>
 <p>La <a href="../sustancias/dmt/">DMT</a> (N,N-dimetiltriptamina) aparece en muchas plantas, como la chacruna (<em>Psychotria viridis</em>) o la jurema brasileña (<em>Mimosa tenuiflora</em>). Fumada o vaporizada produce una experiencia muy intensa y muy breve, de unos minutos. Tomada por boca no hace efecto, porque la enzima MAO del intestino la destruye. Su riesgo principal es lo abrumador de la experiencia; además, sube el pulso y la tensión arterial.</p>
-
-<h3>Ayahuasca</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/dmt/">DMT</a><a href="../enciclopedia/chacruna/">Chacruna</a><a href="../enciclopedia/jurema/">Jurema</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/dmt/"><span class="mf-e-fig"><img src="../sustancias/moleculas/dmt.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de DMT</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Ay</span>
+<div class="mf-e-txt">
+<h3 id="ayahuasca">Ayahuasca</h3>
 <p>La <a href="../sustancias/ayahuasca/">ayahuasca</a> es un brebaje amazónico que suele combinar la liana <em>Banisteriopsis caapi</em> con hojas de chacruna. La liana aporta harmina y otras betacarbolinas, que inhiben la MAO y permiten que la DMT de las hojas actúe por vía oral<sup><a href="#ref-6">6</a></sup>. Los pueblos amazónicos la usan para curar, adivinar y como rito, y hoy también la usan iglesias como el Santo Daime o la União do Vegetal. Su riesgo más serio son las <strong>interacciones</strong>: combinada con antidepresivos serotoninérgicos u otras sustancias puede provocar un síndrome serotoninérgico. Los vómitos son frecuentes y forman parte del ritual.</p>
-
-<h3>5-MeO-DMT</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/ayahuasca/">Ayahuasca</a><a href="../enciclopedia/harmina-y-harmalina/">Harmina y harmalina</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/ayahuasca/"><span class="mf-e-fig"><img src="../sustancias/moleculas/ayahuasca.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Ayahuasca</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim l4" aria-hidden="true">5-MeO</span>
+<div class="mf-e-txt">
+<h3 id="5-meo-dmt">5-MeO-DMT</h3>
 <p>La <a href="../sustancias/5-meo-dmt/">5-MeO-DMT</a> se encuentra en algunas plantas y, en gran cantidad, en la secreción del sapo del desierto de Sonora (<em>Incilius alvarius</em>). Inhalada produce en pocos minutos una experiencia muy potente, a menudo descrita como pérdida total de la noción del yo. Su uso ceremonial con el sapo es reciente, no tradicional<sup><a href="#ref-7">7</a></sup>. Sus riesgos: puede causar pérdida de control del cuerpo y caídas; mezclada con IMAO (como la ayahuasca o la ruda siria) es especialmente peligrosa; y extraer la secreción daña a los sapos, que ya sufren presión por esta demanda.</p>
-
-<h3>4-AcO-DMT</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/5-meo-dmt/">5-MeO-DMT</a><a href="../enciclopedia/sapo-de-sonora/">Sapo de Sonora</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/5-meo-dmt/"><span class="mf-e-fig"><img src="../sustancias/moleculas/5-meo-dmt.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de 5-MeO-DMT</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim l4" aria-hidden="true">4-AcO</span>
+<div class="mf-e-txt">
+<h3 id="4-aco-dmt">4-AcO-DMT</h3>
 <p>La <a href="../sustancias/4-aco-dmt/">4-AcO-DMT</a> (psilacetina) es una molécula sintética. En el cuerpo se convierte en psilocina, por lo que sus efectos se parecen mucho a los de las setas. No tiene uso tradicional y casi no hay estudios en humanos. Su riesgo añadido es el de cualquier producto sin analizar: no se sabe qué contiene de verdad.</p>
-
-<h3>Bufotenina, yopo y cebil</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/4-aco-dmt/">4-AcO-DMT</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/4-aco-dmt/"><span class="mf-e-fig"><img src="../sustancias/moleculas/4-aco-dmt.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de 4-AcO-DMT</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Bu</span>
+<div class="mf-e-txt">
+<h3 id="bufotenina-yopo-y-cebil">Bufotenina, yopo y cebil</h3>
 <p>La bufotenina (5-HO-DMT) está en las semillas de árboles del género <em>Anadenanthera</em>: el yopo (<em>A. peregrina</em>), en la cuenca del Orinoco, y el cebil o vilca (<em>A. colubrina</em>), en el sur de los Andes. Con ellas se preparan rapés que se usan desde hace miles de años en ritos chamánicos. Sus efectos físicos son fuertes: náuseas, rubor, presión en el pecho y cambios en el ritmo cardiaco. Hay poca investigación moderna.</p>
-
-<h3>Virola</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/bufotenina/">Bufotenina</a><a href="../enciclopedia/yopo/">Yopo</a><a href="../enciclopedia/cebil/">Cebil</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/bufotenin/">Bufotenina</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Vi</span>
+<div class="mf-e-txt">
+<h3 id="virola">Virola</h3>
 <p>Varias especies de árboles amazónicos del género <em>Virola</em> producen una resina rica en DMT y 5-MeO-DMT. Algunos pueblos, como los yanomami, la usan para preparar rapés chamánicos (epená o paricá). Es un uso muy ligado a su contexto cultural, con muy poca investigación. Comparte los riesgos de las triptaminas inhaladas.</p>
-
-<h2 id="ergolinas">2. Ergolinas</h2>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/epena/">Epená</a></span></p>
+</div>
+</article>
+</div>
+</section>
+<section class="mf-familia f1">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 2 de 9</p>
+<h2 id="ergolinas"><span class="mf-h-num">2<span class="mf-oculto">.</span></span> Ergolinas</h2>
+<p class="mf-accion"><span>Acción principal</span>Receptores de serotonina (5-HT2A) y de dopamina</p>
+</div>
+<a class="mf-lamina-mol" href="../sustancias/lsd/"><img src="../sustancias/moleculas/lsd.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><span><span class="mf-oculto">Guía de </span>LSD</span></a>
+</header>
+<div class="mf-fam-intro">
 <p>Las ergolinas son alcaloides con una estructura química más compleja. Muchas proceden de hongos, como el cornezuelo del centeno. Además de activar el receptor 5-HT2A, actúan sobre receptores de dopamina y adrenalina, lo que explica parte de sus efectos físicos.</p>
-
-<h3>LSD</h3>
+</div>
+<figure class="mf-fig una">
+<div class="mf-fig-fotos"><a href="../enciclopedia/gloria-de-la-manana/"><img src="img/gloria.webp" alt="Flor azul de gloria de la mañana, en forma de campana" width="900" height="391" loading="lazy" decoding="async"><b>Gloria de la mañana</b></a></div>
+<figcaption><b>Fig. 2</b>Gloria de la mañana (<em>Ipomoea tricolor</em>). Sus semillas contienen LSA. <a href="../creditos/">Créditos de las fotos</a></figcaption>
+</figure>
+<div class="mf-entradas">
+<article class="mf-entrada con-guia">
+<span class="mf-sim l3" aria-hidden="true">LSD</span>
+<div class="mf-e-txt">
+<h3 id="lsd">LSD</h3>
 <p>El <a href="../sustancias/lsd/">LSD</a> es una molécula semisintética. Albert Hofmann la obtuvo en 1938 a partir de alcaloides del cornezuelo y descubrió sus efectos en 1943<sup><a href="#ref-8">8</a></sup>. Es activa en cantidades minúsculas y su efecto dura muchas horas. En los años cincuenta y sesenta se investigó en psiquiatría, y hoy vuelve a estudiarse para la ansiedad y la depresión. Sus riesgos: experiencias difíciles largas y, en la calle, la venta de otras sustancias más peligrosas (como las NBOMe) haciéndolas pasar por LSD.</p>
-
-<h3>LSA: semillas de <em>Ipomoea</em> y <em>Argyreia</em></h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/lsd/">LSD</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/lsd/"><span class="mf-e-fig"><img src="../sustancias/moleculas/lsd.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de LSD</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim l3" aria-hidden="true">LSA</span>
+<div class="mf-e-txt">
+<h3 id="lsa-semillas-de-ipomoea-y-argyreia">LSA: semillas de <em>Ipomoea</em> y <em>Argyreia</em></h3>
 <p>La LSA (ergina) y otros alcaloides parecidos están en semillas de enredaderas de la familia de la batata. En México, los pueblos de Oaxaca usaban el ololiuhqui (<em>Turbina corymbosa</em>) y semillas de <em>Ipomoea</em> con fines adivinatorios. La rosa de madera hawaiana (<em>Argyreia nervosa</em>) contiene alcaloides similares. Suelen causar náuseas, malestar y cansancio. Contraen los vasos sanguíneos y el útero, por lo que son peligrosas en el embarazo y con problemas circulatorios; además, algunas semillas comerciales se tratan con productos químicos.</p>
-
-<h3>Cornezuelo</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/lsa/">LSA</a><a href="../enciclopedia/gloria-de-la-manana/">Gloria de la mañana</a><a href="../enciclopedia/rosa-lisergica/">Rosa lisérgica</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/lsa/">LSA</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Co</span>
+<div class="mf-e-txt">
+<h3 id="cornezuelo">Cornezuelo</h3>
 <p>El cornezuelo (<em>Claviceps purpurea</em>) es un hongo que parasita el centeno y otros cereales. En la Edad Media causó epidemias de ergotismo, el «fuego de San Antonio»: gangrena, convulsiones y delirio. Algunos autores han propuesto que se usó en los misterios de Eleusis, en la antigua Grecia, pero es una hipótesis sin confirmar. De él derivan medicamentos importantes, como los usados para la migraña o las hemorragias tras el parto. <strong>Nunca debe consumirse</strong>: es muy tóxico.</p>
-
-<h2 id="fenetilaminas">3. Fenetilaminas</h2>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/cornezuelo/">Cornezuelo</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/ergot/">Cornezuelo</a></span></p>
+</div>
+</article>
+</div>
+</section>
+<section class="mf-familia f1">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 3 de 9</p>
+<h2 id="fenetilaminas"><span class="mf-h-num">3<span class="mf-oculto">.</span></span> Fenetilaminas</h2>
+<p class="mf-accion"><span>Acción principal</span>Activan el receptor 5-HT2A</p>
+</div>
+<a class="mf-lamina-mol" href="../sustancias/mescalina/"><img src="../sustancias/moleculas/mescalina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><span><span class="mf-oculto">Guía de </span>Mescalina, peyote y San Pedro</span></a>
+</header>
+<div class="mf-fam-intro">
 <p>Las fenetilaminas son una familia muy amplia, emparentada con la dopamina y las anfetaminas. Algunas son psicodélicas, otras estimulantes y otras empatógenas. Los psicodélicos de este grupo también activan el receptor 5-HT2A. El químico Alexander Shulgin describió cientos de ellas<sup><a href="#ref-9">9</a></sup>.</p>
-
-<h3>Mescalina: peyote y San Pedro</h3>
+</div>
+<figure class="mf-fig dos">
+<div class="mf-fig-fotos"><a href="../enciclopedia/peyote/"><img src="img/peyote.webp" alt="Un grupo de peyotes redondos y grises a ras de suelo" width="720" height="540" loading="lazy" decoding="async"><b>Peyote</b></a><a href="../enciclopedia/san-pedro/"><img src="img/san-pedro.webp" alt="Columnas verdes de cactus San Pedro" width="720" height="540" loading="lazy" decoding="async"><b>San Pedro</b></a></div>
+<figcaption><b>Fig. 3</b>Los dos cactus con mescalina más conocidos: el peyote y el San Pedro. <a href="../creditos/">Créditos de las fotos</a></figcaption>
+</figure>
+<div class="mf-entradas">
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Me</span>
+<div class="mf-e-txt">
+<h3 id="mescalina-peyote-y-san-pedro">Mescalina: peyote y San Pedro</h3>
 <p>La <a href="../sustancias/mescalina/">mescalina</a> es el principio activo del peyote (<em>Lophophora williamsii</em>), de México y Texas, y del San Pedro o huachuma (<em>Echinopsis pachanoi</em>), de los Andes. Hay restos arqueológicos de peyote de miles de años, y hoy lo usa como sacramento la Iglesia Nativa Americana. Sus efectos son largos y la subida suele traer náuseas y vómitos. El peyote crece muy despacio y está amenazado por la recolección excesiva.</p>
-
-<h3>2C-B</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/mescalina/">Mescalina</a><a href="../enciclopedia/peyote/">Peyote</a><a href="../enciclopedia/san-pedro/">San Pedro</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/mescalina/"><span class="mf-e-fig"><img src="../sustancias/moleculas/mescalina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Mescalina, peyote y San Pedro</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim l4" aria-hidden="true">2C-B</span>
+<div class="mf-e-txt">
+<h3 id="2c-b">2C-B</h3>
 <p>El <a href="../sustancias/2c-b/">2C-B</a> es una fenetilamina sintética creada por Shulgin en 1974. Tiene efectos entre psicodélicos y empatógenos, y es muy sensible a la cantidad: un poco más puede cambiar mucho la experiencia. No tiene uso tradicional ni terapéutico reconocido. Ojo: el producto que se vende como «tusi» o «cocaína rosa» casi nunca contiene 2C-B, sino mezclas de otras sustancias, a menudo <a href="../sustancias/ketamina/">ketamina</a> y <a href="../sustancias/mdma/">MDMA</a>.</p>
-
-<h3>La familia 2C</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/2c-b/">2C-B</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/2c-b/"><span class="mf-e-fig"><img src="../sustancias/moleculas/2c-b.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de 2C-B</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim l4" aria-hidden="true">2C-x</span>
+<div class="mf-e-txt">
+<h3 id="la-familia-2c">La familia 2C</h3>
 <p>Además del 2C-B existen muchas moléculas de la misma serie, como el 2C-I, el 2C-E o el 2C-T-7. Varían mucho en potencia, duración y efectos físicos, y casi no se han estudiado en humanos. Algunas se han relacionado con intoxicaciones graves y muertes. A partir de ellas se crearon las <strong>NBOMe</strong>, extremadamente potentes y tóxicas, que se venden a menudo como falso LSD.</p>
-
-<h3>DOx</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/2c-x/">2C-x</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim l3" aria-hidden="true">DOx</span>
+<div class="mf-e-txt">
+<h3 id="dox">DOx</h3>
 <p>Las DOx (DOM, DOB, DOI, DOC…) son anfetaminas psicodélicas. Son muy potentes y su efecto puede durar un día entero o más.</p>
-<div class="s-destacado"><p><strong>Advertencia:</strong> las DOx contraen los vasos sanguíneos y tienen un margen muy estrecho entre la cantidad activa y la peligrosa. Se han vendido en cartones haciéndolas pasar por LSD. Una sustancia en cartón que sabe amarga o tarda mucho en hacer efecto puede no ser lo que se cree.</p></div>
-
-<h2 id="empatogenos">4. Empatógenos</h2>
+<aside class="mf-nota" role="note"><p><strong>Advertencia:</strong> las DOx contraen los vasos sanguíneos y tienen un margen muy estrecho entre la cantidad activa y la peligrosa. Se han vendido en cartones haciéndolas pasar por LSD. Una sustancia en cartón que sabe amarga o tarda mucho en hacer efecto puede no ser lo que se cree.</p></aside>
+<p class="mf-mas"><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/dox/">DOx</a></span></p>
+</div>
+</article>
+</div>
+</section>
+<section class="mf-familia f2">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 4 de 9</p>
+<h2 id="empatogenos"><span class="mf-h-num">4<span class="mf-oculto">.</span></span> Empatógenos</h2>
+<p class="mf-accion"><span>Acción principal</span>Liberan serotonina, noradrenalina y dopamina</p>
+</div>
+<a class="mf-lamina-mol" href="../sustancias/mdma/"><img src="../sustancias/moleculas/mdma.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><span><span class="mf-oculto">Guía de </span>MDMA</span></a>
+</header>
+<div class="mf-fam-intro">
 <p>Los empatógenos o entactógenos aumentan la sensación de cercanía, confianza y apertura emocional. No suelen producir visiones intensas. Actúan sobre todo haciendo que las neuronas liberen serotonina, y también noradrenalina y dopamina.</p>
-
-<h3>MDMA</h3>
+</div>
+<div class="mf-entradas">
+<article class="mf-entrada con-guia">
+<span class="mf-sim l4" aria-hidden="true">MDMA</span>
+<div class="mf-e-txt">
+<h3 id="mdma">MDMA</h3>
 <p>La <a href="../sustancias/mdma/">MDMA</a> se sintetizó en 1912 en los laboratorios Merck. A finales de los setenta y primeros ochenta algunos psicoterapeutas la usaron para facilitar las sesiones. Hoy es la sustancia con más datos en terapia para el trastorno de estrés postraumático<sup><a href="#ref-10">10</a></sup>. Sus riesgos: golpe de calor, exceso de agua (hiponatremia), síndrome serotoninérgico al mezclarla con antidepresivos, bajón anímico posterior y pastillas con mucha más cantidad de la esperada.</p>
-
-<h3>MDA</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/mdma/">MDMA</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/mdma/"><span class="mf-e-fig"><img src="../sustancias/moleculas/mdma.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de MDMA</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim l3" aria-hidden="true">MDA</span>
+<div class="mf-e-txt">
+<h3 id="mda">MDA</h3>
 <p>La MDA es una molécula muy parecida a la MDMA; de hecho, es uno de sus metabolitos. Sus efectos son más largos, más estimulantes y más psicodélicos. No tiene uso terapéutico aprobado. Se considera más tóxica que la MDMA, sobre todo por la carga sobre el corazón y la temperatura corporal.</p>
-
-<h3>Nuevas moléculas en investigación</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/mda/">MDA</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Nv</span>
+<div class="mf-e-txt">
+<h3 id="nuevas-moleculas-en-investigacion">Nuevas moléculas en investigación</h3>
 <p>Se investigan empatógenos que conserven los efectos terapéuticos con menos riesgos. Por ejemplo, se estudia por separado la R-MDMA, una de las dos formas «en espejo» de la molécula, y también la metilona. Además circulan empatógenos como los benzofuranos (6-APB, 5-MAPB) o la MDAI, con muy pocos datos de seguridad. Que una molécula sea nueva no significa que sea más segura.</p>
-
-<h2 id="disociativos">5. Disociativos</h2>
+</div>
+</article>
+</div>
+</section>
+<section class="mf-familia f2">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 5 de 9</p>
+<h2 id="disociativos"><span class="mf-h-num">5<span class="mf-oculto">.</span></span> Disociativos</h2>
+<p class="mf-accion"><span>Acción principal</span>Bloquean el receptor de glutamato NMDA</p>
+</div>
+<a class="mf-lamina-mol" href="../sustancias/ketamina/"><img src="../sustancias/moleculas/ketamina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><span><span class="mf-oculto">Guía de </span>Ketamina</span></a>
+</header>
+<div class="mf-fam-intro">
 <p>Los disociativos producen una sensación de separación del cuerpo y del entorno. A dosis altas pueden llevar a estados parecidos a un sueño o a la anestesia. La mayoría actúa bloqueando el receptor NMDA, que responde al glutamato.</p>
-
-<h3>Ketamina y esketamina</h3>
+</div>
+<div class="mf-entradas">
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">K</span>
+<div class="mf-e-txt">
+<h3 id="ketamina-y-esketamina">Ketamina y esketamina</h3>
 <p>La <a href="../sustancias/ketamina/">ketamina</a> se sintetizó en 1962 y es un anestésico esencial en medicina, también en veterinaria. En 2006 un ensayo mostró que, a dosis bajas, alivia la depresión en horas<sup><a href="#ref-11">11</a></sup>. La esketamina, una de sus formas, está aprobada en espray nasal para la depresión resistente, siempre bajo supervisión médica. Sus riesgos: dependencia, accidentes por pérdida de coordinación y daño grave en la vejiga con el uso frecuente.</p>
-
-<h3>Óxido nitroso</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/ketamina/">Ketamina</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/ketamina/"><span class="mf-e-fig"><img src="../sustancias/moleculas/ketamina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Ketamina</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim l3" aria-hidden="true">N₂O</span>
+<div class="mf-e-txt">
+<h3 id="oxido-nitroso">Óxido nitroso</h3>
 <p>El óxido nitroso es un gas que se usa como analgésico y anestésico, por ejemplo en odontología o en el parto. Inhalado produce una disociación breve y euforia. Se investiga para la depresión. Sus riesgos: falta de oxígeno, pérdida de conciencia, quemaduras por frío al inhalar directamente de la bombona y, con el uso repetido, daño en los nervios porque inactiva la vitamina B12.</p>
-
-<h3>DXM</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/nitrous/">Óxido nitroso</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim l3" aria-hidden="true">DXM</span>
+<div class="mf-e-txt">
+<h3 id="dxm">DXM</h3>
 <p>El dextrometorfano (DXM) es un antitusivo que se vende en farmacias. A dosis muy superiores a las médicas tiene efectos disociativos. No tiene uso tradicional.</p>
-<div class="s-destacado"><p><strong>Advertencia:</strong> muchos jarabes contra la tos combinan DXM con paracetamol, antihistamínicos u otros fármacos, que son muy tóxicos en grandes cantidades. El DXM con antidepresivos puede causar un síndrome serotoninérgico. Además, cada persona lo metaboliza a un ritmo distinto, lo que lo hace imprevisible.</p></div>
-
-<h3>PCP (mención histórica)</h3>
+<aside class="mf-nota" role="note"><p><strong>Advertencia:</strong> muchos jarabes contra la tos combinan DXM con paracetamol, antihistamínicos u otros fármacos, que son muy tóxicos en grandes cantidades. El DXM con antidepresivos puede causar un síndrome serotoninérgico. Además, cada persona lo metaboliza a un ritmo distinto, lo que lo hace imprevisible.</p></aside>
+<p class="mf-mas"><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/dextromethorphan/">Dextrometorfano</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim l3" aria-hidden="true">PCP</span>
+<div class="mf-e-txt">
+<h3 id="pcp-mencion-historica">PCP (mención histórica)</h3>
 <p>La fenciclidina (PCP) se desarrolló en los años cincuenta como anestésico. Se retiró del uso humano porque causaba agitación y delirio al despertar. Tiene interés histórico porque abrió el estudio del receptor NMDA, pero no tiene ningún uso terapéutico actual.</p>
-
-<h2 id="oneirogenos">6. Oneirógenos y otros alcaloides</h2>
+<p class="mf-mas"><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/pcp/">PCP</a></span></p>
+</div>
+</article>
+</div>
+</section>
+<section class="mf-familia f2">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 6 de 9</p>
+<h2 id="oneirogenos"><span class="mf-h-num">6<span class="mf-oculto">.</span></span> Oneirógenos y otros alcaloides</h2>
+<p class="mf-accion"><span>Acción principal</span>Variada; en parte desconocida</p>
+</div>
+<a class="mf-lamina-mol" href="../sustancias/ibogaina/"><img src="../sustancias/moleculas/ibogaina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><span><span class="mf-oculto">Guía de </span>Ibogaína</span></a>
+</header>
+<div class="mf-fam-intro">
 <p>Los oneirógenos son sustancias que se asocian a sueños más vívidos o a estados parecidos al sueño. En este grupo incluimos también la <a href="../sustancias/ibogaina/">ibogaína</a>, que produce visiones de tipo onírico. En general están poco estudiados.</p>
-
-<h3>Ibogaína</h3>
+</div>
+<figure class="mf-fig una">
+<div class="mf-fig-fotos"><a href="../enciclopedia/iboga/"><img src="img/iboga.webp" alt="Ramas de iboga con frutos alargados de color naranja" width="810" height="435" loading="lazy" decoding="async"><b>Iboga</b></a></div>
+<figcaption><b>Fig. 4</b>Iboga (<em>Tabernanthe iboga</em>), el arbusto de África central de cuya raíz procede la ibogaína. <a href="../creditos/">Créditos de las fotos</a></figcaption>
+</figure>
+<div class="mf-entradas">
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Ib</span>
+<div class="mf-e-txt">
+<h3 id="ibogaina">Ibogaína</h3>
 <p>La ibogaína procede de la raíz de la iboga (<em>Tabernanthe iboga</em>), un arbusto de África central. En Gabón la usa la tradición bwiti en ritos de iniciación. En los años sesenta se observó que reducía el síndrome de abstinencia a opioides, y desde entonces se investiga para las adicciones. Su principal riesgo es <strong>cardiaco</strong>: altera el ritmo del corazón y se han descrito muertes<sup><a href="#ref-12">12</a></sup>. Requiere evaluación médica y monitorización.</p>
-
-<h3><em>Calea zacatechichi</em></h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/ibogaina/">Ibogaína</a><a href="../enciclopedia/iboga/">Iboga</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/ibogaina/"><span class="mf-e-fig"><img src="../sustancias/moleculas/ibogaina.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Ibogaína</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Cl</span>
+<div class="mf-e-txt">
+<h3 id="calea-zacatechichi"><em>Calea zacatechichi</em></h3>
 <p>Es una planta de México y Centroamérica conocida como «hoja de los sueños». Los chontales de Oaxaca la usan para obtener sueños con significado o adivinatorios. No se sabe bien cómo actúa. Hay muy poca investigación sobre su seguridad.</p>
-
-<h3><em>Silene capensis</em></h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/hierba-de-los-suenos/">Hierba de los sueños</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/calea-ternifolia/">Calea ternifolia</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Si</span>
+<div class="mf-e-txt">
+<h3 id="silene-capensis"><em>Silene capensis</em></h3>
 <p>Es la «raíz de los sueños» africana. Los xhosa de Sudáfrica la usan para inducir sueños vívidos que consideran mensajes de los antepasados. Sus compuestos activos y su mecanismo no se conocen bien. No hay datos fiables de seguridad.</p>
-
-<h2 id="plantas-diversas">7. Plantas y hongos de acción diversa</h2>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/raiz-africana-de-los-suenos/">Raíz africana de los sueños</a></span></p>
+</div>
+</article>
+</div>
+</section>
+<section class="mf-familia f3">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 7 de 9</p>
+<h2 id="plantas-diversas"><span class="mf-h-num">7<span class="mf-oculto">.</span></span> Plantas y hongos de acción diversa</h2>
+<p class="mf-accion"><span>Acción principal</span>Muy distinta según la planta (opioide kappa, GABA, cannabinoides, IMAO…)</p>
+</div>
+<a class="mf-lamina-mol" href="../sustancias/salvia-divinorum/"><img src="../sustancias/moleculas/salvia.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><span><span class="mf-oculto">Guía de </span>Salvia divinorum</span></a>
+</header>
+<div class="mf-fam-intro">
 <p>Este grupo reúne plantas y hongos que no encajan en las familias anteriores. Algunos son psicodélicos con un mecanismo propio; otros son sedantes, estimulantes o se usan en ceremonias sin ser psicodélicos.</p>
-
-<h3><em>Salvia divinorum</em></h3>
+</div>
+<figure class="mf-fig cuatro">
+<div class="mf-fig-fotos"><a href="../enciclopedia/hierba-de-la-pastora/"><img src="img/salvia.webp" alt="Flor blanca y aterciopelada de Salvia divinorum, con el cáliz morado" width="720" height="540" loading="lazy" decoding="async"><b>Salvia divinorum</b></a><a href="../enciclopedia/amanita-muscaria/"><img src="img/amanita.webp" alt="Tres setas rojas con motas blancas en el suelo del bosque" width="720" height="539" loading="lazy" decoding="async"><b>Amanita muscaria</b></a><a href="../enciclopedia/cacao/"><img src="img/cacao.webp" alt="Fruto de cacao abierto, con la pulpa blanca a la vista" width="720" height="541" loading="lazy" decoding="async"><b>Cacao</b></a><a href="../enciclopedia/loto-azul/"><img src="img/nenufar.webp" alt="Flor azul de nenúfar sobre hojas flotantes" width="720" height="540" loading="lazy" decoding="async"><b>Nenúfar azul</b></a></div>
+<figcaption><b>Fig. 5</b>Cuatro de las plantas y hongos de este grupo. Cada uno actúa a su manera. <a href="../creditos/">Créditos de las fotos</a></figcaption>
+</figure>
+<div class="mf-entradas">
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Sa</span>
+<div class="mf-e-txt">
+<h3 id="salvia-divinorum"><em>Salvia divinorum</em></h3>
 <p>La <a href="../sustancias/salvia-divinorum/">salvia divinorum</a> es una planta de la sierra mazateca de Oaxaca, donde se usa en ritos de adivinación y curación. Su principio activo, la salvinorina A, no actúa sobre la serotonina: activa el receptor opioide kappa<sup><a href="#ref-13">13</a></sup>. Fumada produce una experiencia breve, muy desorientadora y a menudo desagradable. El mayor riesgo es perder el control del cuerpo y hacerse daño; por eso exige siempre la presencia de una persona sobria.</p>
-
-<h3><em>Amanita muscaria</em></h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/hierba-de-la-pastora/">Hierba de la pastora</a><a href="../enciclopedia/salvinorina-a/">Salvinorina A</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/salvia-divinorum/"><span class="mf-e-fig"><img src="../sustancias/moleculas/salvia.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Salvia divinorum</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Am</span>
+<div class="mf-e-txt">
+<h3 id="amanita-muscaria"><em>Amanita muscaria</em></h3>
 <p>La <a href="../sustancias/amanita-muscaria/">amanita muscaria</a> es la seta roja con motas blancas de los cuentos. No contiene psilocibina: sus sustancias activas son el ácido iboténico y el muscimol, que actúa sobre el receptor GABA-A. Hay datos de su uso chamánico en Siberia. Sus efectos son imprevisibles: náuseas, confusión, sueño profundo o delirio. Se puede confundir con <em>Amanita pantherina</em>, más tóxica.</p>
-
-<h3>Cannabis</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/amanita-muscaria/">Matamoscas</a><a href="../enciclopedia/muscimol/">Muscimol</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/amanita-muscaria/"><span class="mf-e-fig"><img src="../sustancias/moleculas/amanita.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Amanita muscaria</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Ca</span>
+<div class="mf-e-txt">
+<h3 id="cannabis">Cannabis</h3>
 <p>El <a href="../sustancias/cannabis/">cannabis</a> (<em>Cannabis sativa</em>) se usa desde hace milenios en Asia con fines medicinales y rituales. Su principal compuesto psicoactivo, el THC, actúa sobre los receptores cannabinoides del cerebro; el CBD tiene otros efectos y no embriaga. Hay medicamentos basados en cannabinoides para la espasticidad de la esclerosis múltiple y para ciertas epilepsias. Sus riesgos: dependencia, ansiedad y, en personas vulnerables y jóvenes, más riesgo de psicosis.</p>
-
-<h3>Kanna</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/cannabis/">Cannabis</a><a href="../enciclopedia/thc/">THC</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/cannabis/"><span class="mf-e-fig"><img src="../sustancias/moleculas/cannabis.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Cannabis</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Kn</span>
+<div class="mf-e-txt">
+<h3 id="kanna">Kanna</h3>
 <p>La <a href="../sustancias/kanna/">kanna</a> (<em>Sceletium tortuosum</em>) es una planta suculenta de Sudáfrica que usan tradicionalmente los pueblos khoikhoi y san. Se mastica fermentada o se toma en polvo. Su alcaloide principal, la mesembrina, inhibe la recaptación de serotonina, por lo que tiene efecto relajante y de ánimo. Su riesgo principal es la interacción con antidepresivos y otras sustancias serotoninérgicas.</p>
-
-<h3>Kratom</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/kanna/">Kanna</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/kanna/"><span class="mf-e-fig"><img src="../sustancias/moleculas/kanna.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Kanna</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Kr</span>
+<div class="mf-e-txt">
+<h3 id="kratom">Kratom</h3>
 <p>El <a href="../sustancias/kratom/">kratom</a> (<em>Mitragyna speciosa</em>) es un árbol del sudeste asiático. Los trabajadores de Tailandia y Malasia mascan sus hojas para combatir el cansancio. Sus alcaloides, como la mitraginina, actúan en parte sobre los receptores opioides: estimula en poca cantidad y seda en más. Sus riesgos: dependencia y síndrome de abstinencia, interacciones peligrosas con otros depresores y productos adulterados.</p>
-
-<h3>Kava</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/kratom/">Kratom</a><a href="../enciclopedia/mitraginina/">Mitraginina</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/kratom/"><span class="mf-e-fig"><img src="../sustancias/moleculas/kratom.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Kratom</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Kv</span>
+<div class="mf-e-txt">
+<h3 id="kava">Kava</h3>
 <p>La kava (<em>Piper methysticum</em>) es una planta de las islas del Pacífico. Con su raíz se prepara una bebida que se toma en ceremonias y reuniones sociales. Sus kavalactonas producen relajación y calma la ansiedad sin alterar la claridad mental. Se han descrito casos de daño hepático, por lo que se desaconseja en personas con problemas de hígado o junto con alcohol.</p>
-
-<h3>Cacao</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/kava/">Kava</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/kava/">Kava</a></span></p>
+</div>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Cc</span>
+<div class="mf-e-txt">
+<h3 id="cacao">Cacao</h3>
 <p>El <a href="../sustancias/cacao/">cacao</a> (<em>Theobroma cacao</em>) tenía un papel sagrado en las culturas mesoamericanas, como la maya y la mexica. No es psicodélico: contiene teobromina y algo de cafeína, que son estimulantes suaves. Hoy se usa en «ceremonias de cacao» como apertura emocional. En grandes cantidades puede causar nerviosismo y taquicardia.</p>
-
-<h3>Tabaco, rapé y mapacho</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/cacao/">Cacao</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/cacao/"><span class="mf-e-fig"><img src="../sustancias/moleculas/cacao.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Cacao</span></b></a>
+</article>
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Tb</span>
+<div class="mf-e-txt">
+<h3 id="tabaco-rape-y-mapacho">Tabaco, rapé y mapacho</h3>
 <p>El <a href="../sustancias/tabaco/">tabaco</a> es una de las plantas más sagradas de América. El mapacho (<em>Nicotiana rustica</em>) tiene mucha más nicotina que el tabaco común, y se fuma o se sopla en ceremonias amazónicas. El rapé es un polvo de tabaco y cenizas de plantas que se sopla por la nariz. La nicotina actúa sobre los receptores nicotínicos de acetilcolina. Sus riesgos: intoxicación aguda (mareo, vómitos), fuerte adicción y, fumado, cáncer y enfermedades cardiovasculares.</p>
-
-<h3>Sananga</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/tabaco/">Tabaco</a><a href="../enciclopedia/mapacho/">Mapacho</a><a href="../enciclopedia/rape/">Rapé</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/tabaco/"><span class="mf-e-fig"><img src="../sustancias/moleculas/tabaco.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Tabaco</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Sn</span>
+<div class="mf-e-txt">
+<h3 id="sananga">Sananga</h3>
 <p>La sananga son gotas para los ojos que se preparan con la raíz de arbustos amazónicos del género <em>Tabernaemontana</em>. Algunos pueblos la usan para «limpiar» la vista y en la caza. No es psicodélica: produce un escozor muy intenso durante unos minutos. No hay pruebas de beneficios, y puede irritar y dañar el ojo o causar infecciones.</p>
-
-<h3>Kambó</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/sananga/">Sananga</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Kb</span>
+<div class="mf-e-txt">
+<h3 id="kambo">Kambó</h3>
 <p>El kambó <strong>no es una planta</strong>: es una secreción de la piel de una rana amazónica, <em>Phyllomedusa bicolor</em>. Algunos pueblos, como los matsés, la aplican sobre pequeñas quemaduras en la piel para dar fuerza y suerte en la caza. Contiene péptidos que actúan sobre el corazón, los vasos sanguíneos y el aparato digestivo; no es psicodélico.</p>
-<div class="s-destacado"><p><strong>Advertencia:</strong> el kambó causa vómitos intensos, bajada de tensión y aceleración del pulso. Se han descrito casos de hiponatremia grave por beber mucha agua durante el ritual, daño en el hígado, psicosis y muertes. Además, la extracción supone estrés para el animal.</p></div>
-
-<h3>Ruda siria (harmala)</h3>
+<aside class="mf-nota" role="note"><p><strong>Advertencia:</strong> el kambó causa vómitos intensos, bajada de tensión y aceleración del pulso. Se han descrito casos de hiponatremia grave por beber mucha agua durante el ritual, daño en el hígado, psicosis y muertes. Además, la extracción supone estrés para el animal.</p></aside>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/kambo/">Kambó</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Rs</span>
+<div class="mf-e-txt">
+<h3 id="ruda-siria-harmala">Ruda siria (harmala)</h3>
 <p>La ruda siria (<em>Peganum harmala</em>) crece en zonas secas de Oriente Próximo, el norte de África y también en el sureste de España. Sus semillas se queman como incienso protector en Irán y otras regiones. Contienen harmina y harmalina, que inhiben la enzima MAO. Por eso se usa a veces como sustituto de la liana de la ayahuasca. Su riesgo es grave: interacciones peligrosas con antidepresivos, estimulantes, MDMA, 5-MeO-DMT y alimentos ricos en tiramina. Sola produce náuseas y temblores.</p>
-
-<h3>Nenúfar azul</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/ruda-siria/">Ruda siria</a><a href="../enciclopedia/harmina-y-harmalina/">Harmina y harmalina</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/peganum-harmala/">Peganum harmala</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Nz</span>
+<div class="mf-e-txt">
+<h3 id="nenufar-azul">Nenúfar azul</h3>
 <p>El nenúfar azul (<em>Nymphaea caerulea</em>) es una planta acuática del Nilo que aparece mucho en el arte del antiguo Egipto. Contiene alcaloides como la aporfina y la nuciferina. Se le atribuye un efecto relajante suave, pero está poco estudiado. Los productos que se venden tienen una composición poco clara.</p>
-
-<h3>Damiana</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/loto-azul/">Loto azul</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/nymphaea-caerulea/">Nymphaea caerulea</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Dm</span>
+<div class="mf-e-txt">
+<h3 id="damiana">Damiana</h3>
 <p>La damiana (<em>Turnera diffusa</em>) es un arbusto de México y Centroamérica. Tradicionalmente se toma en infusión como tónico y como afrodisíaco. Su efecto, si lo tiene, es un relax ligero. Hay muy poca investigación, y su fama como planta «psicoactiva» es exagerada.</p>
-
-<h2 id="delirantes">8. Delirantes</h2>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/damiana/">Damiana</a></span></p>
+</div>
+</article>
+</div>
+</section>
+<section class="mf-familia f3">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 8 de 9</p>
+<h2 id="delirantes"><span class="mf-h-num">8<span class="mf-oculto">.</span></span> Delirantes</h2>
+<p class="mf-accion"><span>Acción principal</span>Bloquean los receptores muscarínicos de acetilcolina</p>
+</div>
+<a class="mf-lamina-mol" href="../sustancias/datura/"><img src="../sustancias/moleculas/datura.svg" alt="" width="260" height="200" loading="lazy" decoding="async"><span><span class="mf-oculto">Guía de </span>Datura</span></a>
+</header>
+<div class="mf-fam-intro">
 <p>Los delirantes no son psicodélicos. Bloquean los receptores muscarínicos de acetilcolina y producen un <strong>delirio</strong>: confusión, alucinaciones que parecen reales (hablar con personas que no están, por ejemplo) y amnesia. Sus sustancias son alcaloides tropánicos: escopolamina, hiosciamina y atropina. Aunque algunos se usaron en la brujería europea o en ritos americanos, y sus alcaloides puros se usan como medicamentos, las plantas son peligrosas.</p>
-<div class="s-destacado"><p><strong>Advertencia de toxicidad:</strong> la cantidad de alcaloides de estas plantas varía muchísimo entre ejemplares e incluso entre hojas. Pueden causar fiebre muy alta, taquicardia, retención de orina, convulsiones, coma y la muerte. La persona no es consciente de que está intoxicada y puede hacerse daño. En APDER desaconsejamos su consumo en cualquier caso.</p></div>
-
-<h3>Datura</h3>
+<aside class="mf-nota" role="note"><p><strong>Advertencia de toxicidad:</strong> la cantidad de alcaloides de estas plantas varía muchísimo entre ejemplares e incluso entre hojas. Pueden causar fiebre muy alta, taquicardia, retención de orina, convulsiones, coma y la muerte. La persona no es consciente de que está intoxicada y puede hacerse daño. En APDER desaconsejamos su consumo en cualquier caso.</p></aside>
+</div>
+<figure class="mf-fig dos">
+<div class="mf-fig-fotos"><a href="../enciclopedia/toloache/"><img src="img/datura.webp" alt="Flor blanca de datura, grande y en forma de trompeta" width="720" height="540" loading="lazy" decoding="async"><b>Datura</b></a><a href="../enciclopedia/mandragora/"><img src="img/mandragora.webp" alt="Grabado antiguo de dos mandrágoras con la raíz en forma de cuerpo" width="720" height="569" loading="lazy" decoding="async"><b>Mandrágora</b></a></div>
+<figcaption><b>Fig. 6</b>Una datura en flor y una mandrágora en un grabado antiguo. <a href="../creditos/">Créditos de las fotos</a></figcaption>
+</figure>
+<div class="mf-entradas">
+<article class="mf-entrada con-guia">
+<span class="mf-sim" aria-hidden="true">Da</span>
+<div class="mf-e-txt">
+<h3 id="datura">Datura</h3>
 <p>La <a href="../sustancias/datura/">datura</a> o estramonio (<em>Datura stramonium</em>) es una planta muy común en cunetas y campos de España. Sus semillas y hojas causan intoxicaciones cada año, a veces por confusión o por curiosidad. El delirio puede durar uno o varios días.</p>
-
-<h3><em>Brugmansia</em></h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/estramonio/">Estramonio</a><a href="../enciclopedia/toloache/">Toloache</a><a href="../enciclopedia/escopolamina/">Escopolamina</a></span></p>
+</div>
+<a class="mf-e-guia" href="../sustancias/datura/"><span class="mf-e-fig"><img src="../sustancias/moleculas/datura.svg" alt="" width="260" height="200" loading="lazy" decoding="async"></span><b>Guía completa<span class="mf-oculto"> de Datura</span></b></a>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Br</span>
+<div class="mf-e-txt">
+<h3 id="brugmansia"><em>Brugmansia</em></h3>
 <p>Las brugmansias (floripondio, borrachero) son arbustos andinos con grandes flores en forma de trompeta, muy usados como ornamentales. Algunos chamanes de los Andes y la Amazonía las usan de forma muy restringida. Contienen escopolamina en abundancia y son igual de peligrosas que la datura.</p>
-
-<h3>Belladona</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/floripondio/">Floripondio</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Be</span>
+<div class="mf-e-txt">
+<h3 id="belladona">Belladona</h3>
 <p>La belladona (<em>Atropa belladonna</em>) es una planta europea con bayas negras y brillantes. Su nombre viene de que se usaba en gotas para dilatar las pupilas. Unas pocas bayas pueden intoxicar gravemente, sobre todo a niños. De ella procede la atropina, un fármaco esencial en urgencias.</p>
-
-<h3>Mandrágora</h3>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/belladona/">Belladona</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/atropa-belladonna/">Atropa belladonna</a></span></p>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Mn</span>
+<div class="mf-e-txt">
+<h3 id="mandragora">Mandrágora</h3>
 <p>La mandrágora (<em>Mandragora</em> spp.) es una planta mediterránea rodeada de leyendas por la forma humana de su raíz. Se usó en la Antigüedad como somnífero y anestésico. Contiene los mismos alcaloides que el resto del grupo, con el mismo riesgo de intoxicación grave.</p>
-
-<h2 id="nuevas-moleculas">9. Nuevas moléculas y fármacos en desarrollo</h2>
+<p class="mf-mas"><span class="mf-mas-g"><b>Enciclopedia</b><a href="../enciclopedia/mandragora/">Mandrágora</a></span><span class="mf-mas-g"><b>Psiconáutica</b><a href="../psiconautica/mandragora/">Mandrágora</a></span></p>
+</div>
+</article>
+</div>
+</section>
+<section class="mf-familia f2">
+<header class="mf-lamina">
+<div class="mf-lamina-txt">
+<p class="mf-lamina-n">Familia 9 de 9</p>
+<h2 id="nuevas-moleculas"><span class="mf-h-num">9<span class="mf-oculto">.</span></span> Nuevas moléculas y fármacos en desarrollo</h2>
+<p class="mf-accion"><span>Acción principal</span>En investigación; buscan los beneficios con menos efectos</p>
+</div>
+<div class="mf-lamina-mol vacia"><svg viewBox="0 0 260 200" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 8"><path d="M70 62l40-23 40 23v46l-40 23-40-23z"/><path d="M150 62l44 14 0 46-44-14"/><path d="M194 76l32-18M110 131v34M70 62L40 45"/></g></svg><span>En desarrollo</span></div>
+</header>
+<div class="mf-fam-intro">
 <p>La investigación actual no se limita a las sustancias clásicas. Busca moléculas que conserven los beneficios terapéuticos y reduzcan los efectos difíciles, la duración o los riesgos.</p>
-
-<h3>Psicoplastógenos</h3>
+</div>
+<div class="mf-entradas">
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Pp</span>
+<div class="mf-e-txt">
+<h3 id="psicoplastogenos">Psicoplastógenos</h3>
 <p>Se llama psicoplastógenos a las sustancias que favorecen, en poco tiempo, el crecimiento de conexiones entre neuronas. En estudios de laboratorio, varios psicodélicos tienen este efecto<sup><a href="#ref-14">14</a></sup>. Es una de las explicaciones que se proponen para sus posibles beneficios duraderos, aunque todavía no está demostrada en humanos.</p>
-
-<h3>Análogos no alucinógenos</h3>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">An</span>
+<div class="mf-e-txt">
+<h3 id="analogos-no-alucinogenos">Análogos no alucinógenos</h3>
 <p>Algunos equipos diseñan moléculas parecidas a los psicodélicos que no producen alteraciones de la percepción. Un ejemplo es la tabernantalog, un análogo de la ibogaína que en animales mostró efectos antidepresivos y contra la adicción sin los riesgos cardiacos de la original<sup><a href="#ref-15">15</a></sup>. También se ha estudiado el 2-bromo-LSD para las cefaleas en racimos. Ya existían antes moléculas así, como la lisurida, una ergolina que se usa contra el párkinson. De momento, la mayoría de estas moléculas solo se ha probado en animales o en estudios pequeños.</p>
-
-<h3>Formulaciones de acción corta y nuevas vías</h3>
+</div>
+</article>
+<article class="mf-entrada">
+<span class="mf-sim" aria-hidden="true">Fo</span>
+<div class="mf-e-txt">
+<h3 id="formulaciones-de-accion-corta-y-nuevas-vias">Formulaciones de acción corta y nuevas vías</h3>
 <p>Se investigan formas de DMT y de 5-MeO-DMT cuyo efecto dura poco, para que el tratamiento quepa en una visita médica. También se prueban versiones sintéticas y estandarizadas de psilocibina y de LSD en ensayos para la depresión y la ansiedad. Ninguna está aprobada en España por ahora.</p>
+</div>
+</article>
+</div>
+</section>
 
+<section class="mf-sec mf-riesgos">
 <h2 id="reduccion-de-riesgos">Reducción de riesgos</h2>
 <p>Unas pautas que sirven para cualquiera de estas medicinas:</p>
-<ul>
-<li><strong>Interacciones:</strong> las más peligrosas son los IMAO (ayahuasca, ruda siria) con antidepresivos, MDMA, estimulantes o 5-MeO-DMT; y el litio con psicodélicos clásicos, que se ha relacionado con convulsiones.</li>
-<li><strong>Salud mental:</strong> los psicodélicos pueden desencadenar crisis en personas con antecedentes propios o familiares de psicosis o trastorno bipolar.</li>
-<li><strong>Corazón:</strong> la ibogaína, las fenetilaminas y los empatógenos suponen una carga cardiovascular importante.</li>
-<li><strong>Pureza:</strong> fuera del ámbito médico es frecuente encontrar sustancias distintas de las anunciadas. Los servicios de análisis de sustancias ayudan a saber qué contiene una muestra.</li>
-<li><strong>Contexto:</strong> el estado de ánimo, el lugar y la compañía influyen mucho en la experiencia. Una persona sobria y de confianza reduce riesgos.</li>
-<li><strong>Natural no es igual a seguro:</strong> varias de las plantas de este artículo son tóxicas o mortales.</li>
+<ul class="mf-pautas">
+<li><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="18" cy="24" r="10"/><circle cx="30" cy="24" r="10"/></svg><p><strong>Interacciones:</strong> las más peligrosas son los IMAO (ayahuasca, ruda siria) con antidepresivos, MDMA, estimulantes o 5-MeO-DMT; y el litio con psicodélicos clásicos, que se ha relacionado con convulsiones.</p></li>
+<li><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 40c-9 0-15-6-15-15S15 9 24 9s15 6 15 15"/><path d="M24 31c-4 0-7-3-7-7s3-6 6-6 5 2 5 5-2 4-4 4"/></svg><p><strong>Salud mental:</strong> los psicodélicos pueden desencadenar crisis en personas con antecedentes propios o familiares de psicosis o trastorno bipolar.</p></li>
+<li><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 39S9 30 9 19a8 8 0 0 1 15-4 8 8 0 0 1 15 4c0 11-15 20-15 20z"/></svg><p><strong>Corazón:</strong> la ibogaína, las fenetilaminas y los empatógenos suponen una carga cardiovascular importante.</p></li>
+<li><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M19 8h10M21 8v11L11 36a3 3 0 0 0 3 4h20a3 3 0 0 0 3-4L27 19V8"/><path d="M16 30h16"/></svg><p><strong>Pureza:</strong> fuera del ámbito médico es frecuente encontrar sustancias distintas de las anunciadas. Los servicios de análisis de sustancias ayudan a saber qué contiene una muestra.</p></li>
+<li><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="17" cy="17" r="5"/><circle cx="32" cy="19" r="4"/><path d="M7 38c0-6 4-10 10-10s10 4 10 10M30 28c6 0 10 4 10 9"/></svg><p><strong>Contexto:</strong> el estado de ánimo, el lugar y la compañía influyen mucho en la experiencia. Una persona sobria y de confianza reduce riesgos.</p></li>
+<li><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M11 37c0-16 8-26 26-26 0 16-8 26-26 26z"/><path d="M11 37l16-16"/></svg><p><strong>Natural no es igual a seguro:</strong> varias de las plantas de este artículo son tóxicas o mortales.</p></li>
 </ul>
-<div class="s-destacado"><p><strong>Aviso:</strong> este contenido es divulgativo y no sustituye el consejo de un profesional sanitario. No animamos al consumo de ninguna sustancia. Que una planta se venda como ornamental no significa que consumirla sea seguro.</p></div>
+<aside class="mf-nota" role="note"><p><strong>Aviso:</strong> este contenido es divulgativo y no sustituye el consejo de un profesional sanitario. No animamos al consumo de ninguna sustancia. Que una planta se venda como ornamental no significa que consumirla sea seguro.</p></aside>
+</section>
 
+<section class="mf-sec">
 <h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
-<div class="s-faq">
+<div class="mf-faq">
 <details><summary>¿Qué diferencia hay entre «psicodélico» y «enteógeno»?</summary><p>«Psicodélico» describe el tipo de efecto de una sustancia. «Enteógeno» pone el foco en el uso: se refiere a plantas y sustancias empleadas en un contexto espiritual, ritual o de sanación. Una misma sustancia puede ser ambas cosas según cómo se use.</p></details>
 <details><summary>¿Son todas estas sustancias igual de seguras?</summary><p>No, en absoluto. Los psicodélicos clásicos tienen baja toxicidad física, pero riesgos psicológicos. Otras, como la ibogaína, el kambó o los delirantes, pueden ser mortales. Por eso es importante conocer cada una por separado.</p></details>
 <details><summary>¿Las plantas son más seguras que las sustancias sintéticas?</summary><p>No necesariamente. Una planta puede tener una cantidad de principio activo muy variable y contener otros compuestos tóxicos. La datura o el cornezuelo son naturales y muy peligrosos. Lo importante es la sustancia concreta, la cantidad y el contexto.</p></details>
@@ -397,9 +759,20 @@
 <details><summary>¿Alguna de estas sustancias está aprobada como medicamento en España?</summary><p>La ketamina se usa como anestésico y la esketamina está aprobada para la depresión resistente, siempre en un entorno médico. También hay medicamentos basados en cannabinoides para algunas indicaciones. La psilocibina, la MDMA y el LSD solo se usan en ensayos clínicos.</p></details>
 <details><summary>¿Los psicodélicos crean adicción?</summary><p>Los psicodélicos clásicos (psilocibina, LSD, mescalina, DMT) tienen bajo potencial adictivo. En cambio, la ketamina, el kratom, el tabaco o el cannabis sí pueden generar dependencia. El riesgo depende mucho de la sustancia.</p></details>
 </div>
+</section>
 
+<section class="mf-sec">
+<h2 id="sigue-por-aqui">Sigue por aquí</h2>
+<div class="mf-puertas">
+<a class="p-guias" href="../sustancias/"><b>Todas las guías</b><span>Las 19 medicinas, una a una: efectos, duración, riesgos y cuidados.</span></a>
+<a class="p-enci" href="../enciclopedia/"><b>Enciclopedia de medicinas</b><span>Plantas, hongos y preparados: origen, territorio y cultura.</span></a>
+<a class="p-inv" href="../investigacion-terapeutica/"><b>Investigación terapéutica</b><span>Qué se sabe de su uso en terapia y qué falta todavía por saber.</span></a>
+</div>
+</section>
+
+<section class="mf-sec">
 <h2 id="referencias">Referencias</h2>
-<ol class="s-refs">
+<ol class="mf-refs">
 <li id="ref-1">Ruck CAP, Bigwood J, Staples D, Ott J, Wasson RG. Entheogens. <em>J Psychedelic Drugs</em>. 1979;11(1-2):145-146.</li>
 <li id="ref-2">Schultes RE, Hofmann A, Rätsch C. Plants of the Gods: Their Sacred, Healing, and Hallucinogenic Powers. 2nd ed. Rochester (VT): Healing Arts Press; 2001.</li>
 <li id="ref-3">Nichols DE. Psychedelics. <em>Pharmacol Rev</em>. 2016;68(2):264-355.</li>
@@ -416,17 +789,18 @@
 <li id="ref-14">Ly C, Greb AC, Cameron LP, et al. Psychedelics promote structural and functional neural plasticity. <em>Cell Rep</em>. 2018;23(11):3170-3182.</li>
 <li id="ref-15">Cameron LP, Tombari RJ, Lu J, et al. A non-hallucinogenic psychedelic analogue with therapeutic potential. <em>Nature</em>. 2021;589(7842):474-479.</li>
 </ol>
-<p class="s-revisado">Última revisión: noviembre de 2026.</p>
-<div class="s-nota s-descargo" role="note"><p><strong>Antes de seguir.</strong> Esta información es divulgativa. La preparamos con cuidado a partir de fuentes científicas y de reducción de riesgos, pero puede tener errores o quedarse antigua. No es consejo médico ni sustituye a un profesional sanitario, sobre todo si tomas medicación o tienes algún problema de salud. APDER no anima al consumo de ninguna sustancia y no se hace responsable del uso que se haga de esta información. Si ves un error, escríbenos a <a href="mailto:info@apder.org">info@apder.org</a>.</p></div>
-</article>
+<p class="mf-revisado">Última revisión: noviembre de 2026.</p>
+<div class="mf-descargo" role="note"><p><strong>Antes de seguir.</strong> Esta información es divulgativa. La preparamos con cuidado a partir de fuentes científicas y de reducción de riesgos, pero puede tener errores o quedarse antigua. No es consejo médico ni sustituye a un profesional sanitario, sobre todo si tomas medicación o tienes algún problema de salud. APDER no anima al consumo de ninguna sustancia y no se hace responsable del uso que se haga de esta información. Si ves un error, escríbenos a <a href="mailto:info@apder.org">info@apder.org</a>.</p></div>
+</section>
 </div>
-
+</div>
 </main>
-<script>
-(function(){var l=document.querySelectorAll('.s-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+<script>/* índice: marca la familia que se está leyendo */
+(function(){var l=document.querySelectorAll('.mf-indice a');if(!l.length||!('IntersectionObserver' in window))return;
 var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
-var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('activo')});var a=m[e.target.id];if(a)a.classList.add('activo')}})},{rootMargin:'-140px 0px -70% 0px'});
-Object.keys(m).forEach(function(id){var h=document.getElementById(id);if(h)o.observe(h)});})();
+var o=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;var a=m[e.target.id];if(!a)return;l.forEach(function(x){x.classList.remove('activo');x.removeAttribute('aria-current')});a.classList.add('activo');a.setAttribute('aria-current','location')})},{rootMargin:'-150px 0px -66% 0px'});
+Object.keys(m).forEach(function(id){var h=document.getElementById(id);if(h)o.observe(h)});
+var d=document.querySelector('.mf-indice-movil');if(d)d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){d.open=false})});})();
 </script>
 <script src="../menu.js?v=20261123a" defer></script>
 <footer class="pie pie-nav pie-2">
