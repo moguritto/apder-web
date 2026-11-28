@@ -462,10 +462,9 @@ a.bx-portada{text-decoration:none!important}
 @media (prefers-reduced-motion:reduce){.guia-cuerpo .lb2 .lb-caja .btn::after{transition:none}}
 @media print{.lb2 .lb-d{break-inside:avoid}.lb2 .lb-tags .lb-i{color:#000}}
 
-/* Listado en móvil: autoría, año e idioma en líneas propias, aprovechando la altura de la portada (28-11-2026) */
+/* Listado en móvil: autoría en su línea; año e idioma juntos debajo, aprovechando la altura de la portada (28-11-2026) */
 @media (max-width:600px){
 .guia-cuerpo .bx-rejilla .b-meta{display:block;-webkit-line-clamp:unset;overflow:visible;line-height:1.4;margin-top:2px}
-.bx-rejilla .b-meta>span{display:block}
-.bx-rejilla .b-meta>.bm-sep{display:none}
-.bx-rejilla .b-meta>span:first-child{color:var(--texto)}
+.bx-rejilla .b-meta>span:first-child{display:block;color:var(--texto)}
+.bx-rejilla .b-meta>span:first-child+.bm-sep{display:none}
 }
