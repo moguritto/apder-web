@@ -468,3 +468,6 @@ a.bx-portada{text-decoration:none!important}
 .bx-rejilla .b-meta>span:first-child{display:block;color:var(--texto)}
 .bx-rejilla .b-meta>span:first-child+.bm-sep{display:none}
 }
+
+/* Sinopsis de la edición (28-11-2026) */
+.lb-sin{max-width:62ch;line-height:1.65;color:inherit;margin:.4rem 0 1.2rem}
