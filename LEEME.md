@@ -44,7 +44,8 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - Qué sección se marca: `seccion()` en el guion (Enciclopedia y Microdosis → Medicinas; `/experiencia/` y Psiconáutica → La experiencia; Formaciones e Investigación → Terapia; Quién es quién → Biblioteca).
 - El logo lleva las letras originales (`docs/img/apder-letras.webp`), no texto. El lema en inglés ya no va bajo el logo: sigue en el pie, en la portada y en el aviso legal.
 - Pie: marca, texto y contacto una sola vez, y cinco columnas de navegación (`PIE_COLUMNAS`). Conserva el ancla `#contact`.
-- Estilos: bloque «Menú por intención y pie con navegación», al final de `docs/tierra.css`. El desplegable nunca es más alto que la pantalla; entre 1001 y 1079 px se oculta «Quiénes somos» (está en el pie).
+- Estilos: bloque «Menú por intención y pie con navegación», al final de `docs/tierra.css`. El desplegable nunca es más alto que la pantalla.
+- **Desde el 28-11-2026, sin «Escríbenos» ni WhatsApp en la cabecera ni en el menú.** El contacto (WhatsApp, correo y teléfono) queda en el pie. En móvil y tableta (hasta 1000 px), «Buscar» y el selector de idioma van dentro del menú, en una fila al final (`.menu-pie`, con `.menu-buscar`); en la barra quedan solo el logo y «Menú». El selector de idioma está dos veces en el HTML (barra y menú, `IDIOMA` en el guion) y solo se ve uno a la vez. Sin el botón «Escríbenos», «Quiénes somos» cabe también entre 1001 y 1079 px.
 - Los generadores de la Enciclopedia y de Quién es quién copian la cabecera de una página publicada y marcan su sección; después de lanzarlos conviene lanzar `scripts/cabecera.py`.
 - Los párrafos más antiguos de este archivo que hablan del menú de cinco entradas con «Aprender» quedan como historia.
 

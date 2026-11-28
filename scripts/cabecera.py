@@ -18,10 +18,16 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOCS = RAIZ / "docs"
-VERSION_CSS = "20261125b"   # se cambia cuando cambia tierra.css, para que el navegador no use la copia vieja
+VERSION_CSS = "20261128a"   # se cambia cuando cambia tierra.css, para que el navegador no use la copia vieja
 
 FLECHA = ('<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.2 6 8l4-3.8" fill="none" '
           'stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+LUPA = ('<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" '
+        'fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 20 20" fill="none" stroke="currentColor" '
+        'stroke-width="2.2" stroke-linecap="round"/></svg>')
+# Selector de idioma (EN aún no existe). Va dos veces: en la barra (ordenador) y dentro del menú (móvil y tableta).
+IDIOMA = ('<div class="idioma" role="group" aria-label="Idioma"><span class="idioma-act" lang="es" aria-current="true">ES</span>'
+          '<button type="button" class="idioma-en" lang="en" disabled title="Próximamente / Coming soon">EN</button></div>')
 
 # --- Medicinas: las guías, por familias (dirección, dibujo, nombre) ---
 MEDICINAS = [
@@ -235,12 +241,11 @@ class Pagina:
 {self.panel_texto("biblioteca", "Biblioteca", "Biblioteca", "Más de 800 libros para leer a fondo y las personas que abrieron el camino.", BIBLIOTECA, "b")}
         <li class="menu-item menu-somos"><a class="menu-enlace" {self.h("#about")}>Quiénes somos</a></li>
       </ul>
-      <div class="menu-pie"><a class="cab-escribe" {self.h("#contacto")}>Escríbenos</a><p>o directamente por <a href="https://wa.me/447916618725">WhatsApp</a></p></div>
+      <div class="menu-pie"><a class="menu-buscar" {self.h("buscar/")}>{LUPA}<span>Buscar</span></a>{IDIOMA}</div>
     </nav>
     <div class="cab-acciones">
-      <div class="idioma" role="group" aria-label="Idioma"><span class="idioma-act" lang="es" aria-current="true">ES</span><button type="button" class="idioma-en" lang="en" disabled title="Próximamente / Coming soon">EN</button></div>
-      <a class="cab-buscar" {self.h("buscar/")} aria-label="Buscar"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><span>Buscar</span></a>
-      <a class="cab-escribe" {self.h("#contacto")}>Escríbenos</a>
+      {IDIOMA}
+      <a class="cab-buscar" {self.h("buscar/")} aria-label="Buscar">{LUPA}<span>Buscar</span></a>
       <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><i></i><span>Menú</span></button>
     </div>
   </div>

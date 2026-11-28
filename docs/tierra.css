@@ -871,10 +871,15 @@ nav.s-toc{top:84px}
   .panel-grupo{grid-column:span 1}
   .panel-grupo:first-child{grid-column:1 / -1}
   .panel-grupo:first-child ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:18px}
-  .menu-pie{display:block;margin-top:28px}
-  .menu-pie .cab-escribe{display:flex;justify-content:center;min-height:52px;font-size:1.05rem}
-  .menu-pie p{margin:14px 0 0;text-align:center;color:var(--suave);font-size:.95rem}
-  .menu-pie p a{color:var(--texto);font-weight:600}
+  /* 28-11-2026: Buscar y el idioma van dentro del menú, al final; en la barra quedan el logo y «Menú».
+     El selector de idioma está dos veces en la página (barra y menú): solo se ve uno a la vez. */
+  .cab-acciones .idioma,.cab-acciones .cab-buscar{display:none}
+  .menu-pie{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:26px}
+  .menu-buscar{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px 0 16px;border:1.5px solid var(--linea);border-radius:999px;background:#fff;color:var(--texto);font-weight:600;font-size:1rem;text-decoration:none;transition:border-color .2s}
+  .menu-buscar svg{flex:none;color:var(--tierra-osc)}
+  .menu-buscar:hover,.menu-buscar[aria-current="page"]{border-color:var(--tierra-osc)}
+  .menu-pie .idioma{min-height:48px;padding:0 5px;border:1.5px solid var(--linea);font-size:.88rem}
+  .menu-pie .idioma-act,.menu-pie .idioma-en{min-width:42px;height:38px;font-size:inherit}
   html.menu-fijo{overflow:hidden}
 }
 @media (max-width:520px){
@@ -1071,9 +1076,9 @@ body .guia-cuerpo .lb-info h2{font-size:1.3rem;margin:.8em 0 .3em;padding-top:.6
 .panel-destacado img{flex:none;width:58px;height:58px;border-radius:50%;object-fit:cover}
 .panel-destacado b{display:block;font-family:var(--serif);font-weight:400;font-size:1.12rem;line-height:1.2}
 .panel-destacado small{display:block;margin-top:2px;font-size:.82rem;line-height:1.35;color:var(--suave)}
-/* la cabecera queda dentro de la columna de la página: lupa sola y, en el tramo más justo, sin «Quiénes somos» (sigue en el pie) */
+/* la cabecera queda dentro de la columna de la página: lupa sola.
+   Desde el 28-11-2026, sin «Escríbenos» en la barra, «Quiénes somos» cabe también entre 1001 y 1079 px. */
 @media (min-width:1001px){.cab-buscar{width:44px;padding:0;justify-content:center}.cab-buscar span{display:none}}
-@media (min-width:1001px) and (max-width:1079px){.menu-item.menu-somos{display:none}}
 /* el desplegable nunca es más alto que la pantalla */
 @media (min-width:1001px){.panel{max-height:calc(100vh - 90px);overflow-y:auto;overscroll-behavior:contain}}
 @media (min-width:1001px) and (max-width:1180px){
