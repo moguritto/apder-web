@@ -468,3 +468,11 @@ a.bx-portada{text-decoration:none!important}
   .lb2 .lb-det{box-shadow:none;border:1px solid #bbb}
   .lb2 .lb-tags .lb-i{color:#000}
 }
+
+/* Listado en móvil: autoría, año e idioma en líneas propias, aprovechando la altura de la portada (28-11-2026) */
+@media (max-width:600px){
+.guia-cuerpo .bx-rejilla .b-meta{display:block;-webkit-line-clamp:unset;overflow:visible;line-height:1.4;margin-top:2px}
+.bx-rejilla .b-meta>span{display:block}
+.bx-rejilla .b-meta>.bm-sep{display:none}
+.bx-rejilla .b-meta>span:first-child{color:var(--texto)}
+}

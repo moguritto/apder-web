@@ -5,6 +5,7 @@ filtroToggle.addEventListener('click',function(){var abierto=filtroAside.classLi
 
 var PAG=36,lim=PAG;
 var norm=function(s){return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()};
+[].forEach.call(lista.querySelectorAll('.b-meta'),function(p){if(p.children.length)return;var t=p.textContent.split(' · ');p.textContent='';t.forEach(function(x,i){if(i){var s=document.createElement('span');s.className='bm-sep';s.textContent=' · ';p.appendChild(s)}var e=document.createElement('span');e.textContent=x;p.appendChild(e)})});
 var libros=[].slice.call(lista.children).map(function(li,i){
   var d=li.dataset;
   return {li:li,i:i,cat:[d.cat],idioma:[d.idioma],sust:d.sust.split(' '),decada:[d.decada],autor:(d.autores||'').split('|').filter(Boolean),
