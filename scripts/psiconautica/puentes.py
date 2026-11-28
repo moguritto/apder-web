@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """Puentes entre Psiconáutica y el resto de apder.org (solo datos; los pinta ficha.py).
 
+SIN USO desde el 28-11-2026: los enlaces de cada sustancia a su guía, microdosis, terapia, Enciclopedia y libros
+los pone ya el hilo de cada medicina (scripts/hilo.py, bajo la cabecera). No conectar tambien() ni sigue() de
+ficha.py, para no repetir los mismos enlaces. Se deja como referencia.
+
 Cada clave es una página de la web (ruta dentro de docs/). El valor son los títulos ORIGINALES,
 en inglés y tal como salen en data-original, de las páginas de Psiconáutica que deben enlazarla.
 El primero de cada lista es su página principal.

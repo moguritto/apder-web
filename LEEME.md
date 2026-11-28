@@ -49,6 +49,16 @@ Decisión de Mannu (21-11-2026): el nombre completo va **siempre en inglés y nu
 - Los generadores de la Enciclopedia y de Quién es quién copian la cabecera de una página publicada y marcan su sección; después de lanzarlos conviene lanzar `scripts/cabecera.py`.
 - Los párrafos más antiguos de este archivo que hablan del menú de cinco entradas con «Aprender» quedan como historia.
 
+## Hilo de cada medicina (28-11-2026)
+
+- Una misma medicina tiene páginas en varias secciones (guía, Enciclopedia, microdosis, «Medicinas por familias», Psiconáutica, terapia y Biblioteca). Bajo la cabecera de cada una de ellas va ahora una línea fina, el **hilo**, con las demás: el nombre de la medicina en cursiva y una cuenta por sección, en el orden del menú (Guía · Enciclopedia · Microdosis · Familia · Psiconáutica · Terapia · Libros). La cuenta de la página en la que se está va rellena; las demás, huecas. Cada cuenta lleva el color de la puerta a la que lleva. Familia dice el nombre de la familia y Libros, cuántos hay. En el móvil es una sola línea que se desliza de lado.
+- Hoy lo llevan 169 páginas: las 19 guías, las 8 de terapia, las 6 de microdosis, 73 fichas de la Enciclopedia y 63 páginas de Psiconáutica. Sale solo cuando hay al menos otra página con la que enlazar.
+- **Datos:** `MEDICINAS`, en `scripts/hilo.py`. En cada lista, la primera página es la principal: a ella lleva el hilo desde las demás secciones. `gemelas` une la ficha de la Enciclopedia con la página de Psiconáutica del mismo ser (el peyote con *Lophophora williamsii*): desde una se va a la otra. Una página pertenece a la primera medicina que la nombra. Lo que no existe no se enlaza (`python3 scripts/hilo.py --mira` lo dice; `--lista` enseña qué enlaza cada medicina).
+- **Quién lo escribe:** `python3 scripts/hilo.py`, y también `scripts/cabecera.py` (en todas las páginas, igual que la cabecera). Los generadores de la Enciclopedia y de Psiconáutica reescriben sus páginas y se lo quitan: después de lanzarlos, lanzar `scripts/cabecera.py`. El comprobador (regla `k-hilo`) da error si falta y aviso si no está al día.
+- **Libros:** se cuentan en la portada de la Biblioteca (`data-sust`) cada vez que se lanza el guion, y el enlace usa su filtro (`biblioteca/?sust=`). Ya están puestas las etiquetas que aún no tienen libros (tabaco, cacao, coca, kava, datura, opio, kratom, yopo): saldrán solas cuando los haya y se vuelva a lanzar.
+- **Estilos:** `docs/hilo.css`, que el guion enlaza solo en esas páginas, justo después de `tierra.css` (si cambia la hoja, subir `VERSION` en `scripts/hilo.py`). No usa JavaScript.
+- En Psiconáutica sustituye a los «puentes» que preparaban `scripts/psiconautica/puentes.py` y las funciones `tambien()` y `sigue()` de `ficha.py`: no conectarlos, para no repetir los mismos enlaces.
+
 ## Una seña por puerta del menú (25-11-2026, decisión de Mannu)
 
 Mannu pidió que las secciones no se parezcan tanto entre sí. La cabecera, el pie, las letras y la paleta son comunes; cada puerta tiene su seña:

@@ -39,6 +39,7 @@ REGLAS = {
     "i-ingles": "Texto en inglés residual en el pie",
     "j-noindex-sitemap": "Páginas noindex (o inexistentes) en sitemap.xml",
     "j-almohadilla": "Enlaces a \"#\" vacíos",
+    "k-hilo": "Hilo de cada medicina presente y al día (scripts/hilo.py)",
 }
 
 ATRIBUTOS_RECURSO = {
@@ -327,6 +328,30 @@ class Comprobador:
             if info.get(pagina, {}).get("noindex"):
                 self.anota("j-noindex-sitemap", "error", "sitemap.xml", f"{loc} es noindex ({pagina}) pero está en el sitemap")
 
+    def comprobar_hilo(self):
+        """El hilo de cada medicina (scripts/hilo.py): que esté en las páginas que lo llevan y al día."""
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            import hilo
+            d = hilo.Datos(self.docs)
+        except Exception as e:  # noqa: BLE001  el comprobador no se para por el hilo
+            self.anota("k-hilo", "aviso", "(scripts/hilo.py)", f"no se pudo comprobar el hilo: {e}")
+            return
+        arreglo = "lanza python3 scripts/cabecera.py (o scripts/hilo.py)"
+        for ruta in sorted(d.duenas):
+            rel = ruta + "index.html"
+            esperado = d.hilo(rel)
+            if not esperado:
+                continue
+            texto = (self.docs / rel).read_text(encoding="utf-8")
+            m = hilo.RE_HILO.search(texto)
+            if not m:
+                self.anota("k-hilo", "error", rel, f"falta el hilo de la medicina: {arreglo}")
+            elif not hilo.RE_HOJA.search(texto):
+                self.anota("k-hilo", "error", rel, f"el hilo está, pero falta su hoja hilo.css: {arreglo}")
+            elif m.group(0).strip() != esperado.strip():
+                self.anota("k-hilo", "aviso", rel, f"el hilo no está al día (enlaces o número de libros): {arreglo}")
+
     def ejecutar(self):
         info = {}
         for f in sorted(self.docs.rglob("*")):
@@ -343,6 +368,7 @@ class Comprobador:
             elif f.suffix.lower() == ".css":
                 self.comprobar_css(f)
         self.comprobar_sitemap(info)
+        self.comprobar_hilo()
         self.paginas = len(info)
         resto = self.total_bytes - self.wp_bytes
         self.anota("f-peso", "info", "(docs/)",

@@ -11,10 +11,15 @@ Para cambiar el menú o el pie: se toca aquí (MEDICINAS, EXPERIENCIA, TERAPIA,
 BIBLIOTECA, PIE_COLUMNAS) y se vuelve a lanzar. Los generadores de la
 Enciclopedia y de Quién es quién copian la cabecera de una página publicada,
 así que basta con lanzar este guion después de ellos.
+
+También pone, bajo la cabecera, el hilo de cada medicina (enlaces a las demás
+páginas de la misma medicina): los datos y el dibujo están en scripts/hilo.py.
 """
 import re
 import sys
 from pathlib import Path
+
+import hilo  # noqa: E402  (scripts/hilo.py: el hilo de cada medicina)
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOCS = RAIZ / "docs"
@@ -295,6 +300,7 @@ def aplicar(texto, ruta):
     texto, n1 = RE_CAB.subn(lambda m: p.cabecera(), texto, count=1)
     texto, n2 = RE_PIE.subn(lambda m: p.pie(), texto, count=1)
     texto = RE_CSS.sub("tierra.css?v=" + VERSION_CSS, texto)
+    texto = hilo.poner(texto, ruta)
     return texto, n1, n2
 
 

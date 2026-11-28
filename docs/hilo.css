@@ -1,0 +1,45 @@
+/* Hilo de cada medicina (28-11-2026) · apder.org
+   Una línea fina bajo la cabecera con las demás páginas de la misma medicina: guía, Enciclopedia, microdosis,
+   familia, Psiconáutica, terapia y libros. La escribe scripts/hilo.py (también al lanzar scripts/cabecera.py),
+   que enlaza esta hoja solo en las páginas que llevan hilo. Si se cambia, subir VERSION en scripts/hilo.py.
+   Marcado: nav.hilo > .ancho.hilo-in > p.hilo-nombre + ul.hilo-l > li.hilo-<sección> > a | span.hilo-aqui
+   Cada cuenta lleva el color de la puerta del menú a la que lleva (--c); la de esta página, rellena y con halo (--h).
+   Colores: Guía y Familia, los de «Medicinas»; Enciclopedia, su pino; Psiconáutica, la noche de «La experiencia»;
+   Terapia, la salvia de sus manchas; Libros, el lacre de la Biblioteca. */
+.hilo{background:var(--crema);border-bottom:1px solid rgba(217,204,180,.7)}
+.hilo-in{display:flex;align-items:center;min-height:48px}
+.hilo-nombre{flex:none;margin:0;font-family:var(--serif);font-style:italic;font-size:1.15rem;line-height:1.2;color:var(--texto);white-space:nowrap}
+.hilo-l{position:relative;flex:1 1 auto;min-width:0;display:flex;align-items:center;margin:0;padding:4px 0;list-style:none;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin}
+.hilo-l li{flex:none;display:flex;align-items:center;margin:0}
+.hilo-l li::before{content:"";flex:none;width:24px;height:1px;margin-left:11px;background:#d3c4a8}
+.hilo-l::after{content:"";flex:1 0 0;height:1px;margin-left:11px;background:linear-gradient(90deg,#d3c4a8,rgba(211,196,168,0))}
+.hilo-l a,.hilo-aqui{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:0 3px 0 0;border-radius:8px;color:#4a4038;font-size:.875rem;line-height:1.2;text-decoration:none;white-space:nowrap}
+.hilo-l a::before,.hilo-aqui::before{content:"";flex:none;box-sizing:border-box;width:10px;height:10px;border:1.6px solid var(--c);border-radius:50%;background:var(--crema);transition:background-color .2s}
+.hilo-t{font-weight:600}
+.hilo-d{margin-left:-2px;color:var(--suave);font-size:.8125rem}
+.hilo-aqui{color:var(--texto)}
+.hilo-aqui .hilo-t{font-weight:700}
+.hilo-aqui::before{background:var(--c);box-shadow:0 0 0 3.5px var(--h)}
+.hilo-l a:hover::before,.hilo-l a:focus-visible::before{background:var(--c)}
+.hilo-l a:hover .hilo-t{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;text-decoration-color:var(--c)}
+.hilo-l a:focus-visible{outline-offset:1px}
+.hilo-guia{--c:#9c4a26;--h:rgba(156,74,38,.18)}
+.hilo-enc{--c:#1f3a30;--h:rgba(31,58,48,.16)}
+.hilo-micro{--c:#a8741c;--h:rgba(168,116,28,.2)}
+.hilo-familia{--c:#3f5479;--h:rgba(63,84,121,.18)}
+.hilo-psi{--c:#2f2c63;--h:rgba(47,44,99,.16)}
+.hilo-terapia{--c:#5f7d5c;--h:rgba(95,125,92,.22)}
+.hilo-libros{--c:#813a1d;--h:rgba(129,58,29,.18)}
+.hilo-vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+@media (max-width:1100px){.hilo-l::after{flex-basis:44px}.hilo-l{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 40px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 40px),transparent)}}
+@media (max-width:700px){
+  .hilo-in{min-height:46px;padding-right:0}
+  .hilo-nombre{max-width:42%;overflow:hidden;text-overflow:ellipsis;font-size:1.02rem}
+  .hilo-l li::before{width:16px;margin-left:8px}
+  .hilo-l::after{margin-left:8px}
+  .hilo-l a,.hilo-aqui{gap:6px;min-height:44px;font-size:.84rem}
+}
+@media (max-width:360px){.hilo-nombre{max-width:50%;font-size:.95rem}}
+@media (hover:none){.hilo-l{scrollbar-width:none}.hilo-l::-webkit-scrollbar{display:none}}
+@media (prefers-reduced-motion:reduce){.hilo-l a::before{transition:none}}
+@media print{.hilo{display:none!important}}

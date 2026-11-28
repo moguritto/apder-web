@@ -13,6 +13,9 @@ e-alt: `<img>` sin alt (error) o con alt vacío (aviso). f-peso: páginas de má
 g-terceros: css/js/img/fuentes/iframe de otros dominios (los `<a>` externos no cuentan).
 h-wp: referencias a wp-content/wp-includes. i-ingles: inglés en el `<footer>`.
 j-noindex-sitemap: páginas noindex o inexistentes en sitemap.xml. j-almohadilla: `<a href="#">`.
+k-hilo: el hilo de cada medicina (`scripts/hilo.py`). Error si falta en una página que lo lleva (pasa cuando un
+generador reescribe sus páginas: se arregla lanzando `scripts/cabecera.py`); aviso si no está al día (por ejemplo,
+cambió el número de libros).
 `docs/wp-content` y `docs/wp-includes` no se analizan como páginas (sí pesan). Las redirecciones (meta refresh)
 quedan fuera de b y c; las páginas noindex, de c y de og:locale.
 
