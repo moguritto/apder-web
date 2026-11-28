@@ -416,3 +416,55 @@ a.bx-portada{text-decoration:none!important}
   .guia-cuerpo .lb2 .lb-info h1,.lb2 .lb-autor,.lb2 .lb-sub,.lb2 .lb-meta,.lb2 .lb-cab .s-antetitulo{color:#000}
   .lb2 .lb-col-portada{margin-bottom:0}.lb2 .lb-bajo{padding-top:20px}
 }
+
+/* ===== Ficha con iconos (28-11-2026) · scripts/biblioteca/ficha.py · iconos en iconos.svg ===== */
+.lb-i{width:1em;height:1em;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+/* apertura: emblema de la temática, muy tenue, y etiquetas con icono */
+.lb2 .lb-cab>.s-ancho{position:relative}
+.lb2 .lb-top{position:relative}
+.lb2 .lb-emblema{position:absolute;right:28px;top:50%;width:clamp(210px,23vw,290px);height:auto;aspect-ratio:1;transform:translateY(-46%);color:var(--oro);opacity:.12;stroke-width:.5;pointer-events:none}
+.guia-cuerpo .lb2 .lb-tags a{gap:8px}
+.lb2 .lb-tags .lb-i{width:16px;height:16px;color:var(--oro-claro)}
+/* franja de datos: una casilla por dato, con su icono */
+.lb2 .lb-det{display:flex;flex-wrap:wrap;gap:0;margin:0;padding:0;overflow:hidden;border-radius:22px;background:#fff;box-shadow:0 2px 14px rgba(60,40,20,.05)}
+.lb2 .lb-d{flex:1 1 calc(100%/var(--cols,4) - 1px);box-sizing:border-box;display:flex;flex-direction:column;align-items:center;gap:10px;min-width:0;padding:20px 8px 18px;text-align:center;box-shadow:1px 0 0 var(--arena),0 1px 0 var(--arena)}
+.lb2 .lb-d dt{margin:0;font-size:.68rem;font-weight:700;letter-spacing:.06em;line-height:1.25;text-transform:uppercase;color:var(--suave)}
+.lb2 .lb-d dd{display:flex;flex-direction:column;align-items:center;gap:10px;min-width:0;max-width:100%;margin:0;font-size:.98rem;font-weight:700;line-height:1.3;color:var(--texto);overflow-wrap:anywhere}
+.lb2 .lb-ic{display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:var(--crema);color:var(--lacre-2);transition:background .2s,color .2s}
+.lb2 .lb-ic .lb-i{width:24px;height:24px}
+.lb2 .lb-d:hover .lb-ic{background:var(--lacre);color:var(--oro-claro)}
+/* datos largos: en filas, debajo de la franja */
+.lb2 .lb-mas{display:grid;gap:14px;margin:18px 0 0;padding:0 4px}
+.lb2 .lb-m dt{display:flex;align-items:center;gap:9px;font-size:.7rem;font-weight:700;letter-spacing:.08em;line-height:1.25;text-transform:uppercase;color:var(--suave)}
+.lb2 .lb-m dt .lb-i{width:18px;height:18px;color:var(--lacre-2)}
+.lb2 .lb-m dd{margin:3px 0 0 27px;font-size:.98rem;line-height:1.45;overflow-wrap:anywhere}
+/* dónde encontrarlo: cada botón, con su icono */
+.guia-cuerpo .lb2 .lb-caja .btn{justify-content:flex-start;gap:12px}
+.guia-cuerpo .lb2 .lb-caja .btn::before{content:"";flex:none;width:20px;height:20px;background:var(--lacre-2);-webkit-mask:var(--ico) center/contain no-repeat;mask:var(--ico) center/contain no-repeat;transition:background .18s;
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 4h6v6M20 4l-9 9M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4'/%3E%3C/svg%3E")}
+.guia-cuerpo .lb2 .lb-caja .btn[href*="openlibrary.org"]::before{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 6.5C10 5 7 4.6 3.5 5v13.5c3.5-.4 6.5 0 8.500 1.500 2-1.500 5-1.900 8.500-1.500V5c-3.500-.4-6.500 0-8.500 1.500zM12 6.500V20'/%3E%3C/svg%3E")}
+.guia-cuerpo .lb2 .lb-caja .btn[href*="google."]::before{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10.500' cy='10.500' r='6.500'/%3E%3Cpath d='M15.500 15.500 20.500 20.500'/%3E%3C/svg%3E")}
+.guia-cuerpo .lb2 .lb-caja .btn[href*="amazon."]::before{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2.500 4h2.300l2.400 11.500h10.600L20 7.500H6'/%3E%3Ccircle cx='8.500' cy='19.500' r='1.300'/%3E%3Ccircle cx='16.500' cy='19.500' r='1.300'/%3E%3C/svg%3E")}
+.guia-cuerpo .lb2 .lb-caja .btn:hover::before{background:var(--oro)}
+.guia-cuerpo .lb2 .lb-caja .btn::after{margin-left:auto}
+@media (min-width:1001px) and (max-width:1180px){.lb2 .lb-det{--cols:3!important}}
+@media (max-width:1000px){
+  .lb2 .lb-emblema{width:200px;right:18px}
+}
+@media (max-width:800px){.lb2 .lb-det{--cols:3!important}}
+@media (max-width:700px){
+  .lb2 .lb-emblema{display:none}
+  .lb2 .lb-tags .lb-i{width:15px;height:15px}
+  .lb2 .lb-det{--cols:2!important;border-radius:18px}
+  .lb2 .lb-d{gap:8px;padding:16px 8px 14px}
+  .lb2 .lb-d dd{gap:8px;font-size:.93rem}
+  .lb2 .lb-ic{width:42px;height:42px}
+  .lb2 .lb-ic .lb-i{width:21px;height:21px}
+}
+@media (max-width:380px){.lb2 .lb-d dt{display:grid;place-items:center;min-height:2.5em}}
+@media (prefers-reduced-motion:reduce){.lb2 .lb-ic,.guia-cuerpo .lb2 .lb-caja .btn::before{transition:none}}
+@media print{
+  .lb2 .lb-emblema{display:none}
+  .lb2 .lb-det{box-shadow:none;border:1px solid #bbb}
+  .lb2 .lb-tags .lb-i{color:#000}
+}

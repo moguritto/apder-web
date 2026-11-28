@@ -21,7 +21,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent.parent
 BIB = RAIZ / "docs" / "biblioteca"
-VERSION = "20261125b"
+VERSION = "20261128a"
 CSS = f'<link rel="stylesheet" href="../biblioteca.css?v={VERSION}">'
 
 
